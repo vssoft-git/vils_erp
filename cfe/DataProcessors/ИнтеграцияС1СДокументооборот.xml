@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<DataProcessor uuid="6d1d7497-c74d-4b06-a1ca-fd5c8e81de53">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ИнтеграцияС1СДокументооборот" category="Object">
+				<xr:TypeId>d04709a9-4b0f-45d5-9e66-d520edd51752</xr:TypeId>
+				<xr:ValueId>698790ed-b421-4046-944f-51eddf5529e4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ИнтеграцияС1СДокументооборот" category="Manager">
+				<xr:TypeId>bd663747-322b-4240-a4c5-b1d8061a3286</xr:TypeId>
+				<xr:ValueId>d3652d4f-2d5a-46a2-9d30-018300cff3a7</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИнтеграцияС1СДокументооборот</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Form>Документооборот</Form>
+			<Form>Задача</Form>
+			<Form>ЗадачиМне</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="17bba1c8-60d3-4603-b5c9-13f6b539f615">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ПредприятияВЕТИС" category="Object">
+				<xr:TypeId>cab6aff0-0ea0-4a5d-813d-8eb28982617c</xr:TypeId>
+				<xr:ValueId>4e29a543-938b-4bae-9210-5c65f08e73ce</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ПредприятияВЕТИС" category="Ref">
+				<xr:TypeId>e5a6204e-0763-435f-bd30-80ef2c5d86e6</xr:TypeId>
+				<xr:ValueId>23b3aaf8-7905-4528-9b1b-4148023657bc</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ПредприятияВЕТИС" category="Selection">
+				<xr:TypeId>46a03a8c-b0cb-45d4-8000-addd443a762b</xr:TypeId>
+				<xr:ValueId>a07a3403-4294-44f4-8d57-03e1faae7126</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ПредприятияВЕТИС" category="List">
+				<xr:TypeId>284b1dff-9a44-4777-8bec-ff729a70373b</xr:TypeId>
+				<xr:ValueId>24ab8c71-906d-4a25-87d6-67ab452dbd7d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ПредприятияВЕТИС" category="Manager">
+				<xr:TypeId>1baf7ff0-07da-4cb1-9c8b-d25eb77e75b8</xr:TypeId>
+				<xr:ValueId>170cc22c-aacc-4a69-a4b9-b73c7dae995f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПредприятияВЕТИС</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

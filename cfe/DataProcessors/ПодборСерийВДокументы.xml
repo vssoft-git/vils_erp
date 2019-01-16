@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<DataProcessor uuid="729b98c7-11ce-45d5-8474-5bac42397276">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ПодборСерийВДокументы" category="Object">
+				<xr:TypeId>9f91ed47-af99-40f1-a06e-311878d0460c</xr:TypeId>
+				<xr:ValueId>7f0e3c1f-2dcc-4775-8b78-f8b2375120af</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ПодборСерийВДокументы" category="Manager">
+				<xr:TypeId>fcb57fe7-f56b-4749-8c87-c59f37f5f7f9</xr:TypeId>
+				<xr:ValueId>6127b7e3-6df2-4e44-b56d-d644b55fc656</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПодборСерийВДокументы</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<TabularSection uuid="c33daca5-90d5-4bbe-a556-f7855418c453">
+				<InternalInfo>
+					<xr:GeneratedType name="DataProcessorTabularSection.ПодборСерийВДокументы.Серии" category="TabularSection">
+						<xr:TypeId>395a84a5-54be-4611-933e-dafe31b1d3c7</xr:TypeId>
+						<xr:ValueId>289223c8-43a1-45f0-9a11-bdcdccc9511c</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.ПодборСерийВДокументы.Серии" category="TabularSectionRow">
+						<xr:TypeId>96dbee69-e13d-4645-9245-690f473706bb</xr:TypeId>
+						<xr:ValueId>14d9379c-e04b-4e54-a71e-50ae3c51c688</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Серии</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="5b8a618b-80e7-4145-a745-3593a9d55fb6">
+						<InternalInfo/>
+						<Properties>
+							<Name>ПроизводительВЕТИС</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ПредприятияВЕТИС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d0fbfb91-f7d6-46c6-b1b7-c39c34833edb">
+						<InternalInfo/>
+						<Properties>
+							<Name>Номер</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>50</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="8b9f083f-aafa-41f4-a655-8b230aef4478">
+						<InternalInfo/>
+						<Properties>
+							<Name>ЗаписьСкладскогоЖурналаВЕТИС</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ЗаписиСкладскогоЖурналаВЕТИС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="246aa71e-b04b-4caf-97b7-30090ef26d3e">
+						<InternalInfo/>
+						<Properties>
+							<Name>СтатусРаботыRFID</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>1</v8:Digits>
+									<v8:FractionDigits>0</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="37a44df1-e086-4739-a8e3-1d392dbc87d3">
+						<InternalInfo/>
+						<Properties>
+							<Name>ГоденДо</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>DateTime</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="d99784e3-702d-4260-9c86-820affc2a59c">
+						<InternalInfo/>
+						<Properties>
+							<Name>Справка2ЕГАИС</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Справки2ЕГАИС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c8b79e27-617b-4ae4-a6cd-520717efaba4">
+						<InternalInfo/>
+						<Properties>
+							<Name>НомерКИЗГИСМ</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.НомерКиЗГИСМ</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="f2ff230c-dd7b-4020-9bee-2e99e0cdf542">
+						<InternalInfo/>
+						<Properties>
+							<Name>Серия</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.СерииНоменклатуры</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="5fd0651a-b006-4ab1-9934-c3383e2b138a">
+						<InternalInfo/>
+						<Properties>
+							<Name>ДатаПроизводства</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>DateTime</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="3570551d-45c8-4588-adc4-b0c6e6c63f5d">
+						<InternalInfo/>
+						<Properties>
+							<Name>ПроизводительЕГАИС</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.КлассификаторОрганизацийЕГАИС</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="44c3dc53-779c-4290-a9c9-d263f2770459">
+						<InternalInfo/>
+						<Properties>
+							<Name>ИдентификаторПартииВЕТИС</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.СтрокаВЕТИС</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="624b613d-6718-47fd-ae14-bb48c615cc17">
+						<InternalInfo/>
+						<Properties>
+							<Name>КоличествоУпаковок</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>3</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Form>РегистрацияИПодборСерийПоОднойСтрокеТоваров</Form>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

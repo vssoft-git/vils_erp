@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Constant uuid="cbf0ccf1-88c0-48e7-ae1c-efb3a1fa683b">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьЭлектронныеПодписи" category="Manager">
+				<xr:TypeId>36db2f74-1373-4a0c-9c24-4b440635116e</xr:TypeId>
+				<xr:ValueId>081868a9-62c1-4329-ab5e-0fa947601c16</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьЭлектронныеПодписи" category="ValueManager">
+				<xr:TypeId>8481bade-9514-410e-bc23-1a6a93f1ecd2</xr:TypeId>
+				<xr:ValueId>679af88d-627a-4a28-84a9-936119fafc94</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьЭлектронныеПодписи" category="ValueKey">
+				<xr:TypeId>b9c1edea-5d77-5354-afb2-be2daa78c10a</xr:TypeId>
+				<xr:ValueId>c26012de-6c11-5417-acd8-b4c05328fce5</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИспользоватьЭлектронныеПодписи</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="9de2ba5f-428c-4788-ab37-fa5099b836e0">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.Склады" category="Object">
+				<xr:TypeId>bc6a37ce-01a5-4ea1-8745-15daa1943cb0</xr:TypeId>
+				<xr:ValueId>fc495284-263e-44d7-8ed6-0356a69d5ca0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.Склады" category="Ref">
+				<xr:TypeId>0b48b66a-c7fd-4fe2-8814-73a11cd6c7ca</xr:TypeId>
+				<xr:ValueId>3fba763b-532f-4a4a-87ed-32fc5a50918a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.Склады" category="Selection">
+				<xr:TypeId>658d51b7-ac59-4f6a-961a-11281c421886</xr:TypeId>
+				<xr:ValueId>6594baff-f612-44b4-b22b-740f779b0578</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.Склады" category="List">
+				<xr:TypeId>d49640fb-6ae6-4881-b27a-c65f9d4eaf33</xr:TypeId>
+				<xr:ValueId>8eb149ed-1678-4686-96e8-0d441f64d233</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.Склады" category="Manager">
+				<xr:TypeId>b7e6f08d-1915-4c3a-a7ea-ba032058d76e</xr:TypeId>
+				<xr:ValueId>c4c39903-f7e1-4a19-a1f9-f2ebc3bcf597</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Склады</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="9efe6834-d889-4a5d-9506-ad1e6eb842ac">
+				<InternalInfo/>
+				<Properties>
+					<Name>ИспользоватьСерииНоменклатуры</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="0c309989-9068-4965-9798-77458c35395f">
+				<InternalInfo/>
+				<Properties>
+					<Name>ИспользоватьОрдернуюСхемуПриПоступлении</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="70261804-5a77-4b6a-88da-6403b31fc73b">
+				<InternalInfo/>
+				<Properties>
+					<Name>ИспользоватьОрдернуюСхемуПриОтгрузке</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>

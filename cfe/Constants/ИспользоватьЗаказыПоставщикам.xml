@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Constant uuid="ee894068-ce8f-4c52-b316-07237e0aa01c">
+		<InternalInfo>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьЗаказыПоставщикам" category="Manager">
+				<xr:TypeId>4df19842-554c-4531-881a-df10da94e29b</xr:TypeId>
+				<xr:ValueId>2486c9ef-0aa0-4bed-b37e-d4a95ac9f8c1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьЗаказыПоставщикам" category="ValueManager">
+				<xr:TypeId>2af62664-90ef-4cfa-a2b6-fb2365577fdd</xr:TypeId>
+				<xr:ValueId>a5fd3633-bd15-4d0a-82d0-9d96c86135b9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьЗаказыПоставщикам" category="ValueKey">
+				<xr:TypeId>9a858c56-5e9f-5cc1-9567-b7cf2d175c6e</xr:TypeId>
+				<xr:ValueId>3d180758-4d51-5986-9371-2a8fb77f9c90</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИспользоватьЗаказыПоставщикам</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Properties>
+	</Constant>
+</MetaDataObject>

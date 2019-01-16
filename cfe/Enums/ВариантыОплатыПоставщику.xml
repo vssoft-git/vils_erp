@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="98b3ddf1-54af-494b-b758-674fc6ccd962">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВариантыОплатыПоставщику" category="Ref">
+				<xr:TypeId>2ee84f5b-538c-4022-bbee-2afe0b855278</xr:TypeId>
+				<xr:ValueId>a43cfb93-83de-4793-9484-bd8b0e19fb4e</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВариантыОплатыПоставщику" category="Manager">
+				<xr:TypeId>9a414881-2d17-43fc-aecf-07889fe4718b</xr:TypeId>
+				<xr:ValueId>418bb20a-78a3-485d-afa9-a571fa6f8b4d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВариантыОплатыПоставщику" category="List">
+				<xr:TypeId>052f97a1-4a8b-4248-873d-22b64ec36d6a</xr:TypeId>
+				<xr:ValueId>3aa86bd8-e13b-48e4-bf88-7c3191f431c3</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВариантыОплатыПоставщику</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="3f490531-422c-43a0-858f-10b89f1ce898">
+				<InternalInfo/>
+				<Properties>
+					<Name>КредитПослеПоступления</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="cf0e375c-8bcc-489f-bbf2-a0772f9b0794">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПредоплатаДоПоступления</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

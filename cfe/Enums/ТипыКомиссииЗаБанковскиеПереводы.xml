@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="2d99a6c9-05a8-48e7-b7e9-10176a305a56">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыКомиссииЗаБанковскиеПереводы" category="Ref">
+				<xr:TypeId>bf20ae30-90fe-4e91-9c60-6b91911dba2b</xr:TypeId>
+				<xr:ValueId>35749ae6-8597-4e90-adc1-3a8c6fd23c34</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыКомиссииЗаБанковскиеПереводы" category="Manager">
+				<xr:TypeId>c28fd80e-270c-43ab-b195-72e8004f6380</xr:TypeId>
+				<xr:ValueId>12fe04c6-1d87-4c81-a5d7-1029f6d4afa9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыКомиссииЗаБанковскиеПереводы" category="List">
+				<xr:TypeId>4a4f4911-ea4f-46f5-b153-8cf3b31dbda1</xr:TypeId>
+				<xr:ValueId>c947fec9-b77a-42c3-8ff8-672dfdd24e74</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТипыКомиссииЗаБанковскиеПереводы</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="e2c60909-a437-41c4-aec6-e622bf939406">
+				<InternalInfo/>
+				<Properties>
+					<Name>OUR</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b6e69987-f2c7-4c3a-9dea-78b01a55bcb5">
+				<InternalInfo/>
+				<Properties>
+					<Name>SNA</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="be0153e9-aa7a-43ed-98e4-bc2a673f37f6">
+				<InternalInfo/>
+				<Properties>
+					<Name>BEN</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
