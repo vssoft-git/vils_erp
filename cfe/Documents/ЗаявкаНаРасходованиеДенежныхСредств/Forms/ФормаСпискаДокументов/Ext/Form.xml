@@ -32,6 +32,7 @@
 	</AutoCommandBar>
 	<Events>
 		<Event name="OnCreateAtServer" callType="Before">ВИЛС_ПриСозданииНаСервереПеред</Event>
+		<Event name="OnCreateAtServer" callType="After">ВИЛС_ПриСозданииНаСервереПосле</Event>
 	</Events>
 	<ChildItems>
 		<InputField name="ЗаявительОтбор" id="53">
