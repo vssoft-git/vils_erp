@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="04f88a60-bafd-48d3-ba76-77dd4beb60b1">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыЗадолженности" category="Ref">
+				<xr:TypeId>dfcfee59-a873-495c-98d4-6a5663a8189e</xr:TypeId>
+				<xr:ValueId>cb75dce9-071b-4452-bcb9-dc700d3d9fa3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыЗадолженности" category="Manager">
+				<xr:TypeId>a7f7ac56-123f-4384-aba7-8cbc67bc0775</xr:TypeId>
+				<xr:ValueId>857ec6e0-c66a-4929-b8e1-6bf5c3248146</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыЗадолженности" category="List">
+				<xr:TypeId>d4f92ed4-83ca-46e2-baae-8801bce3e546</xr:TypeId>
+				<xr:ValueId>ed4a9d1a-10ab-45d3-b128-4e76ceb20a46</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТипыЗадолженности</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="f71bbb71-ef0c-40a7-b5c8-fa7c64ec7674">
+				<InternalInfo/>
+				<Properties>
+					<Name>Дебиторская</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f849ff62-6f21-4fd7-bbc7-29c86c6bd475">
+				<InternalInfo/>
+				<Properties>
+					<Name>Кредиторская</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

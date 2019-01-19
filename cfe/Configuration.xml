@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>c253c6f6-ded3-44ed-9adf-747b1b15ef67</xr:ObjectId>
+				<xr:ObjectId>e50497f9-3025-423f-b85e-287ae373f7b2</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -283,11 +283,13 @@
 			<Catalog>РодственникиФизическихЛиц</Catalog>
 			<Catalog>ПодразделенияОрганизаций</Catalog>
 			<Catalog>ВнешниеПользователи</Catalog>
+			<Catalog>РегистрацииВНалоговомОргане</Catalog>
 			<Document>ПриобретениеТоваровУслуг</Document>
 			<Document>ЗаявкаНаРасходованиеДенежныхСредств</Document>
 			<Document>БольничныйЛист</Document>
 			<Document>ЗаявлениеСотрудникаНаВыплатуПособия</Document>
 			<Document>СторнированиеНачислений</Document>
+			<Document>ИнвентаризацияРасчетов</Document>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
 			<Enum>ПорядокОплатыПоСоглашениям</Enum>
 			<Enum>ХозяйственныеОперации</Enum>
@@ -314,6 +316,7 @@
 			<Enum>КатегорииУдержаний</Enum>
 			<Enum>СлучаиУходаЗаБольнымиДетьми</Enum>
 			<Enum>ВидыОграниченияПособия</Enum>
+			<Enum>ТипыЗадолженности</Enum>
 			<DataProcessor>ПодборСерийВДокументы</DataProcessor>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
@@ -322,6 +325,7 @@
 			<AccumulationRegister>ДенежныеСредстваКВыплате</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиРасходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>СтатьиАктивовПассивов</ChartOfCharacteristicTypes>
+			<ChartOfAccounts>Хозрасчетный</ChartOfAccounts>
 			<ChartOfCalculationTypes>Начисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
 		</ChildObjects>
