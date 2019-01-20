@@ -1,34 +1,25 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Enum uuid="cebc7717-3d24-4305-884e-89e0510a8eca">
+	<Enum uuid="74285223-175a-4a6b-ab0d-43004c9fa19e">
 		<InternalInfo>
-			<xr:GeneratedType name="EnumRef.ТипыНоменклатуры" category="Ref">
-				<xr:TypeId>edd5a612-bcbc-4d67-8bee-01e5fbd6a696</xr:TypeId>
-				<xr:ValueId>57310ed4-08d2-48df-8c54-77a8cf2548f7</xr:ValueId>
+			<xr:GeneratedType name="EnumRef.ВариантыОтправкиЭлектронногоЧекаПокупателю" category="Ref">
+				<xr:TypeId>a9fac7bb-51eb-4052-a68f-626b4e02e8ea</xr:TypeId>
+				<xr:ValueId>316d968f-2fa1-44a2-a8ca-27adbd4807b6</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="EnumManager.ТипыНоменклатуры" category="Manager">
-				<xr:TypeId>691c5d90-32e2-4d83-8c9e-3bcff5ff4c3d</xr:TypeId>
-				<xr:ValueId>6935d0cf-cc53-4609-8884-37e1d74820cf</xr:ValueId>
+			<xr:GeneratedType name="EnumManager.ВариантыОтправкиЭлектронногоЧекаПокупателю" category="Manager">
+				<xr:TypeId>e027c048-4817-44a0-b1b5-62a3f73941b3</xr:TypeId>
+				<xr:ValueId>5d176e9c-0f10-4df7-a454-f647ac0c753b</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="EnumList.ТипыНоменклатуры" category="List">
-				<xr:TypeId>b73133ab-5637-4d93-b800-4c2412ca15e5</xr:TypeId>
-				<xr:ValueId>6dc8a911-0502-4f86-a9ec-5fcb6088ef5a</xr:ValueId>
+			<xr:GeneratedType name="EnumList.ВариантыОтправкиЭлектронногоЧекаПокупателю" category="List">
+				<xr:TypeId>095c95fc-0ea6-42d6-9515-6f3e8f60576b</xr:TypeId>
+				<xr:ValueId>f97465b1-4430-48dd-b9ed-3f1f34a8487d</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ТипыНоменклатуры</Name>
+			<Name>ВариантыОтправкиЭлектронногоЧекаПокупателю</Name>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
-		<ChildObjects>
-			<EnumValue uuid="ffe7c847-1cc1-4199-bbdd-ea1ccd64e672">
-				<InternalInfo/>
-				<Properties>
-					<Name>МногооборотнаяТара</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-				</Properties>
-			</EnumValue>
-		</ChildObjects>
+		<ChildObjects/>
 	</Enum>
 </MetaDataObject>

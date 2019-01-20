@@ -1,34 +1,25 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Enum uuid="cebc7717-3d24-4305-884e-89e0510a8eca">
+	<Enum uuid="20f9b081-715d-4e93-ac63-62f17f0f9e55">
 		<InternalInfo>
-			<xr:GeneratedType name="EnumRef.ТипыНоменклатуры" category="Ref">
-				<xr:TypeId>edd5a612-bcbc-4d67-8bee-01e5fbd6a696</xr:TypeId>
-				<xr:ValueId>57310ed4-08d2-48df-8c54-77a8cf2548f7</xr:ValueId>
+			<xr:GeneratedType name="EnumRef.ПолФизическогоЛица" category="Ref">
+				<xr:TypeId>6c9d7dd8-8b53-4ff9-b821-781fe945b854</xr:TypeId>
+				<xr:ValueId>f8cfd38e-a8b4-45a4-978f-94f84da5c302</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="EnumManager.ТипыНоменклатуры" category="Manager">
-				<xr:TypeId>691c5d90-32e2-4d83-8c9e-3bcff5ff4c3d</xr:TypeId>
-				<xr:ValueId>6935d0cf-cc53-4609-8884-37e1d74820cf</xr:ValueId>
+			<xr:GeneratedType name="EnumManager.ПолФизическогоЛица" category="Manager">
+				<xr:TypeId>31d4ebca-25ae-47af-b952-b1e77d377caa</xr:TypeId>
+				<xr:ValueId>d4de85be-5e8d-40ef-a68a-bf4d4b09f393</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="EnumList.ТипыНоменклатуры" category="List">
-				<xr:TypeId>b73133ab-5637-4d93-b800-4c2412ca15e5</xr:TypeId>
-				<xr:ValueId>6dc8a911-0502-4f86-a9ec-5fcb6088ef5a</xr:ValueId>
+			<xr:GeneratedType name="EnumList.ПолФизическогоЛица" category="List">
+				<xr:TypeId>efe94b94-e7cb-406c-b2f7-c8a16026ec5d</xr:TypeId>
+				<xr:ValueId>e87fe6c8-d79b-480a-9d64-84fe5408b459</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ТипыНоменклатуры</Name>
+			<Name>ПолФизическогоЛица</Name>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
-		<ChildObjects>
-			<EnumValue uuid="ffe7c847-1cc1-4199-bbdd-ea1ccd64e672">
-				<InternalInfo/>
-				<Properties>
-					<Name>МногооборотнаяТара</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-				</Properties>
-			</EnumValue>
-		</ChildObjects>
+		<ChildObjects/>
 	</Enum>
 </MetaDataObject>

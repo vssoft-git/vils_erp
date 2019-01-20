@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>9d58a902-26f2-4518-9443-10fc3ce37a38</xr:ObjectId>
+				<xr:ObjectId>48a3d959-5c7e-44d6-af8d-fd8fa8e0ec5a</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -139,6 +139,11 @@
 			<CommonPicture>ОрганФСС</CommonPicture>
 			<CommonPicture>КоллекцияВидыАктивныхПользователей</CommonPicture>
 			<CommonPicture>РазорватьСоединение</CommonPicture>
+			<CommonPicture>ОтгрузкаРазрешена</CommonPicture>
+			<CommonPicture>ОтгрузкаЗапрещена</CommonPicture>
+			<CommonPicture>ВниманиеСерый</CommonPicture>
+			<CommonPicture>Внимание16</CommonPicture>
+			<CommonPicture>ДетализацияПартий</CommonPicture>
 			<CommonModule>ДенежныеСредстваСервер</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
 			<CommonModule>ИнтеграцияС1СДокументооборотПереопределяемый</CommonModule>
@@ -186,6 +191,9 @@
 			<FunctionalOption>ИспользоватьПередачиТоваровМеждуОрганизациями</FunctionalOption>
 			<FunctionalOption>ИспользоватьЛизинг</FunctionalOption>
 			<FunctionalOption>ИспользоватьРасчетЗарплатыРасширенная</FunctionalOption>
+			<FunctionalOption>ИспользоватьЗапретОтгрузки</FunctionalOption>
+			<FunctionalOption>ИспользоватьУчетНДС</FunctionalOption>
+			<FunctionalOption>ИспользоватьСерииНоменклатурыПроизводство</FunctionalOption>
 			<DefinedType>НомерКиЗГИСМ</DefinedType>
 			<DefinedType>RFIDTID</DefinedType>
 			<DefinedType>GTIN</DefinedType>
@@ -232,6 +240,8 @@
 			<Constant>ИспользоватьЛизинг</Constant>
 			<Constant>ИспользоватьИмпортныеЗакупки</Constant>
 			<Constant>ИспользоватьПередачиТоваровМеждуОрганизациями</Constant>
+			<Constant>ИспользоватьЗапретОтгрузки</Constant>
+			<Constant>ИспользоватьУчетНДС</Constant>
 			<Catalog>ПредприятияВЕТИС</Catalog>
 			<Catalog>ЗаписиСкладскогоЖурналаВЕТИС</Catalog>
 			<Catalog>УпаковкиЕдиницыИзмерения</Catalog>
@@ -284,12 +294,22 @@
 			<Catalog>ПодразделенияОрганизаций</Catalog>
 			<Catalog>ВнешниеПользователи</Catalog>
 			<Catalog>РегистрацииВНалоговомОргане</Catalog>
+			<Catalog>БизнесРегионы</Catalog>
+			<Catalog>НаборыДополнительныхРеквизитовИСведений</Catalog>
+			<Catalog>ГруппыДоступаПартнеров</Catalog>
+			<Catalog>СкладскиеПомещения</Catalog>
+			<Catalog>СкладскиеЯчейки</Catalog>
+			<Catalog>СоглашенияСКлиентами</Catalog>
+			<Catalog>ГруппыАналитическогоУчетаНоменклатуры</Catalog>
 			<Document>ПриобретениеТоваровУслуг</Document>
 			<Document>ЗаявкаНаРасходованиеДенежныхСредств</Document>
 			<Document>БольничныйЛист</Document>
 			<Document>ЗаявлениеСотрудникаНаВыплатуПособия</Document>
 			<Document>СторнированиеНачислений</Document>
 			<Document>ИнвентаризацияРасчетов</Document>
+			<Document>ЗаказПереработчику</Document>
+			<Document>ВводОстатков</Document>
+			<Document>ПервичныйДокумент</Document>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
 			<Enum>ПорядокОплатыПоСоглашениям</Enum>
 			<Enum>ХозяйственныеОперации</Enum>
@@ -317,6 +337,13 @@
 			<Enum>СлучаиУходаЗаБольнымиДетьми</Enum>
 			<Enum>ВидыОграниченияПособия</Enum>
 			<Enum>ТипыЗадолженности</Enum>
+			<Enum>ПолФизическогоЛица</Enum>
+			<Enum>КомпанияЧастноеЛицо</Enum>
+			<Enum>ВариантыОтправкиЭлектронногоЧекаПокупателю</Enum>
+			<Enum>ТипыПервичныхДокументов</Enum>
+			<Enum>НастройкиАдресногоХранения</Enum>
+			<Enum>МетодыОценкиСтоимостиТоваров</Enum>
+			<Enum>ТипыИзмеряемыхВеличин</Enum>
 			<DataProcessor>ПодборСерийВДокументы</DataProcessor>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
@@ -325,6 +352,7 @@
 			<AccumulationRegister>ДенежныеСредстваКВыплате</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиРасходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>СтатьиАктивовПассивов</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>КаналыРекламныхВоздействий</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>Хозрасчетный</ChartOfAccounts>
 			<ChartOfCalculationTypes>Начисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>

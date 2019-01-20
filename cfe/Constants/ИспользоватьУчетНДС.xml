@@ -1,34 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Enum uuid="cebc7717-3d24-4305-884e-89e0510a8eca">
+	<Constant uuid="a4d084cf-0105-4b43-b74a-f4c53410eb64">
 		<InternalInfo>
-			<xr:GeneratedType name="EnumRef.ТипыНоменклатуры" category="Ref">
-				<xr:TypeId>edd5a612-bcbc-4d67-8bee-01e5fbd6a696</xr:TypeId>
-				<xr:ValueId>57310ed4-08d2-48df-8c54-77a8cf2548f7</xr:ValueId>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьУчетНДС" category="Manager">
+				<xr:TypeId>b839656e-662c-4a86-a0fb-eaa8ebfeb478</xr:TypeId>
+				<xr:ValueId>1ebd0c12-da9b-48ec-a25f-6c742f256efd</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="EnumManager.ТипыНоменклатуры" category="Manager">
-				<xr:TypeId>691c5d90-32e2-4d83-8c9e-3bcff5ff4c3d</xr:TypeId>
-				<xr:ValueId>6935d0cf-cc53-4609-8884-37e1d74820cf</xr:ValueId>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьУчетНДС" category="ValueManager">
+				<xr:TypeId>39ceaf64-66aa-4406-9a86-522593adc67e</xr:TypeId>
+				<xr:ValueId>0f64a832-9543-40bd-bead-5f9364f927ba</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="EnumList.ТипыНоменклатуры" category="List">
-				<xr:TypeId>b73133ab-5637-4d93-b800-4c2412ca15e5</xr:TypeId>
-				<xr:ValueId>6dc8a911-0502-4f86-a9ec-5fcb6088ef5a</xr:ValueId>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьУчетНДС" category="ValueKey">
+				<xr:TypeId>9caebafb-536e-477d-bf53-028f9e2e83cb</xr:TypeId>
+				<xr:ValueId>938e6abe-58eb-4784-95f7-9df36af1427e</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ТипыНоменклатуры</Name>
+			<Name>ИспользоватьУчетНДС</Name>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
 		</Properties>
-		<ChildObjects>
-			<EnumValue uuid="ffe7c847-1cc1-4199-bbdd-ea1ccd64e672">
-				<InternalInfo/>
-				<Properties>
-					<Name>МногооборотнаяТара</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-				</Properties>
-			</EnumValue>
-		</ChildObjects>
-	</Enum>
+	</Constant>
 </MetaDataObject>

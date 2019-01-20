@@ -1,34 +1,25 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Enum uuid="cebc7717-3d24-4305-884e-89e0510a8eca">
+	<Enum uuid="a64374ff-e09d-45b3-9f0b-8520ff210e72">
 		<InternalInfo>
-			<xr:GeneratedType name="EnumRef.ТипыНоменклатуры" category="Ref">
-				<xr:TypeId>edd5a612-bcbc-4d67-8bee-01e5fbd6a696</xr:TypeId>
-				<xr:ValueId>57310ed4-08d2-48df-8c54-77a8cf2548f7</xr:ValueId>
+			<xr:GeneratedType name="EnumRef.ТипыИзмеряемыхВеличин" category="Ref">
+				<xr:TypeId>927c37e7-7858-44d3-baaa-6723ebe6e34b</xr:TypeId>
+				<xr:ValueId>59b3201c-86f4-421d-bb81-e8e7c4a98753</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="EnumManager.ТипыНоменклатуры" category="Manager">
-				<xr:TypeId>691c5d90-32e2-4d83-8c9e-3bcff5ff4c3d</xr:TypeId>
-				<xr:ValueId>6935d0cf-cc53-4609-8884-37e1d74820cf</xr:ValueId>
+			<xr:GeneratedType name="EnumManager.ТипыИзмеряемыхВеличин" category="Manager">
+				<xr:TypeId>aabd0646-1083-4cdf-9ab9-ea97dcfe8d72</xr:TypeId>
+				<xr:ValueId>4605c920-23b8-4ce9-aae7-bfa5b4555908</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="EnumList.ТипыНоменклатуры" category="List">
-				<xr:TypeId>b73133ab-5637-4d93-b800-4c2412ca15e5</xr:TypeId>
-				<xr:ValueId>6dc8a911-0502-4f86-a9ec-5fcb6088ef5a</xr:ValueId>
+			<xr:GeneratedType name="EnumList.ТипыИзмеряемыхВеличин" category="List">
+				<xr:TypeId>6afec20f-849e-4a0b-ab05-a34e1d188423</xr:TypeId>
+				<xr:ValueId>b07d95eb-22c6-4436-9042-de67f7b8b78f</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ТипыНоменклатуры</Name>
+			<Name>ТипыИзмеряемыхВеличин</Name>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
-		<ChildObjects>
-			<EnumValue uuid="ffe7c847-1cc1-4199-bbdd-ea1ccd64e672">
-				<InternalInfo/>
-				<Properties>
-					<Name>МногооборотнаяТара</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-				</Properties>
-			</EnumValue>
-		</ChildObjects>
+		<ChildObjects/>
 	</Enum>
 </MetaDataObject>
