@@ -28,7 +28,22 @@
 		<Metadata name="Catalog.Кассы" id="50f7737f-1353-4491-8604-1bb904642d72" configVersion="62b4ad2108188d375ce48c45a810255dcda8eb36"/>
 		<Metadata name="Catalog.КлассификаторОрганизацийЕГАИС" id="e9ad9c08-c209-4739-b898-ce58da16b40c" configVersion="b8770735a2e6b6e8bc3157ae2c4a4113b5271205"/>
 		<Metadata name="Catalog.КлючиАналитикиУчетаПартий" id="f745da11-61cf-4b88-9787-afa0bcbe601d" configVersion="a2a7dcf62c1380e33f044d138af5141bc8b5dd5b"/>
-		<Metadata name="Catalog.Контрагенты" id="85a3c063-9a02-4b4f-8ca6-44b815af8e6e" configVersion="08fefb7f5368a3f7aa832ed374c63284bb583c6d"/>
+		<Metadata name="Catalog.Контрагенты" id="85a3c063-9a02-4b4f-8ca6-44b815af8e6e" configVersion="a00b3a15b6037f9f84237a4317fc7f0066825761">
+			<Metadata name="Catalog.Контрагенты.Attribute.НаименованиеПолное" id="21f37278-4215-46df-b223-2e30c21117f8"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.КодПоОКПО" id="3c696b8f-1762-4422-aace-4afac6271f8f"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.НДСПоСтавкам4и2" id="5d22ae56-5c34-4022-a6cd-6481d875c820"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.СтранаРегистрации" id="69db5d84-77ab-4168-9a79-6a8e9af8b360"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.НалоговыйНомер" id="69e07d8f-4f10-4bbe-b6da-acb65d4fabd8"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.НаименованиеМеждународное" id="6dbf72e2-4f09-494b-a73b-8f431366ebe9"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.ДополнительнаяИнформация" id="8054a22e-2af4-4091-9040-7bdeda5f84c9"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.ГоловнойКонтрагент" id="a98cd7e2-bb41-4c50-9750-dafe90c73ef7"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.КПП" id="bbc47392-e8f5-49d5-81e6-61f0e3a1755e"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.Партнер" id="da4f980c-3bce-40e8-8d23-a87d0debce98"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.РегистрационныйНомер" id="ed4e2661-dbaa-462b-926a-4a2565f97c60"/>
+			<Metadata name="Catalog.Контрагенты.Attribute.ИНН" id="f6a5fb18-d4df-4478-a0de-d8f8b248625b"/>
+		</Metadata>
+		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента" id="53d40939-ae3c-4682-8402-db6aa04d255a" configVersion="ac2993092e2fbc455aef467297897bdb47761865"/>
+		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента.Form" id="53d40939-ae3c-4682-8402-db6aa04d255a.0" configVersion="31a33c4a8509236e39eb05dcf09e11508f568913"/>
 		<Metadata name="Catalog.НаборыДополнительныхРеквизитовИСведений" id="67b94506-e891-40e0-a1d4-ba7dbaf69a1c" configVersion="4fd0a352ce3448484179bf293f036ce784a6ff72"/>
 		<Metadata name="Catalog.Назначения" id="c284354c-dd3b-4987-aa1e-2bff0db9e929" configVersion="7a72053d7ce026ded2730b3cf4d662d5cd7f4408"/>
 		<Metadata name="Catalog.НаправленияДеятельности" id="cfd89b21-78d4-4ccf-a266-d25f2f90b037" configVersion="7d0642a55881769102f4f6b1fb380248260690e6"/>
