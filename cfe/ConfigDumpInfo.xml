@@ -42,7 +42,26 @@
 		<Metadata name="Catalog.НомераГТД" id="6893ad65-3574-4f4a-a4b6-d9bcc4cec4ea" configVersion="b1a38f1d0c28a13c2f0da6bf67961c6b728c8551"/>
 		<Metadata name="Catalog.Организации" id="1a001896-0491-4f50-887d-84a1dff0f1f0" configVersion="240092541cc6220611002c43366324537a4c23a6"/>
 		<Metadata name="Catalog.ОтветственныеЛицаОрганизаций" id="4a97d42f-d964-4c9f-ba36-26da5c3e2247" configVersion="c233c3e7196f025e9dd259c8ff4a01a8651d3e6c"/>
-		<Metadata name="Catalog.Партнеры" id="a492e528-a882-464a-aa88-4a5bc39e4088" configVersion="fea1970023cb1255973fca2676fd4b5300d574cb"/>
+		<Metadata name="Catalog.Партнеры" id="a492e528-a882-464a-aa88-4a5bc39e4088" configVersion="ae16f934c0ad0a065f46af700969b679a49fe35f">
+			<Metadata name="Catalog.Партнеры.Attribute.ДатаРегистрации" id="154ee8f3-88c6-4628-8eb4-60aabc5c46c0"/>
+			<Metadata name="Catalog.Партнеры.Attribute.НаименованиеПолное" id="27855a44-7adc-4fd6-ab1a-0f2b9fa50e9a"/>
+			<Metadata name="Catalog.Партнеры.Attribute.ОбслуживаетсяТорговымиПредставителями" id="3272870d-9a49-42aa-b7b4-b98d3231769a"/>
+			<Metadata name="Catalog.Партнеры.Attribute.БизнесРегион" id="50c30867-ded9-4566-b093-c53b07a2c070"/>
+			<Metadata name="Catalog.Партнеры.Attribute.Комментарий" id="6f236907-b4b6-4725-8209-7622706c8e89"/>
+			<Metadata name="Catalog.Партнеры.Attribute.ВариантОтправкиЭлектронногоЧека" id="73df35ce-f285-440d-861d-7e43569ee93e"/>
+			<Metadata name="Catalog.Партнеры.Attribute.Пол" id="82c9c178-a318-4bec-937c-c81af123cbd0"/>
+			<Metadata name="Catalog.Партнеры.Attribute.Перевозчик" id="98cca1c7-df4f-4775-bb31-f6f66923be5c"/>
+			<Metadata name="Catalog.Партнеры.Attribute.ОсновнойМенеджер" id="a174c602-368c-431e-8e46-1825208db237"/>
+			<Metadata name="Catalog.Партнеры.Attribute.Клиент" id="b3a9b954-6397-4808-ab97-d7134e17cb4a"/>
+			<Metadata name="Catalog.Партнеры.Attribute.ДополнительнаяИнформация" id="b8c21172-25af-4edb-9673-76b6972a227e"/>
+			<Metadata name="Catalog.Партнеры.Attribute.ДатаРождения" id="c2866147-981f-4972-a69d-bc8fefcdd814"/>
+			<Metadata name="Catalog.Партнеры.Attribute.ШаблонЭтикетки" id="c642c954-1d31-4dd8-a9ae-be481f0022c8"/>
+			<Metadata name="Catalog.Партнеры.Attribute.Поставщик" id="d75d3902-e1a5-41d1-af56-6f1c728d4008"/>
+			<Metadata name="Catalog.Партнеры.Attribute.Конкурент" id="e06ca87b-d505-4737-9bf6-a4c2a366d449"/>
+			<Metadata name="Catalog.Партнеры.Attribute.ГруппаДоступа" id="efb6e60b-7d05-4e3b-b909-83d8f2b3d3cf"/>
+			<Metadata name="Catalog.Партнеры.Attribute.ПрочиеОтношения" id="f64bac49-ec3f-4954-be57-8a80eac2f934"/>
+			<Metadata name="Catalog.Партнеры.Attribute.ЮрФизЛицо" id="facabb17-4db8-4514-84bf-286300cf2bc6"/>
+		</Metadata>
 		<Metadata name="Catalog.ПодключаемоеОборудование" id="061dd057-771d-4631-8c30-3ab5b7dab1eb" configVersion="40bd0721c0da346fe143174dc0ada1a5d927fc85"/>
 		<Metadata name="Catalog.ПодразделенияОрганизаций" id="ab73e80d-ddc1-4eeb-a057-ad4e3f1c340b" configVersion="a110f9328ea11a8ae49dd95d6edcb1e0a5385cdd"/>
 		<Metadata name="Catalog.ПоказателиРасчетаЗарплаты" id="ab0df0ce-ed94-433c-81c7-3a516c3d179f" configVersion="26048b00437f06a23331f4b2db5eb8036407cf19"/>
