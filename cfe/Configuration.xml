@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>ccce7d85-ee27-429e-baa8-e11b5a918e6a</xr:ObjectId>
+				<xr:ObjectId>f0ebf312-4bbf-4dd4-8615-6136a2dd1245</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -144,6 +144,10 @@
 			<CommonPicture>ВниманиеСерый</CommonPicture>
 			<CommonPicture>Внимание16</CommonPicture>
 			<CommonPicture>ДетализацияПартий</CommonPicture>
+			<CommonPicture>РассчитатьСкидкиНаценки</CommonPicture>
+			<CommonPicture>СчитатьКартуЛояльности</CommonPicture>
+			<CommonPicture>Набор</CommonPicture>
+			<CommonPicture>Наборы</CommonPicture>
 			<CommonModule>ДенежныеСредстваСервер</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
 			<CommonModule>ИнтеграцияС1СДокументооборотПереопределяемый</CommonModule>
@@ -154,6 +158,7 @@
 			<CommonModule>ПартнерыИКонтрагенты</CommonModule>
 			<CommonModule>ПередачаСырьяПереработчикуЛокализация</CommonModule>
 			<CommonModule>РеализацияТоваровУслугЛокализация</CommonModule>
+			<CommonModule>ОбменСБанкамиПоЗарплатнымПроектамПереопределяемый</CommonModule>
 			<FunctionalOption>ИспользоватьПодключаемоеОборудование</FunctionalOption>
 			<FunctionalOption>ИспользоватьПоступлениеПоНесколькимЗаказам</FunctionalOption>
 			<FunctionalOption>ИспользоватьОрдернуюСхемуПриПоступлении</FunctionalOption>
@@ -196,6 +201,15 @@
 			<FunctionalOption>ИспользоватьЗапретОтгрузки</FunctionalOption>
 			<FunctionalOption>ИспользоватьУчетНДС</FunctionalOption>
 			<FunctionalOption>ИспользоватьСерииНоменклатурыПроизводство</FunctionalOption>
+			<FunctionalOption>ИспользоватьАвтоматическиеСкидкиВПродажах</FunctionalOption>
+			<FunctionalOption>ИспользоватьРучныеСкидкиВПродажах</FunctionalOption>
+			<FunctionalOption>ИспользоватьРеализациюПоНесколькимЗаказам</FunctionalOption>
+			<FunctionalOption>ИспользоватьЗаказыКлиентов</FunctionalOption>
+			<FunctionalOption>ИспользоватьЗаявкиНаВозвратТоваровОтКлиентов</FunctionalOption>
+			<FunctionalOption>ИспользоватьСоглашенияСКлиентами</FunctionalOption>
+			<FunctionalOption>ИспользоватьСкладыВТабличнойЧастиДокументовПродажи</FunctionalOption>
+			<FunctionalOption>ИспользоватьКартыЛояльности</FunctionalOption>
+			<FunctionalOption>ИспользоватьНаборы</FunctionalOption>
 			<DefinedType>НомерКиЗГИСМ</DefinedType>
 			<DefinedType>RFIDTID</DefinedType>
 			<DefinedType>GTIN</DefinedType>
@@ -244,6 +258,15 @@
 			<Constant>ИспользоватьПередачиТоваровМеждуОрганизациями</Constant>
 			<Constant>ИспользоватьЗапретОтгрузки</Constant>
 			<Constant>ИспользоватьУчетНДС</Constant>
+			<Constant>ИспользоватьАвтоматическиеСкидкиВПродажах</Constant>
+			<Constant>ИспользоватьРучныеСкидкиВПродажах</Constant>
+			<Constant>ИспользоватьЗаказыКлиентов</Constant>
+			<Constant>ИспользоватьНаборы</Constant>
+			<Constant>ИспользоватьРеализациюПоНесколькимЗаказам</Constant>
+			<Constant>ИспользоватьСкладыВТабличнойЧастиДокументовПродажи</Constant>
+			<Constant>ИспользоватьЗаявкиНаВозвратТоваровОтКлиентов</Constant>
+			<Constant>ИспользоватьСоглашенияСКлиентами</Constant>
+			<Constant>ИспользоватьКартыЛояльности</Constant>
 			<Catalog>ПредприятияВЕТИС</Catalog>
 			<Catalog>ЗаписиСкладскогоЖурналаВЕТИС</Catalog>
 			<Catalog>УпаковкиЕдиницыИзмерения</Catalog>
@@ -303,6 +326,9 @@
 			<Catalog>СкладскиеЯчейки</Catalog>
 			<Catalog>СоглашенияСКлиентами</Catalog>
 			<Catalog>ГруппыАналитическогоУчетаНоменклатуры</Catalog>
+			<Catalog>КартыЛояльности</Catalog>
+			<Catalog>КонтактныеЛицаПартнеров</Catalog>
+			<Catalog>КлассификаторТНВЭД</Catalog>
 			<Document>ПриобретениеТоваровУслуг</Document>
 			<Document>ЗаявкаНаРасходованиеДенежныхСредств</Document>
 			<Document>БольничныйЛист</Document>
@@ -314,6 +340,8 @@
 			<Document>ПервичныйДокумент</Document>
 			<Document>ПередачаСырьяПереработчику</Document>
 			<Document>СчетФактураВыданный</Document>
+			<Document>РеализацияТоваровУслуг</Document>
+			<Document>ТранспортнаяНакладная</Document>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
 			<Enum>ПорядокОплатыПоСоглашениям</Enum>
 			<Enum>ХозяйственныеОперации</Enum>
@@ -348,6 +376,9 @@
 			<Enum>НастройкиАдресногоХранения</Enum>
 			<Enum>МетодыОценкиСтоимостиТоваров</Enum>
 			<Enum>ТипыИзмеряемыхВеличин</Enum>
+			<Enum>ВариантыОформленияПродажи</Enum>
+			<Enum>СтатусыДействияВидовЦен</Enum>
+			<Enum>СтатусыРеализацийТоваровУслуг</Enum>
 			<DataProcessor>ПодборСерийВДокументы</DataProcessor>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
