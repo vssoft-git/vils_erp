@@ -1,23 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<DataProcessor uuid="91932752-98c1-4e1a-8152-41c9eb4dffe0">
-		<InternalInfo>
-			<xr:GeneratedType name="DataProcessorObject.ПечатьАктОбОказанииУслуг" category="Object">
-				<xr:TypeId>bbc7f3ff-4ae8-48de-ad99-87cf53b57c17</xr:TypeId>
-				<xr:ValueId>637a0545-cac2-4e6b-a106-7987617e218a</xr:ValueId>
-			</xr:GeneratedType>
-			<xr:GeneratedType name="DataProcessorManager.ПечатьАктОбОказанииУслуг" category="Manager">
-				<xr:TypeId>8780e274-0a5f-411e-ba70-4b5b9f63f40f</xr:TypeId>
-				<xr:ValueId>c0f272ae-70f0-4a6f-9d7e-190e59c6b0c3</xr:ValueId>
-			</xr:GeneratedType>
-		</InternalInfo>
+	<Form uuid="802ffe92-647e-4ebb-b213-02e77d53fda6">
+		<InternalInfo/>
 		<Properties>
-			<Name>ПечатьАктОбОказанииУслуг</Name>
+			<Name>ФормаДокумента</Name>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<FormType>Managed</FormType>
 		</Properties>
-		<ChildObjects>
-			<Template>ВИЛС_ПодписиКАкту</Template>
-		</ChildObjects>
-	</DataProcessor>
+	</Form>
 </MetaDataObject>

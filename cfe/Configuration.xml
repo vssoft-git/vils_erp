@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>c3c3d61a-5d4f-42ec-bcbd-2ecb53d7f57b</xr:ObjectId>
+				<xr:ObjectId>6ae8fb6b-c932-476d-96cc-83aa3d94c476</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -159,6 +159,8 @@
 			<CommonModule>ПередачаСырьяПереработчикуЛокализация</CommonModule>
 			<CommonModule>РеализацияТоваровУслугЛокализация</CommonModule>
 			<CommonModule>ОбменСБанкамиПоЗарплатнымПроектамПереопределяемый</CommonModule>
+			<CommonModule>ВИЛС_Переопределяемый</CommonModule>
+			<CommonModule>КадровыйУчет</CommonModule>
 			<FunctionalOption>ИспользоватьПодключаемоеОборудование</FunctionalOption>
 			<FunctionalOption>ИспользоватьПоступлениеПоНесколькимЗаказам</FunctionalOption>
 			<FunctionalOption>ИспользоватьОрдернуюСхемуПриПоступлении</FunctionalOption>
@@ -210,6 +212,7 @@
 			<FunctionalOption>ИспользоватьСкладыВТабличнойЧастиДокументовПродажи</FunctionalOption>
 			<FunctionalOption>ИспользоватьКартыЛояльности</FunctionalOption>
 			<FunctionalOption>ИспользоватьНаборы</FunctionalOption>
+			<FunctionalOption>ИспользоватьЗаявкиНаРасходованиеДенежныхСредств</FunctionalOption>
 			<DefinedType>НомерКиЗГИСМ</DefinedType>
 			<DefinedType>RFIDTID</DefinedType>
 			<DefinedType>GTIN</DefinedType>
@@ -267,6 +270,7 @@
 			<Constant>ИспользоватьЗаявкиНаВозвратТоваровОтКлиентов</Constant>
 			<Constant>ИспользоватьСоглашенияСКлиентами</Constant>
 			<Constant>ИспользоватьКартыЛояльности</Constant>
+			<Constant>ИспользоватьЗаявкиНаРасходованиеДенежныхСредств</Constant>
 			<Catalog>ПредприятияВЕТИС</Catalog>
 			<Catalog>ЗаписиСкладскогоЖурналаВЕТИС</Catalog>
 			<Catalog>УпаковкиЕдиницыИзмерения</Catalog>
@@ -329,6 +333,7 @@
 			<Catalog>КартыЛояльности</Catalog>
 			<Catalog>КонтактныеЛицаПартнеров</Catalog>
 			<Catalog>КлассификаторТНВЭД</Catalog>
+			<Catalog>КодыВалютныхОпераций</Catalog>
 			<Document>ПриобретениеТоваровУслуг</Document>
 			<Document>ЗаявкаНаРасходованиеДенежныхСредств</Document>
 			<Document>БольничныйЛист</Document>
@@ -342,6 +347,11 @@
 			<Document>СчетФактураВыданный</Document>
 			<Document>РеализацияТоваровУслуг</Document>
 			<Document>ТранспортнаяНакладная</Document>
+			<Document>СписаниеБезналичныхДенежныхСредств</Document>
+			<Document>ПоступлениеБезналичныхДенежныхСредств</Document>
+			<Document>УведомлениеОЗачисленииВалюты</Document>
+			<Document>РаспоряжениеНаПеремещениеДенежныхСредств</Document>
+			<Document>ДоговорЗаймаСотруднику</Document>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
 			<Enum>ПорядокОплатыПоСоглашениям</Enum>
 			<Enum>ХозяйственныеОперации</Enum>
@@ -379,6 +389,7 @@
 			<Enum>ВариантыОформленияПродажи</Enum>
 			<Enum>СтатусыДействияВидовЦен</Enum>
 			<Enum>СтатусыРеализацийТоваровУслуг</Enum>
+			<Enum>ТипыПлатежныхДокументов</Enum>
 			<DataProcessor>ПодборСерийВДокументы</DataProcessor>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>

@@ -12,6 +12,7 @@
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="NotificationProcessing" callType="After">ВИЛС_ОбработкаОповещенияПосле</Event>
+		<Event name="OnReopen" callType="After">ВИЛС_ПриПовторномОткрытииПосле</Event>
 		<Event name="OnCreateAtServer" callType="After">ВИЛС_ПриСозданииНаСервереПосле</Event>
 	</Events>
 	<ChildItems>

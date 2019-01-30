@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Catalog uuid="d7e8f56a-c594-46c6-b901-f57f5d25b01e">
+	<Catalog uuid="5794e26d-1929-4fbf-af7a-0fccff251ad2">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.БанковскиеСчетаКонтрагентов" category="Object">
-				<xr:TypeId>b7470df1-5e17-4b78-a4b6-e28d9f2960bb</xr:TypeId>
-				<xr:ValueId>1ad94f5e-fd66-474f-822f-99c14c906ede</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.КодыВалютныхОпераций" category="Object">
+				<xr:TypeId>a42db041-b85b-4bf9-afae-688d4072d13f</xr:TypeId>
+				<xr:ValueId>2ea5b4d3-c668-4611-9a31-6af52bcd80bd</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.БанковскиеСчетаКонтрагентов" category="Ref">
-				<xr:TypeId>f27b9e13-a18b-4df5-8551-01acad66b2f9</xr:TypeId>
-				<xr:ValueId>3b6e5e8c-97fd-45ed-b624-4b938c7d95c8</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.КодыВалютныхОпераций" category="Ref">
+				<xr:TypeId>46819b2d-2bf5-4ba1-96b1-e2d09f3934ea</xr:TypeId>
+				<xr:ValueId>544484ee-e3e8-49a5-a410-65826a6f9cbd</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.БанковскиеСчетаКонтрагентов" category="Selection">
-				<xr:TypeId>471e6f5d-f692-4729-8bcc-756ec19f14d1</xr:TypeId>
-				<xr:ValueId>5e27bef0-7020-4528-96ce-f47792578b74</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.КодыВалютныхОпераций" category="Selection">
+				<xr:TypeId>5b0b3a5f-81e7-4290-b8ca-4f4ab3a1c49a</xr:TypeId>
+				<xr:ValueId>203ce79a-0d8f-4545-ad3f-189930a392a2</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.БанковскиеСчетаКонтрагентов" category="List">
-				<xr:TypeId>7efc76ed-4821-42c9-acd4-3a58c3ace1a5</xr:TypeId>
-				<xr:ValueId>55198164-c192-4c81-8e7c-07a1f22f682c</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.КодыВалютныхОпераций" category="List">
+				<xr:TypeId>c076b4f4-fddb-4db1-8202-94b5ad4d94af</xr:TypeId>
+				<xr:ValueId>804ad4b6-8c13-4ce8-a5eb-f7b9ccfe3633</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.БанковскиеСчетаКонтрагентов" category="Manager">
-				<xr:TypeId>1b9f5b09-b067-4c9e-af5f-70ebd568ecf0</xr:TypeId>
-				<xr:ValueId>c0006e32-2c68-4d45-a40c-6f03203139cf</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.КодыВалютныхОпераций" category="Manager">
+				<xr:TypeId>ec2a9cb3-26ba-47ef-b4c2-d8bf1e77a83c</xr:TypeId>
+				<xr:ValueId>a7b8c3fc-6169-4d07-afdd-98e6c9bcc905</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>БанковскиеСчетаКонтрагентов</Name>
+			<Name>КодыВалютныхОпераций</Name>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="47396805-78a4-4169-bce7-364a27c17ae6">
+			<Attribute uuid="2621513a-f48d-45a6-b2e5-b83380f248a5">
 				<InternalInfo/>
 				<Properties>
-					<Name>БИКБанка</Name>
+					<Name>НаименованиеПолное</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>9</v8:Length>
+							<v8:Length>0</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>
