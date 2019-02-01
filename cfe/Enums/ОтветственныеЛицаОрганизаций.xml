@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="d29d0720-8b05-41f2-b9f1-d65c3c06874c">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ОтветственныеЛицаОрганизаций" category="Ref">
+				<xr:TypeId>4f01bc0a-274f-4c05-baf4-116938648a78</xr:TypeId>
+				<xr:ValueId>6230b872-bc83-4d19-8ffd-92432ea069a9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ОтветственныеЛицаОрганизаций" category="Manager">
+				<xr:TypeId>b09df36d-1a66-4206-a9bf-b7c6bf0d383f</xr:TypeId>
+				<xr:ValueId>44aca654-2bdf-49ec-aa82-29277529e453</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ОтветственныеЛицаОрганизаций" category="List">
+				<xr:TypeId>878d74f4-5238-4bf0-8f1b-8b205189ede6</xr:TypeId>
+				<xr:ValueId>07268a38-5db4-4601-94fc-26bf547910e8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОтветственныеЛицаОрганизаций</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="66f45c81-d27f-45a5-bfeb-a851f81fbe81">
+				<InternalInfo/>
+				<Properties>
+					<Name>Руководитель</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="3f267a05-9baa-4bd3-a5d4-d40ba775b71d">
+				<InternalInfo/>
+				<Properties>
+					<Name>ГлавныйБухгалтер</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>9954e7de-0c10-4282-881b-6e5607358001</xr:ObjectId>
+				<xr:ObjectId>498181b7-da5e-4179-8a32-8cbeb97d1f51</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -162,6 +162,7 @@
 			<CommonModule>ОбменСБанкамиПоЗарплатнымПроектамПереопределяемый</CommonModule>
 			<CommonModule>ВИЛС_Переопределяемый</CommonModule>
 			<CommonModule>КадровыйУчет</CommonModule>
+			<CommonModule>ОбщегоНазначенияУТВызовСервера</CommonModule>
 			<FunctionalOption>ИспользоватьПодключаемоеОборудование</FunctionalOption>
 			<FunctionalOption>ИспользоватьПоступлениеПоНесколькимЗаказам</FunctionalOption>
 			<FunctionalOption>ИспользоватьОрдернуюСхемуПриПоступлении</FunctionalOption>
@@ -272,6 +273,7 @@
 			<Constant>ИспользоватьСоглашенияСКлиентами</Constant>
 			<Constant>ИспользоватьКартыЛояльности</Constant>
 			<Constant>ИспользоватьЗаявкиНаРасходованиеДенежныхСредств</Constant>
+			<CommonForm>РеквизитыПечатиРеализации</CommonForm>
 			<Catalog>ПредприятияВЕТИС</Catalog>
 			<Catalog>ЗаписиСкладскогоЖурналаВЕТИС</Catalog>
 			<Catalog>УпаковкиЕдиницыИзмерения</Catalog>
@@ -391,6 +393,7 @@
 			<Enum>СтатусыДействияВидовЦен</Enum>
 			<Enum>СтатусыРеализацийТоваровУслуг</Enum>
 			<Enum>ТипыПлатежныхДокументов</Enum>
+			<Enum>ОтветственныеЛицаОрганизаций</Enum>
 			<DataProcessor>ПодборСерийВДокументы</DataProcessor>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>

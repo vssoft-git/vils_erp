@@ -139,6 +139,8 @@
 		<Metadata name="ChartOfCharacteristicTypes.КаналыРекламныхВоздействий" id="090136e7-aaca-480e-a826-9ca9c94fafe2" configVersion="48f84da5a3916fbd7f969e6e42880887cee3f3f4"/>
 		<Metadata name="ChartOfCharacteristicTypes.СтатьиАктивовПассивов" id="0a2a0d71-9c26-471f-a643-0c23f0df161e" configVersion="10042574a98c9606a2089d7e7512f1fe3243b8e5"/>
 		<Metadata name="ChartOfCharacteristicTypes.СтатьиРасходов" id="6dfc2ead-6656-419b-8ff1-70f47c6ce0b7" configVersion="7e062497ad9f9c0c4a61ac72c4e8c69ca0c06dd7"/>
+		<Metadata name="CommonForm.РеквизитыПечатиРеализации" id="eb5539d0-7069-497e-b956-8d8f250a9a5e" configVersion="a8901e10ff8a32d4f9d248e23bd1f1b07e0ce473"/>
+		<Metadata name="CommonForm.РеквизитыПечатиРеализации.Form" id="eb5539d0-7069-497e-b956-8d8f250a9a5e.0" configVersion="da3263f4aa31e40edf54ffdf154bcfb9fbdc3d91"/>
 		<Metadata name="CommonModule.ВИЛС_Переопределяемый" id="700fccbf-7ab9-4bea-9c50-5c1d7bfd57f8" configVersion="98c16c0c71203260ed222bc02496e5a60f2db56b"/>
 		<Metadata name="CommonModule.ВИЛС_Переопределяемый.Module" id="700fccbf-7ab9-4bea-9c50-5c1d7bfd57f8.0" configVersion="6a576f286f0308accb038cbac4be882f596ae9b1"/>
 		<Metadata name="CommonModule.ДенежныеСредстваСервер" id="c8e9cae7-15c4-40b2-b35e-1eb4bcfebf50" configVersion="e81489ac33eabfe303b0609a3a79b33d738148e1"/>
@@ -153,6 +155,8 @@
 		<Metadata name="CommonModule.ОбменСБанкамиПоЗарплатнымПроектамПереопределяемый.Module" id="9e2bac10-b912-42e1-92fe-6d84c4b7f8c7.0" configVersion="cae3744b821b84376e64a80329a0c047c0bf53a6"/>
 		<Metadata name="CommonModule.ОбщегоНазначения" id="8f75dc5f-afbc-4c36-9cbb-8e6a6e4efcc1" configVersion="4e64b7326e8d3db0b1c277b29eac5a224e331182"/>
 		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="8f75dc5f-afbc-4c36-9cbb-8e6a6e4efcc1.0" configVersion="a6075db6546554410ec8a874b6a4648135ce1c81"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияУТВызовСервера" id="cbdcdaeb-5442-4a1e-94bb-69911339423b" configVersion="4c29c831f74555b83d4df7495e2922df277121a4"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияУТВызовСервера.Module" id="cbdcdaeb-5442-4a1e-94bb-69911339423b.0" configVersion="c631390d9bea4dc923bf15bd198da6d3ef823b50"/>
 		<Metadata name="CommonModule.ПартнерыИКонтрагенты" id="9e5fb100-cac3-4382-a8fb-6fa0bb1fdef8" configVersion="d267f4681cb5f3cda86cfb2a672a165dbdfefdcd"/>
 		<Metadata name="CommonModule.ПартнерыИКонтрагенты.Module" id="9e5fb100-cac3-4382-a8fb-6fa0bb1fdef8.0" configVersion="f3bf61899d4a07f0a02672e24bbf9dedf2541436"/>
 		<Metadata name="CommonModule.ПередачаСырьяПереработчикуЛокализация" id="797510d2-b4ec-4320-971d-8c725c85e813" configVersion="a5171d87a664e3a21bfe60a66e9e7cd880d745d5"/>
@@ -238,7 +242,7 @@
 		<Metadata name="CommonPicture.СтатусПроверкиЭП" id="c9d92805-1d54-453f-a3dd-584e7fe93d89" configVersion="2bc67cb8d7798b73bd493d8f6e9b48d112019598"/>
 		<Metadata name="CommonPicture.СтатусыУказанияСерий" id="79fb75d2-a40a-4e38-b7fa-993ab5ffcc93" configVersion="92cf0ef772fbb59deec95a641715fbbb4d7865dc"/>
 		<Metadata name="CommonPicture.СчитатьКартуЛояльности" id="c58bbabd-82af-4ce8-9eec-6d4201c96537" configVersion="d8da3273b15df76e4a334d68402bd8392424fbae"/>
-		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="9c96493156eca5b7eb83cb53b3a0f5d4ba0d38e8"/>
+		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="c01b2f75ee044b3450e1b38b5dd3f0730cbfc710"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="2d3d01ef-e545-4150-a6c6-5d7520ca086c" configVersion="ffbf25b1ccd42c35ee4ef2dc7390091df9f1a092"/>
 		<Metadata name="Constant.ИспользоватьДоговорыКредитовИДепозитов" id="07235db3-3bad-4d9e-b7de-adf354ae28ed" configVersion="7cc1ae8aedead2a7aae016679c27710cf975ef8d"/>
 		<Metadata name="Constant.ИспользоватьЕжедневныеОтчеты1СДокументооборота" id="c1de355d-c2e7-414f-92f5-cea13ac1b02d" configVersion="eaecf171d6cbdf46507e81e85ab5c5476522cadb"/>
@@ -897,6 +901,10 @@
 			<Metadata name="Enum.ОснованияФинансированияПособияФедеральнымБюджетом.EnumValue.Семипалатинск" id="4d02dd87-57a2-4e3f-85c2-e8770965aaf5"/>
 			<Metadata name="Enum.ОснованияФинансированияПособияФедеральнымБюджетом.EnumValue.ПодразделенияОсобогоРиска" id="72688af7-919a-4934-a6c4-ec5871971891"/>
 			<Metadata name="Enum.ОснованияФинансированияПособияФедеральнымБюджетом.EnumValue.Чернобыль" id="bc25cca7-a980-4ef9-a222-05685f27e533"/>
+		</Metadata>
+		<Metadata name="Enum.ОтветственныеЛицаОрганизаций" id="d29d0720-8b05-41f2-b9f1-d65c3c06874c" configVersion="8d0ac02f67b74c1ac4c9638675adfce60ef30c2f">
+			<Metadata name="Enum.ОтветственныеЛицаОрганизаций.EnumValue.ГлавныйБухгалтер" id="3f267a05-9baa-4bd3-a5d4-d40ba775b71d"/>
+			<Metadata name="Enum.ОтветственныеЛицаОрганизаций.EnumValue.Руководитель" id="66f45c81-d27f-45a5-bfeb-a851f81fbe81"/>
 		</Metadata>
 		<Metadata name="Enum.ПолФизическогоЛица" id="20f9b081-715d-4e93-ac63-62f17f0f9e55" configVersion="9bc36b1a55d7ac94dbfbff0294d643c5a9d78283"/>
 		<Metadata name="Enum.ПорядокОплатыПоСоглашениям" id="65419a85-094b-4ae7-b0ea-3bdf42c5f18b" configVersion="cba011a8f6345443716548213b012cfe258dab0f"/>
