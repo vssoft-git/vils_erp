@@ -242,7 +242,7 @@
 		<Metadata name="CommonPicture.СтатусПроверкиЭП" id="c9d92805-1d54-453f-a3dd-584e7fe93d89" configVersion="2bc67cb8d7798b73bd493d8f6e9b48d112019598"/>
 		<Metadata name="CommonPicture.СтатусыУказанияСерий" id="79fb75d2-a40a-4e38-b7fa-993ab5ffcc93" configVersion="92cf0ef772fbb59deec95a641715fbbb4d7865dc"/>
 		<Metadata name="CommonPicture.СчитатьКартуЛояльности" id="c58bbabd-82af-4ce8-9eec-6d4201c96537" configVersion="d8da3273b15df76e4a334d68402bd8392424fbae"/>
-		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="c01b2f75ee044b3450e1b38b5dd3f0730cbfc710"/>
+		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="5bd64107e163c9561a17f6986dfd9ce6b750e80c"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="2d3d01ef-e545-4150-a6c6-5d7520ca086c" configVersion="ffbf25b1ccd42c35ee4ef2dc7390091df9f1a092"/>
 		<Metadata name="Constant.ИспользоватьДоговорыКредитовИДепозитов" id="07235db3-3bad-4d9e-b7de-adf354ae28ed" configVersion="7cc1ae8aedead2a7aae016679c27710cf975ef8d"/>
 		<Metadata name="Constant.ИспользоватьЕжедневныеОтчеты1СДокументооборота" id="c1de355d-c2e7-414f-92f5-cea13ac1b02d" configVersion="eaecf171d6cbdf46507e81e85ab5c5476522cadb"/>
@@ -304,6 +304,8 @@
 		<Metadata name="DataProcessor.ПечатьАктОбОказанииУслуг.ManagerModule" id="91932752-98c1-4e1a-8152-41c9eb4dffe0.2" configVersion="fe0f98e128372445e194e684ca39c77cba7781e9"/>
 		<Metadata name="DataProcessor.ПечатьАктОбОказанииУслуг.Template.ВИЛС_ПодписиКАкту" id="11b721e1-40d0-4472-9539-d05f6e5d4ee5" configVersion="5a483f1927c9516c3a299daa40f4ec63495fb053"/>
 		<Metadata name="DataProcessor.ПечатьАктОбОказанииУслуг.Template.ВИЛС_ПодписиКАкту.Template" id="11b721e1-40d0-4472-9539-d05f6e5d4ee5.0" configVersion="768dea735a18bf0edabb0c2d7876ac5c1fa7cecf"/>
+		<Metadata name="DataProcessor.ПечатьСчетовНаОплату" id="782e61bb-d1f5-48a7-be6d-7ecf9ac63f58" configVersion="6f818877baa89bb861adfe3ef18999211413c422"/>
+		<Metadata name="DataProcessor.ПечатьСчетовНаОплату.ManagerModule" id="782e61bb-d1f5-48a7-be6d-7ecf9ac63f58.2" configVersion="7a69ad421430f09330046ff1929fba882f7931fb"/>
 		<Metadata name="DataProcessor.ПодборСерийВДокументы" id="729b98c7-11ce-45d5-8474-5bac42397276" configVersion="5ec8113cd05c434c5aa73ff871858cb48f5dcc91">
 			<Metadata name="DataProcessor.ПодборСерийВДокументы.TabularSection.Серии.Attribute.СтатусРаботыRFID" id="246aa71e-b04b-4caf-97b7-30090ef26d3e"/>
 			<Metadata name="DataProcessor.ПодборСерийВДокументы.TabularSection.Серии.Attribute.ПроизводительЕГАИС" id="3570551d-45c8-4588-adc4-b0c6e6c63f5d"/>
@@ -464,6 +466,8 @@
 		<Metadata name="Document.ВводОстатков.Form.ФормаТовары" id="f9912fe5-5852-4064-9d74-7a98b3e5f225" configVersion="f929e62c397e4a5588f1bc68e1f910849b9d4705"/>
 		<Metadata name="Document.ВводОстатков.Form.ФормаТовары.Form" id="f9912fe5-5852-4064-9d74-7a98b3e5f225.0" configVersion="da2087b8c3d12c318849614a07adc59b85cf65b1"/>
 		<Metadata name="Document.ДоговорЗаймаСотруднику" id="9caa81e4-4f8d-44d6-bf32-b3e91efc9454" configVersion="9984cf50fb4b46a0eff483128e3ab2c99d39692d"/>
+		<Metadata name="Document.ЗаказКлиента" id="cc531864-c091-4e05-a832-71ba731709bc" configVersion="245aaa79e09efeb302bcc0911402c664a5c3fc69"/>
+		<Metadata name="Document.ЗаказКлиента.ManagerModule" id="cc531864-c091-4e05-a832-71ba731709bc.2" configVersion="667b749f9ac2acfdebd6257729e01901db370d2b"/>
 		<Metadata name="Document.ЗаказПереработчику" id="79dd29aa-5896-4bd1-8c93-01501e076972" configVersion="83808d449a124b253144c97120d65d684930149d"/>
 		<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств" id="50b59e2f-24fe-4e4b-b5f0-1d483cb921fb" configVersion="9f455906dacf64bf74786c79c5cb5f3f9c5066df">
 			<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.Attribute.ХозяйственнаяОперацияПоЗарплате" id="0331b5d7-af8b-43e9-9c2e-5b06e1a777a2"/>

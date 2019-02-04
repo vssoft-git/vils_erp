@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>28508cba-f31d-4346-978f-42ebd44d0137</xr:ObjectId>
+				<xr:ObjectId>d3663fed-e460-40a1-9f90-6f1076d091bd</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -355,6 +355,7 @@
 			<Document>УведомлениеОЗачисленииВалюты</Document>
 			<Document>РаспоряжениеНаПеремещениеДенежныхСредств</Document>
 			<Document>ДоговорЗаймаСотруднику</Document>
+			<Document>ЗаказКлиента</Document>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
 			<Enum>ПорядокОплатыПоСоглашениям</Enum>
 			<Enum>ХозяйственныеОперации</Enum>
@@ -399,6 +400,7 @@
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
 			<DataProcessor>АктивныеПользователи</DataProcessor>
 			<DataProcessor>ПечатьАктОбОказанииУслуг</DataProcessor>
+			<DataProcessor>ПечатьСчетовНаОплату</DataProcessor>
 			<InformationRegister>НаличиеФайлов</InformationRegister>
 			<AccumulationRegister>ДенежныеСредстваКВыплате</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиРасходов</ChartOfCharacteristicTypes>
