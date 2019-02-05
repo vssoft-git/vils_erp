@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>e139d67e-84a8-4ddd-b85f-e4a429bcd155</xr:ObjectId>
+				<xr:ObjectId>89dc9db3-a2b2-47ca-a0df-227caf50c017</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -164,6 +164,8 @@
 			<CommonModule>КадровыйУчет</CommonModule>
 			<CommonModule>ОбщегоНазначенияУТВызовСервера</CommonModule>
 			<CommonModule>АктВыполненныхРаботЛокализация</CommonModule>
+			<CommonModule>ОтчетКомиссионераЛокализация</CommonModule>
+			<CommonModule>ОтчетДавальцуЛокализация</CommonModule>
 			<FunctionalOption>ИспользоватьПодключаемоеОборудование</FunctionalOption>
 			<FunctionalOption>ИспользоватьПоступлениеПоНесколькимЗаказам</FunctionalOption>
 			<FunctionalOption>ИспользоватьОрдернуюСхемуПриПоступлении</FunctionalOption>
@@ -403,6 +405,7 @@
 			<DataProcessor>АктивныеПользователи</DataProcessor>
 			<DataProcessor>ПечатьАктОбОказанииУслуг</DataProcessor>
 			<DataProcessor>ПечатьСчетовНаОплату</DataProcessor>
+			<DataProcessor>ПечатьОбщихФорм</DataProcessor>
 			<InformationRegister>НаличиеФайлов</InformationRegister>
 			<AccumulationRegister>ДенежныеСредстваКВыплате</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиРасходов</ChartOfCharacteristicTypes>
