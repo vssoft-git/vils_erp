@@ -248,7 +248,7 @@
 		<Metadata name="CommonPicture.СтатусПроверкиЭП" id="c9d92805-1d54-453f-a3dd-584e7fe93d89" configVersion="2bc67cb8d7798b73bd493d8f6e9b48d112019598"/>
 		<Metadata name="CommonPicture.СтатусыУказанияСерий" id="79fb75d2-a40a-4e38-b7fa-993ab5ffcc93" configVersion="92cf0ef772fbb59deec95a641715fbbb4d7865dc"/>
 		<Metadata name="CommonPicture.СчитатьКартуЛояльности" id="c58bbabd-82af-4ce8-9eec-6d4201c96537" configVersion="d8da3273b15df76e4a334d68402bd8392424fbae"/>
-		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="b380373267ebb50966d301c2f2e8a269df2791b4"/>
+		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="55e1667b6e7d67b585f5cf282f9e055a82c135d5"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="2d3d01ef-e545-4150-a6c6-5d7520ca086c" configVersion="ffbf25b1ccd42c35ee4ef2dc7390091df9f1a092"/>
 		<Metadata name="Constant.ИспользоватьДоговорыКредитовИДепозитов" id="07235db3-3bad-4d9e-b7de-adf354ae28ed" configVersion="7cc1ae8aedead2a7aae016679c27710cf975ef8d"/>
 		<Metadata name="Constant.ИспользоватьЕжедневныеОтчеты1СДокументооборота" id="c1de355d-c2e7-414f-92f5-cea13ac1b02d" configVersion="eaecf171d6cbdf46507e81e85ab5c5476522cadb"/>
@@ -598,6 +598,8 @@
 		<Metadata name="Document.ИнвентаризацияРасчетов.Form.ФормаДокумента" id="ff40567d-6fcd-4eb0-ab00-16270390de12" configVersion="7fafa60f76ef16ac35496c95ec4c05c79a588544"/>
 		<Metadata name="Document.ИнвентаризацияРасчетов.Form.ФормаДокумента.Form" id="ff40567d-6fcd-4eb0-ab00-16270390de12.0" configVersion="401d1b2dd8d18405c1e8152ecba4af0ee6422892"/>
 		<Metadata name="Document.ИнвентаризацияРасчетов.ManagerModule" id="e543d2ae-c86b-4cce-a89f-4f5dcbb7d0cb.2" configVersion="d927161518a47fa9f41a692b58dae3803fe0645b"/>
+		<Metadata name="Document.ОтчетДавальцу" id="d958fa8a-37ea-40ef-bcf7-6f7539a57513" configVersion="ee2945cf3ef7dd115e203da2b71f0eaa1f612039"/>
+		<Metadata name="Document.ОтчетДавальцу.ManagerModule" id="d958fa8a-37ea-40ef-bcf7-6f7539a57513.2" configVersion="e646488aa30b30b1a909b93e6e0ecfe922c664e3"/>
 		<Metadata name="Document.ПервичныйДокумент" id="81e715a3-78d9-4fba-97c0-5538d80bceef" configVersion="f56a79b731b65d66017e9fb22de25da879be1ec7"/>
 		<Metadata name="Document.ПередачаСырьяПереработчику" id="11f75ecd-3e6d-42ab-9d24-e0e040750333" configVersion="661284e37db891136804f1cf66c0f40243792f1d">
 			<Metadata name="Document.ПередачаСырьяПереработчику.Attribute.ЗонаДоставки" id="00369c1d-c990-4ecb-955f-0b7a629b271d"/>
@@ -889,6 +891,67 @@
 		<Metadata name="Document.СписаниеБезналичныхДенежныхСредств.Form.ФормаДокумента" id="802ffe92-647e-4ebb-b213-02e77d53fda6" configVersion="f9ab9a05dcb6b6e4c44017146bfa9955ea699649"/>
 		<Metadata name="Document.СписаниеБезналичныхДенежныхСредств.Form.ФормаДокумента.Form" id="802ffe92-647e-4ebb-b213-02e77d53fda6.0" configVersion="c77d01c6cf2adfe134e12816ca364b3910f8c0b9"/>
 		<Metadata name="Document.СторнированиеНачислений" id="6da6269d-3d60-4eab-940f-e9895d458855" configVersion="7d2a052da87690ffc673043657c763dcc7686cba"/>
+		<Metadata name="Document.СчетНаОплатуКлиенту" id="eeec84f8-4463-4b8a-8116-ab87e70e3c03" configVersion="988b0a91a9173a708583d04f8c4b4efd4727cb6a">
+			<Metadata name="Document.СчетНаОплатуКлиенту.Attribute.ИдентификаторПлатежа" id="00f24623-10a8-458b-80a0-1ec36f58f347"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.Attribute.СуммаДокумента" id="0108413a-4d09-475d-92a5-139f332dad85"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.Характеристика" id="01e6b078-5f7f-414f-9077-cc6590755f5b"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.Attribute.Контрагент" id="03371c6c-06f5-4659-80df-cf73cea9c063"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.Цена" id="056ede4e-fa45-462a-9851-67bf6acace0c"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ЭтапыГрафикаОплаты.Attribute.СуммаПлатежа" id="0f6e8a50-833b-43ed-8958-1c883a6b61d6"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ЭтапыГрафикаОплаты.Attribute.ПроцентПлатежа" id="0f85eed5-f77b-4385-852e-b695f6d7cf35"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.СтавкаНДС" id="19d4079d-d3a4-4eeb-bbc9-2b329a1a29c4"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.Attribute.НазначениеПлатежа" id="1a2d98c1-25f3-4fa2-ac8c-df3c6d1fc3e5"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.КоличествоУпаковок" id="212b4a30-7efe-47aa-9b6d-d8dc00820c3a"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.Номенклатура" id="26c3e05c-af9c-400a-a3b7-75b13ef5389a"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.НоменклатураНабора" id="26e563e9-51ea-4414-bc5f-755ca0c8b85f"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.Attribute.Организация" id="295de031-b754-41ec-8904-aa10b9503593"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.Attribute.ФормаОплаты" id="34908a77-3fe2-436c-90cb-7c200c0de89a"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.Attribute.Договор" id="38ed7157-fc67-43b0-a3bb-0e5c7445c1db"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.КлючСвязи" id="3c8766fc-f984-4f3b-bfc7-e2829dc7c879"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.Attribute.Аннулирован" id="45be6c6e-4a8a-4e2a-bafc-f270db156b57"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.ПроцентРучнойСкидки" id="4715e935-ebce-4597-8a48-7d9bd568478f"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа" id="498cf088-3dbb-40ae-88b0-f3da3e1a06e8"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.Attribute.Партнер" id="4dd05957-88d6-42a6-b5c6-905bc989811e"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.Attribute.ГлавныйБухгалтер" id="537ce75c-09c7-4fce-91ab-8420e4d5260d"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.Серия" id="5392c5a2-64cf-486a-923a-2eeccf07fbee"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.Attribute.ЧастичнаяОплата" id="558156a0-4809-4f34-ad65-8c38ccc96137"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.СтатусУказанияСерий" id="55a9f011-60d2-416d-928a-f40c61b3f363"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.Количество" id="5e5c71af-2b41-49cf-94df-90b15ce44d56"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.Отменено" id="6091baec-4f74-4ce0-ab85-be5d7f434f3c"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.ХарактеристикаНабора" id="63f05d9a-14da-40c5-a4b8-3f883569f2ce"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.ВариантОбеспечения" id="69636f55-0941-441d-9aae-9e2fc5074f32"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.Сумма" id="6c0aaf77-b0e7-4b5e-a404-8587976323dd"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.СуммаАвтоматическойСкидки" id="7002c48c-ac95-442b-8158-ece3e8a2289a"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.Attribute.Касса" id="7210f1db-e27c-4f11-97ab-6687b8275088"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.ПричинаОтмены" id="788303bc-124c-4f91-903b-ee7c00be5111"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ЭтапыГрафикаОплаты.Attribute.ДатаПлатежа" id="867a32b2-c49e-4fa4-891a-2d1a740e62c3"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.Attribute.Руководитель" id="8933f743-7788-4f6e-8b3d-aa167755f6b7"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.Attribute.ДополнительнаяИнформация" id="8a7fe973-91c1-49f2-948e-77df0588169e"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.Attribute.ДокументОснование" id="92e80946-d228-4409-b949-5dd2a7a943a2"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.ПроцентАвтоматическойСкидки" id="9a7c511f-863d-4e28-b430-58edd6afed38"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.Содержание" id="9b802d45-8921-4bbe-94a6-a304730ba95e"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ЭтапыГрафикаОплаты" id="9f9affec-4f04-4edb-a0f8-ac84081c0040"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.Упаковка" id="a89adbe1-d28b-4a89-9648-6b14959d7b74"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.КодСтроки" id="ab185554-d529-4a32-bd3c-221920da5661"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.СуммаНДС" id="b582cfe0-b591-47ce-8808-0ccfabf3cde8"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.Attribute.БанковскийСчет" id="bfa01383-655e-420a-ad64-9cd9f39ae17b"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.ДатаОтгрузки" id="c8652cc8-0255-4faa-90c2-4b579dac8ee2"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.СуммаРучнойСкидки" id="c9f20fbe-0d76-4fe0-8586-21312eff1bda"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ЭтапыГрафикаОплаты.Attribute.ЭтоЗалогЗаТару" id="cd5af1ef-025b-4dd5-aa80-9bee895a41b4"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.Attribute.Валюта" id="d0f2c120-0aa9-47b6-a1d1-93afbccad7d7"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.Attribute.Менеджер" id="d403a34d-9282-478e-a3b5-fd52f9f29884"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.Склад" id="d7c41641-f2d3-4156-bcc0-7c9aaac98440"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.ВидЦены" id="db8f4cbb-900b-4d55-89e0-b53991acf792"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.СуммаСНДС" id="dd95031e-1d1d-4ff0-af6b-10b8194dc5c9"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.Attribute.КонтактноеЛицо" id="e9436484-484f-4ee8-b3c6-1ddb6ade8e41"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.Attribute.Комментарий" id="f652366e-6ad8-44b8-9f3e-880ff5241b7e"/>
+			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.СрокПоставки" id="fb920ce6-d1ff-4b0a-adee-0cf72f81014d"/>
+		</Metadata>
+		<Metadata name="Document.СчетНаОплатуКлиенту.Form.ВИЛС_ФормаПодбора" id="658e630d-4cb5-4ce1-813f-00407ec18819" configVersion="a1617c977a0ccb482d9fa8cf01f6f16216bc6605"/>
+		<Metadata name="Document.СчетНаОплатуКлиенту.Form.ВИЛС_ФормаПодбора.Form" id="658e630d-4cb5-4ce1-813f-00407ec18819.0" configVersion="9905161e39e6111b9e789d8f3fdf30ad5ccb864a"/>
+		<Metadata name="Document.СчетНаОплатуКлиенту.Form.ФормаДокумента" id="29b7836c-2a26-43b3-b43e-dd8709a5dafe" configVersion="2f0440b340e8b05517c3c1f9daf641118be7d123"/>
+		<Metadata name="Document.СчетНаОплатуКлиенту.Form.ФормаДокумента.Form" id="29b7836c-2a26-43b3-b43e-dd8709a5dafe.0" configVersion="ef921d68bea119de346e82834ac99986dfb69dfe"/>
+		<Metadata name="Document.СчетНаОплатуКлиенту.ManagerModule" id="eeec84f8-4463-4b8a-8116-ab87e70e3c03.2" configVersion="0d419ec02106e5a66adf05da110eaf0e5d9caa58"/>
 		<Metadata name="Document.СчетФактураВыданный" id="e7e61963-271d-4599-86aa-dd9ede7fee77" configVersion="a8f26b53f27009d9e6056fe1f37a7af17830a710"/>
 		<Metadata name="Document.СчетФактураВыданный.ManagerModule" id="e7e61963-271d-4599-86aa-dd9ede7fee77.2" configVersion="8fa653f2873577496a78e2f49318ea984cb11df2"/>
 		<Metadata name="Document.ТранспортнаяНакладная" id="2588006c-d478-45a5-8e4b-2c7126fde17c" configVersion="e8d3fc5b50f0a8a1b1be0c0d9fd2e4db9e403c86"/>
