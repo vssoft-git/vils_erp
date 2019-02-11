@@ -603,7 +603,49 @@
 		<Metadata name="Document.ИнвентаризацияРасчетов.Form.ФормаДокумента" id="ff40567d-6fcd-4eb0-ab00-16270390de12" configVersion="7fafa60f76ef16ac35496c95ec4c05c79a588544"/>
 		<Metadata name="Document.ИнвентаризацияРасчетов.Form.ФормаДокумента.Form" id="ff40567d-6fcd-4eb0-ab00-16270390de12.0" configVersion="401d1b2dd8d18405c1e8152ecba4af0ee6422892"/>
 		<Metadata name="Document.ИнвентаризацияРасчетов.ManagerModule" id="e543d2ae-c86b-4cce-a89f-4f5dcbb7d0cb.2" configVersion="d927161518a47fa9f41a692b58dae3803fe0645b"/>
-		<Metadata name="Document.ОтчетДавальцу" id="d958fa8a-37ea-40ef-bcf7-6f7539a57513" configVersion="ee2945cf3ef7dd115e203da2b71f0eaa1f612039"/>
+		<Metadata name="Document.ОтчетДавальцу" id="d958fa8a-37ea-40ef-bcf7-6f7539a57513" configVersion="7c9a07720385017279b1ce53dc2b965c71c05a49">
+			<Metadata name="Document.ОтчетДавальцу.Attribute.Организация" id="04309093-0c39-4b32-bf72-9460c00ff59a"/>
+			<Metadata name="Document.ОтчетДавальцу.Attribute.СтавкаНДС" id="04a7bcd4-7857-4cf3-b407-be0670e747c8"/>
+			<Metadata name="Document.ОтчетДавальцу.Attribute.Характеристика" id="0c39ab17-614c-43ef-ba22-1c0f791361cd"/>
+			<Metadata name="Document.ОтчетДавальцу.TabularSection.Продукция" id="0ddb3959-9621-41cd-8614-44050c95fc40"/>
+			<Metadata name="Document.ОтчетДавальцу.Attribute.Подразделение" id="0e16330b-d8a3-4a21-bfd3-96646815c092"/>
+			<Metadata name="Document.ОтчетДавальцу.Attribute.КонтактноеЛицо" id="1b46adaa-e39a-47c5-9fb2-5823d43a2eca"/>
+			<Metadata name="Document.ОтчетДавальцу.TabularSection.Продукция.Attribute.СуммаВзаиморасчетов" id="1e808e53-bd48-499e-829a-0e7b8daee836"/>
+			<Metadata name="Document.ОтчетДавальцу.TabularSection.Продукция.Attribute.Упаковка" id="2684b784-41ad-4743-bf72-d7f500b2424f"/>
+			<Metadata name="Document.ОтчетДавальцу.TabularSection.Продукция.Attribute.Номенклатура" id="2be43e97-9732-475f-8397-4cc40b6e0a4d"/>
+			<Metadata name="Document.ОтчетДавальцу.Attribute.ГлавныйБухгалтер" id="39ad41b5-da6b-4130-b5bb-6176befd8828"/>
+			<Metadata name="Document.ОтчетДавальцу.TabularSection.Продукция.Attribute.КодСтроки" id="3c9890d7-c0cc-4838-937a-0faf63f69a2d"/>
+			<Metadata name="Document.ОтчетДавальцу.Attribute.Номенклатура" id="3fde4e5a-adbe-45d5-987f-ce76ca7926c2"/>
+			<Metadata name="Document.ОтчетДавальцу.Attribute.Содержание" id="4a689bc6-f076-41f6-8881-7454305fd33c"/>
+			<Metadata name="Document.ОтчетДавальцу.Attribute.ДополнительнаяИнформацияШапки" id="5e3579a0-a65c-473d-8b44-d32c701543b7"/>
+			<Metadata name="Document.ОтчетДавальцу.Attribute.ЗаказДавальца" id="62819288-43b8-4ab3-9164-03ffcdafe1d5"/>
+			<Metadata name="Document.ОтчетДавальцу.Attribute.Руководитель" id="62aa34d4-5fba-4141-a407-1fb7a80ea3aa"/>
+			<Metadata name="Document.ОтчетДавальцу.Attribute.Контрагент" id="66b45a6a-11ff-4ab0-ad1d-cc330fc85370"/>
+			<Metadata name="Document.ОтчетДавальцу.TabularSection.Продукция.Attribute.ИдентификаторСтроки" id="7223d5cb-9044-40aa-b903-cdc012b48ae2"/>
+			<Metadata name="Document.ОтчетДавальцу.TabularSection.Продукция.Attribute.СуммаСНДС" id="72fa136f-6ef2-4dc4-a51f-d33ef1a9136e"/>
+			<Metadata name="Document.ОтчетДавальцу.TabularSection.Продукция.Attribute.Сумма" id="77fcd91e-89df-40dd-9200-41bd0d8ad881"/>
+			<Metadata name="Document.ОтчетДавальцу.TabularSection.Продукция.Attribute.ВидЦены" id="7cd14d72-ed3b-42a7-a990-af20481bf485"/>
+			<Metadata name="Document.ОтчетДавальцу.Attribute.Сделка" id="80480e60-ab40-403e-9315-e4d651f1224b"/>
+			<Metadata name="Document.ОтчетДавальцу.TabularSection.Продукция.Attribute.КоличествоУпаковок" id="827f042c-0052-458c-bc1f-852c63fdbe5c"/>
+			<Metadata name="Document.ОтчетДавальцу.Attribute.Менеджер" id="88650f2f-d4d0-408b-b279-a9eafa464999"/>
+			<Metadata name="Document.ОтчетДавальцу.Attribute.ГруппаФинансовогоУчета" id="8ad13845-aa12-416d-bb2e-efd247648d42"/>
+			<Metadata name="Document.ОтчетДавальцу.Attribute.Комментарий" id="921e20a1-a1c2-4b89-a390-93d481a28325"/>
+			<Metadata name="Document.ОтчетДавальцу.Attribute.ЦенаВключаетНДС" id="9264fbc4-2549-46bb-bbdd-f59fe14bed04"/>
+			<Metadata name="Document.ОтчетДавальцу.Attribute.НаправлениеДеятельности" id="945b28b0-a784-4d17-9936-447d88c497f0"/>
+			<Metadata name="Document.ОтчетДавальцу.TabularSection.Продукция.Attribute.СуммаНДС" id="9ee12598-e926-4173-b316-bf9174753bc9"/>
+			<Metadata name="Document.ОтчетДавальцу.TabularSection.Продукция.Attribute.Цена" id="b0a1a633-256f-46dd-a346-6bada8487535"/>
+			<Metadata name="Document.ОтчетДавальцу.Attribute.НалогообложениеНДС" id="b693781f-49e7-4742-9db8-7787013c2461"/>
+			<Metadata name="Document.ОтчетДавальцу.Attribute.БанковскийСчетКонтрагента" id="bb4955eb-9d8d-4585-9416-d1df3c9b5fd1"/>
+			<Metadata name="Document.ОтчетДавальцу.TabularSection.Продукция.Attribute.ЗаказДавальца" id="bbf63117-cf2b-49dc-ab39-99b488b3a6f3"/>
+			<Metadata name="Document.ОтчетДавальцу.Attribute.БанковскийСчетОрганизации" id="bfbcce57-08ec-4ad5-a491-9929c5777917"/>
+			<Metadata name="Document.ОтчетДавальцу.Attribute.Договор" id="c13a85e5-f8e8-4a70-9236-e05b212ff216"/>
+			<Metadata name="Document.ОтчетДавальцу.TabularSection.Продукция.Attribute.Характеристика" id="c3fc50fc-3f23-48db-ba08-2b305d3aba3f"/>
+			<Metadata name="Document.ОтчетДавальцу.Attribute.ДополнительнаяИнформация" id="c81df42e-af4c-422a-88f1-e8352908300c"/>
+			<Metadata name="Document.ОтчетДавальцу.Attribute.Партнер" id="dd831f23-a7fa-48be-b6fc-c80c67a59a8d"/>
+			<Metadata name="Document.ОтчетДавальцу.TabularSection.Продукция.Attribute.ВИЛС_КоличествоШТ" id="fcce3428-d84a-4cf9-8398-7f94a2c4c03a"/>
+		</Metadata>
+		<Metadata name="Document.ОтчетДавальцу.Form.ФормаДокумента" id="105c2573-09bb-4b32-b1a2-da0d1f5a074a" configVersion="2026de1d17c860847d8e247aa0127508fa2b0c86"/>
+		<Metadata name="Document.ОтчетДавальцу.Form.ФормаДокумента.Form" id="105c2573-09bb-4b32-b1a2-da0d1f5a074a.0" configVersion="4bfdb5971bb89b535a3a8fe4de889d8164525979"/>
 		<Metadata name="Document.ОтчетДавальцу.ManagerModule" id="d958fa8a-37ea-40ef-bcf7-6f7539a57513.2" configVersion="e646488aa30b30b1a909b93e6e0ecfe922c664e3"/>
 		<Metadata name="Document.ПервичныйДокумент" id="81e715a3-78d9-4fba-97c0-5538d80bceef" configVersion="f56a79b731b65d66017e9fb22de25da879be1ec7"/>
 		<Metadata name="Document.ПередачаСырьяПереработчику" id="11f75ecd-3e6d-42ab-9d24-e0e040750333" configVersion="661284e37db891136804f1cf66c0f40243792f1d">
