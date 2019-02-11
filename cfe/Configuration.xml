@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>c50cd639-2342-48dd-b017-39d86bdc1e76</xr:ObjectId>
+				<xr:ObjectId>04091623-af1a-424b-ade5-0ad75eab112e</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -218,6 +218,7 @@
 			<FunctionalOption>ИспользоватьКартыЛояльности</FunctionalOption>
 			<FunctionalOption>ИспользоватьНаборы</FunctionalOption>
 			<FunctionalOption>ИспользоватьЗаявкиНаРасходованиеДенежныхСредств</FunctionalOption>
+			<FunctionalOption>ИспользоватьРаздельныйУчетПоНалогообложению</FunctionalOption>
 			<DefinedType>НомерКиЗГИСМ</DefinedType>
 			<DefinedType>RFIDTID</DefinedType>
 			<DefinedType>GTIN</DefinedType>
@@ -276,6 +277,7 @@
 			<Constant>ИспользоватьСоглашенияСКлиентами</Constant>
 			<Constant>ИспользоватьКартыЛояльности</Constant>
 			<Constant>ИспользоватьЗаявкиНаРасходованиеДенежныхСредств</Constant>
+			<Constant>ИспользоватьРаздельныйУчетПоНалогообложению</Constant>
 			<CommonForm>РеквизитыПечатиРеализации</CommonForm>
 			<Catalog>ПредприятияВЕТИС</Catalog>
 			<Catalog>ЗаписиСкладскогоЖурналаВЕТИС</Catalog>
@@ -340,6 +342,8 @@
 			<Catalog>КодыВалютныхОпераций</Catalog>
 			<Catalog>КлассификаторТНВЭД</Catalog>
 			<Catalog>КонтактныеЛицаПартнеров</Catalog>
+			<Catalog>КодыОперацийРаздела7ДекларацииПоНДС</Catalog>
+			<Catalog>ДоговорыКонтрагентовПрисоединенныеФайлы</Catalog>
 			<Document>ПриобретениеТоваровУслуг</Document>
 			<Document>ЗаявкаНаРасходованиеДенежныхСредств</Document>
 			<Document>ЗаявлениеСотрудникаНаВыплатуПособия</Document>
@@ -362,6 +366,8 @@
 			<Document>АктВыполненныхРабот</Document>
 			<Document>СчетНаОплатуКлиенту</Document>
 			<Document>ОтчетДавальцу</Document>
+			<Document>ГрафикИсполненияДоговора</Document>
+			<Document>ЗаказДавальца</Document>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
 			<Enum>ПорядокОплатыПоСоглашениям</Enum>
 			<Enum>ХозяйственныеОперации</Enum>
@@ -401,6 +407,9 @@
 			<Enum>СтатусыРеализацийТоваровУслуг</Enum>
 			<Enum>ТипыПлатежныхДокументов</Enum>
 			<Enum>ОтветственныеЛицаОрганизаций</Enum>
+			<Enum>ТипыДоговоров</Enum>
+			<Enum>ВидыАгентскихДоговоров</Enum>
+			<Enum>СтатусыНаправленияДеятельности</Enum>
 			<DataProcessor>ПодборСерийВДокументы</DataProcessor>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
