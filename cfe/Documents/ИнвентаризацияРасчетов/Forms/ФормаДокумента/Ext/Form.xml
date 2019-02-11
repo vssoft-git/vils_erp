@@ -173,6 +173,9 @@
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer" callType="After">ВИЛС_ПриСозданииНаСервереПосле</Event>
+	</Events>
 	<ChildItems>
 		<Pages name="ГруппаСтраницы" id="5">
 			<Title>
@@ -958,12 +961,6 @@
 									<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
 									<ContextMenu name="ЗадолженностьДебиторКредиторКонтекстноеМеню" id="260"/>
 									<ExtendedTooltip name="ЗадолженностьДебиторКредиторРасширеннаяПодсказка" id="261"/>
-								</InputField>
-								<InputField name="ЗадолженностьВИЛС_Договор" id="380">
-									<DataPath>Объект.Задолженность.ВИЛС_Договор</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="ЗадолженностьВИЛС_ДоговорКонтекстноеМеню" id="381"/>
-									<ExtendedTooltip name="ЗадолженностьВИЛС_ДоговорРасширеннаяПодсказка" id="382"/>
 								</InputField>
 								<InputField name="ЗадолженностьСчет" id="262">
 									<DataPath>Объект.Задолженность.СчетРасчетов</DataPath>
