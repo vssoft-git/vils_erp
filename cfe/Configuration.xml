@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>c70ff7aa-3eba-45c5-b6f2-b0d8e8f2956c</xr:ObjectId>
+				<xr:ObjectId>b3e32362-d281-45d4-91e2-856b5382384a</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -219,6 +219,7 @@
 			<FunctionalOption>ИспользоватьНаборы</FunctionalOption>
 			<FunctionalOption>ИспользоватьЗаявкиНаРасходованиеДенежныхСредств</FunctionalOption>
 			<FunctionalOption>ИспользоватьРаздельныйУчетПоНалогообложению</FunctionalOption>
+			<FunctionalOption>ОтветственныйВДокументах</FunctionalOption>
 			<DefinedType>НомерКиЗГИСМ</DefinedType>
 			<DefinedType>RFIDTID</DefinedType>
 			<DefinedType>GTIN</DefinedType>
@@ -278,6 +279,7 @@
 			<Constant>ИспользоватьКартыЛояльности</Constant>
 			<Constant>ИспользоватьЗаявкиНаРасходованиеДенежныхСредств</Constant>
 			<Constant>ИспользоватьРаздельныйУчетПоНалогообложению</Constant>
+			<Constant>ОтветственныйВДокументах</Constant>
 			<CommonForm>РеквизитыПечатиРеализации</CommonForm>
 			<Catalog>ПредприятияВЕТИС</Catalog>
 			<Catalog>ЗаписиСкладскогоЖурналаВЕТИС</Catalog>
@@ -423,6 +425,7 @@
 			<ChartOfCharacteristicTypes>СтатьиРасходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>СтатьиАктивовПассивов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>КаналыРекламныхВоздействий</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>Хозрасчетный</ChartOfAccounts>
 			<ChartOfCalculationTypes>Начисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>

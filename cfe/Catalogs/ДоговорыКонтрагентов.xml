@@ -699,6 +699,50 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="2eafbb8e-afda-4d7b-98d8-36bd1ce3e3e9">
+				<InternalInfo/>
+				<Properties>
+					<Name>УчетАгентскогоНДС</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6bc08bb8-3828-436c-a4ca-d40b5da2e8ca">
+				<InternalInfo/>
+				<Properties>
+					<Name>ХозяйственнаяОперация</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ХозяйственныеОперации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6f31d15f-4638-4802-91db-b7be651af45e">
+				<InternalInfo/>
+				<Properties>
+					<Name>Согласован</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6b400679-235d-41ad-be08-bc668ae6daec">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДоговорСУчастникомГОЗ</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<TabularSection uuid="f40f49fd-dd75-4e51-ba5e-61199d0ab256">
 				<InternalInfo>
 					<xr:GeneratedType name="CatalogTabularSection.ДоговорыКонтрагентов.ПодтверждающиеДокументы" category="TabularSection">
@@ -780,7 +824,64 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
+			<TabularSection uuid="c38a6db1-0788-4429-bb89-b6ec90564af0">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.ДоговорыКонтрагентов.ДополнительныеРеквизиты" category="TabularSection">
+						<xr:TypeId>89327beb-bb9e-4b59-84a5-943bbe3cc425</xr:TypeId>
+						<xr:ValueId>6794550c-c39b-4aa9-905b-9519e08f88a2</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.ДоговорыКонтрагентов.ДополнительныеРеквизиты" category="TabularSectionRow">
+						<xr:TypeId>935b5ce2-b944-41f9-b19b-6a5ef7575f14</xr:TypeId>
+						<xr:ValueId>881900b6-f34c-41f4-9de4-3f61d71fdec8</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ДополнительныеРеквизиты</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="d8d33e3e-93dc-4b2b-b678-722388405fd4">
+						<InternalInfo/>
+						<Properties>
+							<Name>Свойство</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="f3e346d5-abf2-4cde-ac01-bf3f86f9f92c">
+						<InternalInfo/>
+						<Properties>
+							<Name>ТекстоваяСтрока</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>0</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="45fb86ee-b678-43a7-9e1a-fb3ee8c2e47c">
+						<InternalInfo/>
+						<Properties>
+							<Name>Значение</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.ДополнительныеРеквизитыИСведения</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
 			<Form>ФормаЭлемента</Form>
+			<Form>ФормаВыбора</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>
