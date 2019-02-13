@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>1c6b0b36-4c6d-4a66-ad82-0553c1f4b2b7</xr:ObjectId>
+				<xr:ObjectId>96eb6f65-8fba-451a-b398-6ba386901848</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -166,6 +166,7 @@
 			<CommonModule>АктВыполненныхРаботЛокализация</CommonModule>
 			<CommonModule>ОтчетКомиссионераЛокализация</CommonModule>
 			<CommonModule>ОтчетДавальцуЛокализация</CommonModule>
+			<CommonModule>ВозвратТоваровПоставщикуЛокализация</CommonModule>
 			<FunctionalOption>ИспользоватьПодключаемоеОборудование</FunctionalOption>
 			<FunctionalOption>ИспользоватьПоступлениеПоНесколькимЗаказам</FunctionalOption>
 			<FunctionalOption>ИспользоватьОрдернуюСхемуПриПоступлении</FunctionalOption>
@@ -371,6 +372,7 @@
 			<Document>ГрафикИсполненияДоговора</Document>
 			<Document>ЗаказДавальца</Document>
 			<Document>ПередачаДавальцу</Document>
+			<Document>ВозвратТоваровПоставщику</Document>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
 			<Enum>ПорядокОплатыПоСоглашениям</Enum>
 			<Enum>ХозяйственныеОперации</Enum>
@@ -413,6 +415,7 @@
 			<Enum>ТипыДоговоров</Enum>
 			<Enum>ВидыАгентскихДоговоров</Enum>
 			<Enum>СтатусыНаправленияДеятельности</Enum>
+			<Enum>СпособыКомпенсацииВозвратовТоваров</Enum>
 			<DataProcessor>ПодборСерийВДокументы</DataProcessor>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>

@@ -217,6 +217,8 @@
 		<Metadata name="CommonModule.АктВыполненныхРаботЛокализация.Module" id="4331ba72-cb8d-4a7c-9013-ca6f9ef3b818.0" configVersion="34f2d729283fd2cec0c47d1a15321954fab148fd"/>
 		<Metadata name="CommonModule.ВИЛС_Переопределяемый" id="700fccbf-7ab9-4bea-9c50-5c1d7bfd57f8" configVersion="98c16c0c71203260ed222bc02496e5a60f2db56b"/>
 		<Metadata name="CommonModule.ВИЛС_Переопределяемый.Module" id="700fccbf-7ab9-4bea-9c50-5c1d7bfd57f8.0" configVersion="6a576f286f0308accb038cbac4be882f596ae9b1"/>
+		<Metadata name="CommonModule.ВозвратТоваровПоставщикуЛокализация" id="2f678d11-36a2-4f94-b6a9-b213f7ebde2b" configVersion="4f8c77aff967160b971e6b7aff51798d7df06959"/>
+		<Metadata name="CommonModule.ВозвратТоваровПоставщикуЛокализация.Module" id="2f678d11-36a2-4f94-b6a9-b213f7ebde2b.0" configVersion="36c340171c3a1a0965351067135a1ad155d919b3"/>
 		<Metadata name="CommonModule.ДенежныеСредстваСервер" id="c8e9cae7-15c4-40b2-b35e-1eb4bcfebf50" configVersion="e81489ac33eabfe303b0609a3a79b33d738148e1"/>
 		<Metadata name="CommonModule.ДенежныеСредстваСервер.Module" id="c8e9cae7-15c4-40b2-b35e-1eb4bcfebf50.0" configVersion="122cb5f76fca19f22124ae6b969cf476a3647137"/>
 		<Metadata name="CommonModule.ИнтеграцияС1СДокументооборотВызовСервера" id="419866d5-8bf0-4807-8232-2cf8ba8bd572" configVersion="fbcf8cd8d729c0311faa4e6ff34076b22d5b0033"/>
@@ -320,7 +322,7 @@
 		<Metadata name="CommonPicture.СтатусПроверкиЭП" id="c9d92805-1d54-453f-a3dd-584e7fe93d89" configVersion="2bc67cb8d7798b73bd493d8f6e9b48d112019598"/>
 		<Metadata name="CommonPicture.СтатусыУказанияСерий" id="79fb75d2-a40a-4e38-b7fa-993ab5ffcc93" configVersion="92cf0ef772fbb59deec95a641715fbbb4d7865dc"/>
 		<Metadata name="CommonPicture.СчитатьКартуЛояльности" id="c58bbabd-82af-4ce8-9eec-6d4201c96537" configVersion="d8da3273b15df76e4a334d68402bd8392424fbae"/>
-		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="35b8542fdfd8f3a5b280b4e8d36614876049f551"/>
+		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="ef9dc05a56aacd064452a90b80c741119769401a"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="2d3d01ef-e545-4150-a6c6-5d7520ca086c" configVersion="ffbf25b1ccd42c35ee4ef2dc7390091df9f1a092"/>
 		<Metadata name="Constant.ИспользоватьДоговорыКредитовИДепозитов" id="07235db3-3bad-4d9e-b7de-adf354ae28ed" configVersion="7cc1ae8aedead2a7aae016679c27710cf975ef8d"/>
 		<Metadata name="Constant.ИспользоватьЕжедневныеОтчеты1СДокументооборота" id="c1de355d-c2e7-414f-92f5-cea13ac1b02d" configVersion="eaecf171d6cbdf46507e81e85ab5c5476522cadb"/>
@@ -553,6 +555,62 @@
 		</Metadata>
 		<Metadata name="Document.ВводОстатков.Form.ФормаТовары" id="f9912fe5-5852-4064-9d74-7a98b3e5f225" configVersion="f929e62c397e4a5588f1bc68e1f910849b9d4705"/>
 		<Metadata name="Document.ВводОстатков.Form.ФормаТовары.Form" id="f9912fe5-5852-4064-9d74-7a98b3e5f225.0" configVersion="da2087b8c3d12c318849614a07adc59b85cf65b1"/>
+		<Metadata name="Document.ВозвратТоваровПоставщику" id="910d5b14-e40a-4605-9821-0b30bf0f9460" configVersion="a2a8f8e3bc4a6af6202ea27b78a220e016279223">
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.Подразделение" id="00aaa7a9-d0c3-4fd1-858e-d907639e0b32"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.TabularSection.ВидыЗапасов" id="03ee7c67-b910-477d-86e2-a056f8b4ff9e"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.БанковскийСчетОрганизации" id="07bf11e0-7158-4f0f-b715-1c623fbc765e"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.TabularSection.ВидыЗапасов.Attribute.ИдентификаторСтроки" id="0a9821ab-a399-429e-8549-430b126bb6d6"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.TabularSection.Товары.Attribute.Серия" id="0d052777-bfca-4697-86dc-3486a0d23a27"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.ПеревозчикПартнер" id="0f547920-9b82-491c-96a7-b3c96f31b4f5"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.ЦенаВключаетНДС" id="0fb43ac7-6f3f-4ac6-8375-c5e29859b358"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.ВозвратПринятойМногооборотнойТары" id="140f0d95-3902-4eb2-8781-2d57903899e6"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.TabularSection.Товары.Attribute.СуммаСНДС" id="1571339f-9e9e-45a5-a8f9-d8fdf71a04f4"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.ВремяДоставкиС" id="183d41b9-9c4a-4692-b1a7-dcced0e2dcdd"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.Партнер" id="21e0670e-66b4-43fa-8b33-4498fe8ac521"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.Сделка" id="34d76df2-21ba-463a-982c-3f06182d03c3"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.ПредусмотренЗалогЗаТару" id="3906222f-d900-443e-bda2-6d54ec60de12"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.СпособДоставки" id="3b6fb69b-d53d-4c48-b7df-e7f95b5f10de"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.ПорядокОплаты" id="5ae0d043-4711-46a6-8e82-b6aa2688cea0"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.TabularSection.Товары.Attribute.ДокументПоступления" id="5d02b950-1d35-4403-a06a-a5420b30cb28"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.Организация" id="5ddde879-8513-4ed7-a528-b8f6776f721a"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.ВремяДоставкиПо" id="5f7655e3-2c11-40d2-945d-1df23f989038"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.ХозяйственнаяОперация" id="61dfba54-8274-4536-90d8-3d28d2682f20"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.Договор" id="63511b82-d7ef-4fe5-817b-2e366a7bf4ee"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.НаправлениеДеятельности" id="6ae3faeb-8f16-435f-a25d-67048be956bb"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.Комментарий" id="6e7daefd-fd63-47e6-8e56-f22bd32f1ac0"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.TabularSection.Товары.Attribute.Назначение" id="77b8b23d-9085-412b-9d54-560d7a21d9e8"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.Контрагент" id="788928cb-812f-458a-a740-6c42fea95d43"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.ОсобыеУсловияПеревозкиОписание" id="7a585402-b6f9-4759-8ae1-2a67a0af73fa"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.TabularSection.Товары.Attribute.КоличествоУпаковок" id="85500291-0ec5-47df-9cb0-a01be565cd04"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.ГруппаФинансовогоУчета" id="886b5ab2-d408-46a0-b5c7-2bccf95842e0"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.TabularSection.Товары.Attribute.Сумма" id="8b9ebcd6-f943-44d9-9e98-134e30a6fb5b"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.ЗонаДоставки" id="93f640b0-37da-4649-aa01-67230e4cf3b4"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.TabularSection.Товары" id="9cc97312-e90f-482c-b3ad-0196cbdd8a71"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.TabularSection.Товары.Attribute.НоменклатураПоставщика" id="9e71f6a3-811e-4223-9817-2b3518817049"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.Склад" id="a855e75c-a341-4329-a613-72a765006a65"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.TabularSection.Товары.Attribute.СуммаНДС" id="ac634702-8370-4077-a023-98db0a9f9ba9"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.ОсобыеУсловияПеревозки" id="b2327268-b6bc-4608-ba04-4ab4c023b606"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.ИдентификаторПлатежа" id="b9e1c8d9-9ca0-4a7a-bd75-60c050edf8ed"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.ДокументПоступления" id="ba0fc399-f1f2-4000-9f03-b94fac49f435"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.Соглашение" id="ba9d15e9-0826-4798-a75a-17bb187d0c3c"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.Валюта" id="c07cd8c2-1f54-423a-806f-bb11b4058d88"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.TabularSection.Товары.Attribute.Характеристика" id="c8f5f4d0-780d-4da4-93ba-9d4cc00e65eb"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.TabularSection.Товары.Attribute.СтавкаНДС" id="da2d36f2-4d95-42d1-bcd9-9ebac4fc0ae2"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.TabularSection.Товары.Attribute.СтатусУказанияСерий" id="da45ba09-0d10-439b-bf13-8cdf3cfb1f2b"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.АдресДоставкиПеревозчика" id="def7ce16-5b75-4d9c-9c17-d4260c5c2892"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.КонтактноеЛицо" id="e006b68a-b0ad-479c-ab3f-7a288d293c75"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.СпособКомпенсации" id="e3268f7c-b6a8-4804-a8ab-0457dfba9f2c"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.НалогообложениеНДС" id="e6b2bff7-e457-4078-8f5a-9e99875e6c52"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.TabularSection.Товары.Attribute.Цена" id="e7b1b438-927a-4558-ac70-0031969c8ae7"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.ДополнительнаяИнформацияПоДоставке" id="ea302c61-3da8-45ed-97b8-4dbe805c9b9f"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.Менеджер" id="ecb4b65a-6289-42f9-878d-26bf8e1d5cc0"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.АдресДоставки" id="ee48e661-146c-4fdd-a896-cac3097e88f8"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.TabularSection.Товары.Attribute.Номенклатура" id="f471e776-4694-4a80-a65b-3b49112fe0e2"/>
+			<Metadata name="Document.ВозвратТоваровПоставщику.TabularSection.Товары.Attribute.Упаковка" id="f68e4d89-aa18-4254-86da-8bff58e7ccd7"/>
+		</Metadata>
+		<Metadata name="Document.ВозвратТоваровПоставщику.Form.ФормаДокумента" id="9d784a7c-0470-42f3-9b1d-f72451b0be83" configVersion="02fa9ffa872a87e695b8b17144e883dd960d7272"/>
+		<Metadata name="Document.ВозвратТоваровПоставщику.Form.ФормаДокумента.Form" id="9d784a7c-0470-42f3-9b1d-f72451b0be83.0" configVersion="98e76fa0bf357a352abc20ca5c63ea88d4ab6ddb"/>
+		<Metadata name="Document.ВозвратТоваровПоставщику.ManagerModule" id="910d5b14-e40a-4605-9821-0b30bf0f9460.2" configVersion="65ab0546d3e996b4422fbff2236c753ee841883a"/>
 		<Metadata name="Document.ГрафикИсполненияДоговора" id="4b8215ea-f895-45dd-85e9-ca925ce528a8" configVersion="b25a3b14a91873e9c3e6f7434d7f8698d4afe8ec"/>
 		<Metadata name="Document.ДоговорЗаймаСотруднику" id="9caa81e4-4f8d-44d6-bf32-b3e91efc9454" configVersion="9984cf50fb4b46a0eff483128e3ab2c99d39692d"/>
 		<Metadata name="Document.ЗаказДавальца" id="b93a88d4-76df-4010-bbef-34572d5b2f2a" configVersion="be297f452bee7662043e6cb4dc65f3bb6b4e623f"/>
@@ -1143,6 +1201,10 @@
 			<Metadata name="Enum.СпособыДоставки.EnumValue.СиламиПеревозчикаПоАдресу" id="ba27e378-156c-4bd9-b796-15e7717cb874"/>
 			<Metadata name="Enum.СпособыДоставки.EnumValue.ОтОтправителяОпределяетСлужбаДоставки" id="cd4639f2-357d-431f-926b-5a763ab229bf"/>
 		</Metadata>
+		<Metadata name="Enum.СпособыКомпенсацииВозвратовТоваров" id="de79af31-fc33-4c01-ad95-8b27753a48a2" configVersion="c618a0162647f5d4af574707e86e40e52c530078">
+			<Metadata name="Enum.СпособыКомпенсацииВозвратовТоваров.EnumValue.ВернутьДенежныеСредства" id="96541f66-64b2-4d11-aaaa-78fb64f252b5"/>
+			<Metadata name="Enum.СпособыКомпенсацииВозвратовТоваров.EnumValue.ОставитьВКачествеАванса" id="c03d4155-785f-4d3e-88e6-3778e6c794d6"/>
+		</Metadata>
 		<Metadata name="Enum.СпособыПланированияОплатыЗаявок" id="8ba14e7c-f963-47ac-a794-fd88c149ad49" configVersion="60c9614c2a2ccf531f20d96a459b7110cac09dcb"/>
 		<Metadata name="Enum.СтавкиНДС" id="596c6eb3-0216-4c3a-abe4-37a1641d4aa6" configVersion="e7d1da810ac594c097d7f9478acbadf2ac454f4b">
 			<Metadata name="Enum.СтавкиНДС.EnumValue.НДС0" id="3735c617-09fd-4fd0-bf07-405190552b5b"/>
@@ -1209,7 +1271,7 @@
 			<Metadata name="Enum.ФормыОплаты.EnumValue.Наличная" id="4af296aa-fa37-4219-9428-33dea0d55b1a"/>
 			<Metadata name="Enum.ФормыОплаты.EnumValue.Безналичная" id="9a057e42-20c1-4c79-9e43-0fb4dd4d13d4"/>
 		</Metadata>
-		<Metadata name="Enum.ХозяйственныеОперации" id="1febf887-f650-49d3-bf7e-c6ce48788985" configVersion="6644e074b03426141009daf641ed6279e2c658f1">
+		<Metadata name="Enum.ХозяйственныеОперации" id="1febf887-f650-49d3-bf7e-c6ce48788985" configVersion="3138efbcdb6eb82a8d577eabc20134ce5675804c">
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.РеализацияБезПереходаПраваСобственности" id="00973d75-c635-44e2-8aeb-d2948bb2096e"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВыплатаЗарплатыЧерезКассу" id="0131bb5c-3dca-449c-95eb-7bb0925019be"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ЗакупкаЧерезПодотчетноеЛицо" id="02df4439-02da-4023-8203-c813bc2917ca"/>
@@ -1227,6 +1289,7 @@
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПеречислениеВБюджет" id="72a950f5-2ded-41b6-8fdb-0be7b5fd0f90"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВозвратДенежныхСредствВДругуюОрганизацию" id="7a9a0c26-c40f-4e45-9495-8e7f78211000"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВыдачаДенежныхСредствПодотчетнику" id="848fb97d-ca22-4907-a4a4-c0aa7090d6bb"/>
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВозвратТоваровПоставщику" id="8d42aa32-7e15-460d-9af0-c2024b14787f"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПередачаНаКомиссию" id="8e48381f-0ad9-492a-94b9-888d8dc4c075"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ОплатаДенежныхСредствВДругуюОрганизацию" id="916e8c5f-3751-44f3-860e-c686bb55433f"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ЗакупкаУПоставщикаРеглУчет" id="a41c1514-5d72-4aa6-b6d4-e48768013cbc"/>
@@ -1235,6 +1298,7 @@
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ЗакупкаВСтранахЕАЭС" id="bc60802a-7790-4542-b70e-35fcf544d02e"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПриемНаКомиссию" id="c9ad67ad-e2aa-477f-8e99-c255f2d88c8c"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВнутренняяПередачаДенежныхСредств" id="cd4e4ea9-6cdd-484e-b492-b1e822b8bb33"/>
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВозвратТоваровКомитенту" id="d4c23cb2-0004-493e-9073-b496a7949fb3"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПрочаяВыдачаДенежныхСредств" id="d87f00a9-7128-4154-94a2-abfe1b852b21"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.РеализацияКлиентуРеглУчет" id="d92a7420-c2e9-4628-871a-4791c823583b"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВыплатаЗарплатыНаЛицевыеСчета" id="d9cabab5-8e5f-4688-adba-1a9f27faeca1"/>

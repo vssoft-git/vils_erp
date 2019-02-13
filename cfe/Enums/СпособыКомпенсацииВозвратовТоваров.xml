@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="de79af31-fc33-4c01-ad95-8b27753a48a2">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыКомпенсацииВозвратовТоваров" category="Ref">
+				<xr:TypeId>3d655cc6-a86e-4dea-8a89-4c6c2bf52124</xr:TypeId>
+				<xr:ValueId>54230e47-a0cc-4428-a7fe-db970abc5f42</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыКомпенсацииВозвратовТоваров" category="Manager">
+				<xr:TypeId>3d8f41f4-83d5-4707-b418-d392111e6cf0</xr:TypeId>
+				<xr:ValueId>33080275-03cc-47f8-b788-b6f886884a7c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыКомпенсацииВозвратовТоваров" category="List">
+				<xr:TypeId>a3c03d84-d7e1-421d-95e5-7359de4d2b5f</xr:TypeId>
+				<xr:ValueId>8a0c7c13-2dd2-452c-8695-522ee43d071f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СпособыКомпенсацииВозвратовТоваров</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="96541f66-64b2-4d11-aaaa-78fb64f252b5">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВернутьДенежныеСредства</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c03d4155-785f-4d3e-88e6-3778e6c794d6">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОставитьВКачествеАванса</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
