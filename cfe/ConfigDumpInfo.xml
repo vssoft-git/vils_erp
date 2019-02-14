@@ -1150,7 +1150,53 @@
 		<Metadata name="Document.СчетНаОплатуКлиенту.ManagerModule" id="eeec84f8-4463-4b8a-8116-ab87e70e3c03.2" configVersion="0d419ec02106e5a66adf05da110eaf0e5d9caa58"/>
 		<Metadata name="Document.СчетФактураВыданный" id="e7e61963-271d-4599-86aa-dd9ede7fee77" configVersion="a8f26b53f27009d9e6056fe1f37a7af17830a710"/>
 		<Metadata name="Document.СчетФактураВыданный.ManagerModule" id="e7e61963-271d-4599-86aa-dd9ede7fee77.2" configVersion="8fa653f2873577496a78e2f49318ea984cb11df2"/>
-		<Metadata name="Document.ТранспортнаяНакладная" id="2588006c-d478-45a5-8e4b-2c7126fde17c" configVersion="e8d3fc5b50f0a8a1b1be0c0d9fd2e4db9e403c86"/>
+		<Metadata name="Document.ТранспортнаяНакладная" id="2588006c-d478-45a5-8e4b-2c7126fde17c" configVersion="c86420668fe80d6435346a05f27295eeaf80d015">
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.БанковскийСчетПлательщика" id="0ffd945c-7a16-4f2d-adc3-7f950688aba3"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.Отпустил" id="13738691-f830-493b-bd2f-9100639d3cab"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ДоверенностьЛицо" id="16759c5f-7575-4997-8e2a-a20390ee3cf1"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.АвтомобильМарка" id="167641ae-5021-40a6-b96d-4d0a48ff2883"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ЗаказчикПеревозки" id="1aa62cad-0c2c-41cb-9961-903e9e74cd83"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.Водитель" id="1f5d2418-b57d-4b36-b99b-34f1fff8a240"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.Грузоотправитель" id="2854fc57-7c56-40f5-acd6-92f603dfeb2e"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ВидПеревозки" id="2f2af824-7540-4a40-a4e2-d6b4b2c96fd1"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ГлавныйБухгалтер" id="38b7f5ca-db4c-4bab-a94e-817026d66195"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.АвтомобильТип" id="3d1f0572-be27-473f-979c-9ee380865506"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.УдостоверениеСерия" id="4323904a-1d71-4089-b79b-b43727845967"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ДоверенностьНомер" id="440aad17-923b-4629-bebb-53d8775bd996"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.СрокДоставки" id="54e488c7-424b-4481-ad9a-bf7c29940229"/>
+			<Metadata name="Document.ТранспортнаяНакладная.TabularSection.ДокументыОснования" id="5c6f0078-cab9-499d-9564-133e2748f5e8"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ЗаданиеНаПеревозку" id="614c6d21-363e-4713-993a-4076af219444"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.АдресПогрузки" id="62fe2fa4-6984-480f-b79a-b6ecd54f34a4"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.Прицеп" id="63a30f7c-0888-4512-a2b4-dd37a3d26274"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ГосударственныйНомерПрицепа" id="64444129-0056-4868-bd08-a821df470bc3"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.Грузополучатель" id="64e2eae4-702b-48e4-b3d3-c30782490e84"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.АвтомобильВместимостьВКубическихМетрах" id="69b1dd15-4316-4d63-b4f1-cdcfadb1209a"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.АвтомобильГосударственныйНомер" id="71b7540d-34f9-4070-9aa1-8bf67b02ba89"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.АдресДоставки" id="74a76b14-1a65-4f2f-a481-720e65170bae"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.Перевозчик" id="7a30809f-9a54-4c9d-818d-db89f85b3ebf"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.БанковскийСчетПеревозчика" id="839aa0b4-7913-4888-bd4f-fe96e6e45cfa"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.МассаБрутто" id="84d776fe-74b1-408f-88cd-9f0c3d98ebb2"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.Руководитель" id="8644a96b-19fe-48d0-8303-68dc322e0349"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ЛицензионнаяКарточкаНомер" id="8783fcd1-583a-4f9d-b255-899af0cfce63"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.АвтомобильГрузоподъемностьВТоннах" id="89431847-6bba-4a91-a65b-55cb5763ea37"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.Плательщик" id="91611e18-5314-4ca2-b780-fdea3c438666"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.БанковскийСчетЗаказчикаПеревозки" id="9e1d2e52-ab6c-49a3-a11f-08468c2b1d14"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ВыводДанныхОТоварномСоставе" id="9ee66478-cd07-4658-8afe-38a2a7694833"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ОтпустилДолжность" id="9f907bc1-cbc6-42e8-b83a-694611406c0e"/>
+			<Metadata name="Document.ТранспортнаяНакладная.TabularSection.ДокументыОснования.Attribute.ДокументОснование" id="a3e15007-29d4-4b97-8b76-9469624a4485"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.МассаНетто" id="a5e65f63-07fa-402e-8eaf-8ed4d480db1b"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.Организация" id="b2e44139-8e84-49d7-b553-b0c93500b65b"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ЛицензионнаяКарточкаРегистрационныйНомер" id="b454650e-4d72-42a6-a7e8-f59c6eed7be7"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ДоверенностьДата" id="c482a032-b590-49d5-a0ce-194b03746ed2"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ДоверенностьВыдана" id="d196f5b3-1f19-4396-a6cd-4c8d411c5f8f"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ЛицензионнаяКарточкаСерия" id="d316686e-543c-4e3e-982d-d1385d312de7"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.УдостоверениеНомер" id="d3e9172b-5b7e-4655-b746-189326725c50"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ЛицензионнаяКарточкаВид" id="def4088d-bdf9-4247-b30e-2c47c9d41360"/>
+			<Metadata name="Document.ТранспортнаяНакладная.Attribute.Комментарий" id="eaa55670-e904-4402-bb52-01565116964e"/>
+		</Metadata>
+		<Metadata name="Document.ТранспортнаяНакладная.Form.ФормаДокумента" id="e488eaa1-7ccd-4cf0-8210-e21d879e148e" configVersion="28f906cca4a2b8703ff435b9ab2efc0d06046e43"/>
+		<Metadata name="Document.ТранспортнаяНакладная.Form.ФормаДокумента.Form" id="e488eaa1-7ccd-4cf0-8210-e21d879e148e.0" configVersion="f27d72d486c38071e655da9ef2981782a31539c9"/>
+		<Metadata name="Document.ТранспортнаяНакладная.ManagerModule" id="2588006c-d478-45a5-8e4b-2c7126fde17c.2" configVersion="051a2e8aa0581bbc195cf4e69393f15e1b5dda00"/>
 		<Metadata name="Document.УведомлениеОЗачисленииВалюты" id="b280c0be-1b71-498d-9245-23a15bc5f035" configVersion="04e6150a71f7ac92ffcb9bb3fbf9ae8933c353a7"/>
 		<Metadata name="Enum.ВариантыВыводаДанныхОТоварномСоставе" id="98a0d882-11bb-4ef6-8612-6b55ba6336f6" configVersion="8db3256fce0600b37aadda343d7639f6135098e4">
 			<Metadata name="Enum.ВариантыВыводаДанныхОТоварномСоставе.EnumValue.НомераНакладных" id="07ee378d-8e0a-42b5-9499-50caac07f14f"/>
