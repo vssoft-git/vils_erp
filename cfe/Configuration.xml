@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>96eb6f65-8fba-451a-b398-6ba386901848</xr:ObjectId>
+				<xr:ObjectId>87977833-08d7-486e-acd2-51516d865a82</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -347,6 +347,7 @@
 			<Catalog>КонтактныеЛицаПартнеров</Catalog>
 			<Catalog>КодыОперацийРаздела7ДекларацииПоНДС</Catalog>
 			<Catalog>ДоговорыКонтрагентовПрисоединенныеФайлы</Catalog>
+			<Catalog>ВидыКонтактнойИнформации</Catalog>
 			<Document>ПриобретениеТоваровУслуг</Document>
 			<Document>ЗаявкаНаРасходованиеДенежныхСредств</Document>
 			<Document>ЗаявлениеСотрудникаНаВыплатуПособия</Document>
@@ -373,6 +374,7 @@
 			<Document>ЗаказДавальца</Document>
 			<Document>ПередачаДавальцу</Document>
 			<Document>ВозвратТоваровПоставщику</Document>
+			<Document>ЗаданиеНаПеревозку</Document>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
 			<Enum>ПорядокОплатыПоСоглашениям</Enum>
 			<Enum>ХозяйственныеОперации</Enum>
@@ -416,6 +418,7 @@
 			<Enum>ВидыАгентскихДоговоров</Enum>
 			<Enum>СтатусыНаправленияДеятельности</Enum>
 			<Enum>СпособыКомпенсацииВозвратовТоваров</Enum>
+			<Enum>ВариантыВыводаДанныхОТоварномСоставе</Enum>
 			<DataProcessor>ПодборСерийВДокументы</DataProcessor>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
@@ -423,6 +426,7 @@
 			<DataProcessor>ПечатьАктОбОказанииУслуг</DataProcessor>
 			<DataProcessor>ПечатьСчетовНаОплату</DataProcessor>
 			<DataProcessor>ПечатьОбщихФорм</DataProcessor>
+			<DataProcessor>ПечатьТранспортнойНакладной</DataProcessor>
 			<InformationRegister>НаличиеФайлов</InformationRegister>
 			<AccumulationRegister>ДенежныеСредстваКВыплате</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиРасходов</ChartOfCharacteristicTypes>

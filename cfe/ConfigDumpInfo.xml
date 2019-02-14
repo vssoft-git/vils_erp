@@ -14,6 +14,7 @@
 		<Metadata name="Catalog.БизнесРегионы" id="5749a1ea-78e3-4943-8b57-e3ed2f113e24" configVersion="830c6f05ffa5d373c044c5938d6da77181458f65"/>
 		<Metadata name="Catalog.Валюты" id="73967426-a219-45a5-ad2d-4fcf3c7f9332" configVersion="07df24a69fdf4acc369f22fe6d8d460891936142"/>
 		<Metadata name="Catalog.ВидыЗапасов" id="2f8fddc0-3c78-4d92-8204-5f3004749847" configVersion="1b68f1f3ba0b1ff9507ada355da34810a4a80b85"/>
+		<Metadata name="Catalog.ВидыКонтактнойИнформации" id="88711739-9f57-4e74-b417-365e28556f09" configVersion="387aab3b6f3dc49b948f4cb4235c73ac78f657de"/>
 		<Metadata name="Catalog.ВидыНоменклатуры" id="08a77d4b-a491-46d2-ab14-44c494e22f2b" configVersion="4cc650ebade540be6a8bf920fda70fbea42a39d1"/>
 		<Metadata name="Catalog.ВидыПодтверждающихДокументов" id="09b1ed75-af7a-4c6a-a3e8-98c5154d2d73" configVersion="977c573fbda89e8aa1f1cb87880de1f8779f4b25"/>
 		<Metadata name="Catalog.ВидыЦен" id="66b2ae35-9b2d-4238-9dbd-56543137471e" configVersion="447b82677f2adbbd9ae2b66de12ab23d3e2f5e92"/>
@@ -322,7 +323,7 @@
 		<Metadata name="CommonPicture.СтатусПроверкиЭП" id="c9d92805-1d54-453f-a3dd-584e7fe93d89" configVersion="2bc67cb8d7798b73bd493d8f6e9b48d112019598"/>
 		<Metadata name="CommonPicture.СтатусыУказанияСерий" id="79fb75d2-a40a-4e38-b7fa-993ab5ffcc93" configVersion="92cf0ef772fbb59deec95a641715fbbb4d7865dc"/>
 		<Metadata name="CommonPicture.СчитатьКартуЛояльности" id="c58bbabd-82af-4ce8-9eec-6d4201c96537" configVersion="d8da3273b15df76e4a334d68402bd8392424fbae"/>
-		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="ef9dc05a56aacd064452a90b80c741119769401a"/>
+		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="765413164e29e4ec7a573dd745166dbcdbcacc7e"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="2d3d01ef-e545-4150-a6c6-5d7520ca086c" configVersion="ffbf25b1ccd42c35ee4ef2dc7390091df9f1a092"/>
 		<Metadata name="Constant.ИспользоватьДоговорыКредитовИДепозитов" id="07235db3-3bad-4d9e-b7de-adf354ae28ed" configVersion="7cc1ae8aedead2a7aae016679c27710cf975ef8d"/>
 		<Metadata name="Constant.ИспользоватьЕжедневныеОтчеты1СДокументооборота" id="c1de355d-c2e7-414f-92f5-cea13ac1b02d" configVersion="eaecf171d6cbdf46507e81e85ab5c5476522cadb"/>
@@ -392,6 +393,8 @@
 		<Metadata name="DataProcessor.ПечатьСчетовНаОплату.ManagerModule" id="782e61bb-d1f5-48a7-be6d-7ecf9ac63f58.2" configVersion="0ad72247dc65d9495300468ad96aca1671b64fdc"/>
 		<Metadata name="DataProcessor.ПечатьСчетовНаОплату.Template.ВИЛС_ПФ_MXL_СчетНаОплату" id="c1c47112-6eec-4022-886a-6783239934fd" configVersion="31eebcb98cce0f7ffa815dd06dfa2a64852ede69"/>
 		<Metadata name="DataProcessor.ПечатьСчетовНаОплату.Template.ВИЛС_ПФ_MXL_СчетНаОплату.Template" id="c1c47112-6eec-4022-886a-6783239934fd.0" configVersion="a7fa7eec75fc2992310486cb7c54ce8d50573692"/>
+		<Metadata name="DataProcessor.ПечатьТранспортнойНакладной" id="f9bda4e6-1560-4954-b5a3-3667ee810813" configVersion="1b2865138b4b1d219a2d8df835fcffdfa5cf33c1"/>
+		<Metadata name="DataProcessor.ПечатьТранспортнойНакладной.ManagerModule" id="f9bda4e6-1560-4954-b5a3-3667ee810813.2" configVersion="c9352b47b5cb560c90aa379aaa0aaca16baf95d8"/>
 		<Metadata name="DataProcessor.ПодборСерийВДокументы" id="729b98c7-11ce-45d5-8474-5bac42397276" configVersion="5ec8113cd05c434c5aa73ff871858cb48f5dcc91">
 			<Metadata name="DataProcessor.ПодборСерийВДокументы.TabularSection.Серии.Attribute.СтатусРаботыRFID" id="246aa71e-b04b-4caf-97b7-30090ef26d3e"/>
 			<Metadata name="DataProcessor.ПодборСерийВДокументы.TabularSection.Серии.Attribute.ПроизводительЕГАИС" id="3570551d-45c8-4588-adc4-b0c6e6c63f5d"/>
@@ -613,6 +616,7 @@
 		<Metadata name="Document.ВозвратТоваровПоставщику.ManagerModule" id="910d5b14-e40a-4605-9821-0b30bf0f9460.2" configVersion="65ab0546d3e996b4422fbff2236c753ee841883a"/>
 		<Metadata name="Document.ГрафикИсполненияДоговора" id="4b8215ea-f895-45dd-85e9-ca925ce528a8" configVersion="b25a3b14a91873e9c3e6f7434d7f8698d4afe8ec"/>
 		<Metadata name="Document.ДоговорЗаймаСотруднику" id="9caa81e4-4f8d-44d6-bf32-b3e91efc9454" configVersion="9984cf50fb4b46a0eff483128e3ab2c99d39692d"/>
+		<Metadata name="Document.ЗаданиеНаПеревозку" id="82aee940-cafd-4e0e-af12-0c21a99ece5a" configVersion="bbdd741a9aed24f385511a99f62fccfcae82cd8c"/>
 		<Metadata name="Document.ЗаказДавальца" id="b93a88d4-76df-4010-bbef-34572d5b2f2a" configVersion="be297f452bee7662043e6cb4dc65f3bb6b4e623f"/>
 		<Metadata name="Document.ЗаказКлиента" id="cc531864-c091-4e05-a832-71ba731709bc" configVersion="245aaa79e09efeb302bcc0911402c664a5c3fc69"/>
 		<Metadata name="Document.ЗаказКлиента.ManagerModule" id="cc531864-c091-4e05-a832-71ba731709bc.2" configVersion="667b749f9ac2acfdebd6257729e01901db370d2b"/>
@@ -1148,6 +1152,10 @@
 		<Metadata name="Document.СчетФактураВыданный.ManagerModule" id="e7e61963-271d-4599-86aa-dd9ede7fee77.2" configVersion="8fa653f2873577496a78e2f49318ea984cb11df2"/>
 		<Metadata name="Document.ТранспортнаяНакладная" id="2588006c-d478-45a5-8e4b-2c7126fde17c" configVersion="e8d3fc5b50f0a8a1b1be0c0d9fd2e4db9e403c86"/>
 		<Metadata name="Document.УведомлениеОЗачисленииВалюты" id="b280c0be-1b71-498d-9245-23a15bc5f035" configVersion="04e6150a71f7ac92ffcb9bb3fbf9ae8933c353a7"/>
+		<Metadata name="Enum.ВариантыВыводаДанныхОТоварномСоставе" id="98a0d882-11bb-4ef6-8612-6b55ba6336f6" configVersion="8db3256fce0600b37aadda343d7639f6135098e4">
+			<Metadata name="Enum.ВариантыВыводаДанныхОТоварномСоставе.EnumValue.НомераНакладных" id="07ee378d-8e0a-42b5-9499-50caac07f14f"/>
+			<Metadata name="Enum.ВариантыВыводаДанныхОТоварномСоставе.EnumValue.ТоварныйСостав" id="10fb88ff-26b6-4c45-a701-ffaff95b8b8d"/>
+		</Metadata>
 		<Metadata name="Enum.ВариантыИспользованияПериодаНачисления" id="5047a530-5820-4f53-a5e9-aae27c525829" configVersion="7a8772035ce16e410f1526aac9e8113452296a74"/>
 		<Metadata name="Enum.ВариантыОплатыПоставщику" id="98b3ddf1-54af-494b-b758-674fc6ccd962" configVersion="714f208bd6d7e4a1fe84e206129669f6b8c9f75d">
 			<Metadata name="Enum.ВариантыОплатыПоставщику.EnumValue.КредитПослеПоступления" id="3f490531-422c-43a0-858f-10b89f1ce898"/>
