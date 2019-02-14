@@ -194,6 +194,66 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<TabularSection uuid="263d2c54-6b0b-4d91-b04a-e7e9d95b5518">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.Контрагенты.КонтактнаяИнформация" category="TabularSection">
+						<xr:TypeId>d5688b89-275e-46b4-b7b0-bd4ca3ba081e</xr:TypeId>
+						<xr:ValueId>b992cc35-3cf5-43e3-9a75-22df0c4f6cb5</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.Контрагенты.КонтактнаяИнформация" category="TabularSectionRow">
+						<xr:TypeId>b46a4d14-a6f1-4fb9-bf52-558b951f9b33</xr:TypeId>
+						<xr:ValueId>87278296-a622-4c6e-aff6-4c5357923fe5</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>КонтактнаяИнформация</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="71480b95-3bc7-43ca-885e-740f9e1a6681">
+						<InternalInfo/>
+						<Properties>
+							<Name>Представление</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>500</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="48d90506-daed-4f50-b4d5-0ccc01aa1707">
+						<InternalInfo/>
+						<Properties>
+							<Name>ЗначенияПолей</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>0</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="7c868616-c3d8-404d-a9a3-25ad371210dc">
+						<InternalInfo/>
+						<Properties>
+							<Name>Вид</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ВидыКонтактнойИнформации</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
 			<Form>ФормаЭлемента</Form>
 		</ChildObjects>
 	</Catalog>
