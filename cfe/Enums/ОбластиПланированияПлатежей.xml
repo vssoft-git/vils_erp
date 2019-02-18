@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="cd424938-f8f5-487e-a21a-4f91bdd7f928">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ОбластиПланированияПлатежей" category="Ref">
+				<xr:TypeId>564006eb-70d5-48de-9ec3-b2b07a287106</xr:TypeId>
+				<xr:ValueId>09a431a1-62d4-4250-93e7-8d97d2a45469</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ОбластиПланированияПлатежей" category="Manager">
+				<xr:TypeId>ef5dcce8-6bab-4b53-8ae5-1e78e9535ef7</xr:TypeId>
+				<xr:ValueId>78b93099-a15e-4715-b334-b0959403ed84</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ОбластиПланированияПлатежей" category="List">
+				<xr:TypeId>d1aa962a-71d9-4c94-8208-99e167226732</xr:TypeId>
+				<xr:ValueId>6ce76774-663a-42b3-908c-8c6c14357629</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОбластиПланированияПлатежей</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="ca69262e-c97e-445c-9fc3-bb8ea987f5bd">
+				<InternalInfo/>
+				<Properties>
+					<Name>РасчетыСКлиентами</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="f484d0f9-a3b0-4ed0-b54f-5439d728748c">
+				<InternalInfo/>
+				<Properties>
+					<Name>Депозиты</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="80b295bf-f901-449e-bf2b-a403566898fc">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЗаявкиНаРасходованиеДенежныхСредств</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b572f59f-734b-4a45-9272-a9aed9e9760b">
+				<InternalInfo/>
+				<Properties>
+					<Name>РаспоряженияНаПеремещениеДенежныхСредств</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="72af4603-9cbf-44c9-a418-cb436baeaee2">
+				<InternalInfo/>
+				<Properties>
+					<Name>РасчетыСПоставщиками</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e1ccf157-d03b-440e-8472-8f5e412a1b78">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВозвратыКлиентам</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="237548e9-dc70-4fc0-b8ff-ee54b604bd11">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДенежныеСредстваВПути</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="609a414b-b2bc-4f3b-8cc7-c6f536d7cacd">
+				<InternalInfo/>
+				<Properties>
+					<Name>КредитыИлиЗаймыПолученные</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="68d25722-41d5-49c7-a149-c4b115cc31d5">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЗаймыВыданные</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="201fbf02-b2a5-49d9-9937-837224b4da1e">
+				<InternalInfo/>
+				<Properties>
+					<Name>Лизинг</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="d70b69d1-fce1-406e-b7f4-133a113a1913">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВозвратыОтПоставщиков</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

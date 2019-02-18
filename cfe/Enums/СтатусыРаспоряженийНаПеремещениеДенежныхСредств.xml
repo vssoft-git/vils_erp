@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="b34fb1ff-8bb0-4df1-ae54-d2180a006576">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыРаспоряженийНаПеремещениеДенежныхСредств" category="Ref">
+				<xr:TypeId>25d070e4-a61b-4733-b49d-d023da3231bd</xr:TypeId>
+				<xr:ValueId>c1d66551-e085-4031-9203-0b05131335b5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыРаспоряженийНаПеремещениеДенежныхСредств" category="Manager">
+				<xr:TypeId>5615a29a-f4ec-4445-ac33-2146236b6871</xr:TypeId>
+				<xr:ValueId>3f2d4405-892e-4584-8200-85326eb9fb58</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыРаспоряженийНаПеремещениеДенежныхСредств" category="List">
+				<xr:TypeId>e30bb3be-b7c8-4287-a9fe-7c2cef692ba2</xr:TypeId>
+				<xr:ValueId>e910cedf-9f56-4aea-81fc-91726394c78f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусыРаспоряженийНаПеремещениеДенежныхСредств</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="ae13c5ed-f0d6-4c3d-b2f7-56787215c975">
+				<InternalInfo/>
+				<Properties>
+					<Name>КОплате</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="9bb83519-8dbe-4cb0-a66d-c23e3445821a">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СправкаОПодтверждающихДокументах" category="Object">
+				<xr:TypeId>e8f05b89-f719-4927-a104-fd93f59cf860</xr:TypeId>
+				<xr:ValueId>81c69e3f-52d4-434c-a2cf-a321564e76d5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СправкаОПодтверждающихДокументах" category="Ref">
+				<xr:TypeId>9531107f-0bd7-4f2a-8920-87d96da7cc83</xr:TypeId>
+				<xr:ValueId>478b9d97-7f68-4656-aa1b-f46236fc3ba3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СправкаОПодтверждающихДокументах" category="Selection">
+				<xr:TypeId>c1a785af-4b35-4ecd-b2cc-a4104e8b68a8</xr:TypeId>
+				<xr:ValueId>90c43672-71b0-4bfd-b406-362e05d9d90d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СправкаОПодтверждающихДокументах" category="List">
+				<xr:TypeId>56868b9a-7ce5-4f1d-8f24-86fe53d419cd</xr:TypeId>
+				<xr:ValueId>393bb0da-c7d3-45bd-ac94-b375ba62612d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СправкаОПодтверждающихДокументах" category="Manager">
+				<xr:TypeId>4161cd02-175b-4284-884e-47164075fd80</xr:TypeId>
+				<xr:ValueId>564b737a-a5f9-4d0c-b2ff-0fdbdc2da76f</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СправкаОПодтверждающихДокументах</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Variable</NumberAllowedLength>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="6270d2fe-f7f2-4ab8-87f0-ab442086ca7e">
+				<InternalInfo/>
+				<Properties>
+					<Name>Организация</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9b93fe03-a338-4bec-9c7a-c5fd62722f5d">
+				<InternalInfo/>
+				<Properties>
+					<Name>Банк</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.КлассификаторБанков</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4ae85941-f897-43e4-9fd2-b25707816f0e">
+				<InternalInfo/>
+				<Properties>
+					<Name>Договор</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ДоговорыКонтрагентов</v8:Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

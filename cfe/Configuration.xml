@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>e3105dab-8a90-4164-84c2-4f0a21c69519</xr:ObjectId>
+				<xr:ObjectId>bad33343-8856-4080-a661-61673ee2bc6d</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -149,6 +149,14 @@
 			<CommonPicture>Набор</CommonPicture>
 			<CommonPicture>Наборы</CommonPicture>
 			<CommonPicture>ЗаполнитьЦеныПоВидуЦен</CommonPicture>
+			<CommonPicture>ОформитьПоРаспоряжению</CommonPicture>
+			<CommonPicture>Успешно</CommonPicture>
+			<CommonPicture>СинхронизацияДанных</CommonPicture>
+			<CommonPicture>СостоянияДокумента</CommonPicture>
+			<CommonPicture>СостояниеПроверкиКонтрагента</CommonPicture>
+			<CommonPicture>СостоянияОбменСБанками</CommonPicture>
+			<CommonPicture>ЗначокПлюс</CommonPicture>
+			<CommonPicture>ЗначокМинус</CommonPicture>
 			<CommonModule>ДенежныеСредстваСервер</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
 			<CommonModule>ИнтеграцияС1СДокументооборотПереопределяемый</CommonModule>
@@ -221,6 +229,9 @@
 			<FunctionalOption>ИспользоватьЗаявкиНаРасходованиеДенежныхСредств</FunctionalOption>
 			<FunctionalOption>ИспользоватьРаздельныйУчетПоНалогообложению</FunctionalOption>
 			<FunctionalOption>ОтветственныйВДокументах</FunctionalOption>
+			<FunctionalOption>ИспользоватьОбменСБанками</FunctionalOption>
+			<FunctionalOption>ИспользоватьИнтеграциюСЯндексКассой</FunctionalOption>
+			<FunctionalOption>НеИспользоватьЗаявкиНаРасходованиеДенежныхСредств</FunctionalOption>
 			<DefinedType>НомерКиЗГИСМ</DefinedType>
 			<DefinedType>RFIDTID</DefinedType>
 			<DefinedType>GTIN</DefinedType>
@@ -232,6 +243,8 @@
 			<DefinedType>ВладелецПрисоединенныхФайлов</DefinedType>
 			<DefinedType>ЗначениеПоказателяРасчетаЗарплаты</DefinedType>
 			<DefinedType>ОснованиеНачисления</DefinedType>
+			<DefinedType>ОбъектОплаты</DefinedType>
+			<DefinedType>ВладелецОбменСБанками</DefinedType>
 			<Constant>ИспользоватьПодключаемоеОборудование</Constant>
 			<Constant>ИспользоватьПоступлениеПоНесколькимЗаказам</Constant>
 			<Constant>ИспользоватьСерииНоменклатуры</Constant>
@@ -281,6 +294,9 @@
 			<Constant>ИспользоватьЗаявкиНаРасходованиеДенежныхСредств</Constant>
 			<Constant>ИспользоватьРаздельныйУчетПоНалогообложению</Constant>
 			<Constant>ОтветственныйВДокументах</Constant>
+			<Constant>ИспользоватьОбменСБанками</Constant>
+			<Constant>НеИспользоватьЗаявкиНаРасходованиеДенежныхСредств</Constant>
+			<Constant>ИспользоватьИнтеграциюСЯндексКассой</Constant>
 			<CommonForm>РеквизитыПечатиРеализации</CommonForm>
 			<Catalog>ПредприятияВЕТИС</Catalog>
 			<Catalog>ЗаписиСкладскогоЖурналаВЕТИС</Catalog>
@@ -348,6 +364,9 @@
 			<Catalog>КодыОперацийРаздела7ДекларацииПоНДС</Catalog>
 			<Catalog>ДоговорыКонтрагентовПрисоединенныеФайлы</Catalog>
 			<Catalog>ВидыКонтактнойИнформации</Catalog>
+			<Catalog>КлючиРеестраДокументов</Catalog>
+			<Catalog>КлассификаторБанков</Catalog>
+			<Catalog>ИдентификаторыОбъектовМетаданных</Catalog>
 			<Document>ПриобретениеТоваровУслуг</Document>
 			<Document>ЗаявкаНаРасходованиеДенежныхСредств</Document>
 			<Document>ЗаявлениеСотрудникаНаВыплатуПособия</Document>
@@ -375,6 +394,7 @@
 			<Document>ПередачаДавальцу</Document>
 			<Document>ВозвратТоваровПоставщику</Document>
 			<Document>ЗаданиеНаПеревозку</Document>
+			<Document>СправкаОПодтверждающихДокументах</Document>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
 			<Enum>ПорядокОплатыПоСоглашениям</Enum>
 			<Enum>ХозяйственныеОперации</Enum>
@@ -419,6 +439,10 @@
 			<Enum>СтатусыНаправленияДеятельности</Enum>
 			<Enum>СпособыКомпенсацииВозвратовТоваров</Enum>
 			<Enum>ВариантыВыводаДанныхОТоварномСоставе</Enum>
+			<Enum>СостоянияОбменСБанками</Enum>
+			<Enum>ОбластиПланированияПлатежей</Enum>
+			<Enum>СтатусыРаспоряженийНаПеремещениеДенежныхСредств</Enum>
+			<Enum>ТипыДвиженияДенежныхСредств</Enum>
 			<DataProcessor>ПодборСерийВДокументы</DataProcessor>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
@@ -428,6 +452,10 @@
 			<DataProcessor>ПечатьОбщихФорм</DataProcessor>
 			<DataProcessor>ПечатьТранспортнойНакладной</DataProcessor>
 			<InformationRegister>НаличиеФайлов</InformationRegister>
+			<InformationRegister>РеестрДокументов</InformationRegister>
+			<InformationRegister>ГрафикПлатежей</InformationRegister>
+			<InformationRegister>СостоянияОбменСБанками</InformationRegister>
+			<InformationRegister>ДокументыСОшибкамиПроверкиКонтрагентов</InformationRegister>
 			<AccumulationRegister>ДенежныеСредстваКВыплате</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиРасходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>СтатьиАктивовПассивов</ChartOfCharacteristicTypes>

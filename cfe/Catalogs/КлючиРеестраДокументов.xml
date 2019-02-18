@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Catalog uuid="3a6a8f75-aff7-447f-8bda-d11e14f6ed1f">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.КлючиРеестраДокументов" category="Object">
+				<xr:TypeId>e8db4ad3-2626-4eab-801e-72fdb9a1ae4f</xr:TypeId>
+				<xr:ValueId>2eff395f-9108-4084-872c-2c221613fbc5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.КлючиРеестраДокументов" category="Ref">
+				<xr:TypeId>5947b150-b2ab-4a3f-a9de-8ce6ad615b86</xr:TypeId>
+				<xr:ValueId>8f8bdd52-b631-4c90-8dd0-b77dbc7b0102</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.КлючиРеестраДокументов" category="Selection">
+				<xr:TypeId>893461dc-54e4-4788-98d2-51d172f3d906</xr:TypeId>
+				<xr:ValueId>277622a1-a7ea-4dfc-b45c-8d6ffb9fe6e1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.КлючиРеестраДокументов" category="List">
+				<xr:TypeId>8c078712-ee9e-457e-aefe-f08586e40d7b</xr:TypeId>
+				<xr:ValueId>90af01c2-a927-43ce-af38-773137c3b603</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.КлючиРеестраДокументов" category="Manager">
+				<xr:TypeId>3d603ceb-bc2c-4db8-874b-442de033c3d3</xr:TypeId>
+				<xr:ValueId>39084713-91fb-444c-9830-d0713d63fb39</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КлючиРеестраДокументов</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<DescriptionLength>150</DescriptionLength>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="959a1f1c-9c48-4a56-b697-1bc05835f5fd">
+				<InternalInfo/>
+				<Properties>
+					<Name>Ключ</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+		</ChildObjects>
+	</Catalog>
+</MetaDataObject>
