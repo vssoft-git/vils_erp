@@ -639,8 +639,38 @@
 		<Metadata name="Document.ВозвратТоваровПоставщику.Form.ФормаДокумента.Form" id="9d784a7c-0470-42f3-9b1d-f72451b0be83.0" configVersion="98e76fa0bf357a352abc20ca5c63ea88d4ab6ddb"/>
 		<Metadata name="Document.ВозвратТоваровПоставщику.ManagerModule" id="910d5b14-e40a-4605-9821-0b30bf0f9460.2" configVersion="65ab0546d3e996b4422fbff2236c753ee841883a"/>
 		<Metadata name="Document.ГрафикИсполненияДоговора" id="4b8215ea-f895-45dd-85e9-ca925ce528a8" configVersion="b25a3b14a91873e9c3e6f7434d7f8698d4afe8ec"/>
-		<Metadata name="Document.ДвижениеПродукцииИМатериалов" id="cb9dbdce-f76e-4837-a99e-41893155cec8" configVersion="65a30f8a996878ec3e5e4cd281084772664779d7"/>
-		<Metadata name="Document.ДвижениеПродукцииИМатериалов.ManagerModule" id="cb9dbdce-f76e-4837-a99e-41893155cec8.2" configVersion="542a1851c077eee7397c4b9a1cd34d3cc7ddca90"/>
+		<Metadata name="Document.ДвижениеПродукцииИМатериалов" id="cb9dbdce-f76e-4837-a99e-41893155cec8" configVersion="48562aa96dd9cfcaaa6b1f3e524d5af853e106f8">
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.TabularSection.Товары.Attribute.Цена" id="0533e49d-6ba8-4926-bd4b-48a06af5f7de"/>
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.Attribute.ВИЛС_ЗаказКлиента" id="0bb881dd-2b00-48fc-b074-b30a6b68cb66"/>
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.Attribute.НаправлениеДеятельности" id="0d63711f-1aa8-43e7-bfbc-7189ccc11e57"/>
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.TabularSection.Товары.Attribute.Серия" id="11db1cff-82cd-43e1-90b5-fe7479ef8736"/>
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.TabularSection.Товары.Attribute.Номенклатура" id="124f3ab8-b846-4236-a35a-150f8511c515"/>
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.TabularSection.Товары.Attribute.КоличествоУпаковок" id="23f06cb6-519d-449c-82af-e4e7cb2f63b5"/>
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.TabularSection.Товары.Attribute.Назначение" id="409abdae-e60c-4169-9a63-dba70b30bfc5"/>
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.Attribute.ВидЦены" id="420d2ea3-8cdc-411f-bebd-8b98c6f0b09f"/>
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.Attribute.Статус" id="4b2c570e-e3c2-4e5c-8605-9d686b1175c0"/>
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.Attribute.Ответственный" id="67a80f43-d7d3-4a1a-bf50-d496642a8d89"/>
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.TabularSection.Товары.Attribute.Характеристика" id="69699660-7c70-4494-8ccf-0ebca2ffdb76"/>
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.TabularSection.Товары.Attribute.СтатусУказанияСерий" id="6b5be50b-c9e1-4871-9298-006d0c97cc8c"/>
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.Attribute.Распоряжение" id="6bb8fe54-10a5-4d07-a7ed-e7d8a5f4533c"/>
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.Attribute.Отправитель" id="72d8ed7b-0566-4b89-aa31-718f75026a95"/>
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.Attribute.НалогообложениеНДС" id="72f05f97-f7fc-4345-a79f-f25027bcad56"/>
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.TabularSection.Товары.Attribute.КодСтроки" id="895816f2-8d0f-47cf-a498-82af1bff8626"/>
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.Attribute.ХозяйственнаяОперация" id="8ec0410c-e997-4772-98c1-9a201a38bd34"/>
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.TabularSection.Товары.Attribute.Упаковка" id="9cdb843b-8abe-4f14-b113-e4d4447e52cf"/>
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.Attribute.Организация" id="a0b1cea4-7431-4057-b19f-d077d05572cf"/>
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.Attribute.Получатель" id="a1578845-91fb-4848-8648-cb5ca7fcbd95"/>
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.Attribute.Комментарий" id="afc93333-f8d9-4c52-8fee-b79df6df8c1c"/>
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.TabularSection.Товары.Attribute.Сумма" id="b465d922-49e6-4bfd-8973-d19a4e6dd222"/>
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.Attribute.ОрганизацияПолучатель" id="d23a883f-f4b1-4f7c-8b3b-8d00fa2032d8"/>
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.TabularSection.Товары.Attribute.ГруппаПродукции" id="d9b2da84-997d-46ba-84bb-9135a7b0e0a7"/>
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.Attribute.ПоРаспоряжениям" id="daa39892-4688-463a-b528-ca55a0bfe879"/>
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.TabularSection.Товары.Attribute.Распоряжение" id="e0f60289-3537-4d8e-9efc-5af181ac812a"/>
+			<Metadata name="Document.ДвижениеПродукцииИМатериалов.TabularSection.Товары" id="fc65aa37-2190-4ac3-a70a-c1b91418b30a"/>
+		</Metadata>
+		<Metadata name="Document.ДвижениеПродукцииИМатериалов.Form.ФормаДокумента" id="8caaf166-d5fb-495f-a68d-080c5b65ae4f" configVersion="508e4ccd0b83a3ac56b446287b9f91594dd03be3"/>
+		<Metadata name="Document.ДвижениеПродукцииИМатериалов.Form.ФормаДокумента.Form" id="8caaf166-d5fb-495f-a68d-080c5b65ae4f.0" configVersion="1bc7cdb34e3adefe57be13edb09ae875719bb2c2"/>
+		<Metadata name="Document.ДвижениеПродукцииИМатериалов.ManagerModule" id="cb9dbdce-f76e-4837-a99e-41893155cec8.2" configVersion="b2a5dd739d99a5102cdca6da8e1da7e69cefc782"/>
 		<Metadata name="Document.ДвижениеПродукцииИМатериалов.Template.ПФ_MXL_М11" id="97c961ad-c372-4c46-aa0c-a3839bc04f0e" configVersion="58c24f5766bd5c949a5a091673548da2a484b178"/>
 		<Metadata name="Document.ДвижениеПродукцииИМатериалов.Template.ПФ_MXL_М11.Template" id="97c961ad-c372-4c46-aa0c-a3839bc04f0e.0" configVersion="d962f531c22b935a45fae737d047bb1dfa907148"/>
 		<Metadata name="Document.ДоговорЗаймаСотруднику" id="9caa81e4-4f8d-44d6-bf32-b3e91efc9454" configVersion="9984cf50fb4b46a0eff483128e3ab2c99d39692d"/>
