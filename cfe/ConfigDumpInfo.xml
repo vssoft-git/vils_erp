@@ -299,6 +299,7 @@
 		<Metadata name="CommonPicture.Наборы" id="e6c34922-c0a0-43a3-984d-ca0be08c9d91" configVersion="10bfbbdd57bf488d0aa2c9d817d6fc786c1bec8e"/>
 		<Metadata name="CommonPicture.НовыйПоШтрихкоду" id="d9729f30-6012-49f6-8a1f-6b45a1f67d1e" configVersion="3c74427ad0b0fe73e607bc7ed4572dace2a1bd80"/>
 		<Metadata name="CommonPicture.ОбновитьФайлИзФайлаНаДиске" id="26391224-6439-45dd-844d-8b22f7a052ca" configVersion="0a1f2672762b8f537942c9b4cf5d9ca55d577ac1"/>
+		<Metadata name="CommonPicture.ОкруглитьДоЦелойЕдиницы" id="c1a08cc6-0a7e-4294-9234-e19f70ef1416" configVersion="52468c29ee709ce5bd84c7d83fe8455dbfae30a3"/>
 		<Metadata name="CommonPicture.ОрганФСС" id="90cf0c96-5ed4-46af-8cb0-fe55824601b4" configVersion="c82542b3bd4da147c5baaf8ac8fbe5d7d678c2cb"/>
 		<Metadata name="CommonPicture.ОтгрузкаЗапрещена" id="8c0f239e-76b4-4cef-9005-fdf8d4df4463" configVersion="1c5168365e48699d410369f55facea2a33bbe708"/>
 		<Metadata name="CommonPicture.ОтгрузкаРазрешена" id="9873a26a-7da6-4b52-829f-a63d29146afe" configVersion="28df65c56a24bd82da7c285f0f84ed1c6f7a8243"/>
@@ -340,7 +341,7 @@
 		<Metadata name="CommonPicture.СтатусыУказанияСерий" id="79fb75d2-a40a-4e38-b7fa-993ab5ffcc93" configVersion="92cf0ef772fbb59deec95a641715fbbb4d7865dc"/>
 		<Metadata name="CommonPicture.СчитатьКартуЛояльности" id="c58bbabd-82af-4ce8-9eec-6d4201c96537" configVersion="d8da3273b15df76e4a334d68402bd8392424fbae"/>
 		<Metadata name="CommonPicture.Успешно" id="0615c4cc-932f-42b9-9c42-d1ec3346b877" configVersion="079bc46500821e1aafb937c10176eda410f2b801"/>
-		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="19ac2387a1fe346c0072a96b16156c5acd960bf4"/>
+		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="437f26d7855885fca055af086563af1675d100e6"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="2d3d01ef-e545-4150-a6c6-5d7520ca086c" configVersion="ffbf25b1ccd42c35ee4ef2dc7390091df9f1a092"/>
 		<Metadata name="Constant.ИспользоватьДоговорыКредитовИДепозитов" id="07235db3-3bad-4d9e-b7de-adf354ae28ed" configVersion="7cc1ae8aedead2a7aae016679c27710cf975ef8d"/>
 		<Metadata name="Constant.ИспользоватьЕжедневныеОтчеты1СДокументооборота" id="c1de355d-c2e7-414f-92f5-cea13ac1b02d" configVersion="eaecf171d6cbdf46507e81e85ab5c5476522cadb"/>
@@ -369,6 +370,7 @@
 		<Metadata name="Constant.ИспользоватьПодключаемоеОборудование" id="dd211780-ee25-4ffe-9c2a-9093d68095b6" configVersion="8fd954ccd3d08100d5cdb139611561952d647bfb"/>
 		<Metadata name="Constant.ИспользоватьПодразделения" id="989db06d-0dfc-4e36-9735-c429df9cca5f" configVersion="f4073b5e2bcdb79e0caa494992ae17008f628fd6"/>
 		<Metadata name="Constant.ИспользоватьПоступлениеПоНесколькимЗаказам" id="2acce9e6-ea33-424c-9575-e99a262d9b83" configVersion="387e2e00b0b75eeef856f05cbceb3aa1def98d2c"/>
+		<Metadata name="Constant.ИспользоватьПроизводство" id="ba15b931-829b-48e5-a7f6-d89478407177" configVersion="77a08e62c9eeceb7afb24caa56d8abf893c9c0a3"/>
 		<Metadata name="Constant.ИспользоватьПроцессыИЗадачи1СДокументооборота" id="63ec79e9-4316-4b43-9b1e-b0127714bc0e" configVersion="82bc8c9b485432f8692ed59f0b7702a816c38a16"/>
 		<Metadata name="Constant.ИспользоватьРаздельныйУчетПоНалогообложению" id="86fb11e0-08c1-47d1-ab7c-cd685cdcde2a" configVersion="299216988c8ccb887bf0b231884294644bb380f2"/>
 		<Metadata name="Constant.ИспользоватьРеализациюПоНесколькимЗаказам" id="cd0fa496-03e3-4eeb-97c3-1066bf017302" configVersion="15594822e5c7b2a4f6731bd2f772d0c809c5a4e1"/>
@@ -1323,6 +1325,7 @@
 			<Metadata name="Enum.СтавкиНДС.EnumValue.НДС10" id="a2bf141d-db97-420f-96b0-b3056f3eacaa"/>
 			<Metadata name="Enum.СтавкиНДС.EnumValue.НДС18" id="f988956a-9bb3-4adb-9811-f75ec9d61607"/>
 		</Metadata>
+		<Metadata name="Enum.СтатусыДвиженияПродукцииИМатериалов" id="e6ea5330-b2ec-4bcc-94a5-5ab21fd17169" configVersion="0ccf9a9697ce86bf9bf33743bb9a42890a89dbbb"/>
 		<Metadata name="Enum.СтатусыДействияВидовЦен" id="a5d54021-cf4c-4bbe-b079-d74eec3bed8d" configVersion="e8403968f67cafd4c3b6671c8a213d0e568faaae">
 			<Metadata name="Enum.СтатусыДействияВидовЦен.EnumValue.Действует" id="52b7d6a7-9d8e-4c72-9757-0300df83f7c7"/>
 		</Metadata>
@@ -1457,6 +1460,7 @@
 		<Metadata name="FunctionalOption.ИспользоватьПодключаемоеОборудование" id="e758a7ac-e680-4418-bddb-03ed04736c7c" configVersion="467caaefdbd4c36d0e8a16fc59361263a9ef0594"/>
 		<Metadata name="FunctionalOption.ИспользоватьПодразделения" id="87921fb3-3b31-4d06-b639-b478cfbd7ea4" configVersion="2e49bb3e6b052632c825239eecdf7503b69230ab"/>
 		<Metadata name="FunctionalOption.ИспользоватьПоступлениеПоНесколькимЗаказам" id="689788b6-07dd-49fc-8a9a-8290016ceb7d" configVersion="3cb01aaa4ead011da1fa92e6502702fe7324d42c"/>
+		<Metadata name="FunctionalOption.ИспользоватьПроизводство" id="c8635800-f401-49dd-ad4a-b22f99d65402" configVersion="2e457b61ef4a918a930763619886ffd6fed55857"/>
 		<Metadata name="FunctionalOption.ИспользоватьПроцессыИЗадачи1СДокументооборота" id="143902aa-7c92-48bf-8954-f0ff9c3e60b0" configVersion="0db2907ad4e4da9038d4495d594fd99f5a84de91"/>
 		<Metadata name="FunctionalOption.ИспользоватьРаздельныйУчетПоНалогообложению" id="49a7a22a-98e6-4830-8b6e-54931c50b0ed" configVersion="73e95165d2b8aa9717cc8144482ba0b0780b7ce7"/>
 		<Metadata name="FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная" id="efaa8811-36e9-4379-b412-32b357d21e91" configVersion="6db2da630158f73a041221438522c50da145e0e7"/>

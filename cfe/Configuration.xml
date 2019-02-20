@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>218bb238-1ba2-476f-9f9d-36318f19559d</xr:ObjectId>
+				<xr:ObjectId>103a361c-e1d7-4fe3-8191-51ab1e8941b3</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -157,6 +157,7 @@
 			<CommonPicture>СостоянияОбменСБанками</CommonPicture>
 			<CommonPicture>ЗначокПлюс</CommonPicture>
 			<CommonPicture>ЗначокМинус</CommonPicture>
+			<CommonPicture>ОкруглитьДоЦелойЕдиницы</CommonPicture>
 			<CommonModule>ДенежныеСредстваСервер</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
 			<CommonModule>ИнтеграцияС1СДокументооборотПереопределяемый</CommonModule>
@@ -232,6 +233,7 @@
 			<FunctionalOption>ИспользоватьОбменСБанками</FunctionalOption>
 			<FunctionalOption>ИспользоватьИнтеграциюСЯндексКассой</FunctionalOption>
 			<FunctionalOption>НеИспользоватьЗаявкиНаРасходованиеДенежныхСредств</FunctionalOption>
+			<FunctionalOption>ИспользоватьПроизводство</FunctionalOption>
 			<DefinedType>НомерКиЗГИСМ</DefinedType>
 			<DefinedType>RFIDTID</DefinedType>
 			<DefinedType>GTIN</DefinedType>
@@ -297,6 +299,7 @@
 			<Constant>ИспользоватьОбменСБанками</Constant>
 			<Constant>НеИспользоватьЗаявкиНаРасходованиеДенежныхСредств</Constant>
 			<Constant>ИспользоватьИнтеграциюСЯндексКассой</Constant>
+			<Constant>ИспользоватьПроизводство</Constant>
 			<CommonForm>РеквизитыПечатиРеализации</CommonForm>
 			<Catalog>ПредприятияВЕТИС</Catalog>
 			<Catalog>ЗаписиСкладскогоЖурналаВЕТИС</Catalog>
@@ -444,6 +447,7 @@
 			<Enum>ОбластиПланированияПлатежей</Enum>
 			<Enum>СтатусыРаспоряженийНаПеремещениеДенежныхСредств</Enum>
 			<Enum>ТипыДвиженияДенежныхСредств</Enum>
+			<Enum>СтатусыДвиженияПродукцииИМатериалов</Enum>
 			<DataProcessor>ПодборСерийВДокументы</DataProcessor>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
