@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>9ce6aaf9-7ec4-4281-a870-8a7451ab53bc</xr:ObjectId>
+				<xr:ObjectId>870a597d-000c-4ff1-8a66-a08269041c2c</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -158,6 +158,11 @@
 			<CommonPicture>ЗначокПлюс</CommonPicture>
 			<CommonPicture>ЗначокМинус</CommonPicture>
 			<CommonPicture>ОкруглитьДоЦелойЕдиницы</CommonPicture>
+			<CommonPicture>ФильтрПоВидамИСвойствамНоменклатуры</CommonPicture>
+			<CommonPicture>ФильтрПоТоварамДругогоКачества</CommonPicture>
+			<CommonPicture>ФильтрПоСвойствам</CommonPicture>
+			<CommonPicture>Номенклатура</CommonPicture>
+			<CommonPicture>Органайзер</CommonPicture>
 			<CommonModule>ДенежныеСредстваСервер</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
 			<CommonModule>ИнтеграцияС1СДокументооборотПереопределяемый</CommonModule>
@@ -234,6 +239,7 @@
 			<FunctionalOption>ИспользоватьИнтеграциюСЯндексКассой</FunctionalOption>
 			<FunctionalOption>НеИспользоватьЗаявкиНаРасходованиеДенежныхСредств</FunctionalOption>
 			<FunctionalOption>ИспользоватьПроизводство</FunctionalOption>
+			<FunctionalOption>ИспользоватьСегментыНоменклатуры</FunctionalOption>
 			<DefinedType>НомерКиЗГИСМ</DefinedType>
 			<DefinedType>RFIDTID</DefinedType>
 			<DefinedType>GTIN</DefinedType>
@@ -247,6 +253,13 @@
 			<DefinedType>ОснованиеНачисления</DefinedType>
 			<DefinedType>ОбъектОплаты</DefinedType>
 			<DefinedType>ВладелецОбменСБанками</DefinedType>
+			<CommonCommand>ИнтеграцияС1СДокументооборотСоздатьПисьмо</CommonCommand>
+			<CommonCommand>ДополнительныеСведенияКоманднаяПанель</CommonCommand>
+			<CommonCommand>ИнтеграцияС1СДокументооборотСоздатьБизнесПроцесс</CommonCommand>
+			<CommonCommand>СоздатьЗаметкуПоПредмету</CommonCommand>
+			<CommonCommand>СозданиеСвязанныхОбъектов</CommonCommand>
+			<CommonCommand>Напомнить</CommonCommand>
+			<CommandGroup>Органайзер</CommandGroup>
 			<Constant>ИспользоватьПодключаемоеОборудование</Constant>
 			<Constant>ИспользоватьПоступлениеПоНесколькимЗаказам</Constant>
 			<Constant>ИспользоватьСерииНоменклатуры</Constant>
@@ -300,6 +313,7 @@
 			<Constant>НеИспользоватьЗаявкиНаРасходованиеДенежныхСредств</Constant>
 			<Constant>ИспользоватьИнтеграциюСЯндексКассой</Constant>
 			<Constant>ИспользоватьПроизводство</Constant>
+			<Constant>ИспользоватьСегментыНоменклатуры</Constant>
 			<CommonForm>РеквизитыПечатиРеализации</CommonForm>
 			<Catalog>ПредприятияВЕТИС</Catalog>
 			<Catalog>ЗаписиСкладскогоЖурналаВЕТИС</Catalog>
@@ -370,6 +384,7 @@
 			<Catalog>КлючиРеестраДокументов</Catalog>
 			<Catalog>КлассификаторБанков</Catalog>
 			<Catalog>ИдентификаторыОбъектовМетаданных</Catalog>
+			<Catalog>СегментыНоменклатуры</Catalog>
 			<Document>ПриобретениеТоваровУслуг</Document>
 			<Document>ЗаявкаНаРасходованиеДенежныхСредств</Document>
 			<Document>ЗаявлениеСотрудникаНаВыплатуПособия</Document>
@@ -449,6 +464,9 @@
 			<Enum>СтатусыРаспоряженийНаПеремещениеДенежныхСредств</Enum>
 			<Enum>ТипыДвиженияДенежныхСредств</Enum>
 			<Enum>СтатусыДвиженияПродукцииИМатериалов</Enum>
+			<Enum>СпособыФормированияСегментов</Enum>
+			<Enum>ВариантыНавигацииВФормахНоменклатуры</Enum>
+			<Enum>ВариантыИспользованияХарактеристикНоменклатуры</Enum>
 			<DataProcessor>ПодборСерийВДокументы</DataProcessor>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
@@ -462,6 +480,7 @@
 			<InformationRegister>ГрафикПлатежей</InformationRegister>
 			<InformationRegister>СостоянияОбменСБанками</InformationRegister>
 			<InformationRegister>ДокументыСОшибкамиПроверкиКонтрагентов</InformationRegister>
+			<InformationRegister>НоменклатураСегмента</InformationRegister>
 			<AccumulationRegister>ДенежныеСредстваКВыплате</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиРасходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>СтатьиАктивовПассивов</ChartOfCharacteristicTypes>
@@ -470,6 +489,7 @@
 			<ChartOfAccounts>Хозрасчетный</ChartOfAccounts>
 			<ChartOfCalculationTypes>Начисления</ChartOfCalculationTypes>
 			<ChartOfCalculationTypes>Удержания</ChartOfCalculationTypes>
+			<BusinessProcess>Задание</BusinessProcess>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

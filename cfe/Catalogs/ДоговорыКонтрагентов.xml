@@ -743,6 +743,21 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="9ee5de4b-b498-4675-9e11-42aeb5c8a010">
+				<InternalInfo/>
+				<Properties>
+					<Name>УникальныйНомерВалютногоКонтроля</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>22</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
 			<TabularSection uuid="f40f49fd-dd75-4e51-ba5e-61199d0ab256">
 				<InternalInfo>
 					<xr:GeneratedType name="CatalogTabularSection.ДоговорыКонтрагентов.ПодтверждающиеДокументы" category="TabularSection">
