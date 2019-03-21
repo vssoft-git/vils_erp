@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>50b9e351-7293-491e-9dfb-04156be6d0a0</xr:ObjectId>
+				<xr:ObjectId>9138f53e-fdc3-46aa-949c-6a36f41a76a5</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -163,6 +163,25 @@
 			<CommonPicture>ФильтрПоСвойствам</CommonPicture>
 			<CommonPicture>Номенклатура</CommonPicture>
 			<CommonPicture>Органайзер</CommonPicture>
+			<CommonPicture>ПереместитьВлевоВверх</CommonPicture>
+			<CommonPicture>БыстрыйДоступСФлажком</CommonPicture>
+			<CommonPicture>БыстрыйДоступ</CommonPicture>
+			<CommonPicture>ПиктограммыДоступаКНастройкамОтчета</CommonPicture>
+			<CommonPicture>ПереместитьВлевоВсе</CommonPicture>
+			<CommonPicture>ДобавитьРодительский</CommonPicture>
+			<CommonPicture>ПереместитьВправоВниз</CommonPicture>
+			<CommonPicture>ВидСравнения</CommonPicture>
+			<CommonPicture>СкрытаяНастройкаОтчета</CommonPicture>
+			<CommonPicture>ОбычныйДоступСФлажком</CommonPicture>
+			<CommonPicture>ПиктограммыНастроекОтчета</CommonPicture>
+			<CommonPicture>Отборы</CommonPicture>
+			<CommonPicture>ПоляИСортировки</CommonPicture>
+			<CommonPicture>Оформление</CommonPicture>
+			<CommonPicture>Структура</CommonPicture>
+			<CommonPicture>ЭлектронноеПисьмо</CommonPicture>
+			<CommonPicture>Сумма</CommonPicture>
+			<CommonPicture>СохранитьВариантОтчета</CommonPicture>
+			<CommonPicture>ВыбратьВариантОтчета</CommonPicture>
 			<CommonModule>АктВыполненныхРаботЛокализация</CommonModule>
 			<CommonModule>ВИЛС_Переопределяемый</CommonModule>
 			<CommonModule>ВозвратСырьяДавальцуЛокализация</CommonModule>
@@ -185,6 +204,7 @@
 			<CommonModule>УправлениеКонтактнойИнформацией</CommonModule>
 			<CommonModule>УправлениеКонтактнойИнформациейКлиентСервер</CommonModule>
 			<CommonModule>УправлениеКонтактнойИнформациейСлужебный</CommonModule>
+			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>ИспользоватьПодключаемоеОборудование</FunctionalOption>
 			<FunctionalOption>ИспользоватьПоступлениеПоНесколькимЗаказам</FunctionalOption>
 			<FunctionalOption>ИспользоватьОрдернуюСхемуПриПоступлении</FunctionalOption>
@@ -319,6 +339,9 @@
 			<Constant>ИспользоватьПроизводство</Constant>
 			<Constant>ИспользоватьСегментыНоменклатуры</Constant>
 			<CommonForm>РеквизитыПечатиРеализации</CommonForm>
+			<CommonForm>ФормаВариантаОтчета</CommonForm>
+			<CommonForm>ФормаНастроекОтчета</CommonForm>
+			<CommonForm>ФормаОтчета</CommonForm>
 			<Catalog>ПредприятияВЕТИС</Catalog>
 			<Catalog>ЗаписиСкладскогоЖурналаВЕТИС</Catalog>
 			<Catalog>УпаковкиЕдиницыИзмерения</Catalog>
@@ -389,6 +412,8 @@
 			<Catalog>КлассификаторБанков</Catalog>
 			<Catalog>ИдентификаторыОбъектовМетаданных</Catalog>
 			<Catalog>СегментыНоменклатуры</Catalog>
+			<Catalog>ВариантыОтчетов</Catalog>
+			<Catalog>КлючиАналитикиУчетаНоменклатуры</Catalog>
 			<Document>ПриобретениеТоваровУслуг</Document>
 			<Document>ЗаявкаНаРасходованиеДенежныхСредств</Document>
 			<Document>ЗаявлениеСотрудникаНаВыплатуПособия</Document>
@@ -419,6 +444,7 @@
 			<Document>СправкаОПодтверждающихДокументах</Document>
 			<Document>ДвижениеПродукцииИМатериалов</Document>
 			<Document>ЗаказНаПеремещение</Document>
+			<Document>КорректировкаПриобретения</Document>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
 			<Enum>ПорядокОплатыПоСоглашениям</Enum>
 			<Enum>ХозяйственныеОперации</Enum>
@@ -471,6 +497,8 @@
 			<Enum>СпособыФормированияСегментов</Enum>
 			<Enum>ВариантыНавигацииВФормахНоменклатуры</Enum>
 			<Enum>ВариантыИспользованияХарактеристикНоменклатуры</Enum>
+			<Enum>ДоступныеПериодыОтчета</Enum>
+			<Report>ВИЛС_ВедомостьДокументовПоступлений</Report>
 			<DataProcessor>ПодборСерийВДокументы</DataProcessor>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
@@ -486,6 +514,7 @@
 			<InformationRegister>ДокументыСОшибкамиПроверкиКонтрагентов</InformationRegister>
 			<InformationRegister>НоменклатураСегмента</InformationRegister>
 			<AccumulationRegister>ДенежныеСредстваКВыплате</AccumulationRegister>
+			<AccumulationRegister>Закупки</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиРасходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>СтатьиАктивовПассивов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>КаналыРекламныхВоздействий</ChartOfCharacteristicTypes>
