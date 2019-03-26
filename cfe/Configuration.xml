@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>9138f53e-fdc3-46aa-949c-6a36f41a76a5</xr:ObjectId>
+				<xr:ObjectId>23812c8e-0c77-479d-89c9-549ce692d648</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -498,7 +498,9 @@
 			<Enum>ВариантыНавигацииВФормахНоменклатуры</Enum>
 			<Enum>ВариантыИспользованияХарактеристикНоменклатуры</Enum>
 			<Enum>ДоступныеПериодыОтчета</Enum>
+			<Enum>ТипыЗапасов</Enum>
 			<Report>ВИЛС_ВедомостьДокументовПоступлений</Report>
+			<Report>ВИЛС_ВыпускПродукцииПоОтпускнойСтоимости</Report>
 			<DataProcessor>ПодборСерийВДокументы</DataProcessor>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
