@@ -381,6 +381,28 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="f664ead4-1181-4fe4-9c46-75cc5493aa8a">
+				<InternalInfo/>
+				<Properties>
+					<Name>ХозяйственнаяОперация</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ХозяйственныеОперации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c78c9360-799b-433a-93f0-43a5a79ce581">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВидыЗапасовУказаныВручную</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="144115d6-51b7-484d-a3b3-8d159b81abb6">
 				<InternalInfo>
