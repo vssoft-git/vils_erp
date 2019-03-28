@@ -1,62 +1,46 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Enum uuid="cebc7717-3d24-4305-884e-89e0510a8eca">
+	<Enum uuid="62638383-6ca2-4dff-a15e-36c6816ddcdc">
 		<InternalInfo>
-			<xr:GeneratedType name="EnumRef.ТипыНоменклатуры" category="Ref">
-				<xr:TypeId>edd5a612-bcbc-4d67-8bee-01e5fbd6a696</xr:TypeId>
-				<xr:ValueId>57310ed4-08d2-48df-8c54-77a8cf2548f7</xr:ValueId>
+			<xr:GeneratedType name="EnumRef.ВариантыРасчетаЦенНаборов" category="Ref">
+				<xr:TypeId>7664bfc3-e29e-4080-9017-db77435870be</xr:TypeId>
+				<xr:ValueId>6b0b0512-105a-4b1d-855f-ed8a969cee82</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="EnumManager.ТипыНоменклатуры" category="Manager">
-				<xr:TypeId>691c5d90-32e2-4d83-8c9e-3bcff5ff4c3d</xr:TypeId>
-				<xr:ValueId>6935d0cf-cc53-4609-8884-37e1d74820cf</xr:ValueId>
+			<xr:GeneratedType name="EnumManager.ВариантыРасчетаЦенНаборов" category="Manager">
+				<xr:TypeId>6181a722-6686-44b5-a302-13261ceb48da</xr:TypeId>
+				<xr:ValueId>c16d99d3-ded9-42a1-ad76-1f4ea82e5258</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="EnumList.ТипыНоменклатуры" category="List">
-				<xr:TypeId>b73133ab-5637-4d93-b800-4c2412ca15e5</xr:TypeId>
-				<xr:ValueId>6dc8a911-0502-4f86-a9ec-5fcb6088ef5a</xr:ValueId>
+			<xr:GeneratedType name="EnumList.ВариантыРасчетаЦенНаборов" category="List">
+				<xr:TypeId>474fa477-b698-4e0e-9fc8-3d566e71a0d2</xr:TypeId>
+				<xr:ValueId>09dfc7e4-c60a-46b5-8d89-6ace79b6c824</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ТипыНоменклатуры</Name>
+			<Name>ВариантыРасчетаЦенНаборов</Name>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 		</Properties>
 		<ChildObjects>
-			<EnumValue uuid="ffe7c847-1cc1-4199-bbdd-ea1ccd64e672">
+			<EnumValue uuid="e2ad2f0c-ea28-483a-b4c3-41ef0fe8fb72">
 				<InternalInfo/>
 				<Properties>
-					<Name>МногооборотнаяТара</Name>
+					<Name>РассчитываетсяИзЦенКомплектующих</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="56f2d5e0-ace1-40b2-b867-446ded466e7b">
+			<EnumValue uuid="1e16f5bc-db61-4363-811c-415c45d7fc4d">
 				<InternalInfo/>
 				<Properties>
-					<Name>Товар</Name>
+					<Name>ЦенаЗадаетсяЗаНаборРаспределяетсяПоЦенам</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="9f475eb1-2e09-4826-b01e-d12e6a1d9a12">
+			<EnumValue uuid="cedacb1a-f660-48bc-af13-0af66f303a96">
 				<InternalInfo/>
 				<Properties>
-					<Name>Услуга</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="1984a5bb-193f-4134-8f3d-cb45c2e31583">
-				<InternalInfo/>
-				<Properties>
-					<Name>Работа</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="3c40c4c3-7ece-4ac9-ba25-ad5b1e41f08d">
-				<InternalInfo/>
-				<Properties>
-					<Name>Набор</Name>
+					<Name>ЦенаЗадаетсяЗаНаборРаспределяетсяПоДолям</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>

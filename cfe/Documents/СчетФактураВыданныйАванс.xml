@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="7ff179e2-da66-47bc-b14b-319cc9ab6572">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СчетФактураВыданныйАванс" category="Object">
+				<xr:TypeId>253a15a1-e7ad-477e-a9c4-311f7697abb6</xr:TypeId>
+				<xr:ValueId>c3637519-3920-45fa-b9c1-055bd862612d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СчетФактураВыданныйАванс" category="Ref">
+				<xr:TypeId>aaff8896-2ee2-440d-9cba-73e3e689fa12</xr:TypeId>
+				<xr:ValueId>713b8c41-f3c3-4780-a4db-a6f65969f146</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СчетФактураВыданныйАванс" category="Selection">
+				<xr:TypeId>ece4dc8b-0c3e-4375-9fd3-48f83c339eb3</xr:TypeId>
+				<xr:ValueId>4f3b70f3-7ad5-4a98-9056-6947939862a7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СчетФактураВыданныйАванс" category="List">
+				<xr:TypeId>17ed1e77-37c8-4a2f-920e-d2c7416a9102</xr:TypeId>
+				<xr:ValueId>a7869e48-2b4a-421b-8577-a45a08cfe0c2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СчетФактураВыданныйАванс" category="Manager">
+				<xr:TypeId>c1c88a66-1d30-45df-804a-dd88aea3602e</xr:TypeId>
+				<xr:ValueId>47dda68d-98df-4ac1-b250-df6bd570d83c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СчетФактураВыданныйАванс</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="9535c5b5-455b-45ec-ba6b-19bae1c98b76">
+				<InternalInfo/>
+				<Properties>
+					<Name>Корректировочный</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e1325d91-c4ab-4295-a682-5b53d9852ddc">
+				<InternalInfo/>
+				<Properties>
+					<Name>Исправление</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="cc442847-aa36-4b42-a932-bf436d621795">
+				<InternalInfo/>
+				<Properties>
+					<Name>СчетФактураОснование</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:DocumentRef.СчетФактураВыданныйАванс</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8e3099f8-bc3e-4292-8e7f-c0c9048f9925">
+				<InternalInfo/>
+				<Properties>
+					<Name>НомерИсправления</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>3</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<TabularSection uuid="01255161-9a7b-4103-97b9-b4566930a831">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.СчетФактураВыданныйАванс.Авансы" category="TabularSection">
+						<xr:TypeId>304b2249-9db5-46ed-aed7-57b5582f3036</xr:TypeId>
+						<xr:ValueId>a3c697ca-17a4-4a4b-a1a8-04b15f7c0f7b</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.СчетФактураВыданныйАванс.Авансы" category="TabularSectionRow">
+						<xr:TypeId>8a75cced-9668-4664-b368-529d4a5f47c3</xr:TypeId>
+						<xr:ValueId>1791bf8e-620e-4f70-a1e7-95985d051aa3</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Авансы</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="fd6e2632-41e4-4da7-94b1-3a6d8b0d12ef">
+						<InternalInfo/>
+						<Properties>
+							<Name>ИсходныйСчетФактура</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:DocumentRef.СчетФактураВыданныйАванс</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

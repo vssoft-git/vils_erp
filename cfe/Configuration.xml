@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>552c29ca-2913-413a-bdc7-a8b1f23263ca</xr:ObjectId>
+				<xr:ObjectId>9d8038be-ed25-4e37-9386-5bb6105d214a</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -445,6 +445,8 @@
 			<Document>ДвижениеПродукцииИМатериалов</Document>
 			<Document>ЗаказНаПеремещение</Document>
 			<Document>КорректировкаПриобретения</Document>
+			<Document>ЗаказНаПроизводство2_2</Document>
+			<Document>СчетФактураВыданныйАванс</Document>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
 			<Enum>ПорядокОплатыПоСоглашениям</Enum>
 			<Enum>ХозяйственныеОперации</Enum>
@@ -499,6 +501,8 @@
 			<Enum>ВариантыИспользованияХарактеристикНоменклатуры</Enum>
 			<Enum>ДоступныеПериодыОтчета</Enum>
 			<Enum>ТипыЗапасов</Enum>
+			<Enum>ВариантыРасчетаЦенНаборов</Enum>
+			<Enum>ВариантыПредставленияНаборовВПечатныхФормах</Enum>
 			<Report>ВИЛС_ВедомостьДокументовПоступлений</Report>
 			<Report>ВИЛС_ВыпускПродукцииПоОтпускнойСтоимости</Report>
 			<DataProcessor>ПодборСерийВДокументы</DataProcessor>

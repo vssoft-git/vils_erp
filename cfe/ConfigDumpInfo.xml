@@ -409,7 +409,7 @@
 		<Metadata name="CommonPicture.ФильтрПоСвойствам" id="6da4ef0b-6831-48fa-b131-f1594b26f478" configVersion="8c914cb4d6c16cc5b30c30dec7e7e071e8528c9b"/>
 		<Metadata name="CommonPicture.ФильтрПоТоварамДругогоКачества" id="232c73fe-a11f-45ce-b71f-e1637556fc89" configVersion="823082508884e56cd16114fd61dbb47773acff44"/>
 		<Metadata name="CommonPicture.ЭлектронноеПисьмо" id="78dbd3a0-ed52-4dd4-bfb1-e9538ed29716" configVersion="ac33cd922b22cc1afec9054f36984c8c0009a061"/>
-		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="6af2522d7020978c8d52bf2d595dd6e490a17877"/>
+		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="b5cf5875ff2fbe0398d41893990ceb3fb9a88abf"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="2d3d01ef-e545-4150-a6c6-5d7520ca086c" configVersion="ffbf25b1ccd42c35ee4ef2dc7390091df9f1a092"/>
 		<Metadata name="Constant.ИспользоватьДоговорыКредитовИДепозитов" id="07235db3-3bad-4d9e-b7de-adf354ae28ed" configVersion="7cc1ae8aedead2a7aae016679c27710cf975ef8d"/>
 		<Metadata name="Constant.ИспользоватьЕжедневныеОтчеты1СДокументооборота" id="c1de355d-c2e7-414f-92f5-cea13ac1b02d" configVersion="eaecf171d6cbdf46507e81e85ab5c5476522cadb"/>
@@ -751,6 +751,11 @@
 		<Metadata name="Document.ЗаказНаПеремещение.ManagerModule" id="9fac7516-fb92-433f-a2af-b124656c3a2d.2" configVersion="15571293af78a775a86e95b98c1eafc9490407cf"/>
 		<Metadata name="Document.ЗаказНаПеремещение.Template.ВИЛС_ПФ_MXL_ЗаказНаПеремещение" id="cc9b9bfc-3dc2-4dcc-8dcb-50e5fa375443" configVersion="eff45917a9e87ec16a96c3159664c4ea56698e46"/>
 		<Metadata name="Document.ЗаказНаПеремещение.Template.ВИЛС_ПФ_MXL_ЗаказНаПеремещение.Template" id="cc9b9bfc-3dc2-4dcc-8dcb-50e5fa375443.0" configVersion="bfa7d782286f4dc7923f2657f670aec2a0f45834"/>
+		<Metadata name="Document.ЗаказНаПроизводство2_2" id="42c87545-63f4-4e80-9055-cef0704022dc" configVersion="46c8da62fea1a40582b830b5aa2115b13815b907">
+			<Metadata name="Document.ЗаказНаПроизводство2_2.TabularSection.Продукция" id="481e0986-243f-4e5d-b3a1-78584f20a655"/>
+		</Metadata>
+		<Metadata name="Document.ЗаказНаПроизводство2_2.ManagerModule" id="42c87545-63f4-4e80-9055-cef0704022dc.2" configVersion="02efe2ff38ee28daef919fb5036ad5d5c40a4324"/>
+		<Metadata name="Document.ЗаказНаПроизводство2_2.ObjectModule" id="42c87545-63f4-4e80-9055-cef0704022dc.0" configVersion="7a7efdfca3ac3a2f379ba8ced1b0e90c6980f5f8"/>
 		<Metadata name="Document.ЗаказПереработчику" id="79dd29aa-5896-4bd1-8c93-01501e076972" configVersion="83808d449a124b253144c97120d65d684930149d"/>
 		<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств" id="50b59e2f-24fe-4e4b-b5f0-1d483cb921fb" configVersion="0c9dcba84c45b6ce8d15817d8047ae68e528517b">
 			<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.Attribute.ХозяйственнаяОперацияПоЗарплате" id="0331b5d7-af8b-43e9-9c2e-5b06e1a777a2"/>
@@ -1296,6 +1301,15 @@
 		<Metadata name="Document.СчетНаОплатуКлиенту.ManagerModule" id="eeec84f8-4463-4b8a-8116-ab87e70e3c03.2" configVersion="7cd9ec329ac2c54f134eb91bbcace44533320982"/>
 		<Metadata name="Document.СчетФактураВыданный" id="e7e61963-271d-4599-86aa-dd9ede7fee77" configVersion="a8f26b53f27009d9e6056fe1f37a7af17830a710"/>
 		<Metadata name="Document.СчетФактураВыданный.ManagerModule" id="e7e61963-271d-4599-86aa-dd9ede7fee77.2" configVersion="2db0dfcd2a5366eae8d53e3c2e782ab9461602ff"/>
+		<Metadata name="Document.СчетФактураВыданныйАванс" id="7ff179e2-da66-47bc-b14b-319cc9ab6572" configVersion="956d44038809fd2e670a9ed95158ad986c57cbae">
+			<Metadata name="Document.СчетФактураВыданныйАванс.TabularSection.Авансы" id="01255161-9a7b-4103-97b9-b4566930a831"/>
+			<Metadata name="Document.СчетФактураВыданныйАванс.Attribute.НомерИсправления" id="8e3099f8-bc3e-4292-8e7f-c0c9048f9925"/>
+			<Metadata name="Document.СчетФактураВыданныйАванс.Attribute.Корректировочный" id="9535c5b5-455b-45ec-ba6b-19bae1c98b76"/>
+			<Metadata name="Document.СчетФактураВыданныйАванс.Attribute.СчетФактураОснование" id="cc442847-aa36-4b42-a932-bf436d621795"/>
+			<Metadata name="Document.СчетФактураВыданныйАванс.Attribute.Исправление" id="e1325d91-c4ab-4295-a682-5b53d9852ddc"/>
+			<Metadata name="Document.СчетФактураВыданныйАванс.TabularSection.Авансы.Attribute.ИсходныйСчетФактура" id="fd6e2632-41e4-4da7-94b1-3a6d8b0d12ef"/>
+		</Metadata>
+		<Metadata name="Document.СчетФактураВыданныйАванс.ManagerModule" id="7ff179e2-da66-47bc-b14b-319cc9ab6572.2" configVersion="a6abab0f084d563928b00d30fca29278e8310748"/>
 		<Metadata name="Document.ТранспортнаяНакладная" id="2588006c-d478-45a5-8e4b-2c7126fde17c" configVersion="c86420668fe80d6435346a05f27295eeaf80d015">
 			<Metadata name="Document.ТранспортнаяНакладная.Attribute.БанковскийСчетПлательщика" id="0ffd945c-7a16-4f2d-adc3-7f950688aba3"/>
 			<Metadata name="Document.ТранспортнаяНакладная.Attribute.Отпустил" id="13738691-f830-493b-bd2f-9100639d3cab"/>
@@ -1361,6 +1375,16 @@
 		<Metadata name="Enum.ВариантыОформленияПродажи" id="8516bbd0-dbf8-41f9-a2f3-2ac4f9b9545e" configVersion="d6f0ab71612d85d6d51d5bf81b15ed5392cfec61">
 			<Metadata name="Enum.ВариантыОформленияПродажи.EnumValue.АктНаПередачуПрав" id="230f0730-8831-4eef-b44b-b95a406de9cc"/>
 			<Metadata name="Enum.ВариантыОформленияПродажи.EnumValue.РеализацияТоваровУслуг" id="ead67aa9-e6b2-4393-ae8f-b33e7c828e59"/>
+		</Metadata>
+		<Metadata name="Enum.ВариантыПредставленияНаборовВПечатныхФормах" id="0ac85ff2-e04b-4498-b52d-c01ea6984201" configVersion="a5427e5c2a308e90e749db67376135e760cf0b14">
+			<Metadata name="Enum.ВариантыПредставленияНаборовВПечатныхФормах.EnumValue.ТолькоКомплектующие" id="2f2a63fd-4904-4f73-a6be-ecb34978dd21"/>
+			<Metadata name="Enum.ВариантыПредставленияНаборовВПечатныхФормах.EnumValue.НаборИКомплектующие" id="72e09a8a-501b-48fc-96e1-3ff86b1f9c1f"/>
+			<Metadata name="Enum.ВариантыПредставленияНаборовВПечатныхФормах.EnumValue.ТолькоНабор" id="f1643369-3535-4fb4-837a-4f1f838a9d41"/>
+		</Metadata>
+		<Metadata name="Enum.ВариантыРасчетаЦенНаборов" id="62638383-6ca2-4dff-a15e-36c6816ddcdc" configVersion="eb54e71ff6d87543a51ee79e82f549140ee5f60d">
+			<Metadata name="Enum.ВариантыРасчетаЦенНаборов.EnumValue.ЦенаЗадаетсяЗаНаборРаспределяетсяПоЦенам" id="1e16f5bc-db61-4363-811c-415c45d7fc4d"/>
+			<Metadata name="Enum.ВариантыРасчетаЦенНаборов.EnumValue.ЦенаЗадаетсяЗаНаборРаспределяетсяПоДолям" id="cedacb1a-f660-48bc-af13-0af66f303a96"/>
+			<Metadata name="Enum.ВариантыРасчетаЦенНаборов.EnumValue.РассчитываетсяИзЦенКомплектующих" id="e2ad2f0c-ea28-483a-b4c3-41ef0fe8fb72"/>
 		</Metadata>
 		<Metadata name="Enum.ВидыАгентскихДоговоров" id="6de9ec5b-791b-46bc-a1fb-a297744f361d" configVersion="8a55202d089ce10b4c375408563c8d3bdcb75586"/>
 		<Metadata name="Enum.ВидыОграниченияПособия" id="526fec1a-09f0-4051-98ce-0fa34f6d6edc" configVersion="59473771f3cbe440104bd7abfec8287094575f3f"/>
@@ -1500,7 +1524,11 @@
 			<Metadata name="Enum.ТипыНалогообложенияНДС.EnumValue.ПродажаНаЭкспорт" id="f2e92a0e-7aec-4e99-96d7-e18355a51605"/>
 			<Metadata name="Enum.ТипыНалогообложенияНДС.EnumValue.ПоФактическомуИспользованию" id="fbcc154e-1938-47c5-adf6-4e9fa6fd2bb3"/>
 		</Metadata>
-		<Metadata name="Enum.ТипыНоменклатуры" id="cebc7717-3d24-4305-884e-89e0510a8eca" configVersion="02b7792dcda429e074f9b2b3aaa14d4b92de5e02">
+		<Metadata name="Enum.ТипыНоменклатуры" id="cebc7717-3d24-4305-884e-89e0510a8eca" configVersion="0b9236e5dd0b72a7742cef91809243349854bc93">
+			<Metadata name="Enum.ТипыНоменклатуры.EnumValue.Работа" id="1984a5bb-193f-4134-8f3d-cb45c2e31583"/>
+			<Metadata name="Enum.ТипыНоменклатуры.EnumValue.Набор" id="3c40c4c3-7ece-4ac9-ba25-ad5b1e41f08d"/>
+			<Metadata name="Enum.ТипыНоменклатуры.EnumValue.Товар" id="56f2d5e0-ace1-40b2-b867-446ded466e7b"/>
+			<Metadata name="Enum.ТипыНоменклатуры.EnumValue.Услуга" id="9f475eb1-2e09-4826-b01e-d12e6a1d9a12"/>
 			<Metadata name="Enum.ТипыНоменклатуры.EnumValue.МногооборотнаяТара" id="ffe7c847-1cc1-4199-bbdd-ea1ccd64e672"/>
 		</Metadata>
 		<Metadata name="Enum.ТипыПервичныхДокументов" id="e28ab5a8-c131-4335-87c8-10a1658abdb6" configVersion="cee5b442bc5ec67ae9078ce51ac5dcd27302b9de">
