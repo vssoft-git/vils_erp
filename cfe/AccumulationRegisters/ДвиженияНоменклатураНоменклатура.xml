@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<AccumulationRegister uuid="91957aec-f561-4534-b0df-3eaa4ce82c94">
+		<InternalInfo>
+			<xr:GeneratedType name="AccumulationRegisterRecord.ДвиженияНоменклатураНоменклатура" category="Record">
+				<xr:TypeId>78841435-c3c5-4221-9d35-7438be5d3095</xr:TypeId>
+				<xr:ValueId>024abbd7-7272-4d9c-9bfd-5d19a38a00e3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterManager.ДвиженияНоменклатураНоменклатура" category="Manager">
+				<xr:TypeId>2506944e-00c2-4082-ac06-4fa2d39a7616</xr:TypeId>
+				<xr:ValueId>00e854de-bfa2-48a0-a6df-d653f1280fd9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterSelection.ДвиженияНоменклатураНоменклатура" category="Selection">
+				<xr:TypeId>a2ab9a2c-2678-4e61-8188-dc16e17dc929</xr:TypeId>
+				<xr:ValueId>dec85672-1076-4944-84c5-cdf7631ddb01</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterList.ДвиженияНоменклатураНоменклатура" category="List">
+				<xr:TypeId>cac96e13-6d7c-425b-89bf-dd381b585133</xr:TypeId>
+				<xr:ValueId>592a8746-85e4-4977-aa8a-7ab52834a901</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordSet.ДвиженияНоменклатураНоменклатура" category="RecordSet">
+				<xr:TypeId>ca1650f6-d5f6-40d3-b71b-35bf9b923e0f</xr:TypeId>
+				<xr:ValueId>1243d1b7-e19d-4dda-8dd3-02944e3267a7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="AccumulationRegisterRecordKey.ДвиженияНоменклатураНоменклатура" category="RecordKey">
+				<xr:TypeId>de229ebb-f857-4bba-942a-961d6ee4e172</xr:TypeId>
+				<xr:ValueId>44f50afb-21a8-4a4e-976e-9b9d2949efef</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДвиженияНоменклатураНоменклатура</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterType>Turnovers</RegisterType>
+		</Properties>
+		<ChildObjects>
+			<Dimension uuid="890719af-7bd6-4221-b727-b3e046b5f03f">
+				<InternalInfo/>
+				<Properties>
+					<Name>ХозяйственнаяОперация</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ХозяйственныеОперации</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</AccumulationRegister>
+</MetaDataObject>

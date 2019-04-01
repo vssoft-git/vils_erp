@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.10">
 	<ConfigVersions>
+		<Metadata name="AccumulationRegister.ДвиженияНоменклатураНоменклатура" id="91957aec-f561-4534-b0df-3eaa4ce82c94" configVersion="6d1149df8ad473eaa54b63bc4cb7cbf296559e5c">
+			<Metadata name="AccumulationRegister.ДвиженияНоменклатураНоменклатура.Dimension.ХозяйственнаяОперация" id="890719af-7bd6-4221-b727-b3e046b5f03f"/>
+		</Metadata>
 		<Metadata name="AccumulationRegister.ДенежныеСредстваКВыплате" id="b386c8d3-c338-4100-9207-7ecd7c1be111" configVersion="e56dd6b1e41d0972ad7cd787946755c112138eec">
 			<Metadata name="AccumulationRegister.ДенежныеСредстваКВыплате.Resource.Сумма" id="b81f8cdd-8499-49e3-8595-d3ffe3098b90"/>
 			<Metadata name="AccumulationRegister.ДенежныеСредстваКВыплате.Dimension.ЗаявкаНаРасходованиеДенежныхСредств" id="dbf697e6-f6f8-4656-b298-c65b80db512f"/>
@@ -409,7 +412,7 @@
 		<Metadata name="CommonPicture.ФильтрПоСвойствам" id="6da4ef0b-6831-48fa-b131-f1594b26f478" configVersion="8c914cb4d6c16cc5b30c30dec7e7e071e8528c9b"/>
 		<Metadata name="CommonPicture.ФильтрПоТоварамДругогоКачества" id="232c73fe-a11f-45ce-b71f-e1637556fc89" configVersion="823082508884e56cd16114fd61dbb47773acff44"/>
 		<Metadata name="CommonPicture.ЭлектронноеПисьмо" id="78dbd3a0-ed52-4dd4-bfb1-e9538ed29716" configVersion="ac33cd922b22cc1afec9054f36984c8c0009a061"/>
-		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="b5cf5875ff2fbe0398d41893990ceb3fb9a88abf"/>
+		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="f9e5f79b2c3d15b0cb4ce68ba8a0aa233e6ecf4c"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="2d3d01ef-e545-4150-a6c6-5d7520ca086c" configVersion="ffbf25b1ccd42c35ee4ef2dc7390091df9f1a092"/>
 		<Metadata name="Constant.ИспользоватьДоговорыКредитовИДепозитов" id="07235db3-3bad-4d9e-b7de-adf354ae28ed" configVersion="7cc1ae8aedead2a7aae016679c27710cf975ef8d"/>
 		<Metadata name="Constant.ИспользоватьЕжедневныеОтчеты1СДокументооборота" id="c1de355d-c2e7-414f-92f5-cea13ac1b02d" configVersion="eaecf171d6cbdf46507e81e85ab5c5476522cadb"/>
@@ -1465,10 +1468,14 @@
 			<Metadata name="Enum.СпособыФормированияСегментов.EnumValue.ПериодическиОбновлять" id="51f73c82-aaae-4a6a-b190-d53f6f2b78a0"/>
 			<Metadata name="Enum.СпособыФормированияСегментов.EnumValue.ФормироватьВручную" id="a23b6d5d-9d0a-493f-aac8-a23784eb79b5"/>
 		</Metadata>
-		<Metadata name="Enum.СтавкиНДС" id="596c6eb3-0216-4c3a-abe4-37a1641d4aa6" configVersion="e7d1da810ac594c097d7f9478acbadf2ac454f4b">
+		<Metadata name="Enum.СтавкиНДС" id="596c6eb3-0216-4c3a-abe4-37a1641d4aa6" configVersion="2c882f46128379c3fa6d629304773898ab8cc9c4">
 			<Metadata name="Enum.СтавкиНДС.EnumValue.НДС0" id="3735c617-09fd-4fd0-bf07-405190552b5b"/>
 			<Metadata name="Enum.СтавкиНДС.EnumValue.БезНДС" id="845db378-c486-40ac-8118-ec879a6a3691"/>
+			<Metadata name="Enum.СтавкиНДС.EnumValue.НДС20" id="9600da97-8074-4354-95cb-a6e5e59152b3"/>
+			<Metadata name="Enum.СтавкиНДС.EnumValue.НДС18_118" id="9ee14e88-2f06-41b0-a417-0a035fd2807c"/>
 			<Metadata name="Enum.СтавкиНДС.EnumValue.НДС10" id="a2bf141d-db97-420f-96b0-b3056f3eacaa"/>
+			<Metadata name="Enum.СтавкиНДС.EnumValue.НДС20_120" id="c054ab32-55c8-48c0-bd07-72f483f3aa12"/>
+			<Metadata name="Enum.СтавкиНДС.EnumValue.НДС10_110" id="cd6d347b-9a34-4cbe-acf4-f9b8ce7b3e7a"/>
 			<Metadata name="Enum.СтавкиНДС.EnumValue.НДС18" id="f988956a-9bb3-4adb-9811-f75ec9d61607"/>
 		</Metadata>
 		<Metadata name="Enum.СтатусыДвиженияПродукцииИМатериалов" id="e6ea5330-b2ec-4bcc-94a5-5ab21fd17169" configVersion="0ccf9a9697ce86bf9bf33743bb9a42890a89dbbb"/>
@@ -1711,8 +1718,8 @@
 		<Metadata name="Report.ВИЛС_ВедомостьДокументовПоступлений.Template.ОсновнаяСхемаКомпоновкиДанных" id="6276bbee-ae1d-43b4-8705-e807bc544b7c" configVersion="6aecbde3299c44f071497a1727aa16c5af3d4faf"/>
 		<Metadata name="Report.ВИЛС_ВедомостьДокументовПоступлений.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="6276bbee-ae1d-43b4-8705-e807bc544b7c.0" configVersion="513705d2cbaa935a52d596ea82049de20cd755f4"/>
 		<Metadata name="Report.ВИЛС_ВыпускПродукцииПоОтпускнойСтоимости" id="23c5df6f-4d73-4577-83bb-ae622fc031d5" configVersion="becc33f1130173a5af9baea440d3a7d0f7e8af85"/>
-		<Metadata name="Report.ВИЛС_ВыпускПродукцииПоОтпускнойСтоимости.Template.ОсновнаяСхемаКомпоновкиДанных" id="364fa1ae-999b-469c-af73-ad0fb430c379" configVersion="bdbe83f7a39a24bddd82503fc54d45653215b18d"/>
-		<Metadata name="Report.ВИЛС_ВыпускПродукцииПоОтпускнойСтоимости.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="364fa1ae-999b-469c-af73-ad0fb430c379.0" configVersion="ea14590895de1478e693da85309652b448704667"/>
+		<Metadata name="Report.ВИЛС_ВыпускПродукцииПоОтпускнойСтоимости.Template.ОсновнаяСхемаКомпоновкиДанных" id="364fa1ae-999b-469c-af73-ad0fb430c379" configVersion="9b6d04fa3fef03f44bccb3b7398fef280a37be16"/>
+		<Metadata name="Report.ВИЛС_ВыпускПродукцииПоОтпускнойСтоимости.Template.ОсновнаяСхемаКомпоновкиДанных.Template" id="364fa1ae-999b-469c-af73-ad0fb430c379.0" configVersion="164619b143ca5230f657b1ca7deafce966dc7586"/>
 		<Metadata name="SettingsStorage.ХранилищеВариантовОтчетов" id="7d3072f4-3ab2-4408-aac0-def208e81fa3" configVersion="7d9270ea564cd3844f6dcc7910dc46870f81f33d"/>
 		<Metadata name="StyleItem.ВыполненнаяЗадача" id="95d28a77-abce-4759-846d-328021954f30" configVersion="e428b9ca5444378204d0b28af3cc6b0cc0ca85b3"/>
 		<Metadata name="StyleItem.ИтогиФон" id="2ac40105-6a0b-4f11-92bf-64a19e948684" configVersion="3a1792acf27f9cc466913e3c0dc793e1c0a184ae"/>
