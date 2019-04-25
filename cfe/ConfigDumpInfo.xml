@@ -610,7 +610,7 @@
 		</Metadata>
 		<Metadata name="Document.БольничныйЛист.Form.ФормаДокумента" id="c32a9e29-2da6-4fdd-919c-103e22de57fa" configVersion="1b9a5addca3e0a9a8ac393cf284994350c2c3c99"/>
 		<Metadata name="Document.БольничныйЛист.Form.ФормаДокумента.Form" id="c32a9e29-2da6-4fdd-919c-103e22de57fa.0" configVersion="8f0fb91357e4033b7a1c7d179aec289396201179"/>
-		<Metadata name="Document.ВводОстатков" id="52f5da92-6d0a-4cd1-8d8a-a322e8190784" configVersion="ad329adcfe45c975b92069c164700592b5551ef2">
+		<Metadata name="Document.ВводОстатков" id="52f5da92-6d0a-4cd1-8d8a-a322e8190784" configVersion="88d1a8210cce790da858f9c4b044951feab8fcd7">
 			<Metadata name="Document.ВводОстатков.Attribute.Контрагент" id="01a0e798-da2b-4701-bd6c-a325dd2b19be"/>
 			<Metadata name="Document.ВводОстатков.Attribute.Партнер" id="06f36b45-3453-4a0d-9d65-d684ef7ee013"/>
 			<Metadata name="Document.ВводОстатков.TabularSection.Товары.Attribute.СуммаНДС" id="0de6f603-6c8a-4cd3-b0af-6dbcd95790cb"/>
@@ -657,6 +657,8 @@
 			<Metadata name="Document.ВводОстатков.Attribute.Ответственный" id="dd63b05d-ebce-4750-b125-fa99ebfa7bd1"/>
 			<Metadata name="Document.ВводОстатков.Attribute.Менеджер" id="f104fc0d-b32b-4e92-befa-1aa1d730f715"/>
 		</Metadata>
+		<Metadata name="Document.ВводОстатков.Form.ФормаРасчетыСПартнерами" id="381a86a0-5d0a-4038-ae44-940ede7b0548" configVersion="0a58f30f60744426c2d8e344fb55f3fe7823d3cc"/>
+		<Metadata name="Document.ВводОстатков.Form.ФормаРасчетыСПартнерами.Form" id="381a86a0-5d0a-4038-ae44-940ede7b0548.0" configVersion="ef152e755203bac963b573e401b380fcbdc447a8"/>
 		<Metadata name="Document.ВводОстатков.Form.ФормаТовары" id="f9912fe5-5852-4064-9d74-7a98b3e5f225" configVersion="f929e62c397e4a5588f1bc68e1f910849b9d4705"/>
 		<Metadata name="Document.ВводОстатков.Form.ФормаТовары.Form" id="f9912fe5-5852-4064-9d74-7a98b3e5f225.0" configVersion="2eab3314721a974ea50a2701245e97e649e8fafa"/>
 		<Metadata name="Document.ВозвратТоваровПоставщику" id="910d5b14-e40a-4605-9821-0b30bf0f9460" configVersion="a2a8f8e3bc4a6af6202ea27b78a220e016279223">
@@ -1522,8 +1524,16 @@
 			<Metadata name="Enum.ТипыДвиженияДенежныхСредств.EnumValue.Поступление" id="6077a6b5-6f09-464f-8c65-60dd41adf499"/>
 			<Metadata name="Enum.ТипыДвиженияДенежныхСредств.EnumValue.Списание" id="ef2956c0-afc2-473a-8ddc-21d654809d61"/>
 		</Metadata>
-		<Metadata name="Enum.ТипыДоговоров" id="d39a705b-cf0c-4182-a4b9-92f0db18df71" configVersion="3f5a051fe9b096d7c5809815f9164b08a0b3c11e">
+		<Metadata name="Enum.ТипыДоговоров" id="d39a705b-cf0c-4182-a4b9-92f0db18df71" configVersion="23fba110a91d7bc142baa6ee15fbe4bc06184213">
+			<Metadata name="Enum.ТипыДоговоров.EnumValue.СДавальцем" id="253a5961-2dff-4d9f-99fd-be509f29d911"/>
+			<Metadata name="Enum.ТипыДоговоров.EnumValue.СПоклажедателем" id="32400507-9d99-4e40-b800-cde61cedddd5"/>
+			<Metadata name="Enum.ТипыДоговоров.EnumValue.ВвозИзЕАЭС" id="47500808-1737-45a8-a098-414329756cdd"/>
+			<Metadata name="Enum.ТипыДоговоров.EnumValue.СКомиссионером" id="677204bd-8436-4920-a98d-ba391ad29814"/>
+			<Metadata name="Enum.ТипыДоговоров.EnumValue.СПоставщиком" id="b888ae3c-3d01-4406-a9f9-2936634ff9d9"/>
+			<Metadata name="Enum.ТипыДоговоров.EnumValue.Импорт" id="bd5fe7ae-8e8a-466b-80c9-6561df0166aa"/>
 			<Metadata name="Enum.ТипыДоговоров.EnumValue.СПокупателем" id="ca3f0c7f-9586-49b3-9210-57ae30047b99"/>
+			<Metadata name="Enum.ТипыДоговоров.EnumValue.СКомитентом" id="f1fcc3d2-17fc-43ba-8d67-51fbcc10d040"/>
+			<Metadata name="Enum.ТипыДоговоров.EnumValue.СПереработчиком" id="fc17538d-e00e-4618-af28-b691503e16b2"/>
 		</Metadata>
 		<Metadata name="Enum.ТипыЗадолженности" id="04f88a60-bafd-48d3-ba76-77dd4beb60b1" configVersion="03db139d70f7414cafa71210b03d0cb9e0a12334">
 			<Metadata name="Enum.ТипыЗадолженности.EnumValue.Дебиторская" id="f71bbb71-ef0c-40a7-b5c8-fa7c64ec7674"/>
@@ -1557,7 +1567,10 @@
 			<Metadata name="Enum.ТипыНоменклатуры.EnumValue.Услуга" id="9f475eb1-2e09-4826-b01e-d12e6a1d9a12"/>
 			<Metadata name="Enum.ТипыНоменклатуры.EnumValue.МногооборотнаяТара" id="ffe7c847-1cc1-4199-bbdd-ea1ccd64e672"/>
 		</Metadata>
-		<Metadata name="Enum.ТипыПервичныхДокументов" id="e28ab5a8-c131-4335-87c8-10a1658abdb6" configVersion="cee5b442bc5ec67ae9078ce51ac5dcd27302b9de">
+		<Metadata name="Enum.ТипыПервичныхДокументов" id="e28ab5a8-c131-4335-87c8-10a1658abdb6" configVersion="8676c53a675fe64584f89f72befd44296e9f43a0">
+			<Metadata name="Enum.ТипыПервичныхДокументов.EnumValue.ОплатаОтКлиента" id="01f1fe9e-5cf0-4a84-9be1-1d464da4e2ee"/>
+			<Metadata name="Enum.ТипыПервичныхДокументов.EnumValue.РеализацияКлиенту" id="1bb28779-e3df-4321-acdf-e0d8e0a48bae"/>
+			<Metadata name="Enum.ТипыПервичныхДокументов.EnumValue.ОплатаПоставщику" id="8c11cd38-4772-4ae3-9ffe-c9b5031ec6aa"/>
 			<Metadata name="Enum.ТипыПервичныхДокументов.EnumValue.ПриобретениеУПоставщика" id="d2ec91d3-6de6-4d4f-809a-b6049dd8a032"/>
 		</Metadata>
 		<Metadata name="Enum.ТипыПлатежейПоЛизингу" id="d2493451-2f6e-4c80-9072-98c180790475" configVersion="823cbfbba4054ddc37ebacccc8e4f2a87134961d"/>
