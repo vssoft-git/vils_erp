@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>63b44ebd-5ef4-49e3-aace-ce96f9566195</xr:ObjectId>
+				<xr:ObjectId>9a58490a-8016-4c8b-be3b-ac146275ac53</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -204,6 +204,7 @@
 			<CommonModule>УправлениеКонтактнойИнформацией</CommonModule>
 			<CommonModule>УправлениеКонтактнойИнформациейКлиентСервер</CommonModule>
 			<CommonModule>УправлениеКонтактнойИнформациейСлужебный</CommonModule>
+			<CommonModule>ЗапасыСервер</CommonModule>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>ИспользоватьПодключаемоеОборудование</FunctionalOption>
 			<FunctionalOption>ИспользоватьПоступлениеПоНесколькимЗаказам</FunctionalOption>
@@ -447,6 +448,8 @@
 			<Document>КорректировкаПриобретения</Document>
 			<Document>ЗаказНаПроизводство2_2</Document>
 			<Document>СчетФактураВыданныйАванс</Document>
+			<Document>ЭтапПроизводства2_2</Document>
+			<Document>ПроизводствоБезЗаказа</Document>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
 			<Enum>ПорядокОплатыПоСоглашениям</Enum>
 			<Enum>ХозяйственныеОперации</Enum>
