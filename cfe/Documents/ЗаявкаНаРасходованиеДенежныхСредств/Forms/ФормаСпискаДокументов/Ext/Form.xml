@@ -751,6 +751,11 @@
 					<ContextMenu name="ХозяйственнаяОперацияКонтекстноеМеню" id="88"/>
 					<ExtendedTooltip name="ХозяйственнаяОперацияExtendedTooltip" id="181"/>
 				</LabelField>
+				<LabelField name="ВИЛС_Исполнитель" id="240">
+					<DataPath>Список.ВИЛС_Исполнитель</DataPath>
+					<ContextMenu name="ВИЛС_ИсполнительКонтекстноеМеню" id="241"/>
+					<ExtendedTooltip name="ВИЛС_ИсполнительРасширеннаяПодсказка" id="242"/>
+				</LabelField>
 				<LabelField name="Получатель" id="84">
 					<DataPath>Список.Получатель</DataPath>
 					<Title>
@@ -804,7 +809,7 @@
 		</Table>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="Список" id="1">
+		<Attribute name="Список" id="1000001">
 			<Type>
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
@@ -826,7 +831,7 @@
 	Заявка.Статус КАК Статус,
 	ВЫБОР
 		КОГДА Заявка.ХозяйственнаяОперация = ЗНАЧЕНИЕ(Перечисление.ХозяйственныеОперации.ВыплатаЗарплаты)
-			ТОГДА  Заявка.ХозяйственнаяОперацияПоЗарплате
+			ТОГДА Заявка.ХозяйственнаяОперацияПоЗарплате
 		ИНАЧЕ Заявка.ХозяйственнаяОперация
 	КОНЕЦ КАК ХозяйственнаяОперация,
 	Заявка.СуммаДокумента КАК СуммаДокумента,
@@ -834,18 +839,15 @@
 	Заявка.БанковскийСчет КАК БанковскийСчет,
 	Заявка.Касса КАК Касса,
 	Заявка.ЖелательнаяДатаПлатежа КАК ДатаПлатежа,
-	
-	ВЫБОР КОГДА Заявка.ХозяйственнаяОперация = ЗНАЧЕНИЕ(Перечисление.ХозяйственныеОперации.ВыдачаДенежныхСредствПодотчетнику) ТОГДА
-		Заявка.ПодотчетноеЛицо
-	КОГДА Заявка.ХозяйственнаяОперация = ЗНАЧЕНИЕ(Перечисление.ХозяйственныеОперации.ОплатаДенежныхСредствВДругуюОрганизацию)
-		ИЛИ Заявка.ХозяйственнаяОперация = ЗНАЧЕНИЕ(Перечисление.ХозяйственныеОперации.ВозвратДенежныхСредствВДругуюОрганизацию)
-		ИЛИ Заявка.ХозяйственнаяОперация = ЗНАЧЕНИЕ(Перечисление.ХозяйственныеОперации.ВнутренняяПередачаДенежныхСредств)
-	ТОГДА
-		Заявка.ОрганизацияПолучатель
-	ИНАЧЕ
-		Заявка.Контрагент
+	ВЫБОР
+		КОГДА Заявка.ХозяйственнаяОперация = ЗНАЧЕНИЕ(Перечисление.ХозяйственныеОперации.ВыдачаДенежныхСредствПодотчетнику)
+			ТОГДА Заявка.ПодотчетноеЛицо
+		КОГДА Заявка.ХозяйственнаяОперация = ЗНАЧЕНИЕ(Перечисление.ХозяйственныеОперации.ОплатаДенежныхСредствВДругуюОрганизацию)
+				ИЛИ Заявка.ХозяйственнаяОперация = ЗНАЧЕНИЕ(Перечисление.ХозяйственныеОперации.ВозвратДенежныхСредствВДругуюОрганизацию)
+				ИЛИ Заявка.ХозяйственнаяОперация = ЗНАЧЕНИЕ(Перечисление.ХозяйственныеОперации.ВнутренняяПередачаДенежныхСредств)
+			ТОГДА Заявка.ОрганизацияПолучатель
+		ИНАЧЕ Заявка.Контрагент
 	КОНЕЦ КАК Получатель,
-	
 	Заявка.Контрагент КАК Контрагент,
 	Заявка.Подразделение КАК Подразделение,
 	Заявка.КтоЗаявил КАК Заявитель,
@@ -871,38 +873,32 @@
 			ТОГДА 2
 		ИНАЧЕ 1
 	КОНЕЦ КАК КартинкаПриоритета,
-	
-	ВЫБОР КОГДА ЕСТЬNULL(ДенежныеСредства.СуммаОстаток, 0) &lt;= 0
-		И Заявка.Проведен
-		И Заявка.Статус &lt;&gt; ЗНАЧЕНИЕ(Перечисление.СтатусыЗаявокНаРасходованиеДенежныхСредств.Отклонена)
-	ТОГДА
-		Истина
-	ИНАЧЕ
-		Ложь
-	КОНЕЦ КАК ЗаявкаОплачена,
-	
 	ВЫБОР
-		КОГДА НаличиеПрисоединенныхФайлов.ЕстьФайлы ЕСТЬ NULL ТОГДА
-			1
-		КОГДА НаличиеПрисоединенныхФайлов.ЕстьФайлы ТОГДА
-			0
-		ИНАЧЕ
-			1
-	КОНЕЦ КАК ЕстьФайлы
+		КОГДА ЕСТЬNULL(ДенежныеСредства.СуммаОстаток, 0) &lt;= 0
+				И Заявка.Проведен
+				И Заявка.Статус &lt;&gt; ЗНАЧЕНИЕ(Перечисление.СтатусыЗаявокНаРасходованиеДенежныхСредств.Отклонена)
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ КАК ЗаявкаОплачена,
+	ВЫБОР
+		КОГДА НаличиеПрисоединенныхФайлов.ЕстьФайлы ЕСТЬ NULL
+			ТОГДА 1
+		КОГДА НаличиеПрисоединенныхФайлов.ЕстьФайлы
+			ТОГДА 0
+		ИНАЧЕ 1
+	КОНЕЦ КАК ЕстьФайлы,
+	ВЫБОР
+		КОГДА ТИПЗНАЧЕНИЯ(Заявка.ВИЛС_Исполнитель) = ТИП(Справочник.Пользователи)
+			ТОГДА ВЫРАЗИТЬ(Заявка.ВИЛС_Исполнитель КАК Справочник.Пользователи)
+		ИНАЧЕ ВЫРАЗИТЬ(Заявка.ВИЛС_Исполнитель КАК СТРОКА(150))
+	КОНЕЦ КАК ВИЛС_Исполнитель,
+	ВЫРАЗИТЬ(Заявка.НазначениеПлатежа КАК СТРОКА(300)) КАК ВИЛС_НазначениеПлатежа
 ИЗ
 	Документ.ЗаявкаНаРасходованиеДенежныхСредств КАК Заявка
-	
-	ЛЕВОЕ СОЕДИНЕНИЕ
-		РегистрНакопления.ДенежныеСредстваКВыплате.Остатки КАК ДенежныеСредства
-	ПО 
-		ДенежныеСредства.ЗаявкаНаРасходованиеДенежныхСредств = Заявка.Ссылка
-
-	ЛЕВОЕ СОЕДИНЕНИЕ
-		РегистрСведений.НаличиеФайлов КАК НаличиеПрисоединенныхФайлов
-	ПО
-		Заявка.Ссылка = НаличиеПрисоединенныхФайлов.ОбъектСФайлами
-		
-</QueryText>
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.ДенежныеСредстваКВыплате.Остатки КАК ДенежныеСредства
+		ПО (ДенежныеСредства.ЗаявкаНаРасходованиеДенежныхСредств = Заявка.Ссылка)
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.НаличиеФайлов КАК НаличиеПрисоединенныхФайлов
+		ПО Заявка.Ссылка = НаличиеПрисоединенныхФайлов.ОбъектСФайлами</QueryText>
 				<MainTable>Document.ЗаявкаНаРасходованиеДенежныхСредств</MainTable>
 				<ListSettings>
 					<dcsset:filter>
@@ -1037,7 +1033,7 @@
 				</ListSettings>
 			</Settings>
 		</Attribute>
-		<Attribute name="Заявитель" id="7">
+		<Attribute name="Заявитель" id="1000002">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1051,7 +1047,7 @@
 				<Field>Заявитель</Field>
 			</Save>
 		</Attribute>
-		<Attribute name="ИспользоватьПодключаемоеОборудование" id="2">
+		<Attribute name="ИспользоватьПодключаемоеОборудование" id="1000003">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1062,7 +1058,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ПоддерживаемыеТипыПодключаемогоОборудования" id="3">
+		<Attribute name="ПоддерживаемыеТипыПодключаемогоОборудования" id="1000004">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1077,7 +1073,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ПараметрыПодключаемыхКоманд" id="8">
+		<Attribute name="ПараметрыПодключаемыхКоманд" id="1000005">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1088,7 +1084,7 @@
 		</Attribute>
 	</Attributes>
 	<Commands>
-		<Command name="СоздатьВыдачаДенежныхСредствПодотчетнику" id="1">
+		<Command name="СоздатьВыдачаДенежныхСредствПодотчетнику" id="1000001">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1103,7 +1099,7 @@
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СоздатьВозвратДенежныхСредствКлиенту" id="2">
+		<Command name="СоздатьВозвратДенежныхСредствКлиенту" id="1000002">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1118,7 +1114,7 @@
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СоздатьПрочаяВыдачаДенежныхСредств" id="4">
+		<Command name="СоздатьПрочаяВыдачаДенежныхСредств" id="1000003">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1133,7 +1129,7 @@
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СоздатьПеречислениеВБюджет" id="3">
+		<Command name="СоздатьПеречислениеВБюджет" id="1000004">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1148,7 +1144,7 @@
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="УстановитьСтатусКОплате" id="5">
+		<Command name="УстановитьСтатусКОплате" id="1000005">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1163,7 +1159,7 @@
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="УстановитьСтатусОтклонена" id="6">
+		<Command name="УстановитьСтатусОтклонена" id="1000006">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1178,7 +1174,7 @@
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="УстановитьСтатусНеСогласована" id="7">
+		<Command name="УстановитьСтатусНеСогласована" id="1000007">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1193,7 +1189,7 @@
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="УстановитьСтатусСогласована" id="8">
+		<Command name="УстановитьСтатусСогласована" id="1000008">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1208,7 +1204,7 @@
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СоздатьОплатаВДругуюОрганизацию" id="10">
+		<Command name="СоздатьОплатаВДругуюОрганизацию" id="1000009">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1220,7 +1216,7 @@
 			</FunctionalOptions>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СоздатьВозвратВДругуюОрганизацию" id="11">
+		<Command name="СоздатьВозвратВДругуюОрганизацию" id="1000010">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1238,7 +1234,7 @@
 			</FunctionalOptions>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СоздатьВнутреннююПередачуДенежныхСредств" id="12">
+		<Command name="СоздатьВнутреннююПередачуДенежныхСредств" id="1000011">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1256,7 +1252,7 @@
 			</FunctionalOptions>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СоздатьПеречислениеТаможне" id="13">
+		<Command name="СоздатьПеречислениеТаможне" id="1000012">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1274,7 +1270,7 @@
 			</FunctionalOptions>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СоздатьКонвертацияВалюты" id="14">
+		<Command name="СоздатьКонвертацияВалюты" id="1000013">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1289,7 +1285,7 @@
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СоздатьВыплатаЗаработнойПлаты" id="15">
+		<Command name="СоздатьВыплатаЗаработнойПлаты" id="1000014">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1304,7 +1300,7 @@
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СоздатьПеречислениеНаДепозиты" id="16">
+		<Command name="СоздатьПеречислениеНаДепозиты" id="1000015">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1322,7 +1318,7 @@
 			</FunctionalOptions>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СоздатьВыдачуЗаймаКонтрагенту" id="17">
+		<Command name="СоздатьВыдачуЗаймаКонтрагенту" id="1000016">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1340,7 +1336,7 @@
 			</FunctionalOptions>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СоздатьОплатаПоКредиту" id="18">
+		<Command name="СоздатьОплатаПоКредиту" id="1000017">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1358,7 +1354,7 @@
 			</FunctionalOptions>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СоздатьОплатуЛизингодателю" id="21">
+		<Command name="СоздатьОплатуЛизингодателю" id="1000018">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1376,7 +1372,7 @@
 			</FunctionalOptions>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СоздатьВыдачуЗаймаСотруднику" id="9">
+		<Command name="СоздатьВыдачуЗаймаСотруднику" id="1000019">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2190,7 +2186,7 @@
 			</Table>
 		</ChildItems>
 		<Attributes>
-			<Attribute name="Список" id="1">
+			<Attribute name="Список" id="1000001">
 				<Type>
 					<v8:Type>cfg:DynamicList</v8:Type>
 				</Type>
@@ -2423,7 +2419,7 @@
 					</ListSettings>
 				</Settings>
 			</Attribute>
-			<Attribute name="Заявитель" id="7">
+			<Attribute name="Заявитель" id="1000002">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2437,7 +2433,7 @@
 					<Field>Заявитель</Field>
 				</Save>
 			</Attribute>
-			<Attribute name="ИспользоватьПодключаемоеОборудование" id="2">
+			<Attribute name="ИспользоватьПодключаемоеОборудование" id="1000003">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2448,7 +2444,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ПоддерживаемыеТипыПодключаемогоОборудования" id="3">
+			<Attribute name="ПоддерживаемыеТипыПодключаемогоОборудования" id="1000004">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2463,7 +2459,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ПараметрыПодключаемыхКоманд" id="8">
+			<Attribute name="ПараметрыПодключаемыхКоманд" id="1000005">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2474,7 +2470,7 @@
 			</Attribute>
 		</Attributes>
 		<Commands>
-			<Command name="СоздатьВыдачаДенежныхСредствПодотчетнику" id="1">
+			<Command name="СоздатьВыдачаДенежныхСредствПодотчетнику" id="1000001">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2489,7 +2485,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СоздатьВозвратДенежныхСредствКлиенту" id="2">
+			<Command name="СоздатьВозвратДенежныхСредствКлиенту" id="1000002">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2504,7 +2500,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СоздатьПрочаяВыдачаДенежныхСредств" id="4">
+			<Command name="СоздатьПрочаяВыдачаДенежныхСредств" id="1000003">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2519,7 +2515,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СоздатьПеречислениеВБюджет" id="3">
+			<Command name="СоздатьПеречислениеВБюджет" id="1000004">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2534,7 +2530,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="УстановитьСтатусКОплате" id="5">
+			<Command name="УстановитьСтатусКОплате" id="1000005">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2549,7 +2545,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="УстановитьСтатусОтклонена" id="6">
+			<Command name="УстановитьСтатусОтклонена" id="1000006">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2564,7 +2560,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="УстановитьСтатусНеСогласована" id="7">
+			<Command name="УстановитьСтатусНеСогласована" id="1000007">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2579,7 +2575,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="УстановитьСтатусСогласована" id="8">
+			<Command name="УстановитьСтатусСогласована" id="1000008">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2594,7 +2590,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СоздатьОплатаВДругуюОрганизацию" id="10">
+			<Command name="СоздатьОплатаВДругуюОрганизацию" id="1000009">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2606,7 +2602,7 @@
 				</FunctionalOptions>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СоздатьВозвратВДругуюОрганизацию" id="11">
+			<Command name="СоздатьВозвратВДругуюОрганизацию" id="1000010">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2624,7 +2620,7 @@
 				</FunctionalOptions>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СоздатьВнутреннююПередачуДенежныхСредств" id="12">
+			<Command name="СоздатьВнутреннююПередачуДенежныхСредств" id="1000011">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2642,7 +2638,7 @@
 				</FunctionalOptions>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СоздатьПеречислениеТаможне" id="13">
+			<Command name="СоздатьПеречислениеТаможне" id="1000012">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2660,7 +2656,7 @@
 				</FunctionalOptions>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СоздатьКонвертацияВалюты" id="14">
+			<Command name="СоздатьКонвертацияВалюты" id="1000013">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2675,7 +2671,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СоздатьВыплатаЗаработнойПлаты" id="15">
+			<Command name="СоздатьВыплатаЗаработнойПлаты" id="1000014">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2690,7 +2686,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СоздатьПеречислениеНаДепозиты" id="16">
+			<Command name="СоздатьПеречислениеНаДепозиты" id="1000015">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2708,7 +2704,7 @@
 				</FunctionalOptions>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СоздатьВыдачуЗаймаКонтрагенту" id="17">
+			<Command name="СоздатьВыдачуЗаймаКонтрагенту" id="1000016">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2726,7 +2722,7 @@
 				</FunctionalOptions>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СоздатьОплатаПоКредиту" id="18">
+			<Command name="СоздатьОплатаПоКредиту" id="1000017">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2744,7 +2740,7 @@
 				</FunctionalOptions>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СоздатьОплатуЛизингодателю" id="21">
+			<Command name="СоздатьОплатуЛизингодателю" id="1000018">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2762,7 +2758,7 @@
 				</FunctionalOptions>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СоздатьВыдачуЗаймаСотруднику" id="9">
+			<Command name="СоздатьВыдачуЗаймаСотруднику" id="1000019">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
