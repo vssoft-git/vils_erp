@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>b1f324f1-4caf-46f8-966f-a53c19e8ddf3</xr:ObjectId>
+				<xr:ObjectId>bd4d0549-285c-46fd-b40c-cec5d9a1a05a</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -209,6 +209,7 @@
 			<CommonModule>ВводОстатковЛокализация</CommonModule>
 			<CommonModule>ПриобретениеУслугПрочихАктивовЛокализация</CommonModule>
 			<CommonModule>ОтражениеЗарплатыВБухучетеРасширенный</CommonModule>
+			<CommonModule>ЗатратыСервер</CommonModule>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>ИспользоватьПодключаемоеОборудование</FunctionalOption>
 			<FunctionalOption>ИспользоватьПоступлениеПоНесколькимЗаказам</FunctionalOption>
@@ -282,6 +283,7 @@
 			<DefinedType>ОснованиеНачисления</DefinedType>
 			<DefinedType>ОбъектОплаты</DefinedType>
 			<DefinedType>ВладелецОбменСБанками</DefinedType>
+			<DefinedType>ДокументПартииПроизводства</DefinedType>
 			<CommonCommand>ИнтеграцияС1СДокументооборотСоздатьПисьмо</CommonCommand>
 			<CommonCommand>ДополнительныеСведенияКоманднаяПанель</CommonCommand>
 			<CommonCommand>ИнтеграцияС1СДокументооборотСоздатьБизнесПроцесс</CommonCommand>
@@ -347,6 +349,7 @@
 			<CommonForm>ФормаВариантаОтчета</CommonForm>
 			<CommonForm>ФормаНастроекОтчета</CommonForm>
 			<CommonForm>ФормаОтчета</CommonForm>
+			<CommonForm>ПодборПартийПроизводства</CommonForm>
 			<Catalog>ПредприятияВЕТИС</Catalog>
 			<Catalog>ЗаписиСкладскогоЖурналаВЕТИС</Catalog>
 			<Catalog>УпаковкиЕдиницыИзмерения</Catalog>
@@ -419,6 +422,8 @@
 			<Catalog>СегментыНоменклатуры</Catalog>
 			<Catalog>ВариантыОтчетов</Catalog>
 			<Catalog>КлючиАналитикиУчетаНоменклатуры</Catalog>
+			<Catalog>ПартииПроизводства</Catalog>
+			<Catalog>РесурсныеСпецификации</Catalog>
 			<Document>ПриобретениеТоваровУслуг</Document>
 			<Document>ЗаявкаНаРасходованиеДенежныхСредств</Document>
 			<Document>ЗаявлениеСотрудникаНаВыплатуПособия</Document>
