@@ -5,27 +5,12 @@
 	<CommandSet>
 		<ExcludedCommand>Abort</ExcludedCommand>
 		<ExcludedCommand>Cancel</ExcludedCommand>
-		<ExcludedCommand>CancelSearch</ExcludedCommand>
-		<ExcludedCommand>Change</ExcludedCommand>
-		<ExcludedCommand>Choose</ExcludedCommand>
-		<ExcludedCommand>Copy</ExcludedCommand>
-		<ExcludedCommand>Create</ExcludedCommand>
-		<ExcludedCommand>Delete</ExcludedCommand>
-		<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
-		<ExcludedCommand>Find</ExcludedCommand>
-		<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 		<ExcludedCommand>Ignore</ExcludedCommand>
-		<ExcludedCommand>ListSettings</ExcludedCommand>
-		<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
 		<ExcludedCommand>No</ExcludedCommand>
 		<ExcludedCommand>OK</ExcludedCommand>
-		<ExcludedCommand>OutputList</ExcludedCommand>
-		<ExcludedCommand>Refresh</ExcludedCommand>
 		<ExcludedCommand>RestoreValues</ExcludedCommand>
 		<ExcludedCommand>Retry</ExcludedCommand>
-		<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
 		<ExcludedCommand>SaveValues</ExcludedCommand>
-		<ExcludedCommand>SetDeletionMark</ExcludedCommand>
 		<ExcludedCommand>Yes</ExcludedCommand>
 	</CommandSet>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -48,7 +33,7 @@
 			<ExtendedTooltip name="БыстрыеОтборыExtendedTooltip" id="49"/>
 			<ChildItems>
 				<InputField name="ОтборМенеджер" id="44">
-					<DataPath>Менеджер</DataPath>
+					<DataPath>6</DataPath>
 					<TitleLocation>Top</TitleLocation>
 					<AutoMaxWidth>false</AutoMaxWidth>
 					<MaxWidth>30</MaxWidth>
@@ -60,6 +45,39 @@
 					<ContextMenu name="ОтборМенеджерКонтекстноеМеню" id="45"/>
 					<ExtendedTooltip name="ОтборМенеджерExtendedTooltip" id="50"/>
 				</InputField>
+				<InputField name="ОтборПартнер" id="83">
+					<DataPath>8</DataPath>
+					<Visible>false</Visible>
+					<TitleLocation>Top</TitleLocation>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>30</MaxWidth>
+					<DropListButton>true</DropListButton>
+					<ClearButton>true</ClearButton>
+					<OpenButton>false</OpenButton>
+					<DropListWidth>1</DropListWidth>
+					<ContextMenu name="ОтборПартнерКонтекстноеМеню" id="84"/>
+					<ExtendedTooltip name="ОтборПартнерРасширеннаяПодсказка" id="85"/>
+				</InputField>
+				<InputField name="ОтборКонтрагент" id="86">
+					<DataPath>9</DataPath>
+					<Visible>false</Visible>
+					<TitleLocation>Top</TitleLocation>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<MaxWidth>30</MaxWidth>
+					<DropListButton>true</DropListButton>
+					<ClearButton>true</ClearButton>
+					<OpenButton>false</OpenButton>
+					<ChoiceParameterLinks>
+						<xr:Link>
+							<xr:Name>Отбор.Партнер</xr:Name>
+							<xr:DataPath xsi:type="xs:string">8</xr:DataPath>
+							<xr:ValueChange>Clear</xr:ValueChange>
+						</xr:Link>
+					</ChoiceParameterLinks>
+					<DropListWidth>1</DropListWidth>
+					<ContextMenu name="ОтборКонтрагентКонтекстноеМеню" id="87"/>
+					<ExtendedTooltip name="ОтборКонтрагентРасширеннаяПодсказка" id="88"/>
+				</InputField>
 			</ChildItems>
 		</UsualGroup>
 		<Table name="Список" id="1">
@@ -70,8 +88,8 @@
 			<InitialTreeView>ExpandTopLevel</InitialTreeView>
 			<EnableStartDrag>true</EnableStartDrag>
 			<FileDragMode>AsFile</FileDragMode>
-			<DataPath>Список</DataPath>
-			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+			<DataPath>1</DataPath>
+			<RowPictureDataPath>1/10000000</RowPictureDataPath>
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -167,14 +185,14 @@
 			</SearchControlAddition>
 			<ChildItems>
 				<LabelField name="СписокНомер" id="6">
-					<DataPath>Список.Номер</DataPath>
+					<DataPath>1/21</DataPath>
 					<Width>10</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="СписокНомерКонтекстноеМеню" id="7"/>
 					<ExtendedTooltip name="СписокНомерExtendedTooltip" id="56"/>
 				</LabelField>
 				<LabelField name="СписокДата" id="8">
-					<DataPath>Список.Дата</DataPath>
+					<DataPath>1/32</DataPath>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>
@@ -184,21 +202,21 @@
 					<ExtendedTooltip name="СписокДатаExtendedTooltip" id="57"/>
 				</LabelField>
 				<LabelField name="СписокНаименование" id="4">
-					<DataPath>Список.Description</DataPath>
+					<DataPath>1/35</DataPath>
 					<DefaultItem>true</DefaultItem>
 					<Width>16</Width>
 					<ContextMenu name="СписокНаименованиеКонтекстноеМеню" id="5"/>
 					<ExtendedTooltip name="СписокНаименованиеExtendedTooltip" id="58"/>
 				</LabelField>
 				<LabelField name="СписокСтатус" id="18">
-					<DataPath>Список.Статус</DataPath>
+					<DataPath>1/62</DataPath>
 					<Width>12</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="СписокСтатусКонтекстноеМеню" id="19"/>
 					<ExtendedTooltip name="СписокСтатусExtendedTooltip" id="59"/>
 				</LabelField>
 				<LabelField name="СписокДатаНачалаДействия" id="20">
-					<DataPath>Список.ДатаНачалаДействия</DataPath>
+					<DataPath>1/72</DataPath>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -211,7 +229,7 @@
 					<ExtendedTooltip name="СписокДатаНачалаДействияExtendedTooltip" id="60"/>
 				</LabelField>
 				<LabelField name="СписокДатаОкончанияДействия" id="22">
-					<DataPath>Список.ДатаОкончанияДействия</DataPath>
+					<DataPath>1/82</DataPath>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -224,13 +242,13 @@
 					<ExtendedTooltip name="СписокДатаОкончанияДействияExtendedTooltip" id="61"/>
 				</LabelField>
 				<LabelField name="СписокВалютаВзаиморасчетов" id="14">
-					<DataPath>Список.ВалютаВзаиморасчетов</DataPath>
+					<DataPath>1/89</DataPath>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ContextMenu name="СписокВалютаВзаиморасчетовКонтекстноеМеню" id="15"/>
 					<ExtendedTooltip name="СписокВалютаВзаиморасчетовExtendedTooltip" id="62"/>
 				</LabelField>
 				<LabelField name="СписокОрганизация" id="10">
-					<DataPath>Список.Организация</DataPath>
+					<DataPath>1/105</DataPath>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>
@@ -239,7 +257,7 @@
 					<ExtendedTooltip name="СписокОрганизацияExtendedTooltip" id="63"/>
 				</LabelField>
 				<LabelField name="СписокКонтрагент" id="12">
-					<DataPath>Список.Контрагент</DataPath>
+					<DataPath>1/117</DataPath>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>
@@ -248,7 +266,7 @@
 					<ExtendedTooltip name="СписокКонтрагентExtendedTooltip" id="64"/>
 				</LabelField>
 				<LabelField name="СписокПартнер" id="80">
-					<DataPath>Список.Партнер</DataPath>
+					<DataPath>1/132</DataPath>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>
@@ -256,7 +274,7 @@
 					<ExtendedTooltip name="СписокПартнерРасширеннаяПодсказка" id="82"/>
 				</LabelField>
 				<LabelField name="СписокТипДоговора" id="47">
-					<DataPath>Список.ТипДоговора</DataPath>
+					<DataPath>1/154</DataPath>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>
@@ -270,7 +288,7 @@
 					<ExtendedTooltip name="СписокТипДоговораExtendedTooltip" id="65"/>
 				</LabelField>
 				<LabelField name="СписокХозяйственнаяОперация" id="16">
-					<DataPath>Список.ХозяйственнаяОперация</DataPath>
+					<DataPath>1/177</DataPath>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>
@@ -279,7 +297,7 @@
 					<ExtendedTooltip name="СписокХозяйственнаяОперацияExtendedTooltip" id="66"/>
 				</LabelField>
 				<LabelField name="СписокМенеджер" id="26">
-					<DataPath>Список.Менеджер</DataPath>
+					<DataPath>1/189</DataPath>
 					<UserVisible>
 						<xr:Common>false</xr:Common>
 					</UserVisible>
@@ -288,7 +306,7 @@
 					<ExtendedTooltip name="СписокМенеджерExtendedTooltip" id="67"/>
 				</LabelField>
 				<LabelField name="Ссылка" id="24">
-					<DataPath>Список.Ref</DataPath>
+					<DataPath>1/193</DataPath>
 					<Visible>false</Visible>
 					<ContextMenu name="СсылкаКонтекстноеМеню" id="25"/>
 					<ExtendedTooltip name="СсылкаExtendedTooltip" id="68"/>
@@ -356,7 +374,7 @@
 	КОНЕЦ КАК ПодходитДляПодбораВДоговорЗаказчика
 ИЗ
 	Справочник.ДоговорыКонтрагентов КАК СправочникДоговорыКонтрагентов</QueryText>
-				<MainTable>Catalog.ДоговорыКонтрагентов</MainTable>
+				<MainTable>1:3404cb9a-92ea-42b9-9086-ad481dbc27d7</MainTable>
 				<ListSettings>
 					<dcsset:filter>
 						<dcsset:item xsi:type="dcsset:FilterItemComparison">
@@ -392,13 +410,13 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+				<v8:TypeId>604931cd-d4a8-48d0-bc59-2ac90e044abb</v8:TypeId>
 			</Type>
 			<Save>
 				<Field>Менеджер</Field>
 			</Save>
 			<FunctionalOptions>
-				<Item>FunctionalOption.ОтветственныйВДокументах</Item>
+				<Item>f90edf05-f8eb-4378-a7d4-7a2fed6dd7fa</Item>
 			</FunctionalOptions>
 		</Attribute>
 		<Attribute name="ПараметрыПодключаемыхКоманд" id="1000003">
@@ -417,27 +435,12 @@
 		<CommandSet>
 			<ExcludedCommand>Abort</ExcludedCommand>
 			<ExcludedCommand>Cancel</ExcludedCommand>
-			<ExcludedCommand>CancelSearch</ExcludedCommand>
-			<ExcludedCommand>Change</ExcludedCommand>
-			<ExcludedCommand>Choose</ExcludedCommand>
-			<ExcludedCommand>Copy</ExcludedCommand>
-			<ExcludedCommand>Create</ExcludedCommand>
-			<ExcludedCommand>Delete</ExcludedCommand>
-			<ExcludedCommand>DynamicListStandardSettings</ExcludedCommand>
-			<ExcludedCommand>Find</ExcludedCommand>
-			<ExcludedCommand>FindByCurrentValue</ExcludedCommand>
 			<ExcludedCommand>Ignore</ExcludedCommand>
-			<ExcludedCommand>ListSettings</ExcludedCommand>
-			<ExcludedCommand>LoadDynamicListSettings</ExcludedCommand>
 			<ExcludedCommand>No</ExcludedCommand>
 			<ExcludedCommand>OK</ExcludedCommand>
-			<ExcludedCommand>OutputList</ExcludedCommand>
-			<ExcludedCommand>Refresh</ExcludedCommand>
 			<ExcludedCommand>RestoreValues</ExcludedCommand>
 			<ExcludedCommand>Retry</ExcludedCommand>
-			<ExcludedCommand>SaveDynamicListSettings</ExcludedCommand>
 			<ExcludedCommand>SaveValues</ExcludedCommand>
-			<ExcludedCommand>SetDeletionMark</ExcludedCommand>
 			<ExcludedCommand>Yes</ExcludedCommand>
 		</CommandSet>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
@@ -457,7 +460,7 @@
 				<ExtendedTooltip name="БыстрыеОтборыExtendedTooltip" id="49"/>
 				<ChildItems>
 					<InputField name="ОтборМенеджер" id="44">
-						<DataPath>Менеджер</DataPath>
+						<DataPath>6</DataPath>
 						<TitleLocation>Top</TitleLocation>
 						<AutoMaxWidth>false</AutoMaxWidth>
 						<MaxWidth>30</MaxWidth>
@@ -469,6 +472,39 @@
 						<ContextMenu name="ОтборМенеджерКонтекстноеМеню" id="45"/>
 						<ExtendedTooltip name="ОтборМенеджерExtendedTooltip" id="50"/>
 					</InputField>
+					<InputField name="ОтборПартнер" id="83">
+						<DataPath>8</DataPath>
+						<Visible>false</Visible>
+						<TitleLocation>Top</TitleLocation>
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<MaxWidth>30</MaxWidth>
+						<DropListButton>true</DropListButton>
+						<ClearButton>true</ClearButton>
+						<OpenButton>false</OpenButton>
+						<DropListWidth>1</DropListWidth>
+						<ContextMenu name="ОтборПартнерКонтекстноеМеню" id="84"/>
+						<ExtendedTooltip name="ОтборПартнерРасширеннаяПодсказка" id="85"/>
+					</InputField>
+					<InputField name="ОтборКонтрагент" id="86">
+						<DataPath>9</DataPath>
+						<Visible>false</Visible>
+						<TitleLocation>Top</TitleLocation>
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<MaxWidth>30</MaxWidth>
+						<DropListButton>true</DropListButton>
+						<ClearButton>true</ClearButton>
+						<OpenButton>false</OpenButton>
+						<ChoiceParameterLinks>
+							<xr:Link>
+								<xr:Name>Отбор.Партнер</xr:Name>
+								<xr:DataPath xsi:type="xs:string">8</xr:DataPath>
+								<xr:ValueChange>Clear</xr:ValueChange>
+							</xr:Link>
+						</ChoiceParameterLinks>
+						<DropListWidth>1</DropListWidth>
+						<ContextMenu name="ОтборКонтрагентКонтекстноеМеню" id="87"/>
+						<ExtendedTooltip name="ОтборКонтрагентРасширеннаяПодсказка" id="88"/>
+					</InputField>
 				</ChildItems>
 			</UsualGroup>
 			<Table name="Список" id="1">
@@ -479,8 +515,7 @@
 				<InitialTreeView>ExpandTopLevel</InitialTreeView>
 				<EnableStartDrag>true</EnableStartDrag>
 				<FileDragMode>AsFile</FileDragMode>
-				<DataPath>Список</DataPath>
-				<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+				<DataPath>1</DataPath>
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -576,14 +611,12 @@
 				</SearchControlAddition>
 				<ChildItems>
 					<LabelField name="СписокНомер" id="6">
-						<DataPath>Список.Номер</DataPath>
 						<Width>10</Width>
 						<HorizontalStretch>false</HorizontalStretch>
 						<ContextMenu name="СписокНомерКонтекстноеМеню" id="7"/>
 						<ExtendedTooltip name="СписокНомерExtendedTooltip" id="56"/>
 					</LabelField>
 					<LabelField name="СписокДата" id="8">
-						<DataPath>Список.Дата</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -593,21 +626,18 @@
 						<ExtendedTooltip name="СписокДатаExtendedTooltip" id="57"/>
 					</LabelField>
 					<LabelField name="СписокНаименование" id="4">
-						<DataPath>Список.Description</DataPath>
 						<DefaultItem>true</DefaultItem>
 						<Width>16</Width>
 						<ContextMenu name="СписокНаименованиеКонтекстноеМеню" id="5"/>
 						<ExtendedTooltip name="СписокНаименованиеExtendedTooltip" id="58"/>
 					</LabelField>
 					<LabelField name="СписокСтатус" id="18">
-						<DataPath>Список.Статус</DataPath>
 						<Width>12</Width>
 						<HorizontalStretch>false</HorizontalStretch>
 						<ContextMenu name="СписокСтатусКонтекстноеМеню" id="19"/>
 						<ExtendedTooltip name="СписокСтатусExtendedTooltip" id="59"/>
 					</LabelField>
 					<LabelField name="СписокДатаНачалаДействия" id="20">
-						<DataPath>Список.ДатаНачалаДействия</DataPath>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -620,7 +650,6 @@
 						<ExtendedTooltip name="СписокДатаНачалаДействияExtendedTooltip" id="60"/>
 					</LabelField>
 					<LabelField name="СписокДатаОкончанияДействия" id="22">
-						<DataPath>Список.ДатаОкончанияДействия</DataPath>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -633,13 +662,11 @@
 						<ExtendedTooltip name="СписокДатаОкончанияДействияExtendedTooltip" id="61"/>
 					</LabelField>
 					<LabelField name="СписокВалютаВзаиморасчетов" id="14">
-						<DataPath>Список.ВалютаВзаиморасчетов</DataPath>
 						<HorizontalStretch>false</HorizontalStretch>
 						<ContextMenu name="СписокВалютаВзаиморасчетовКонтекстноеМеню" id="15"/>
 						<ExtendedTooltip name="СписокВалютаВзаиморасчетовExtendedTooltip" id="62"/>
 					</LabelField>
 					<LabelField name="СписокОрганизация" id="10">
-						<DataPath>Список.Организация</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -648,7 +675,6 @@
 						<ExtendedTooltip name="СписокОрганизацияExtendedTooltip" id="63"/>
 					</LabelField>
 					<LabelField name="СписокКонтрагент" id="12">
-						<DataPath>Список.Контрагент</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -657,7 +683,6 @@
 						<ExtendedTooltip name="СписокКонтрагентExtendedTooltip" id="64"/>
 					</LabelField>
 					<LabelField name="СписокПартнер" id="80">
-						<DataPath>Список.Партнер</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -665,7 +690,6 @@
 						<ExtendedTooltip name="СписокПартнерРасширеннаяПодсказка" id="82"/>
 					</LabelField>
 					<LabelField name="СписокТипДоговора" id="47">
-						<DataPath>Список.ТипДоговора</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -679,7 +703,6 @@
 						<ExtendedTooltip name="СписокТипДоговораExtendedTooltip" id="65"/>
 					</LabelField>
 					<LabelField name="СписокХозяйственнаяОперация" id="16">
-						<DataPath>Список.ХозяйственнаяОперация</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -688,7 +711,6 @@
 						<ExtendedTooltip name="СписокХозяйственнаяОперацияExtendedTooltip" id="66"/>
 					</LabelField>
 					<LabelField name="СписокМенеджер" id="26">
-						<DataPath>Список.Менеджер</DataPath>
 						<UserVisible>
 							<xr:Common>false</xr:Common>
 						</UserVisible>
@@ -697,7 +719,6 @@
 						<ExtendedTooltip name="СписокМенеджерExtendedTooltip" id="67"/>
 					</LabelField>
 					<LabelField name="Ссылка" id="24">
-						<DataPath>Список.Ref</DataPath>
 						<Visible>false</Visible>
 						<ContextMenu name="СсылкаКонтекстноеМеню" id="25"/>
 						<ExtendedTooltip name="СсылкаExtendedTooltip" id="68"/>
