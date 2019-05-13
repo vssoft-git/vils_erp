@@ -156,6 +156,7 @@
 		<Event name="OnOpen" callType="After">ВИЛС_ПриОткрытииПосле</Event>
 		<Event name="OnCreateAtServer" callType="After">ВИЛС_ПриСозданииНаСервереПосле</Event>
 		<Event name="OnWriteAtServer" callType="After">ВИЛС_ПриЗаписиНаСервереПосле</Event>
+		<Event name="FillCheckProcessingAtServer" callType="Before">ВИЛС_ОбработкаПроверкиЗаполненияНаСервереПеред</Event>
 	</Events>
 	<ChildItems>
 		<Pages name="ГруппаСтраницы" id="298">
