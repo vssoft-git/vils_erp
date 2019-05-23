@@ -1163,45 +1163,13 @@
 			<c>
 				<c>
 					<f>41</f>
-					<tl/>
-					<detailParameter>Контрагент</detailParameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>42</f>
-					<tl/>
-					<detailParameter>ДоговорКонтрагента</detailParameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>43</f>
-					<tl/>
-					<detailParameter>ДоговорКонтрагента</detailParameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>42</f>
-					<tl/>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>42</f>
-					<tl/>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>44</f>
 					<parameter>ЗаЧто</parameter>
 				</c>
 			</c>
 			<c>
+				<i>6</i>
 				<c>
-					<f>45</f>
+					<f>42</f>
 					<parameter>Регистратор</parameter>
 					<detailParameter>Регистратор</detailParameter>
 				</c>
@@ -1218,69 +1186,69 @@
 			</c>
 			<c>
 				<c>
-					<f>46</f>
+					<f>43</f>
 					<parameter>ДатаДолга</parameter>
 					<detailParameter>Регистратор</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>43</f>
+					<f>44</f>
 					<tl/>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>47</f>
+					<f>45</f>
 					<parameter>Колонка12Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>47</f>
+					<f>45</f>
 					<parameter>Колонка13Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>47</f>
+					<f>45</f>
 					<parameter>Колонка14Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>48</f>
+					<f>46</f>
 					<parameter>Колонка15Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>47</f>
+					<f>45</f>
 					<parameter>Колонка16Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>49</f>
+					<f>47</f>
 					<parameter>Колонка17Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>50</f>
+					<f>48</f>
 					<tl/>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>51</f>
+					<f>49</f>
 					<tl/>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>52</defaultFormatIndex>
+	<defaultFormatIndex>50</defaultFormatIndex>
 	<height>9</height>
 	<vgRows>9</vgRows>
 	<merge>
@@ -1290,6 +1258,11 @@
 	</merge>
 	<merge>
 		<r>7</r>
+		<c>0</c>
+		<w>5</w>
+	</merge>
+	<merge>
+		<r>8</r>
 		<c>0</c>
 		<w>5</w>
 	</merge>
@@ -1789,53 +1762,15 @@
 		<borderColor>#999999</borderColor>
 	</format>
 	<format>
-		<font>4</font>
-		<rightBorder>0</rightBorder>
-		<bottomBorder>0</bottomBorder>
-		<borderColor>#999999</borderColor>
-		<horizontalAlignment>Left</horizontalAlignment>
-		<verticalAlignment>Center</verticalAlignment>
-		<textColor>#000000</textColor>
-		<textPlacement>Wrap</textPlacement>
-		<fillType>Text</fillType>
-	</format>
-	<format>
-		<font>4</font>
-		<rightBorder>0</rightBorder>
-		<bottomBorder>0</bottomBorder>
-		<borderColor>#999999</borderColor>
-		<horizontalAlignment>Center</horizontalAlignment>
-		<verticalAlignment>Center</verticalAlignment>
-		<textColor>#000000</textColor>
-		<textPlacement>Wrap</textPlacement>
-		<fillType>Text</fillType>
-	</format>
-	<format>
-		<font>4</font>
-		<rightBorder>0</rightBorder>
-		<bottomBorder>0</bottomBorder>
-		<borderColor>#999999</borderColor>
-		<horizontalAlignment>Center</horizontalAlignment>
-		<verticalAlignment>Center</verticalAlignment>
-		<textColor>#000000</textColor>
-		<textPlacement>Wrap</textPlacement>
-		<fillType>Text</fillType>
-		<format>
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>ДФ=dd.MM.yy</v8:content>
-			</v8:item>
-		</format>
-	</format>
-	<format>
 		<font>5</font>
 		<rightBorder>0</rightBorder>
 		<bottomBorder>0</bottomBorder>
 		<borderColor>#999999</borderColor>
-		<horizontalAlignment>Center</horizontalAlignment>
+		<width>105</width>
+		<horizontalAlignment>Right</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
 		<textColor>style:FieldSelectionBackColor</textColor>
-		<textPlacement>Wrap</textPlacement>
+		<textPlacement>Auto</textPlacement>
 		<fillType>Parameter</fillType>
 	</format>
 	<format>
@@ -1866,6 +1801,23 @@
 		<textColor>style:FieldSelectionBackColor</textColor>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ДФ=dd.MM.yy</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<font>4</font>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>0</bottomBorder>
+		<borderColor>#999999</borderColor>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Text</fillType>
 		<format>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
