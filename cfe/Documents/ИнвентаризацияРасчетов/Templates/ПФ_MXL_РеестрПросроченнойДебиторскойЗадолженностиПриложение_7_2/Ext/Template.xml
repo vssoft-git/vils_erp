@@ -1509,122 +1509,147 @@
 			<c>
 				<c>
 					<f>67</f>
-					<detailParameter>Контрагент</detailParameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>68</f>
-					<tl/>
-					<detailParameter>ДоговорКонтрагента</detailParameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>69</f>
-					<tl/>
-					<detailParameter>ДоговорКонтрагента</detailParameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>70</f>
 					<parameter>ЗаЧто1М</parameter>
 				</c>
 			</c>
 			<c>
+				<i>4</i>
 				<c>
-					<f>71</f>
+					<f>68</f>
 					<parameter>ДатаДолга1М</parameter>
 					<detailParameter>Регистратор1М</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>72</f>
+					<f>69</f>
 					<parameter>Регистратор1М</parameter>
 					<detailParameter>Регистратор1М</detailParameter>
 				</c>
 			</c>
 			<c>
-				<i>10</i>
 				<c>
-					<f>73</f>
-					<parameter>Колонка11Ч</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>73</f>
-					<parameter>Колонка12Ч</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>73</f>
-					<parameter>Колонка13Ч</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>73</f>
-					<parameter>Колонка14Ч</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>73</f>
-					<parameter>Колонка15Ч</parameter>
+					<f>70</f>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>70</f>
-					<parameter>ЗаЧто</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>70</f>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>71</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>72</f>
+					<parameter>Колонка11Ч</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>72</f>
+					<parameter>Колонка12Ч</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>72</f>
+					<parameter>Колонка13Ч</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>72</f>
+					<parameter>Колонка14Ч</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>72</f>
+					<parameter>Колонка15Ч</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>73</f>
+					<tl/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>67</f>
+					<parameter>ЗаЧто</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>68</f>
 					<parameter>ДатаДолга</parameter>
 					<detailParameter>Регистратор</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>72</f>
+					<f>69</f>
 					<parameter>Регистратор</parameter>
 					<detailParameter>Регистратор</detailParameter>
 				</c>
 			</c>
 			<c>
-				<i>23</i>
 				<c>
-					<f>73</f>
+					<f>70</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>70</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>70</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>71</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>72</f>
 					<parameter>Колонка22Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>73</f>
+					<f>72</f>
 					<parameter>Колонка23Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>73</f>
+					<f>72</f>
 					<parameter>Колонка24Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>73</f>
+					<f>72</f>
 					<parameter>Колонка25Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>73</f>
+					<f>72</f>
 					<parameter>Колонка26Ч</parameter>
 				</c>
 			</c>
@@ -1656,13 +1681,8 @@
 	</merge>
 	<merge>
 		<r>8</r>
-		<c>5</c>
-		<w>4</w>
-	</merge>
-	<merge>
-		<r>8</r>
-		<c>17</c>
-		<w>5</w>
+		<c>0</c>
+		<w>3</w>
 	</merge>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Итого</name>
@@ -2498,7 +2518,7 @@
 	</format>
 	<format>
 		<rightBorder>3</rightBorder>
-		<bottomBorder>3</bottomBorder>
+		<bottomBorder>0</bottomBorder>
 		<width>72</width>
 	</format>
 	<format>
@@ -2513,57 +2533,15 @@
 		<textPlacement>Wrap</textPlacement>
 	</format>
 	<format>
-		<font>4</font>
-		<rightBorder>2</rightBorder>
-		<bottomBorder>0</bottomBorder>
-		<borderColor>#999999</borderColor>
-		<width>186</width>
-		<horizontalAlignment>Left</horizontalAlignment>
-		<verticalAlignment>Center</verticalAlignment>
-		<textColor>#000000</textColor>
-		<textPlacement>Wrap</textPlacement>
-		<fillType>Text</fillType>
-	</format>
-	<format>
-		<font>4</font>
-		<rightBorder>2</rightBorder>
-		<bottomBorder>0</bottomBorder>
-		<borderColor>#999999</borderColor>
-		<width>80</width>
-		<horizontalAlignment>Center</horizontalAlignment>
-		<verticalAlignment>Center</verticalAlignment>
-		<textColor>#000000</textColor>
-		<textPlacement>Wrap</textPlacement>
-		<fillType>Text</fillType>
-	</format>
-	<format>
-		<font>4</font>
-		<rightBorder>2</rightBorder>
-		<bottomBorder>0</bottomBorder>
-		<borderColor>#999999</borderColor>
-		<width>72</width>
-		<horizontalAlignment>Center</horizontalAlignment>
-		<verticalAlignment>Center</verticalAlignment>
-		<textColor>#000000</textColor>
-		<textPlacement>Wrap</textPlacement>
-		<fillType>Text</fillType>
-		<format>
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>ДФ=dd.MM.yy</v8:content>
-			</v8:item>
-		</format>
-	</format>
-	<format>
 		<font>5</font>
 		<rightBorder>0</rightBorder>
 		<bottomBorder>0</bottomBorder>
 		<borderColor>#999999</borderColor>
 		<width>105</width>
-		<horizontalAlignment>Center</horizontalAlignment>
+		<horizontalAlignment>Right</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
 		<textColor>style:FieldSelectionBackColor</textColor>
-		<textPlacement>Wrap</textPlacement>
+		<textPlacement>Auto</textPlacement>
 		<fillType>Parameter</fillType>
 	</format>
 	<format>
@@ -2586,15 +2564,47 @@
 	</format>
 	<format>
 		<font>5</font>
-		<rightBorder>0</rightBorder>
 		<bottomBorder>0</bottomBorder>
 		<borderColor>#999999</borderColor>
 		<width>96</width>
 		<horizontalAlignment>Left</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
 		<textColor>style:FieldSelectionBackColor</textColor>
-		<textPlacement>Wrap</textPlacement>
+		<textPlacement>Auto</textPlacement>
 		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<font>5</font>
+		<bottomBorder>0</bottomBorder>
+		<borderColor>#999999</borderColor>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>style:FieldSelectionBackColor</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Text</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<font>5</font>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>0</bottomBorder>
+		<borderColor>#999999</borderColor>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>style:FieldSelectionBackColor</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Text</fillType>
 		<format>
 			<v8:item>
 				<v8:lang>ru</v8:lang>
@@ -2620,5 +2630,17 @@
 				<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
 			</v8:item>
 		</format>
+	</format>
+	<format>
+		<font>5</font>
+		<rightBorder>2</rightBorder>
+		<bottomBorder>0</bottomBorder>
+		<borderColor>#999999</borderColor>
+		<width>105</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>style:FieldSelectionBackColor</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Text</fillType>
 	</format>
 </document>

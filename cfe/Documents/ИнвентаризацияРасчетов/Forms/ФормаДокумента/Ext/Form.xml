@@ -288,6 +288,9 @@
 											<HorizontalStretch>true</HorizontalStretch>
 											<ContextMenu name="ДатаОкончанияИнвентаризацииКонтекстноеМеню" id="124"/>
 											<ExtendedTooltip name="ДатаОкончанияИнвентаризацииРасширеннаяПодсказка" id="125"/>
+											<Events>
+												<Event name="OnChange" callType="After">ВИЛС_ДатаОкончанияИнвентаризацииПриИзмененииПосле</Event>
+											</Events>
 										</InputField>
 									</ChildItems>
 								</UsualGroup>
@@ -1226,7 +1229,7 @@
 		</UsualGroup>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="Объект" id="1">
+		<Attribute name="Объект" id="1000001">
 			<Type>
 				<v8:Type>cfg:DocumentObject.ИнвентаризацияРасчетов</v8:Type>
 			</Type>
@@ -1306,7 +1309,7 @@
 				</AdditionalColumns>
 			</Columns>
 		</Attribute>
-		<Attribute name="ДеревоСводныхДанныхПоСчетам" id="2">
+		<Attribute name="ДеревоСводныхДанныхПоСчетам" id="1000002">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1416,12 +1419,12 @@
 				</Column>
 			</Columns>
 		</Attribute>
-		<Attribute name="ОтборЗадолженностиСчет" id="6">
+		<Attribute name="ОтборЗадолженностиСчет" id="1000003">
 			<Type>
 				<v8:Type>cfg:ChartOfAccountsRef.Хозрасчетный</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ОтборЗадолженностиВид" id="7">
+		<Attribute name="ОтборЗадолженностиВид" id="1000004">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1432,7 +1435,7 @@
 				<v8:Type>cfg:EnumRef.ТипыЗадолженности</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ОтборЗадолженностиПодтверждение" id="8">
+		<Attribute name="ОтборЗадолженностиПодтверждение" id="1000005">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1447,7 +1450,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ОтборЗадолженностиДебиторКредитор" id="9">
+		<Attribute name="ОтборЗадолженностиДебиторКредитор" id="1000006">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1466,7 +1469,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ОбновитьДеревоСводныхДанных" id="10">
+		<Attribute name="ОбновитьДеревоСводныхДанных" id="1000007">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1477,7 +1480,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ИтогВсегоДебиторская" id="11">
+		<Attribute name="ИтогВсегоДебиторская" id="1000008">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1488,7 +1491,7 @@
 				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 			</Type>
 		</Attribute>
-		<Attribute name="ИтогВсегоКредиторская" id="12">
+		<Attribute name="ИтогВсегоКредиторская" id="1000009">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1499,7 +1502,7 @@
 				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 			</Type>
 		</Attribute>
-		<Attribute name="СписокВыбранныхСчетов" id="13">
+		<Attribute name="СписокВыбранныхСчетов" id="1000010">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1513,7 +1516,7 @@
 				<v8:Type>cfg:ChartOfAccountsRef.Хозрасчетный</v8:Type>
 			</Settings>
 		</Attribute>
-		<Attribute name="ПараметрыПодключаемыхКоманд" id="14">
+		<Attribute name="ПараметрыПодключаемыхКоманд" id="1000011">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1524,7 +1527,7 @@
 		</Attribute>
 	</Attributes>
 	<Commands>
-		<Command name="ПерезаполнитьЗадолженность" id="3">
+		<Command name="ПерезаполнитьЗадолженность" id="1000001">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1540,7 +1543,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="НастроитьСчета" id="1">
+		<Command name="НастроитьСчета" id="1000002">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1561,7 +1564,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ОборотноСальдоваяВедомостьПоСчету" id="2">
+		<Command name="ОборотноСальдоваяВедомостьПоСчету" id="1000003">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1581,7 +1584,7 @@
 			<Representation>TextPicture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ЗадолженностьПоСчету" id="4">
+		<Command name="ЗадолженностьПоСчету" id="1000004">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1601,7 +1604,7 @@
 			<Representation>TextPicture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ПодборКомиссии" id="5">
+		<Command name="ПодборКомиссии" id="1000005">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1617,7 +1620,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ДобавитьДебиторскуюЗадолженность" id="6">
+		<Command name="ДобавитьДебиторскуюЗадолженность" id="1000006">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1633,7 +1636,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ДобавитьКредиторскуюЗадолженность" id="7">
+		<Command name="ДобавитьКредиторскуюЗадолженность" id="1000007">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1649,7 +1652,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ОборотноСальдоваяВедомостьПоСчетуИСубконто" id="8">
+		<Command name="ОборотноСальдоваяВедомостьПоСчетуИСубконто" id="1000008">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1669,7 +1672,7 @@
 			<Representation>TextPicture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ЗаписатьИЗакрыть" id="9">
+		<Command name="ЗаписатьИЗакрыть" id="1000009">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1686,7 +1689,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ЗаписатьДокумент" id="10">
+		<Command name="ЗаписатьДокумент" id="1000010">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2932,7 +2935,7 @@
 			</UsualGroup>
 		</ChildItems>
 		<Attributes>
-			<Attribute name="Объект" id="1">
+			<Attribute name="Объект" id="1000001">
 				<Type>
 					<v8:Type>cfg:DocumentObject.ИнвентаризацияРасчетов</v8:Type>
 				</Type>
@@ -3012,7 +3015,7 @@
 					</AdditionalColumns>
 				</Columns>
 			</Attribute>
-			<Attribute name="ДеревоСводныхДанныхПоСчетам" id="2">
+			<Attribute name="ДеревоСводныхДанныхПоСчетам" id="1000002">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3122,12 +3125,12 @@
 					</Column>
 				</Columns>
 			</Attribute>
-			<Attribute name="ОтборЗадолженностиСчет" id="6">
+			<Attribute name="ОтборЗадолженностиСчет" id="1000003">
 				<Type>
 					<v8:Type>cfg:ChartOfAccountsRef.Хозрасчетный</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ОтборЗадолженностиВид" id="7">
+			<Attribute name="ОтборЗадолженностиВид" id="1000004">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3138,7 +3141,7 @@
 					<v8:Type>cfg:EnumRef.ТипыЗадолженности</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ОтборЗадолженностиПодтверждение" id="8">
+			<Attribute name="ОтборЗадолженностиПодтверждение" id="1000005">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3153,7 +3156,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ОтборЗадолженностиДебиторКредитор" id="9">
+			<Attribute name="ОтборЗадолженностиДебиторКредитор" id="1000006">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3172,7 +3175,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ОбновитьДеревоСводныхДанных" id="10">
+			<Attribute name="ОбновитьДеревоСводныхДанных" id="1000007">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3183,7 +3186,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ИтогВсегоДебиторская" id="11">
+			<Attribute name="ИтогВсегоДебиторская" id="1000008">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3194,7 +3197,7 @@
 					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 				</Type>
 			</Attribute>
-			<Attribute name="ИтогВсегоКредиторская" id="12">
+			<Attribute name="ИтогВсегоКредиторская" id="1000009">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3205,7 +3208,7 @@
 					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеЛюбойЗнак</v8:TypeSet>
 				</Type>
 			</Attribute>
-			<Attribute name="СписокВыбранныхСчетов" id="13">
+			<Attribute name="СписокВыбранныхСчетов" id="1000010">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3219,7 +3222,7 @@
 					<v8:Type>cfg:ChartOfAccountsRef.Хозрасчетный</v8:Type>
 				</Settings>
 			</Attribute>
-			<Attribute name="ПараметрыПодключаемыхКоманд" id="14">
+			<Attribute name="ПараметрыПодключаемыхКоманд" id="1000011">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3230,7 +3233,7 @@
 			</Attribute>
 		</Attributes>
 		<Commands>
-			<Command name="ПерезаполнитьЗадолженность" id="3">
+			<Command name="ПерезаполнитьЗадолженность" id="1000001">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3246,7 +3249,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="НастроитьСчета" id="1">
+			<Command name="НастроитьСчета" id="1000002">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3267,7 +3270,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ОборотноСальдоваяВедомостьПоСчету" id="2">
+			<Command name="ОборотноСальдоваяВедомостьПоСчету" id="1000003">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3287,7 +3290,7 @@
 				<Representation>TextPicture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗадолженностьПоСчету" id="4">
+			<Command name="ЗадолженностьПоСчету" id="1000004">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3307,7 +3310,7 @@
 				<Representation>TextPicture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПодборКомиссии" id="5">
+			<Command name="ПодборКомиссии" id="1000005">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3323,7 +3326,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ДобавитьДебиторскуюЗадолженность" id="6">
+			<Command name="ДобавитьДебиторскуюЗадолженность" id="1000006">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3339,7 +3342,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ДобавитьКредиторскуюЗадолженность" id="7">
+			<Command name="ДобавитьКредиторскуюЗадолженность" id="1000007">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3355,7 +3358,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ОборотноСальдоваяВедомостьПоСчетуИСубконто" id="8">
+			<Command name="ОборотноСальдоваяВедомостьПоСчетуИСубконто" id="1000008">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3375,7 +3378,7 @@
 				<Representation>TextPicture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗаписатьИЗакрыть" id="9">
+			<Command name="ЗаписатьИЗакрыть" id="1000009">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3392,7 +3395,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗаписатьДокумент" id="10">
+			<Command name="ЗаписатьДокумент" id="1000010">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
