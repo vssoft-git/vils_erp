@@ -256,38 +256,14 @@
 			<c>
 				<c>
 					<f>14</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Реестр просроченной дебиторской задолженности </v8:content>
-						</v8:item>
-					</tl>
+					<parameter>ТекстЗаголовка</parameter>
 				</c>
 			</c>
 			<c>
-				<c>
-					<f>2</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>12</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>3</f>
-				</c>
-			</c>
-			<c>
+				<i>5</i>
 				<c>
 					<f>15</f>
 					<parameter>Дата</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>11</f>
 				</c>
 			</c>
 			<c>
@@ -1510,146 +1486,174 @@
 				<c>
 					<f>67</f>
 					<parameter>ЗаЧто1М</parameter>
+					<detailParameter>ЗаЧто1М</detailParameter>
 				</c>
 			</c>
 			<c>
-				<i>4</i>
 				<c>
 					<f>68</f>
+					<detailParameter>ЗаЧто1М</detailParameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>68</f>
+					<detailParameter>ЗаЧто1М</detailParameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>69</f>
+					<detailParameter>ЗаЧто1М</detailParameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>70</f>
 					<parameter>ДатаДолга1М</parameter>
 					<detailParameter>Регистратор1М</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>69</f>
+					<f>71</f>
 					<parameter>Регистратор1М</parameter>
 					<detailParameter>Регистратор1М</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>70</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>70</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>70</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>71</f>
+					<f>72</f>
+					<detailParameter>Регистратор1М</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>72</f>
-					<parameter>Колонка11Ч</parameter>
+					<detailParameter>Регистратор1М</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>72</f>
-					<parameter>Колонка12Ч</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>72</f>
-					<parameter>Колонка13Ч</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>72</f>
-					<parameter>Колонка14Ч</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>72</f>
-					<parameter>Колонка15Ч</parameter>
+					<detailParameter>Регистратор1М</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>73</f>
+					<detailParameter>Регистратор1М</detailParameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>74</f>
+					<parameter>Колонка11Ч</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>74</f>
+					<parameter>Колонка12Ч</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>74</f>
+					<parameter>Колонка13Ч</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>74</f>
+					<parameter>Колонка14Ч</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>74</f>
+					<parameter>Колонка15Ч</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>75</f>
 					<tl/>
+					<detailParameter>ЗаЧто</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>67</f>
+					<f>76</f>
 					<parameter>ЗаЧто</parameter>
+					<detailParameter>ЗаЧто</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>68</f>
+					<f>70</f>
 					<parameter>ДатаДолга</parameter>
 					<detailParameter>Регистратор</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>69</f>
+					<f>77</f>
 					<parameter>Регистратор</parameter>
 					<detailParameter>Регистратор</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>70</f>
+					<f>78</f>
+					<detailParameter>Регистратор</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>70</f>
+					<f>78</f>
+					<detailParameter>Регистратор</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>70</f>
+					<f>78</f>
+					<detailParameter>Регистратор</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>71</f>
+					<f>79</f>
+					<detailParameter>Регистратор</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>72</f>
+					<f>74</f>
 					<parameter>Колонка22Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>72</f>
+					<f>74</f>
 					<parameter>Колонка23Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>72</f>
+					<f>74</f>
 					<parameter>Колонка24Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>72</f>
+					<f>74</f>
 					<parameter>Колонка25Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>72</f>
+					<f>74</f>
 					<parameter>Колонка26Ч</parameter>
 				</c>
 			</c>
@@ -1662,7 +1666,7 @@
 	<merge>
 		<r>1</r>
 		<c>0</c>
-		<w>3</w>
+		<w>4</w>
 	</merge>
 	<merge>
 		<r>2</r>
@@ -1678,11 +1682,6 @@
 		<r>7</r>
 		<c>0</c>
 		<w>5</w>
-	</merge>
-	<merge>
-		<r>8</r>
-		<c>0</c>
-		<w>3</w>
 	</merge>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Итого</name>
@@ -1868,6 +1867,7 @@
 		<verticalAlignment>Bottom</verticalAlignment>
 		<textColor>#000000</textColor>
 		<textPlacement>Auto</textPlacement>
+		<fillType>Parameter</fillType>
 	</format>
 	<format>
 		<font>2</font>
@@ -2534,15 +2534,35 @@
 	</format>
 	<format>
 		<font>5</font>
-		<rightBorder>0</rightBorder>
 		<bottomBorder>0</bottomBorder>
 		<borderColor>#999999</borderColor>
 		<width>105</width>
-		<horizontalAlignment>Right</horizontalAlignment>
+		<horizontalAlignment>Left</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
 		<textColor>style:FieldSelectionBackColor</textColor>
 		<textPlacement>Auto</textPlacement>
 		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>5</font>
+		<bottomBorder>0</bottomBorder>
+		<borderColor>#999999</borderColor>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>style:FieldSelectionBackColor</textColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Text</fillType>
+	</format>
+	<format>
+		<font>5</font>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>0</bottomBorder>
+		<borderColor>#999999</borderColor>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>style:FieldSelectionBackColor</textColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Text</fillType>
 	</format>
 	<format>
 		<font>5</font>
@@ -2586,7 +2606,7 @@
 		<horizontalAlignment>Left</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
 		<textColor>style:FieldSelectionBackColor</textColor>
-		<textPlacement>Wrap</textPlacement>
+		<textPlacement>Auto</textPlacement>
 		<fillType>Text</fillType>
 		<format>
 			<v8:item>
@@ -2603,7 +2623,7 @@
 		<horizontalAlignment>Left</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
 		<textColor>style:FieldSelectionBackColor</textColor>
-		<textPlacement>Wrap</textPlacement>
+		<textPlacement>Auto</textPlacement>
 		<fillType>Text</fillType>
 		<format>
 			<v8:item>
@@ -2637,10 +2657,57 @@
 		<bottomBorder>0</bottomBorder>
 		<borderColor>#999999</borderColor>
 		<width>105</width>
-		<horizontalAlignment>Center</horizontalAlignment>
+		<horizontalAlignment>Right</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
 		<textColor>style:FieldSelectionBackColor</textColor>
-		<textPlacement>Wrap</textPlacement>
+		<textPlacement>Auto</textPlacement>
 		<fillType>Text</fillType>
+	</format>
+	<format>
+		<font>5</font>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>0</bottomBorder>
+		<borderColor>#999999</borderColor>
+		<width>105</width>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>style:FieldSelectionBackColor</textColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>5</font>
+		<bottomBorder>0</bottomBorder>
+		<borderColor>#999999</borderColor>
+		<width>96</width>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>style:FieldSelectionBackColor</textColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Parameter</fillType>
+		<format/>
+	</format>
+	<format>
+		<font>5</font>
+		<bottomBorder>0</bottomBorder>
+		<borderColor>#999999</borderColor>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>style:FieldSelectionBackColor</textColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Text</fillType>
+		<format/>
+	</format>
+	<format>
+		<font>5</font>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>0</bottomBorder>
+		<borderColor>#999999</borderColor>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>style:FieldSelectionBackColor</textColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Text</fillType>
+		<format/>
 	</format>
 </document>
