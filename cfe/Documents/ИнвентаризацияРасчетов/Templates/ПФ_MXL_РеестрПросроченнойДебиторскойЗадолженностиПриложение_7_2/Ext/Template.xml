@@ -1585,45 +1585,45 @@
 			<c>
 				<c>
 					<f>76</f>
-					<parameter>ЗаЧто</parameter>
-					<detailParameter>ЗаЧто</detailParameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>70</f>
 					<parameter>ДатаДолга</parameter>
 					<detailParameter>Регистратор</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
+					<f>67</f>
+					<parameter>ЗаЧто</parameter>
+					<detailParameter>ЗаЧто</detailParameter>
+				</c>
+			</c>
+			<c>
+				<c>
 					<f>77</f>
+					<detailParameter>ЗаЧто</detailParameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>78</f>
+					<detailParameter>ЗаЧто</detailParameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>79</f>
 					<parameter>Регистратор</parameter>
 					<detailParameter>Регистратор</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>78</f>
+					<f>80</f>
 					<detailParameter>Регистратор</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>78</f>
-					<detailParameter>Регистратор</detailParameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>78</f>
-					<detailParameter>Регистратор</detailParameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>79</f>
+					<f>81</f>
 					<detailParameter>Регистратор</detailParameter>
 				</c>
 			</c>
@@ -2518,7 +2518,7 @@
 	</format>
 	<format>
 		<rightBorder>3</rightBorder>
-		<bottomBorder>0</bottomBorder>
+		<bottomBorder>3</bottomBorder>
 		<width>72</width>
 	</format>
 	<format>
@@ -2542,6 +2542,7 @@
 		<textColor>style:FieldSelectionBackColor</textColor>
 		<textPlacement>Auto</textPlacement>
 		<fillType>Parameter</fillType>
+		<bySelectedColumns>true</bySelectedColumns>
 	</format>
 	<format>
 		<font>5</font>
@@ -2552,6 +2553,7 @@
 		<textColor>style:FieldSelectionBackColor</textColor>
 		<textPlacement>Auto</textPlacement>
 		<fillType>Text</fillType>
+		<bySelectedColumns>true</bySelectedColumns>
 	</format>
 	<format>
 		<font>5</font>
@@ -2563,6 +2565,7 @@
 		<textColor>style:FieldSelectionBackColor</textColor>
 		<textPlacement>Auto</textPlacement>
 		<fillType>Text</fillType>
+		<bySelectedColumns>true</bySelectedColumns>
 	</format>
 	<format>
 		<font>5</font>
@@ -2592,12 +2595,8 @@
 		<textColor>style:FieldSelectionBackColor</textColor>
 		<textPlacement>Auto</textPlacement>
 		<fillType>Parameter</fillType>
-		<format>
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
-			</v8:item>
-		</format>
+		<bySelectedColumns>true</bySelectedColumns>
+		<format/>
 	</format>
 	<format>
 		<font>5</font>
@@ -2608,12 +2607,8 @@
 		<textColor>style:FieldSelectionBackColor</textColor>
 		<textPlacement>Auto</textPlacement>
 		<fillType>Text</fillType>
-		<format>
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
-			</v8:item>
-		</format>
+		<bySelectedColumns>true</bySelectedColumns>
+		<format/>
 	</format>
 	<format>
 		<font>5</font>
@@ -2625,12 +2620,8 @@
 		<textColor>style:FieldSelectionBackColor</textColor>
 		<textPlacement>Auto</textPlacement>
 		<fillType>Text</fillType>
-		<format>
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
-			</v8:item>
-		</format>
+		<bySelectedColumns>true</bySelectedColumns>
+		<format/>
 	</format>
 	<format>
 		<font>5</font>
@@ -2662,18 +2653,64 @@
 		<textColor>style:FieldSelectionBackColor</textColor>
 		<textPlacement>Auto</textPlacement>
 		<fillType>Text</fillType>
+		<bySelectedColumns>true</bySelectedColumns>
 	</format>
 	<format>
 		<font>5</font>
+		<leftBorder>1</leftBorder>
 		<rightBorder>0</rightBorder>
 		<bottomBorder>0</bottomBorder>
 		<borderColor>#999999</borderColor>
-		<width>105</width>
-		<horizontalAlignment>Right</horizontalAlignment>
+		<width>72</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>style:FieldSelectionBackColor</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ДФ=dd.MM.yy</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<font>5</font>
+		<bottomBorder>0</bottomBorder>
+		<borderColor>#999999</borderColor>
+		<width>80</width>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>style:FieldSelectionBackColor</textColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Text</fillType>
+		<bySelectedColumns>true</bySelectedColumns>
+	</format>
+	<format>
+		<font>5</font>
+		<bottomBorder>0</bottomBorder>
+		<borderColor>#999999</borderColor>
+		<width>72</width>
+		<horizontalAlignment>Left</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>style:FieldSelectionBackColor</textColor>
+		<textPlacement>Auto</textPlacement>
+		<fillType>Text</fillType>
+		<bySelectedColumns>true</bySelectedColumns>
+	</format>
+	<format>
+		<font>5</font>
+		<leftBorder>0</leftBorder>
+		<bottomBorder>0</bottomBorder>
+		<borderColor>#999999</borderColor>
+		<width>96</width>
+		<horizontalAlignment>Left</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
 		<textColor>style:FieldSelectionBackColor</textColor>
 		<textPlacement>Auto</textPlacement>
 		<fillType>Parameter</fillType>
+		<bySelectedColumns>true</bySelectedColumns>
+		<format/>
 	</format>
 	<format>
 		<font>5</font>
@@ -2684,18 +2721,8 @@
 		<verticalAlignment>Center</verticalAlignment>
 		<textColor>style:FieldSelectionBackColor</textColor>
 		<textPlacement>Auto</textPlacement>
-		<fillType>Parameter</fillType>
-		<format/>
-	</format>
-	<format>
-		<font>5</font>
-		<bottomBorder>0</bottomBorder>
-		<borderColor>#999999</borderColor>
-		<horizontalAlignment>Left</horizontalAlignment>
-		<verticalAlignment>Center</verticalAlignment>
-		<textColor>style:FieldSelectionBackColor</textColor>
-		<textPlacement>Auto</textPlacement>
 		<fillType>Text</fillType>
+		<bySelectedColumns>true</bySelectedColumns>
 		<format/>
 	</format>
 	<format>
@@ -2703,11 +2730,13 @@
 		<rightBorder>0</rightBorder>
 		<bottomBorder>0</bottomBorder>
 		<borderColor>#999999</borderColor>
+		<width>96</width>
 		<horizontalAlignment>Left</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
 		<textColor>style:FieldSelectionBackColor</textColor>
 		<textPlacement>Auto</textPlacement>
 		<fillType>Text</fillType>
+		<bySelectedColumns>true</bySelectedColumns>
 		<format/>
 	</format>
 </document>

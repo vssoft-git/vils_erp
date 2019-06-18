@@ -168,7 +168,7 @@
 											<ChoiceParameterLinks>
 												<xr:Link>
 													<xr:Name>Отбор.Владелец</xr:Name>
-													<xr:DataPath xsi:type="xs:string">Контрагент</xr:DataPath>
+													<xr:DataPath xsi:type="xs:string">20</xr:DataPath>
 													<xr:ValueChange>Clear</xr:ValueChange>
 												</xr:Link>
 											</ChoiceParameterLinks>
@@ -181,7 +181,7 @@
 											<ChoiceParameterLinks>
 												<xr:Link>
 													<xr:Name>Отбор.Владелец</xr:Name>
-													<xr:DataPath xsi:type="xs:string">ОрганизацияПолучатель</xr:DataPath>
+													<xr:DataPath xsi:type="xs:string">32</xr:DataPath>
 													<xr:ValueChange>Clear</xr:ValueChange>
 												</xr:Link>
 											</ChoiceParameterLinks>
@@ -193,7 +193,7 @@
 											<ChoiceParameterLinks>
 												<xr:Link>
 													<xr:Name>Отбор.Партнер</xr:Name>
-													<xr:DataPath xsi:type="xs:string">Партнер</xr:DataPath>
+													<xr:DataPath xsi:type="xs:string">17</xr:DataPath>
 													<xr:ValueChange>Clear</xr:ValueChange>
 												</xr:Link>
 											</ChoiceParameterLinks>
@@ -211,7 +211,7 @@
 											<ChoiceParameterLinks>
 												<xr:Link>
 													<xr:Name>Отбор.Владелец</xr:Name>
-													<xr:DataPath xsi:type="xs:string">Грузополучатель</xr:DataPath>
+													<xr:DataPath xsi:type="xs:string">8</xr:DataPath>
 													<xr:ValueChange>Clear</xr:ValueChange>
 												</xr:Link>
 											</ChoiceParameterLinks>
@@ -342,7 +342,7 @@
 											<ChoiceParameterLinks>
 												<xr:Link>
 													<xr:Name>Отбор.Владелец</xr:Name>
-													<xr:DataPath xsi:type="xs:string">Организация</xr:DataPath>
+													<xr:DataPath xsi:type="xs:string">35</xr:DataPath>
 													<xr:ValueChange>Clear</xr:ValueChange>
 												</xr:Link>
 											</ChoiceParameterLinks>
@@ -373,7 +373,7 @@
 											<ChoiceParameterLinks>
 												<xr:Link>
 													<xr:Name>Отбор.Владелец</xr:Name>
-													<xr:DataPath xsi:type="xs:string">Грузоотправитель</xr:DataPath>
+													<xr:DataPath xsi:type="xs:string">7</xr:DataPath>
 													<xr:ValueChange>Clear</xr:ValueChange>
 												</xr:Link>
 											</ChoiceParameterLinks>
@@ -402,12 +402,12 @@
 											<ChoiceParameterLinks>
 												<xr:Link>
 													<xr:Name>Отбор.Дата</xr:Name>
-													<xr:DataPath xsi:type="xs:string">Дата</xr:DataPath>
+													<xr:DataPath xsi:type="xs:string">36</xr:DataPath>
 													<xr:ValueChange>DontChange</xr:ValueChange>
 												</xr:Link>
 												<xr:Link>
 													<xr:Name>Отбор.Владелец</xr:Name>
-													<xr:DataPath xsi:type="xs:string">Организация</xr:DataPath>
+													<xr:DataPath xsi:type="xs:string">35</xr:DataPath>
 													<xr:ValueChange>DontChange</xr:ValueChange>
 												</xr:Link>
 											</ChoiceParameterLinks>
@@ -427,12 +427,12 @@
 											<ChoiceParameterLinks>
 												<xr:Link>
 													<xr:Name>Отбор.Дата</xr:Name>
-													<xr:DataPath xsi:type="xs:string">Дата</xr:DataPath>
+													<xr:DataPath xsi:type="xs:string">36</xr:DataPath>
 													<xr:ValueChange>DontChange</xr:ValueChange>
 												</xr:Link>
 												<xr:Link>
 													<xr:Name>Отбор.Владелец</xr:Name>
-													<xr:DataPath xsi:type="xs:string">Организация</xr:DataPath>
+													<xr:DataPath xsi:type="xs:string">35</xr:DataPath>
 													<xr:ValueChange>DontChange</xr:ValueChange>
 												</xr:Link>
 											</ChoiceParameterLinks>
@@ -479,7 +479,7 @@
 		</UsualGroup>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="Основание" id="2">
+		<Attribute name="Основание" id="1000001">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -495,7 +495,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="ОснованиеИзменено" id="3">
+		<Attribute name="ОснованиеИзменено" id="1000002">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -507,7 +507,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="АдресДоставки" id="1">
+		<Attribute name="АдресДоставки" id="1000003">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -523,7 +523,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="БанковскийСчетГрузоотправителя" id="4">
+		<Attribute name="БанковскийСчетГрузоотправителя" id="1000004">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -535,7 +535,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="БанковскийСчетГрузополучателя" id="5">
+		<Attribute name="БанковскийСчетГрузополучателя" id="1000005">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -547,7 +547,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="БанковскийСчетКонтрагента" id="6">
+		<Attribute name="БанковскийСчетКонтрагента" id="1000006">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -559,7 +559,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="Грузоотправитель" id="7">
+		<Attribute name="Грузоотправитель" id="1000007">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -571,7 +571,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="Грузополучатель" id="8">
+		<Attribute name="Грузополучатель" id="1000008">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -583,7 +583,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="ДоверенностьВыдана" id="9">
+		<Attribute name="ДоверенностьВыдана" id="1000009">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -599,7 +599,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="ДоверенностьДата" id="10">
+		<Attribute name="ДоверенностьДата" id="1000010">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -614,7 +614,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="ДоверенностьЛицо" id="11">
+		<Attribute name="ДоверенностьЛицо" id="1000011">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -630,7 +630,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="ДоверенностьНомер" id="12">
+		<Attribute name="ДоверенностьНомер" id="1000012">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -646,7 +646,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="Договор" id="13">
+		<Attribute name="Договор" id="1000013">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -658,7 +658,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="ОбъектОснование" id="14">
+		<Attribute name="ОбъектОснование" id="1000014">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -674,7 +674,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="Отпустил" id="15">
+		<Attribute name="Отпустил" id="1000015">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -686,7 +686,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="ОтпустилДолжность" id="16">
+		<Attribute name="ОтпустилДолжность" id="1000016">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -702,7 +702,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="Партнер" id="17">
+		<Attribute name="Партнер" id="1000017">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -714,7 +714,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="ХозяйственнаяОперация" id="18">
+		<Attribute name="ХозяйственнаяОперация" id="1000018">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -726,7 +726,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="СохранитьПараметры" id="19">
+		<Attribute name="СохранитьПараметры" id="1000019">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -738,7 +738,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="Контрагент" id="20">
+		<Attribute name="Контрагент" id="1000020">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -750,7 +750,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="ТипОбъекта" id="27">
+		<Attribute name="ТипОбъекта" id="1000021">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -765,7 +765,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ПродажаПоЗаказам" id="28">
+		<Attribute name="ПродажаПоЗаказам" id="1000022">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -776,7 +776,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="РеализацияПоЗаказам" id="29">
+		<Attribute name="РеализацияПоЗаказам" id="1000023">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -787,7 +787,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="БанковскийСчетОрганизацииПолучателя" id="31">
+		<Attribute name="БанковскийСчетОрганизацииПолучателя" id="1000024">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -799,7 +799,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="ОрганизацияПолучатель" id="32">
+		<Attribute name="ОрганизацияПолучатель" id="1000025">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -811,7 +811,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="Руководитель" id="33">
+		<Attribute name="Руководитель" id="1000026">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -823,7 +823,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="ГлавныйБухгалтер" id="34">
+		<Attribute name="ГлавныйБухгалтер" id="1000027">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -835,7 +835,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="Организация" id="35">
+		<Attribute name="Организация" id="1000028">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -846,7 +846,7 @@
 				<v8:Type>cfg:CatalogRef.Организации</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="Дата" id="36">
+		<Attribute name="Дата" id="1000029">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -860,7 +860,7 @@
 				</v8:DateQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="БанковскийСчетОрганизации" id="39">
+		<Attribute name="БанковскийСчетОрганизации" id="1000030">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -871,7 +871,7 @@
 				<v8:Type>cfg:CatalogRef.БанковскиеСчетаОрганизаций</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ТаблицаОснованийДляПечати" id="26">
+		<Attribute name="ТаблицаОснованийДляПечати" id="1000031">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -928,7 +928,7 @@
 				</Column>
 			</Columns>
 		</Attribute>
-		<Attribute name="ОснованиеНомер" id="30">
+		<Attribute name="ОснованиеНомер" id="1000032">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -944,7 +944,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="ОснованиеДата" id="41">
+		<Attribute name="ОснованиеДата" id="1000033">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -959,7 +959,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="ОбъектОснованиеДата" id="42">
+		<Attribute name="ОбъектОснованиеДата" id="1000034">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -974,7 +974,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="ОбъектОснованиеНомер" id="43">
+		<Attribute name="ОбъектОснованиеНомер" id="1000035">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -990,7 +990,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="ЗакрытьФормуПринудительно" id="44">
+		<Attribute name="ЗакрытьФормуПринудительно" id="1000036">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1001,7 +1001,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ДополнительнаяИнформацияПоДоставке" id="45">
+		<Attribute name="ДополнительнаяИнформацияПоДоставке" id="1000037">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1018,7 +1018,7 @@
 		</Attribute>
 	</Attributes>
 	<Commands>
-		<Command name="ОК" id="1">
+		<Command name="ОК" id="1000001">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1033,7 +1033,7 @@
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="Отмена" id="2">
+		<Command name="Отмена" id="1000002">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1410,7 +1410,7 @@
 												<ChoiceParameterLinks>
 													<xr:Link>
 														<xr:Name>Отбор.Владелец</xr:Name>
-														<xr:DataPath xsi:type="xs:string">Контрагент</xr:DataPath>
+														<xr:DataPath xsi:type="xs:string">20</xr:DataPath>
 														<xr:ValueChange>Clear</xr:ValueChange>
 													</xr:Link>
 												</ChoiceParameterLinks>
@@ -1423,7 +1423,7 @@
 												<ChoiceParameterLinks>
 													<xr:Link>
 														<xr:Name>Отбор.Владелец</xr:Name>
-														<xr:DataPath xsi:type="xs:string">ОрганизацияПолучатель</xr:DataPath>
+														<xr:DataPath xsi:type="xs:string">32</xr:DataPath>
 														<xr:ValueChange>Clear</xr:ValueChange>
 													</xr:Link>
 												</ChoiceParameterLinks>
@@ -1435,7 +1435,7 @@
 												<ChoiceParameterLinks>
 													<xr:Link>
 														<xr:Name>Отбор.Партнер</xr:Name>
-														<xr:DataPath xsi:type="xs:string">Партнер</xr:DataPath>
+														<xr:DataPath xsi:type="xs:string">17</xr:DataPath>
 														<xr:ValueChange>Clear</xr:ValueChange>
 													</xr:Link>
 												</ChoiceParameterLinks>
@@ -1453,7 +1453,7 @@
 												<ChoiceParameterLinks>
 													<xr:Link>
 														<xr:Name>Отбор.Владелец</xr:Name>
-														<xr:DataPath xsi:type="xs:string">Грузополучатель</xr:DataPath>
+														<xr:DataPath xsi:type="xs:string">8</xr:DataPath>
 														<xr:ValueChange>Clear</xr:ValueChange>
 													</xr:Link>
 												</ChoiceParameterLinks>
@@ -1584,7 +1584,7 @@
 												<ChoiceParameterLinks>
 													<xr:Link>
 														<xr:Name>Отбор.Владелец</xr:Name>
-														<xr:DataPath xsi:type="xs:string">Организация</xr:DataPath>
+														<xr:DataPath xsi:type="xs:string">35</xr:DataPath>
 														<xr:ValueChange>Clear</xr:ValueChange>
 													</xr:Link>
 												</ChoiceParameterLinks>
@@ -1615,7 +1615,7 @@
 												<ChoiceParameterLinks>
 													<xr:Link>
 														<xr:Name>Отбор.Владелец</xr:Name>
-														<xr:DataPath xsi:type="xs:string">Грузоотправитель</xr:DataPath>
+														<xr:DataPath xsi:type="xs:string">7</xr:DataPath>
 														<xr:ValueChange>Clear</xr:ValueChange>
 													</xr:Link>
 												</ChoiceParameterLinks>
@@ -1644,12 +1644,12 @@
 												<ChoiceParameterLinks>
 													<xr:Link>
 														<xr:Name>Отбор.Дата</xr:Name>
-														<xr:DataPath xsi:type="xs:string">Дата</xr:DataPath>
+														<xr:DataPath xsi:type="xs:string">36</xr:DataPath>
 														<xr:ValueChange>DontChange</xr:ValueChange>
 													</xr:Link>
 													<xr:Link>
 														<xr:Name>Отбор.Владелец</xr:Name>
-														<xr:DataPath xsi:type="xs:string">Организация</xr:DataPath>
+														<xr:DataPath xsi:type="xs:string">35</xr:DataPath>
 														<xr:ValueChange>DontChange</xr:ValueChange>
 													</xr:Link>
 												</ChoiceParameterLinks>
@@ -1669,12 +1669,12 @@
 												<ChoiceParameterLinks>
 													<xr:Link>
 														<xr:Name>Отбор.Дата</xr:Name>
-														<xr:DataPath xsi:type="xs:string">Дата</xr:DataPath>
+														<xr:DataPath xsi:type="xs:string">36</xr:DataPath>
 														<xr:ValueChange>DontChange</xr:ValueChange>
 													</xr:Link>
 													<xr:Link>
 														<xr:Name>Отбор.Владелец</xr:Name>
-														<xr:DataPath xsi:type="xs:string">Организация</xr:DataPath>
+														<xr:DataPath xsi:type="xs:string">35</xr:DataPath>
 														<xr:ValueChange>DontChange</xr:ValueChange>
 													</xr:Link>
 												</ChoiceParameterLinks>
@@ -1721,7 +1721,7 @@
 			</UsualGroup>
 		</ChildItems>
 		<Attributes>
-			<Attribute name="Основание" id="2">
+			<Attribute name="Основание" id="1000001">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -1737,7 +1737,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="ОснованиеИзменено" id="3">
+			<Attribute name="ОснованиеИзменено" id="1000002">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -1749,7 +1749,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="АдресДоставки" id="1">
+			<Attribute name="АдресДоставки" id="1000003">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -1765,7 +1765,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="БанковскийСчетГрузоотправителя" id="4">
+			<Attribute name="БанковскийСчетГрузоотправителя" id="1000004">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -1777,7 +1777,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="БанковскийСчетГрузополучателя" id="5">
+			<Attribute name="БанковскийСчетГрузополучателя" id="1000005">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -1789,7 +1789,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="БанковскийСчетКонтрагента" id="6">
+			<Attribute name="БанковскийСчетКонтрагента" id="1000006">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -1801,7 +1801,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="Грузоотправитель" id="7">
+			<Attribute name="Грузоотправитель" id="1000007">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -1813,7 +1813,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="Грузополучатель" id="8">
+			<Attribute name="Грузополучатель" id="1000008">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -1825,7 +1825,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="ДоверенностьВыдана" id="9">
+			<Attribute name="ДоверенностьВыдана" id="1000009">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -1841,7 +1841,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="ДоверенностьДата" id="10">
+			<Attribute name="ДоверенностьДата" id="1000010">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -1856,7 +1856,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="ДоверенностьЛицо" id="11">
+			<Attribute name="ДоверенностьЛицо" id="1000011">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -1872,7 +1872,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="ДоверенностьНомер" id="12">
+			<Attribute name="ДоверенностьНомер" id="1000012">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -1888,7 +1888,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="Договор" id="13">
+			<Attribute name="Договор" id="1000013">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -1900,7 +1900,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="ОбъектОснование" id="14">
+			<Attribute name="ОбъектОснование" id="1000014">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -1916,7 +1916,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="Отпустил" id="15">
+			<Attribute name="Отпустил" id="1000015">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -1928,7 +1928,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="ОтпустилДолжность" id="16">
+			<Attribute name="ОтпустилДолжность" id="1000016">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -1944,7 +1944,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="Партнер" id="17">
+			<Attribute name="Партнер" id="1000017">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -1956,7 +1956,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="ХозяйственнаяОперация" id="18">
+			<Attribute name="ХозяйственнаяОперация" id="1000018">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -1968,7 +1968,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="СохранитьПараметры" id="19">
+			<Attribute name="СохранитьПараметры" id="1000019">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -1980,7 +1980,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="Контрагент" id="20">
+			<Attribute name="Контрагент" id="1000020">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -1992,7 +1992,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="ТипОбъекта" id="27">
+			<Attribute name="ТипОбъекта" id="1000021">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2007,7 +2007,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ПродажаПоЗаказам" id="28">
+			<Attribute name="ПродажаПоЗаказам" id="1000022">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2018,7 +2018,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="РеализацияПоЗаказам" id="29">
+			<Attribute name="РеализацияПоЗаказам" id="1000023">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2029,7 +2029,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="БанковскийСчетОрганизацииПолучателя" id="31">
+			<Attribute name="БанковскийСчетОрганизацииПолучателя" id="1000024">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2041,7 +2041,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="ОрганизацияПолучатель" id="32">
+			<Attribute name="ОрганизацияПолучатель" id="1000025">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2053,7 +2053,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="Руководитель" id="33">
+			<Attribute name="Руководитель" id="1000026">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2065,7 +2065,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="ГлавныйБухгалтер" id="34">
+			<Attribute name="ГлавныйБухгалтер" id="1000027">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2077,7 +2077,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="Организация" id="35">
+			<Attribute name="Организация" id="1000028">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2088,7 +2088,7 @@
 					<v8:Type>cfg:CatalogRef.Организации</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="Дата" id="36">
+			<Attribute name="Дата" id="1000029">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2102,7 +2102,7 @@
 					</v8:DateQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="БанковскийСчетОрганизации" id="39">
+			<Attribute name="БанковскийСчетОрганизации" id="1000030">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2113,7 +2113,7 @@
 					<v8:Type>cfg:CatalogRef.БанковскиеСчетаОрганизаций</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ТаблицаОснованийДляПечати" id="26">
+			<Attribute name="ТаблицаОснованийДляПечати" id="1000031">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2170,7 +2170,7 @@
 					</Column>
 				</Columns>
 			</Attribute>
-			<Attribute name="ОснованиеНомер" id="30">
+			<Attribute name="ОснованиеНомер" id="1000032">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2186,7 +2186,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="ОснованиеДата" id="41">
+			<Attribute name="ОснованиеДата" id="1000033">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2201,7 +2201,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="ОбъектОснованиеДата" id="42">
+			<Attribute name="ОбъектОснованиеДата" id="1000034">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2216,7 +2216,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="ОбъектОснованиеНомер" id="43">
+			<Attribute name="ОбъектОснованиеНомер" id="1000035">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2232,7 +2232,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="ЗакрытьФормуПринудительно" id="44">
+			<Attribute name="ЗакрытьФормуПринудительно" id="1000036">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2245,7 +2245,7 @@
 			</Attribute>
 		</Attributes>
 		<Commands>
-			<Command name="ОК" id="1">
+			<Command name="ОК" id="1000001">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2260,7 +2260,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="Отмена" id="2">
+			<Command name="Отмена" id="1000002">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>

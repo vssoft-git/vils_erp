@@ -745,7 +745,6 @@
 																	<EnableDrag>true</EnableDrag>
 																	<FileDragMode>AsFile</FileDragMode>
 																	<DataPath>ДеревоПриложений</DataPath>
-																	<RowPictureDataPath>ДеревоПриложений.Картинка</RowPictureDataPath>
 																	<RowsPicture>
 																		<xr:Ref>CommonPicture.КоллекцияПиктограммФайлов</xr:Ref>
 																		<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -1028,7 +1027,7 @@
 		</Pages>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="Объект" id="1">
+		<Attribute name="Объект" id="1000001">
 			<Type>
 				<v8:Type>xs:string</v8:Type>
 				<v8:StringQualifiers>
@@ -1038,7 +1037,7 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>
-		<Attribute name="Задачи" id="2">
+		<Attribute name="Задачи" id="1000002">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1517,7 +1516,7 @@
 				</AdditionalColumns>
 			</Columns>
 		</Attribute>
-		<Attribute name="РежимГруппировки" id="4">
+		<Attribute name="РежимГруппировки" id="1000003">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1535,7 +1534,7 @@
 				<Field>РежимГруппировки</Field>
 			</Save>
 		</Attribute>
-		<Attribute name="ТаблицаЗадачСсылка" id="5">
+		<Attribute name="ТаблицаЗадачСсылка" id="1000004">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1550,7 +1549,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ДоступенФункционалЗадачи" id="7">
+		<Attribute name="ДоступенФункционалЗадачи" id="1000005">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1561,7 +1560,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ВерсияСервиса" id="14">
+		<Attribute name="ВерсияСервиса" id="1000006">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1576,7 +1575,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="Автообновление" id="15">
+		<Attribute name="Автообновление" id="1000007">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1587,7 +1586,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ПериодАвтообновления" id="16">
+		<Attribute name="ПериодАвтообновления" id="1000008">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1603,7 +1602,7 @@
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="HTMLПредставление" id="19">
+		<Attribute name="HTMLПредставление" id="1000009">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1618,7 +1617,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ДеревоПриложений" id="20">
+		<Attribute name="ДеревоПриложений" id="1000010">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1749,7 +1748,7 @@
 				</Column>
 			</Columns>
 		</Attribute>
-		<Attribute name="Комментарий" id="21">
+		<Attribute name="Комментарий" id="1000011">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1764,7 +1763,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="НеПоказыватьОбластьПросмотраЗадачи" id="22">
+		<Attribute name="НеПоказыватьОбластьПросмотраЗадачи" id="1000012">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1778,7 +1777,7 @@
 				<Field>НеПоказыватьОбластьПросмотраЗадачи</Field>
 			</Save>
 		</Attribute>
-		<Attribute name="КаталогДляСохраненияДанных" id="23">
+		<Attribute name="КаталогДляСохраненияДанных" id="1000013">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1793,7 +1792,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ДоступенФункционалХронометраж" id="8">
+		<Attribute name="ДоступенФункционалХронометраж" id="1000014">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1804,7 +1803,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ДоступнаМультипредметность" id="3">
+		<Attribute name="ДоступнаМультипредметность" id="1000015">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1815,7 +1814,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ДоступенЗахватФайлов" id="6">
+		<Attribute name="ДоступенЗахватФайлов" id="1000016">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1826,7 +1825,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ИмяПользователя" id="9">
+		<Attribute name="ИмяПользователя" id="1000017">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1841,7 +1840,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ДобавлятьРаботуВЕжедневныйОтчетПриВыполненииЗадачи" id="24">
+		<Attribute name="ДобавлятьРаботуВЕжедневныйОтчетПриВыполненииЗадачи" id="1000018">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1852,7 +1851,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ТекущийПользователь" id="26">
+		<Attribute name="ТекущийПользователь" id="1000019">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1867,7 +1866,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ТекущийПользовательID" id="27">
+		<Attribute name="ТекущийПользовательID" id="1000020">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1882,7 +1881,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ТекущийПользовательТип" id="28">
+		<Attribute name="ТекущийПользовательТип" id="1000021">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1897,7 +1896,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ФактическийИсполнительЗадач" id="29">
+		<Attribute name="ФактическийИсполнительЗадач" id="1000022">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1912,7 +1911,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="АдресВебСервисаЗаполнен" id="30">
+		<Attribute name="АдресВебСервисаЗаполнен" id="1000023">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1925,7 +1924,7 @@
 		</Attribute>
 	</Attributes>
 	<Commands>
-		<Command name="ОткрытьЗадачу" id="1">
+		<Command name="ОткрытьЗадачу" id="1000001">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1946,7 +1945,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ОткрытьПроцесс" id="3">
+		<Command name="ОткрытьПроцесс" id="1000002">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1966,7 +1965,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="Обновить" id="4">
+		<Command name="Обновить" id="1000003">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1987,7 +1986,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СоздатьПроцесс" id="5">
+		<Command name="СоздатьПроцесс" id="1000004">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2003,7 +2002,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ПринятьКИсполнению" id="6">
+		<Command name="ПринятьКИсполнению" id="1000005">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2019,7 +2018,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СгруппироватьПоАвтору" id="7">
+		<Command name="СгруппироватьПоАвтору" id="1000006">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2035,7 +2034,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СгруппироватьПоБезГруппировки" id="8">
+		<Command name="СгруппироватьПоБезГруппировки" id="1000007">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2051,7 +2050,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СгруппироватьПоВажности" id="9">
+		<Command name="СгруппироватьПоВажности" id="1000008">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2067,7 +2066,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СгруппироватьПоТочкеМаршрута" id="11">
+		<Command name="СгруппироватьПоТочкеМаршрута" id="1000009">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2083,7 +2082,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ЗадатьВопросАвтору" id="12">
+		<Command name="ЗадатьВопросАвтору" id="1000010">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2103,7 +2102,7 @@
 			<Representation>Picture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СоздатьПисьмо" id="13">
+		<Command name="СоздатьПисьмо" id="1000011">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2122,7 +2121,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СгруппироватьПоИсполнителю" id="14">
+		<Command name="СгруппироватьПоИсполнителю" id="1000012">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2137,7 +2136,7 @@
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="НастройкаАвтообновления" id="15">
+		<Command name="НастройкаАвтообновления" id="1000013">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2152,7 +2151,7 @@
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ЗадачаПеренаправить" id="16">
+		<Command name="ЗадачаПеренаправить" id="1000014">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2171,7 +2170,7 @@
 			</Picture>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ВыполнитьЗадачуПервая" id="17">
+		<Command name="ВыполнитьЗадачуПервая" id="1000015">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2181,7 +2180,7 @@
 			<Representation>Text</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ВыполнитьЗадачуВторая" id="18">
+		<Command name="ВыполнитьЗадачуВторая" id="1000016">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2191,7 +2190,7 @@
 			<Representation>Text</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ВыполнитьЗадачуТретья" id="19">
+		<Command name="ВыполнитьЗадачуТретья" id="1000017">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2201,7 +2200,7 @@
 			<Representation>Text</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ПоказатьОбластьПросмотраЗадачи" id="20">
+		<Command name="ПоказатьОбластьПросмотраЗадачи" id="1000018">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2217,7 +2216,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ПереключитьХронометраж" id="21">
+		<Command name="ПереключитьХронометраж" id="1000019">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2239,7 +2238,7 @@
 			</FunctionalOptions>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="УказатьТрудозатраты" id="22">
+		<Command name="УказатьТрудозатраты" id="1000020">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2261,7 +2260,7 @@
 			</FunctionalOptions>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ОткрытьПредмет" id="2">
+		<Command name="ОткрытьПредмет" id="1000021">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2276,7 +2275,7 @@
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ОткрытьИсходныйДокумент" id="24">
+		<Command name="ОткрытьИсходныйДокумент" id="1000022">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3038,7 +3037,6 @@
 																		<EnableDrag>true</EnableDrag>
 																		<FileDragMode>AsFile</FileDragMode>
 																		<DataPath>ДеревоПриложений</DataPath>
-																		<RowPictureDataPath>ДеревоПриложений.Картинка</RowPictureDataPath>
 																		<RowsPicture>
 																			<xr:Ref>CommonPicture.КоллекцияПиктограммФайлов</xr:Ref>
 																			<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -3321,7 +3319,7 @@
 			</Pages>
 		</ChildItems>
 		<Attributes>
-			<Attribute name="Объект" id="1">
+			<Attribute name="Объект" id="1000001">
 				<Type>
 					<v8:Type>xs:string</v8:Type>
 					<v8:StringQualifiers>
@@ -3331,7 +3329,7 @@
 				</Type>
 				<MainAttribute>true</MainAttribute>
 			</Attribute>
-			<Attribute name="Задачи" id="2">
+			<Attribute name="Задачи" id="1000002">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3810,7 +3808,7 @@
 					</AdditionalColumns>
 				</Columns>
 			</Attribute>
-			<Attribute name="РежимГруппировки" id="4">
+			<Attribute name="РежимГруппировки" id="1000003">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3828,7 +3826,7 @@
 					<Field>РежимГруппировки</Field>
 				</Save>
 			</Attribute>
-			<Attribute name="ТаблицаЗадачСсылка" id="5">
+			<Attribute name="ТаблицаЗадачСсылка" id="1000004">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3843,7 +3841,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ДоступенФункционалЗадачи" id="7">
+			<Attribute name="ДоступенФункционалЗадачи" id="1000005">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3854,7 +3852,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ВерсияСервиса" id="14">
+			<Attribute name="ВерсияСервиса" id="1000006">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3869,7 +3867,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="Автообновление" id="15">
+			<Attribute name="Автообновление" id="1000007">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3880,7 +3878,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ПериодАвтообновления" id="16">
+			<Attribute name="ПериодАвтообновления" id="1000008">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3896,7 +3894,7 @@
 					</v8:NumberQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="HTMLПредставление" id="19">
+			<Attribute name="HTMLПредставление" id="1000009">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -3911,7 +3909,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ДеревоПриложений" id="20">
+			<Attribute name="ДеревоПриложений" id="1000010">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4042,7 +4040,7 @@
 					</Column>
 				</Columns>
 			</Attribute>
-			<Attribute name="Комментарий" id="21">
+			<Attribute name="Комментарий" id="1000011">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4057,7 +4055,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="НеПоказыватьОбластьПросмотраЗадачи" id="22">
+			<Attribute name="НеПоказыватьОбластьПросмотраЗадачи" id="1000012">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4071,7 +4069,7 @@
 					<Field>НеПоказыватьОбластьПросмотраЗадачи</Field>
 				</Save>
 			</Attribute>
-			<Attribute name="КаталогДляСохраненияДанных" id="23">
+			<Attribute name="КаталогДляСохраненияДанных" id="1000013">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4086,7 +4084,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ДоступенФункционалХронометраж" id="8">
+			<Attribute name="ДоступенФункционалХронометраж" id="1000014">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4097,7 +4095,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ДоступнаМультипредметность" id="3">
+			<Attribute name="ДоступнаМультипредметность" id="1000015">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4108,7 +4106,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ДоступенЗахватФайлов" id="6">
+			<Attribute name="ДоступенЗахватФайлов" id="1000016">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4119,7 +4117,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ИмяПользователя" id="9">
+			<Attribute name="ИмяПользователя" id="1000017">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4134,7 +4132,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ДобавлятьРаботуВЕжедневныйОтчетПриВыполненииЗадачи" id="24">
+			<Attribute name="ДобавлятьРаботуВЕжедневныйОтчетПриВыполненииЗадачи" id="1000018">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4145,7 +4143,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ТекущийПользователь" id="26">
+			<Attribute name="ТекущийПользователь" id="1000019">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4160,7 +4158,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ТекущийПользовательID" id="27">
+			<Attribute name="ТекущийПользовательID" id="1000020">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4175,7 +4173,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ТекущийПользовательТип" id="28">
+			<Attribute name="ТекущийПользовательТип" id="1000021">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4190,7 +4188,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ФактическийИсполнительЗадач" id="29">
+			<Attribute name="ФактическийИсполнительЗадач" id="1000022">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4205,7 +4203,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="АдресВебСервисаЗаполнен" id="30">
+			<Attribute name="АдресВебСервисаЗаполнен" id="1000023">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4218,7 +4216,7 @@
 			</Attribute>
 		</Attributes>
 		<Commands>
-			<Command name="ОткрытьЗадачу" id="1">
+			<Command name="ОткрытьЗадачу" id="1000001">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4239,7 +4237,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ОткрытьПроцесс" id="3">
+			<Command name="ОткрытьПроцесс" id="1000002">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4259,7 +4257,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="Обновить" id="4">
+			<Command name="Обновить" id="1000003">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4280,7 +4278,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СоздатьПроцесс" id="5">
+			<Command name="СоздатьПроцесс" id="1000004">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4296,7 +4294,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПринятьКИсполнению" id="6">
+			<Command name="ПринятьКИсполнению" id="1000005">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4312,7 +4310,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СгруппироватьПоАвтору" id="7">
+			<Command name="СгруппироватьПоАвтору" id="1000006">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4328,7 +4326,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СгруппироватьПоБезГруппировки" id="8">
+			<Command name="СгруппироватьПоБезГруппировки" id="1000007">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4344,7 +4342,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СгруппироватьПоВажности" id="9">
+			<Command name="СгруппироватьПоВажности" id="1000008">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4360,7 +4358,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СгруппироватьПоТочкеМаршрута" id="11">
+			<Command name="СгруппироватьПоТочкеМаршрута" id="1000009">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4376,7 +4374,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗадатьВопросАвтору" id="12">
+			<Command name="ЗадатьВопросАвтору" id="1000010">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4396,7 +4394,7 @@
 				<Representation>Picture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СоздатьПисьмо" id="13">
+			<Command name="СоздатьПисьмо" id="1000011">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4415,7 +4413,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СгруппироватьПоИсполнителю" id="14">
+			<Command name="СгруппироватьПоИсполнителю" id="1000012">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4430,7 +4428,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="НастройкаАвтообновления" id="15">
+			<Command name="НастройкаАвтообновления" id="1000013">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4445,7 +4443,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗадачаПеренаправить" id="16">
+			<Command name="ЗадачаПеренаправить" id="1000014">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4464,7 +4462,7 @@
 				</Picture>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ВыполнитьЗадачуПервая" id="17">
+			<Command name="ВыполнитьЗадачуПервая" id="1000015">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4474,7 +4472,7 @@
 				<Representation>Text</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ВыполнитьЗадачуВторая" id="18">
+			<Command name="ВыполнитьЗадачуВторая" id="1000016">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4484,7 +4482,7 @@
 				<Representation>Text</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ВыполнитьЗадачуТретья" id="19">
+			<Command name="ВыполнитьЗадачуТретья" id="1000017">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4494,7 +4492,7 @@
 				<Representation>Text</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПоказатьОбластьПросмотраЗадачи" id="20">
+			<Command name="ПоказатьОбластьПросмотраЗадачи" id="1000018">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4510,7 +4508,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПереключитьХронометраж" id="21">
+			<Command name="ПереключитьХронометраж" id="1000019">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4532,7 +4530,7 @@
 				</FunctionalOptions>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="УказатьТрудозатраты" id="22">
+			<Command name="УказатьТрудозатраты" id="1000020">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4554,7 +4552,7 @@
 				</FunctionalOptions>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ОткрытьПредмет" id="2">
+			<Command name="ОткрытьПредмет" id="1000021">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -4569,7 +4567,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ОткрытьИсходныйДокумент" id="24">
+			<Command name="ОткрытьИсходныйДокумент" id="1000022">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>

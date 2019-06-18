@@ -2248,6 +2248,77 @@
 						</Pages>
 					</ChildItems>
 				</Page>
+				<Page name="ВИЛС_СтраницаПлановыеПоказатели" id="863">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Плановые показатели</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ВИЛС страница плановые показатели</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ВИЛС_СтраницаПлановыеПоказателиРасширеннаяПодсказка" id="864"/>
+					<ChildItems>
+						<Table name="ВИЛС_ПлановыеПоказатели" id="865">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ВИЛС_ПлановыеПоказатели</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ВИЛС_ПлановыеПоказателиКонтекстноеМеню" id="866"/>
+							<AutoCommandBar name="ВИЛС_ПлановыеПоказателиКоманднаяПанель" id="867"/>
+							<ExtendedTooltip name="ВИЛС_ПлановыеПоказателиРасширеннаяПодсказка" id="868"/>
+							<SearchStringAddition name="ВИЛС_ПлановыеПоказателиСтрокаПоиска" id="869">
+								<AdditionSource>
+									<Item>ВИЛС_ПлановыеПоказатели</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ВИЛС_ПлановыеПоказателиСтрокаПоискаКонтекстноеМеню" id="870"/>
+								<ExtendedTooltip name="ВИЛС_ПлановыеПоказателиСтрокаПоискаРасширеннаяПодсказка" id="871"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ВИЛС_ПлановыеПоказателиСостояниеПросмотра" id="872">
+								<AdditionSource>
+									<Item>ВИЛС_ПлановыеПоказатели</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ВИЛС_ПлановыеПоказателиСостояниеПросмотраКонтекстноеМеню" id="873"/>
+								<ExtendedTooltip name="ВИЛС_ПлановыеПоказателиСостояниеПросмотраРасширеннаяПодсказка" id="874"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ВИЛС_ПлановыеПоказателиУправлениеПоиском" id="875">
+								<AdditionSource>
+									<Item>ВИЛС_ПлановыеПоказатели</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ВИЛС_ПлановыеПоказателиУправлениеПоискомКонтекстноеМеню" id="876"/>
+								<ExtendedTooltip name="ВИЛС_ПлановыеПоказателиУправлениеПоискомРасширеннаяПодсказка" id="877"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ВИЛС_ПлановыеПоказателиНомерСтроки" id="878">
+									<DataPath>Объект.ВИЛС_ПлановыеПоказатели.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ВИЛС_ПлановыеПоказателиНомерСтрокиКонтекстноеМеню" id="879"/>
+									<ExtendedTooltip name="ВИЛС_ПлановыеПоказателиНомерСтрокиРасширеннаяПодсказка" id="880"/>
+								</LabelField>
+								<InputField name="ВИЛС_ПлановыеПоказателиСтатьяДвиженияДенежныхСредств" id="881">
+									<DataPath>Объект.ВИЛС_ПлановыеПоказатели.СтатьяДвиженияДенежныхСредств</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ВИЛС_ПлановыеПоказателиСтатьяДвиженияДенежныхСредствКонтекстноеМеню" id="882"/>
+									<ExtendedTooltip name="ВИЛС_ПлановыеПоказателиСтатьяДвиженияДенежныхСредствРасширеннаяПодсказка" id="883"/>
+								</InputField>
+								<InputField name="ВИЛС_ПлановыеПоказателиПлановыйПоказатель" id="884">
+									<DataPath>Объект.ВИЛС_ПлановыеПоказатели.ПлановыйПоказатель</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ВИЛС_ПлановыеПоказателиПлановыйПоказательКонтекстноеМеню" id="885"/>
+									<ExtendedTooltip name="ВИЛС_ПлановыеПоказателиПлановыйПоказательРасширеннаяПодсказка" id="886"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
 				<Page name="СтраницаКомментарий" id="482">
 					<Title>
 						<v8:item>
@@ -2451,7 +2522,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+				<v8:TypeId>af38adc4-1f40-4cc0-8fc7-e1b91078a3d4</v8:TypeId>
 			</Type>
 		</Attribute>
 		<Attribute name="СуммаОтгрузки" id="1000015">
@@ -2462,7 +2533,7 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+				<v8:TypeId>af38adc4-1f40-4cc0-8fc7-e1b91078a3d4</v8:TypeId>
 			</Type>
 		</Attribute>
 		<Attribute name="ПроцентОплаты" id="1000016">
@@ -5301,7 +5372,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+					<v8:TypeId>af38adc4-1f40-4cc0-8fc7-e1b91078a3d4</v8:TypeId>
 				</Type>
 			</Attribute>
 			<Attribute name="СуммаОтгрузки" id="1000015">
@@ -5312,7 +5383,7 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+					<v8:TypeId>af38adc4-1f40-4cc0-8fc7-e1b91078a3d4</v8:TypeId>
 				</Type>
 			</Attribute>
 			<Attribute name="ПроцентОплаты" id="1000016">

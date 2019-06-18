@@ -250,6 +250,240 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<TabularSection uuid="c89796eb-b532-4a84-81a7-be69c60035a2">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.Партнеры.ДополнительныеРеквизиты" category="TabularSection">
+						<xr:TypeId>a39ad2e9-96c4-4cb9-85bb-883d4478a1a9</xr:TypeId>
+						<xr:ValueId>e92c557e-6daf-473b-ac1d-49109e4eb967</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.Партнеры.ДополнительныеРеквизиты" category="TabularSectionRow">
+						<xr:TypeId>3f2efa9f-f2ba-4ceb-b8c1-bab122b87a43</xr:TypeId>
+						<xr:ValueId>6d787b2b-012e-413a-94fb-fe32a831aa68</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ДополнительныеРеквизиты</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="ae1d3c66-749b-4d83-9ce4-56b751431d87">
+						<InternalInfo/>
+						<Properties>
+							<Name>ТекстоваяСтрока</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>0</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="18c58388-9114-4a7f-97d9-6b4ab13173f0">
+						<InternalInfo/>
+						<Properties>
+							<Name>Свойство</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="edfb2107-20d8-4dac-b44f-26500cffc48f">
+						<InternalInfo/>
+						<Properties>
+							<Name>Значение</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.ДополнительныеРеквизитыИСведения</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<TabularSection uuid="a6439f7a-0fef-4b95-870f-176af65d3e3e">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.Партнеры.КонтактнаяИнформация" category="TabularSection">
+						<xr:TypeId>3216b0fd-d692-4fc2-8b39-c074cfa2f7d4</xr:TypeId>
+						<xr:ValueId>146df574-38c1-4c15-a022-9777f02ec1de</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.Партнеры.КонтактнаяИнформация" category="TabularSectionRow">
+						<xr:TypeId>998d3342-6361-4214-bc7c-a92772fe57ed</xr:TypeId>
+						<xr:ValueId>9f9f0a97-2bf3-4c6c-b789-225009fdacf7</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>КонтактнаяИнформация</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="a1f9e741-e111-4e1b-897d-3aae18b9da81">
+						<InternalInfo/>
+						<Properties>
+							<Name>Тип</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:EnumRef.ТипыКонтактнойИнформации</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="924c7f53-3698-4af8-9264-8b4ca9d73cdd">
+						<InternalInfo/>
+						<Properties>
+							<Name>НомерТелефона</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>20</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ee3d7f2c-5841-4ee6-97c7-52835cf1d696">
+						<InternalInfo/>
+						<Properties>
+							<Name>Город</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>50</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="0e481e1f-9609-44ca-9fa9-c3d5a6bbeb63">
+						<InternalInfo/>
+						<Properties>
+							<Name>АдресЭП</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>100</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="09cba8e7-ba03-470a-8dad-dcf32ff21ab9">
+						<InternalInfo/>
+						<Properties>
+							<Name>ЗначенияПолей</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>0</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ff720a60-c8b6-45fe-8005-c29bf1ee00c0">
+						<InternalInfo/>
+						<Properties>
+							<Name>Представление</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>500</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="9c367f18-e589-46f3-8d0f-f5eb54746e5b">
+						<InternalInfo/>
+						<Properties>
+							<Name>ДоменноеИмяСервера</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>100</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c0380d64-65cb-463d-b3e3-33ea99edb320">
+						<InternalInfo/>
+						<Properties>
+							<Name>Вид</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.ВидыКонтактнойИнформации</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="a778ded4-c2e8-4c63-84da-edd5ab267ce0">
+						<InternalInfo/>
+						<Properties>
+							<Name>Страна</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>100</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="396470fb-d543-42cc-8d42-d75636c6416e">
+						<InternalInfo/>
+						<Properties>
+							<Name>Регион</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>50</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b10057ae-40bb-425c-98a2-050deb7eb7e3">
+						<InternalInfo/>
+						<Properties>
+							<Name>НомерТелефонаБезКодов</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>20</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+			<Form>ФормаВыбора</Form>
+			<Form>ФормаСписка</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

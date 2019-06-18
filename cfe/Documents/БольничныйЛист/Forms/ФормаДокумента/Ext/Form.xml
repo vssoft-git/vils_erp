@@ -2389,7 +2389,7 @@
 		</UsualGroup>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="Объект" id="1">
+		<Attribute name="Объект" id="1000001">
 			<Type>
 				<v8:Type>cfg:DocumentObject.БольничныйЛист</v8:Type>
 			</Type>
@@ -5905,7 +5905,7 @@
 				</AdditionalColumns>
 			</Columns>
 		</Attribute>
-		<Attribute name="НачисленоРаботодатель" id="2">
+		<Attribute name="НачисленоРаботодатель" id="1000002">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -5924,7 +5924,7 @@
 				<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
 			</FunctionalOptions>
 		</Attribute>
-		<Attribute name="ПерерасчетИтог" id="3">
+		<Attribute name="ПерерасчетИтог" id="1000003">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -5943,7 +5943,7 @@
 				<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
 			</FunctionalOptions>
 		</Attribute>
-		<Attribute name="НачисленоФСС" id="5">
+		<Attribute name="НачисленоФСС" id="1000004">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -5962,7 +5962,7 @@
 				<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
 			</FunctionalOptions>
 		</Attribute>
-		<Attribute name="РазмерОграниченияПособия" id="9">
+		<Attribute name="РазмерОграниченияПособия" id="1000005">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -5978,7 +5978,7 @@
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="НачисленияПерерасчетПодробно" id="8">
+		<Attribute name="НачисленияПерерасчетПодробно" id="1000006">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -5992,7 +5992,7 @@
 				<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
 			</FunctionalOptions>
 		</Attribute>
-		<Attribute name="МесяцНачисленияСтрокой" id="10">
+		<Attribute name="МесяцНачисленияСтрокой" id="1000007">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6009,7 +6009,7 @@
 			<SavedData>true</SavedData>
 			<FillCheck>ShowError</FillCheck>
 		</Attribute>
-		<Attribute name="ЗаполненностьДанныхИнформационныйТекст" id="12">
+		<Attribute name="ЗаполненностьДанныхИнформационныйТекст" id="1000008">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6023,7 +6023,7 @@
 				<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
 			</FunctionalOptions>
 		</Attribute>
-		<Attribute name="НачисленоИтог" id="6">
+		<Attribute name="НачисленоИтог" id="1000009">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6042,7 +6042,7 @@
 				<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
 			</FunctionalOptions>
 		</Attribute>
-		<Attribute name="ЗаголовокГиперссылкиЗаявления" id="14">
+		<Attribute name="ЗаголовокГиперссылкиЗаявления" id="1000010">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6057,7 +6057,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ЗаявлениеНаВыплатуПособия" id="15">
+		<Attribute name="ЗаявлениеНаВыплатуПособия" id="1000011">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6068,7 +6068,7 @@
 				<v8:Type>cfg:DocumentRef.ЗаявлениеСотрудникаНаВыплатуПособия</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ГиперссылкаВводДополнительныхДанных" id="16">
+		<Attribute name="ГиперссылкаВводДополнительныхДанных" id="1000012">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6083,7 +6083,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="НДФЛ" id="17">
+		<Attribute name="НДФЛ" id="1000013">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6102,7 +6102,7 @@
 				<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
 			</FunctionalOptions>
 		</Attribute>
-		<Attribute name="НадписьДнейОсвобожденияОтРаботы" id="11">
+		<Attribute name="НадписьДнейОсвобожденияОтРаботы" id="1000014">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6117,7 +6117,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="НадписьПервичныйЛистокНетрудоспособности" id="18">
+		<Attribute name="НадписьПервичныйЛистокНетрудоспособности" id="1000015">
 			<Type>
 				<v8:Type>xs:string</v8:Type>
 				<v8:StringQualifiers>
@@ -6126,7 +6126,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="НадписьДнейОплатыПособия" id="19">
+		<Attribute name="НадписьДнейОплатыПособия" id="1000016">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6144,7 +6144,7 @@
 				<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
 			</FunctionalOptions>
 		</Attribute>
-		<Attribute name="НадписьСтаж" id="20">
+		<Attribute name="НадписьСтаж" id="1000017">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6162,7 +6162,7 @@
 				<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
 			</FunctionalOptions>
 		</Attribute>
-		<Attribute name="ДатаУвольненияСотрудника" id="21">
+		<Attribute name="ДатаУвольненияСотрудника" id="1000018">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6176,7 +6176,7 @@
 				</v8:DateQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="УдержаноИтог" id="22">
+		<Attribute name="УдержаноИтог" id="1000019">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6195,7 +6195,7 @@
 				<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
 			</FunctionalOptions>
 		</Attribute>
-		<Attribute name="ПрочиеУдержания" id="23">
+		<Attribute name="ПрочиеУдержания" id="1000020">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6214,7 +6214,7 @@
 				<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
 			</FunctionalOptions>
 		</Attribute>
-		<Attribute name="РегистрацияНачисленийДоступна" id="24">
+		<Attribute name="РегистрацияНачисленийДоступна" id="1000021">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6225,7 +6225,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ДоступноИзменение" id="25">
+		<Attribute name="ДоступноИзменение" id="1000022">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6236,7 +6236,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ЗаполненностьДанныхКартинка" id="27">
+		<Attribute name="ЗаполненностьДанныхКартинка" id="1000023">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6250,7 +6250,7 @@
 				<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
 			</FunctionalOptions>
 		</Attribute>
-		<Attribute name="ИспользуетсяРасчетЗарплаты" id="26">
+		<Attribute name="ИспользуетсяРасчетЗарплаты" id="1000024">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6261,7 +6261,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="РаботаВБюджетномУчреждении" id="28">
+		<Attribute name="РаботаВБюджетномУчреждении" id="1000025">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6272,7 +6272,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ОграниченияНаУровнеЗаписей" id="29">
+		<Attribute name="ОграниченияНаУровнеЗаписей" id="1000026">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6281,7 +6281,7 @@
 			</Title>
 			<Type/>
 		</Attribute>
-		<Attribute name="РасчетНеобходимоВыполнить" id="30">
+		<Attribute name="РасчетНеобходимоВыполнить" id="1000027">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6292,7 +6292,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="НеобходимоПерезаполнитьНачисления" id="31">
+		<Attribute name="НеобходимоПерезаполнитьНачисления" id="1000028">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6303,7 +6303,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ДляСотрудникаВведенСтраховойСтаж" id="32">
+		<Attribute name="ДляСотрудникаВведенСтраховойСтаж" id="1000029">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6314,7 +6314,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="РассчитыватьДокументыПриРедактировании" id="33">
+		<Attribute name="РассчитыватьДокументыПриРедактировании" id="1000030">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6325,7 +6325,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ТребуетсяОбновитьДанныеУчетаСреднегоЗаработка" id="34">
+		<Attribute name="ТребуетсяОбновитьДанныеУчетаСреднегоЗаработка" id="1000031">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6336,7 +6336,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ЗаполнениеВыполнено" id="4">
+		<Attribute name="ЗаполнениеВыполнено" id="1000032">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6347,7 +6347,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="НазначенияРасчетаДенежногоСодержания" id="36">
+		<Attribute name="НазначенияРасчетаДенежногоСодержания" id="1000033">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6356,7 +6356,7 @@
 			</Title>
 			<Type/>
 		</Attribute>
-		<Attribute name="ВариантДоплаты" id="38">
+		<Attribute name="ВариантДоплаты" id="1000034">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6372,7 +6372,7 @@
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ДоплачиватьДоСохраняемогоДенежногоСодержанияЗаДниБолезни" id="39">
+		<Attribute name="ДоплачиватьДоСохраняемогоДенежногоСодержанияЗаДниБолезни" id="1000035">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6383,7 +6383,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ДоплачиватьДоСреднегоЗаДниБолезни" id="40">
+		<Attribute name="ДоплачиватьДоСреднегоЗаДниБолезни" id="1000036">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6394,7 +6394,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="РеквизитыКДобавлению" id="41">
+		<Attribute name="РеквизитыКДобавлению" id="1000037">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6405,7 +6405,7 @@
 				<v8:Type>v8:ValueListType</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="РеквизитыКУдалению" id="42">
+		<Attribute name="РеквизитыКУдалению" id="1000038">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6416,7 +6416,7 @@
 				<v8:Type>v8:ValueListType</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ДокументСторнирован" id="45">
+		<Attribute name="ДокументСторнирован" id="1000039">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6427,7 +6427,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ДокументСторно" id="46">
+		<Attribute name="ДокументСторно" id="1000040">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6438,7 +6438,7 @@
 				<v8:Type>cfg:DocumentRef.СторнированиеНачислений</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="КонтролируемыеПоляНачисления" id="49">
+		<Attribute name="КонтролируемыеПоляНачисления" id="1000041">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6447,7 +6447,7 @@
 			</Title>
 			<Type/>
 		</Attribute>
-		<Attribute name="КонтролируемыеПоляНачисленияПерерасчет" id="50">
+		<Attribute name="КонтролируемыеПоляНачисленияПерерасчет" id="1000042">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6456,7 +6456,7 @@
 			</Title>
 			<Type/>
 		</Attribute>
-		<Attribute name="ОстатокОплачиваемыхДнейУходаЗаРодственником1" id="55">
+		<Attribute name="ОстатокОплачиваемыхДнейУходаЗаРодственником1" id="1000043">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6472,7 +6472,7 @@
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ОстатокОплачиваемыхДнейУходаЗаРодственником2" id="56">
+		<Attribute name="ОстатокОплачиваемыхДнейУходаЗаРодственником2" id="1000044">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6488,7 +6488,7 @@
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="НадписьДнейБолезниПервыйРодственник" id="57">
+		<Attribute name="НадписьДнейБолезниПервыйРодственник" id="1000045">
 			<Type>
 				<v8:Type>xs:string</v8:Type>
 				<v8:StringQualifiers>
@@ -6497,7 +6497,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="НадписьДнейБолезниВторойРодственник" id="58">
+		<Attribute name="НадписьДнейБолезниВторойРодственник" id="1000046">
 			<Type>
 				<v8:Type>xs:string</v8:Type>
 				<v8:StringQualifiers>
@@ -6506,7 +6506,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ОкончательныйРасчетНДФЛ" id="59">
+		<Attribute name="ОкончательныйРасчетНДФЛ" id="1000047">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6517,7 +6517,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ИзмененныеДанные" id="60">
+		<Attribute name="ИзмененныеДанные" id="1000048">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6579,7 +6579,7 @@
 				</Column>
 			</Columns>
 		</Attribute>
-		<Attribute name="ПараметрыПодключаемыхКоманд" id="61">
+		<Attribute name="ПараметрыПодключаемыхКоманд" id="1000049">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6588,7 +6588,7 @@
 			</Title>
 			<Type/>
 		</Attribute>
-		<Attribute name="КорректировкаВыплаты" id="63">
+		<Attribute name="КорректировкаВыплаты" id="1000050">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6604,7 +6604,7 @@
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ЗаголовокГиперссылкиЭЛН" id="64">
+		<Attribute name="ЗаголовокГиперссылкиЭЛН" id="1000051">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6619,7 +6619,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="Основание" id="65">
+		<Attribute name="Основание" id="1000052">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6628,7 +6628,7 @@
 			</Title>
 			<Type/>
 		</Attribute>
-		<Attribute name="ГиперссылкаЗаявлениеСотрудникаНаВыплатуПособия" id="66">
+		<Attribute name="ГиперссылкаЗаявлениеСотрудникаНаВыплатуПособия" id="1000053">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6674,7 +6674,7 @@
 		</ConditionalAppearance>
 	</Attributes>
 	<Commands>
-		<Command name="ОткрытьСреднийЗаработок" id="2">
+		<Command name="ОткрытьСреднийЗаработок" id="1000001">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6697,7 +6697,7 @@
 			<Representation>Picture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="Рассчитать" id="3">
+		<Command name="Рассчитать" id="1000002">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6721,7 +6721,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ПерерасчетПодробно" id="4">
+		<Command name="ПерерасчетПодробно" id="1000003">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6743,7 +6743,7 @@
 			</FunctionalOptions>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ПодробнееОРасчетеНДФЛ" id="1">
+		<Command name="ПодробнееОРасчетеНДФЛ" id="1000004">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6766,7 +6766,7 @@
 			<Representation>Picture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ПодробнееОРасчетеУдержаний" id="5">
+		<Command name="ПодробнееОРасчетеУдержаний" id="1000005">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6789,7 +6789,7 @@
 			<Representation>Picture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="НачисленияПодробно" id="7">
+		<Command name="НачисленияПодробно" id="1000006">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6811,7 +6811,7 @@
 			</FunctionalOptions>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ОткрытьДенежноеСодержание" id="6">
+		<Command name="ОткрытьДенежноеСодержание" id="1000007">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6831,7 +6831,7 @@
 			<Representation>Picture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="УправленческиеНачисленияПодробно" id="8">
+		<Command name="УправленческиеНачисленияПодробно" id="1000008">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6851,7 +6851,7 @@
 			<Representation>Picture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="КомандаЗаписать" id="9">
+		<Command name="КомандаЗаписать" id="1000009">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6867,7 +6867,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="КомандаПровести" id="10">
+		<Command name="КомандаПровести" id="1000010">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6882,7 +6882,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="КомандаПровестиИЗакрыть" id="11">
+		<Command name="КомандаПровестиИЗакрыть" id="1000011">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6897,7 +6897,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="КорректировкаВыплатыПодробно" id="12">
+		<Command name="КорректировкаВыплатыПодробно" id="1000012">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6911,7 +6911,7 @@
 			<Representation>Picture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ПолучитьИзФСС" id="13">
+		<Command name="ПолучитьИзФСС" id="1000013">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -6932,7 +6932,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ЗагрузитьИзФайла" id="14">
+		<Command name="ЗагрузитьИзФайла" id="1000014">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -9337,7 +9337,7 @@
 			</UsualGroup>
 		</ChildItems>
 		<Attributes>
-			<Attribute name="Объект" id="1">
+			<Attribute name="Объект" id="1000001">
 				<Type>
 					<v8:Type>cfg:DocumentObject.БольничныйЛист</v8:Type>
 				</Type>
@@ -12853,7 +12853,7 @@
 					</AdditionalColumns>
 				</Columns>
 			</Attribute>
-			<Attribute name="НачисленоРаботодатель" id="2">
+			<Attribute name="НачисленоРаботодатель" id="1000002">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -12872,7 +12872,7 @@
 					<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
 				</FunctionalOptions>
 			</Attribute>
-			<Attribute name="ПерерасчетИтог" id="3">
+			<Attribute name="ПерерасчетИтог" id="1000003">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -12891,7 +12891,7 @@
 					<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
 				</FunctionalOptions>
 			</Attribute>
-			<Attribute name="НачисленоФСС" id="5">
+			<Attribute name="НачисленоФСС" id="1000004">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -12910,7 +12910,7 @@
 					<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
 				</FunctionalOptions>
 			</Attribute>
-			<Attribute name="РазмерОграниченияПособия" id="9">
+			<Attribute name="РазмерОграниченияПособия" id="1000005">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -12926,7 +12926,7 @@
 					</v8:NumberQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="НачисленияПерерасчетПодробно" id="8">
+			<Attribute name="НачисленияПерерасчетПодробно" id="1000006">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -12940,7 +12940,7 @@
 					<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
 				</FunctionalOptions>
 			</Attribute>
-			<Attribute name="МесяцНачисленияСтрокой" id="10">
+			<Attribute name="МесяцНачисленияСтрокой" id="1000007">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -12957,7 +12957,7 @@
 				<SavedData>true</SavedData>
 				<FillCheck>ShowError</FillCheck>
 			</Attribute>
-			<Attribute name="ЗаполненностьДанныхИнформационныйТекст" id="12">
+			<Attribute name="ЗаполненностьДанныхИнформационныйТекст" id="1000008">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -12971,7 +12971,7 @@
 					<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
 				</FunctionalOptions>
 			</Attribute>
-			<Attribute name="НачисленоИтог" id="6">
+			<Attribute name="НачисленоИтог" id="1000009">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -12990,7 +12990,7 @@
 					<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
 				</FunctionalOptions>
 			</Attribute>
-			<Attribute name="ЗаголовокГиперссылкиЗаявления" id="14">
+			<Attribute name="ЗаголовокГиперссылкиЗаявления" id="1000010">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13005,7 +13005,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ЗаявлениеНаВыплатуПособия" id="15">
+			<Attribute name="ЗаявлениеНаВыплатуПособия" id="1000011">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13016,7 +13016,7 @@
 					<v8:Type>cfg:DocumentRef.ЗаявлениеСотрудникаНаВыплатуПособия</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ГиперссылкаВводДополнительныхДанных" id="16">
+			<Attribute name="ГиперссылкаВводДополнительныхДанных" id="1000012">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13031,7 +13031,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="НДФЛ" id="17">
+			<Attribute name="НДФЛ" id="1000013">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13050,7 +13050,7 @@
 					<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
 				</FunctionalOptions>
 			</Attribute>
-			<Attribute name="НадписьДнейОсвобожденияОтРаботы" id="11">
+			<Attribute name="НадписьДнейОсвобожденияОтРаботы" id="1000014">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13065,7 +13065,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="НадписьПервичныйЛистокНетрудоспособности" id="18">
+			<Attribute name="НадписьПервичныйЛистокНетрудоспособности" id="1000015">
 				<Type>
 					<v8:Type>xs:string</v8:Type>
 					<v8:StringQualifiers>
@@ -13074,7 +13074,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="НадписьДнейОплатыПособия" id="19">
+			<Attribute name="НадписьДнейОплатыПособия" id="1000016">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13092,7 +13092,7 @@
 					<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
 				</FunctionalOptions>
 			</Attribute>
-			<Attribute name="НадписьСтаж" id="20">
+			<Attribute name="НадписьСтаж" id="1000017">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13110,7 +13110,7 @@
 					<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
 				</FunctionalOptions>
 			</Attribute>
-			<Attribute name="ДатаУвольненияСотрудника" id="21">
+			<Attribute name="ДатаУвольненияСотрудника" id="1000018">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13124,7 +13124,7 @@
 					</v8:DateQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="УдержаноИтог" id="22">
+			<Attribute name="УдержаноИтог" id="1000019">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13143,7 +13143,7 @@
 					<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
 				</FunctionalOptions>
 			</Attribute>
-			<Attribute name="ПрочиеУдержания" id="23">
+			<Attribute name="ПрочиеУдержания" id="1000020">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13162,7 +13162,7 @@
 					<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
 				</FunctionalOptions>
 			</Attribute>
-			<Attribute name="РегистрацияНачисленийДоступна" id="24">
+			<Attribute name="РегистрацияНачисленийДоступна" id="1000021">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13173,7 +13173,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ДоступноИзменение" id="25">
+			<Attribute name="ДоступноИзменение" id="1000022">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13184,7 +13184,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ЗаполненностьДанныхКартинка" id="27">
+			<Attribute name="ЗаполненностьДанныхКартинка" id="1000023">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13198,7 +13198,7 @@
 					<Item>FunctionalOption.ИспользоватьРасчетЗарплатыРасширенная</Item>
 				</FunctionalOptions>
 			</Attribute>
-			<Attribute name="ИспользуетсяРасчетЗарплаты" id="26">
+			<Attribute name="ИспользуетсяРасчетЗарплаты" id="1000024">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13209,7 +13209,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="РаботаВБюджетномУчреждении" id="28">
+			<Attribute name="РаботаВБюджетномУчреждении" id="1000025">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13220,7 +13220,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ОграниченияНаУровнеЗаписей" id="29">
+			<Attribute name="ОграниченияНаУровнеЗаписей" id="1000026">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13229,7 +13229,7 @@
 				</Title>
 				<Type/>
 			</Attribute>
-			<Attribute name="РасчетНеобходимоВыполнить" id="30">
+			<Attribute name="РасчетНеобходимоВыполнить" id="1000027">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13240,7 +13240,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="НеобходимоПерезаполнитьНачисления" id="31">
+			<Attribute name="НеобходимоПерезаполнитьНачисления" id="1000028">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13251,7 +13251,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ДляСотрудникаВведенСтраховойСтаж" id="32">
+			<Attribute name="ДляСотрудникаВведенСтраховойСтаж" id="1000029">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13262,7 +13262,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="РассчитыватьДокументыПриРедактировании" id="33">
+			<Attribute name="РассчитыватьДокументыПриРедактировании" id="1000030">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13273,7 +13273,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ТребуетсяОбновитьДанныеУчетаСреднегоЗаработка" id="34">
+			<Attribute name="ТребуетсяОбновитьДанныеУчетаСреднегоЗаработка" id="1000031">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13284,7 +13284,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ЗаполнениеВыполнено" id="4">
+			<Attribute name="ЗаполнениеВыполнено" id="1000032">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13295,7 +13295,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="НазначенияРасчетаДенежногоСодержания" id="36">
+			<Attribute name="НазначенияРасчетаДенежногоСодержания" id="1000033">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13304,7 +13304,7 @@
 				</Title>
 				<Type/>
 			</Attribute>
-			<Attribute name="ВариантДоплаты" id="38">
+			<Attribute name="ВариантДоплаты" id="1000034">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13320,7 +13320,7 @@
 					</v8:NumberQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ДоплачиватьДоСохраняемогоДенежногоСодержанияЗаДниБолезни" id="39">
+			<Attribute name="ДоплачиватьДоСохраняемогоДенежногоСодержанияЗаДниБолезни" id="1000035">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13331,7 +13331,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ДоплачиватьДоСреднегоЗаДниБолезни" id="40">
+			<Attribute name="ДоплачиватьДоСреднегоЗаДниБолезни" id="1000036">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13342,7 +13342,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="РеквизитыКДобавлению" id="41">
+			<Attribute name="РеквизитыКДобавлению" id="1000037">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13353,7 +13353,7 @@
 					<v8:Type>v8:ValueListType</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="РеквизитыКУдалению" id="42">
+			<Attribute name="РеквизитыКУдалению" id="1000038">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13364,7 +13364,7 @@
 					<v8:Type>v8:ValueListType</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ДокументСторнирован" id="45">
+			<Attribute name="ДокументСторнирован" id="1000039">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13375,7 +13375,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ДокументСторно" id="46">
+			<Attribute name="ДокументСторно" id="1000040">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13386,7 +13386,7 @@
 					<v8:Type>cfg:DocumentRef.СторнированиеНачислений</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="КонтролируемыеПоляНачисления" id="49">
+			<Attribute name="КонтролируемыеПоляНачисления" id="1000041">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13395,7 +13395,7 @@
 				</Title>
 				<Type/>
 			</Attribute>
-			<Attribute name="КонтролируемыеПоляНачисленияПерерасчет" id="50">
+			<Attribute name="КонтролируемыеПоляНачисленияПерерасчет" id="1000042">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13404,7 +13404,7 @@
 				</Title>
 				<Type/>
 			</Attribute>
-			<Attribute name="ОстатокОплачиваемыхДнейУходаЗаРодственником1" id="55">
+			<Attribute name="ОстатокОплачиваемыхДнейУходаЗаРодственником1" id="1000043">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13420,7 +13420,7 @@
 					</v8:NumberQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ОстатокОплачиваемыхДнейУходаЗаРодственником2" id="56">
+			<Attribute name="ОстатокОплачиваемыхДнейУходаЗаРодственником2" id="1000044">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13436,7 +13436,7 @@
 					</v8:NumberQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="НадписьДнейБолезниПервыйРодственник" id="57">
+			<Attribute name="НадписьДнейБолезниПервыйРодственник" id="1000045">
 				<Type>
 					<v8:Type>xs:string</v8:Type>
 					<v8:StringQualifiers>
@@ -13445,7 +13445,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="НадписьДнейБолезниВторойРодственник" id="58">
+			<Attribute name="НадписьДнейБолезниВторойРодственник" id="1000046">
 				<Type>
 					<v8:Type>xs:string</v8:Type>
 					<v8:StringQualifiers>
@@ -13454,7 +13454,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ОкончательныйРасчетНДФЛ" id="59">
+			<Attribute name="ОкончательныйРасчетНДФЛ" id="1000047">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13465,7 +13465,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ИзмененныеДанные" id="60">
+			<Attribute name="ИзмененныеДанные" id="1000048">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13527,7 +13527,7 @@
 					</Column>
 				</Columns>
 			</Attribute>
-			<Attribute name="ПараметрыПодключаемыхКоманд" id="61">
+			<Attribute name="ПараметрыПодключаемыхКоманд" id="1000049">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13536,7 +13536,7 @@
 				</Title>
 				<Type/>
 			</Attribute>
-			<Attribute name="КорректировкаВыплаты" id="63">
+			<Attribute name="КорректировкаВыплаты" id="1000050">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13552,7 +13552,7 @@
 					</v8:NumberQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ЗаголовокГиперссылкиЭЛН" id="64">
+			<Attribute name="ЗаголовокГиперссылкиЭЛН" id="1000051">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13567,7 +13567,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="Основание" id="65">
+			<Attribute name="Основание" id="1000052">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13576,7 +13576,7 @@
 				</Title>
 				<Type/>
 			</Attribute>
-			<Attribute name="ГиперссылкаЗаявлениеСотрудникаНаВыплатуПособия" id="66">
+			<Attribute name="ГиперссылкаЗаявлениеСотрудникаНаВыплатуПособия" id="1000053">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13622,7 +13622,7 @@
 			</ConditionalAppearance>
 		</Attributes>
 		<Commands>
-			<Command name="ОткрытьСреднийЗаработок" id="2">
+			<Command name="ОткрытьСреднийЗаработок" id="1000001">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13645,7 +13645,7 @@
 				<Representation>Picture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="Рассчитать" id="3">
+			<Command name="Рассчитать" id="1000002">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13669,7 +13669,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПерерасчетПодробно" id="4">
+			<Command name="ПерерасчетПодробно" id="1000003">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13691,7 +13691,7 @@
 				</FunctionalOptions>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПодробнееОРасчетеНДФЛ" id="1">
+			<Command name="ПодробнееОРасчетеНДФЛ" id="1000004">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13714,7 +13714,7 @@
 				<Representation>Picture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПодробнееОРасчетеУдержаний" id="5">
+			<Command name="ПодробнееОРасчетеУдержаний" id="1000005">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13737,7 +13737,7 @@
 				<Representation>Picture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="НачисленияПодробно" id="7">
+			<Command name="НачисленияПодробно" id="1000006">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13759,7 +13759,7 @@
 				</FunctionalOptions>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ОткрытьДенежноеСодержание" id="6">
+			<Command name="ОткрытьДенежноеСодержание" id="1000007">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13779,7 +13779,7 @@
 				<Representation>Picture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="УправленческиеНачисленияПодробно" id="8">
+			<Command name="УправленческиеНачисленияПодробно" id="1000008">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13799,7 +13799,7 @@
 				<Representation>Picture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="КомандаЗаписать" id="9">
+			<Command name="КомандаЗаписать" id="1000009">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13815,7 +13815,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="КомандаПровести" id="10">
+			<Command name="КомандаПровести" id="1000010">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13830,7 +13830,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="КомандаПровестиИЗакрыть" id="11">
+			<Command name="КомандаПровестиИЗакрыть" id="1000011">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13845,7 +13845,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="КорректировкаВыплатыПодробно" id="12">
+			<Command name="КорректировкаВыплатыПодробно" id="1000012">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13859,7 +13859,7 @@
 				<Representation>Picture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПолучитьИзФСС" id="13">
+			<Command name="ПолучитьИзФСС" id="1000013">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -13880,7 +13880,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗагрузитьИзФайла" id="14">
+			<Command name="ЗагрузитьИзФайла" id="1000014">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>

@@ -1,24 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<DefinedType uuid="831c32f1-8bbf-4b01-8ef9-db8d5455673f">
-		<InternalInfo>
-			<xr:GeneratedType name="DefinedType.ДенежноеПолеНеотрицательное" category="DefinedType">
-				<xr:TypeId>af38adc4-1f40-4cc0-8fc7-e1b91078a3d4</xr:TypeId>
-				<xr:ValueId>4dd3bf55-cf1c-41b3-bf80-8df203f756ab</xr:ValueId>
-			</xr:GeneratedType>
-		</InternalInfo>
+	<Form uuid="33ef39dc-9a49-48a9-8695-2a567b004e5c">
+		<InternalInfo/>
 		<Properties>
-			<Name>ДенежноеПолеНеотрицательное</Name>
+			<Name>ФормаЭлемента</Name>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<Type>
-				<v8:Type>xs:decimal</v8:Type>
-				<v8:NumberQualifiers>
-					<v8:Digits>15</v8:Digits>
-					<v8:FractionDigits>2</v8:FractionDigits>
-					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-				</v8:NumberQualifiers>
-			</Type>
+			<FormType>Managed</FormType>
 		</Properties>
-	</DefinedType>
+	</Form>
 </MetaDataObject>

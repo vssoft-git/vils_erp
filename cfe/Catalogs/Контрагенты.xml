@@ -41,6 +41,28 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="9fea7fad-c332-44f4-afbb-9a73fcdf9fc5">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЮрФизЛицо</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:EnumRef.ЮрФизЛицо</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="929daf66-8522-4e4a-b390-d3ee4f630a6f">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОбособленноеПодразделение</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Attribute uuid="ed4e2661-dbaa-462b-926a-4a2565f97c60">
 				<InternalInfo/>
 				<Properties>

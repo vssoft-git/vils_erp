@@ -1306,13 +1306,13 @@
 		</Pages>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="Отчет" id="1">
+		<Attribute name="Отчет" id="1000001">
 			<Type>
 				<v8:Type>cfg:ReportObject</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>
-		<Attribute name="ЛокальныеВыбранныеПоля" id="2">
+		<Attribute name="ЛокальныеВыбранныеПоля" id="1000002">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1323,7 +1323,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ЛокальныйОтбор" id="3">
+		<Attribute name="ЛокальныйОтбор" id="1000003">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1334,7 +1334,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ЛокальныйПорядок" id="4">
+		<Attribute name="ЛокальныйПорядок" id="1000004">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1345,7 +1345,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ЛокальноеУсловноеОформление" id="5">
+		<Attribute name="ЛокальноеУсловноеОформление" id="1000005">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1356,7 +1356,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ЛокальныеПараметрыВывода" id="6">
+		<Attribute name="ЛокальныеПараметрыВывода" id="1000006">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1367,7 +1367,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="НастройкиОтчета" id="7">
+		<Attribute name="НастройкиОтчета" id="1000007">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1376,7 +1376,7 @@
 			</Title>
 			<Type/>
 		</Attribute>
-		<Attribute name="ИдентификаторТекущегоУзлаКД" id="8">
+		<Attribute name="ИдентификаторТекущегоУзлаКД" id="1000008">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1385,7 +1385,7 @@
 			</Title>
 			<Type/>
 		</Attribute>
-		<Attribute name="ФормаПараметры" id="9">
+		<Attribute name="ФормаПараметры" id="1000009">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -1396,7 +1396,7 @@
 		</Attribute>
 	</Attributes>
 	<Commands>
-		<Command name="ЗавершитьРедактирование" id="1">
+		<Command name="ЗавершитьРедактирование" id="1000001">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2719,13 +2719,13 @@
 			</Pages>
 		</ChildItems>
 		<Attributes>
-			<Attribute name="Отчет" id="1">
+			<Attribute name="Отчет" id="1000001">
 				<Type>
 					<v8:Type>cfg:ReportObject</v8:Type>
 				</Type>
 				<MainAttribute>true</MainAttribute>
 			</Attribute>
-			<Attribute name="ЛокальныеВыбранныеПоля" id="2">
+			<Attribute name="ЛокальныеВыбранныеПоля" id="1000002">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2736,7 +2736,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ЛокальныйОтбор" id="3">
+			<Attribute name="ЛокальныйОтбор" id="1000003">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2747,7 +2747,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ЛокальныйПорядок" id="4">
+			<Attribute name="ЛокальныйПорядок" id="1000004">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2758,7 +2758,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ЛокальноеУсловноеОформление" id="5">
+			<Attribute name="ЛокальноеУсловноеОформление" id="1000005">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2769,7 +2769,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ЛокальныеПараметрыВывода" id="6">
+			<Attribute name="ЛокальныеПараметрыВывода" id="1000006">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2780,7 +2780,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="НастройкиОтчета" id="7">
+			<Attribute name="НастройкиОтчета" id="1000007">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2789,7 +2789,7 @@
 				</Title>
 				<Type/>
 			</Attribute>
-			<Attribute name="ИдентификаторТекущегоУзлаКД" id="8">
+			<Attribute name="ИдентификаторТекущегоУзлаКД" id="1000008">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2798,7 +2798,7 @@
 				</Title>
 				<Type/>
 			</Attribute>
-			<Attribute name="ФормаПараметры" id="9">
+			<Attribute name="ФормаПараметры" id="1000009">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -2809,7 +2809,7 @@
 			</Attribute>
 		</Attributes>
 		<Commands>
-			<Command name="ЗавершитьРедактирование" id="1">
+			<Command name="ЗавершитьРедактирование" id="1000001">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>

@@ -337,7 +337,6 @@
 																			<EnableDrag>true</EnableDrag>
 																			<FileDragMode>AsFile</FileDragMode>
 																			<DataPath>ДеревоПриложений</DataPath>
-																			<RowPictureDataPath>ДеревоПриложений.Картинка</RowPictureDataPath>
 																			<RowsPicture>
 																				<xr:Ref>CommonPicture.КоллекцияПиктограммФайлов</xr:Ref>
 																				<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -2171,7 +2170,7 @@
 		</UsualGroup>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="Наименование" id="1">
+		<Attribute name="Наименование" id="1000001">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2186,7 +2185,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ПолноеОписаниеЗадачи" id="2">
+		<Attribute name="ПолноеОписаниеЗадачи" id="1000002">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2201,7 +2200,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="РезультатВыполнения" id="3">
+		<Attribute name="РезультатВыполнения" id="1000003">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2217,7 +2216,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="НомерИтерации" id="4">
+		<Attribute name="НомерИтерации" id="1000004">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2233,7 +2232,7 @@
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="СрокИсполнения" id="6">
+		<Attribute name="СрокИсполнения" id="1000005">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2247,7 +2246,7 @@
 				</v8:DateQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ТрудозатратыПлан" id="7">
+		<Attribute name="ТрудозатратыПлан" id="1000006">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2262,7 +2261,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="Важность" id="8">
+		<Attribute name="Важность" id="1000007">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2277,7 +2276,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="Автор" id="9">
+		<Attribute name="Автор" id="1000008">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2292,7 +2291,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="Исполнитель" id="10">
+		<Attribute name="Исполнитель" id="1000009">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2307,7 +2306,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="Дата" id="11">
+		<Attribute name="Дата" id="1000010">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2321,7 +2320,7 @@
 				</v8:DateQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="Номер" id="12">
+		<Attribute name="Номер" id="1000011">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2336,7 +2335,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ДеревоПриложений" id="13">
+		<Attribute name="ДеревоПриложений" id="1000012">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2515,7 +2514,7 @@
 				</Column>
 			</Columns>
 		</Attribute>
-		<Attribute name="АвторID" id="14">
+		<Attribute name="АвторID" id="1000013">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2530,7 +2529,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="АвторТип" id="15">
+		<Attribute name="АвторТип" id="1000014">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2545,7 +2544,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ВажностьID" id="16">
+		<Attribute name="ВажностьID" id="1000015">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2560,7 +2559,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ВажностьТип" id="17">
+		<Attribute name="ВажностьТип" id="1000016">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2575,7 +2574,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ИсполнительID" id="18">
+		<Attribute name="ИсполнительID" id="1000017">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2590,7 +2589,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ИсполнительТип" id="19">
+		<Attribute name="ИсполнительТип" id="1000018">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2605,7 +2604,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ТрудозатратыФакт" id="22">
+		<Attribute name="ТрудозатратыФакт" id="1000019">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2621,7 +2620,7 @@
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ДатаИсполнения" id="23">
+		<Attribute name="ДатаИсполнения" id="1000020">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2636,7 +2635,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="ID" id="25">
+		<Attribute name="ID" id="1000021">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2651,7 +2650,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="Тип" id="26">
+		<Attribute name="Тип" id="1000022">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2666,7 +2665,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="Выполнена" id="27">
+		<Attribute name="Выполнена" id="1000023">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2677,7 +2676,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="РезультатВыполненияУтверждения" id="31">
+		<Attribute name="РезультатВыполненияУтверждения" id="1000024">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2693,7 +2692,7 @@
 			</Type>
 			<SavedData>true</SavedData>
 		</Attribute>
-		<Attribute name="Утверждающий" id="32">
+		<Attribute name="Утверждающий" id="1000025">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2708,7 +2707,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="УтверждающийID" id="33">
+		<Attribute name="УтверждающийID" id="1000026">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2723,7 +2722,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="УтверждающийТип" id="34">
+		<Attribute name="УтверждающийТип" id="1000027">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2738,7 +2737,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ДатаУтверждения" id="35">
+		<Attribute name="ДатаУтверждения" id="1000028">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2752,7 +2751,7 @@
 				</v8:DateQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="Исполнители" id="36">
+		<Attribute name="Исполнители" id="1000029">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3153,7 +3152,7 @@
 				</Column>
 			</Columns>
 		</Attribute>
-		<Attribute name="ПроцессID" id="37">
+		<Attribute name="ПроцессID" id="1000030">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3168,7 +3167,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ПроцессТип" id="38">
+		<Attribute name="ПроцессТип" id="1000031">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3183,7 +3182,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="КаталогДляСохраненияДанных" id="39">
+		<Attribute name="КаталогДляСохраненияДанных" id="1000032">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3198,7 +3197,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="КоличествоПриложений" id="40">
+		<Attribute name="КоличествоПриложений" id="1000033">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3214,7 +3213,7 @@
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ОсновнойОбъектАдресацииID" id="41">
+		<Attribute name="ОсновнойОбъектАдресацииID" id="1000034">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3229,7 +3228,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ДополнительныйОбъектАдресацииID" id="42">
+		<Attribute name="ДополнительныйОбъектАдресацииID" id="1000035">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3244,7 +3243,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ОсновнойОбъектАдресации" id="43">
+		<Attribute name="ОсновнойОбъектАдресации" id="1000036">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3259,7 +3258,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ОсновнойОбъектАдресацииТип" id="44">
+		<Attribute name="ОсновнойОбъектАдресацииТип" id="1000037">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3274,7 +3273,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ДополнительныйОбъектАдресацииТип" id="45">
+		<Attribute name="ДополнительныйОбъектАдресацииТип" id="1000038">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3289,7 +3288,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ДополнительныйОбъектАдресации" id="46">
+		<Attribute name="ДополнительныйОбъектАдресации" id="1000039">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3304,7 +3303,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ТочкаМаршрута" id="47">
+		<Attribute name="ТочкаМаршрута" id="1000040">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3319,7 +3318,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="Процесс" id="48">
+		<Attribute name="Процесс" id="1000041">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3334,7 +3333,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="Описание" id="49">
+		<Attribute name="Описание" id="1000042">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3349,7 +3348,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ЗадачаПросрочена" id="50">
+		<Attribute name="ЗадачаПросрочена" id="1000043">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3360,7 +3359,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ДоступноВыполнение" id="5">
+		<Attribute name="ДоступноВыполнение" id="1000044">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3371,7 +3370,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="РезультатыОзнакомлений" id="51">
+		<Attribute name="РезультатыОзнакомлений" id="1000045">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3457,7 +3456,7 @@
 				</Column>
 			</Columns>
 		</Attribute>
-		<Attribute name="Предмет" id="53">
+		<Attribute name="Предмет" id="1000046">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3472,7 +3471,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ПредметID" id="54">
+		<Attribute name="ПредметID" id="1000047">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3487,7 +3486,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ПредметТип" id="55">
+		<Attribute name="ПредметТип" id="1000048">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3502,7 +3501,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="Резолюция" id="56">
+		<Attribute name="Резолюция" id="1000049">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3517,7 +3516,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="РезолюцияРассмотрел" id="57">
+		<Attribute name="РезолюцияРассмотрел" id="1000050">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3532,7 +3531,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="РезолюцияДатаРассмотрения" id="58">
+		<Attribute name="РезолюцияДатаРассмотрения" id="1000051">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3546,7 +3545,7 @@
 				</v8:DateQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ПринятаКИсполнению" id="59">
+		<Attribute name="ПринятаКИсполнению" id="1000052">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3557,7 +3556,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="Объект" id="60">
+		<Attribute name="Объект" id="1000053">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3569,7 +3568,7 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>
-		<Attribute name="Этапы" id="61">
+		<Attribute name="Этапы" id="1000054">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3800,7 +3799,7 @@
 				</Column>
 			</Columns>
 		</Attribute>
-		<Attribute name="Представление" id="62">
+		<Attribute name="Представление" id="1000055">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3815,7 +3814,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ПроцессПредставление" id="63">
+		<Attribute name="ПроцессПредставление" id="1000056">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3830,7 +3829,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="РезолюцияРассмотрелID" id="64">
+		<Attribute name="РезолюцияРассмотрелID" id="1000057">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3845,7 +3844,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="РезолюцияРассмотрелТип" id="65">
+		<Attribute name="РезолюцияРассмотрелТип" id="1000058">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3860,7 +3859,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="Состояние" id="66">
+		<Attribute name="Состояние" id="1000059">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3875,7 +3874,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="СостояниеID" id="67">
+		<Attribute name="СостояниеID" id="1000060">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3890,7 +3889,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="СостояниеТип" id="68">
+		<Attribute name="СостояниеТип" id="1000061">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3905,7 +3904,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ВозможностьРедактирования" id="69">
+		<Attribute name="ВозможностьРедактирования" id="1000062">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3916,7 +3915,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ПредметРассмотрения" id="70">
+		<Attribute name="ПредметРассмотрения" id="1000063">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3931,7 +3930,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ПредметРассмотренияID" id="71">
+		<Attribute name="ПредметРассмотренияID" id="1000064">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3946,7 +3945,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ПредметРассмотренияТип" id="72">
+		<Attribute name="ПредметРассмотренияТип" id="1000065">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3961,7 +3960,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="БизнесПроцессПредметаРассмотрения" id="73">
+		<Attribute name="БизнесПроцессПредметаРассмотрения" id="1000066">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3976,7 +3975,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="БизнесПроцессПредметаРассмотренияID" id="74">
+		<Attribute name="БизнесПроцессПредметаРассмотренияID" id="1000067">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3991,7 +3990,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="БизнесПроцессПредметаРассмотренияТип" id="75">
+		<Attribute name="БизнесПроцессПредметаРассмотренияТип" id="1000068">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4006,7 +4005,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="БизнесПроцессПредметаРассмотренияПредставление" id="76">
+		<Attribute name="БизнесПроцессПредметаРассмотренияПредставление" id="1000069">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4021,7 +4020,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ПредметРассмотренияПредставление" id="77">
+		<Attribute name="ПредметРассмотренияПредставление" id="1000070">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4036,7 +4035,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ВидВопроса" id="78">
+		<Attribute name="ВидВопроса" id="1000071">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4051,7 +4050,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ВидВопросаID" id="79">
+		<Attribute name="ВидВопросаID" id="1000072">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4066,7 +4065,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ВидВопросаТип" id="80">
+		<Attribute name="ВидВопросаТип" id="1000073">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4081,7 +4080,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="МестоПроведения" id="81">
+		<Attribute name="МестоПроведения" id="1000074">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4096,7 +4095,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ДатаНачала" id="82">
+		<Attribute name="ДатаНачала" id="1000075">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4110,7 +4109,7 @@
 				</v8:DateQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ДатаОкончания" id="83">
+		<Attribute name="ДатаОкончания" id="1000076">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4124,7 +4123,7 @@
 				</v8:DateQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="Результат" id="84">
+		<Attribute name="Результат" id="1000077">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4139,7 +4138,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="РезультатID" id="85">
+		<Attribute name="РезультатID" id="1000078">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4154,7 +4153,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="РезультатТип" id="86">
+		<Attribute name="РезультатТип" id="1000079">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4169,7 +4168,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ДатаКонцаХронометража" id="20">
+		<Attribute name="ДатаКонцаХронометража" id="1000080">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4183,7 +4182,7 @@
 				</v8:DateQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ДатаНачалаХронометража" id="21">
+		<Attribute name="ДатаНачалаХронометража" id="1000081">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4197,7 +4196,7 @@
 				</v8:DateQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ВключенХронометраж" id="24">
+		<Attribute name="ВключенХронометраж" id="1000082">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4208,7 +4207,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ДоступнаМультипредметность" id="28">
+		<Attribute name="ДоступнаМультипредметность" id="1000083">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4219,7 +4218,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ДоступенЗахватФайлов" id="29">
+		<Attribute name="ДоступенЗахватФайлов" id="1000084">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4230,7 +4229,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ИмяПользователя" id="30">
+		<Attribute name="ИмяПользователя" id="1000085">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4245,7 +4244,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="Свойства" id="87">
+		<Attribute name="Свойства" id="1000086">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4371,7 +4370,7 @@
 				</Column>
 			</Columns>
 		</Attribute>
-		<Attribute name="Проект" id="89">
+		<Attribute name="Проект" id="1000087">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4386,7 +4385,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ПроектнаяЗадача" id="90">
+		<Attribute name="ПроектнаяЗадача" id="1000088">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4401,7 +4400,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ФактическийИсполнительЗадач" id="91">
+		<Attribute name="ФактическийИсполнительЗадач" id="1000089">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4416,7 +4415,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ТекущийПользователь" id="92">
+		<Attribute name="ТекущийПользователь" id="1000090">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4431,7 +4430,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ТекущийПользовательID" id="93">
+		<Attribute name="ТекущийПользовательID" id="1000091">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4446,7 +4445,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ТекущийПользовательТип" id="94">
+		<Attribute name="ТекущийПользовательТип" id="1000092">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4461,7 +4460,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ДобавлятьРаботуВЕжедневныйОтчетПриВыполненииЗадачи" id="95">
+		<Attribute name="ДобавлятьРаботуВЕжедневныйОтчетПриВыполненииЗадачи" id="1000093">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4852,7 +4851,7 @@
 		</ConditionalAppearance>
 	</Attributes>
 	<Commands>
-		<Command name="ОткрытьКарточку" id="2">
+		<Command name="ОткрытьКарточку" id="1000001">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4871,7 +4870,7 @@
 			</Picture>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ОткрытьФайлДляПросмотра" id="3">
+		<Command name="ОткрытьФайлДляПросмотра" id="1000002">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4890,7 +4889,7 @@
 			</Picture>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="Редактировать" id="4">
+		<Command name="Редактировать" id="1000003">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4909,7 +4908,7 @@
 			</Picture>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ЗакончитьРедактирование" id="5">
+		<Command name="ЗакончитьРедактирование" id="1000004">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4928,7 +4927,7 @@
 			</Picture>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ЗаписатьИЗакрыть" id="6">
+		<Command name="ЗаписатьИЗакрыть" id="1000005">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4944,7 +4943,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="Записать" id="7">
+		<Command name="Записать" id="1000006">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4964,7 +4963,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ОткрытьЗадачу" id="8">
+		<Command name="ОткрытьЗадачу" id="1000007">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4979,7 +4978,7 @@
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ПринятьКИсполнению" id="9">
+		<Command name="ПринятьКИсполнению" id="1000008">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4995,7 +4994,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="Перенаправить" id="10">
+		<Command name="Перенаправить" id="1000009">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -5016,7 +5015,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СоздатьПроцесс" id="11">
+		<Command name="СоздатьПроцесс" id="1000010">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -5031,7 +5030,7 @@
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ОткрытьБизнесПроцесс" id="12">
+		<Command name="ОткрытьБизнесПроцесс" id="1000011">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -5050,7 +5049,7 @@
 			</Picture>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ЗадатьВопросАвтору" id="13">
+		<Command name="ЗадатьВопросАвтору" id="1000012">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -5070,7 +5069,7 @@
 			<Representation>TextPicture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ВыполнитьЗадачуПервая" id="14">
+		<Command name="ВыполнитьЗадачуПервая" id="1000013">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -5080,7 +5079,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ВыполнитьЗадачуВторая" id="15">
+		<Command name="ВыполнитьЗадачуВторая" id="1000014">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -5090,7 +5089,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ВыполнитьЗадачуТретья" id="16">
+		<Command name="ВыполнитьЗадачуТретья" id="1000015">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -5100,7 +5099,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СоздатьПисьмо" id="17">
+		<Command name="СоздатьПисьмо" id="1000016">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -5118,7 +5117,7 @@
 			</FunctionalOptions>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="УказатьТрудозатраты" id="18">
+		<Command name="УказатьТрудозатраты" id="1000017">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -5140,7 +5139,7 @@
 			</FunctionalOptions>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ПереключитьХронометраж" id="19">
+		<Command name="ПереключитьХронометраж" id="1000018">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -5162,7 +5161,7 @@
 			</FunctionalOptions>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ДобавитьПредмет" id="20">
+		<Command name="ДобавитьПредмет" id="1000019">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -5183,7 +5182,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="УдалитьПредмет" id="21">
+		<Command name="УдалитьПредмет" id="1000020">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -5543,7 +5542,6 @@
 																				<EnableDrag>true</EnableDrag>
 																				<FileDragMode>AsFile</FileDragMode>
 																				<DataPath>ДеревоПриложений</DataPath>
-																				<RowPictureDataPath>ДеревоПриложений.Картинка</RowPictureDataPath>
 																				<RowsPicture>
 																					<xr:Ref>CommonPicture.КоллекцияПиктограммФайлов</xr:Ref>
 																					<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -7377,7 +7375,7 @@
 			</UsualGroup>
 		</ChildItems>
 		<Attributes>
-			<Attribute name="Наименование" id="1">
+			<Attribute name="Наименование" id="1000001">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7392,7 +7390,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ПолноеОписаниеЗадачи" id="2">
+			<Attribute name="ПолноеОписаниеЗадачи" id="1000002">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7407,7 +7405,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="РезультатВыполнения" id="3">
+			<Attribute name="РезультатВыполнения" id="1000003">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7423,7 +7421,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="НомерИтерации" id="4">
+			<Attribute name="НомерИтерации" id="1000004">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7439,7 +7437,7 @@
 					</v8:NumberQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="СрокИсполнения" id="6">
+			<Attribute name="СрокИсполнения" id="1000005">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7453,7 +7451,7 @@
 					</v8:DateQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ТрудозатратыПлан" id="7">
+			<Attribute name="ТрудозатратыПлан" id="1000006">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7468,7 +7466,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="Важность" id="8">
+			<Attribute name="Важность" id="1000007">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7483,7 +7481,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="Автор" id="9">
+			<Attribute name="Автор" id="1000008">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7498,7 +7496,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="Исполнитель" id="10">
+			<Attribute name="Исполнитель" id="1000009">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7513,7 +7511,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="Дата" id="11">
+			<Attribute name="Дата" id="1000010">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7527,7 +7525,7 @@
 					</v8:DateQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="Номер" id="12">
+			<Attribute name="Номер" id="1000011">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7542,7 +7540,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ДеревоПриложений" id="13">
+			<Attribute name="ДеревоПриложений" id="1000012">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7721,7 +7719,7 @@
 					</Column>
 				</Columns>
 			</Attribute>
-			<Attribute name="АвторID" id="14">
+			<Attribute name="АвторID" id="1000013">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7736,7 +7734,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="АвторТип" id="15">
+			<Attribute name="АвторТип" id="1000014">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7751,7 +7749,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ВажностьID" id="16">
+			<Attribute name="ВажностьID" id="1000015">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7766,7 +7764,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ВажностьТип" id="17">
+			<Attribute name="ВажностьТип" id="1000016">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7781,7 +7779,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ИсполнительID" id="18">
+			<Attribute name="ИсполнительID" id="1000017">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7796,7 +7794,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ИсполнительТип" id="19">
+			<Attribute name="ИсполнительТип" id="1000018">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7811,7 +7809,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ТрудозатратыФакт" id="22">
+			<Attribute name="ТрудозатратыФакт" id="1000019">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7827,7 +7825,7 @@
 					</v8:NumberQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ДатаИсполнения" id="23">
+			<Attribute name="ДатаИсполнения" id="1000020">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7842,7 +7840,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="ID" id="25">
+			<Attribute name="ID" id="1000021">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7857,7 +7855,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="Тип" id="26">
+			<Attribute name="Тип" id="1000022">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7872,7 +7870,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="Выполнена" id="27">
+			<Attribute name="Выполнена" id="1000023">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7883,7 +7881,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="РезультатВыполненияУтверждения" id="31">
+			<Attribute name="РезультатВыполненияУтверждения" id="1000024">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7899,7 +7897,7 @@
 				</Type>
 				<SavedData>true</SavedData>
 			</Attribute>
-			<Attribute name="Утверждающий" id="32">
+			<Attribute name="Утверждающий" id="1000025">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7914,7 +7912,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="УтверждающийID" id="33">
+			<Attribute name="УтверждающийID" id="1000026">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7929,7 +7927,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="УтверждающийТип" id="34">
+			<Attribute name="УтверждающийТип" id="1000027">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7944,7 +7942,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ДатаУтверждения" id="35">
+			<Attribute name="ДатаУтверждения" id="1000028">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7958,7 +7956,7 @@
 					</v8:DateQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="Исполнители" id="36">
+			<Attribute name="Исполнители" id="1000029">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8359,7 +8357,7 @@
 					</Column>
 				</Columns>
 			</Attribute>
-			<Attribute name="ПроцессID" id="37">
+			<Attribute name="ПроцессID" id="1000030">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8374,7 +8372,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ПроцессТип" id="38">
+			<Attribute name="ПроцессТип" id="1000031">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8389,7 +8387,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="КаталогДляСохраненияДанных" id="39">
+			<Attribute name="КаталогДляСохраненияДанных" id="1000032">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8404,7 +8402,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="КоличествоПриложений" id="40">
+			<Attribute name="КоличествоПриложений" id="1000033">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8420,7 +8418,7 @@
 					</v8:NumberQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ОсновнойОбъектАдресацииID" id="41">
+			<Attribute name="ОсновнойОбъектАдресацииID" id="1000034">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8435,7 +8433,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ДополнительныйОбъектАдресацииID" id="42">
+			<Attribute name="ДополнительныйОбъектАдресацииID" id="1000035">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8450,7 +8448,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ОсновнойОбъектАдресации" id="43">
+			<Attribute name="ОсновнойОбъектАдресации" id="1000036">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8465,7 +8463,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ОсновнойОбъектАдресацииТип" id="44">
+			<Attribute name="ОсновнойОбъектАдресацииТип" id="1000037">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8480,7 +8478,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ДополнительныйОбъектАдресацииТип" id="45">
+			<Attribute name="ДополнительныйОбъектАдресацииТип" id="1000038">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8495,7 +8493,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ДополнительныйОбъектАдресации" id="46">
+			<Attribute name="ДополнительныйОбъектАдресации" id="1000039">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8510,7 +8508,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ТочкаМаршрута" id="47">
+			<Attribute name="ТочкаМаршрута" id="1000040">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8525,7 +8523,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="Процесс" id="48">
+			<Attribute name="Процесс" id="1000041">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8540,7 +8538,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="Описание" id="49">
+			<Attribute name="Описание" id="1000042">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8555,7 +8553,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ЗадачаПросрочена" id="50">
+			<Attribute name="ЗадачаПросрочена" id="1000043">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8566,7 +8564,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ДоступноВыполнение" id="5">
+			<Attribute name="ДоступноВыполнение" id="1000044">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8577,7 +8575,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="РезультатыОзнакомлений" id="51">
+			<Attribute name="РезультатыОзнакомлений" id="1000045">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8663,7 +8661,7 @@
 					</Column>
 				</Columns>
 			</Attribute>
-			<Attribute name="Предмет" id="53">
+			<Attribute name="Предмет" id="1000046">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8678,7 +8676,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ПредметID" id="54">
+			<Attribute name="ПредметID" id="1000047">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8693,7 +8691,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ПредметТип" id="55">
+			<Attribute name="ПредметТип" id="1000048">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8708,7 +8706,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="Резолюция" id="56">
+			<Attribute name="Резолюция" id="1000049">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8723,7 +8721,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="РезолюцияРассмотрел" id="57">
+			<Attribute name="РезолюцияРассмотрел" id="1000050">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8738,7 +8736,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="РезолюцияДатаРассмотрения" id="58">
+			<Attribute name="РезолюцияДатаРассмотрения" id="1000051">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8752,7 +8750,7 @@
 					</v8:DateQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ПринятаКИсполнению" id="59">
+			<Attribute name="ПринятаКИсполнению" id="1000052">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8763,7 +8761,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="Объект" id="60">
+			<Attribute name="Объект" id="1000053">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8775,7 +8773,7 @@
 				</Type>
 				<MainAttribute>true</MainAttribute>
 			</Attribute>
-			<Attribute name="Этапы" id="61">
+			<Attribute name="Этапы" id="1000054">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9006,7 +9004,7 @@
 					</Column>
 				</Columns>
 			</Attribute>
-			<Attribute name="Представление" id="62">
+			<Attribute name="Представление" id="1000055">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9021,7 +9019,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ПроцессПредставление" id="63">
+			<Attribute name="ПроцессПредставление" id="1000056">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9036,7 +9034,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="РезолюцияРассмотрелID" id="64">
+			<Attribute name="РезолюцияРассмотрелID" id="1000057">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9051,7 +9049,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="РезолюцияРассмотрелТип" id="65">
+			<Attribute name="РезолюцияРассмотрелТип" id="1000058">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9066,7 +9064,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="Состояние" id="66">
+			<Attribute name="Состояние" id="1000059">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9081,7 +9079,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="СостояниеID" id="67">
+			<Attribute name="СостояниеID" id="1000060">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9096,7 +9094,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="СостояниеТип" id="68">
+			<Attribute name="СостояниеТип" id="1000061">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9111,7 +9109,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ВозможностьРедактирования" id="69">
+			<Attribute name="ВозможностьРедактирования" id="1000062">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9122,7 +9120,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ПредметРассмотрения" id="70">
+			<Attribute name="ПредметРассмотрения" id="1000063">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9137,7 +9135,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ПредметРассмотренияID" id="71">
+			<Attribute name="ПредметРассмотренияID" id="1000064">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9152,7 +9150,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ПредметРассмотренияТип" id="72">
+			<Attribute name="ПредметРассмотренияТип" id="1000065">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9167,7 +9165,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="БизнесПроцессПредметаРассмотрения" id="73">
+			<Attribute name="БизнесПроцессПредметаРассмотрения" id="1000066">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9182,7 +9180,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="БизнесПроцессПредметаРассмотренияID" id="74">
+			<Attribute name="БизнесПроцессПредметаРассмотренияID" id="1000067">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9197,7 +9195,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="БизнесПроцессПредметаРассмотренияТип" id="75">
+			<Attribute name="БизнесПроцессПредметаРассмотренияТип" id="1000068">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9212,7 +9210,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="БизнесПроцессПредметаРассмотренияПредставление" id="76">
+			<Attribute name="БизнесПроцессПредметаРассмотренияПредставление" id="1000069">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9227,7 +9225,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ПредметРассмотренияПредставление" id="77">
+			<Attribute name="ПредметРассмотренияПредставление" id="1000070">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9242,7 +9240,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ВидВопроса" id="78">
+			<Attribute name="ВидВопроса" id="1000071">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9257,7 +9255,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ВидВопросаID" id="79">
+			<Attribute name="ВидВопросаID" id="1000072">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9272,7 +9270,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ВидВопросаТип" id="80">
+			<Attribute name="ВидВопросаТип" id="1000073">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9287,7 +9285,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="МестоПроведения" id="81">
+			<Attribute name="МестоПроведения" id="1000074">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9302,7 +9300,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ДатаНачала" id="82">
+			<Attribute name="ДатаНачала" id="1000075">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9316,7 +9314,7 @@
 					</v8:DateQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ДатаОкончания" id="83">
+			<Attribute name="ДатаОкончания" id="1000076">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9330,7 +9328,7 @@
 					</v8:DateQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="Результат" id="84">
+			<Attribute name="Результат" id="1000077">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9345,7 +9343,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="РезультатID" id="85">
+			<Attribute name="РезультатID" id="1000078">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9360,7 +9358,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="РезультатТип" id="86">
+			<Attribute name="РезультатТип" id="1000079">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9375,7 +9373,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ДатаКонцаХронометража" id="20">
+			<Attribute name="ДатаКонцаХронометража" id="1000080">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9389,7 +9387,7 @@
 					</v8:DateQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ДатаНачалаХронометража" id="21">
+			<Attribute name="ДатаНачалаХронометража" id="1000081">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9403,7 +9401,7 @@
 					</v8:DateQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ВключенХронометраж" id="24">
+			<Attribute name="ВключенХронометраж" id="1000082">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9414,7 +9412,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ДоступнаМультипредметность" id="28">
+			<Attribute name="ДоступнаМультипредметность" id="1000083">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9425,7 +9423,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ДоступенЗахватФайлов" id="29">
+			<Attribute name="ДоступенЗахватФайлов" id="1000084">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9436,7 +9434,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ИмяПользователя" id="30">
+			<Attribute name="ИмяПользователя" id="1000085">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9451,7 +9449,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="Свойства" id="87">
+			<Attribute name="Свойства" id="1000086">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9577,7 +9575,7 @@
 					</Column>
 				</Columns>
 			</Attribute>
-			<Attribute name="Проект" id="89">
+			<Attribute name="Проект" id="1000087">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9592,7 +9590,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ПроектнаяЗадача" id="90">
+			<Attribute name="ПроектнаяЗадача" id="1000088">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9607,7 +9605,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ФактическийИсполнительЗадач" id="91">
+			<Attribute name="ФактическийИсполнительЗадач" id="1000089">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9622,7 +9620,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ТекущийПользователь" id="92">
+			<Attribute name="ТекущийПользователь" id="1000090">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9637,7 +9635,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ТекущийПользовательID" id="93">
+			<Attribute name="ТекущийПользовательID" id="1000091">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9652,7 +9650,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ТекущийПользовательТип" id="94">
+			<Attribute name="ТекущийПользовательТип" id="1000092">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9667,7 +9665,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ДобавлятьРаботуВЕжедневныйОтчетПриВыполненииЗадачи" id="95">
+			<Attribute name="ДобавлятьРаботуВЕжедневныйОтчетПриВыполненииЗадачи" id="1000093">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -10058,7 +10056,7 @@
 			</ConditionalAppearance>
 		</Attributes>
 		<Commands>
-			<Command name="ОткрытьКарточку" id="2">
+			<Command name="ОткрытьКарточку" id="1000001">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -10077,7 +10075,7 @@
 				</Picture>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ОткрытьФайлДляПросмотра" id="3">
+			<Command name="ОткрытьФайлДляПросмотра" id="1000002">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -10096,7 +10094,7 @@
 				</Picture>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="Редактировать" id="4">
+			<Command name="Редактировать" id="1000003">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -10115,7 +10113,7 @@
 				</Picture>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗакончитьРедактирование" id="5">
+			<Command name="ЗакончитьРедактирование" id="1000004">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -10134,7 +10132,7 @@
 				</Picture>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗаписатьИЗакрыть" id="6">
+			<Command name="ЗаписатьИЗакрыть" id="1000005">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -10150,7 +10148,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="Записать" id="7">
+			<Command name="Записать" id="1000006">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -10170,7 +10168,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ОткрытьЗадачу" id="8">
+			<Command name="ОткрытьЗадачу" id="1000007">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -10185,7 +10183,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПринятьКИсполнению" id="9">
+			<Command name="ПринятьКИсполнению" id="1000008">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -10201,7 +10199,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="Перенаправить" id="10">
+			<Command name="Перенаправить" id="1000009">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -10222,7 +10220,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СоздатьПроцесс" id="11">
+			<Command name="СоздатьПроцесс" id="1000010">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -10237,7 +10235,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ОткрытьБизнесПроцесс" id="12">
+			<Command name="ОткрытьБизнесПроцесс" id="1000011">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -10256,7 +10254,7 @@
 				</Picture>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗадатьВопросАвтору" id="13">
+			<Command name="ЗадатьВопросАвтору" id="1000012">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -10276,7 +10274,7 @@
 				<Representation>TextPicture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ВыполнитьЗадачуПервая" id="14">
+			<Command name="ВыполнитьЗадачуПервая" id="1000013">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -10286,7 +10284,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ВыполнитьЗадачуВторая" id="15">
+			<Command name="ВыполнитьЗадачуВторая" id="1000014">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -10296,7 +10294,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ВыполнитьЗадачуТретья" id="16">
+			<Command name="ВыполнитьЗадачуТретья" id="1000015">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -10306,7 +10304,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СоздатьПисьмо" id="17">
+			<Command name="СоздатьПисьмо" id="1000016">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -10324,7 +10322,7 @@
 				</FunctionalOptions>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="УказатьТрудозатраты" id="18">
+			<Command name="УказатьТрудозатраты" id="1000017">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -10346,7 +10344,7 @@
 				</FunctionalOptions>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПереключитьХронометраж" id="19">
+			<Command name="ПереключитьХронометраж" id="1000018">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -10368,7 +10366,7 @@
 				</FunctionalOptions>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ДобавитьПредмет" id="20">
+			<Command name="ДобавитьПредмет" id="1000019">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -10389,7 +10387,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="УдалитьПредмет" id="21">
+			<Command name="УдалитьПредмет" id="1000020">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>

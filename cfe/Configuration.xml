@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>f8374248-4cc3-485a-ae22-c093455720da</xr:ObjectId>
+				<xr:ObjectId>bc6b91ba-b704-474c-921c-ee10e6b7a63c</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -122,9 +122,14 @@
 			<CommonPicture>КоллекцияПиктограммФайлов</CommonPicture>
 			<CommonPicture>ДлительнаяОперация16</CommonPicture>
 			<CommonPicture>ВыгрузитьФайлСертификата</CommonPicture>
+			<CommonPicture>ВидыНавигацииПоВзаимодействиямОтДопРеквизитовСведений</CommonPicture>
 			<CommonPicture>РедактироватьФайл</CommonPicture>
+			<CommonPicture>КрасныйЖелтыйСерыйТреугольник</CommonPicture>
 			<CommonPicture>ЗакончитьРедактированиеФайла</CommonPicture>
 			<CommonPicture>ВопросАвтору</CommonPicture>
+			<CommonPicture>ВидыНавигацииПоВзаимодействиямОтКатегорий</CommonPicture>
+			<CommonPicture>ЭмблемаСервиса1СЭДО</CommonPicture>
+			<CommonPicture>ЗагрузитьXMLФайлВИнформационнуюБазу</CommonPicture>
 			<CommonPicture>ДобавитьВЕжедневныйОтчет</CommonPicture>
 			<CommonPicture>КоллекцияПиктограммСостоянияЗадач</CommonPicture>
 			<CommonPicture>ЗнакСтоп</CommonPicture>
@@ -183,10 +188,12 @@
 			<CommonPicture>СохранитьВариантОтчета</CommonPicture>
 			<CommonPicture>ВыбратьВариантОтчета</CommonPicture>
 			<CommonPicture>НовостиВнимание</CommonPicture>
+			<CommonPicture>ПиктограммыЭлементов</CommonPicture>
 			<CommonModule>АктВыполненныхРаботЛокализация</CommonModule>
 			<CommonModule>ВИЛС_Переопределяемый</CommonModule>
 			<CommonModule>ВозвратСырьяДавальцуЛокализация</CommonModule>
 			<CommonModule>ВозвратТоваровПоставщикуЛокализация</CommonModule>
+			<CommonModule>КадровыйУчетРасширенный</CommonModule>
 			<CommonModule>ДенежныеСредстваСервер</CommonModule>
 			<CommonModule>ИнтеграцияС1СДокументооборотВызовСервера</CommonModule>
 			<CommonModule>ИнтеграцияС1СДокументооборотПереопределяемый</CommonModule>
@@ -211,6 +218,8 @@
 			<CommonModule>ПриобретениеУслугПрочихАктивовЛокализация</CommonModule>
 			<CommonModule>ОтражениеЗарплатыВБухучетеРасширенный</CommonModule>
 			<CommonModule>ЗатратыСервер</CommonModule>
+			<CommonModule>ЗаполнениеФормСтатистики</CommonModule>
+			<CommonModule>РасчетСебестоимости</CommonModule>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>ИспользоватьПодключаемоеОборудование</FunctionalOption>
 			<FunctionalOption>ИспользоватьПоступлениеПоНесколькимЗаказам</FunctionalOption>
@@ -245,6 +254,12 @@
 			<FunctionalOption>ИспользоватьРеглУчет</FunctionalOption>
 			<FunctionalOption>КомплекснаяАвтоматизация</FunctionalOption>
 			<FunctionalOption>УправлениеПредприятием</FunctionalOption>
+			<FunctionalOption>ИспользоватьГруппыДоступаПартнеров</FunctionalOption>
+			<FunctionalOption>ИспользоватьУправлениеДоступом</FunctionalOption>
+			<FunctionalOption>ИспользоватьСегментыПартнеров</FunctionalOption>
+			<FunctionalOption>ИспользоватьПартнеровИКонтрагентов</FunctionalOption>
+			<FunctionalOption>ИспользоватьБизнесРегионы</FunctionalOption>
+			<FunctionalOption>ИспользоватьПолнотекстовыйПоиск</FunctionalOption>
 			<FunctionalOption>ИспользоватьДоговорыКредитовИДепозитов</FunctionalOption>
 			<FunctionalOption>ИспользоватьОбособленныеПодразделенияВыделенныеНаБаланс</FunctionalOption>
 			<FunctionalOption>ИспользоватьИмпортныеЗакупки</FunctionalOption>
@@ -276,8 +291,6 @@
 			<DefinedType>GTIN</DefinedType>
 			<DefinedType>СтрокаВЕТИС</DefinedType>
 			<DefinedType>Артикул</DefinedType>
-			<DefinedType>ДенежноеПолеНеотрицательное</DefinedType>
-			<DefinedType>ДенежноеПолеЛюбойЗнак</DefinedType>
 			<DefinedType>ОбъектРасчетов</DefinedType>
 			<DefinedType>ВладелецПрисоединенныхФайлов</DefinedType>
 			<DefinedType>ЗначениеПоказателяРасчетаЗарплаты</DefinedType>
@@ -285,6 +298,9 @@
 			<DefinedType>ОбъектОплаты</DefinedType>
 			<DefinedType>ВладелецОбменСБанками</DefinedType>
 			<DefinedType>ДокументПартииПроизводства</DefinedType>
+			<DefinedType>ДенежнаяСуммаЛюбогоЗнака</DefinedType>
+			<DefinedType>ДенежнаяСуммаНеотрицательная</DefinedType>
+			<DefinedType>НомерСерии</DefinedType>
 			<CommonCommand>ИнтеграцияС1СДокументооборотСоздатьПисьмо</CommonCommand>
 			<CommonCommand>ДополнительныеСведенияКоманднаяПанель</CommonCommand>
 			<CommonCommand>ИнтеграцияС1СДокументооборотСоздатьБизнесПроцесс</CommonCommand>
@@ -322,6 +338,12 @@
 			<Constant>ИспользоватьРеглУчет</Constant>
 			<Constant>КомплекснаяАвтоматизация</Constant>
 			<Constant>УправлениеПредприятием</Constant>
+			<Constant>ИспользоватьГруппыДоступаПартнеров</Constant>
+			<Constant>ИспользоватьУправлениеДоступом</Constant>
+			<Constant>ИспользоватьСегментыПартнеров</Constant>
+			<Constant>ИспользоватьПартнеровИКонтрагентов</Constant>
+			<Constant>ИспользоватьБизнесРегионы</Constant>
+			<Constant>ИспользоватьПолнотекстовыйПоиск</Constant>
 			<Constant>ИспользоватьДоговорыКредитовИДепозитов</Constant>
 			<Constant>ИспользоватьОбособленныеПодразделенияВыделенныеНаБаланс</Constant>
 			<Constant>ИспользоватьЛизинг</Constant>
@@ -398,8 +420,12 @@
 			<Catalog>ТипыПлатежейФЗ275</Catalog>
 			<Catalog>ВидыПодтверждающихДокументов</Catalog>
 			<Catalog>Сотрудники</Catalog>
+			<Catalog>СегментыПартнеров</Catalog>
 			<Catalog>ПоказателиРасчетаЗарплаты</Catalog>
 			<Catalog>РодственникиФизическихЛиц</Catalog>
+			<Catalog>ЗначенияСвойствОбъектов</Catalog>
+			<Catalog>ЗначенияСвойствОбъектовИерархия</Catalog>
+			<Catalog>Файлы</Catalog>
 			<Catalog>ПодразделенияОрганизаций</Catalog>
 			<Catalog>ВнешниеПользователи</Catalog>
 			<Catalog>РегистрацииВНалоговомОргане</Catalog>
@@ -461,6 +487,7 @@
 			<Document>ЭтапПроизводства2_2</Document>
 			<Document>ПроизводствоБезЗаказа</Document>
 			<Document>ОтражениеЗарплатыВФинансовомУчете</Document>
+			<Document>ОтгрузкаТоваровСХранения</Document>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
 			<Enum>ПорядокОплатыПоСоглашениям</Enum>
 			<Enum>ХозяйственныеОперации</Enum>
@@ -480,6 +507,8 @@
 			<Enum>ТипыНалогов</Enum>
 			<Enum>ТипыПлатежейПоЛизингу</Enum>
 			<Enum>ТипыСуммГрафикаКредитовИДепозитов</Enum>
+			<Enum>ТипыКонтактнойИнформации</Enum>
+			<Enum>СостоянияСуществованияКонтрагента</Enum>
 			<Enum>ВидыРабочегоВремениСотрудников</Enum>
 			<Enum>ОснованияФинансированияПособияФедеральнымБюджетом</Enum>
 			<Enum>ВариантыИспользованияПериодаНачисления</Enum>
@@ -541,6 +570,7 @@
 			<ChartOfCharacteristicTypes>СтатьиРасходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>СтатьиАктивовПассивов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>КаналыРекламныхВоздействий</ChartOfCharacteristicTypes>
+			<ChartOfCharacteristicTypes>СтатьиДоходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>ДополнительныеРеквизитыИСведения</ChartOfCharacteristicTypes>
 			<ChartOfAccounts>Хозрасчетный</ChartOfAccounts>
 			<ChartOfCalculationTypes>Начисления</ChartOfCalculationTypes>

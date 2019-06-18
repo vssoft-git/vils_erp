@@ -1,24 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<DefinedType uuid="b1d8533b-77cd-46f0-89b6-c55c6e2fb95d">
+	<Constant uuid="ab04cdcb-dc48-4252-9bb5-efc0097f0d24">
 		<InternalInfo>
-			<xr:GeneratedType name="DefinedType.ДенежноеПолеЛюбойЗнак" category="DefinedType">
-				<xr:TypeId>5e822db5-eb51-48d8-ad2f-a887b0ebe19d</xr:TypeId>
-				<xr:ValueId>5b9af7aa-71e9-4ed7-bde0-5e436a967295</xr:ValueId>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьБизнесРегионы" category="Manager">
+				<xr:TypeId>ddbb97e2-659c-4212-bf75-d7e172b0dff0</xr:TypeId>
+				<xr:ValueId>bd30bbae-9faf-4329-ab13-3da54efe625b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьБизнесРегионы" category="ValueManager">
+				<xr:TypeId>33afaccc-f01d-43d9-8bb9-6b43a63d3f64</xr:TypeId>
+				<xr:ValueId>3c8da046-3f67-4f91-9539-21bbde61632c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьБизнесРегионы" category="ValueKey">
+				<xr:TypeId>fa2d36b8-c177-5700-ac4e-b36f08b1d650</xr:TypeId>
+				<xr:ValueId>c516ab5d-7fcf-5e7b-80c7-26fd204a5549</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ДенежноеПолеЛюбойЗнак</Name>
+			<Name>ИспользоватьБизнесРегионы</Name>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Type>
-				<v8:Type>xs:decimal</v8:Type>
-				<v8:NumberQualifiers>
-					<v8:Digits>15</v8:Digits>
-					<v8:FractionDigits>2</v8:FractionDigits>
-					<v8:AllowedSign>Any</v8:AllowedSign>
-				</v8:NumberQualifiers>
+				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Properties>
-	</DefinedType>
+	</Constant>
 </MetaDataObject>

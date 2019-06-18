@@ -186,7 +186,7 @@
 		</Table>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="Список" id="1">
+		<Attribute name="Список" id="1000001">
 			<Type>
 				<v8:Type>cfg:DynamicList</v8:Type>
 			</Type>
@@ -213,7 +213,7 @@
 				</ListSettings>
 			</Settings>
 		</Attribute>
-		<Attribute name="Номер" id="2">
+		<Attribute name="Номер" id="1000002">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -228,7 +228,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ГоденДо" id="3">
+		<Attribute name="ГоденДо" id="1000003">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -242,7 +242,7 @@
 				</v8:DateQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ВидНоменклатуры" id="4">
+		<Attribute name="ВидНоменклатуры" id="1000004">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -253,7 +253,7 @@
 				<v8:Type>cfg:CatalogRef.ВидыНоменклатуры</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ИспользоватьПодключаемоеОборудование" id="5">
+		<Attribute name="ИспользоватьПодключаемоеОборудование" id="1000005">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -264,7 +264,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ПоддерживаемыеТипыПодключаемогоОборудования" id="6">
+		<Attribute name="ПоддерживаемыеТипыПодключаемогоОборудования" id="1000006">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -279,7 +279,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ПараметрыШаблона" id="7">
+		<Attribute name="ПараметрыШаблона" id="1000007">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -485,7 +485,7 @@
 			</Table>
 		</ChildItems>
 		<Attributes>
-			<Attribute name="Список" id="1">
+			<Attribute name="Список" id="1000001">
 				<Type>
 					<v8:Type>cfg:DynamicList</v8:Type>
 				</Type>
@@ -512,7 +512,7 @@
 					</ListSettings>
 				</Settings>
 			</Attribute>
-			<Attribute name="Номер" id="2">
+			<Attribute name="Номер" id="1000002">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -527,7 +527,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ГоденДо" id="3">
+			<Attribute name="ГоденДо" id="1000003">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -541,7 +541,7 @@
 					</v8:DateQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ВидНоменклатуры" id="4">
+			<Attribute name="ВидНоменклатуры" id="1000004">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -552,7 +552,7 @@
 					<v8:Type>cfg:CatalogRef.ВидыНоменклатуры</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ИспользоватьПодключаемоеОборудование" id="5">
+			<Attribute name="ИспользоватьПодключаемоеОборудование" id="1000005">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -563,7 +563,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ПоддерживаемыеТипыПодключаемогоОборудования" id="6">
+			<Attribute name="ПоддерживаемыеТипыПодключаемогоОборудования" id="1000006">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -578,7 +578,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ПараметрыШаблона" id="7">
+			<Attribute name="ПараметрыШаблона" id="1000007">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>

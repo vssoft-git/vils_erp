@@ -592,7 +592,7 @@
 											<ChoiceParameterLinks>
 												<xr:Link>
 													<xr:Name>ХозяйственнаяОперацияДоговора</xr:Name>
-													<xr:DataPath xsi:type="xs:string">ХозяйственнаяОперацияДоговора</xr:DataPath>
+													<xr:DataPath xsi:type="xs:string">9</xr:DataPath>
 													<xr:ValueChange>Clear</xr:ValueChange>
 												</xr:Link>
 											</ChoiceParameterLinks>
@@ -608,7 +608,7 @@
 											<ChoiceParameterLinks>
 												<xr:Link>
 													<xr:Name>Отбор.ХозяйственнаяОперация</xr:Name>
-													<xr:DataPath xsi:type="xs:string">ХозяйственнаяОперацияДоговора</xr:DataPath>
+													<xr:DataPath xsi:type="xs:string">9</xr:DataPath>
 													<xr:ValueChange>Clear</xr:ValueChange>
 												</xr:Link>
 											</ChoiceParameterLinks>
@@ -2595,7 +2595,7 @@
 		</UsualGroup>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="Объект" id="1">
+		<Attribute name="Объект" id="1000001">
 			<Type>
 				<v8:Type>cfg:DocumentObject.ВозвратТоваровПоставщику</v8:Type>
 			</Type>
@@ -2648,7 +2648,7 @@
 							</v8:item>
 						</Title>
 						<Type>
-							<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+							<v8:TypeId>af38adc4-1f40-4cc0-8fc7-e1b91078a3d4</v8:TypeId>
 						</Type>
 					</Column>
 					<Column name="БезВозвратнойТары" id="5">
@@ -2665,7 +2665,7 @@
 				</AdditionalColumns>
 			</Columns>
 		</Attribute>
-		<Attribute name="СуммаВсего" id="2">
+		<Attribute name="СуммаВсего" id="1000002">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2673,10 +2673,10 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+				<v8:TypeId>af38adc4-1f40-4cc0-8fc7-e1b91078a3d4</v8:TypeId>
 			</Type>
 		</Attribute>
-		<Attribute name="ВалютаДокумента" id="3">
+		<Attribute name="ВалютаДокумента" id="1000003">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2687,7 +2687,7 @@
 				<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ТекстСчетаФактурыВыданные" id="4">
+		<Attribute name="ТекстСчетаФактурыВыданные" id="1000004">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2701,7 +2701,7 @@
 				<Item>FunctionalOption.ИспользоватьУчетНДС</Item>
 			</FunctionalOptions>
 		</Attribute>
-		<Attribute name="НеВыполнятьПроверкуСопоставленнойНоменклатурыПоставщика" id="5">
+		<Attribute name="НеВыполнятьПроверкуСопоставленнойНоменклатурыПоставщика" id="1000005">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2716,7 +2716,7 @@
 				<Field>НеВыполнятьПроверкуСопоставленнойНоменклатурыПоставщика</Field>
 			</Save>
 		</Attribute>
-		<Attribute name="ИспользоватьПодключаемоеОборудование" id="6">
+		<Attribute name="ИспользоватьПодключаемоеОборудование" id="1000006">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2727,7 +2727,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ПараметрыУказанияСерий" id="7">
+		<Attribute name="ПараметрыУказанияСерий" id="1000007">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2739,7 +2739,7 @@
 				<Item>FunctionalOption.ИспользоватьСерииНоменклатуры</Item>
 			</FunctionalOptions>
 		</Attribute>
-		<Attribute name="ХозяйственнаяОперацияДоговора" id="9">
+		<Attribute name="ХозяйственнаяОперацияДоговора" id="1000008">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2750,7 +2750,7 @@
 				<v8:Type>cfg:EnumRef.ХозяйственныеОперации</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ОснованиеИзменено" id="10">
+		<Attribute name="ОснованиеИзменено" id="1000009">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2761,7 +2761,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="Основание" id="11">
+		<Attribute name="Основание" id="1000010">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2776,7 +2776,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="СписокПоступлений" id="8">
+		<Attribute name="СписокПоступлений" id="1000011">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2787,7 +2787,7 @@
 				<v8:Type>v8:ValueListType</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="НадписьЗаголовокПоступления" id="12">
+		<Attribute name="НадписьЗаголовокПоступления" id="1000012">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2802,7 +2802,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ПоддерживаемыеТипыПодключаемогоОборудования" id="13">
+		<Attribute name="ПоддерживаемыеТипыПодключаемогоОборудования" id="1000013">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2817,7 +2817,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="УменьшенДолгСтрокой" id="15">
+		<Attribute name="УменьшенДолгСтрокой" id="1000014">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2832,7 +2832,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="СуммаКомпенсации" id="16">
+		<Attribute name="СуммаКомпенсации" id="1000015">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2840,10 +2840,10 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+				<v8:TypeId>af38adc4-1f40-4cc0-8fc7-e1b91078a3d4</v8:TypeId>
 			</Type>
 		</Attribute>
-		<Attribute name="ТаблицаОснованийДляПечати" id="17">
+		<Attribute name="ТаблицаОснованийДляПечати" id="1000016">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2900,7 +2900,7 @@
 				</Column>
 			</Columns>
 		</Attribute>
-		<Attribute name="ОрдернаяСхемаПриОтгрузке" id="18">
+		<Attribute name="ОрдернаяСхемаПриОтгрузке" id="1000017">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2911,7 +2911,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="Соглашение" id="19">
+		<Attribute name="Соглашение" id="1000018">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2922,7 +2922,7 @@
 				<v8:Type>cfg:CatalogRef.СоглашенияСПоставщиками</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="Склад" id="20">
+		<Attribute name="Склад" id="1000019">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2933,7 +2933,7 @@
 				<v8:Type>cfg:CatalogRef.Склады</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ЗапретНаЗакрытиеФормы" id="22">
+		<Attribute name="ЗапретНаЗакрытиеФормы" id="1000020">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2944,7 +2944,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ИзмененныеРеквизитыТОРГ12Строка" id="23">
+		<Attribute name="ИзмененныеРеквизитыТОРГ12Строка" id="1000021">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2959,7 +2959,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ИзмененныеРеквизитыТОРГ12СтрокаСинонимов" id="24">
+		<Attribute name="ИзмененныеРеквизитыТОРГ12СтрокаСинонимов" id="1000022">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2974,7 +2974,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="РеквизитыТОРГ12ПередЗаписью" id="25">
+		<Attribute name="РеквизитыТОРГ12ПередЗаписью" id="1000023">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2983,7 +2983,7 @@
 			</Title>
 			<Type/>
 		</Attribute>
-		<Attribute name="РеквизитыТОРГ12ПослеЗаписи" id="26">
+		<Attribute name="РеквизитыТОРГ12ПослеЗаписи" id="1000024">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -2992,7 +2992,7 @@
 			</Title>
 			<Type/>
 		</Attribute>
-		<Attribute name="ТранспортнаяНакладнаяТекст" id="27">
+		<Attribute name="ТранспортнаяНакладнаяТекст" id="1000025">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3007,7 +3007,7 @@
 				</v8:StringQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ТранспортнаяНакладная" id="28">
+		<Attribute name="ТранспортнаяНакладная" id="1000026">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3018,7 +3018,7 @@
 				<v8:Type>cfg:DocumentRef.ТранспортнаяНакладная</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ИспользоватьПартнеровКакКонтрагентов" id="31">
+		<Attribute name="ИспользоватьПартнеровКакКонтрагентов" id="1000027">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3029,7 +3029,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="РеквизитыПроверкиКонтрагентов" id="32">
+		<Attribute name="РеквизитыПроверкиКонтрагентов" id="1000028">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3038,7 +3038,7 @@
 			</Title>
 			<Type/>
 		</Attribute>
-		<Attribute name="НеВыполнятьПроверкуПередЗаписью" id="33">
+		<Attribute name="НеВыполнятьПроверкуПередЗаписью" id="1000029">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3049,7 +3049,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ПринудительноЗакрытьФорму" id="34">
+		<Attribute name="ПринудительноЗакрытьФорму" id="1000030">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3060,7 +3060,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="КоличествоТранспортныхНакладных" id="35">
+		<Attribute name="КоличествоТранспортныхНакладных" id="1000031">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3076,7 +3076,7 @@
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
-		<Attribute name="ТекущийСпособДоставки" id="36">
+		<Attribute name="ТекущийСпособДоставки" id="1000032">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3087,7 +3087,7 @@
 				<v8:Type>cfg:EnumRef.СпособыДоставки</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="НаправлениеДеятельностиОбязательно" id="37">
+		<Attribute name="НаправлениеДеятельностиОбязательно" id="1000033">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3098,7 +3098,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ИспользоватьНаправленияДеятельности" id="38">
+		<Attribute name="ИспользоватьНаправленияДеятельности" id="1000034">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3109,7 +3109,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="МетаданныеФормы" id="39">
+		<Attribute name="МетаданныеФормы" id="1000035">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3118,7 +3118,7 @@
 			</Title>
 			<Type/>
 		</Attribute>
-		<Attribute name="НаправленияДеятельностиКэшированныеЗначения" id="40">
+		<Attribute name="НаправленияДеятельностиКэшированныеЗначения" id="1000036">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3127,7 +3127,7 @@
 			</Title>
 			<Type/>
 		</Attribute>
-		<Attribute name="ИспользоватьЗаданияНаПеревозкуДляУчетаДоставкиПеревозчиками" id="41">
+		<Attribute name="ИспользоватьЗаданияНаПеревозкуДляУчетаДоставкиПеревозчиками" id="1000037">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3138,7 +3138,7 @@
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ТекстУведомленияОбОтгрузкеГИСМ" id="42">
+		<Attribute name="ТекстУведомленияОбОтгрузкеГИСМ" id="1000038">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3149,7 +3149,7 @@
 				<v8:Type>v8ui:FormattedString</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ТекстДокументаЕГАИС" id="43">
+		<Attribute name="ТекстДокументаЕГАИС" id="1000039">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3160,7 +3160,7 @@
 				<v8:Type>v8ui:FormattedString</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="ПараметрыПодключаемыхКоманд" id="44">
+		<Attribute name="ПараметрыПодключаемыхКоманд" id="1000040">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3169,7 +3169,7 @@
 			</Title>
 			<Type/>
 		</Attribute>
-		<Attribute name="ТекстДокументаВЕТИС" id="45">
+		<Attribute name="ТекстДокументаВЕТИС" id="1000041">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3180,7 +3180,7 @@
 				<v8:Type>v8ui:FormattedString</v8:Type>
 			</Type>
 		</Attribute>
-		<Attribute name="УчетНДСКэшированныеЗначенияПараметров" id="46">
+		<Attribute name="УчетНДСКэшированныеЗначенияПараметров" id="1000042">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3189,7 +3189,7 @@
 			</Title>
 			<Type/>
 		</Attribute>
-		<Attribute name="ПоСоглашениюИспользуютсяДоговорыКонтрагентов" id="47">
+		<Attribute name="ПоСоглашениюИспользуютсяДоговорыКонтрагентов" id="1000043">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3202,7 +3202,7 @@
 		</Attribute>
 	</Attributes>
 	<Commands>
-		<Command name="ОткрытьВидыЗапасов" id="1">
+		<Command name="ОткрытьВидыЗапасов" id="1000001">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3217,7 +3217,7 @@
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ПодобратьТовары" id="2">
+		<Command name="ПодобратьТовары" id="1000002">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3238,7 +3238,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ПодобратьТоварыПоПоступлениям" id="3">
+		<Command name="ПодобратьТоварыПоПоступлениям" id="1000003">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3255,7 +3255,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ПоказатьНоменклатуруПоставщика" id="4">
+		<Command name="ПоказатьНоменклатуруПоставщика" id="1000004">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3273,7 +3273,7 @@
 			</FunctionalOptions>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="НеВыполнятьПроверкуСопоставленнойНоменклатурыПоставщика" id="5">
+		<Command name="НеВыполнятьПроверкуСопоставленнойНоменклатурыПоставщика" id="1000005">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3288,7 +3288,7 @@
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ПерезаполнитьПоОтгрузке" id="6">
+		<Command name="ПерезаполнитьПоОтгрузке" id="1000006">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3307,7 +3307,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ПолучитьВес" id="7">
+		<Command name="ПолучитьВес" id="1000007">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3330,7 +3330,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ПроверитьКоличествоВДокументе" id="8">
+		<Command name="ПроверитьКоличествоВДокументе" id="1000008">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3350,7 +3350,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ПоискПоШтрихкоду" id="9">
+		<Command name="ПоискПоШтрихкоду" id="1000009">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3371,7 +3371,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ЗагрузитьДанныеИзТСД" id="10">
+		<Command name="ЗагрузитьДанныеИзТСД" id="1000010">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3395,7 +3395,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="РазбитьСтроку" id="11">
+		<Command name="РазбитьСтроку" id="1000011">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3416,7 +3416,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="УказатьСерии" id="12">
+		<Command name="УказатьСерии" id="1000012">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3440,7 +3440,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ЗаполнитьСерииПоFEFO" id="13">
+		<Command name="ЗаполнитьСерииПоFEFO" id="1000013">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3459,7 +3459,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ЗаполнитьНоменклатуруПоНоменклатуреПоставщика" id="14">
+		<Command name="ЗаполнитьНоменклатуруПоНоменклатуреПоставщика" id="1000014">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3478,7 +3478,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ЗаполнитьПоступленияИЦены" id="16">
+		<Command name="ЗаполнитьПоступленияИЦены" id="1000015">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3494,7 +3494,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ВставитьСтроки" id="17">
+		<Command name="ВставитьСтроки" id="1000016">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3515,7 +3515,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СкопироватьСтроки" id="18">
+		<Command name="СкопироватьСтроки" id="1000017">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3535,7 +3535,7 @@
 			</Picture>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ДополнитьМногооборотнойТарой" id="19">
+		<Command name="ДополнитьМногооборотнойТарой" id="1000018">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3554,7 +3554,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ЗагрузитьИзВнешнегоФайла" id="20">
+		<Command name="ЗагрузитьИзВнешнегоФайла" id="1000019">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3574,7 +3574,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="РеквизитыПечатиТОРГ12" id="22">
+		<Command name="РеквизитыПечатиТОРГ12" id="1000020">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3590,7 +3590,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="СоздатьТранспортнуюНакладную" id="24">
+		<Command name="СоздатьТранспортнуюНакладную" id="1000021">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3605,7 +3605,7 @@
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ОткрытьСписокТранспортныхНакладных" id="26">
+		<Command name="ОткрытьСписокТранспортныхНакладных" id="1000022">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3620,7 +3620,7 @@
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ПровестиИЗакрыть" id="25">
+		<Command name="ПровестиИЗакрыть" id="1000023">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3640,7 +3640,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ДополнитьИнформациюПоДоставкеКонтактами" id="15">
+		<Command name="ДополнитьИнформациюПоДоставкеКонтактами" id="1000024">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3661,7 +3661,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ПроверитьКонтрагентов" id="21">
+		<Command name="ПроверитьКонтрагентов" id="1000025">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3676,7 +3676,7 @@
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ЗаписатьДокумент" id="27">
+		<Command name="ЗаписатьДокумент" id="1000026">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -3697,7 +3697,7 @@
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
-		<Command name="ПровестиДокумент" id="28">
+		<Command name="ПровестиДокумент" id="1000027">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -4311,7 +4311,7 @@
 												<ChoiceParameterLinks>
 													<xr:Link>
 														<xr:Name>ХозяйственнаяОперацияДоговора</xr:Name>
-														<xr:DataPath xsi:type="xs:string">ХозяйственнаяОперацияДоговора</xr:DataPath>
+														<xr:DataPath xsi:type="xs:string">9</xr:DataPath>
 														<xr:ValueChange>Clear</xr:ValueChange>
 													</xr:Link>
 												</ChoiceParameterLinks>
@@ -4327,7 +4327,7 @@
 												<ChoiceParameterLinks>
 													<xr:Link>
 														<xr:Name>Отбор.ХозяйственнаяОперация</xr:Name>
-														<xr:DataPath xsi:type="xs:string">ХозяйственнаяОперацияДоговора</xr:DataPath>
+														<xr:DataPath xsi:type="xs:string">9</xr:DataPath>
 														<xr:ValueChange>Clear</xr:ValueChange>
 													</xr:Link>
 												</ChoiceParameterLinks>
@@ -6314,7 +6314,7 @@
 			</UsualGroup>
 		</ChildItems>
 		<Attributes>
-			<Attribute name="Объект" id="1">
+			<Attribute name="Объект" id="1000001">
 				<Type>
 					<v8:Type>cfg:DocumentObject.ВозвратТоваровПоставщику</v8:Type>
 				</Type>
@@ -6367,7 +6367,7 @@
 								</v8:item>
 							</Title>
 							<Type>
-								<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+								<v8:TypeId>af38adc4-1f40-4cc0-8fc7-e1b91078a3d4</v8:TypeId>
 							</Type>
 						</Column>
 						<Column name="БезВозвратнойТары" id="5">
@@ -6384,7 +6384,7 @@
 					</AdditionalColumns>
 				</Columns>
 			</Attribute>
-			<Attribute name="СуммаВсего" id="2">
+			<Attribute name="СуммаВсего" id="1000002">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6392,10 +6392,10 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+					<v8:TypeId>af38adc4-1f40-4cc0-8fc7-e1b91078a3d4</v8:TypeId>
 				</Type>
 			</Attribute>
-			<Attribute name="ВалютаДокумента" id="3">
+			<Attribute name="ВалютаДокумента" id="1000003">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6406,7 +6406,7 @@
 					<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ТекстСчетаФактурыВыданные" id="4">
+			<Attribute name="ТекстСчетаФактурыВыданные" id="1000004">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6420,7 +6420,7 @@
 					<Item>FunctionalOption.ИспользоватьУчетНДС</Item>
 				</FunctionalOptions>
 			</Attribute>
-			<Attribute name="НеВыполнятьПроверкуСопоставленнойНоменклатурыПоставщика" id="5">
+			<Attribute name="НеВыполнятьПроверкуСопоставленнойНоменклатурыПоставщика" id="1000005">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6435,7 +6435,7 @@
 					<Field>НеВыполнятьПроверкуСопоставленнойНоменклатурыПоставщика</Field>
 				</Save>
 			</Attribute>
-			<Attribute name="ИспользоватьПодключаемоеОборудование" id="6">
+			<Attribute name="ИспользоватьПодключаемоеОборудование" id="1000006">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6446,7 +6446,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ПараметрыУказанияСерий" id="7">
+			<Attribute name="ПараметрыУказанияСерий" id="1000007">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6458,7 +6458,7 @@
 					<Item>FunctionalOption.ИспользоватьСерииНоменклатуры</Item>
 				</FunctionalOptions>
 			</Attribute>
-			<Attribute name="ХозяйственнаяОперацияДоговора" id="9">
+			<Attribute name="ХозяйственнаяОперацияДоговора" id="1000008">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6469,7 +6469,7 @@
 					<v8:Type>cfg:EnumRef.ХозяйственныеОперации</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ОснованиеИзменено" id="10">
+			<Attribute name="ОснованиеИзменено" id="1000009">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6480,7 +6480,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="Основание" id="11">
+			<Attribute name="Основание" id="1000010">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6495,7 +6495,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="СписокПоступлений" id="8">
+			<Attribute name="СписокПоступлений" id="1000011">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6506,7 +6506,7 @@
 					<v8:Type>v8:ValueListType</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="НадписьЗаголовокПоступления" id="12">
+			<Attribute name="НадписьЗаголовокПоступления" id="1000012">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6521,7 +6521,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ПоддерживаемыеТипыПодключаемогоОборудования" id="13">
+			<Attribute name="ПоддерживаемыеТипыПодключаемогоОборудования" id="1000013">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6536,7 +6536,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="УменьшенДолгСтрокой" id="15">
+			<Attribute name="УменьшенДолгСтрокой" id="1000014">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6551,7 +6551,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="СуммаКомпенсации" id="16">
+			<Attribute name="СуммаКомпенсации" id="1000015">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6559,10 +6559,10 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:TypeSet>cfg:DefinedType.ДенежноеПолеНеотрицательное</v8:TypeSet>
+					<v8:TypeId>af38adc4-1f40-4cc0-8fc7-e1b91078a3d4</v8:TypeId>
 				</Type>
 			</Attribute>
-			<Attribute name="ТаблицаОснованийДляПечати" id="17">
+			<Attribute name="ТаблицаОснованийДляПечати" id="1000016">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6619,7 +6619,7 @@
 					</Column>
 				</Columns>
 			</Attribute>
-			<Attribute name="ОрдернаяСхемаПриОтгрузке" id="18">
+			<Attribute name="ОрдернаяСхемаПриОтгрузке" id="1000017">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6630,7 +6630,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="Соглашение" id="19">
+			<Attribute name="Соглашение" id="1000018">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6641,7 +6641,7 @@
 					<v8:Type>cfg:CatalogRef.СоглашенияСПоставщиками</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="Склад" id="20">
+			<Attribute name="Склад" id="1000019">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6652,7 +6652,7 @@
 					<v8:Type>cfg:CatalogRef.Склады</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ЗапретНаЗакрытиеФормы" id="22">
+			<Attribute name="ЗапретНаЗакрытиеФормы" id="1000020">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6663,7 +6663,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ИзмененныеРеквизитыТОРГ12Строка" id="23">
+			<Attribute name="ИзмененныеРеквизитыТОРГ12Строка" id="1000021">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6678,7 +6678,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ИзмененныеРеквизитыТОРГ12СтрокаСинонимов" id="24">
+			<Attribute name="ИзмененныеРеквизитыТОРГ12СтрокаСинонимов" id="1000022">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6693,7 +6693,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="РеквизитыТОРГ12ПередЗаписью" id="25">
+			<Attribute name="РеквизитыТОРГ12ПередЗаписью" id="1000023">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6702,7 +6702,7 @@
 				</Title>
 				<Type/>
 			</Attribute>
-			<Attribute name="РеквизитыТОРГ12ПослеЗаписи" id="26">
+			<Attribute name="РеквизитыТОРГ12ПослеЗаписи" id="1000024">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6711,7 +6711,7 @@
 				</Title>
 				<Type/>
 			</Attribute>
-			<Attribute name="ТранспортнаяНакладнаяТекст" id="27">
+			<Attribute name="ТранспортнаяНакладнаяТекст" id="1000025">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6726,7 +6726,7 @@
 					</v8:StringQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ТранспортнаяНакладная" id="28">
+			<Attribute name="ТранспортнаяНакладная" id="1000026">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6737,7 +6737,7 @@
 					<v8:Type>cfg:DocumentRef.ТранспортнаяНакладная</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ИспользоватьПартнеровКакКонтрагентов" id="31">
+			<Attribute name="ИспользоватьПартнеровКакКонтрагентов" id="1000027">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6748,7 +6748,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="РеквизитыПроверкиКонтрагентов" id="32">
+			<Attribute name="РеквизитыПроверкиКонтрагентов" id="1000028">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6757,7 +6757,7 @@
 				</Title>
 				<Type/>
 			</Attribute>
-			<Attribute name="НеВыполнятьПроверкуПередЗаписью" id="33">
+			<Attribute name="НеВыполнятьПроверкуПередЗаписью" id="1000029">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6768,7 +6768,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ПринудительноЗакрытьФорму" id="34">
+			<Attribute name="ПринудительноЗакрытьФорму" id="1000030">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6779,7 +6779,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="КоличествоТранспортныхНакладных" id="35">
+			<Attribute name="КоличествоТранспортныхНакладных" id="1000031">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6795,7 +6795,7 @@
 					</v8:NumberQualifiers>
 				</Type>
 			</Attribute>
-			<Attribute name="ТекущийСпособДоставки" id="36">
+			<Attribute name="ТекущийСпособДоставки" id="1000032">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6806,7 +6806,7 @@
 					<v8:Type>cfg:EnumRef.СпособыДоставки</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="НаправлениеДеятельностиОбязательно" id="37">
+			<Attribute name="НаправлениеДеятельностиОбязательно" id="1000033">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6817,7 +6817,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ИспользоватьНаправленияДеятельности" id="38">
+			<Attribute name="ИспользоватьНаправленияДеятельности" id="1000034">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6828,7 +6828,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="МетаданныеФормы" id="39">
+			<Attribute name="МетаданныеФормы" id="1000035">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6837,7 +6837,7 @@
 				</Title>
 				<Type/>
 			</Attribute>
-			<Attribute name="НаправленияДеятельностиКэшированныеЗначения" id="40">
+			<Attribute name="НаправленияДеятельностиКэшированныеЗначения" id="1000036">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6846,7 +6846,7 @@
 				</Title>
 				<Type/>
 			</Attribute>
-			<Attribute name="ИспользоватьЗаданияНаПеревозкуДляУчетаДоставкиПеревозчиками" id="41">
+			<Attribute name="ИспользоватьЗаданияНаПеревозкуДляУчетаДоставкиПеревозчиками" id="1000037">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6857,7 +6857,7 @@
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ТекстУведомленияОбОтгрузкеГИСМ" id="42">
+			<Attribute name="ТекстУведомленияОбОтгрузкеГИСМ" id="1000038">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6868,7 +6868,7 @@
 					<v8:Type>v8ui:FormattedString</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ТекстДокументаЕГАИС" id="43">
+			<Attribute name="ТекстДокументаЕГАИС" id="1000039">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6879,7 +6879,7 @@
 					<v8:Type>v8ui:FormattedString</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="ПараметрыПодключаемыхКоманд" id="44">
+			<Attribute name="ПараметрыПодключаемыхКоманд" id="1000040">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6888,7 +6888,7 @@
 				</Title>
 				<Type/>
 			</Attribute>
-			<Attribute name="ТекстДокументаВЕТИС" id="45">
+			<Attribute name="ТекстДокументаВЕТИС" id="1000041">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6899,7 +6899,7 @@
 					<v8:Type>v8ui:FormattedString</v8:Type>
 				</Type>
 			</Attribute>
-			<Attribute name="УчетНДСКэшированныеЗначенияПараметров" id="46">
+			<Attribute name="УчетНДСКэшированныеЗначенияПараметров" id="1000042">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6908,7 +6908,7 @@
 				</Title>
 				<Type/>
 			</Attribute>
-			<Attribute name="ПоСоглашениюИспользуютсяДоговорыКонтрагентов" id="47">
+			<Attribute name="ПоСоглашениюИспользуютсяДоговорыКонтрагентов" id="1000043">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6921,7 +6921,7 @@
 			</Attribute>
 		</Attributes>
 		<Commands>
-			<Command name="ОткрытьВидыЗапасов" id="1">
+			<Command name="ОткрытьВидыЗапасов" id="1000001">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6936,7 +6936,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПодобратьТовары" id="2">
+			<Command name="ПодобратьТовары" id="1000002">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6957,7 +6957,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПодобратьТоварыПоПоступлениям" id="3">
+			<Command name="ПодобратьТоварыПоПоступлениям" id="1000003">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6974,7 +6974,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПоказатьНоменклатуруПоставщика" id="4">
+			<Command name="ПоказатьНоменклатуруПоставщика" id="1000004">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -6992,7 +6992,7 @@
 				</FunctionalOptions>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="НеВыполнятьПроверкуСопоставленнойНоменклатурыПоставщика" id="5">
+			<Command name="НеВыполнятьПроверкуСопоставленнойНоменклатурыПоставщика" id="1000005">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7007,7 +7007,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПерезаполнитьПоОтгрузке" id="6">
+			<Command name="ПерезаполнитьПоОтгрузке" id="1000006">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7026,7 +7026,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПолучитьВес" id="7">
+			<Command name="ПолучитьВес" id="1000007">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7049,7 +7049,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПроверитьКоличествоВДокументе" id="8">
+			<Command name="ПроверитьКоличествоВДокументе" id="1000008">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7069,7 +7069,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПоискПоШтрихкоду" id="9">
+			<Command name="ПоискПоШтрихкоду" id="1000009">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7090,7 +7090,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗагрузитьДанныеИзТСД" id="10">
+			<Command name="ЗагрузитьДанныеИзТСД" id="1000010">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7114,7 +7114,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="РазбитьСтроку" id="11">
+			<Command name="РазбитьСтроку" id="1000011">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7135,7 +7135,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="УказатьСерии" id="12">
+			<Command name="УказатьСерии" id="1000012">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7159,7 +7159,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗаполнитьСерииПоFEFO" id="13">
+			<Command name="ЗаполнитьСерииПоFEFO" id="1000013">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7178,7 +7178,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗаполнитьНоменклатуруПоНоменклатуреПоставщика" id="14">
+			<Command name="ЗаполнитьНоменклатуруПоНоменклатуреПоставщика" id="1000014">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7197,7 +7197,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗаполнитьПоступленияИЦены" id="16">
+			<Command name="ЗаполнитьПоступленияИЦены" id="1000015">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7213,7 +7213,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ВставитьСтроки" id="17">
+			<Command name="ВставитьСтроки" id="1000016">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7234,7 +7234,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СкопироватьСтроки" id="18">
+			<Command name="СкопироватьСтроки" id="1000017">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7254,7 +7254,7 @@
 				</Picture>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ДополнитьМногооборотнойТарой" id="19">
+			<Command name="ДополнитьМногооборотнойТарой" id="1000018">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7273,7 +7273,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗагрузитьИзВнешнегоФайла" id="20">
+			<Command name="ЗагрузитьИзВнешнегоФайла" id="1000019">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7293,7 +7293,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="РеквизитыПечатиТОРГ12" id="22">
+			<Command name="РеквизитыПечатиТОРГ12" id="1000020">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7309,7 +7309,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СоздатьТранспортнуюНакладную" id="24">
+			<Command name="СоздатьТранспортнуюНакладную" id="1000021">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7324,7 +7324,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ОткрытьСписокТранспортныхНакладных" id="26">
+			<Command name="ОткрытьСписокТранспортныхНакладных" id="1000022">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7339,7 +7339,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПровестиИЗакрыть" id="25">
+			<Command name="ПровестиИЗакрыть" id="1000023">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7359,7 +7359,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ДополнитьИнформациюПоДоставкеКонтактами" id="15">
+			<Command name="ДополнитьИнформациюПоДоставкеКонтактами" id="1000024">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7380,7 +7380,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПроверитьКонтрагентов" id="21">
+			<Command name="ПроверитьКонтрагентов" id="1000025">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7395,7 +7395,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗаписатьДокумент" id="27">
+			<Command name="ЗаписатьДокумент" id="1000026">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -7416,7 +7416,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПровестиДокумент" id="28">
+			<Command name="ПровестиДокумент" id="1000027">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
