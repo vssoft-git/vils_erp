@@ -900,6 +900,9 @@
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<ContextMenu name="ТоварыКоличествоУпаковокКонтекстноеМеню" id="513"/>
 									<ExtendedTooltip name="ТоварыКоличествоУпаковокРасширеннаяПодсказка" id="514"/>
+									<Events>
+										<Event name="OnChange" callType="After">ВИЛС_ТоварыКоличествоУпаковокПриИзмененииПосле</Event>
+									</Events>
 								</InputField>
 								<ColumnGroup name="ТоварыУпаковкаЕдиницаИзмерения" id="337">
 									<Title>
@@ -947,6 +950,9 @@
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<ContextMenu name="ТоварыЦенаКонтекстноеМеню" id="522"/>
 									<ExtendedTooltip name="ТоварыЦенаРасширеннаяПодсказка" id="523"/>
+									<Events>
+										<Event name="OnChange" callType="After">ВИЛС_ТоварыЦенаПриИзмененииПосле</Event>
+									</Events>
 								</InputField>
 								<InputField name="ТоварыПроцентАвтоматическойСкидки" id="542">
 									<DataPath>Объект.ВИЛС_ТоварыЗаказа.ПроцентАвтоматическойСкидки</DataPath>
@@ -994,6 +1000,9 @@
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<ContextMenu name="ТоварыСтавкаНДСКонтекстноеМеню" id="528"/>
 									<ExtendedTooltip name="ТоварыСтавкаНДСРасширеннаяПодсказка" id="529"/>
+									<Events>
+										<Event name="OnChange" callType="After">ВИЛС_ТоварыСтавкаНДСПриИзмененииПосле</Event>
+									</Events>
 								</InputField>
 								<InputField name="ТоварыСуммаНДС" id="530">
 									<DataPath>Объект.ВИЛС_ТоварыЗаказа.СуммаНДС</DataPath>
@@ -1002,6 +1011,9 @@
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<ContextMenu name="ТоварыСуммаНДСКонтекстноеМеню" id="531"/>
 									<ExtendedTooltip name="ТоварыСуммаНДСРасширеннаяПодсказка" id="532"/>
+									<Events>
+										<Event name="OnChange" callType="After">ВИЛС_ТоварыСуммаНДСПриИзмененииПосле</Event>
+									</Events>
 								</InputField>
 								<InputField name="ТоварыСуммаСНДС" id="533">
 									<DataPath>Объект.ВИЛС_ТоварыЗаказа.СуммаСНДС</DataPath>
