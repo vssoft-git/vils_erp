@@ -1,0 +1,1190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="390d5e4b-e732-4c88-8748-9e211a416984" callType="Override">ВИЛС_ПриЧтенииНаСервереВместо</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Шапка" id="37">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Header</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ChildItemsWidth>LeftWide</ChildItemsWidth>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ШапкаExtendedTooltip" id="38"/>
+			<ChildItems>
+				<UsualGroup name="ЛеваяКолонкаШапкиГруппа" id="175">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Левая колонка шапки группа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Group header left column </v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ЛеваяКолонкаШапкиГруппаРасширеннаяПодсказка" id="176"/>
+					<ChildItems>
+						<InputField name="Организация" id="46">
+							<ContextMenu name="ОрганизацияКонтекстноеМеню" id="47"/>
+							<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="48"/>
+						</InputField>
+						<InputField name="Сотрудник" id="51">
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СотрудникКонтекстноеМеню" id="52"/>
+							<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="53"/>
+						</InputField>
+						<InputField name="ДатаОстатков" id="72">
+							<ContextMenu name="ДатаОстатковКонтекстноеМеню" id="73"/>
+							<ExtendedTooltip name="ДатаОстатковРасширеннаяПодсказка" id="74"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ПраваяКолонкаШапкиГруппа" id="177">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Правая колонка шапки группа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Right column header group</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ПраваяКолонкаШапкиГруппаРасширеннаяПодсказка" id="178"/>
+					<ChildItems>
+						<UsualGroup name="ОбязательныеРеквизиты" id="54">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Обязательные реквизиты</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Required attributes</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ОбязательныеРеквизитыExtendedTooltip" id="55"/>
+							<ChildItems>
+								<InputField name="Дата" id="58">
+									<DataPath>1/-3</DataPath>
+									<Width>10</Width>
+									<ContextMenu name="ДатаКонтекстноеМеню" id="59"/>
+									<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="60"/>
+								</InputField>
+								<InputField name="Номер" id="61">
+									<DataPath>1/-2</DataPath>
+									<Width>10</Width>
+									<HorizontalStretch>false</HorizontalStretch>
+									<ContextMenu name="НомерКонтекстноеМеню" id="62"/>
+									<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="63"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<LabelField name="ИнфоНадписьПредупреждение" id="170">
+			<DataPath>2</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<TextColor>style:ИзмененныеСтроки</TextColor>
+			<ContextMenu name="ИнфоНадписьПредупреждениеКонтекстноеМеню" id="171"/>
+			<ExtendedTooltip name="ИнфоНадписьПредупреждениеРасширеннаяПодсказка" id="172"/>
+		</LabelField>
+		<UsualGroup name="ГруппаДатаНадпись" id="173">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата надпись</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Date label</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаДатаНадписьРасширеннаяПодсказка" id="174"/>
+		</UsualGroup>
+		<UsualGroup name="ГруппаЕжегодныеОтпуска" id="90">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Права на отпуска</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Leave entitlement</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаЕжегодныеОтпускаРасширеннаяПодсказка" id="91"/>
+			<ChildItems>
+				<Pages name="СтраницыКоманднойПанелиЕО" id="134">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Страницы командной панели ЕО</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Pages of AL command bar</v8:content>
+						</v8:item>
+					</Title>
+					<PagesRepresentation>None</PagesRepresentation>
+					<ExtendedTooltip name="СтраницыКоманднойПанелиЕОРасширеннаяПодсказка" id="135"/>
+					<ChildItems>
+						<Page name="СтраницаДобавитьОтменитьЕО" id="136">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страница добавить отменить ЕО</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Page add cancel AL</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Horizontal</Group>
+							<ExtendedTooltip name="СтраницаДобавитьОтменитьЕОРасширеннаяПодсказка" id="137"/>
+							<ChildItems>
+								<CommandBar name="КоманднаяПанельДобавитьОтменитьЕО" id="138">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Командная панель добавить отменить ЕО</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Command bar add cancel AL</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="КоманднаяПанельДобавитьОтменитьЕОРасширеннаяПодсказка" id="139"/>
+									<ChildItems>
+										<ButtonGroup name="ГруппаКнопокДобавитьОтменитьЕО" id="140">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Кнопок добавить отменить ЕО</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Buttons add cancel AL</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="ГруппаКнопокДобавитьОтменитьЕОРасширеннаяПодсказка" id="141"/>
+											<ChildItems>
+												<Button name="ДобавитьВГруппеДобавитьОтменитьЕО" id="142">
+													<Type>CommandBarButton</Type>
+													<Representation>PictureAndText</Representation>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+													<ExtendedTooltip name="ДобавитьВГруппеДобавитьОтменитьЕОРасширеннаяПодсказка" id="143"/>
+												</Button>
+												<Button name="УдалитьВГруппеДобавитьОтменитьЕО" id="144">
+													<Type>CommandBarButton</Type>
+													<Representation>PictureAndText</Representation>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<Picture>
+														<xr:Ref>CommonPicture.ПротоколСОшибкой</xr:Ref>
+														<xr:LoadTransparent>false</xr:LoadTransparent>
+													</Picture>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Отменить</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Cancel</v8:content>
+														</v8:item>
+													</Title>
+													<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+													<ExtendedTooltip name="УдалитьВГруппеДобавитьОтменитьЕОРасширеннаяПодсказка" id="145"/>
+												</Button>
+											</ChildItems>
+										</ButtonGroup>
+									</ChildItems>
+								</CommandBar>
+							</ChildItems>
+						</Page>
+						<Page name="СтраницаДобавитьПродолжитьЕО" id="148">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страница добавить продолжить ЕО</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Page add continue AL</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="СтраницаДобавитьПродолжитьЕОРасширеннаяПодсказка" id="149"/>
+							<ChildItems>
+								<CommandBar name="КоманднаяПанельДобавитьПродолжитьЕО" id="150">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Командная панель добавить продолжить ЕО</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Command bar add continue AL</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="КоманднаяПанельДобавитьПродолжитьЕОРасширеннаяПодсказка" id="151"/>
+									<ChildItems>
+										<ButtonGroup name="ГруппаКнопокДобавитьПродолжитьЕО" id="152">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Кнопок добавить продолжить ЕО</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Buttons add continue AL</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="ГруппаКнопокДобавитьПродолжитьЕОРасширеннаяПодсказка" id="153"/>
+											<ChildItems>
+												<Button name="ДобавитьВГруппеКнопокДобавитьПродолжитьЕО" id="154">
+													<Type>CommandBarButton</Type>
+													<Representation>PictureAndText</Representation>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+													<ExtendedTooltip name="ДобавитьВГруппеКнопокДобавитьПродолжитьЕОРасширеннаяПодсказка" id="155"/>
+												</Button>
+												<Button name="УдалитьВГруппеКнопокДобавитьПродолжитьЕО" id="156">
+													<Type>CommandBarButton</Type>
+													<Representation>PictureAndText</Representation>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<Picture>
+														<xr:Ref>CommonPicture.ОперацияВыполненаУспешно</xr:Ref>
+														<xr:LoadTransparent>false</xr:LoadTransparent>
+													</Picture>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Продолжить</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Continue</v8:content>
+														</v8:item>
+													</Title>
+													<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+													<ExtendedTooltip name="УдалитьВГруппеКнопокДобавитьПродолжитьЕОРасширеннаяПодсказка" id="157"/>
+												</Button>
+											</ChildItems>
+										</ButtonGroup>
+									</ChildItems>
+								</CommandBar>
+							</ChildItems>
+						</Page>
+						<Page name="СтраницаДобавитьУдалитьЕО" id="160">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Страница добавить удалить ЕО</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Page add delete AL</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="СтраницаДобавитьУдалитьЕОРасширеннаяПодсказка" id="161"/>
+							<ChildItems>
+								<CommandBar name="КоманднаяПанельДобавитьУдалитьЕО" id="162">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Командная панель добавить удалить ЕО</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Command bar add delete AL</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="КоманднаяПанельДобавитьУдалитьЕОРасширеннаяПодсказка" id="163"/>
+									<ChildItems>
+										<ButtonGroup name="ГруппаКнопокДобавитьУдалитьЕО" id="164">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Кнопок добавить удалить ЕО</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Buttons add remove AL</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="ГруппаКнопокДобавитьУдалитьЕОРасширеннаяПодсказка" id="165"/>
+											<ChildItems>
+												<Button name="ДобавитьВГруппеКнопокДобавитьУдалитьЕО" id="166">
+													<Type>CommandBarButton</Type>
+													<Representation>PictureAndText</Representation>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+													<ExtendedTooltip name="ДобавитьВГруппеКнопокДобавитьУдалитьЕОРасширеннаяПодсказка" id="167"/>
+												</Button>
+												<Button name="УдалитьВГруппеКнопокДобавитьУдалитьЕО" id="168">
+													<Type>CommandBarButton</Type>
+													<Representation>PictureAndText</Representation>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+													<ExtendedTooltip name="УдалитьВГруппеКнопокДобавитьУдалитьЕОРасширеннаяПодсказка" id="169"/>
+												</Button>
+											</ChildItems>
+										</ButtonGroup>
+									</ChildItems>
+								</CommandBar>
+							</ChildItems>
+						</Page>
+					</ChildItems>
+				</Pages>
+				<Table name="ЕжегодныеОтпуска" id="13">
+					<Representation>List</Representation>
+					<Height>4</Height>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<FileDragMode>AsFile</FileDragMode>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ежегодные отпуска</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Annual leaves</v8:content>
+						</v8:item>
+					</Title>
+					<SearchStringLocation>None</SearchStringLocation>
+					<ViewStatusLocation>None</ViewStatusLocation>
+					<SearchControlLocation>None</SearchControlLocation>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ЕжегодныеОтпускаКонтекстноеМеню" id="14"/>
+					<AutoCommandBar name="ЕжегодныеОтпускаКоманднаяПанель" id="15">
+						<Autofill>false</Autofill>
+					</AutoCommandBar>
+					<ExtendedTooltip name="ЕжегодныеОтпускаРасширеннаяПодсказка" id="16"/>
+					<SearchStringAddition name="ЕжегодныеОтпускаСтрокаПоиска" id="81">
+						<AdditionSource>
+							<Item>ЕжегодныеОтпуска</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ЕжегодныеОтпускаСтрокаПоискаКонтекстноеМеню" id="82"/>
+						<ExtendedTooltip name="ЕжегодныеОтпускаСтрокаПоискаРасширеннаяПодсказка" id="83"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ЕжегодныеОтпускаСостояниеПросмотра" id="84">
+						<AdditionSource>
+							<Item>ЕжегодныеОтпуска</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ЕжегодныеОтпускаСостояниеПросмотраКонтекстноеМеню" id="85"/>
+						<ExtendedTooltip name="ЕжегодныеОтпускаСостояниеПросмотраРасширеннаяПодсказка" id="86"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ЕжегодныеОтпускаУправлениеПоиском" id="87">
+						<AdditionSource>
+							<Item>ЕжегодныеОтпуска</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ЕжегодныеОтпускаУправлениеПоискомКонтекстноеМеню" id="88"/>
+						<ExtendedTooltip name="ЕжегодныеОтпускаУправлениеПоискомРасширеннаяПодсказка" id="89"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<ColumnGroup name="ЕжегодныеОтпускаГруппаВидОтпуска" id="179">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ежегодные отпуска группа вид отпуска</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Annual leave leave kind group</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Horizontal</Group>
+							<ExtendedTooltip name="ЕжегодныеОтпускаГруппаВидОтпускаРасширеннаяПодсказка" id="180"/>
+							<ChildItems>
+								<InputField name="ЕжегодныеОтпускаВидЕжегодногоОтпуска" id="20">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ЕжегодныеОтпускаВидЕжегодногоОтпускаКонтекстноеМеню" id="21"/>
+									<ExtendedTooltip name="ЕжегодныеОтпускаВидЕжегодногоОтпускаРасширеннаяПодсказка" id="22"/>
+								</InputField>
+							</ChildItems>
+						</ColumnGroup>
+						<InputField name="ЕжегодныеОтпускаКоличествоДнейВГод" id="128">
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЕжегодныеОтпускаКоличествоДнейВГодКонтекстноеМеню" id="129"/>
+							<ExtendedTooltip name="ЕжегодныеОтпускаКоличествоДнейВГодРасширеннаяПодсказка" id="130"/>
+						</InputField>
+						<InputField name="ЕжегодныеОтпускаКомментарий" id="131">
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЕжегодныеОтпускаКомментарийКонтекстноеМеню" id="132"/>
+							<ExtendedTooltip name="ЕжегодныеОтпускаКомментарийРасширеннаяПодсказка" id="133"/>
+						</InputField>
+						<InputField name="ЕжегодныеОтпускаОстаток" id="29">
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЕжегодныеОтпускаОстатокКонтекстноеМеню" id="30"/>
+							<ExtendedTooltip name="ЕжегодныеОтпускаОстатокРасширеннаяПодсказка" id="31"/>
+						</InputField>
+						<InputField name="ЕжегодныеОтпускаДнейОтсутствия" id="181">
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ЕжегодныеОтпускаДнейОтсутствияКонтекстноеМеню" id="182"/>
+							<ExtendedTooltip name="ЕжегодныеОтпускаДнейОтсутствияРасширеннаяПодсказка" id="183"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаОстаткиОтпусков" id="92">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Остатки отпусков по рабочим годам</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Remaining leaves by working years</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаОстаткиОтпусковРасширеннаяПодсказка" id="93"/>
+			<ChildItems>
+				<Table name="ОстаткиОтпусковПоРабочимГодам" id="94">
+					<Height>5</Height>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<FileDragMode>AsFile</FileDragMode>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Остатки отпусков по рабочим годам</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Remaining leaves by working years</v8:content>
+						</v8:item>
+					</Title>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ОстаткиОтпусковПоРабочимГодамКонтекстноеМеню" id="95"/>
+					<AutoCommandBar name="ОстаткиОтпусковПоРабочимГодамКоманднаяПанель" id="96"/>
+					<ExtendedTooltip name="ОстаткиОтпусковПоРабочимГодамРасширеннаяПодсказка" id="97"/>
+					<SearchStringAddition name="ОстаткиОтпусковПоРабочимГодамСтрокаПоиска" id="98">
+						<AdditionSource>
+							<Item>ОстаткиОтпусковПоРабочимГодам</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ОстаткиОтпусковПоРабочимГодамСтрокаПоискаКонтекстноеМеню" id="101"/>
+						<ExtendedTooltip name="ОстаткиОтпусковПоРабочимГодамСтрокаПоискаРасширеннаяПодсказка" id="102"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ОстаткиОтпусковПоРабочимГодамСостояниеПросмотра" id="103">
+						<AdditionSource>
+							<Item>ОстаткиОтпусковПоРабочимГодам</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ОстаткиОтпусковПоРабочимГодамСостояниеПросмотраКонтекстноеМеню" id="106"/>
+						<ExtendedTooltip name="ОстаткиОтпусковПоРабочимГодамСостояниеПросмотраРасширеннаяПодсказка" id="107"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ОстаткиОтпусковПоРабочимГодамУправлениеПоиском" id="108">
+						<AdditionSource>
+							<Item>ОстаткиОтпусковПоРабочимГодам</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ОстаткиОтпусковПоРабочимГодамУправлениеПоискомКонтекстноеМеню" id="111"/>
+						<ExtendedTooltip name="ОстаткиОтпусковПоРабочимГодамУправлениеПоискомРасширеннаяПодсказка" id="112"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<InputField name="ОстаткиОтпусковПоРабочимГодамВидЕжегодногоОтпуска" id="116">
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ОстаткиОтпусковПоРабочимГодамВидЕжегодногоОтпускаКонтекстноеМеню" id="117"/>
+							<ExtendedTooltip name="ОстаткиОтпусковПоРабочимГодамВидЕжегодногоОтпускаРасширеннаяПодсказка" id="118"/>
+						</InputField>
+						<InputField name="ОстаткиОтпусковПоРабочимГодамРабочийГодНачало" id="119">
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ОстаткиОтпусковПоРабочимГодамРабочийГодНачалоКонтекстноеМеню" id="120"/>
+							<ExtendedTooltip name="ОстаткиОтпусковПоРабочимГодамРабочийГодНачалоРасширеннаяПодсказка" id="121"/>
+						</InputField>
+						<InputField name="ОстаткиОтпусковПоРабочимГодамРабочийГодОкончание" id="122">
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ОстаткиОтпусковПоРабочимГодамРабочийГодОкончаниеКонтекстноеМеню" id="123"/>
+							<ExtendedTooltip name="ОстаткиОтпусковПоРабочимГодамРабочийГодОкончаниеРасширеннаяПодсказка" id="124"/>
+						</InputField>
+						<InputField name="ОстаткиОтпусковПоРабочимГодамОстаток" id="125">
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ОстаткиОтпусковПоРабочимГодамОстатокКонтекстноеМеню" id="126"/>
+							<ExtendedTooltip name="ОстаткиОтпусковПоРабочимГодамОстатокРасширеннаяПодсказка" id="127"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаДополнительныеРеквизиты" id="184">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительно</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Additional information</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="185"/>
+		</UsualGroup>
+		<UsualGroup name="ГруппаКомментарийОтветственный" id="64">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Комментарий ответственный</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Comment responsible person</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ChildItemsWidth>LeftWide</ChildItemsWidth>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКомментарийОтветственныйРасширеннаяПодсказка" id="65"/>
+			<ChildItems>
+				<InputField name="Комментарий" id="66">
+					<TitleLocation>Left</TitleLocation>
+					<Height>1</Height>
+					<VerticalStretch>false</VerticalStretch>
+					<MultiLine>true</MultiLine>
+					<ExtendedEdit>true</ExtendedEdit>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="67"/>
+					<ExtendedTooltip name="КомментарийExtendedTooltip" id="68"/>
+				</InputField>
+				<InputField name="Ответственный" id="69">
+					<ContextMenu name="ОтветственныйКонтекстноеМеню" id="70"/>
+					<ExtendedTooltip name="ОтветственныйExtendedTooltip" id="71"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.10">
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+		<ChildItems>
+			<UsualGroup name="Шапка" id="37">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Шапка</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Header</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ChildItemsWidth>LeftWide</ChildItemsWidth>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ШапкаExtendedTooltip" id="38"/>
+				<ChildItems>
+					<UsualGroup name="ЛеваяКолонкаШапкиГруппа" id="175">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Левая колонка шапки группа</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Group header left column </v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ЛеваяКолонкаШапкиГруппаРасширеннаяПодсказка" id="176"/>
+						<ChildItems>
+							<InputField name="Организация" id="46">
+								<ContextMenu name="ОрганизацияКонтекстноеМеню" id="47"/>
+								<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="48"/>
+							</InputField>
+							<InputField name="Сотрудник" id="51">
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="СотрудникКонтекстноеМеню" id="52"/>
+								<ExtendedTooltip name="СотрудникРасширеннаяПодсказка" id="53"/>
+							</InputField>
+							<InputField name="ДатаОстатков" id="72">
+								<ContextMenu name="ДатаОстатковКонтекстноеМеню" id="73"/>
+								<ExtendedTooltip name="ДатаОстатковРасширеннаяПодсказка" id="74"/>
+							</InputField>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ПраваяКолонкаШапкиГруппа" id="177">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Правая колонка шапки группа</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Right column header group</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ПраваяКолонкаШапкиГруппаРасширеннаяПодсказка" id="178"/>
+						<ChildItems>
+							<UsualGroup name="ОбязательныеРеквизиты" id="54">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Обязательные реквизиты</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Required attributes</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Horizontal</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ОбязательныеРеквизитыExtendedTooltip" id="55"/>
+								<ChildItems>
+									<InputField name="Дата" id="58">
+										<DataPath>1/-3</DataPath>
+										<Width>10</Width>
+										<ContextMenu name="ДатаКонтекстноеМеню" id="59"/>
+										<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="60"/>
+									</InputField>
+									<InputField name="Номер" id="61">
+										<DataPath>1/-2</DataPath>
+										<Width>10</Width>
+										<HorizontalStretch>false</HorizontalStretch>
+										<ContextMenu name="НомерКонтекстноеМеню" id="62"/>
+										<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="63"/>
+									</InputField>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+			<LabelField name="ИнфоНадписьПредупреждение" id="170">
+				<DataPath>2</DataPath>
+				<TitleLocation>None</TitleLocation>
+				<AutoMaxWidth>false</AutoMaxWidth>
+				<TextColor>style:ИзмененныеСтроки</TextColor>
+				<ContextMenu name="ИнфоНадписьПредупреждениеКонтекстноеМеню" id="171"/>
+				<ExtendedTooltip name="ИнфоНадписьПредупреждениеРасширеннаяПодсказка" id="172"/>
+			</LabelField>
+			<UsualGroup name="ГруппаДатаНадпись" id="173">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Дата надпись</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Date label</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаДатаНадписьРасширеннаяПодсказка" id="174"/>
+			</UsualGroup>
+			<UsualGroup name="ГруппаЕжегодныеОтпуска" id="90">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Права на отпуска</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Leave entitlement</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Vertical</Group>
+				<ExtendedTooltip name="ГруппаЕжегодныеОтпускаРасширеннаяПодсказка" id="91"/>
+				<ChildItems>
+					<Pages name="СтраницыКоманднойПанелиЕО" id="134">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Страницы командной панели ЕО</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Pages of AL command bar</v8:content>
+							</v8:item>
+						</Title>
+						<PagesRepresentation>None</PagesRepresentation>
+						<ExtendedTooltip name="СтраницыКоманднойПанелиЕОРасширеннаяПодсказка" id="135"/>
+						<ChildItems>
+							<Page name="СтраницаДобавитьОтменитьЕО" id="136">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Страница добавить отменить ЕО</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Page add cancel AL</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Horizontal</Group>
+								<ExtendedTooltip name="СтраницаДобавитьОтменитьЕОРасширеннаяПодсказка" id="137"/>
+								<ChildItems>
+									<CommandBar name="КоманднаяПанельДобавитьОтменитьЕО" id="138">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Командная панель добавить отменить ЕО</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Command bar add cancel AL</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="КоманднаяПанельДобавитьОтменитьЕОРасширеннаяПодсказка" id="139"/>
+										<ChildItems>
+											<ButtonGroup name="ГруппаКнопокДобавитьОтменитьЕО" id="140">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Кнопок добавить отменить ЕО</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Buttons add cancel AL</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="ГруппаКнопокДобавитьОтменитьЕОРасширеннаяПодсказка" id="141"/>
+												<ChildItems>
+													<Button name="ДобавитьВГруппеДобавитьОтменитьЕО" id="142">
+														<Type>CommandBarButton</Type>
+														<Representation>PictureAndText</Representation>
+														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+														<ExtendedTooltip name="ДобавитьВГруппеДобавитьОтменитьЕОРасширеннаяПодсказка" id="143"/>
+													</Button>
+													<Button name="УдалитьВГруппеДобавитьОтменитьЕО" id="144">
+														<Type>CommandBarButton</Type>
+														<Representation>PictureAndText</Representation>
+														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<Picture>
+															<xr:Ref>CommonPicture.ПротоколСОшибкой</xr:Ref>
+															<xr:LoadTransparent>false</xr:LoadTransparent>
+														</Picture>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Отменить</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Cancel</v8:content>
+															</v8:item>
+														</Title>
+														<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+														<ExtendedTooltip name="УдалитьВГруппеДобавитьОтменитьЕОРасширеннаяПодсказка" id="145"/>
+													</Button>
+												</ChildItems>
+											</ButtonGroup>
+										</ChildItems>
+									</CommandBar>
+								</ChildItems>
+							</Page>
+							<Page name="СтраницаДобавитьПродолжитьЕО" id="148">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Страница добавить продолжить ЕО</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Page add continue AL</v8:content>
+									</v8:item>
+								</Title>
+								<ExtendedTooltip name="СтраницаДобавитьПродолжитьЕОРасширеннаяПодсказка" id="149"/>
+								<ChildItems>
+									<CommandBar name="КоманднаяПанельДобавитьПродолжитьЕО" id="150">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Командная панель добавить продолжить ЕО</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Command bar add continue AL</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="КоманднаяПанельДобавитьПродолжитьЕОРасширеннаяПодсказка" id="151"/>
+										<ChildItems>
+											<ButtonGroup name="ГруппаКнопокДобавитьПродолжитьЕО" id="152">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Кнопок добавить продолжить ЕО</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Buttons add continue AL</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="ГруппаКнопокДобавитьПродолжитьЕОРасширеннаяПодсказка" id="153"/>
+												<ChildItems>
+													<Button name="ДобавитьВГруппеКнопокДобавитьПродолжитьЕО" id="154">
+														<Type>CommandBarButton</Type>
+														<Representation>PictureAndText</Representation>
+														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+														<ExtendedTooltip name="ДобавитьВГруппеКнопокДобавитьПродолжитьЕОРасширеннаяПодсказка" id="155"/>
+													</Button>
+													<Button name="УдалитьВГруппеКнопокДобавитьПродолжитьЕО" id="156">
+														<Type>CommandBarButton</Type>
+														<Representation>PictureAndText</Representation>
+														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<Picture>
+															<xr:Ref>CommonPicture.ОперацияВыполненаУспешно</xr:Ref>
+															<xr:LoadTransparent>false</xr:LoadTransparent>
+														</Picture>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Продолжить</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Continue</v8:content>
+															</v8:item>
+														</Title>
+														<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+														<ExtendedTooltip name="УдалитьВГруппеКнопокДобавитьПродолжитьЕОРасширеннаяПодсказка" id="157"/>
+													</Button>
+												</ChildItems>
+											</ButtonGroup>
+										</ChildItems>
+									</CommandBar>
+								</ChildItems>
+							</Page>
+							<Page name="СтраницаДобавитьУдалитьЕО" id="160">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Страница добавить удалить ЕО</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Page add delete AL</v8:content>
+									</v8:item>
+								</Title>
+								<ExtendedTooltip name="СтраницаДобавитьУдалитьЕОРасширеннаяПодсказка" id="161"/>
+								<ChildItems>
+									<CommandBar name="КоманднаяПанельДобавитьУдалитьЕО" id="162">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Командная панель добавить удалить ЕО</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Command bar add delete AL</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="КоманднаяПанельДобавитьУдалитьЕОРасширеннаяПодсказка" id="163"/>
+										<ChildItems>
+											<ButtonGroup name="ГруппаКнопокДобавитьУдалитьЕО" id="164">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Кнопок добавить удалить ЕО</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Buttons add remove AL</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="ГруппаКнопокДобавитьУдалитьЕОРасширеннаяПодсказка" id="165"/>
+												<ChildItems>
+													<Button name="ДобавитьВГруппеКнопокДобавитьУдалитьЕО" id="166">
+														<Type>CommandBarButton</Type>
+														<Representation>PictureAndText</Representation>
+														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+														<ExtendedTooltip name="ДобавитьВГруппеКнопокДобавитьУдалитьЕОРасширеннаяПодсказка" id="167"/>
+													</Button>
+													<Button name="УдалитьВГруппеКнопокДобавитьУдалитьЕО" id="168">
+														<Type>CommandBarButton</Type>
+														<Representation>PictureAndText</Representation>
+														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+														<ExtendedTooltip name="УдалитьВГруппеКнопокДобавитьУдалитьЕОРасширеннаяПодсказка" id="169"/>
+													</Button>
+												</ChildItems>
+											</ButtonGroup>
+										</ChildItems>
+									</CommandBar>
+								</ChildItems>
+							</Page>
+						</ChildItems>
+					</Pages>
+					<Table name="ЕжегодныеОтпуска" id="13">
+						<Representation>List</Representation>
+						<Height>4</Height>
+						<AutoInsertNewRow>true</AutoInsertNewRow>
+						<EnableStartDrag>true</EnableStartDrag>
+						<EnableDrag>true</EnableDrag>
+						<FileDragMode>AsFile</FileDragMode>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Ежегодные отпуска</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Annual leaves</v8:content>
+							</v8:item>
+						</Title>
+						<SearchStringLocation>None</SearchStringLocation>
+						<ViewStatusLocation>None</ViewStatusLocation>
+						<SearchControlLocation>None</SearchControlLocation>
+						<RowFilter xsi:nil="true"/>
+						<ContextMenu name="ЕжегодныеОтпускаКонтекстноеМеню" id="14"/>
+						<AutoCommandBar name="ЕжегодныеОтпускаКоманднаяПанель" id="15">
+							<Autofill>false</Autofill>
+						</AutoCommandBar>
+						<ExtendedTooltip name="ЕжегодныеОтпускаРасширеннаяПодсказка" id="16"/>
+						<SearchStringAddition name="ЕжегодныеОтпускаСтрокаПоиска" id="81">
+							<AdditionSource>
+								<Item>ЕжегодныеОтпуска</Item>
+								<Type>SearchStringRepresentation</Type>
+							</AdditionSource>
+							<ContextMenu name="ЕжегодныеОтпускаСтрокаПоискаКонтекстноеМеню" id="82"/>
+							<ExtendedTooltip name="ЕжегодныеОтпускаСтрокаПоискаРасширеннаяПодсказка" id="83"/>
+						</SearchStringAddition>
+						<ViewStatusAddition name="ЕжегодныеОтпускаСостояниеПросмотра" id="84">
+							<AdditionSource>
+								<Item>ЕжегодныеОтпуска</Item>
+								<Type>ViewStatusRepresentation</Type>
+							</AdditionSource>
+							<ContextMenu name="ЕжегодныеОтпускаСостояниеПросмотраКонтекстноеМеню" id="85"/>
+							<ExtendedTooltip name="ЕжегодныеОтпускаСостояниеПросмотраРасширеннаяПодсказка" id="86"/>
+						</ViewStatusAddition>
+						<SearchControlAddition name="ЕжегодныеОтпускаУправлениеПоиском" id="87">
+							<AdditionSource>
+								<Item>ЕжегодныеОтпуска</Item>
+								<Type>SearchControl</Type>
+							</AdditionSource>
+							<ContextMenu name="ЕжегодныеОтпускаУправлениеПоискомКонтекстноеМеню" id="88"/>
+							<ExtendedTooltip name="ЕжегодныеОтпускаУправлениеПоискомРасширеннаяПодсказка" id="89"/>
+						</SearchControlAddition>
+						<ChildItems>
+							<ColumnGroup name="ЕжегодныеОтпускаГруппаВидОтпуска" id="179">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Ежегодные отпуска группа вид отпуска</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Annual leave leave kind group</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Horizontal</Group>
+								<ExtendedTooltip name="ЕжегодныеОтпускаГруппаВидОтпускаРасширеннаяПодсказка" id="180"/>
+								<ChildItems>
+									<InputField name="ЕжегодныеОтпускаВидЕжегодногоОтпуска" id="20">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="ЕжегодныеОтпускаВидЕжегодногоОтпускаКонтекстноеМеню" id="21"/>
+										<ExtendedTooltip name="ЕжегодныеОтпускаВидЕжегодногоОтпускаРасширеннаяПодсказка" id="22"/>
+									</InputField>
+								</ChildItems>
+							</ColumnGroup>
+							<InputField name="ЕжегодныеОтпускаКоличествоДнейВГод" id="128">
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ЕжегодныеОтпускаКоличествоДнейВГодКонтекстноеМеню" id="129"/>
+								<ExtendedTooltip name="ЕжегодныеОтпускаКоличествоДнейВГодРасширеннаяПодсказка" id="130"/>
+							</InputField>
+							<InputField name="ЕжегодныеОтпускаКомментарий" id="131">
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ЕжегодныеОтпускаКомментарийКонтекстноеМеню" id="132"/>
+								<ExtendedTooltip name="ЕжегодныеОтпускаКомментарийРасширеннаяПодсказка" id="133"/>
+							</InputField>
+							<InputField name="ЕжегодныеОтпускаОстаток" id="29">
+								<ReadOnly>true</ReadOnly>
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ЕжегодныеОтпускаОстатокКонтекстноеМеню" id="30"/>
+								<ExtendedTooltip name="ЕжегодныеОтпускаОстатокРасширеннаяПодсказка" id="31"/>
+							</InputField>
+							<InputField name="ЕжегодныеОтпускаДнейОтсутствия" id="181">
+								<ReadOnly>true</ReadOnly>
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ЕжегодныеОтпускаДнейОтсутствияКонтекстноеМеню" id="182"/>
+								<ExtendedTooltip name="ЕжегодныеОтпускаДнейОтсутствияРасширеннаяПодсказка" id="183"/>
+							</InputField>
+						</ChildItems>
+					</Table>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ГруппаОстаткиОтпусков" id="92">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Остатки отпусков по рабочим годам</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Remaining leaves by working years</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Vertical</Group>
+				<ExtendedTooltip name="ГруппаОстаткиОтпусковРасширеннаяПодсказка" id="93"/>
+				<ChildItems>
+					<Table name="ОстаткиОтпусковПоРабочимГодам" id="94">
+						<Height>5</Height>
+						<AutoInsertNewRow>true</AutoInsertNewRow>
+						<EnableStartDrag>true</EnableStartDrag>
+						<EnableDrag>true</EnableDrag>
+						<FileDragMode>AsFile</FileDragMode>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Остатки отпусков по рабочим годам</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Remaining leaves by working years</v8:content>
+							</v8:item>
+						</Title>
+						<RowFilter xsi:nil="true"/>
+						<ContextMenu name="ОстаткиОтпусковПоРабочимГодамКонтекстноеМеню" id="95"/>
+						<AutoCommandBar name="ОстаткиОтпусковПоРабочимГодамКоманднаяПанель" id="96"/>
+						<ExtendedTooltip name="ОстаткиОтпусковПоРабочимГодамРасширеннаяПодсказка" id="97"/>
+						<SearchStringAddition name="ОстаткиОтпусковПоРабочимГодамСтрокаПоиска" id="98">
+							<AdditionSource>
+								<Item>ОстаткиОтпусковПоРабочимГодам</Item>
+								<Type>SearchStringRepresentation</Type>
+							</AdditionSource>
+							<ContextMenu name="ОстаткиОтпусковПоРабочимГодамСтрокаПоискаКонтекстноеМеню" id="101"/>
+							<ExtendedTooltip name="ОстаткиОтпусковПоРабочимГодамСтрокаПоискаРасширеннаяПодсказка" id="102"/>
+						</SearchStringAddition>
+						<ViewStatusAddition name="ОстаткиОтпусковПоРабочимГодамСостояниеПросмотра" id="103">
+							<AdditionSource>
+								<Item>ОстаткиОтпусковПоРабочимГодам</Item>
+								<Type>ViewStatusRepresentation</Type>
+							</AdditionSource>
+							<ContextMenu name="ОстаткиОтпусковПоРабочимГодамСостояниеПросмотраКонтекстноеМеню" id="106"/>
+							<ExtendedTooltip name="ОстаткиОтпусковПоРабочимГодамСостояниеПросмотраРасширеннаяПодсказка" id="107"/>
+						</ViewStatusAddition>
+						<SearchControlAddition name="ОстаткиОтпусковПоРабочимГодамУправлениеПоиском" id="108">
+							<AdditionSource>
+								<Item>ОстаткиОтпусковПоРабочимГодам</Item>
+								<Type>SearchControl</Type>
+							</AdditionSource>
+							<ContextMenu name="ОстаткиОтпусковПоРабочимГодамУправлениеПоискомКонтекстноеМеню" id="111"/>
+							<ExtendedTooltip name="ОстаткиОтпусковПоРабочимГодамУправлениеПоискомРасширеннаяПодсказка" id="112"/>
+						</SearchControlAddition>
+						<ChildItems>
+							<InputField name="ОстаткиОтпусковПоРабочимГодамВидЕжегодногоОтпуска" id="116">
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ОстаткиОтпусковПоРабочимГодамВидЕжегодногоОтпускаКонтекстноеМеню" id="117"/>
+								<ExtendedTooltip name="ОстаткиОтпусковПоРабочимГодамВидЕжегодногоОтпускаРасширеннаяПодсказка" id="118"/>
+							</InputField>
+							<InputField name="ОстаткиОтпусковПоРабочимГодамРабочийГодНачало" id="119">
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ОстаткиОтпусковПоРабочимГодамРабочийГодНачалоКонтекстноеМеню" id="120"/>
+								<ExtendedTooltip name="ОстаткиОтпусковПоРабочимГодамРабочийГодНачалоРасширеннаяПодсказка" id="121"/>
+							</InputField>
+							<InputField name="ОстаткиОтпусковПоРабочимГодамРабочийГодОкончание" id="122">
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ОстаткиОтпусковПоРабочимГодамРабочийГодОкончаниеКонтекстноеМеню" id="123"/>
+								<ExtendedTooltip name="ОстаткиОтпусковПоРабочимГодамРабочийГодОкончаниеРасширеннаяПодсказка" id="124"/>
+							</InputField>
+							<InputField name="ОстаткиОтпусковПоРабочимГодамОстаток" id="125">
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ОстаткиОтпусковПоРабочимГодамОстатокКонтекстноеМеню" id="126"/>
+								<ExtendedTooltip name="ОстаткиОтпусковПоРабочимГодамОстатокРасширеннаяПодсказка" id="127"/>
+							</InputField>
+						</ChildItems>
+					</Table>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ГруппаДополнительныеРеквизиты" id="184">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Дополнительно</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Additional information</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Vertical</Group>
+				<Representation>None</Representation>
+				<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="185"/>
+			</UsualGroup>
+			<UsualGroup name="ГруппаКомментарийОтветственный" id="64">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Комментарий ответственный</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Comment responsible person</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ChildItemsWidth>LeftWide</ChildItemsWidth>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаКомментарийОтветственныйРасширеннаяПодсказка" id="65"/>
+				<ChildItems>
+					<InputField name="Комментарий" id="66">
+						<TitleLocation>Left</TitleLocation>
+						<Height>1</Height>
+						<VerticalStretch>false</VerticalStretch>
+						<MultiLine>true</MultiLine>
+						<ExtendedEdit>true</ExtendedEdit>
+						<ContextMenu name="КомментарийКонтекстноеМеню" id="67"/>
+						<ExtendedTooltip name="КомментарийExtendedTooltip" id="68"/>
+					</InputField>
+					<InputField name="Ответственный" id="69">
+						<ContextMenu name="ОтветственныйКонтекстноеМеню" id="70"/>
+						<ExtendedTooltip name="ОтветственныйExtendedTooltip" id="71"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>

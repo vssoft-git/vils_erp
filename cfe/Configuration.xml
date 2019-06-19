@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>8c9837a0-31a3-47f4-9807-45b09d89a057</xr:ObjectId>
+				<xr:ObjectId>5b38f91e-e478-4fb3-8882-b3d722a15028</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -76,6 +76,7 @@
 			<StyleItem>ТекстЗапрещеннойЯчейкиЦвет</StyleItem>
 			<StyleItem>ФайлЗанятыйТекущимПользователем</StyleItem>
 			<StyleItem>ФайлЗанятыйДругимПользователем</StyleItem>
+			<StyleItem>ИзмененныеСтроки</StyleItem>
 			<CommonPicture>ПодключаемоеОборудованиеТерминалСбораДанных16</CommonPicture>
 			<CommonPicture>СерииНоменклатурыУказаныFEFO</CommonPicture>
 			<CommonPicture>НовыйПоШтрихкоду</CommonPicture>
@@ -189,6 +190,13 @@
 			<CommonPicture>ВыбратьВариантОтчета</CommonPicture>
 			<CommonPicture>НовостиВнимание</CommonPicture>
 			<CommonPicture>ПиктограммыЭлементов</CommonPicture>
+			<CommonPicture>Напоминание</CommonPicture>
+			<CommonPicture>КолокольчикНеактивный</CommonPicture>
+			<CommonPicture>КолокольчикЖелтый</CommonPicture>
+			<CommonPicture>ПиктограммыГруппСотрудников</CommonPicture>
+			<CommonPicture>ПротоколСОшибкой</CommonPicture>
+			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
+			<CommonPicture>КоллекцияСкрепка</CommonPicture>
 			<CommonModule>АктВыполненныхРаботЛокализация</CommonModule>
 			<CommonModule>ВИЛС_Переопределяемый</CommonModule>
 			<CommonModule>ВозвратСырьяДавальцуЛокализация</CommonModule>
@@ -220,6 +228,7 @@
 			<CommonModule>ЗатратыСервер</CommonModule>
 			<CommonModule>ЗаполнениеФормСтатистики</CommonModule>
 			<CommonModule>РасчетСебестоимости</CommonModule>
+			<CommonModule>СотрудникиФормыРасширенный</CommonModule>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>ИспользоватьПодключаемоеОборудование</FunctionalOption>
 			<FunctionalOption>ИспользоватьПоступлениеПоНесколькимЗаказам</FunctionalOption>
@@ -307,6 +316,8 @@
 			<CommonCommand>СоздатьЗаметкуПоПредмету</CommonCommand>
 			<CommonCommand>СозданиеСвязанныхОбъектов</CommonCommand>
 			<CommonCommand>Напомнить</CommonCommand>
+			<CommonCommand>ИсторияИзменений</CommonCommand>
+			<CommonCommand>ПрисоединенныеФайлыБЗК</CommonCommand>
 			<CommandGroup>Органайзер</CommandGroup>
 			<Constant>ИспользоватьПодключаемоеОборудование</Constant>
 			<Constant>ИспользоватьПоступлениеПоНесколькимЗаказам</Constant>
@@ -488,6 +499,7 @@
 			<Document>ПроизводствоБезЗаказа</Document>
 			<Document>ОтражениеЗарплатыВФинансовомУчете</Document>
 			<Document>ОтгрузкаТоваровСХранения</Document>
+			<Document>ВводНачальныхОстатковОтпусков</Document>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
 			<Enum>ПорядокОплатыПоСоглашениям</Enum>
 			<Enum>ХозяйственныеОперации</Enum>
