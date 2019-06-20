@@ -1363,6 +1363,16 @@
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="257"/>
 					<ChildItems>
+						<Button name="ЗаполнитьСуммуПоТЧ" id="612">
+							<Type>UsualButton</Type>
+							<Representation>PictureAndText</Representation>
+							<CommandName>Form.Command.ЗаполнитьСуммуПоТЧ</CommandName>
+							<Picture>
+								<xr:Ref>StdPicture.GenerateReport</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ExtendedTooltip name="ЗаполнитьСуммуПоТЧРасширеннаяПодсказка" id="613"/>
+						</Button>
 						<CheckBoxField name="ЧастичнаяОплата" id="43">
 							<DataPath>Объект.ЧастичнаяОплата</DataPath>
 							<Title>
@@ -1655,6 +1665,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action callType="After">ВИЛС_ЗаполнитьТоварамиИзЗаказаПосле</Action>
+		</Command>
+		<Command name="ЗаполнитьСуммуПоТЧ" id="1000000">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить сумму по ТЧ</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить сумму по ТЧ</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="After">ВИЛС_ЗаполнитьСуммуПоТЧПосле</Action>
 		</Command>
 	</Commands>
 	<BaseForm version="2.10">
