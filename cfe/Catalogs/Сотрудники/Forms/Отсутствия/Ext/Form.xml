@@ -1,0 +1,578 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<CommandBarLocation>None</CommandBarLocation>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<CommandSet>
+		<ExcludedCommand>Abort</ExcludedCommand>
+		<ExcludedCommand>Cancel</ExcludedCommand>
+		<ExcludedCommand>Close</ExcludedCommand>
+		<ExcludedCommand>CustomizeForm</ExcludedCommand>
+		<ExcludedCommand>Help</ExcludedCommand>
+		<ExcludedCommand>Ignore</ExcludedCommand>
+		<ExcludedCommand>No</ExcludedCommand>
+		<ExcludedCommand>OK</ExcludedCommand>
+		<ExcludedCommand>RestoreValues</ExcludedCommand>
+		<ExcludedCommand>Retry</ExcludedCommand>
+		<ExcludedCommand>SaveValues</ExcludedCommand>
+		<ExcludedCommand>Yes</ExcludedCommand>
+	</CommandSet>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer" callType="After">ВИЛС_ПриСозданииНаСервереПосле</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="ОбщаяГруппа" id="52">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Общая группа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Common group</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ОбщаяГруппаExtendedTooltip" id="53"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаОстатокОтпусков" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Остаток отпуска</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Remaining leave</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Horizontal</Group>
+					<Representation>None</Representation>
+					<ExtendedTooltip name="ГруппаОстатокОтпусковExtendedTooltip" id="54"/>
+					<ChildItems>
+						<LabelField name="ОстатокОтпуска" id="2">
+							<DataPath>4</DataPath>
+							<TitleLocation>None</TitleLocation>
+							<ContextMenu name="ОстатокОтпускаКонтекстноеМеню" id="3"/>
+							<ExtendedTooltip name="ОстатокОтпускаExtendedTooltip" id="55"/>
+						</LabelField>
+						<Button name="СправкаПоОтпускамСотрудника" id="4">
+							<Type>Hyperlink</Type>
+							<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+							<ExtendedTooltip name="СправкаПоОтпускамСотрудникаExtendedTooltip" id="56"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ОтсутствияГруппа" id="66">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отсутствия группа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Absence group</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ОтсутствияГруппаРасширеннаяПодсказка" id="67"/>
+					<ChildItems>
+						<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="77">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа пользовательских настроек</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>User settings group</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="78"/>
+						</UsualGroup>
+						<UsualGroup name="СписокНастройкиОтбора" id="79">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Дополнительные условия</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Additional conditions</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ExtendedTooltip name="СписокНастройкиОтбораРасширеннаяПодсказка" id="80"/>
+						</UsualGroup>
+						<CommandBar name="КоманднаяПанельФормы" id="81">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Командная панель формы</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Form command bar</v8:content>
+								</v8:item>
+							</Title>
+							<CommandSource>Item.Отсутствия</CommandSource>
+							<ExtendedTooltip name="КоманднаяПанельФормыРасширеннаяПодсказка" id="82"/>
+						</CommandBar>
+						<Table name="Отсутствия" id="8">
+							<TitleLocation>Auto</TitleLocation>
+							<CommandBarLocation>None</CommandBarLocation>
+							<HeightInTableRows>3</HeightInTableRows>
+							<UseAlternationRowColor>true</UseAlternationRowColor>
+							<EnableStartDrag>true</EnableStartDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>2</DataPath>
+							<RowPictureDataPath>2/10000000</RowPictureDataPath>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отпуска, командировки и др. отсутствия</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Leaves, business trips and other absences.</v8:content>
+								</v8:item>
+							</Title>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
+							<ContextMenu name="ОтсутствияКонтекстноеМеню" id="9"/>
+							<AutoCommandBar name="ОтсутствияКоманднаяПанель" id="10"/>
+							<ExtendedTooltip name="ОтсутствияExtendedTooltip" id="60"/>
+							<SearchStringAddition name="ОтсутствияСтрокаПоиска" id="68">
+								<AdditionSource>
+									<Item>Отсутствия</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ОтсутствияСтрокаПоискаКонтекстноеМеню" id="69"/>
+								<ExtendedTooltip name="ОтсутствияСтрокаПоискаРасширеннаяПодсказка" id="70"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ОтсутствияСостояниеПросмотра" id="71">
+								<AdditionSource>
+									<Item>Отсутствия</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ОтсутствияСостояниеПросмотраКонтекстноеМеню" id="72"/>
+								<ExtendedTooltip name="ОтсутствияСостояниеПросмотраРасширеннаяПодсказка" id="73"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ОтсутствияУправлениеПоиском" id="74">
+								<AdditionSource>
+									<Item>Отсутствия</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ОтсутствияУправлениеПоискомКонтекстноеМеню" id="75"/>
+								<ExtendedTooltip name="ОтсутствияУправлениеПоискомРасширеннаяПодсказка" id="76"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<PictureField name="ОтсутствияЕстьФайлы" id="89">
+									<DataPath>2/5</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отсутствия есть файлы</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Absence there are files</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>None</TitleLocation>
+									<HeaderPicture>
+										<xr:Ref>CommonPicture.Скрепка</xr:Ref>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</HeaderPicture>
+									<Width>2</Width>
+									<ValuesPicture>
+										<xr:Ref>CommonPicture.КоллекцияСкрепка</xr:Ref>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</ValuesPicture>
+									<FileDragMode>AsFile</FileDragMode>
+									<ContextMenu name="ОтсутствияЕстьФайлыКонтекстноеМеню" id="90"/>
+									<ExtendedTooltip name="ОтсутствияЕстьФайлыРасширеннаяПодсказка" id="91"/>
+								</PictureField>
+								<LabelField name="ОтсутствияДата" id="34">
+									<DataPath>2/6</DataPath>
+									<Width>7</Width>
+									<ContextMenu name="ОтсутствияДатаКонтекстноеМеню" id="35"/>
+									<ExtendedTooltip name="ОтсутствияДатаExtendedTooltip" id="61"/>
+								</LabelField>
+								<LabelField name="ОтсутствияНомер" id="36">
+									<DataPath>2/11</DataPath>
+									<Width>14</Width>
+									<ContextMenu name="ОтсутствияНомерКонтекстноеМеню" id="37"/>
+									<ExtendedTooltip name="ОтсутствияНомерExtendedTooltip" id="62"/>
+								</LabelField>
+								<LabelField name="ОтсутствияТип" id="38">
+									<DataPath>2/23</DataPath>
+									<ContextMenu name="ОтсутствияТипКонтекстноеМеню" id="39"/>
+									<ExtendedTooltip name="ОтсутствияТипExtendedTooltip" id="63"/>
+								</LabelField>
+								<LabelField name="ОтсутствияДатаНачала" id="83">
+									<DataPath>2/25</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Начало</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Start</v8:content>
+										</v8:item>
+									</Title>
+									<Width>9</Width>
+									<ContextMenu name="ОтсутствияДатаНачалаКонтекстноеМеню" id="84"/>
+									<ExtendedTooltip name="ОтсутствияДатаНачалаРасширеннаяПодсказка" id="85"/>
+								</LabelField>
+								<LabelField name="ОтсутствияДатаОкончания" id="86">
+									<DataPath>2/27</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Окончание</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>End</v8:content>
+										</v8:item>
+									</Title>
+									<Width>9</Width>
+									<ContextMenu name="ОтсутствияДатаОкончанияКонтекстноеМеню" id="87"/>
+									<ExtendedTooltip name="ОтсутствияДатаОкончанияРасширеннаяПодсказка" id="88"/>
+								</LabelField>
+								<LabelField name="ОтсутствияОтветственный" id="48">
+									<DataPath>2/31</DataPath>
+									<ContextMenu name="ОтсутствияОтветственныйКонтекстноеМеню" id="49"/>
+									<ExtendedTooltip name="ОтсутствияОтветственныйExtendedTooltip" id="64"/>
+								</LabelField>
+								<LabelField name="ОтсутствияКомментарий" id="50">
+									<DataPath>2/33</DataPath>
+									<ContextMenu name="ОтсутствияКомментарийКонтекстноеМеню" id="51"/>
+									<ExtendedTooltip name="ОтсутствияКомментарийExtendedTooltip" id="65"/>
+								</LabelField>
+								<LabelField name="ОтсутствияСсылка" id="92">
+									<DataPath>2/40</DataPath>
+									<UserVisible>
+										<xr:Common>false</xr:Common>
+									</UserVisible>
+									<ContextMenu name="ОтсутствияСсылкаКонтекстноеМеню" id="93"/>
+									<ExtendedTooltip name="ОтсутствияСсылкаРасширеннаяПодсказка" id="94"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.10">
+		<CommandBarLocation>None</CommandBarLocation>
+		<VerticalScroll>useIfNecessary</VerticalScroll>
+		<CommandSet>
+			<ExcludedCommand>Abort</ExcludedCommand>
+			<ExcludedCommand>Cancel</ExcludedCommand>
+			<ExcludedCommand>Close</ExcludedCommand>
+			<ExcludedCommand>CustomizeForm</ExcludedCommand>
+			<ExcludedCommand>Help</ExcludedCommand>
+			<ExcludedCommand>Ignore</ExcludedCommand>
+			<ExcludedCommand>No</ExcludedCommand>
+			<ExcludedCommand>OK</ExcludedCommand>
+			<ExcludedCommand>RestoreValues</ExcludedCommand>
+			<ExcludedCommand>Retry</ExcludedCommand>
+			<ExcludedCommand>SaveValues</ExcludedCommand>
+			<ExcludedCommand>Yes</ExcludedCommand>
+		</CommandSet>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+		<ChildItems>
+			<UsualGroup name="ОбщаяГруппа" id="52">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Общая группа</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Common group</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Vertical</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ОбщаяГруппаExtendedTooltip" id="53"/>
+				<ChildItems>
+					<UsualGroup name="ГруппаОстатокОтпусков" id="1">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Остаток отпуска</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Remaining leave</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Horizontal</Group>
+						<Representation>None</Representation>
+						<ExtendedTooltip name="ГруппаОстатокОтпусковExtendedTooltip" id="54"/>
+						<ChildItems>
+							<LabelField name="ОстатокОтпуска" id="2">
+								<DataPath>4</DataPath>
+								<TitleLocation>None</TitleLocation>
+								<ContextMenu name="ОстатокОтпускаКонтекстноеМеню" id="3"/>
+								<ExtendedTooltip name="ОстатокОтпускаExtendedTooltip" id="55"/>
+							</LabelField>
+							<Button name="СправкаПоОтпускамСотрудника" id="4">
+								<Type>Hyperlink</Type>
+								<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+								<ExtendedTooltip name="СправкаПоОтпускамСотрудникаExtendedTooltip" id="56"/>
+							</Button>
+						</ChildItems>
+					</UsualGroup>
+					<UsualGroup name="ОтсутствияГруппа" id="66">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Отсутствия группа</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Absence group</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ОтсутствияГруппаРасширеннаяПодсказка" id="67"/>
+						<ChildItems>
+							<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="77">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа пользовательских настроек</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>User settings group</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Horizontal</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="78"/>
+							</UsualGroup>
+							<UsualGroup name="СписокНастройкиОтбора" id="79">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Дополнительные условия</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Additional conditions</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Vertical</Group>
+								<Representation>None</Representation>
+								<ExtendedTooltip name="СписокНастройкиОтбораРасширеннаяПодсказка" id="80"/>
+							</UsualGroup>
+							<CommandBar name="КоманднаяПанельФормы" id="81">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Командная панель формы</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Form command bar</v8:content>
+									</v8:item>
+								</Title>
+								<CommandSource>Item.Отсутствия</CommandSource>
+								<ExtendedTooltip name="КоманднаяПанельФормыРасширеннаяПодсказка" id="82"/>
+							</CommandBar>
+							<Table name="Отсутствия" id="8">
+								<TitleLocation>Auto</TitleLocation>
+								<CommandBarLocation>None</CommandBarLocation>
+								<HeightInTableRows>3</HeightInTableRows>
+								<UseAlternationRowColor>true</UseAlternationRowColor>
+								<EnableStartDrag>true</EnableStartDrag>
+								<FileDragMode>AsFile</FileDragMode>
+								<DataPath>2</DataPath>
+								<RowPictureDataPath>2/10000000</RowPictureDataPath>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отпуска, командировки и др. отсутствия</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Leaves, business trips and other absences.</v8:content>
+									</v8:item>
+								</Title>
+								<AutoRefresh>false</AutoRefresh>
+								<AutoRefreshPeriod>60</AutoRefreshPeriod>
+								<Period>
+									<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+									<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+									<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+								</Period>
+								<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+								<RestoreCurrentRow>false</RestoreCurrentRow>
+								<TopLevelParent xsi:nil="true"/>
+								<ShowRoot>true</ShowRoot>
+								<AllowRootChoice>false</AllowRootChoice>
+								<UpdateOnDataChange>Auto</UpdateOnDataChange>
+								<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
+								<ContextMenu name="ОтсутствияКонтекстноеМеню" id="9"/>
+								<AutoCommandBar name="ОтсутствияКоманднаяПанель" id="10"/>
+								<ExtendedTooltip name="ОтсутствияExtendedTooltip" id="60"/>
+								<SearchStringAddition name="ОтсутствияСтрокаПоиска" id="68">
+									<AdditionSource>
+										<Item>Отсутствия</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="ОтсутствияСтрокаПоискаКонтекстноеМеню" id="69"/>
+									<ExtendedTooltip name="ОтсутствияСтрокаПоискаРасширеннаяПодсказка" id="70"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="ОтсутствияСостояниеПросмотра" id="71">
+									<AdditionSource>
+										<Item>Отсутствия</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="ОтсутствияСостояниеПросмотраКонтекстноеМеню" id="72"/>
+									<ExtendedTooltip name="ОтсутствияСостояниеПросмотраРасширеннаяПодсказка" id="73"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="ОтсутствияУправлениеПоиском" id="74">
+									<AdditionSource>
+										<Item>Отсутствия</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="ОтсутствияУправлениеПоискомКонтекстноеМеню" id="75"/>
+									<ExtendedTooltip name="ОтсутствияУправлениеПоискомРасширеннаяПодсказка" id="76"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<PictureField name="ОтсутствияЕстьФайлы" id="89">
+										<DataPath>2/5</DataPath>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Отсутствия есть файлы</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Absence there are files</v8:content>
+											</v8:item>
+										</Title>
+										<TitleLocation>None</TitleLocation>
+										<HeaderPicture>
+											<xr:Ref>CommonPicture.Скрепка</xr:Ref>
+											<xr:LoadTransparent>false</xr:LoadTransparent>
+										</HeaderPicture>
+										<Width>2</Width>
+										<ValuesPicture>
+											<xr:Ref>CommonPicture.КоллекцияСкрепка</xr:Ref>
+											<xr:LoadTransparent>false</xr:LoadTransparent>
+										</ValuesPicture>
+										<FileDragMode>AsFile</FileDragMode>
+										<ContextMenu name="ОтсутствияЕстьФайлыКонтекстноеМеню" id="90"/>
+										<ExtendedTooltip name="ОтсутствияЕстьФайлыРасширеннаяПодсказка" id="91"/>
+									</PictureField>
+									<LabelField name="ОтсутствияДата" id="34">
+										<DataPath>2/6</DataPath>
+										<Width>7</Width>
+										<ContextMenu name="ОтсутствияДатаКонтекстноеМеню" id="35"/>
+										<ExtendedTooltip name="ОтсутствияДатаExtendedTooltip" id="61"/>
+									</LabelField>
+									<LabelField name="ОтсутствияНомер" id="36">
+										<DataPath>2/11</DataPath>
+										<Width>14</Width>
+										<ContextMenu name="ОтсутствияНомерКонтекстноеМеню" id="37"/>
+										<ExtendedTooltip name="ОтсутствияНомерExtendedTooltip" id="62"/>
+									</LabelField>
+									<LabelField name="ОтсутствияТип" id="38">
+										<DataPath>2/23</DataPath>
+										<ContextMenu name="ОтсутствияТипКонтекстноеМеню" id="39"/>
+										<ExtendedTooltip name="ОтсутствияТипExtendedTooltip" id="63"/>
+									</LabelField>
+									<LabelField name="ОтсутствияДатаНачала" id="83">
+										<DataPath>2/25</DataPath>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Начало</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Start</v8:content>
+											</v8:item>
+										</Title>
+										<Width>9</Width>
+										<ContextMenu name="ОтсутствияДатаНачалаКонтекстноеМеню" id="84"/>
+										<ExtendedTooltip name="ОтсутствияДатаНачалаРасширеннаяПодсказка" id="85"/>
+									</LabelField>
+									<LabelField name="ОтсутствияДатаОкончания" id="86">
+										<DataPath>2/27</DataPath>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Окончание</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>End</v8:content>
+											</v8:item>
+										</Title>
+										<Width>9</Width>
+										<ContextMenu name="ОтсутствияДатаОкончанияКонтекстноеМеню" id="87"/>
+										<ExtendedTooltip name="ОтсутствияДатаОкончанияРасширеннаяПодсказка" id="88"/>
+									</LabelField>
+									<LabelField name="ОтсутствияОтветственный" id="48">
+										<DataPath>2/31</DataPath>
+										<ContextMenu name="ОтсутствияОтветственныйКонтекстноеМеню" id="49"/>
+										<ExtendedTooltip name="ОтсутствияОтветственныйExtendedTooltip" id="64"/>
+									</LabelField>
+									<LabelField name="ОтсутствияКомментарий" id="50">
+										<DataPath>2/33</DataPath>
+										<ContextMenu name="ОтсутствияКомментарийКонтекстноеМеню" id="51"/>
+										<ExtendedTooltip name="ОтсутствияКомментарийExtendedTooltip" id="65"/>
+									</LabelField>
+									<LabelField name="ОтсутствияСсылка" id="92">
+										<DataPath>2/40</DataPath>
+										<UserVisible>
+											<xr:Common>false</xr:Common>
+										</UserVisible>
+										<ContextMenu name="ОтсутствияСсылкаКонтекстноеМеню" id="93"/>
+										<ExtendedTooltip name="ОтсутствияСсылкаРасширеннаяПодсказка" id="94"/>
+									</LabelField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>
