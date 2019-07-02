@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="015c5b36-8e3a-47f6-8dad-0f100fa4b873">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.УвольнениеСписком" category="Object">
+				<xr:TypeId>db770ded-9b5a-4fd3-bce8-7ca401600b04</xr:TypeId>
+				<xr:ValueId>fe2f7966-af63-448d-86cf-dcac557f9596</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.УвольнениеСписком" category="Ref">
+				<xr:TypeId>6debc8be-75b7-4480-8527-b8eb92b3d6aa</xr:TypeId>
+				<xr:ValueId>f11fce60-27b3-42d5-92c2-8a0de5139d9f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.УвольнениеСписком" category="Selection">
+				<xr:TypeId>99b8ba58-8d5a-4893-9551-7b0daaff190e</xr:TypeId>
+				<xr:ValueId>b12d48e1-bf5f-4ac8-ade4-f7347432d5bb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.УвольнениеСписком" category="List">
+				<xr:TypeId>d2eb3577-cd77-4f37-8e47-b5f7e9d821e3</xr:TypeId>
+				<xr:ValueId>c84b1821-05fc-43a7-9d41-ccdb14198a1d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.УвольнениеСписком" category="Manager">
+				<xr:TypeId>75d4b639-e6c9-49f3-bd14-5d0402f268e4</xr:TypeId>
+				<xr:ValueId>83c59b2a-ea8b-48f5-9929-6e203b6ae7da</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>УвольнениеСписком</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="dc692283-7dd6-4da5-8b4d-0da7a060e236">
+				<InternalInfo/>
+				<Properties>
+					<Name>Организация</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаСтроки</Form>
+			<TabularSection uuid="d40b3ad6-fbdc-465e-a638-78ca7ef43fa9">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.УвольнениеСписком.Сотрудники" category="TabularSection">
+						<xr:TypeId>7ba563e6-5745-4942-ab29-69a3a07f8066</xr:TypeId>
+						<xr:ValueId>ccaea40a-b65f-4fb3-a01a-14d7ca077944</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.УвольнениеСписком.Сотрудники" category="TabularSectionRow">
+						<xr:TypeId>653ff974-1dee-49c8-9e7e-a65149261b43</xr:TypeId>
+						<xr:ValueId>56ec9c32-9b38-4f19-9d02-269fb0fbf00b</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Сотрудники</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="2012b27c-b88b-4a0e-b025-93285ad5f323">
+						<InternalInfo/>
+						<Properties>
+							<Name>Сотрудник</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="3e59ed6b-4cca-43c7-8aa7-704fd6854ed3">
+						<Properties>
+							<Name>ВИЛС_УсловияТруда</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ВИЛС условия труда</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:CatalogRef.УсловияТруда</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<InformationRegister uuid="e5b606a6-4736-4943-8fc9-db3f41115a8c">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ВИЛС_ДанныеУсловийТрудаПоСотрудникам" category="Record">
+				<xr:TypeId>9ccf57eb-59b4-485f-b622-9afb1b2f8bab</xr:TypeId>
+				<xr:ValueId>d136d578-1ba1-4202-b88b-a46f354e63f1</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ВИЛС_ДанныеУсловийТрудаПоСотрудникам" category="Manager">
+				<xr:TypeId>270fcd83-a945-4612-95d2-cef0881264bc</xr:TypeId>
+				<xr:ValueId>3e69ddc3-0d77-4c94-80c8-707387b9867a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ВИЛС_ДанныеУсловийТрудаПоСотрудникам" category="Selection">
+				<xr:TypeId>d847b93d-84f3-47a5-b8f3-952a5740fcea</xr:TypeId>
+				<xr:ValueId>90eedcc1-3f0e-4709-b5a3-cd34dfb24085</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ВИЛС_ДанныеУсловийТрудаПоСотрудникам" category="List">
+				<xr:TypeId>5aeddb87-15bc-4eb3-9ea7-7077714bf33a</xr:TypeId>
+				<xr:ValueId>e4887b7c-35b3-46a5-bd32-eb020b6a5d85</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ВИЛС_ДанныеУсловийТрудаПоСотрудникам" category="RecordSet">
+				<xr:TypeId>07089cd5-b3df-4490-acb9-546ed0a3fcef</xr:TypeId>
+				<xr:ValueId>7f791ee2-57de-4cc6-a819-b844939f5370</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ВИЛС_ДанныеУсловийТрудаПоСотрудникам" category="RecordKey">
+				<xr:TypeId>22187365-1ef1-4b09-8a18-cf7e22bf87ac</xr:TypeId>
+				<xr:ValueId>686c15cb-572b-4fce-a344-e6ded7f88d93</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ВИЛС_ДанныеУсловийТрудаПоСотрудникам" category="RecordManager">
+				<xr:TypeId>168142e2-579e-476c-8781-6bc254da030e</xr:TypeId>
+				<xr:ValueId>f93bb5b6-22d1-45c1-aca2-f435f4bb7a9b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВИЛС_ДанныеУсловийТрудаПоСотрудникам</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="bac7bfd5-a8ad-4ca9-8ea5-d37c1b88dfd5">
+				<InternalInfo/>
+				<Properties>
+					<Name>УсловияТруда</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.УсловияТруда</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Attribute uuid="57151cf8-cdf5-4d65-b01d-05d767994417">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДокументРегистратор</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Dimension uuid="0d91d712-fbad-4e81-afbd-6416455f00a4">
+				<InternalInfo/>
+				<Properties>
+					<Name>Сотрудник</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

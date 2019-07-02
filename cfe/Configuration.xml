@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>96947348-ce2e-47f0-b3ac-4eb24461c339</xr:ObjectId>
+				<xr:ObjectId>208f9ae3-71cb-4030-b856-2f8c8d22a633</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -229,6 +229,9 @@
 			<CommonModule>ЗаполнениеФормСтатистики</CommonModule>
 			<CommonModule>РасчетСебестоимости</CommonModule>
 			<CommonModule>СотрудникиФормыРасширенный</CommonModule>
+			<CommonModule>ДатыЗапретаИзменения</CommonModule>
+			<CommonModule>ВИЛС_Служебный</CommonModule>
+			<CommonModule>УчетРабочегоВремениРасширенный</CommonModule>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>ИспользоватьПодключаемоеОборудование</FunctionalOption>
 			<FunctionalOption>ИспользоватьПоступлениеПоНесколькимЗаказам</FunctionalOption>
@@ -318,6 +321,7 @@
 			<CommonCommand>Напомнить</CommonCommand>
 			<CommonCommand>ИсторияИзменений</CommonCommand>
 			<CommonCommand>ПрисоединенныеФайлыБЗК</CommonCommand>
+			<CommonCommand>ПрисоединенныеФайлы</CommonCommand>
 			<CommandGroup>Органайзер</CommandGroup>
 			<Constant>ИспользоватьПодключаемоеОборудование</Constant>
 			<Constant>ИспользоватьПоступлениеПоНесколькимЗаказам</Constant>
@@ -462,6 +466,7 @@
 			<Catalog>КлючиАналитикиУчетаНоменклатуры</Catalog>
 			<Catalog>ПартииПроизводства</Catalog>
 			<Catalog>РесурсныеСпецификации</Catalog>
+			<Catalog>УсловияТруда</Catalog>
 			<Document>ПриобретениеТоваровУслуг</Document>
 			<Document>ЗаявкаНаРасходованиеДенежныхСредств</Document>
 			<Document>ЗаявлениеСотрудникаНаВыплатуПособия</Document>
@@ -500,6 +505,13 @@
 			<Document>ОтражениеЗарплатыВФинансовомУчете</Document>
 			<Document>ОтгрузкаТоваровСХранения</Document>
 			<Document>ВводНачальныхОстатковОтпусков</Document>
+			<Document>ПриемНаРаботу</Document>
+			<Document>ПриемНаРаботуСписком</Document>
+			<Document>КадровыйПеревод</Document>
+			<Document>КадровыйПереводСписком</Document>
+			<Document>Увольнение</Document>
+			<Document>УвольнениеСписком</Document>
+			<Document>ТабельУчетаРабочегоВремени</Document>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
 			<Enum>ПорядокОплатыПоСоглашениям</Enum>
 			<Enum>ХозяйственныеОперации</Enum>
@@ -558,6 +570,8 @@
 			<Enum>ТипыЗапасов</Enum>
 			<Enum>ВариантыРасчетаЦенНаборов</Enum>
 			<Enum>ВариантыПредставленияНаборовВПечатныхФормах</Enum>
+			<Enum>ВидыСтажаПФР2014</Enum>
+			<Enum>КомпенсацияУдержаниеОтпускаПриУвольнении</Enum>
 			<Report>ВИЛС_ВедомостьДокументовПоступлений</Report>
 			<Report>ВИЛС_ВыпускПродукцииПоОтпускнойСтоимости</Report>
 			<DataProcessor>ПодборСерийВДокументы</DataProcessor>
@@ -576,6 +590,7 @@
 			<InformationRegister>ДокументыСОшибкамиПроверкиКонтрагентов</InformationRegister>
 			<InformationRegister>НоменклатураСегмента</InformationRegister>
 			<InformationRegister>ВИЛС_СоответствияПоРазделамУчета</InformationRegister>
+			<InformationRegister>ВИЛС_ДанныеУсловийТрудаПоСотрудникам</InformationRegister>
 			<AccumulationRegister>ДенежныеСредстваКВыплате</AccumulationRegister>
 			<AccumulationRegister>Закупки</AccumulationRegister>
 			<AccumulationRegister>ДвиженияНоменклатураНоменклатура</AccumulationRegister>

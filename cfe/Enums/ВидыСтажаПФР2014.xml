@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="9ea927f5-ab55-427b-a180-5b1fd82b1efd">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыСтажаПФР2014" category="Ref">
+				<xr:TypeId>fc0b90af-474c-4c1a-9dc1-d5bba4cbbad2</xr:TypeId>
+				<xr:ValueId>d9a45cf2-5d29-4382-8782-60990f0990d9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыСтажаПФР2014" category="Manager">
+				<xr:TypeId>2853088c-10fd-400a-9378-ecb4a92eb63b</xr:TypeId>
+				<xr:ValueId>eec840fd-7499-4bb6-834d-a0fc6c6c6773</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыСтажаПФР2014" category="List">
+				<xr:TypeId>cfbc6962-e972-46ea-b302-52ba45fa4718</xr:TypeId>
+				<xr:ValueId>25fdcf0c-c4ad-4cf1-9a36-257335e89f5d</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВидыСтажаПФР2014</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="0c6b62cc-e778-4be8-bc3a-bf315c3dcebb">
+				<InternalInfo/>
+				<Properties>
+					<Name>МЕСЯЦ</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b70bfe72-2392-4719-a7fe-d0822f8d4da3">
+				<InternalInfo/>
+				<Properties>
+					<Name>МЕДНЕТРУД</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
