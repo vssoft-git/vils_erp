@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>bc07a178-0ec2-4a59-ba10-caacaec8b94d</xr:ObjectId>
+				<xr:ObjectId>753dbc83-0669-4579-8c1c-0a8cbe80b75a</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -77,6 +77,10 @@
 			<StyleItem>ФайлЗанятыйТекущимПользователем</StyleItem>
 			<StyleItem>ФайлЗанятыйДругимПользователем</StyleItem>
 			<StyleItem>ИзмененныеСтроки</StyleItem>
+			<StyleItem>ТекстИнформационнойНадписи</StyleItem>
+			<StyleItem>ЦветФонаПолностьюОбеспечен</StyleItem>
+			<StyleItem>ЦветФонаЧастичноОбеспечен</StyleItem>
+			<StyleItem>ЦветФонаНеОбеспечен</StyleItem>
 			<CommonPicture>ПодключаемоеОборудованиеТерминалСбораДанных16</CommonPicture>
 			<CommonPicture>СерииНоменклатурыУказаныFEFO</CommonPicture>
 			<CommonPicture>НовыйПоШтрихкоду</CommonPicture>
@@ -197,6 +201,8 @@
 			<CommonPicture>ПротоколСОшибкой</CommonPicture>
 			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
 			<CommonPicture>КоллекцияСкрепка</CommonPicture>
+			<CommonPicture>ОбеспечениеРекомендации</CommonPicture>
+			<CommonTemplate>ВИЛС_СостояниеОбеспеченияЗаказов</CommonTemplate>
 			<CommonModule>АктВыполненныхРаботЛокализация</CommonModule>
 			<CommonModule>ВИЛС_Переопределяемый</CommonModule>
 			<CommonModule>ВозвратСырьяДавальцуЛокализация</CommonModule>
@@ -389,6 +395,7 @@
 			<CommonForm>ФормаНастроекОтчета</CommonForm>
 			<CommonForm>ФормаОтчета</CommonForm>
 			<CommonForm>ПодборПартийПроизводства</CommonForm>
+			<CommonForm>ВИЛС_ВсеКадровыеДокументы</CommonForm>
 			<Catalog>ПредприятияВЕТИС</Catalog>
 			<Catalog>ЗаписиСкладскогоЖурналаВЕТИС</Catalog>
 			<Catalog>УпаковкиЕдиницыИзмерения</Catalog>
@@ -585,6 +592,7 @@
 			<DataProcessor>ПечатьОбщихФорм</DataProcessor>
 			<DataProcessor>ПечатьТранспортнойНакладной</DataProcessor>
 			<DataProcessor>ПечатьЗаказовНаТоварыУслуги</DataProcessor>
+			<DataProcessor>СостояниеОбеспечения</DataProcessor>
 			<InformationRegister>НаличиеФайлов</InformationRegister>
 			<InformationRegister>РеестрДокументов</InformationRegister>
 			<InformationRegister>ГрафикПлатежей</InformationRegister>
