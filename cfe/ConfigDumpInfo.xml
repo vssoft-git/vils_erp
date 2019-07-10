@@ -275,7 +275,8 @@
 		</Metadata>
 		<Metadata name="Catalog.ТипыПлатежейФЗ275" id="bb58f222-6b1e-4002-b42e-1f08edda9ac1" configVersion="b8fdbcbe716841d2559e1497fdb6514d399f280f"/>
 		<Metadata name="Catalog.УпаковкиЕдиницыИзмерения" id="70f60bc6-0d13-4330-9976-ef938ac40e09" configVersion="77ee360191cde2af671e56cee5319e9c135238cc"/>
-		<Metadata name="Catalog.УсловияТруда" id="720f1715-f82b-4837-ac2e-ec7204c047a4" configVersion="bc3cbdb57eb297662f2a2df0b0570d984d38c11b"/>
+		<Metadata name="Catalog.УсловияТруда" id="720f1715-f82b-4837-ac2e-ec7204c047a4" configVersion="e3e02725e5af82bb9d83bf2c41164f76e3ee3581"/>
+		<Metadata name="Catalog.УсловияТруда.ObjectModule" id="720f1715-f82b-4837-ac2e-ec7204c047a4.0" configVersion="0830ec72a1798c197fe8e6d89a3c062dfdec1ba5"/>
 		<Metadata name="Catalog.Файлы" id="37b87d90-e4b6-4600-a624-091974b7d50f" configVersion="c4f741a256633896c8616dab27982302b8ec5954"/>
 		<Metadata name="Catalog.ФизическиеЛица" id="d59c919e-e4dc-427e-a46e-7d7073bf14d8" configVersion="948e904a6e08a60b2b27656903e93bfa60bcaa5f"/>
 		<Metadata name="Catalog.ХарактеристикиНоменклатуры" id="ccefd896-f80b-46b1-9304-c39f204204c3" configVersion="550c03ef0ccce9650a2ee347b70ca8d47386dfc5"/>
@@ -1487,9 +1488,10 @@
 			<Metadata name="Document.СчетФактураВыданныйАванс.TabularSection.Авансы.Attribute.ИсходныйСчетФактура" id="fd6e2632-41e4-4da7-94b1-3a6d8b0d12ef"/>
 		</Metadata>
 		<Metadata name="Document.СчетФактураВыданныйАванс.ManagerModule" id="7ff179e2-da66-47bc-b14b-319cc9ab6572.2" configVersion="ea13bf5fccde3115ddd6311b354fea210b7c0108"/>
-		<Metadata name="Document.ТабельУчетаРабочегоВремени" id="30e7d8d0-0f9d-476c-a8d8-0ce76d9e84fd" configVersion="e4c8036bcf0cd9baeccbd51efa4c8bbbcc63fd50"/>
+		<Metadata name="Document.ТабельУчетаРабочегоВремени" id="30e7d8d0-0f9d-476c-a8d8-0ce76d9e84fd" configVersion="a81433e8a1c5470ed965e30db598af2a7f76c7e2"/>
 		<Metadata name="Document.ТабельУчетаРабочегоВремени.Form.ФормаДокументаАльтернативная" id="8e442071-9f21-4fd7-9cf4-40efed18793f" configVersion="7ffc0b2f67fa07fc2cd600b2fba01809cd6e1f87"/>
 		<Metadata name="Document.ТабельУчетаРабочегоВремени.Form.ФормаДокументаАльтернативная.Form" id="8e442071-9f21-4fd7-9cf4-40efed18793f.0" configVersion="ec3482a314338fd84aba156085e4feabd30b1196"/>
+		<Metadata name="Document.ТабельУчетаРабочегоВремени.ManagerModule" id="30e7d8d0-0f9d-476c-a8d8-0ce76d9e84fd.2" configVersion="10bad6a9a03459ac8d7ff09b47d45c435453ae63"/>
 		<Metadata name="Document.ТранспортнаяНакладная" id="2588006c-d478-45a5-8e4b-2c7126fde17c" configVersion="c86420668fe80d6435346a05f27295eeaf80d015">
 			<Metadata name="Document.ТранспортнаяНакладная.Attribute.БанковскийСчетПлательщика" id="0ffd945c-7a16-4f2d-adc3-7f950688aba3"/>
 			<Metadata name="Document.ТранспортнаяНакладная.Attribute.Отпустил" id="13738691-f830-493b-bd2f-9100639d3cab"/>
@@ -1896,7 +1898,7 @@
 			<Metadata name="InformationRegister.ВИЛС_ДанныеУсловийТрудаПоСотрудникам.Attribute.ДокументРегистратор" id="57151cf8-cdf5-4d65-b01d-05d767994417"/>
 			<Metadata name="InformationRegister.ВИЛС_ДанныеУсловийТрудаПоСотрудникам.Resource.УсловияТруда" id="bac7bfd5-a8ad-4ca9-8ea5-d37c1b88dfd5"/>
 		</Metadata>
-		<Metadata name="InformationRegister.ВИЛС_ДанныеУсловийТрудаПоСотрудникам.ManagerModule" id="e5b606a6-4736-4943-8fc9-db3f41115a8c.2" configVersion="32c8106db8d2f93ee7959b32b21046fa43cbfedd"/>
+		<Metadata name="InformationRegister.ВИЛС_ДанныеУсловийТрудаПоСотрудникам.ManagerModule" id="e5b606a6-4736-4943-8fc9-db3f41115a8c.2" configVersion="cebf112d9f1c6afd9b1defeb34a3ecf73e9df597"/>
 		<Metadata name="InformationRegister.ВИЛС_СоответствияПоРазделамУчета" id="93b0e99d-48e5-4593-b798-96873ebdc1d7" configVersion="d8087042d758714d73e40ad862bfba63410976c3"/>
 		<Metadata name="InformationRegister.ГрафикПлатежей" id="65b1cbe6-b184-4621-8739-a56d01e7fb5a" configVersion="caa7bfe642a91fbc6045a6562c08c4358c403d9d">
 			<Metadata name="InformationRegister.ГрафикПлатежей.Dimension.Организация" id="112186a2-c044-466b-9d6a-e45d0cad897c"/>
