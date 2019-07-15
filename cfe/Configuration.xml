@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>cdc07c49-738c-4797-aa4b-be478d17eb4f</xr:ObjectId>
+				<xr:ObjectId>42a52063-cf83-4455-9614-dd1293c993b5</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -202,6 +202,9 @@
 			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
 			<CommonPicture>КоллекцияСкрепка</CommonPicture>
 			<CommonPicture>ОбеспечениеРекомендации</CommonPicture>
+			<CommonPicture>ПодписанЗашифрованСостояния</CommonPicture>
+			<CommonPicture>ПапкаОблачногоСервиса</CommonPicture>
+			<CommonPicture>ПодписанЗашифрованЗаголовок</CommonPicture>
 			<CommonTemplate>ВИЛС_СостояниеОбеспеченияЗаказов</CommonTemplate>
 			<CommonModule>АктВыполненныхРаботЛокализация</CommonModule>
 			<CommonModule>ВИЛС_Переопределяемый</CommonModule>
@@ -239,6 +242,7 @@
 			<CommonModule>ВИЛС_Служебный</CommonModule>
 			<CommonModule>УчетРабочегоВремениРасширенный</CommonModule>
 			<CommonModule>ОперативныеВзаиморасчетыСервер</CommonModule>
+			<CommonModule>БухгалтерскийУчетКлиентПереопределяемый</CommonModule>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>ИспользоватьПодключаемоеОборудование</FunctionalOption>
 			<FunctionalOption>ИспользоватьПоступлениеПоНесколькимЗаказам</FunctionalOption>
@@ -521,6 +525,7 @@
 			<Document>УвольнениеСписком</Document>
 			<Document>ТабельУчетаРабочегоВремени</Document>
 			<Document>ЛистКассовойКниги</Document>
+			<Document>НачальнаяШтатнаяРасстановка</Document>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
 			<Enum>ПорядокОплатыПоСоглашениям</Enum>
 			<Enum>ХозяйственныеОперации</Enum>
@@ -593,6 +598,7 @@
 			<DataProcessor>ПечатьТранспортнойНакладной</DataProcessor>
 			<DataProcessor>ПечатьЗаказовНаТоварыУслуги</DataProcessor>
 			<DataProcessor>СостояниеОбеспечения</DataProcessor>
+			<DataProcessor>РаботаСФайлами</DataProcessor>
 			<InformationRegister>НаличиеФайлов</InformationRegister>
 			<InformationRegister>РеестрДокументов</InformationRegister>
 			<InformationRegister>ГрафикПлатежей</InformationRegister>

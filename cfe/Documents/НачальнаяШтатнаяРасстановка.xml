@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="0bc3a018-82ad-4a89-bab3-15e50ab3fde2">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.НачальнаяШтатнаяРасстановка" category="Object">
+				<xr:TypeId>f7b52f72-4920-4942-be57-d12a00288d4b</xr:TypeId>
+				<xr:ValueId>2998eaba-c7c9-47fa-ae0d-5545084e48c0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.НачальнаяШтатнаяРасстановка" category="Ref">
+				<xr:TypeId>f6cf0f9d-136b-4555-8627-d1a7491490fa</xr:TypeId>
+				<xr:ValueId>91e98283-5cb3-4573-ae10-223831bbbeef</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.НачальнаяШтатнаяРасстановка" category="Selection">
+				<xr:TypeId>be4617a6-d7f1-4ca5-9662-95b8c5a406e6</xr:TypeId>
+				<xr:ValueId>f9d391df-ad14-48b7-83e5-d248c7de6913</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.НачальнаяШтатнаяРасстановка" category="List">
+				<xr:TypeId>f2d97432-3f7d-4fa8-bfb5-6d44379f34af</xr:TypeId>
+				<xr:ValueId>6d6b3063-f223-4a04-83f4-4ce6f0be9529</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.НачальнаяШтатнаяРасстановка" category="Manager">
+				<xr:TypeId>f5c5e671-00ab-4ca6-8b9e-6f635e27d5f7</xr:TypeId>
+				<xr:ValueId>fd56a749-1783-48a5-a35f-861575c80be8</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>НачальнаяШтатнаяРасстановка</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="a057ee39-d981-4b51-8e8f-c108530a02db">
+				<InternalInfo/>
+				<Properties>
+					<Name>Организация</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<TabularSection uuid="267ea681-3689-4d34-99a6-d241b24d8d90">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.НачальнаяШтатнаяРасстановка.Сотрудники" category="TabularSection">
+						<xr:TypeId>1a1c94d9-32f4-4b5a-ac68-fd3c09cceb04</xr:TypeId>
+						<xr:ValueId>83faf549-bed3-435c-9899-6298f85443c2</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.НачальнаяШтатнаяРасстановка.Сотрудники" category="TabularSectionRow">
+						<xr:TypeId>dd311f85-9725-482d-973b-33249fc97e36</xr:TypeId>
+						<xr:ValueId>6337a76c-b3ca-4f5c-a7a5-c6f305096f73</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Сотрудники</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="bc812754-a09e-4bb8-b27e-b78520b5fb67">
+						<InternalInfo/>
+						<Properties>
+							<Name>Сотрудник</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="bff8c7e0-8fd0-423e-9cea-94051204ec3b">
+						<Properties>
+							<Name>ВИЛС_УсловияТруда</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>ВИЛС условия труда</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:CatalogRef.УсловияТруда</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>
