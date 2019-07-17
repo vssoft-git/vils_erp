@@ -294,6 +294,8 @@
 		<Metadata name="ChartOfCharacteristicTypes.СтатьиДоходов" id="3e664c01-2b28-44f9-b80c-3d2751ad1d15" configVersion="de8cc24a3e0cbd7917c4a2479c04d0a43d5478eb"/>
 		<Metadata name="ChartOfCharacteristicTypes.СтатьиРасходов" id="6dfc2ead-6656-419b-8ff1-70f47c6ce0b7" configVersion="7e062497ad9f9c0c4a61ac72c4e8c69ca0c06dd7"/>
 		<Metadata name="CommandGroup.Органайзер" id="7aa7279e-617b-4613-b6a7-700d47c8d1e5" configVersion="8db2bad71ae7b1ce8bd1af08327d775628dd1d09"/>
+		<Metadata name="CommonCommand.ВИЛС_СчетаКонтрагентов" id="de3da648-6bb1-4f4e-8e04-04559b9d044a" configVersion="25dc78512ff23f0b3dd2889973417ed29e8500c1"/>
+		<Metadata name="CommonCommand.ВИЛС_СчетаКонтрагентов.CommandModule" id="de3da648-6bb1-4f4e-8e04-04559b9d044a.2" configVersion="5df09f9a87cc7cc6ba174be04e35d1965fb68e99"/>
 		<Metadata name="CommonCommand.ДополнительныеСведенияКоманднаяПанель" id="e70b3149-e4d1-41c1-85b1-cbc24799a13d" configVersion="b464217aa98565957e4407ec675e7cddbe7c49d5"/>
 		<Metadata name="CommonCommand.ИнтеграцияС1СДокументооборотСоздатьБизнесПроцесс" id="fdab14a7-4064-487e-9dea-b65bfcdf71a7" configVersion="41cb6b972e10456cb65ca5a8cd570e0b943df591"/>
 		<Metadata name="CommonCommand.ИнтеграцияС1СДокументооборотСоздатьПисьмо" id="c210151d-0729-413b-8a38-8564e63371a7" configVersion="7c2982b26eb6b76eeee9c73f7e2f445e2bdf8ec5"/>
@@ -514,7 +516,7 @@
 		<Metadata name="CommonPicture.ЭмблемаСервиса1СЭДО" id="51d79fec-ce06-4111-8cd7-7fe7b646048f" configVersion="c9af69255a3b0fb54cc14e46ef6130e667e50982"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов" id="6f8a616a-05f9-4a26-b137-ffe08a2de753" configVersion="c608bfe3b6a128f415f6c474a7d439715aa46ea6"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов.Template" id="6f8a616a-05f9-4a26-b137-ffe08a2de753.0" configVersion="7c10b1f0883f7212773cc7afbcae6f416b288240"/>
-		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="8ef0894606a57d5350bc3e01a22250d31647c69d"/>
+		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="de0a0cd96952476d247215ee52af8293f783e073"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="2d3d01ef-e545-4150-a6c6-5d7520ca086c" configVersion="ffbf25b1ccd42c35ee4ef2dc7390091df9f1a092"/>
 		<Metadata name="Constant.ИспользоватьБизнесРегионы" id="ab04cdcb-dc48-4252-9bb5-efc0097f0d24" configVersion="2a1a73d70e7a4e41f4f6f6420a92e7ceb98c7ec1"/>
 		<Metadata name="Constant.ИспользоватьГруппыДоступаПартнеров" id="91cb9a25-f41e-4571-801d-6947e8356d60" configVersion="66cb4cdf60f65d71350cb185af2b0703bc96ff12"/>
@@ -2009,5 +2011,7 @@
 		<Metadata name="StyleItem.ЦветФонаНеОбеспечен" id="b4a01826-b299-481f-9887-5af2ceebfef4" configVersion="7c3bbf8ffcc530af48163f6d7e4591fe99a5d2c8"/>
 		<Metadata name="StyleItem.ЦветФонаПолностьюОбеспечен" id="660b605b-5fd2-49eb-a681-79b0155df4dd" configVersion="d91bb208c83c5a508118e528ff681308790c3d05"/>
 		<Metadata name="StyleItem.ЦветФонаЧастичноОбеспечен" id="0e41875b-c325-4f4a-be5e-fecb36b43647" configVersion="48736ab294c91b02059d817713b8ddfaac0b208f"/>
+		<Metadata name="Subsystem.Казначейство" id="cd919056-55bb-4116-a717-8d8b946651a6" configVersion="fb08631ca658740936f26e82a7b15ef9928a0bf9"/>
+		<Metadata name="Subsystem.Казначейство.Subsystem.НастройкиИСправочники" id="eddde3dc-3f08-4118-8646-99bccb66defb" configVersion="3d47f972c9267a50d0acfaaeda5832d074e449d9"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
