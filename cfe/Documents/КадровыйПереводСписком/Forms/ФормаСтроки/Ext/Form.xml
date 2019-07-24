@@ -109,6 +109,7 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
+		<Event name="OnOpen" callType="After">ВИЛС_ПриОткрытииПосле</Event>
 		<Event name="OnCreateAtServer" callType="After">ВИЛС_ПриСозданииНаСервереПосле</Event>
 	</Events>
 	<ChildItems>
