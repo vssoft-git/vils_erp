@@ -10,7 +10,7 @@
 		</languageInfo>
 	</languageSettings>
 	<columns>
-		<size>29</size>
+		<size>28</size>
 		<columnsItem>
 			<index>0</index>
 			<column>
@@ -161,12 +161,6 @@
 				<formatIndex>5</formatIndex>
 			</column>
 		</columnsItem>
-		<columnsItem>
-			<index>28</index>
-			<column>
-				<formatIndex>5</formatIndex>
-			</column>
-		</columnsItem>
 	</columns>
 	<rowsItem>
 		<index>0</index>
@@ -256,7 +250,7 @@
 			<c>
 				<c>
 					<f>14</f>
-					<parameter>ТекстЗаголовка</parameter>
+					<parameter>ТекстЗаголовка0</parameter>
 				</c>
 			</c>
 			<c>
@@ -376,7 +370,7 @@
 			</c>
 			<c>
 				<c>
-					<f>19</f>
+					<f>18</f>
 				</c>
 			</c>
 			<c>
@@ -414,7 +408,7 @@
 			</c>
 			<c>
 				<c>
-					<f>19</f>
+					<f>18</f>
 				</c>
 			</c>
 			<c>
@@ -430,12 +424,7 @@
 			<c>
 				<c>
 					<f>20</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Дебиторская задолженность (контрагент)</v8:content>
-						</v8:item>
-					</tl>
+					<parameter>ТекстЗаголовка1</parameter>
 				</c>
 			</c>
 			<c>
@@ -580,7 +569,7 @@
 			</c>
 			<c>
 				<c>
-					<f>19</f>
+					<f>29</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -591,7 +580,7 @@
 			</c>
 			<c>
 				<c>
-					<f>19</f>
+					<f>29</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -625,24 +614,14 @@
 			</c>
 			<c>
 				<c>
-					<f>22</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Дата погашения ДЗ по договору</v8:content>
-						</v8:item>
-					</tl>
+					<f>27</f>
+					<parameter>ТекстЗаголовка2</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>29</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Сумма просроченной ДЗ на дату сдачи отчета, руб.</v8:content>
-						</v8:item>
-					</tl>
+					<f>30</f>
+					<parameter>ТекстЗаголовка3</parameter>
 				</c>
 			</c>
 			<c>
@@ -707,7 +686,7 @@
 		<row>
 			<c>
 				<c>
-					<f>30</f>
+					<f>31</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -718,7 +697,7 @@
 			</c>
 			<c>
 				<c>
-					<f>31</f>
+					<f>32</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -729,7 +708,7 @@
 			</c>
 			<c>
 				<c>
-					<f>32</f>
+					<f>33</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -740,7 +719,7 @@
 			</c>
 			<c>
 				<c>
-					<f>33</f>
+					<f>34</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -751,7 +730,7 @@
 			</c>
 			<c>
 				<c>
-					<f>32</f>
+					<f>33</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -762,7 +741,7 @@
 			</c>
 			<c>
 				<c>
-					<f>34</f>
+					<f>35</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -773,7 +752,7 @@
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>36</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -784,7 +763,7 @@
 			</c>
 			<c>
 				<c>
-					<f>36</f>
+					<f>37</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -795,7 +774,7 @@
 			</c>
 			<c>
 				<c>
-					<f>32</f>
+					<f>33</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -806,7 +785,7 @@
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>36</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -817,7 +796,7 @@
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>36</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -828,7 +807,7 @@
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>36</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -839,7 +818,7 @@
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>36</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -850,7 +829,7 @@
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>36</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -861,7 +840,7 @@
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>36</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -872,7 +851,7 @@
 			</c>
 			<c>
 				<c>
-					<f>36</f>
+					<f>37</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -883,7 +862,7 @@
 			</c>
 			<c>
 				<c>
-					<f>36</f>
+					<f>37</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -894,7 +873,7 @@
 			</c>
 			<c>
 				<c>
-					<f>36</f>
+					<f>37</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -905,7 +884,7 @@
 			</c>
 			<c>
 				<c>
-					<f>32</f>
+					<f>33</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -916,7 +895,7 @@
 			</c>
 			<c>
 				<c>
-					<f>36</f>
+					<f>37</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -927,7 +906,7 @@
 			</c>
 			<c>
 				<c>
-					<f>32</f>
+					<f>33</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -938,7 +917,7 @@
 			</c>
 			<c>
 				<c>
-					<f>32</f>
+					<f>33</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -949,7 +928,7 @@
 			</c>
 			<c>
 				<c>
-					<f>37</f>
+					<f>38</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -960,7 +939,7 @@
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>36</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -971,7 +950,7 @@
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>36</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -982,7 +961,7 @@
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>36</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -993,7 +972,7 @@
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>36</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1004,7 +983,7 @@
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>36</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1020,172 +999,172 @@
 		<row>
 			<c>
 				<c>
-					<f>38</f>
+					<f>39</f>
 					<parameter>НаименованиеСтр</parameter>
 					<detailParameter>Контрагент</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>39</f>
+					<f>40</f>
 					<parameter>НомерДоговора</parameter>
 					<detailParameter>Договор</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>40</f>
+					<f>41</f>
 					<parameter>ДатаДоговора</parameter>
 					<detailParameter>Договор</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>41</f>
+					<f>42</f>
 					<parameter>ИНН</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>42</f>
+					<f>43</f>
 					<parameter>Счет</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>43</f>
+					<f>44</f>
 					<parameter>ЗаЧто</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>44</f>
+					<f>45</f>
 					<parameter>КонПериода2М</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>45</f>
+					<f>46</f>
 					<parameter>ОборотыПериода1М</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>40</f>
+					<f>41</f>
 					<parameter>ДатаДолга1М</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>44</f>
+					<f>45</f>
 					<parameter>КонПериода1М</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>44</f>
+					<f>45</f>
 					<parameter>Колонка11Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>44</f>
+					<f>45</f>
 					<parameter>Колонка12Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>44</f>
+					<f>45</f>
 					<parameter>Колонка13Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>44</f>
+					<f>45</f>
 					<parameter>Колонка14Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>44</f>
+					<f>45</f>
 					<parameter>Колонка15Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>45</f>
+					<f>46</f>
 					<parameter>СуммаРезерва</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>46</f>
+					<f>47</f>
 					<parameter>Мероприятие</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>47</f>
+					<f>48</f>
 					<parameter>СрокПогашенияЗадолженности</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>48</f>
+					<f>49</f>
 					<parameter>ИсполняющееПодразделение</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>45</f>
+					<f>46</f>
 					<parameter>ОборотыПериодаТекМ</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>49</f>
+					<f>50</f>
 					<parameter>ДатаДолга</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>40</f>
+					<f>41</f>
 					<parameter>ДатаПогашенияДЗ</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>50</f>
+					<f>51</f>
 					<parameter>КонПериодаТекМ</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>44</f>
+					<f>45</f>
 					<parameter>Колонка22Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>44</f>
+					<f>45</f>
 					<parameter>Колонка23Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>44</f>
+					<f>45</f>
 					<parameter>Колонка24Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>44</f>
+					<f>45</f>
 					<parameter>Колонка25Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>44</f>
+					<f>45</f>
 					<parameter>Колонка26Ч</parameter>
 				</c>
 			</c>
@@ -1196,13 +1175,8 @@
 		<row>
 			<c>
 				<c>
-					<f>51</f>
-					<tl/>
-				</c>
-			</c>
-			<c>
-				<c>
 					<f>52</f>
+					<tl/>
 				</c>
 			</c>
 			<c>
@@ -1217,12 +1191,17 @@
 			</c>
 			<c>
 				<c>
-					<f>53</f>
+					<f>55</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>55</f>
+					<f>54</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -1233,60 +1212,60 @@
 			</c>
 			<c>
 				<c>
-					<f>56</f>
+					<f>57</f>
 					<parameter>КонПериода2М</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>57</f>
+					<f>58</f>
 					<parameter>ОборотыПериода1М</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>58</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>56</f>
-					<parameter>КонПериода1М</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>56</f>
-					<parameter>Колонка11Ч</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>56</f>
-					<parameter>Колонка12Ч</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>56</f>
-					<parameter>Колонка13Ч</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>56</f>
-					<parameter>Колонка14Ч</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>56</f>
-					<parameter>Колонка15Ч</parameter>
+					<f>59</f>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>57</f>
+					<parameter>КонПериода1М</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>57</f>
+					<parameter>Колонка11Ч</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>57</f>
+					<parameter>Колонка12Ч</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>57</f>
+					<parameter>Колонка13Ч</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>57</f>
+					<parameter>Колонка14Ч</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>57</f>
+					<parameter>Колонка15Ч</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>58</f>
 					<parameter>СуммаРезерва</parameter>
 				</c>
 			</c>
@@ -1297,23 +1276,23 @@
 			</c>
 			<c>
 				<c>
-					<f>59</f>
-				</c>
-			</c>
-			<c>
-				<c>
 					<f>60</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>57</f>
+					<f>61</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>58</f>
 					<parameter>ОборотыПериодаТекМ</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>61</f>
+					<f>56</f>
 					<tl/>
 				</c>
 			</c>
@@ -1324,37 +1303,37 @@
 			</c>
 			<c>
 				<c>
-					<f>56</f>
+					<f>57</f>
 					<parameter>КонПериодаТекМ</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>56</f>
+					<f>57</f>
 					<parameter>Колонка22Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>56</f>
+					<f>57</f>
 					<parameter>Колонка23Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>56</f>
+					<f>57</f>
 					<parameter>Колонка24Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>56</f>
+					<f>57</f>
 					<parameter>Колонка25Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>56</f>
+					<f>57</f>
 					<parameter>Колонка26Ч</parameter>
 				</c>
 			</c>
@@ -1370,63 +1349,13 @@
 				</c>
 			</c>
 			<c>
-				<i>6</i>
 				<c>
-					<f>56</f>
-					<parameter>КонПериода2М</parameter>
+					<f>64</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>57</f>
-					<parameter>ОборотыПериода1М</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>58</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>56</f>
-					<parameter>КонПериода1М</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>56</f>
-					<parameter>Колонка11Ч</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>56</f>
-					<parameter>Колонка12Ч</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>56</f>
-					<parameter>Колонка13Ч</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>56</f>
-					<parameter>Колонка14Ч</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>56</f>
-					<parameter>Колонка15Ч</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>57</f>
-					<parameter>СуммаРезерва</parameter>
+					<f>64</f>
 				</c>
 			</c>
 			<c>
@@ -1441,18 +1370,66 @@
 			</c>
 			<c>
 				<c>
-					<f>64</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>57</f>
-					<parameter>ОборотыПериодаТекМ</parameter>
+					<f>65</f>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>66</f>
+					<parameter>КонПериода2М</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>58</f>
+					<parameter>ОборотыПериода1М</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>59</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>57</f>
+					<parameter>КонПериода1М</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>57</f>
+					<parameter>Колонка11Ч</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>57</f>
+					<parameter>Колонка12Ч</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>57</f>
+					<parameter>Колонка13Ч</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>57</f>
+					<parameter>Колонка14Ч</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>57</f>
+					<parameter>Колонка15Ч</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>58</f>
+					<parameter>СуммаРезерва</parameter>
 				</c>
 			</c>
 			<c>
@@ -1462,37 +1439,63 @@
 			</c>
 			<c>
 				<c>
-					<f>56</f>
+					<f>68</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>67</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>58</f>
+					<parameter>ОборотыПериодаТекМ</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>69</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>70</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>57</f>
 					<parameter>КонПериодаТекМ</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>56</f>
+					<f>57</f>
 					<parameter>Колонка22Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>56</f>
+					<f>57</f>
 					<parameter>Колонка23Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>56</f>
+					<f>57</f>
 					<parameter>Колонка24Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>56</f>
+					<f>57</f>
 					<parameter>Колонка25Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>56</f>
+					<f>57</f>
 					<parameter>Колонка26Ч</parameter>
 				</c>
 			</c>
@@ -1503,172 +1506,172 @@
 		<row>
 			<c>
 				<c>
-					<f>68</f>
+					<f>71</f>
 					<parameter>ЗаЧто1М</parameter>
 					<detailParameter>ЗаЧто1М</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>69</f>
+					<f>72</f>
 					<detailParameter>ЗаЧто1М</detailParameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>69</f>
-					<detailParameter>ЗаЧто1М</detailParameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>70</f>
-					<detailParameter>ЗаЧто1М</detailParameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>71</f>
-					<parameter>ДатаДолга1М</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>72</f>
+					<detailParameter>ЗаЧто1М</detailParameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>73</f>
+					<detailParameter>ЗаЧто1М</detailParameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>74</f>
+					<parameter>ДатаДолга1М</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>75</f>
 					<parameter>РегистраторПредставление1М</parameter>
 					<detailParameter>Регистратор1М</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>73</f>
+					<f>76</f>
 					<detailParameter>Регистратор1М</detailParameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>73</f>
-					<detailParameter>Регистратор1М</detailParameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>73</f>
-					<detailParameter>Регистратор1М</detailParameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>74</f>
-					<detailParameter>Регистратор1М</detailParameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>75</f>
-					<parameter>Колонка11Ч</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>75</f>
-					<parameter>Колонка12Ч</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>75</f>
-					<parameter>Колонка13Ч</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>75</f>
-					<parameter>Колонка14Ч</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>75</f>
-					<parameter>Колонка15Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>76</f>
-					<tl/>
+					<detailParameter>Регистратор1М</detailParameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>76</f>
+					<detailParameter>Регистратор1М</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>77</f>
-					<parameter>ДатаДолга</parameter>
+					<detailParameter>Регистратор1М</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>78</f>
+					<parameter>Колонка11Ч</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>78</f>
+					<parameter>Колонка12Ч</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>78</f>
+					<parameter>Колонка13Ч</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>78</f>
+					<parameter>Колонка14Ч</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>78</f>
+					<parameter>Колонка15Ч</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>79</f>
+					<tl/>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>80</f>
+					<parameter>ДатаДолга</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>81</f>
 					<parameter>ЗаЧто</parameter>
 					<detailParameter>ЗаЧто</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>79</f>
+					<f>82</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>80</f>
+					<f>83</f>
 					<detailParameter>ЗаЧто</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>81</f>
+					<f>84</f>
 					<parameter>РегистраторПредставление</parameter>
 					<detailParameter>Регистратор</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>82</f>
+					<f>85</f>
 					<detailParameter>Регистратор</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>83</f>
+					<f>86</f>
 					<detailParameter>Регистратор</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>75</f>
+					<f>78</f>
 					<parameter>Колонка22Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>75</f>
+					<f>78</f>
 					<parameter>Колонка23Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>75</f>
+					<f>78</f>
 					<parameter>Колонка24Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>75</f>
+					<f>78</f>
 					<parameter>Колонка25Ч</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>75</f>
+					<f>78</f>
 					<parameter>Колонка26Ч</parameter>
 				</c>
 			</c>
@@ -1678,21 +1681,6 @@
 	<defaultFormatIndex>12</defaultFormatIndex>
 	<height>9</height>
 	<vgRows>9</vgRows>
-	<merge>
-		<r>2</r>
-		<c>10</c>
-		<w>4</w>
-	</merge>
-	<merge>
-		<r>2</r>
-		<c>23</c>
-		<w>4</w>
-	</merge>
-	<merge>
-		<r>7</r>
-		<c>0</c>
-		<w>5</w>
-	</merge>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Итого</name>
 		<area>
@@ -1906,7 +1894,6 @@
 		<font>3</font>
 		<leftBorder>0</leftBorder>
 		<topBorder>0</topBorder>
-		<rightBorder>0</rightBorder>
 		<bottomBorder>1</bottomBorder>
 		<borderColor>#666666</borderColor>
 		<width>96</width>
@@ -1916,6 +1903,7 @@
 		<backColor xmlns:d3p1="http://v8.1c.ru/8.1/data/ui/colors/web">d3p1:MistyRose</backColor>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
+		<bySelectedColumns>true</bySelectedColumns>
 	</format>
 	<format>
 		<font>3</font>
@@ -1926,19 +1914,25 @@
 		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
 		<textColor>#000000</textColor>
+		<backColor xmlns:d3p1="http://v8.1c.ru/8.1/data/ui/colors/web">d3p1:MistyRose</backColor>
 		<textPlacement>Wrap</textPlacement>
+		<fillType>Text</fillType>
+		<bySelectedColumns>true</bySelectedColumns>
 	</format>
 	<format>
 		<font>3</font>
 		<topBorder>0</topBorder>
 		<rightBorder>0</rightBorder>
 		<bottomBorder>1</bottomBorder>
-		<borderColor>#999999</borderColor>
+		<borderColor>#666666</borderColor>
 		<width>96</width>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
 		<textColor>#000000</textColor>
+		<backColor xmlns:d3p1="http://v8.1c.ru/8.1/data/ui/colors/web">d3p1:MistyRose</backColor>
 		<textPlacement>Wrap</textPlacement>
+		<fillType>Text</fillType>
+		<bySelectedColumns>true</bySelectedColumns>
 	</format>
 	<format>
 		<font>3</font>
@@ -1952,6 +1946,7 @@
 		<verticalAlignment>Center</verticalAlignment>
 		<textColor>#000000</textColor>
 		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
 	</format>
 	<format>
 		<font>3</font>
@@ -2059,12 +2054,25 @@
 		<rightBorder>0</rightBorder>
 		<bottomBorder>1</bottomBorder>
 		<borderColor>#999999</borderColor>
+		<width>96</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<font>3</font>
+		<topBorder>0</topBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<borderColor>#999999</borderColor>
 		<width>72</width>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
 		<textColor>#000000</textColor>
 		<backColor xmlns:d3p1="http://v8.1c.ru/8.1/data/ui/colors/web">d3p1:MistyRose</backColor>
 		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
 	</format>
 	<format>
 		<font>4</font>
@@ -2362,7 +2370,7 @@
 	<format>
 		<font>4</font>
 		<leftBorder>2</leftBorder>
-		<bottomBorder>2</bottomBorder>
+		<bottomBorder>0</bottomBorder>
 		<borderColor>#999999</borderColor>
 		<width>186</width>
 		<horizontalAlignment>Right</horizontalAlignment>
@@ -2372,7 +2380,7 @@
 	</format>
 	<format>
 		<font>4</font>
-		<bottomBorder>2</bottomBorder>
+		<bottomBorder>0</bottomBorder>
 		<borderColor>#999999</borderColor>
 		<width>80</width>
 		<horizontalAlignment>Right</horizontalAlignment>
@@ -2382,7 +2390,7 @@
 	</format>
 	<format>
 		<font>4</font>
-		<bottomBorder>2</bottomBorder>
+		<bottomBorder>0</bottomBorder>
 		<borderColor>#999999</borderColor>
 		<width>72</width>
 		<horizontalAlignment>Right</horizontalAlignment>
@@ -2392,7 +2400,7 @@
 	</format>
 	<format>
 		<font>4</font>
-		<bottomBorder>2</bottomBorder>
+		<bottomBorder>0</bottomBorder>
 		<borderColor>#999999</borderColor>
 		<width>109</width>
 		<horizontalAlignment>Right</horizontalAlignment>
@@ -2402,7 +2410,7 @@
 	</format>
 	<format>
 		<font>3</font>
-		<leftBorder>0</leftBorder>
+		<leftBorder>2</leftBorder>
 		<rightBorder>0</rightBorder>
 		<bottomBorder>0</bottomBorder>
 		<borderColor>#999999</borderColor>
@@ -2483,18 +2491,6 @@
 	</format>
 	<format>
 		<font>3</font>
-		<leftBorder>2</leftBorder>
-		<rightBorder>0</rightBorder>
-		<bottomBorder>0</bottomBorder>
-		<borderColor>#999999</borderColor>
-		<width>105</width>
-		<horizontalAlignment>Right</horizontalAlignment>
-		<verticalAlignment>Center</verticalAlignment>
-		<textColor>#000000</textColor>
-		<textPlacement>Wrap</textPlacement>
-	</format>
-	<format>
-		<font>3</font>
 		<rightBorder>0</rightBorder>
 		<bottomBorder>2</bottomBorder>
 		<borderColor>#999999</borderColor>
@@ -2515,6 +2511,53 @@
 		<textColor>#000000</textColor>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
+		<detailsUse>Cell</detailsUse>
+		<bySelectedColumns>true</bySelectedColumns>
+	</format>
+	<format>
+		<font>3</font>
+		<bottomBorder>0</bottomBorder>
+		<borderColor>#999999</borderColor>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Text</fillType>
+		<detailsUse>Cell</detailsUse>
+		<bySelectedColumns>true</bySelectedColumns>
+	</format>
+	<format>
+		<font>3</font>
+		<bottomBorder>0</bottomBorder>
+		<borderColor>#999999</borderColor>
+		<width>109</width>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Text</fillType>
+		<detailsUse>Cell</detailsUse>
+		<bySelectedColumns>true</bySelectedColumns>
+	</format>
+	<format>
+		<font>3</font>
+		<leftBorder>0</leftBorder>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>0</bottomBorder>
+		<borderColor>#999999</borderColor>
+		<width>96</width>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textColor>#000000</textColor>
+		<backColor xmlns:d3p1="http://v8.1c.ru/8.1/data/ui/colors/web">d3p1:MistyRose</backColor>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧЦ=15; ЧДЦ=2</v8:content>
+			</v8:item>
+		</format>
 	</format>
 	<format>
 		<font>3</font>
