@@ -430,6 +430,7 @@
 		<Metadata name="CommonPicture.ЗначокМинус" id="89c347db-bd66-4d1b-9939-af7719ea53fe" configVersion="f1bb4d8cac21631fad2acd32416902c3c42683cf"/>
 		<Metadata name="CommonPicture.ЗначокПлюс" id="b128cc2e-22d8-4895-99c4-eddf4d0c29b3" configVersion="8395823cb6294e532731ff187b924e522f2b5b00"/>
 		<Metadata name="CommonPicture.Информация" id="ca043eed-36e4-4ea8-9824-d7caff1394a8" configVersion="7fd8876a07f8ef2d8ab921efe7f1679649f83e2e"/>
+		<Metadata name="CommonPicture.ИнформацияПоНедоступнымПолям" id="b108d509-6ea3-47e4-bd54-8b3ddb45b59f" configVersion="5ec798f22bb3dbb89335f255821eaae861f5e2e8"/>
 		<Metadata name="CommonPicture.КоллекцияВариантыВажности" id="b031245f-4b21-4cf6-ad29-5a90fc3b929c" configVersion="524a14c71e6880d8b272098b0be96b69db29c81f"/>
 		<Metadata name="CommonPicture.КоллекцияВидыАктивныхПользователей" id="ca018d23-fec8-4722-8f8e-9a9c4daa2767" configVersion="747e1a8107f7337b2faf7bcaa79cb8b8ad43c19f"/>
 		<Metadata name="CommonPicture.КоллекцияВходящийИсходящийВнутренний" id="dac06615-4e76-4700-9216-d33f12d4173f" configVersion="54d3aa99ae8671d720cba916fb4be8a4d76f6a21"/>
@@ -481,6 +482,7 @@
 		<Metadata name="CommonPicture.ПоказатьПодробностиРасчетаЗарплаты" id="89c44cd2-5bbb-40fc-8c8d-1d3688219f8e" configVersion="6aef621d81ca0b8d07a093e50d756d374d532ae4"/>
 		<Metadata name="CommonPicture.ПолучитьВес" id="b4f004ee-3b95-4672-8828-470c7519874d" configVersion="7984339756cb86b73cadf8bb555839468c16b1e6"/>
 		<Metadata name="CommonPicture.ПоляИСортировки" id="95c6f162-c574-44be-bc2d-2ca6c7acb624" configVersion="eeecf82f3899605c0502b546fd972f17d504ed6b"/>
+		<Metadata name="CommonPicture.ПорядокВыполненияЗаказа" id="005213fa-7c38-4309-869d-494fc360f216" configVersion="f28d8f5a177f4dc8ae34c98689d91438376d5b3d"/>
 		<Metadata name="CommonPicture.ПревышениеЗаказа" id="7abd8fca-61db-4934-a49a-45f0da869754" configVersion="50f675411ce292de7cc057957d4009e1f3f4e823"/>
 		<Metadata name="CommonPicture.Предупреждение" id="fac218c5-179b-42a8-aab2-56c6ab8edb84" configVersion="b1b9ddf6f91604834ff89cc886b164cb98fad555"/>
 		<Metadata name="CommonPicture.Приоритеты" id="ea1f2222-aaa2-4d4d-92cb-a4da91f59ecb" configVersion="e8dac01a034eff747bd746ba10fa4c9b57293368"/>
@@ -520,7 +522,7 @@
 		<Metadata name="CommonPicture.ЭмблемаСервиса1СЭДО" id="51d79fec-ce06-4111-8cd7-7fe7b646048f" configVersion="c9af69255a3b0fb54cc14e46ef6130e667e50982"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов" id="6f8a616a-05f9-4a26-b137-ffe08a2de753" configVersion="c608bfe3b6a128f415f6c474a7d439715aa46ea6"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов.Template" id="6f8a616a-05f9-4a26-b137-ffe08a2de753.0" configVersion="7c10b1f0883f7212773cc7afbcae6f416b288240"/>
-		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="848ad2ddad79f309f2ec10d628171faba247dc7a"/>
+		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="2e89c4d2a6cb443c4b98618dca40cfba9f0b36c1"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="2d3d01ef-e545-4150-a6c6-5d7520ca086c" configVersion="ffbf25b1ccd42c35ee4ef2dc7390091df9f1a092"/>
 		<Metadata name="Constant.ИспользоватьБизнесРегионы" id="ab04cdcb-dc48-4252-9bb5-efc0097f0d24" configVersion="2a1a73d70e7a4e41f4f6f6420a92e7ceb98c7ec1"/>
 		<Metadata name="Constant.ИспользоватьГруппыДоступаПартнеров" id="91cb9a25-f41e-4571-801d-6947e8356d60" configVersion="66cb4cdf60f65d71350cb185af2b0703bc96ff12"/>
@@ -1600,6 +1602,9 @@
 			<Metadata name="Enum.ВариантыИспользованияХарактеристикНоменклатуры.EnumValue.НеИспользовать" id="a5ab9d48-fe86-464f-810b-d0af6eccb015"/>
 		</Metadata>
 		<Metadata name="Enum.ВариантыНавигацииВФормахНоменклатуры" id="636e0cdb-9e36-47c0-b578-f2d14e1a574a" configVersion="8725820593072bab60629bce58c97e212414816d"/>
+		<Metadata name="Enum.ВариантыОбеспечения" id="673fa1f9-8925-401d-9e06-72325bdaecf2" configVersion="80c5fb2caf4259a604664904eb7c82998afdb0a5"/>
+		<Metadata name="Enum.ВариантыОбеспечения.Form.ИсполнениеЗаказа" id="bd801860-ee2f-4a8c-bba7-a41209987907" configVersion="27a5ea7e2f80d1da060eb7c589857d8628666082"/>
+		<Metadata name="Enum.ВариантыОбеспечения.Form.ИсполнениеЗаказа.Form" id="bd801860-ee2f-4a8c-bba7-a41209987907.0" configVersion="8e1ae249ef6e7a38f8f2c8d369c8a0b8352536f6"/>
 		<Metadata name="Enum.ВариантыОплатыПоставщику" id="98b3ddf1-54af-494b-b758-674fc6ccd962" configVersion="714f208bd6d7e4a1fe84e206129669f6b8c9f75d">
 			<Metadata name="Enum.ВариантыОплатыПоставщику.EnumValue.КредитПослеПоступления" id="3f490531-422c-43a0-858f-10b89f1ce898"/>
 			<Metadata name="Enum.ВариантыОплатыПоставщику.EnumValue.ПредоплатаДоПоступления" id="cf0e375c-8bcc-489f-bbf2-a0772f9b0794"/>
