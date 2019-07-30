@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>2b8f108f-19ac-4464-b43e-0111ff53dbc2</xr:ObjectId>
+				<xr:ObjectId>bac95d32-9690-4fb2-9be3-ca63395c1c9e</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -244,6 +244,7 @@
 			<CommonModule>УчетРабочегоВремениРасширенный</CommonModule>
 			<CommonModule>ОперативныеВзаиморасчетыСервер</CommonModule>
 			<CommonModule>БухгалтерскийУчетКлиентПереопределяемый</CommonModule>
+			<CommonModule>ЗаданиеНаПеревозкуЛокализация</CommonModule>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>ИспользоватьПодключаемоеОборудование</FunctionalOption>
 			<FunctionalOption>ИспользоватьПоступлениеПоНесколькимЗаказам</FunctionalOption>
@@ -528,6 +529,7 @@
 			<Document>ТабельУчетаРабочегоВремени</Document>
 			<Document>ЛистКассовойКниги</Document>
 			<Document>НачальнаяШтатнаяРасстановка</Document>
+			<Document>ЗаказПоставщику</Document>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
 			<Enum>ПорядокОплатыПоСоглашениям</Enum>
 			<Enum>ХозяйственныеОперации</Enum>
