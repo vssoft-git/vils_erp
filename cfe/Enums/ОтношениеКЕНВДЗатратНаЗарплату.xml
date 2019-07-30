@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="a39e6b43-7285-47ca-b101-dc4d5927251b">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ОтношениеКЕНВДЗатратНаЗарплату" category="Ref">
+				<xr:TypeId>6b6368c9-279d-4276-bb19-04bf54d877c3</xr:TypeId>
+				<xr:ValueId>5c0aba8d-3cc2-44bd-9f81-87a80fc18c07</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ОтношениеКЕНВДЗатратНаЗарплату" category="Manager">
+				<xr:TypeId>85d65021-106d-46f3-b9f8-b4e3cfefe5d8</xr:TypeId>
+				<xr:ValueId>d33aaf66-8801-458f-8003-b9c30483e905</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ОтношениеКЕНВДЗатратНаЗарплату" category="List">
+				<xr:TypeId>456c65f8-2198-4383-86a4-bf3505eaff08</xr:TypeId>
+				<xr:ValueId>c645490c-83a4-4d80-b54f-20b0631fac23</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ОтношениеКЕНВДЗатратНаЗарплату</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="1e25f7bf-fa6f-4a54-8605-471f0af3be0a">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЕНВД</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="167da036-da17-4fc6-8214-0cfcbfff6e4d">
+				<InternalInfo/>
+				<Properties>
+					<Name>НеЕНВД</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

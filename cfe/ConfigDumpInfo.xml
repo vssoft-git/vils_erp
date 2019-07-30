@@ -520,7 +520,7 @@
 		<Metadata name="CommonPicture.ЭмблемаСервиса1СЭДО" id="51d79fec-ce06-4111-8cd7-7fe7b646048f" configVersion="c9af69255a3b0fb54cc14e46ef6130e667e50982"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов" id="6f8a616a-05f9-4a26-b137-ffe08a2de753" configVersion="c608bfe3b6a128f415f6c474a7d439715aa46ea6"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов.Template" id="6f8a616a-05f9-4a26-b137-ffe08a2de753.0" configVersion="7c10b1f0883f7212773cc7afbcae6f416b288240"/>
-		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="6002e11e167512ce52d1dce0dd73d2fe3632d002"/>
+		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="848ad2ddad79f309f2ec10d628171faba247dc7a"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="2d3d01ef-e545-4150-a6c6-5d7520ca086c" configVersion="ffbf25b1ccd42c35ee4ef2dc7390091df9f1a092"/>
 		<Metadata name="Constant.ИспользоватьБизнесРегионы" id="ab04cdcb-dc48-4252-9bb5-efc0097f0d24" configVersion="2a1a73d70e7a4e41f4f6f6420a92e7ceb98c7ec1"/>
 		<Metadata name="Constant.ИспользоватьГруппыДоступаПартнеров" id="91cb9a25-f41e-4571-801d-6947e8356d60" configVersion="66cb4cdf60f65d71350cb185af2b0703bc96ff12"/>
@@ -1066,6 +1066,9 @@
 		<Metadata name="Document.НачальнаяШтатнаяРасстановка.ObjectModule" id="0bc3a018-82ad-4a89-bab3-15e50ab3fde2.0" configVersion="98e36fc593546159a2037faa73e12c11dc48e207"/>
 		<Metadata name="Document.ОтгрузкаТоваровСХранения" id="2831058b-0be1-4719-a935-78b591cf6484" configVersion="2b61aaf8464060d581d1a93e1849eafb5ab8491a"/>
 		<Metadata name="Document.ОтгрузкаТоваровСХранения.ManagerModule" id="2831058b-0be1-4719-a935-78b591cf6484.2" configVersion="4f7085c4c9554aac9af0276db7b5745945b84ad8"/>
+		<Metadata name="Document.Отпуск" id="02fa99b4-8e90-40b4-9d82-1255068a00e5" configVersion="88f54752e6b02da2c8466869e8f374f3b65b0256"/>
+		<Metadata name="Document.Отпуск.Form.ФормаДокумента" id="9e1e305f-44bd-4cee-8c70-bc486cb9fa46" configVersion="d19e68455e565f61bb1d209f544ab5beaad3d680"/>
+		<Metadata name="Document.Отпуск.Form.ФормаДокумента.Form" id="9e1e305f-44bd-4cee-8c70-bc486cb9fa46.0" configVersion="162cb70cdbf238b3b1d1ab6e067ee3283a658b37"/>
 		<Metadata name="Document.ОтражениеЗарплатыВФинансовомУчете" id="8a50f891-ad21-499b-b52a-96846ad4524c" configVersion="f5acda4507da7a2d2f2294d9f74b974e3a0f1c30"/>
 		<Metadata name="Document.ОтражениеЗарплатыВФинансовомУчете.ManagerModule" id="8a50f891-ad21-499b-b52a-96846ad4524c.2" configVersion="420e2130580262e35d8d9eafef28479e57600b08"/>
 		<Metadata name="Document.ОтчетДавальцу" id="d958fa8a-37ea-40ef-bcf7-6f7539a57513" configVersion="e82af89b0691e903973b86d45b03b0a34b96f873">
@@ -1659,6 +1662,10 @@
 		<Metadata name="Enum.ОтветственныеЛицаОрганизаций" id="d29d0720-8b05-41f2-b9f1-d65c3c06874c" configVersion="8d0ac02f67b74c1ac4c9638675adfce60ef30c2f">
 			<Metadata name="Enum.ОтветственныеЛицаОрганизаций.EnumValue.ГлавныйБухгалтер" id="3f267a05-9baa-4bd3-a5d4-d40ba775b71d"/>
 			<Metadata name="Enum.ОтветственныеЛицаОрганизаций.EnumValue.Руководитель" id="66f45c81-d27f-45a5-bfeb-a851f81fbe81"/>
+		</Metadata>
+		<Metadata name="Enum.ОтношениеКЕНВДЗатратНаЗарплату" id="a39e6b43-7285-47ca-b101-dc4d5927251b" configVersion="896ea98d336385ff4ad4da6380c4101d741870da">
+			<Metadata name="Enum.ОтношениеКЕНВДЗатратНаЗарплату.EnumValue.НеЕНВД" id="167da036-da17-4fc6-8214-0cfcbfff6e4d"/>
+			<Metadata name="Enum.ОтношениеКЕНВДЗатратНаЗарплату.EnumValue.ЕНВД" id="1e25f7bf-fa6f-4a54-8605-471f0af3be0a"/>
 		</Metadata>
 		<Metadata name="Enum.ПолФизическогоЛица" id="20f9b081-715d-4e93-ac63-62f17f0f9e55" configVersion="9bc36b1a55d7ac94dbfbff0294d643c5a9d78283"/>
 		<Metadata name="Enum.ПорядокОплатыПоСоглашениям" id="65419a85-094b-4ae7-b0ea-3bdf42c5f18b" configVersion="cba011a8f6345443716548213b012cfe258dab0f"/>
