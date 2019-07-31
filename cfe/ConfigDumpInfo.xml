@@ -178,6 +178,7 @@
 			<Metadata name="Catalog.НоменклатураПоставщиков.Attribute.Артикул" id="50bd7f6a-f153-4906-b0f1-52b235d42eb7"/>
 		</Metadata>
 		<Metadata name="Catalog.НомераГТД" id="6893ad65-3574-4f4a-a4b6-d9bcc4cec4ea" configVersion="b1a38f1d0c28a13c2f0da6bf67961c6b728c8551"/>
+		<Metadata name="Catalog.ОбъектыЭксплуатации" id="8ebcb11f-98ce-40e3-9ac7-eb6d0aac74cd" configVersion="5064f85a60b95e53baeec99885046994f65ee1ce"/>
 		<Metadata name="Catalog.Организации" id="1a001896-0491-4f50-887d-84a1dff0f1f0" configVersion="62c6014284901e974ce0f960c85425b3387d67d1"/>
 		<Metadata name="Catalog.ОтветственныеЛицаОрганизаций" id="4a97d42f-d964-4c9f-ba36-26da5c3e2247" configVersion="c233c3e7196f025e9dd259c8ff4a01a8651d3e6c"/>
 		<Metadata name="Catalog.ПартииПроизводства" id="6b8a0aaf-f233-405a-9368-72b6ada68d8d" configVersion="760e9329c07049418b5079f0f56552f8ed25d6df"/>
@@ -522,7 +523,7 @@
 		<Metadata name="CommonPicture.ЭмблемаСервиса1СЭДО" id="51d79fec-ce06-4111-8cd7-7fe7b646048f" configVersion="c9af69255a3b0fb54cc14e46ef6130e667e50982"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов" id="6f8a616a-05f9-4a26-b137-ffe08a2de753" configVersion="c608bfe3b6a128f415f6c474a7d439715aa46ea6"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов.Template" id="6f8a616a-05f9-4a26-b137-ffe08a2de753.0" configVersion="7c10b1f0883f7212773cc7afbcae6f416b288240"/>
-		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="2e89c4d2a6cb443c4b98618dca40cfba9f0b36c1"/>
+		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="e3c04254b61b4b729d91629dd5a0af8622520a30"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="2d3d01ef-e545-4150-a6c6-5d7520ca086c" configVersion="ffbf25b1ccd42c35ee4ef2dc7390091df9f1a092"/>
 		<Metadata name="Constant.ИспользоватьБизнесРегионы" id="ab04cdcb-dc48-4252-9bb5-efc0097f0d24" configVersion="2a1a73d70e7a4e41f4f6f6420a92e7ceb98c7ec1"/>
 		<Metadata name="Constant.ИспользоватьГруппыДоступаПартнеров" id="91cb9a25-f41e-4571-801d-6947e8356d60" configVersion="66cb4cdf60f65d71350cb185af2b0703bc96ff12"/>
@@ -791,6 +792,9 @@
 		<Metadata name="Document.ВводОстатков.Form.ФормаРасчетыСПартнерами.Form" id="381a86a0-5d0a-4038-ae44-940ede7b0548.0" configVersion="ef152e755203bac963b573e401b380fcbdc447a8"/>
 		<Metadata name="Document.ВводОстатков.Form.ФормаТовары" id="f9912fe5-5852-4064-9d74-7a98b3e5f225" configVersion="939345bed76fc01185611a3fc6626f40814b6bfc"/>
 		<Metadata name="Document.ВводОстатков.Form.ФормаТовары.Form" id="f9912fe5-5852-4064-9d74-7a98b3e5f225.0" configVersion="f29f9835f6bc3cf29f6001f18e300a147fbb315f"/>
+		<Metadata name="Document.ВводОстатковВнеоборотныхАктивов" id="e4945dc5-2d30-41c4-a2f3-5089c46f0eb9" configVersion="be065d3002c9799eafa56bb8a56d73ae650af5d9"/>
+		<Metadata name="Document.ВводОстатковВнеоборотныхАктивов.Form.ФормаОсновныеСредства" id="1a2e2b79-85fb-4b6c-ab85-c0dae544dfe0" configVersion="b1981e4fbcbc9004c0bb4d2edfc921e1c2615033"/>
+		<Metadata name="Document.ВводОстатковВнеоборотныхАктивов.Form.ФормаОсновныеСредства.Form" id="1a2e2b79-85fb-4b6c-ab85-c0dae544dfe0.0" configVersion="8102ae7c90aec76d83dbb95234481107d5522fcd"/>
 		<Metadata name="Document.ВозвратТоваровПоставщику" id="910d5b14-e40a-4605-9821-0b30bf0f9460" configVersion="b23c820b13269516202f5241a8bafd98b959589b">
 			<Metadata name="Document.ВозвратТоваровПоставщику.Attribute.Подразделение" id="00aaa7a9-d0c3-4fd1-858e-d907639e0b32"/>
 			<Metadata name="Document.ВозвратТоваровПоставщику.TabularSection.ВидыЗапасов" id="03ee7c67-b910-477d-86e2-a056f8b4ff9e"/>
