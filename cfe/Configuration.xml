@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>26fd12fc-965e-412c-90ca-07e80ba1ff6b</xr:ObjectId>
+				<xr:ObjectId>4f85b1e5-78e0-4c98-931b-ac0c9d57cfa5</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -208,6 +208,9 @@
 			<CommonPicture>ПодписанЗашифрованЗаголовок</CommonPicture>
 			<CommonPicture>ПорядокВыполненияЗаказа</CommonPicture>
 			<CommonPicture>ИнформацияПоНедоступнымПолям</CommonPicture>
+			<CommonPicture>Состояние33Процента</CommonPicture>
+			<CommonPicture>ДоставкаКолонкаДоставлено</CommonPicture>
+			<CommonPicture>ТранспортнаяНакладная</CommonPicture>
 			<CommonTemplate>ВИЛС_СостояниеОбеспеченияЗаказов</CommonTemplate>
 			<CommonModule>АктВыполненныхРаботЛокализация</CommonModule>
 			<CommonModule>ВИЛС_Переопределяемый</CommonModule>
@@ -597,6 +600,8 @@
 			<Enum>КомпенсацияУдержаниеОтпускаПриУвольнении</Enum>
 			<Enum>ОтношениеКЕНВДЗатратНаЗарплату</Enum>
 			<Enum>ВариантыОбеспечения</Enum>
+			<Enum>ПорядокОформленияСписанияНедостачПринятыхНаХранениеТоваров</Enum>
+			<Enum>ТипыИсполнителейЗаданийНаПеревозку</Enum>
 			<Report>ВИЛС_ВедомостьДокументовПоступлений</Report>
 			<Report>ВИЛС_ВыпускПродукцииПоОтпускнойСтоимости</Report>
 			<Report>ИсполнениеКонтрактовГОЗ</Report>
@@ -619,6 +624,7 @@
 			<InformationRegister>НоменклатураСегмента</InformationRegister>
 			<InformationRegister>ВИЛС_СоответствияПоРазделамУчета</InformationRegister>
 			<InformationRegister>ВИЛС_ДанныеУсловийТрудаПоСотрудникам</InformationRegister>
+			<InformationRegister>СтроковыеСведенияФизическихЛиц</InformationRegister>
 			<AccumulationRegister>ДенежныеСредстваКВыплате</AccumulationRegister>
 			<AccumulationRegister>Закупки</AccumulationRegister>
 			<AccumulationRegister>ДвиженияНоменклатураНоменклатура</AccumulationRegister>

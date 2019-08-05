@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="4d6faaf6-0ec6-4bd0-8223-958c85088887">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ТипыИсполнителейЗаданийНаПеревозку" category="Ref">
+				<xr:TypeId>faa1fb47-954e-4549-a1f0-e57632f9cada</xr:TypeId>
+				<xr:ValueId>f9a99b4b-4974-4e09-9284-c62a4c4de33f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ТипыИсполнителейЗаданийНаПеревозку" category="Manager">
+				<xr:TypeId>88e213e9-6f23-4c66-9401-3514eb687f6a</xr:TypeId>
+				<xr:ValueId>c7e85d47-7e7b-4221-ab62-296b57577980</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ТипыИсполнителейЗаданийНаПеревозку" category="List">
+				<xr:TypeId>38ef6167-592d-45c0-869e-72056da38165</xr:TypeId>
+				<xr:ValueId>4073f619-b922-4b77-be56-52dcbdd92793</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ТипыИсполнителейЗаданийНаПеревозку</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="0ce4dbc7-2175-4543-97e3-f124795183f6">
+				<InternalInfo/>
+				<Properties>
+					<Name>НашаТранспортнаяСлужба</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="362f7d0e-64f7-4a1b-bbb0-4a9d96391a28">
+				<InternalInfo/>
+				<Properties>
+					<Name>Перевозчик</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
