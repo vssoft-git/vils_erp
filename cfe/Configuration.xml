@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>736e6ea7-6dcd-42dd-abd5-eee5f53ac654</xr:ObjectId>
+				<xr:ObjectId>7f6cacaa-18b7-445f-b542-fcda766eef74</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -211,6 +211,11 @@
 			<CommonPicture>Состояние33Процента</CommonPicture>
 			<CommonPicture>ДоставкаКолонкаДоставлено</CommonPicture>
 			<CommonPicture>ТранспортнаяНакладная</CommonPicture>
+			<Role>ДобавлениеИзменениеНачисленнойЗарплатыРасширенная</Role>
+			<Role>ДобавлениеИзменениеПремийПоощрений</Role>
+			<Role>ПолныеПрава</Role>
+			<Role>ЧтениеНачисленнойЗарплатыРасширенная</Role>
+			<Role>ЧтениеПремийПоощрений</Role>
 			<CommonTemplate>ВИЛС_СостояниеОбеспеченияЗаказов</CommonTemplate>
 			<CommonModule>АктВыполненныхРаботЛокализация</CommonModule>
 			<CommonModule>ВИЛС_Переопределяемый</CommonModule>
@@ -250,6 +255,7 @@
 			<CommonModule>ОперативныеВзаиморасчетыСервер</CommonModule>
 			<CommonModule>БухгалтерскийУчетКлиентПереопределяемый</CommonModule>
 			<CommonModule>ЗаданиеНаПеревозкуЛокализация</CommonModule>
+			<CommonModule>ЗарплатаКадрыОтчетыРасширенный</CommonModule>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>ИспользоватьПодключаемоеОборудование</FunctionalOption>
 			<FunctionalOption>ИспользоватьПоступлениеПоНесколькимЗаказам</FunctionalOption>
@@ -538,6 +544,7 @@
 			<Document>ЗаказПоставщику</Document>
 			<Document>Отпуск</Document>
 			<Document>ВводОстатковВнеоборотныхАктивов</Document>
+			<Document>Премия</Document>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
 			<Enum>ПорядокОплатыПоСоглашениям</Enum>
 			<Enum>ХозяйственныеОперации</Enum>
@@ -605,6 +612,7 @@
 			<Report>ВИЛС_ВедомостьДокументовПоступлений</Report>
 			<Report>ВИЛС_ВыпускПродукцииПоОтпускнойСтоимости</Report>
 			<Report>ИсполнениеКонтрактовГОЗ</Report>
+			<Report>ВИЛС_ПечатнаяФормаТ11</Report>
 			<DataProcessor>ПодборСерийВДокументы</DataProcessor>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
