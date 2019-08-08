@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>5a67eb86-9b91-44ed-9639-27630a65d42a</xr:ObjectId>
+				<xr:ObjectId>83edbc42-f797-4891-9b0e-a0b3217ce2d7</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -248,10 +248,10 @@
 			<CommonModule>ОперативныеВзаиморасчетыСервер</CommonModule>
 			<CommonModule>БухгалтерскийУчетКлиентПереопределяемый</CommonModule>
 			<CommonModule>ЗаданиеНаПеревозкуЛокализация</CommonModule>
-			<CommonModule>ЗарплатаКадрыОтчетыРасширенный</CommonModule>
 			<CommonModule>ВИЛС_Переопределяемый</CommonModule>
 			<CommonModule>ВИЛС_Служебный</CommonModule>
 			<CommonModule>ЗарплатаКадрыРасширенный</CommonModule>
+			<CommonModule>ЗарплатаКадрыОтчеты</CommonModule>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>ИспользоватьПодключаемоеОборудование</FunctionalOption>
 			<FunctionalOption>ИспользоватьПоступлениеПоНесколькимЗаказам</FunctionalOption>
@@ -608,7 +608,6 @@
 			<Report>ВИЛС_ВедомостьДокументовПоступлений</Report>
 			<Report>ВИЛС_ВыпускПродукцииПоОтпускнойСтоимости</Report>
 			<Report>ИсполнениеКонтрактовГОЗ</Report>
-			<Report>ВИЛС_ПечатнаяФормаТ11</Report>
 			<DataProcessor>ПодборСерийВДокументы</DataProcessor>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
