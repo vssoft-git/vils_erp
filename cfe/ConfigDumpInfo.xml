@@ -238,7 +238,7 @@
 		<Metadata name="Catalog.СделкиСКлиентами" id="508f7b70-6f07-4dcb-9faf-e0d6c96f7b53" configVersion="b6eb85faa949c75e1a523d220e09b364403b9c52"/>
 		<Metadata name="Catalog.СегментыНоменклатуры" id="9f7b6a73-dd05-42db-8527-e177c39be448" configVersion="72c01e610eb4e8690809bc01d76fd0df31d42275"/>
 		<Metadata name="Catalog.СегментыПартнеров" id="d9c08673-4a4e-4f23-b8b1-344edc5754f4" configVersion="f2e17113aac7a6c288c68317346c709d169a6d96"/>
-		<Metadata name="Catalog.СерииНоменклатуры" id="3a035626-af31-436c-b4ac-e7efc8934f16" configVersion="af99aceb81ceea88c31577cce4ae7c866244fb9c">
+		<Metadata name="Catalog.СерииНоменклатуры" id="3a035626-af31-436c-b4ac-e7efc8934f16" configVersion="c52a9f2369b8537a11759b99fe5c0f1c0eb15128">
 			<Metadata name="Catalog.СерииНоменклатуры.Attribute.ПроизводительВЕТИС" id="1cadd501-2c56-441e-8787-5f7d8559f22c"/>
 			<Metadata name="Catalog.СерииНоменклатуры.Attribute.Номер" id="318dbf1a-b18d-4ebe-9020-519f030578b8"/>
 			<Metadata name="Catalog.СерииНоменклатуры.Attribute.ДатаПроизводства" id="41c4ce55-4a52-4e75-abfc-cf4ad7677a4f"/>
@@ -250,6 +250,8 @@
 		</Metadata>
 		<Metadata name="Catalog.СерииНоменклатуры.Form.ФормаВыбора" id="7d0beb2b-3533-4214-a81d-6d2f403d0a78" configVersion="c5de1cd19bbd9f247c5d643c925fa22eff13670c"/>
 		<Metadata name="Catalog.СерииНоменклатуры.Form.ФормаВыбора.Form" id="7d0beb2b-3533-4214-a81d-6d2f403d0a78.0" configVersion="eda42961cab3caea3c1b754fc72b6a66a46dc3f1"/>
+		<Metadata name="Catalog.СерииНоменклатуры.Form.ФормаЭлемента" id="be0c3afb-2bcc-4c63-ae2c-b53718303333" configVersion="caee0d30f113614a12cc0ebc5a8b8098666f2e8b"/>
+		<Metadata name="Catalog.СерииНоменклатуры.Form.ФормаЭлемента.Form" id="be0c3afb-2bcc-4c63-ae2c-b53718303333.0" configVersion="d01dbb6afa13fa582071558cbe6659730e2d4932"/>
 		<Metadata name="Catalog.СкладскиеПомещения" id="326b5a25-2eb6-4632-bb02-cb73aedc7647" configVersion="02727b10f4fe4691ecdfdc25e019713ef48224ce"/>
 		<Metadata name="Catalog.СкладскиеЯчейки" id="5d9cddaf-a62e-48e9-9d76-1ea3259866f2" configVersion="0fdc2ff18064b4b59d4e631e5463bc3a5521dbc9"/>
 		<Metadata name="Catalog.Склады" id="9de2ba5f-428c-4788-ab37-fa5099b836e0" configVersion="ebd4ff81b3588710ae7d12f1e9044ff38bed6042">
@@ -356,6 +358,8 @@
 		<Metadata name="CommonModule.ИнтеграцияС1СДокументооборотПереопределяемый.Module" id="0fe12998-2a0c-469c-951c-c415b117a288.0" configVersion="4fe77cbcb41720a8d97f91f9ecf08ee6f2c2b40d"/>
 		<Metadata name="CommonModule.КадровыйУчет" id="edaad6d7-4507-4a2e-a2c3-aab0b4b81f28" configVersion="a7b3e1ecccddcaa8442fdc8b9e548f1703168d2b"/>
 		<Metadata name="CommonModule.КадровыйУчет.Module" id="edaad6d7-4507-4a2e-a2c3-aab0b4b81f28.0" configVersion="14932d94dcd9083d8dbcefaa24aea1fc3587b929"/>
+		<Metadata name="CommonModule.КадровыйУчетБазовый" id="c65f1e56-1b16-4e26-93c6-991fb241d20e" configVersion="c6ae44c0c4d8e9971365cfca034c47404ac9a50f"/>
+		<Metadata name="CommonModule.КадровыйУчетБазовый.Module" id="c65f1e56-1b16-4e26-93c6-991fb241d20e.0" configVersion="f38192fe6fce4d0cf6f41f2529474391a1a2cbdc"/>
 		<Metadata name="CommonModule.КадровыйУчетРасширенный" id="5e33277e-ed95-4ddb-ac88-6eb1b5d257ed" configVersion="f584f3eadbf8357c97251f6b944e9b98e8ec2326"/>
 		<Metadata name="CommonModule.КадровыйУчетРасширенный.Module" id="5e33277e-ed95-4ddb-ac88-6eb1b5d257ed.0" configVersion="6e63e8029e4f2006cde7b5a9a16b6b7b7740cd4b"/>
 		<Metadata name="CommonModule.ОбменСБанкамиПоЗарплатнымПроектамПереопределяемый" id="9e2bac10-b912-42e1-92fe-6d84c4b7f8c7" configVersion="70f6ef2616578a207b5a2ec94cb103c38ba00821"/>
@@ -531,7 +535,7 @@
 		<Metadata name="CommonPicture.ЭмблемаСервиса1СЭДО" id="51d79fec-ce06-4111-8cd7-7fe7b646048f" configVersion="c9af69255a3b0fb54cc14e46ef6130e667e50982"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов" id="6f8a616a-05f9-4a26-b137-ffe08a2de753" configVersion="c608bfe3b6a128f415f6c474a7d439715aa46ea6"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов.Template" id="6f8a616a-05f9-4a26-b137-ffe08a2de753.0" configVersion="7c10b1f0883f7212773cc7afbcae6f416b288240"/>
-		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="f670aa466639e74c0a335a4057039046b0303023"/>
+		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="535989459c17dc25919c1b48b7026a3f528531a4"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="2d3d01ef-e545-4150-a6c6-5d7520ca086c" configVersion="ffbf25b1ccd42c35ee4ef2dc7390091df9f1a092"/>
 		<Metadata name="Constant.ИспользоватьБизнесРегионы" id="ab04cdcb-dc48-4252-9bb5-efc0097f0d24" configVersion="2a1a73d70e7a4e41f4f6f6420a92e7ceb98c7ec1"/>
 		<Metadata name="Constant.ИспользоватьГруппыДоступаПартнеров" id="91cb9a25-f41e-4571-801d-6947e8356d60" configVersion="66cb4cdf60f65d71350cb185af2b0703bc96ff12"/>
@@ -765,7 +769,7 @@
 		<Metadata name="Document.ВИЛС_ИнвентаризацияТМЦВЭксплуатации.Command.Печать.CommandModule" id="67cd08e0-d941-4a6e-be53-d6bf87ae5145.2" configVersion="9a896464de39f09895ec5edb6642910ec9a688bd"/>
 		<Metadata name="Document.ВИЛС_ИнвентаризацияТМЦВЭксплуатации.Form.ФормаДокумента" id="ed291d6e-3221-4efe-9a65-a0ad87375647" configVersion="1f7a6cf2766e1add433f89e303d793c7fa900fdd"/>
 		<Metadata name="Document.ВИЛС_ИнвентаризацияТМЦВЭксплуатации.Form.ФормаДокумента.Form" id="ed291d6e-3221-4efe-9a65-a0ad87375647.0" configVersion="17a842ec994608215d39fbd8f7b8946652b50113"/>
-		<Metadata name="Document.ВИЛС_ИнвентаризацияТМЦВЭксплуатации.ManagerModule" id="27cf43fc-15b4-48fb-8e3d-223c91d761a6.2" configVersion="d7770a5ce26ed812dde0a79b0d3b2a281548f080"/>
+		<Metadata name="Document.ВИЛС_ИнвентаризацияТМЦВЭксплуатации.ManagerModule" id="27cf43fc-15b4-48fb-8e3d-223c91d761a6.2" configVersion="b05398ef09b35aa101cf7367f8aec1749c0c1055"/>
 		<Metadata name="Document.ВИЛС_ИнвентаризацияТМЦВЭксплуатации.Template.Печать" id="6e24d91c-4868-4590-98d5-dc6ca0f44f10" configVersion="ed4e35ad541b9f98d854a6e9e498db79f43c3906"/>
 		<Metadata name="Document.ВИЛС_ИнвентаризацияТМЦВЭксплуатации.Template.Печать.Template" id="6e24d91c-4868-4590-98d5-dc6ca0f44f10.0" configVersion="b2b483d55690860e9e35751d6de82af584fadd41"/>
 		<Metadata name="Document.ВводНачальныхОстатковОтпусков" id="bdcb3b7d-7c6e-49c2-aada-bc5298516650" configVersion="cd35166ffed983da7f072bceaf5c5a18ddbed0c4"/>
