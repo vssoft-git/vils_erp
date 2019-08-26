@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<InformationRegister uuid="51d5b9e4-2027-4c1b-93ca-fd39aafb4012">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ДокументыФизическихЛиц" category="Record">
+				<xr:TypeId>f3c74522-06cb-491f-8a95-1e05c42a3c87</xr:TypeId>
+				<xr:ValueId>be3383b1-c377-4190-ade9-df74bbb12715</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ДокументыФизическихЛиц" category="Manager">
+				<xr:TypeId>a8d4857a-e930-45ec-8b26-202f122e0117</xr:TypeId>
+				<xr:ValueId>7d9543d0-b054-4703-9d38-23d633091ec5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ДокументыФизическихЛиц" category="Selection">
+				<xr:TypeId>133a3429-d0df-4474-a9cc-ae2d93e592d1</xr:TypeId>
+				<xr:ValueId>818330c3-25ec-4091-a191-779cf88a1ce8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ДокументыФизическихЛиц" category="List">
+				<xr:TypeId>48dbabbb-fc78-405a-b3c5-24a5aaf18c30</xr:TypeId>
+				<xr:ValueId>98d796c7-86d3-4389-a5e9-8038bf1d1d66</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ДокументыФизическихЛиц" category="RecordSet">
+				<xr:TypeId>17930655-837f-4f4a-876c-ce0077a79c6a</xr:TypeId>
+				<xr:ValueId>14e06ebc-9397-4624-ae18-1f6a62d8c6f3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ДокументыФизическихЛиц" category="RecordKey">
+				<xr:TypeId>8fcf3266-c546-4353-90e0-424af3ced9a7</xr:TypeId>
+				<xr:ValueId>b93528c3-599c-4009-a0b4-fee0c6ca3618</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ДокументыФизическихЛиц" category="RecordManager">
+				<xr:TypeId>368b4429-0ac5-4489-81c3-4f35880d1a8f</xr:TypeId>
+				<xr:ValueId>d9f42c9d-ac4c-4b69-b842-c086608c6c84</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ДокументыФизическихЛиц</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<InformationRegisterPeriodicity>Day</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects>
+			<Resource uuid="97fbdc26-6b50-49df-8eb5-a6c0f6c55780">
+				<InternalInfo/>
+				<Properties>
+					<Name>Представление</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>500</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Resource>
+			<Resource uuid="86ace5d0-e2d9-42c8-be93-48c152ed7d7e">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЯвляетсяДокументомУдостоверяющимЛичность</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Resource>
+			<Dimension uuid="0bbcdfc9-b053-4668-b700-9a9318047441">
+				<InternalInfo/>
+				<Properties>
+					<Name>Физлицо</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Dimension>
+		</ChildObjects>
+	</InformationRegister>
+</MetaDataObject>

@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>e02ef0a3-b1e3-4fe1-b871-4ab6aeb1788c</xr:ObjectId>
+				<xr:ObjectId>67d270b0-7119-4849-bd30-93d54e56888a</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -254,6 +254,8 @@
 			<CommonModule>ЗарплатаКадрыРасширенный</CommonModule>
 			<CommonModule>ЗарплатаКадрыОтчеты</CommonModule>
 			<CommonModule>КадровыйУчетБазовый</CommonModule>
+			<CommonModule>ДоставкаТоваров</CommonModule>
+			<CommonModule>ДоставкаТоваровКлиентСервер</CommonModule>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>ИспользоватьПодключаемоеОборудование</FunctionalOption>
 			<FunctionalOption>ИспользоватьПоступлениеПоНесколькимЗаказам</FunctionalOption>
@@ -335,6 +337,8 @@
 			<DefinedType>ДенежнаяСуммаЛюбогоЗнака</DefinedType>
 			<DefinedType>ДенежнаяСуммаНеотрицательная</DefinedType>
 			<DefinedType>НомерСерии</DefinedType>
+			<DefinedType>РаспоряжениеНаДоставку</DefinedType>
+			<DefinedType>ОтправительПолучательТоваров</DefinedType>
 			<CommonCommand>ИнтеграцияС1СДокументооборотСоздатьПисьмо</CommonCommand>
 			<CommonCommand>ДополнительныеСведенияКоманднаяПанель</CommonCommand>
 			<CommonCommand>ИнтеграцияС1СДокументооборотСоздатьБизнесПроцесс</CommonCommand>
@@ -493,6 +497,7 @@
 			<Catalog>УсловияТруда</Catalog>
 			<Catalog>ОбъектыЭксплуатации</Catalog>
 			<Catalog>КатегорииЭксплуатации</Catalog>
+			<Catalog>Приоритеты</Catalog>
 			<Document>ПриобретениеТоваровУслуг</Document>
 			<Document>ЗаявкаНаРасходованиеДенежныхСредств</Document>
 			<Document>ЗаявлениеСотрудникаНаВыплатуПособия</Document>
@@ -545,6 +550,7 @@
 			<Document>ВводОстатковВнеоборотныхАктивов</Document>
 			<Document>Премия</Document>
 			<Document>ВИЛС_ИнвентаризацияТМЦВЭксплуатации</Document>
+			<Document>ВозвратСырьяДавальцу</Document>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
 			<Enum>ПорядокОплатыПоСоглашениям</Enum>
 			<Enum>ХозяйственныеОперации</Enum>
@@ -609,6 +615,8 @@
 			<Enum>ВариантыОбеспечения</Enum>
 			<Enum>ПорядокОформленияСписанияНедостачПринятыхНаХранениеТоваров</Enum>
 			<Enum>ТипыИсполнителейЗаданийНаПеревозку</Enum>
+			<Enum>СтатусыЗаданийНаПеревозку</Enum>
+			<Enum>ВидыДоставки</Enum>
 			<Report>ВИЛС_ВедомостьДокументовПоступлений</Report>
 			<Report>ВИЛС_ВыпускПродукцииПоОтпускнойСтоимости</Report>
 			<Report>ИсполнениеКонтрактовГОЗ</Report>
@@ -632,6 +640,7 @@
 			<InformationRegister>ВИЛС_СоответствияПоРазделамУчета</InformationRegister>
 			<InformationRegister>ВИЛС_ДанныеУсловийТрудаПоСотрудникам</InformationRegister>
 			<InformationRegister>СтроковыеСведенияФизическихЛиц</InformationRegister>
+			<InformationRegister>ДокументыФизическихЛиц</InformationRegister>
 			<AccumulationRegister>ДенежныеСредстваКВыплате</AccumulationRegister>
 			<AccumulationRegister>Закупки</AccumulationRegister>
 			<AccumulationRegister>ДвиженияНоменклатураНоменклатура</AccumulationRegister>

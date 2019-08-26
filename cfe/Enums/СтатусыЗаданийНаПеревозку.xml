@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="a8b4dbc9-f123-489b-b36b-a341bd9e81bb">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СтатусыЗаданийНаПеревозку" category="Ref">
+				<xr:TypeId>05d5eaed-8013-4d27-a5d4-fb09a468815b</xr:TypeId>
+				<xr:ValueId>e3f700f9-9371-4d46-8643-67e6f0e944e9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СтатусыЗаданийНаПеревозку" category="Manager">
+				<xr:TypeId>3d883273-5bb2-472c-b128-17b2625d48f4</xr:TypeId>
+				<xr:ValueId>c9d3c3c5-8d98-49f8-8615-3124170790d8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СтатусыЗаданийНаПеревозку" category="List">
+				<xr:TypeId>ed45c134-895d-457e-bbf6-d284ff00e744</xr:TypeId>
+				<xr:ValueId>c61b85c4-fad8-47c1-8223-79559045ed99</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>СтатусыЗаданийНаПеревозку</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="bf2d2a20-5cd4-4e76-b12e-44527ea74c64">
+				<InternalInfo/>
+				<Properties>
+					<Name>Формируется</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

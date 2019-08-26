@@ -1,6 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
 	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<CommandSet>
+		<ExcludedCommand>Post</ExcludedCommand>
+		<ExcludedCommand>PostAndClose</ExcludedCommand>
+		<ExcludedCommand>Write</ExcludedCommand>
+	</CommandSet>
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
 			<Button name="ФормаПровестиИЗакрыть" id="1502">
@@ -235,6 +243,10 @@
 			</Popup>
 		</ChildItems>
 	</AutoCommandBar>
+	<Events>
+		<Event name="OnReadAtServer" callType="Before">ВИЛС_ПриЧтенииНаСервереПеред</Event>
+		<Event name="OnCreateAtServer" callType="Override">ВИЛС_ПриСозданииНаСервереВместо</Event>
+	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаСтатусПриоритет" id="610">
 			<Title>
@@ -253,6 +265,7 @@
 			<ExtendedTooltip name="ГруппаСтатусПриоритетExtendedTooltip" id="1347"/>
 			<ChildItems>
 				<InputField name="ДатаВремяРейсаПланС" id="1248">
+					<DataPath>Объект.ДатаВремяРейсаПланС</DataPath>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -269,6 +282,7 @@
 					<ExtendedTooltip name="ДатаВремяРейсаПланСExtendedTooltip" id="1346"/>
 				</InputField>
 				<InputField name="Статус" id="1219">
+					<DataPath>Объект.Статус</DataPath>
 					<Width>14</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ListChoiceMode>true</ListChoiceMode>
@@ -498,7 +512,7 @@
 											<ExtendedTooltip name="ГруппаНомерДатаExtendedTooltip" id="1338"/>
 											<ChildItems>
 												<InputField name="Номер" id="1">
-													<DataPath>1/-2</DataPath>
+													<DataPath>Объект.Number</DataPath>
 													<TitleLocation>Left</TitleLocation>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>10</MaxWidth>
@@ -507,7 +521,7 @@
 													<ExtendedTooltip name="НомерExtendedTooltip" id="1339"/>
 												</InputField>
 												<InputField name="Дата" id="3">
-													<DataPath>1/-3</DataPath>
+													<DataPath>Объект.Date</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -529,6 +543,7 @@
 											</ChildItems>
 										</UsualGroup>
 										<InputField name="ЗаданиеВыполняет" id="1529">
+											<DataPath>Объект.ЗаданиеВыполняет</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -567,6 +582,7 @@
 											<ExtendedTooltip name="ЗаданиеВыполняетРасширеннаяПодсказка" id="1531"/>
 										</InputField>
 										<InputField name="Перевозчик" id="1532">
+											<DataPath>Объект.Перевозчик</DataPath>
 											<TitleLocation>Left</TitleLocation>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>28</MaxWidth>
@@ -574,6 +590,7 @@
 											<ExtendedTooltip name="ПеревозчикРасширеннаяПодсказка" id="1534"/>
 										</InputField>
 										<InputField name="ТранспортноеСредство" id="1039">
+											<DataPath>Объект.ТранспортноеСредство</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -597,6 +614,7 @@
 											<ExtendedTooltip name="ТранспортноеСредствоExtendedTooltip" id="1342"/>
 										</InputField>
 										<InputField name="Водитель" id="1221">
+											<DataPath>Объект.Водитель</DataPath>
 											<TitleLocation>Left</TitleLocation>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>28</MaxWidth>
@@ -608,6 +626,7 @@
 											<ExtendedTooltip name="ВодительExtendedTooltip" id="1343"/>
 										</InputField>
 										<InputField name="КурьерЭкспедитор" id="1043">
+											<DataPath>Объект.КурьерЭкспедитор</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -648,6 +667,7 @@
 									<ExtendedTooltip name="ГруппаПравоРасширеннаяПодсказка" id="1345"/>
 									<ChildItems>
 										<InputField name="Операция" id="1510">
+											<DataPath>Объект.Операция</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<TitleLocation>Left</TitleLocation>
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -658,6 +678,7 @@
 											<ExtendedTooltip name="ОперацияРасширеннаяПодсказка" id="1512"/>
 										</InputField>
 										<InputField name="Приоритет" id="569">
+											<DataPath>Объект.Приоритет</DataPath>
 											<TitleLocation>Left</TitleLocation>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>28</MaxWidth>
@@ -683,6 +704,7 @@
 											<ExtendedTooltip name="ГруппаСкладРасширеннаяПодсказка" id="1509"/>
 											<ChildItems>
 												<InputField name="Склад" id="1110">
+													<DataPath>Объект.Склад</DataPath>
 													<TitleLocation>Left</TitleLocation>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>28</MaxWidth>
@@ -757,6 +779,7 @@
 											</ChildItems>
 										</UsualGroup>
 										<InputField name="Ответственный" id="1313">
+											<DataPath>Объект.Ответственный</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -845,6 +868,7 @@
 											<ExtendedTooltip name="ГруппаЗаголовокПланОтступРасширеннаяПодсказка" id="1560"/>
 										</UsualGroup>
 										<InputField name="ДатаВремяРейсаПланС1" id="1316">
+											<DataPath>Объект.ДатаВремяРейсаПланС</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -872,6 +896,7 @@
 											<ExtendedTooltip name="ДатаВремяРейсаПланС1ExtendedTooltip" id="1405"/>
 										</InputField>
 										<InputField name="ДатаВремяРейсаПланПо" id="1254">
+											<DataPath>Объект.ДатаВремяРейсаПланПо</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -952,6 +977,7 @@
 											</ChildItems>
 										</UsualGroup>
 										<InputField name="ДатаВремяРейсаФактС" id="1250">
+											<DataPath>Объект.ДатаВремяРейсаФактС</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -996,6 +1022,7 @@
 											<ExtendedTooltip name="ГруппаВремяРеквизитыТТНРасширеннаяПодсказка" id="1536"/>
 											<ChildItems>
 												<InputField name="ДатаВремяРейсаФактПо" id="1256">
+													<DataPath>Объект.ДатаВремяРейсаФактПо</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -1026,7 +1053,7 @@
 													<Type>Hyperlink</Type>
 													<GroupHorizontalAlign>Right</GroupHorizontalAlign>
 													<GroupVerticalAlign>Center</GroupVerticalAlign>
-													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<CommandName>Form.Command.РеквизитыТТН</CommandName>
 													<ExtendedTooltip name="РеквизитыТТНРасширеннаяПодсказка" id="1538"/>
 												</Button>
 											</ChildItems>
@@ -1052,6 +1079,7 @@
 							<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="1411"/>
 						</UsualGroup>
 						<InputField name="ДополнительнаяИнформация" id="335">
+							<DataPath>Объект.ДополнительнаяИнформация</DataPath>
 							<TitleLocation>Top</TitleLocation>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>1000</MaxWidth>
@@ -1061,6 +1089,7 @@
 							<ExtendedTooltip name="ДополнительнаяИнформацияExtendedTooltip" id="1410"/>
 						</InputField>
 						<InputField name="Комментарий" id="819">
+							<DataPath>Объект.Комментарий</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -1114,6 +1143,7 @@
 							<v8:content>Goods</v8:content>
 						</v8:item>
 					</ToolTip>
+					<TitleDataPath>Объект.Маршрут.RowsCount</TitleDataPath>
 					<ExtendedTooltip name="СтраницаМаршрутРасширеннаяПодсказка" id="1358"/>
 					<ChildItems>
 						<Table name="Маршрут" id="1226">
@@ -1121,6 +1151,7 @@
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
 							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>Объект.Маршрут</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -1131,6 +1162,10 @@
 									<v8:content>Route</v8:content>
 								</v8:item>
 							</Title>
+							<CommandSet>
+								<ExcludedCommand>Add</ExcludedCommand>
+								<ExcludedCommand>Copy</ExcludedCommand>
+							</CommandSet>
 							<RowFilter xsi:nil="true"/>
 							<ContextMenu name="МаршрутКонтекстноеМеню" id="1227"/>
 							<AutoCommandBar name="МаршрутКоманднаяПанель" id="1228">
@@ -1215,6 +1250,7 @@
 							</SearchControlAddition>
 							<ChildItems>
 								<CheckBoxField name="МаршрутДоставлено" id="1262">
+									<DataPath>Объект.Маршрут.Доставлено</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -1236,6 +1272,7 @@
 									<ExtendedTooltip name="МаршрутДоставленоExtendedTooltip" id="1365"/>
 								</CheckBoxField>
 								<LabelField name="МаршрутНомерСтроки" id="1229">
+									<DataPath>Объект.Маршрут.LineNumber</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>3</Width>
 									<HorizontalStretch>false</HorizontalStretch>
@@ -1243,6 +1280,7 @@
 									<ExtendedTooltip name="МаршрутНомерСтрокиExtendedTooltip" id="1366"/>
 								</LabelField>
 								<PictureField name="МаршрутТранспортнаяНакладнаяОформлена" id="1438">
+									<DataPath>Объект.Маршрут.ТранспортнаяНакладнаяОформлена</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<ToolTip>
 										<v8:item>
@@ -1296,6 +1334,7 @@
 											<ExtendedTooltip name="МаршрутГруппаАдресЗонаРасширеннаяПодсказка" id="1732"/>
 											<ChildItems>
 												<InputField name="МаршрутАдрес" id="1231">
+													<DataPath>Объект.Маршрут.Адрес</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<Width>20</Width>
 													<ChoiceButton>true</ChoiceButton>
@@ -1303,6 +1342,7 @@
 													<ExtendedTooltip name="МаршрутАдресРасширеннаяПодсказка" id="1367"/>
 												</InputField>
 												<InputField name="МаршрутЗонаДоставки" id="1233">
+													<DataPath>Объект.Маршрут.Зона</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<Width>8</Width>
 													<HorizontalStretch>false</HorizontalStretch>
@@ -1312,6 +1352,7 @@
 											</ChildItems>
 										</ColumnGroup>
 										<InputField name="МаршрутПолучателиОтправители" id="1733">
+											<DataPath>Объект.Маршрут.ПолучателиОтправители</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
 											<CellHyperlink>true</CellHyperlink>
@@ -1335,6 +1376,7 @@
 									<ExtendedTooltip name="МаршрутГруппаДатаВремяРасширеннаяПодсказка" id="1737"/>
 									<ChildItems>
 										<InputField name="ДатаС" id="1286">
+											<DataPath>Объект.Маршрут.ВремяС</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -1397,6 +1439,7 @@
 											<ExtendedTooltip name="МаршрутВремяСПоРасширеннаяПодсказка" id="1369"/>
 											<ChildItems>
 												<InputField name="ВремяС" id="1235">
+													<DataPath>Объект.Маршрут.ВремяСБезДаты</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -1438,6 +1481,7 @@
 													<ExtendedTooltip name="ВремяСExtendedTooltip" id="1371"/>
 												</InputField>
 												<InputField name="ВремяПо" id="1237">
+													<DataPath>Объект.Маршрут.ВремяПоБезДаты</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -1483,6 +1527,7 @@
 									</ChildItems>
 								</ColumnGroup>
 								<InputField name="МаршрутВес" id="1239">
+									<DataPath>Объект.Маршрут.Вес</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>8</Width>
 									<HorizontalStretch>false</HorizontalStretch>
@@ -1490,6 +1535,7 @@
 									<ExtendedTooltip name="МаршрутВесExtendedTooltip" id="1375"/>
 								</InputField>
 								<InputField name="МаршрутОбъем" id="1241">
+									<DataPath>Объект.Маршрут.Объем</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>8</Width>
 									<HorizontalStretch>false</HorizontalStretch>
@@ -1497,6 +1543,7 @@
 									<ExtendedTooltip name="МаршрутОбъемExtendedTooltip" id="1376"/>
 								</InputField>
 								<InputField name="МаршрутДополнительнаяИнформация" id="1267">
+									<DataPath>Объект.Маршрут.ДополнительнаяИнформация</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<MultiLine>true</MultiLine>
 									<ChoiceButton>true</ChoiceButton>
@@ -1510,9 +1557,165 @@
 			</ChildItems>
 		</Pages>
 	</ChildItems>
-	<Attributes/>
+	<Attributes>
+		<Attribute name="Объект" id="1000001">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ЗаданиеНаПеревозку</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+			<Columns>
+				<AdditionalColumns table="Объект.Маршрут">
+					<Column name="ПереходДаты" id="1">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Переход даты</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Date switch</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>0</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+					</Column>
+					<Column name="ВремяСБезДаты" id="2">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Время с без даты</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Time from without date</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:dateTime</v8:Type>
+							<v8:DateQualifiers>
+								<v8:DateFractions>Time</v8:DateFractions>
+							</v8:DateQualifiers>
+						</Type>
+					</Column>
+					<Column name="ВремяПоБезДаты" id="3">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Время по без даты</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Time to without date</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:dateTime</v8:Type>
+							<v8:DateQualifiers>
+								<v8:DateFractions>Time</v8:DateFractions>
+							</v8:DateQualifiers>
+						</Type>
+					</Column>
+					<Column name="ТранспортнаяНакладнаяОформлена" id="4">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Транспортная накладная оформлена</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Consignment note is created</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:boolean</v8:Type>
+						</Type>
+					</Column>
+					<Column name="ПолучателиОтправители" id="5">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Получатели (отправители)</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Recipients (senders)</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>0</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</Type>
+					</Column>
+				</AdditionalColumns>
+				<AdditionalColumns table="Объект.Распоряжения">
+					<Column name="ЭтоПоручениеЭкспедитору" id="1">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Это поручение экспедитору</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>This is an instruction for shipping agent</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:boolean</v8:Type>
+						</Type>
+					</Column>
+				</AdditionalColumns>
+			</Columns>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="РеквизитыТТН" id="1000002">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реквизиты ТТН</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Waybill attributes</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Реквизиты ТТН</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Waybill attributes</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action callType="Override">ВИЛС_РеквизитыТТН</Action>
+			<ModifiesSavedData>true</ModifiesSavedData>
+			<CurrentRowUse>DontUse</CurrentRowUse>
+		</Command>
+	</Commands>
 	<BaseForm version="2.10">
 		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+		<CommandSet>
+			<ExcludedCommand>Post</ExcludedCommand>
+			<ExcludedCommand>PostAndClose</ExcludedCommand>
+			<ExcludedCommand>Write</ExcludedCommand>
+		</CommandSet>
+		<AutoTime>CurrentOrLast</AutoTime>
+		<UsePostingMode>Auto</UsePostingMode>
+		<RepostOnWrite>true</RepostOnWrite>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<ChildItems>
 				<Button name="ФормаПровестиИЗакрыть" id="1502">
@@ -1765,6 +1968,7 @@
 				<ExtendedTooltip name="ГруппаСтатусПриоритетExtendedTooltip" id="1347"/>
 				<ChildItems>
 					<InputField name="ДатаВремяРейсаПланС" id="1248">
+						<DataPath>Объект.ДатаВремяРейсаПланС</DataPath>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -1781,6 +1985,7 @@
 						<ExtendedTooltip name="ДатаВремяРейсаПланСExtendedTooltip" id="1346"/>
 					</InputField>
 					<InputField name="Статус" id="1219">
+						<DataPath>Объект.Статус</DataPath>
 						<Width>14</Width>
 						<HorizontalStretch>false</HorizontalStretch>
 						<ListChoiceMode>true</ListChoiceMode>
@@ -2010,7 +2215,7 @@
 												<ExtendedTooltip name="ГруппаНомерДатаExtendedTooltip" id="1338"/>
 												<ChildItems>
 													<InputField name="Номер" id="1">
-														<DataPath>1/-2</DataPath>
+														<DataPath>Объект.Number</DataPath>
 														<TitleLocation>Left</TitleLocation>
 														<AutoMaxWidth>false</AutoMaxWidth>
 														<MaxWidth>10</MaxWidth>
@@ -2019,7 +2224,7 @@
 														<ExtendedTooltip name="НомерExtendedTooltip" id="1339"/>
 													</InputField>
 													<InputField name="Дата" id="3">
-														<DataPath>1/-3</DataPath>
+														<DataPath>Объект.Date</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -2041,6 +2246,7 @@
 												</ChildItems>
 											</UsualGroup>
 											<InputField name="ЗаданиеВыполняет" id="1529">
+												<DataPath>Объект.ЗаданиеВыполняет</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2079,6 +2285,7 @@
 												<ExtendedTooltip name="ЗаданиеВыполняетРасширеннаяПодсказка" id="1531"/>
 											</InputField>
 											<InputField name="Перевозчик" id="1532">
+												<DataPath>Объект.Перевозчик</DataPath>
 												<TitleLocation>Left</TitleLocation>
 												<AutoMaxWidth>false</AutoMaxWidth>
 												<MaxWidth>28</MaxWidth>
@@ -2086,6 +2293,7 @@
 												<ExtendedTooltip name="ПеревозчикРасширеннаяПодсказка" id="1534"/>
 											</InputField>
 											<InputField name="ТранспортноеСредство" id="1039">
+												<DataPath>Объект.ТранспортноеСредство</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2109,6 +2317,7 @@
 												<ExtendedTooltip name="ТранспортноеСредствоExtendedTooltip" id="1342"/>
 											</InputField>
 											<InputField name="Водитель" id="1221">
+												<DataPath>Объект.Водитель</DataPath>
 												<TitleLocation>Left</TitleLocation>
 												<AutoMaxWidth>false</AutoMaxWidth>
 												<MaxWidth>28</MaxWidth>
@@ -2120,6 +2329,7 @@
 												<ExtendedTooltip name="ВодительExtendedTooltip" id="1343"/>
 											</InputField>
 											<InputField name="КурьерЭкспедитор" id="1043">
+												<DataPath>Объект.КурьерЭкспедитор</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2160,6 +2370,7 @@
 										<ExtendedTooltip name="ГруппаПравоРасширеннаяПодсказка" id="1345"/>
 										<ChildItems>
 											<InputField name="Операция" id="1510">
+												<DataPath>Объект.Операция</DataPath>
 												<ReadOnly>true</ReadOnly>
 												<TitleLocation>Left</TitleLocation>
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -2170,6 +2381,7 @@
 												<ExtendedTooltip name="ОперацияРасширеннаяПодсказка" id="1512"/>
 											</InputField>
 											<InputField name="Приоритет" id="569">
+												<DataPath>Объект.Приоритет</DataPath>
 												<TitleLocation>Left</TitleLocation>
 												<AutoMaxWidth>false</AutoMaxWidth>
 												<MaxWidth>28</MaxWidth>
@@ -2195,6 +2407,7 @@
 												<ExtendedTooltip name="ГруппаСкладРасширеннаяПодсказка" id="1509"/>
 												<ChildItems>
 													<InputField name="Склад" id="1110">
+														<DataPath>Объект.Склад</DataPath>
 														<TitleLocation>Left</TitleLocation>
 														<AutoMaxWidth>false</AutoMaxWidth>
 														<MaxWidth>28</MaxWidth>
@@ -2269,6 +2482,7 @@
 												</ChildItems>
 											</UsualGroup>
 											<InputField name="Ответственный" id="1313">
+												<DataPath>Объект.Ответственный</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2357,6 +2571,7 @@
 												<ExtendedTooltip name="ГруппаЗаголовокПланОтступРасширеннаяПодсказка" id="1560"/>
 											</UsualGroup>
 											<InputField name="ДатаВремяРейсаПланС1" id="1316">
+												<DataPath>Объект.ДатаВремяРейсаПланС</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2384,6 +2599,7 @@
 												<ExtendedTooltip name="ДатаВремяРейсаПланС1ExtendedTooltip" id="1405"/>
 											</InputField>
 											<InputField name="ДатаВремяРейсаПланПо" id="1254">
+												<DataPath>Объект.ДатаВремяРейсаПланПо</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2464,6 +2680,7 @@
 												</ChildItems>
 											</UsualGroup>
 											<InputField name="ДатаВремяРейсаФактС" id="1250">
+												<DataPath>Объект.ДатаВремяРейсаФактС</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2508,6 +2725,7 @@
 												<ExtendedTooltip name="ГруппаВремяРеквизитыТТНРасширеннаяПодсказка" id="1536"/>
 												<ChildItems>
 													<InputField name="ДатаВремяРейсаФактПо" id="1256">
+														<DataPath>Объект.ДатаВремяРейсаФактПо</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -2538,7 +2756,7 @@
 														<Type>Hyperlink</Type>
 														<GroupHorizontalAlign>Right</GroupHorizontalAlign>
 														<GroupVerticalAlign>Center</GroupVerticalAlign>
-														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<CommandName>Form.Command.РеквизитыТТН</CommandName>
 														<ExtendedTooltip name="РеквизитыТТНРасширеннаяПодсказка" id="1538"/>
 													</Button>
 												</ChildItems>
@@ -2564,6 +2782,7 @@
 								<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="1411"/>
 							</UsualGroup>
 							<InputField name="ДополнительнаяИнформация" id="335">
+								<DataPath>Объект.ДополнительнаяИнформация</DataPath>
 								<TitleLocation>Top</TitleLocation>
 								<AutoMaxWidth>false</AutoMaxWidth>
 								<MaxWidth>1000</MaxWidth>
@@ -2573,6 +2792,7 @@
 								<ExtendedTooltip name="ДополнительнаяИнформацияExtendedTooltip" id="1410"/>
 							</InputField>
 							<InputField name="Комментарий" id="819">
+								<DataPath>Объект.Комментарий</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -2626,6 +2846,7 @@
 								<v8:content>Goods</v8:content>
 							</v8:item>
 						</ToolTip>
+						<TitleDataPath>Объект.Маршрут.RowsCount</TitleDataPath>
 						<ExtendedTooltip name="СтраницаМаршрутРасширеннаяПодсказка" id="1358"/>
 						<ChildItems>
 							<Table name="Маршрут" id="1226">
@@ -2633,6 +2854,7 @@
 								<EnableStartDrag>true</EnableStartDrag>
 								<EnableDrag>true</EnableDrag>
 								<FileDragMode>AsFile</FileDragMode>
+								<DataPath>Объект.Маршрут</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -2643,6 +2865,10 @@
 										<v8:content>Route</v8:content>
 									</v8:item>
 								</Title>
+								<CommandSet>
+									<ExcludedCommand>Add</ExcludedCommand>
+									<ExcludedCommand>Copy</ExcludedCommand>
+								</CommandSet>
 								<RowFilter xsi:nil="true"/>
 								<ContextMenu name="МаршрутКонтекстноеМеню" id="1227"/>
 								<AutoCommandBar name="МаршрутКоманднаяПанель" id="1228">
@@ -2727,6 +2953,7 @@
 								</SearchControlAddition>
 								<ChildItems>
 									<CheckBoxField name="МаршрутДоставлено" id="1262">
+										<DataPath>Объект.Маршрут.Доставлено</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -2748,6 +2975,7 @@
 										<ExtendedTooltip name="МаршрутДоставленоExtendedTooltip" id="1365"/>
 									</CheckBoxField>
 									<LabelField name="МаршрутНомерСтроки" id="1229">
+										<DataPath>Объект.Маршрут.LineNumber</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>3</Width>
 										<HorizontalStretch>false</HorizontalStretch>
@@ -2755,6 +2983,7 @@
 										<ExtendedTooltip name="МаршрутНомерСтрокиExtendedTooltip" id="1366"/>
 									</LabelField>
 									<PictureField name="МаршрутТранспортнаяНакладнаяОформлена" id="1438">
+										<DataPath>Объект.Маршрут.ТранспортнаяНакладнаяОформлена</DataPath>
 										<TitleLocation>None</TitleLocation>
 										<ToolTip>
 											<v8:item>
@@ -2808,6 +3037,7 @@
 												<ExtendedTooltip name="МаршрутГруппаАдресЗонаРасширеннаяПодсказка" id="1732"/>
 												<ChildItems>
 													<InputField name="МаршрутАдрес" id="1231">
+														<DataPath>Объект.Маршрут.Адрес</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<Width>20</Width>
 														<ChoiceButton>true</ChoiceButton>
@@ -2815,6 +3045,7 @@
 														<ExtendedTooltip name="МаршрутАдресРасширеннаяПодсказка" id="1367"/>
 													</InputField>
 													<InputField name="МаршрутЗонаДоставки" id="1233">
+														<DataPath>Объект.Маршрут.Зона</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<Width>8</Width>
 														<HorizontalStretch>false</HorizontalStretch>
@@ -2824,6 +3055,7 @@
 												</ChildItems>
 											</ColumnGroup>
 											<InputField name="МаршрутПолучателиОтправители" id="1733">
+												<DataPath>Объект.Маршрут.ПолучателиОтправители</DataPath>
 												<ReadOnly>true</ReadOnly>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -2847,6 +3079,7 @@
 										<ExtendedTooltip name="МаршрутГруппаДатаВремяРасширеннаяПодсказка" id="1737"/>
 										<ChildItems>
 											<InputField name="ДатаС" id="1286">
+												<DataPath>Объект.Маршрут.ВремяС</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2909,6 +3142,7 @@
 												<ExtendedTooltip name="МаршрутВремяСПоРасширеннаяПодсказка" id="1369"/>
 												<ChildItems>
 													<InputField name="ВремяС" id="1235">
+														<DataPath>Объект.Маршрут.ВремяСБезДаты</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -2950,6 +3184,7 @@
 														<ExtendedTooltip name="ВремяСExtendedTooltip" id="1371"/>
 													</InputField>
 													<InputField name="ВремяПо" id="1237">
+														<DataPath>Объект.Маршрут.ВремяПоБезДаты</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -2995,6 +3230,7 @@
 										</ChildItems>
 									</ColumnGroup>
 									<InputField name="МаршрутВес" id="1239">
+										<DataPath>Объект.Маршрут.Вес</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>8</Width>
 										<HorizontalStretch>false</HorizontalStretch>
@@ -3002,6 +3238,7 @@
 										<ExtendedTooltip name="МаршрутВесExtendedTooltip" id="1375"/>
 									</InputField>
 									<InputField name="МаршрутОбъем" id="1241">
+										<DataPath>Объект.Маршрут.Объем</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>8</Width>
 										<HorizontalStretch>false</HorizontalStretch>
@@ -3009,6 +3246,7 @@
 										<ExtendedTooltip name="МаршрутОбъемExtendedTooltip" id="1376"/>
 									</InputField>
 									<InputField name="МаршрутДополнительнаяИнформация" id="1267">
+										<DataPath>Объект.Маршрут.ДополнительнаяИнформация</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<MultiLine>true</MultiLine>
 										<ChoiceButton>true</ChoiceButton>
@@ -3022,6 +3260,155 @@
 				</ChildItems>
 			</Pages>
 		</ChildItems>
-		<Attributes/>
+		<Attributes>
+			<Attribute name="Объект" id="1000001">
+				<Type>
+					<v8:Type>cfg:DocumentObject.ЗаданиеНаПеревозку</v8:Type>
+				</Type>
+				<MainAttribute>true</MainAttribute>
+				<SavedData>true</SavedData>
+				<UseAlways>
+					<Field>Объект.RegisterRecords</Field>
+				</UseAlways>
+				<Columns>
+					<AdditionalColumns table="Объект.Маршрут">
+						<Column name="ПереходДаты" id="1">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Переход даты</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Date switch</v8:content>
+								</v8:item>
+							</Title>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>0</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Column>
+						<Column name="ВремяСБезДаты" id="2">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Время с без даты</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Time from without date</v8:content>
+								</v8:item>
+							</Title>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Time</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Column>
+						<Column name="ВремяПоБезДаты" id="3">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Время по без даты</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Time to without date</v8:content>
+								</v8:item>
+							</Title>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Time</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Column>
+						<Column name="ТранспортнаяНакладнаяОформлена" id="4">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Транспортная накладная оформлена</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Consignment note is created</v8:content>
+								</v8:item>
+							</Title>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Column>
+						<Column name="ПолучателиОтправители" id="5">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Получатели (отправители)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Recipients (senders)</v8:content>
+								</v8:item>
+							</Title>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>0</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Column>
+					</AdditionalColumns>
+					<AdditionalColumns table="Объект.Распоряжения">
+						<Column name="ЭтоПоручениеЭкспедитору" id="1">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Это поручение экспедитору</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>This is an instruction for shipping agent</v8:content>
+								</v8:item>
+							</Title>
+							<Type>
+								<v8:Type>xs:boolean</v8:Type>
+							</Type>
+						</Column>
+					</AdditionalColumns>
+				</Columns>
+			</Attribute>
+		</Attributes>
+		<Commands>
+			<Command name="РеквизитыТТН" id="1000001">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Реквизиты ТТН</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Waybill attributes</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Реквизиты ТТН</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Waybill attributes</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Action callType="Before">РеквизитыТТН</Action>
+				<Action callType="After">ВИЛС_РеквизитыТТНПосле</Action>
+				<ModifiesSavedData>true</ModifiesSavedData>
+				<CurrentRowUse>DontUse</CurrentRowUse>
+			</Command>
+		</Commands>
 	</BaseForm>
 </Form>
