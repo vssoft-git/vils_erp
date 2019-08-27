@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>67d270b0-7119-4849-bd30-93d54e56888a</xr:ObjectId>
+				<xr:ObjectId>388b5da5-4ca0-47b0-bab0-86bf52006b95</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -83,6 +83,7 @@
 			<StyleItem>ЦветФонаПолностьюОбеспечен</StyleItem>
 			<StyleItem>ЦветФонаЧастичноОбеспечен</StyleItem>
 			<StyleItem>ЦветФонаНеОбеспечен</StyleItem>
+			<StyleItem>ЦветИтоговыхПоказателейДокументов</StyleItem>
 			<CommonPicture>ПодключаемоеОборудованиеТерминалСбораДанных16</CommonPicture>
 			<CommonPicture>СерииНоменклатурыУказаныFEFO</CommonPicture>
 			<CommonPicture>НовыйПоШтрихкоду</CommonPicture>
@@ -248,7 +249,6 @@
 			<CommonModule>УчетРабочегоВремениРасширенный</CommonModule>
 			<CommonModule>ОперативныеВзаиморасчетыСервер</CommonModule>
 			<CommonModule>БухгалтерскийУчетКлиентПереопределяемый</CommonModule>
-			<CommonModule>ЗаданиеНаПеревозкуЛокализация</CommonModule>
 			<CommonModule>ВИЛС_Переопределяемый</CommonModule>
 			<CommonModule>ВИЛС_Служебный</CommonModule>
 			<CommonModule>ЗарплатаКадрыРасширенный</CommonModule>
@@ -339,6 +339,7 @@
 			<DefinedType>НомерСерии</DefinedType>
 			<DefinedType>РаспоряжениеНаДоставку</DefinedType>
 			<DefinedType>ОтправительПолучательТоваров</DefinedType>
+			<DefinedType>ОтправительПолучательДоставки</DefinedType>
 			<CommonCommand>ИнтеграцияС1СДокументооборотСоздатьПисьмо</CommonCommand>
 			<CommonCommand>ДополнительныеСведенияКоманднаяПанель</CommonCommand>
 			<CommonCommand>ИнтеграцияС1СДокументооборотСоздатьБизнесПроцесс</CommonCommand>

@@ -222,118 +222,6 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Attribute uuid="9a46d8a9-d579-42e7-9858-c9650a3dccf2">
-				<Properties>
-					<Name>ВИЛС_ДоверенностьВыдана</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Кем выдана</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Issued by</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment>(ВИЛС)</Comment>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>250</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Организация выдавшая доверенность (выводится в печатную форму ТОРГ-12).</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Company which issued the letter of authority (displayed in print form TORG-12).</v8:content>
-						</v8:item>
-					</ToolTip>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="a4ff678f-aa2a-4f2f-be86-2f892702f835">
-				<Properties>
-					<Name>ВИЛС_ДоверенностьЛицо</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Кому выдана</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Issued to</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment>(ВИЛС)</Comment>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>100</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Сотрудник организации на которого выдана доверенность (выводится в печатную форму ТОРГ-12).</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Company employee the letter of authority is issued to (displayed in print form TORG-12).</v8:content>
-						</v8:item>
-					</ToolTip>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:type="xs:string"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
 			<Attribute uuid="bc040945-f04e-48f7-9328-4a945d62287a">
 				<Properties>
 					<Name>ВИЛС_НомерЗаявки</Name>
@@ -456,9 +344,6 @@
 					<ChoiceParameters>
 						<app:item name="Отбор.ПометкаУдаления">
 							<app:value xsi:type="xs:boolean">false</app:value>
-						</app:item>
-						<app:item name="Отбор.Статус">
-							<app:value xsi:nil="true"/>
 						</app:item>
 					</ChoiceParameters>
 					<QuickChoice>Auto</QuickChoice>
@@ -679,6 +564,7 @@
 				</Properties>
 			</Attribute>
 			<Form>ФормаДокумента</Form>
+			<Form>ФормаПодбораРаспоряжений</Form>
 			<TabularSection uuid="191f7bc5-4ae7-4f00-a4ee-924f06527810">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ЗаданиеНаПеревозку.Маршрут" category="TabularSection">
@@ -812,7 +698,77 @@
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
-				<ChildObjects/>
+				<ChildObjects>
+					<Attribute uuid="a00eccb1-3c10-44c0-97d6-46a387d49697">
+						<InternalInfo/>
+						<Properties>
+							<Name>Распоряжение</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.РаспоряжениеНаДоставку</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="a1b11b26-e34f-48f9-8638-6a9f049160ef">
+						<InternalInfo/>
+						<Properties>
+							<Name>ПолучательОтправитель</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ОтправительПолучательДоставки</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="caf247f2-55ea-4f69-945f-64e1942a0313">
+						<Properties>
+							<Name>ВИЛС_КонтактноеЛицо</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Контактное лицо партнера (ВИЛС)</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:CatalogRef.КонтактныеЛицаПартнеров</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks>
+								<xr:Link>
+									<xr:Name>Партнер</xr:Name>
+									<xr:DataPath xsi:type="xs:string">Document.ЗаданиеНаПеревозку.TabularSection.Распоряжения.Attribute.ПолучательОтправитель</xr:DataPath>
+									<xr:ValueChange>Clear</xr:ValueChange>
+								</xr:Link>
+							</ChoiceParameterLinks>
+							<ChoiceParameters>
+								<app:item name="Отбор.ПометкаУдаления">
+									<app:value xsi:type="xs:boolean">false</app:value>
+								</app:item>
+							</ChoiceParameters>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
 			</TabularSection>
 			<Template>ПФ_MXL_М2_ВИЛС</Template>
 		</ChildObjects>

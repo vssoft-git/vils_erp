@@ -1,0 +1,948 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Выберите распоряжение</v8:content>
+		</v8:item>
+		<v8:item>
+			<v8:lang>en</v8:lang>
+			<v8:content>Select reference</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+		<ChildItems>
+			<Popup name="ПодменюПечать" id="1455">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Печать</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Print </v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Команды печати</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Print commands</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Picture>
+					<xr:Ref>StdPicture.Print</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ПодменюПечатьРасширеннаяПодсказка" id="1456"/>
+			</Popup>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer" callType="Before">ВИЛС_ПриСозданииНаСервереПеред</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="Шапка" id="1026">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шапка</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Header</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ШапкаExtendedTooltip" id="1236"/>
+			<ChildItems>
+				<CommandBar name="ГруппаВыбрать" id="1459">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выбрать</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Select</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаВыбратьРасширеннаяПодсказка" id="1460"/>
+					<ChildItems>
+						<Button name="Выбрать" id="1457">
+							<Type>CommandBarButton</Type>
+							<Representation>PictureAndText</Representation>
+							<DefaultButton>true</DefaultButton>
+							<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+							<ExtendedTooltip name="ВыбратьРасширеннаяПодсказка" id="1458"/>
+						</Button>
+					</ChildItems>
+				</CommandBar>
+				<LabelField name="Склад" id="1036">
+					<DataPath>19</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Склад</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Warehouse</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>Top</TitleLocation>
+					<Width>19</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<Hiperlink>true</Hiperlink>
+					<ContextMenu name="СкладКонтекстноеМеню" id="1037"/>
+					<ExtendedTooltip name="СкладExtendedTooltip" id="1239"/>
+				</LabelField>
+				<InputField name="ОтборПоТипуИсполнителей" id="1461">
+					<DataPath>48</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Выполняет</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Executing</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>Top</TitleLocation>
+					<ListChoiceMode>true</ListChoiceMode>
+					<ChoiceList>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xr:DesignTimeRef">Enum.ТипыИсполнителейЗаданийНаПеревозку.EnumValue.НашаТранспортнаяСлужба</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation/>
+								<Value xsi:type="xr:DesignTimeRef">Enum.ТипыИсполнителейЗаданийНаПеревозку.EnumValue.Перевозчик</Value>
+							</xr:Value>
+						</xr:Item>
+						<xr:Item>
+							<xr:Presentation/>
+							<xr:CheckState>0</xr:CheckState>
+							<xr:Value xsi:type="FormChoiceListDesTimeValue">
+								<Presentation>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>&lt;без отбора&gt;</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>&lt;without filter&gt;</v8:content>
+									</v8:item>
+								</Presentation>
+								<Value xsi:type="xr:DesignTimeRef">Enum.ТипыИсполнителейЗаданийНаПеревозку.EmptyRef</Value>
+							</xr:Value>
+						</xr:Item>
+					</ChoiceList>
+					<ContextMenu name="ОтборПоТипуИсполнителейКонтекстноеМеню" id="1462"/>
+					<ExtendedTooltip name="ОтборПоТипуИсполнителейРасширеннаяПодсказка" id="1463"/>
+				</InputField>
+				<InputField name="ЗонаДоставки" id="1">
+					<DataPath>14</DataPath>
+					<TitleLocation>Top</TitleLocation>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>15</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ClearButton>true</ClearButton>
+					<OpenButton>false</OpenButton>
+					<AutoChoiceIncomplete>true</AutoChoiceIncomplete>
+					<ChoiceFoldersAndItems>FoldersAndItems</ChoiceFoldersAndItems>
+					<ContextMenu name="ЗонаДоставкиКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="ЗонаДоставкиExtendedTooltip" id="1251"/>
+				</InputField>
+				<InputField name="ДатаРаспоряжений" id="300">
+					<DataPath>20</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата до</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Date to</v8:content>
+						</v8:item>
+					</Title>
+					<TitleLocation>Top</TitleLocation>
+					<Width>9</Width>
+					<SpinButton>true</SpinButton>
+					<EditFormat>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ=dd.MM.yy</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>DF=MM/dd/yy</v8:content>
+						</v8:item>
+					</EditFormat>
+					<ContextMenu name="ДатаРаспоряженийКонтекстноеМеню" id="301"/>
+					<ExtendedTooltip name="ДатаРаспоряженийExtendedTooltip" id="1252"/>
+				</InputField>
+				<CommandBar name="ГруппаКоманднаяПанель" id="1023">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Командная панель</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Command bar </v8:content>
+						</v8:item>
+					</Title>
+					<HorizontalLocation>Right</HorizontalLocation>
+					<ExtendedTooltip name="ГруппаКоманднаяПанельExtendedTooltip" id="1242"/>
+					<ChildItems>
+						<Button name="ОбновитьСпискиДоставки" id="383">
+							<Type>CommandBarButton</Type>
+							<Representation>PictureAndText</Representation>
+							<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+							<Picture>
+								<xr:Ref>StdPicture.Refresh</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+							<ExtendedTooltip name="ОбновитьСпискиДоставкиExtendedTooltip" id="1243"/>
+						</Button>
+						<Button name="ИзменитьФорму" id="1028">
+							<Type>CommandBarButton</Type>
+							<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+							<ExtendedTooltip name="ИзменитьФормуExtendedTooltip" id="1244"/>
+						</Button>
+						<Button name="Справка" id="1029">
+							<Type>CommandBarButton</Type>
+							<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+							<ExtendedTooltip name="СправкаExtendedTooltip" id="1245"/>
+						</Button>
+					</ChildItems>
+				</CommandBar>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="РаспоряженияНаДоставку" id="851">
+			<Representation>Tree</Representation>
+			<ReadOnly>true</ReadOnly>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<InitialTreeView>ExpandAllLevels</InitialTreeView>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<DataPath>6</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Распоряжения на доставку</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Delivery references</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="РаспоряженияНаДоставкуКонтекстноеМеню" id="852"/>
+			<AutoCommandBar name="РаспоряженияНаДоставкуКоманднаяПанель" id="853">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="РаспоряженияНаДоставкуExtendedTooltip" id="1253"/>
+			<SearchStringAddition name="РаспоряженияНаДоставкуСтрокаПоиска" id="1410">
+				<AdditionSource>
+					<Item>РаспоряженияНаДоставку</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="РаспоряженияНаДоставкуСтрокаПоискаКонтекстноеМеню" id="1411"/>
+				<ExtendedTooltip name="РаспоряженияНаДоставкуСтрокаПоискаРасширеннаяПодсказка" id="1412"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="РаспоряженияНаДоставкуСостояниеПросмотра" id="1413">
+				<AdditionSource>
+					<Item>РаспоряженияНаДоставку</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="РаспоряженияНаДоставкуСостояниеПросмотраКонтекстноеМеню" id="1414"/>
+				<ExtendedTooltip name="РаспоряженияНаДоставкуСостояниеПросмотраРасширеннаяПодсказка" id="1415"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="РаспоряженияНаДоставкуУправлениеПоиском" id="1416">
+				<AdditionSource>
+					<Item>РаспоряженияНаДоставку</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="РаспоряженияНаДоставкуУправлениеПоискомКонтекстноеМеню" id="1417"/>
+				<ExtendedTooltip name="РаспоряженияНаДоставкуУправлениеПоискомРасширеннаяПодсказка" id="1418"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="РаспоряженияНаДоставкуАдрес" id="898">
+					<DataPath>6/5</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Адрес</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Address</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>18</Width>
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="РаспоряженияНаДоставкуАдресКонтекстноеМеню" id="899"/>
+					<ExtendedTooltip name="РаспоряженияНаДоставкуАдресРасширеннаяПодсказка" id="1256"/>
+				</InputField>
+				<InputField name="РаспоряженияНаДоставкуДата" id="893">
+					<DataPath>6/4</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>5</Width>
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="РаспоряженияНаДоставкуДатаКонтекстноеМеню" id="894"/>
+					<ExtendedTooltip name="РаспоряженияНаДоставкуДатаExtendedTooltip" id="1263"/>
+				</InputField>
+				<InputField name="РаспоряженияНаДоставкуПолучательОтправитель" id="902">
+					<DataPath>6/7</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Получатель (отправитель)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Consignee (sender)</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>15</Width>
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="РаспоряженияНаДоставкуПолучательОтправительКонтекстноеМеню" id="903"/>
+					<ExtendedTooltip name="РаспоряженияНаДоставкуПолучательОтправительРасширеннаяПодсказка" id="1257"/>
+				</InputField>
+				<InputField name="РаспоряженияНаДоставкуВремя" id="1122">
+					<DataPath>6/15</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Желаемое время доставки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Required delivery time</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>7</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="РаспоряженияНаДоставкуВремяКонтекстноеМеню" id="1123"/>
+					<ExtendedTooltip name="РаспоряженияНаДоставкуВремяExtendedTooltip" id="1258"/>
+				</InputField>
+				<InputField name="РаспоряженияНаДоставкуВес" id="904">
+					<DataPath>6/8</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<FooterDataPath>21</FooterDataPath>
+					<FooterTextColor>style:ЦветИтоговыхПоказателейДокументов</FooterTextColor>
+					<FooterFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+					<Width>8</Width>
+					<HorizontalStretch>true</HorizontalStretch>
+					<Format>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=0</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>NFD=0</v8:content>
+						</v8:item>
+					</Format>
+					<EditFormat>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=0</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>NFD=0</v8:content>
+						</v8:item>
+					</EditFormat>
+					<ContextMenu name="РаспоряженияНаДоставкуВесКонтекстноеМеню" id="905"/>
+					<ExtendedTooltip name="РаспоряженияНаДоставкуВесExtendedTooltip" id="1259"/>
+				</InputField>
+				<InputField name="РаспоряженияНаДоставкуОбъем" id="906">
+					<DataPath>6/9</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<FooterDataPath>22</FooterDataPath>
+					<FooterTextColor>style:ЦветИтоговыхПоказателейДокументов</FooterTextColor>
+					<FooterFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+					<Width>8</Width>
+					<HorizontalStretch>true</HorizontalStretch>
+					<Format>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=0</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>NFD=0</v8:content>
+						</v8:item>
+					</Format>
+					<EditFormat>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=0</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>NFD=0</v8:content>
+						</v8:item>
+					</EditFormat>
+					<ContextMenu name="РаспоряженияНаДоставкуОбъемКонтекстноеМеню" id="907"/>
+					<ExtendedTooltip name="РаспоряженияНаДоставкуОбъемExtendedTooltip" id="1260"/>
+				</InputField>
+				<InputField name="РаспоряженияНаДоставкуСклад" id="908">
+					<DataPath>6/10</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<FooterDataPath>27</FooterDataPath>
+					<FooterTextColor>style:ЦветИтоговыхПоказателейДокументов</FooterTextColor>
+					<FooterFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+					<Width>12</Width>
+					<HorizontalStretch>true</HorizontalStretch>
+					<DropListButton>false</DropListButton>
+					<ChoiceButton>true</ChoiceButton>
+					<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+					<ContextMenu name="РаспоряженияНаДоставкуСкладКонтекстноеМеню" id="909"/>
+					<ExtendedTooltip name="РаспоряженияНаДоставкуСкладExtendedTooltip" id="1261"/>
+				</InputField>
+				<LabelField name="РаспоряженияНаДоставкуНомер" id="914">
+					<DataPath>6/11</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CellHyperlink>true</CellHyperlink>
+					<Width>5</Width>
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="РаспоряженияНаДоставкуНомерКонтекстноеМеню" id="915"/>
+					<ExtendedTooltip name="РаспоряженияНаДоставкуНомерExtendedTooltip" id="1262"/>
+				</LabelField>
+				<InputField name="РаспоряженияНаДоставкуВидДокумента" id="960">
+					<DataPath>6/14</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Распоряжение</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Reference</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>5</Width>
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="РаспоряженияНаДоставкуВидДокументаКонтекстноеМеню" id="961"/>
+					<ExtendedTooltip name="РаспоряженияНаДоставкуВидДокументаExtendedTooltip" id="1264"/>
+				</InputField>
+				<InputField name="РаспоряженияНаДоставкуДополнительнаяИнформацияПоДоставке" id="856">
+					<DataPath>6/2</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>20</Width>
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="РаспоряженияНаДоставкуДополнительнаяИнформацияПоДоставкеКонтекстноеМеню" id="857"/>
+					<ExtendedTooltip name="РаспоряженияНаДоставкуДополнительнаяИнформацияПоДоставкеExtendedTooltip" id="1265"/>
+				</InputField>
+				<InputField name="РаспоряженияНаДоставкуСсылка" id="854">
+					<DataPath>6/1</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<EditMode>EnterOnInput</EditMode>
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="РаспоряженияНаДоставкуСсылкаКонтекстноеМеню" id="855"/>
+					<ExtendedTooltip name="РаспоряженияНаДоставкуСсылкаExtendedTooltip" id="1254"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.10">
+		<Title>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Выберите распоряжение</v8:content>
+			</v8:item>
+			<v8:item>
+				<v8:lang>en</v8:lang>
+				<v8:content>Select reference</v8:content>
+			</v8:item>
+		</Title>
+		<AutoTitle>false</AutoTitle>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<Autofill>false</Autofill>
+			<ChildItems>
+				<Popup name="ПодменюПечать" id="1455">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Печать</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Print </v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Команды печати</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Print commands</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Picture>
+						<xr:Ref>StdPicture.Print</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ExtendedTooltip name="ПодменюПечатьРасширеннаяПодсказка" id="1456"/>
+				</Popup>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<UsualGroup name="Шапка" id="1026">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Шапка</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Header</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ШапкаExtendedTooltip" id="1236"/>
+				<ChildItems>
+					<CommandBar name="ГруппаВыбрать" id="1459">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Выбрать</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Select</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ГруппаВыбратьРасширеннаяПодсказка" id="1460"/>
+						<ChildItems>
+							<Button name="Выбрать" id="1457">
+								<Type>CommandBarButton</Type>
+								<Representation>PictureAndText</Representation>
+								<DefaultButton>true</DefaultButton>
+								<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+								<ExtendedTooltip name="ВыбратьРасширеннаяПодсказка" id="1458"/>
+							</Button>
+						</ChildItems>
+					</CommandBar>
+					<LabelField name="Склад" id="1036">
+						<DataPath>19</DataPath>
+						<ReadOnly>true</ReadOnly>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Склад</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Warehouse</v8:content>
+							</v8:item>
+						</Title>
+						<TitleLocation>Top</TitleLocation>
+						<Width>19</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<Hiperlink>true</Hiperlink>
+						<ContextMenu name="СкладКонтекстноеМеню" id="1037"/>
+						<ExtendedTooltip name="СкладExtendedTooltip" id="1239"/>
+					</LabelField>
+					<InputField name="ОтборПоТипуИсполнителей" id="1461">
+						<DataPath>48</DataPath>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Выполняет</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Executing</v8:content>
+							</v8:item>
+						</Title>
+						<TitleLocation>Top</TitleLocation>
+						<ListChoiceMode>true</ListChoiceMode>
+						<ChoiceList>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation/>
+									<Value xsi:type="xr:DesignTimeRef">Enum.ТипыИсполнителейЗаданийНаПеревозку.EnumValue.НашаТранспортнаяСлужба</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation/>
+									<Value xsi:type="xr:DesignTimeRef">Enum.ТипыИсполнителейЗаданийНаПеревозку.EnumValue.Перевозчик</Value>
+								</xr:Value>
+							</xr:Item>
+							<xr:Item>
+								<xr:Presentation/>
+								<xr:CheckState>0</xr:CheckState>
+								<xr:Value xsi:type="FormChoiceListDesTimeValue">
+									<Presentation>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>&lt;без отбора&gt;</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>&lt;without filter&gt;</v8:content>
+										</v8:item>
+									</Presentation>
+									<Value xsi:type="xr:DesignTimeRef">Enum.ТипыИсполнителейЗаданийНаПеревозку.EmptyRef</Value>
+								</xr:Value>
+							</xr:Item>
+						</ChoiceList>
+						<ContextMenu name="ОтборПоТипуИсполнителейКонтекстноеМеню" id="1462"/>
+						<ExtendedTooltip name="ОтборПоТипуИсполнителейРасширеннаяПодсказка" id="1463"/>
+					</InputField>
+					<InputField name="ЗонаДоставки" id="1">
+						<DataPath>14</DataPath>
+						<TitleLocation>Top</TitleLocation>
+						<EditMode>EnterOnInput</EditMode>
+						<Width>15</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ClearButton>true</ClearButton>
+						<OpenButton>false</OpenButton>
+						<AutoChoiceIncomplete>true</AutoChoiceIncomplete>
+						<ChoiceFoldersAndItems>FoldersAndItems</ChoiceFoldersAndItems>
+						<ContextMenu name="ЗонаДоставкиКонтекстноеМеню" id="2"/>
+						<ExtendedTooltip name="ЗонаДоставкиExtendedTooltip" id="1251"/>
+					</InputField>
+					<InputField name="ДатаРаспоряжений" id="300">
+						<DataPath>20</DataPath>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Дата до</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Date to</v8:content>
+							</v8:item>
+						</Title>
+						<TitleLocation>Top</TitleLocation>
+						<Width>9</Width>
+						<SpinButton>true</SpinButton>
+						<EditFormat>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ДФ=dd.MM.yy</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>DF=MM/dd/yy</v8:content>
+							</v8:item>
+						</EditFormat>
+						<ContextMenu name="ДатаРаспоряженийКонтекстноеМеню" id="301"/>
+						<ExtendedTooltip name="ДатаРаспоряженийExtendedTooltip" id="1252"/>
+					</InputField>
+					<CommandBar name="ГруппаКоманднаяПанель" id="1023">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Командная панель</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Command bar </v8:content>
+							</v8:item>
+						</Title>
+						<HorizontalLocation>Right</HorizontalLocation>
+						<ExtendedTooltip name="ГруппаКоманднаяПанельExtendedTooltip" id="1242"/>
+						<ChildItems>
+							<Button name="ОбновитьСпискиДоставки" id="383">
+								<Type>CommandBarButton</Type>
+								<Representation>PictureAndText</Representation>
+								<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+								<Picture>
+									<xr:Ref>StdPicture.Refresh</xr:Ref>
+									<xr:LoadTransparent>true</xr:LoadTransparent>
+								</Picture>
+								<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+								<ExtendedTooltip name="ОбновитьСпискиДоставкиExtendedTooltip" id="1243"/>
+							</Button>
+							<Button name="ИзменитьФорму" id="1028">
+								<Type>CommandBarButton</Type>
+								<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+								<ExtendedTooltip name="ИзменитьФормуExtendedTooltip" id="1244"/>
+							</Button>
+							<Button name="Справка" id="1029">
+								<Type>CommandBarButton</Type>
+								<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+								<ExtendedTooltip name="СправкаExtendedTooltip" id="1245"/>
+							</Button>
+						</ChildItems>
+					</CommandBar>
+				</ChildItems>
+			</UsualGroup>
+			<Table name="РаспоряженияНаДоставку" id="851">
+				<Representation>Tree</Representation>
+				<ReadOnly>true</ReadOnly>
+				<AutoInsertNewRow>true</AutoInsertNewRow>
+				<InitialTreeView>ExpandAllLevels</InitialTreeView>
+				<EnableStartDrag>true</EnableStartDrag>
+				<EnableDrag>true</EnableDrag>
+				<FileDragMode>AsFile</FileDragMode>
+				<DataPath>6</DataPath>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Распоряжения на доставку</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Delivery references</v8:content>
+					</v8:item>
+				</Title>
+				<ContextMenu name="РаспоряженияНаДоставкуКонтекстноеМеню" id="852"/>
+				<AutoCommandBar name="РаспоряженияНаДоставкуКоманднаяПанель" id="853">
+					<Autofill>false</Autofill>
+				</AutoCommandBar>
+				<ExtendedTooltip name="РаспоряженияНаДоставкуExtendedTooltip" id="1253"/>
+				<SearchStringAddition name="РаспоряженияНаДоставкуСтрокаПоиска" id="1410">
+					<AdditionSource>
+						<Item>РаспоряженияНаДоставку</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="РаспоряженияНаДоставкуСтрокаПоискаКонтекстноеМеню" id="1411"/>
+					<ExtendedTooltip name="РаспоряженияНаДоставкуСтрокаПоискаРасширеннаяПодсказка" id="1412"/>
+				</SearchStringAddition>
+				<ViewStatusAddition name="РаспоряженияНаДоставкуСостояниеПросмотра" id="1413">
+					<AdditionSource>
+						<Item>РаспоряженияНаДоставку</Item>
+						<Type>ViewStatusRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="РаспоряженияНаДоставкуСостояниеПросмотраКонтекстноеМеню" id="1414"/>
+					<ExtendedTooltip name="РаспоряженияНаДоставкуСостояниеПросмотраРасширеннаяПодсказка" id="1415"/>
+				</ViewStatusAddition>
+				<SearchControlAddition name="РаспоряженияНаДоставкуУправлениеПоиском" id="1416">
+					<AdditionSource>
+						<Item>РаспоряженияНаДоставку</Item>
+						<Type>SearchControl</Type>
+					</AdditionSource>
+					<ContextMenu name="РаспоряженияНаДоставкуУправлениеПоискомКонтекстноеМеню" id="1417"/>
+					<ExtendedTooltip name="РаспоряженияНаДоставкуУправлениеПоискомРасширеннаяПодсказка" id="1418"/>
+				</SearchControlAddition>
+				<ChildItems>
+					<InputField name="РаспоряженияНаДоставкуАдрес" id="898">
+						<DataPath>6/5</DataPath>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Адрес</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Address</v8:content>
+							</v8:item>
+						</Title>
+						<EditMode>EnterOnInput</EditMode>
+						<Width>18</Width>
+						<HorizontalStretch>true</HorizontalStretch>
+						<ContextMenu name="РаспоряженияНаДоставкуАдресКонтекстноеМеню" id="899"/>
+						<ExtendedTooltip name="РаспоряженияНаДоставкуАдресРасширеннаяПодсказка" id="1256"/>
+					</InputField>
+					<InputField name="РаспоряженияНаДоставкуДата" id="893">
+						<DataPath>6/4</DataPath>
+						<EditMode>EnterOnInput</EditMode>
+						<Width>5</Width>
+						<HorizontalStretch>true</HorizontalStretch>
+						<ContextMenu name="РаспоряженияНаДоставкуДатаКонтекстноеМеню" id="894"/>
+						<ExtendedTooltip name="РаспоряженияНаДоставкуДатаExtendedTooltip" id="1263"/>
+					</InputField>
+					<InputField name="РаспоряженияНаДоставкуПолучательОтправитель" id="902">
+						<DataPath>6/7</DataPath>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Получатель (отправитель)</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Consignee (sender)</v8:content>
+							</v8:item>
+						</Title>
+						<EditMode>EnterOnInput</EditMode>
+						<Width>15</Width>
+						<HorizontalStretch>true</HorizontalStretch>
+						<ContextMenu name="РаспоряженияНаДоставкуПолучательОтправительКонтекстноеМеню" id="903"/>
+						<ExtendedTooltip name="РаспоряженияНаДоставкуПолучательОтправительРасширеннаяПодсказка" id="1257"/>
+					</InputField>
+					<InputField name="РаспоряженияНаДоставкуВремя" id="1122">
+						<DataPath>6/15</DataPath>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Желаемое время доставки</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Required delivery time</v8:content>
+							</v8:item>
+						</Title>
+						<EditMode>EnterOnInput</EditMode>
+						<Width>7</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ContextMenu name="РаспоряженияНаДоставкуВремяКонтекстноеМеню" id="1123"/>
+						<ExtendedTooltip name="РаспоряженияНаДоставкуВремяExtendedTooltip" id="1258"/>
+					</InputField>
+					<InputField name="РаспоряженияНаДоставкуВес" id="904">
+						<DataPath>6/8</DataPath>
+						<EditMode>EnterOnInput</EditMode>
+						<FooterDataPath>21</FooterDataPath>
+						<FooterTextColor>style:ЦветИтоговыхПоказателейДокументов</FooterTextColor>
+						<FooterFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+						<Width>8</Width>
+						<HorizontalStretch>true</HorizontalStretch>
+						<Format>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ЧДЦ=0</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>NFD=0</v8:content>
+							</v8:item>
+						</Format>
+						<EditFormat>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ЧДЦ=0</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>NFD=0</v8:content>
+							</v8:item>
+						</EditFormat>
+						<ContextMenu name="РаспоряженияНаДоставкуВесКонтекстноеМеню" id="905"/>
+						<ExtendedTooltip name="РаспоряженияНаДоставкуВесExtendedTooltip" id="1259"/>
+					</InputField>
+					<InputField name="РаспоряженияНаДоставкуОбъем" id="906">
+						<DataPath>6/9</DataPath>
+						<EditMode>EnterOnInput</EditMode>
+						<FooterDataPath>22</FooterDataPath>
+						<FooterTextColor>style:ЦветИтоговыхПоказателейДокументов</FooterTextColor>
+						<FooterFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+						<Width>8</Width>
+						<HorizontalStretch>true</HorizontalStretch>
+						<Format>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ЧДЦ=0</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>NFD=0</v8:content>
+							</v8:item>
+						</Format>
+						<EditFormat>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ЧДЦ=0</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>NFD=0</v8:content>
+							</v8:item>
+						</EditFormat>
+						<ContextMenu name="РаспоряженияНаДоставкуОбъемКонтекстноеМеню" id="907"/>
+						<ExtendedTooltip name="РаспоряженияНаДоставкуОбъемExtendedTooltip" id="1260"/>
+					</InputField>
+					<InputField name="РаспоряженияНаДоставкуСклад" id="908">
+						<DataPath>6/10</DataPath>
+						<EditMode>EnterOnInput</EditMode>
+						<FooterDataPath>27</FooterDataPath>
+						<FooterTextColor>style:ЦветИтоговыхПоказателейДокументов</FooterTextColor>
+						<FooterFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+						<Width>12</Width>
+						<HorizontalStretch>true</HorizontalStretch>
+						<DropListButton>false</DropListButton>
+						<ChoiceButton>true</ChoiceButton>
+						<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
+						<ContextMenu name="РаспоряженияНаДоставкуСкладКонтекстноеМеню" id="909"/>
+						<ExtendedTooltip name="РаспоряженияНаДоставкуСкладExtendedTooltip" id="1261"/>
+					</InputField>
+					<LabelField name="РаспоряженияНаДоставкуНомер" id="914">
+						<DataPath>6/11</DataPath>
+						<EditMode>EnterOnInput</EditMode>
+						<CellHyperlink>true</CellHyperlink>
+						<Width>5</Width>
+						<HorizontalStretch>true</HorizontalStretch>
+						<ContextMenu name="РаспоряженияНаДоставкуНомерКонтекстноеМеню" id="915"/>
+						<ExtendedTooltip name="РаспоряженияНаДоставкуНомерExtendedTooltip" id="1262"/>
+					</LabelField>
+					<InputField name="РаспоряженияНаДоставкуВидДокумента" id="960">
+						<DataPath>6/14</DataPath>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Распоряжение</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Reference</v8:content>
+							</v8:item>
+						</Title>
+						<EditMode>EnterOnInput</EditMode>
+						<Width>5</Width>
+						<HorizontalStretch>true</HorizontalStretch>
+						<ContextMenu name="РаспоряженияНаДоставкуВидДокументаКонтекстноеМеню" id="961"/>
+						<ExtendedTooltip name="РаспоряженияНаДоставкуВидДокументаExtendedTooltip" id="1264"/>
+					</InputField>
+					<InputField name="РаспоряженияНаДоставкуДополнительнаяИнформацияПоДоставке" id="856">
+						<DataPath>6/2</DataPath>
+						<EditMode>EnterOnInput</EditMode>
+						<Width>20</Width>
+						<HorizontalStretch>true</HorizontalStretch>
+						<ContextMenu name="РаспоряженияНаДоставкуДополнительнаяИнформацияПоДоставкеКонтекстноеМеню" id="857"/>
+						<ExtendedTooltip name="РаспоряженияНаДоставкуДополнительнаяИнформацияПоДоставкеExtendedTooltip" id="1265"/>
+					</InputField>
+					<InputField name="РаспоряженияНаДоставкуСсылка" id="854">
+						<DataPath>6/1</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<EditMode>EnterOnInput</EditMode>
+						<HorizontalStretch>true</HorizontalStretch>
+						<ContextMenu name="РаспоряженияНаДоставкуСсылкаКонтекстноеМеню" id="855"/>
+						<ExtendedTooltip name="РаспоряженияНаДоставкуСсылкаExtendedTooltip" id="1254"/>
+					</InputField>
+				</ChildItems>
+			</Table>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>
