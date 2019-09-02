@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>ad3f1609-059a-482b-827a-94499163250d</xr:ObjectId>
+				<xr:ObjectId>042f56c8-ea98-420f-9d2e-5524b4f963a1</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -84,6 +84,7 @@
 			<StyleItem>ЦветФонаЧастичноОбеспечен</StyleItem>
 			<StyleItem>ЦветФонаНеОбеспечен</StyleItem>
 			<StyleItem>ЦветИтоговыхПоказателейДокументов</StyleItem>
+			<StyleItem>ИтогиФонГруппы</StyleItem>
 			<CommonPicture>ПодключаемоеОборудованиеТерминалСбораДанных16</CommonPicture>
 			<CommonPicture>СерииНоменклатурыУказаныFEFO</CommonPicture>
 			<CommonPicture>НовыйПоШтрихкоду</CommonPicture>
@@ -323,6 +324,7 @@
 			<FunctionalOption>НеИспользоватьЗаявкиНаРасходованиеДенежныхСредств</FunctionalOption>
 			<FunctionalOption>ИспользоватьПроизводство</FunctionalOption>
 			<FunctionalOption>ИспользоватьСегментыНоменклатуры</FunctionalOption>
+			<FunctionalOption>ИспользоватьУчетСебестоимости</FunctionalOption>
 			<DefinedType>НомерКиЗГИСМ</DefinedType>
 			<DefinedType>RFIDTID</DefinedType>
 			<DefinedType>GTIN</DefinedType>
@@ -413,6 +415,7 @@
 			<Constant>ИспользоватьИнтеграциюСЯндексКассой</Constant>
 			<Constant>ИспользоватьПроизводство</Constant>
 			<Constant>ИспользоватьСегментыНоменклатуры</Constant>
+			<Constant>ИспользоватьУчетСебестоимости</Constant>
 			<CommonForm>РеквизитыПечатиРеализации</CommonForm>
 			<CommonForm>ФормаВариантаОтчета</CommonForm>
 			<CommonForm>ФормаНастроекОтчета</CommonForm>
@@ -554,6 +557,13 @@
 			<Document>Премия</Document>
 			<Document>ВИЛС_ИнвентаризацияТМЦВЭксплуатации</Document>
 			<Document>ВозвратСырьяДавальцу</Document>
+			<Document>ТТНВходящаяЕГАИС</Document>
+			<Document>АвансовыйОтчет</Document>
+			<Document>ВозвратТоваровОтКлиента</Document>
+			<Document>РасходныйКассовыйОрдер</Document>
+			<Document>ОперацияПоПлатежнойКарте</Document>
+			<Document>ПоступлениеДенежныхДокументов</Document>
+			<Document>КорректировкаРегистров</Document>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
 			<Enum>ПорядокОплатыПоСоглашениям</Enum>
 			<Enum>ХозяйственныеОперации</Enum>

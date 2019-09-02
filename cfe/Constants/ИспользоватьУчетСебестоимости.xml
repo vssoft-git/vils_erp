@@ -1,23 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<DataProcessor uuid="f9bda4e6-1560-4954-b5a3-3667ee810813">
+	<Constant uuid="9f632eac-6233-4bd4-b5c0-096dce8f5661">
 		<InternalInfo>
-			<xr:GeneratedType name="DataProcessorObject.ПечатьТранспортнойНакладной" category="Object">
-				<xr:TypeId>b10fa3bb-ceea-439e-b05b-e2b6c2aa0b83</xr:TypeId>
-				<xr:ValueId>7be00faf-5986-48f3-8430-d0b070273398</xr:ValueId>
+			<xr:GeneratedType name="ConstantManager.ИспользоватьУчетСебестоимости" category="Manager">
+				<xr:TypeId>7f9750dc-f840-4faf-8ed6-17830b9afe9a</xr:TypeId>
+				<xr:ValueId>c4ec2f6f-dac3-43dc-a0d3-771edf5f2818</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DataProcessorManager.ПечатьТранспортнойНакладной" category="Manager">
-				<xr:TypeId>be411d8b-7e61-4582-b5ea-70e5853fe049</xr:TypeId>
-				<xr:ValueId>f835ea37-a780-430a-a764-e09e0210a4f1</xr:ValueId>
+			<xr:GeneratedType name="ConstantValueManager.ИспользоватьУчетСебестоимости" category="ValueManager">
+				<xr:TypeId>1a5dc6f8-c6fa-47a5-99d0-320e1b1352ae</xr:TypeId>
+				<xr:ValueId>921cc3da-aa3d-4675-a53f-b8c1f3eddc50</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ConstantValueKey.ИспользоватьУчетСебестоимости" category="ValueKey">
+				<xr:TypeId>021f9730-cfba-4029-8c84-05b18c82585f</xr:TypeId>
+				<xr:ValueId>beaef95d-7e47-482c-8144-8dd7424b9c20</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ПечатьТранспортнойНакладной</Name>
+			<Name>ИспользоватьУчетСебестоимости</Name>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>eb7d9708-f9c3-4f6f-9a1a-14a95d0320c9</ExtendedConfigurationObject>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
 		</Properties>
-		<ChildObjects>
-			<Template>ПФ_MXL_ТранспортнаяНакладная_ru</Template>
-		</ChildObjects>
-	</DataProcessor>
+	</Constant>
 </MetaDataObject>

@@ -2,7 +2,6 @@
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
 	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
 	<AutoTitle>false</AutoTitle>
-	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
 			<Popup name="ПодменюСоздатьНаОсновании" id="337">
@@ -11,10 +10,14 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Создать на основании</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Create on the basis</v8:content>
+					</v8:item>
 				</Title>
 				<Picture>
-					<xr:Ref>CommonPicture.ЗаполнитьПоШаблону</xr:Ref>
-					<xr:LoadTransparent>true</xr:LoadTransparent>
+					<xr:Ref>0:0a4b947f-6c9b-415f-8387-db3b4716250b</xr:Ref>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
 				<Representation>Picture</Representation>
 				<ExtendedTooltip name="ПодменюСоздатьНаОснованииРасширеннаяПодсказка" id="338"/>
@@ -25,6 +28,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Создать на основании (Важное)</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Create on the basis (Important)</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииВажноеРасширеннаяПодсказка" id="340"/>
 					</ButtonGroup>
@@ -34,6 +41,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Создать на основании (Обычное)</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Create on the basis (Standard)</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииОбычноеРасширеннаяПодсказка" id="342"/>
 					</ButtonGroup>
@@ -42,6 +53,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Создать на основании (См. также)</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Create on the basis (See also)</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииСмТакжеРасширеннаяПодсказка" id="344"/>
@@ -54,16 +69,24 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Заполнение</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>FIlling</v8:content>
+					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Дополнительные команды заполнения</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Additional completion commands</v8:content>
+					</v8:item>
 				</ToolTip>
 				<Picture>
-					<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
-					<xr:LoadTransparent>true</xr:LoadTransparent>
+					<xr:Ref>0:8ca13f41-3185-4ecb-91cc-5640c93d97ff</xr:Ref>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
 				<ExtendedTooltip name="ПодменюДополнительныхОбработокЗаполненияРасширеннаяПодсказка" id="96"/>
 			</Popup>
@@ -73,11 +96,19 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Печать</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Print </v8:content>
+					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Команды печати</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Print commands</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Picture>
@@ -86,16 +117,43 @@
 				</Picture>
 				<ExtendedTooltip name="ПодменюПечатьРасширеннаяПодсказка" id="98"/>
 			</Popup>
+			<Popup name="КомандыЭДО" id="359">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ЭДО</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>EDW</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Команды ЭДО</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>EDW commands</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ExtendedTooltip name="КомандыЭДОРасширеннаяПодсказка" id="360"/>
+			</Popup>
 			<Popup name="ПодменюОтчеты" id="173">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Отчеты</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Reports</v8:content>
+					</v8:item>
 				</Title>
 				<Picture>
-					<xr:Ref>CommonPicture.Отчеты</xr:Ref>
-					<xr:LoadTransparent>true</xr:LoadTransparent>
+					<xr:Ref>0:2997e4da-d831-48e4-96e2-c29f9d077302</xr:Ref>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
 				<Representation>PictureAndText</Representation>
 				<ExtendedTooltip name="ПодменюОтчетыРасширеннаяПодсказка" id="174"/>
@@ -106,6 +164,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Подменю отчеты важное</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Important reports submenu</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюОтчетыВажноеРасширеннаяПодсказка" id="176"/>
 					</ButtonGroup>
@@ -115,11 +177,19 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Подменю отчеты перейти</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Submenu reports go to</v8:content>
+							</v8:item>
 						</Title>
 						<ToolTip>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Подменю отчеты важное</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Important reports submenu</v8:content>
 							</v8:item>
 						</ToolTip>
 						<ExtendedTooltip name="ПодменюОтчетыПерейтиРасширеннаяПодсказка" id="178"/>
@@ -130,11 +200,19 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Подменю отчеты см также</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Submenu reports see also</v8:content>
+							</v8:item>
 						</Title>
 						<ToolTip>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Подменю отчеты важное</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Important reports submenu</v8:content>
 							</v8:item>
 						</ToolTip>
 						<ExtendedTooltip name="ПодменюОтчетыСмТакжеРасширеннаяПодсказка" id="180"/>
@@ -146,6 +224,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>1СПАРК Риски</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>1C-SPARK Risks</v8:content>
 					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ПодменюСПАРКРасширеннаяПодсказка" id="251"/>
@@ -168,6 +250,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Страницы формы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Form page</v8:content>
+				</v8:item>
 			</Title>
 			<ExtendedTooltip name="СтраницыФормыРасширеннаяПодсказка" id="184"/>
 			<ChildItems>
@@ -176,6 +262,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Основное</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Main</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаОсновноеРасширеннаяПодсказка" id="186"/>
@@ -186,6 +276,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Юр лицо НДС</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Business entity VAT</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
 							<Representation>None</Representation>
@@ -193,11 +287,15 @@
 							<ExtendedTooltip name="ГруппаЮрЛицоНДСРасширеннаяПодсказка" id="65"/>
 							<ChildItems>
 								<InputField name="ВидКонтрагента" id="5">
-									<DataPath>ВидКонтрагента</DataPath>
+									<DataPath>4</DataPath>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Контрагент может быть юридическим или физическим лицом, резидентом или нерезидентом, обособленным подразделением</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Counterparty may be a business entity or an individual, resident or non-resident or a branch office</v8:content>
 										</v8:item>
 									</ToolTip>
 									<EditMode>EnterOnInput</EditMode>
@@ -215,6 +313,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Юридическое лицо</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Business entity</v8:content>
+													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">ЮрЛицо</Value>
 											</xr:Value>
@@ -227,6 +329,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Физическое лицо</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Individual</v8:content>
 													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">ФизЛицо</Value>
@@ -241,6 +347,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Обособленное подразделение юр. лица</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Branch office of business entity</v8:content>
+													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">ОбособленноеПодразделение</Value>
 											</xr:Value>
@@ -253,6 +363,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Юр. лицо, за пределами РФ</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Business entity outside RF</v8:content>
 													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">ЮрЛицоНеРезидент</Value>
@@ -267,6 +381,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Индивидуальный предприниматель</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Individual entrepreneur</v8:content>
+													</v8:item>
 												</Presentation>
 												<Value xsi:type="xs:string">ИндивидуальныйПредприниматель</Value>
 											</xr:Value>
@@ -276,7 +394,7 @@
 									<ExtendedTooltip name="ВидКонтрагентаРасширеннаяПодсказка" id="43"/>
 								</InputField>
 								<CheckBoxField name="НДСПоСтавкам4и2" id="61">
-									<DataPath>Объект.НДСПоСтавкам4и2</DataPath>
+									<DataPath>1/0:0692e59d-2816-44e5-9ea7-1e7fb8f0b391</DataPath>
 									<TitleLocation>Right</TitleLocation>
 									<CheckBoxType>Auto</CheckBoxType>
 									<ContextMenu name="НДСПоСтавкам4и2КонтекстноеМеню" id="62"/>
@@ -290,8 +408,11 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страницы данных регистрации контрагента</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Counterparty registration data pages</v8:content>
+								</v8:item>
 							</Title>
-							<Width>85</Width>
 							<HorizontalStretch>false</HorizontalStretch>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="ГруппаСтраницыДанныхРегистрацииКонтрагентаРасширеннаяПодсказка" id="127"/>
@@ -302,11 +423,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Данные регистрации в РФ</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data of registration in RF</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Данные регистрации в Российской Федерации</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Data of registration in the Russian Federation</v8:content>
 										</v8:item>
 									</ToolTip>
 									<ExtendedTooltip name="ГруппаСтраницаРоссийскогоКонтрагентаРасширеннаяПодсказка" id="274"/>
@@ -316,6 +445,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>ИННКППОКПО</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>TINCRTRRNCBO</v8:content>
 												</v8:item>
 											</Title>
 											<HorizontalStretch>false</HorizontalStretch>
@@ -331,6 +464,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Страницы ИНН</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Pages VAT</v8:content>
+														</v8:item>
 													</Title>
 													<PagesRepresentation>None</PagesRepresentation>
 													<ExtendedTooltip name="СтраницыИННРасширеннаяПодсказка" id="278"/>
@@ -340,6 +477,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Страница ИНН юр лицо</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Page TIN business entity</v8:content>
 																</v8:item>
 															</Title>
 															<ToolTipRepresentation>None</ToolTipRepresentation>
@@ -352,11 +493,15 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>&lt;colorstyle -3&gt;ИНН:&lt;/&gt;</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>&lt;colorstyle -3&gt;TIN:&lt;/&gt;</v8:content>
+																	</v8:item>
 																</Title>
 															</ExtendedTooltip>
 															<ChildItems>
 																<InputField name="ИНН" id="281">
-																	<DataPath>Объект.ИНН</DataPath>
+																	<DataPath>1/0:489feb46-8450-495a-ab9b-547fdd55c2bc</DataPath>
 																	<TitleLocation>Left</TitleLocation>
 																	<EditMode>EnterOnInput</EditMode>
 																	<Width>14</Width>
@@ -366,6 +511,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Введите ИНН 10 цифр</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Enter 10-digit TIN</v8:content>
 																		</v8:item>
 																	</InputHint>
 																	<ContextMenu name="ИННКонтекстноеМеню" id="282"/>
@@ -382,13 +531,17 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>КПП</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>CRTR</v8:content>
+																		</v8:item>
 																	</Title>
 																	<Group>Horizontal</Group>
 																	<ShowTitle>false</ShowTitle>
 																	<ExtendedTooltip name="ГруппаКППРасширеннаяПодсказка" id="327"/>
 																	<ChildItems>
 																		<InputField name="КПП" id="286">
-																			<DataPath>Объект.КПП</DataPath>
+																			<DataPath>1/0:ea256d8b-5500-4819-9668-837744212add</DataPath>
 																			<TitleLocation>Left</TitleLocation>
 																			<EditMode>EnterOnInput</EditMode>
 																			<Width>14</Width>
@@ -399,12 +552,16 @@
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>Введите КПП 9 цифр</v8:content>
 																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Enter 9-digit CRTR</v8:content>
+																				</v8:item>
 																			</InputHint>
 																			<ContextMenu name="КППКонтекстноеМеню" id="287"/>
 																			<ExtendedTooltip name="КППРасширеннаяПодсказка" id="288"/>
 																		</InputField>
 																		<LabelField name="ПереходКИсторииКПП" id="331">
-																			<DataPath>ПереходКИсторииКПП</DataPath>
+																			<DataPath>13</DataPath>
 																			<TitleLocation>None</TitleLocation>
 																			<AutoMaxWidth>false</AutoMaxWidth>
 																			<MaxWidth>15</MaxWidth>
@@ -421,6 +578,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Страница ИНН физ лицо</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Page TIN individual</v8:content>
+																</v8:item>
 															</Title>
 															<ToolTipRepresentation>ShowLeft</ToolTipRepresentation>
 															<Group>Horizontal</Group>
@@ -430,11 +591,15 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>&lt;colorstyle -11&gt;ИНН:         &lt;/&gt;&lt;colorstyle -11&gt;   &lt;/&gt;&lt;colorstyle -11&gt;      &lt;/&gt;&lt;colorstyle -11&gt;   &lt;/&gt;&lt;colorstyle -11&gt;   &lt;/&gt;</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>&lt;colorstyle -11&gt;TIN:         &lt;/&gt;&lt;colorstyle -11&gt;&lt;/&gt;&lt;colorstyle -11&gt;      &lt;/&gt;&lt;colorstyle -11&gt;   &lt;/&gt;&lt;colorstyle -11&gt;   &lt;/&gt;</v8:content>
+																	</v8:item>
 																</Title>
 															</ExtendedTooltip>
 															<ChildItems>
 																<InputField name="ИННФизЛицо" id="291">
-																	<DataPath>Объект.ИНН</DataPath>
+																	<DataPath>1/0:489feb46-8450-495a-ab9b-547fdd55c2bc</DataPath>
 																	<TitleLocation>None</TitleLocation>
 																	<Width>14</Width>
 																	<HorizontalStretch>false</HorizontalStretch>
@@ -442,6 +607,10 @@
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Введите ИНН 12 цифр</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Enter 10-digit TIN</v8:content>
 																		</v8:item>
 																	</InputHint>
 																	<ContextMenu name="ИННФизЛицоКонтекстноеМеню" id="292"/>
@@ -451,8 +620,8 @@
 																	<Type>UsualButton</Type>
 																	<CommandName>Form.Command.ЗаполнитьПоИНН</CommandName>
 																	<Picture>
-																		<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
-																		<xr:LoadTransparent>true</xr:LoadTransparent>
+																		<xr:Ref>0:8ca13f41-3185-4ecb-91cc-5640c93d97ff</xr:Ref>
+																		<xr:LoadTransparent>false</xr:LoadTransparent>
 																	</Picture>
 																	<ExtendedTooltip name="ЗаполнитьПоИННФизЛицоРасширеннаяПодсказка" id="295"/>
 																</Button>
@@ -461,7 +630,7 @@
 													</ChildItems>
 												</Pages>
 												<InputField name="КодПоОКПО" id="296">
-													<DataPath>Объект.КодПоОКПО</DataPath>
+													<DataPath>1/0:b1a31a19-7fc9-47b2-a081-acbc8a017520</DataPath>
 													<TitleLocation>Left</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
 													<Width>13</Width>
@@ -478,6 +647,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Результат проверки контрагентов</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Counterparty check result</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
@@ -490,6 +663,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Страницы картинки результатов проверки контрагента</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Counterparty result check image pages</v8:content>
+														</v8:item>
 													</Title>
 													<PagesRepresentation>None</PagesRepresentation>
 													<ExtendedTooltip name="СтраницыКартинкиРезультатовПроверкиКонтрагентаРасширеннаяПодсказка" id="302"/>
@@ -499,6 +676,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Страница корректный контрагент</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Correct counterparty page</v8:content>
 																</v8:item>
 															</Title>
 															<ExtendedTooltip name="СтраницаКорректныйКонтрагентРасширеннаяПодсказка" id="304"/>
@@ -518,11 +699,19 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Страница не действующий контрагент</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Page invalid counterparty</v8:content>
+																</v8:item>
 															</Title>
 															<ToolTip>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Страница корректный контрагент</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Correct counterparty page</v8:content>
 																</v8:item>
 															</ToolTip>
 															<ExtendedTooltip name="СтраницаНеДействующийКонтрагентРасширеннаяПодсказка" id="309"/>
@@ -535,10 +724,14 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Декорация картинка не корректный контрагент</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Decoration image incorrect counterparty</v8:content>
+																		</v8:item>
 																	</Title>
 																	<Picture>
-																		<xr:Ref>CommonPicture.ВниманиеСерый</xr:Ref>
-																		<xr:LoadTransparent>true</xr:LoadTransparent>
+																		<xr:Ref>0:1a4a264c-25fe-432e-8ad1-acf7657cec0f</xr:Ref>
+																		<xr:LoadTransparent>false</xr:LoadTransparent>
 																	</Picture>
 																	<FileDragMode>AsFile</FileDragMode>
 																	<ContextMenu name="ДекорацияКартинкаНеДействующийКонтрагентКонтекстноеМеню" id="311"/>
@@ -552,6 +745,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Страница контрагент не достаточно данных</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Page counterparty not enough data</v8:content>
+																</v8:item>
 															</Title>
 															<ExtendedTooltip name="СтраницаКонтрагентНеДостаточноДанныхРасширеннаяПодсказка" id="314"/>
 															<ChildItems>
@@ -563,10 +760,14 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Декорация картинка не достаточно данных контрагент</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Decoration image not enough data counterparty</v8:content>
+																		</v8:item>
 																	</Title>
 																	<Picture>
-																		<xr:Ref>CommonPicture.Внимание16</xr:Ref>
-																		<xr:LoadTransparent>true</xr:LoadTransparent>
+																		<xr:Ref>0:188d8f0e-94da-44bb-8ed3-21aa01e973b9</xr:Ref>
+																		<xr:LoadTransparent>false</xr:LoadTransparent>
 																	</Picture>
 																	<FileDragMode>AsFile</FileDragMode>
 																	<ContextMenu name="ДекорацияКартинкаНедостаточноДанныхКонтрагентКонтекстноеМеню" id="316"/>
@@ -580,11 +781,19 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Страница не корректный контрагент</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Incorrect counterparty page</v8:content>
+																</v8:item>
 															</Title>
 															<ToolTip>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Страница корректный контрагент</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Correct counterparty page</v8:content>
 																</v8:item>
 															</ToolTip>
 															<ExtendedTooltip name="СтраницаНеКорректныйКонтрагентРасширеннаяПодсказка" id="319"/>
@@ -597,10 +806,14 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Декорация картинка не корректный контрагент</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Decoration image incorrect counterparty</v8:content>
+																		</v8:item>
 																	</Title>
 																	<Picture>
-																		<xr:Ref>CommonPicture.ВниманиеКрасный</xr:Ref>
-																		<xr:LoadTransparent>true</xr:LoadTransparent>
+																		<xr:Ref>0:fba4d196-f561-4c8a-8b55-f1b01723c64e</xr:Ref>
+																		<xr:LoadTransparent>false</xr:LoadTransparent>
 																	</Picture>
 																	<FileDragMode>AsFile</FileDragMode>
 																	<ContextMenu name="ДекорацияКартинкаНеКорректныйКонтрагентКонтекстноеМеню" id="321"/>
@@ -611,7 +824,7 @@
 													</ChildItems>
 												</Pages>
 												<LabelField name="РезультатПроверкиКонтрагента" id="323">
-													<DataPath>РезультатПроверкиКонтрагента</DataPath>
+													<DataPath>9</DataPath>
 													<TitleLocation>None</TitleLocation>
 													<HorizontalAlign>Left</HorizontalAlign>
 													<Width>75</Width>
@@ -629,6 +842,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Данные иностранного контрагента</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Foreign counterparty details</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTipRepresentation>None</ToolTipRepresentation>
 									<Group>Horizontal</Group>
@@ -641,23 +858,32 @@
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Страна регистрации налоговый номер</v8:content>
+													<v8:content>Страна регистрации, Налоговый номер</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Registration country, Tax number</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
 											<Representation>None</Representation>
+											<United>false</United>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаСтранаРегистрацииНалоговыйНомерРасширеннаяПодсказка" id="258"/>
 											<ChildItems>
 												<InputField name="СтранаРегистрации" id="259">
-													<DataPath>Объект.СтранаРегистрации</DataPath>
+													<DataPath>1/0:a963e108-31e6-44d8-9094-7db33fdcb410</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Страна регистрации</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Registration country</v8:content>
+														</v8:item>
 													</Title>
-													<Width>25</Width>
+													<Width>22</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ChoiceParameters>
 														<app:item name="Отбор.Предопределенный">
@@ -671,11 +897,15 @@
 													<ExtendedTooltip name="СтранаРегистрацииРасширеннаяПодсказка" id="261"/>
 												</InputField>
 												<InputField name="НалоговыйНомер" id="262">
-													<DataPath>Объект.НалоговыйНомер</DataPath>
+													<DataPath>1/0:d0800e2e-b103-41a7-a887-ca049af6677e</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Налоговый номер</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Tax number</v8:content>
 														</v8:item>
 													</Title>
 													<ToolTip>
@@ -683,13 +913,21 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Налоговый номер в стране регистрации</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Tax number in the registration country</v8:content>
+														</v8:item>
 													</ToolTip>
-													<Width>25</Width>
+													<Width>24</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<InputHint>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Налоговый номер в стране регистрации</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Tax number in the registration country</v8:content>
 														</v8:item>
 													</InputHint>
 													<ContextMenu name="НалоговыйНомерКонтекстноеМеню" id="263"/>
@@ -697,24 +935,33 @@
 												</InputField>
 											</ChildItems>
 										</UsualGroup>
-										<UsualGroup name="ГруппаРегистрационныйНомерИНН" id="265">
+										<UsualGroup name="ГруппаРегистрационныйНомерИННКПП" id="361">
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Регистрационный номер ИНН</v8:content>
+													<v8:content>Регистрационный номер, ИНН/КПП</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Registration number, TIN/CRTR</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
 											<Representation>None</Representation>
+											<United>false</United>
 											<ShowTitle>false</ShowTitle>
-											<ExtendedTooltip name="ГруппаРегистрационныйНомерИННРасширеннаяПодсказка" id="266"/>
+											<ExtendedTooltip name="ГруппаРегистрационныйНомерИННКППРасширеннаяПодсказка" id="363"/>
 											<ChildItems>
 												<InputField name="РегистрационныйНомер" id="267">
-													<DataPath>Объект.РегистрационныйНомер</DataPath>
+													<DataPath>1/0:21ab9d4e-9a58-4fbf-9e95-84a659b869e9</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Рег. номер</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Reg. number</v8:content>
 														</v8:item>
 													</Title>
 													<TitleLocation>Left</TitleLocation>
@@ -723,8 +970,11 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Регистрационный номер в стране регистрации контрагента</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Registration number in the counterparty registration country</v8:content>
+														</v8:item>
 													</ToolTip>
-													<Width>30</Width>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<HorizontalStretch>false</HorizontalStretch>
 													<InputHint>
@@ -732,17 +982,55 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Регистрационный номер в стране регистрации</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Registration number in the registration country</v8:content>
+														</v8:item>
 													</InputHint>
 													<ContextMenu name="РегистрационныйНомерКонтекстноеМеню" id="268"/>
 													<ExtendedTooltip name="РегистрационныйНомерРасширеннаяПодсказка" id="269"/>
 												</InputField>
-												<InputField name="ИННИностранногоКонтрагента" id="270">
-													<DataPath>Объект.ИНН</DataPath>
-													<Width>14</Width>
-													<HorizontalStretch>false</HorizontalStretch>
-													<ContextMenu name="ИННИностранногоКонтрагентаКонтекстноеМеню" id="271"/>
-													<ExtendedTooltip name="ИННИностранногоКонтрагентаРасширеннаяПодсказка" id="272"/>
-												</InputField>
+												<UsualGroup name="ГруппаИННКПП" id="348">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>ИНН/КПП</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>TIN/CRTR</v8:content>
+														</v8:item>
+													</Title>
+													<Group>Horizontal</Group>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаИННКППРасширеннаяПодсказка" id="349"/>
+													<ChildItems>
+														<InputField name="ИННИностранногоКонтрагента" id="270">
+															<DataPath>1/0:489feb46-8450-495a-ab9b-547fdd55c2bc</DataPath>
+															<Width>14</Width>
+															<HorizontalStretch>false</HorizontalStretch>
+															<ContextMenu name="ИННИностранногоКонтрагентаКонтекстноеМеню" id="271"/>
+															<ExtendedTooltip name="ИННИностранногоКонтрагентаРасширеннаяПодсказка" id="272"/>
+														</InputField>
+														<InputField name="КППИностранногоКонтрагента" id="353">
+															<DataPath>1/0:ea256d8b-5500-4819-9668-837744212add</DataPath>
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<MaxWidth>12</MaxWidth>
+															<HorizontalStretch>false</HorizontalStretch>
+															<ContextMenu name="КППИностранногоКонтрагентаКонтекстноеМеню" id="354"/>
+															<ExtendedTooltip name="КППИностранногоКонтрагентаРасширеннаяПодсказка" id="355"/>
+														</InputField>
+														<LabelField name="ПереходКИсторииКППИностранногоКонтрагента" id="356">
+															<DataPath>13</DataPath>
+															<TitleLocation>None</TitleLocation>
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<HorizontalStretch>true</HorizontalStretch>
+															<ContextMenu name="ПереходКИсторииКППИностранногоКонтрагентаКонтекстноеМеню" id="357"/>
+															<ExtendedTooltip name="ПереходКИсторииКППИностранногоКонтрагентаРасширеннаяПодсказка" id="358"/>
+														</LabelField>
+													</ChildItems>
+												</UsualGroup>
 											</ChildItems>
 										</UsualGroup>
 									</ChildItems>
@@ -754,6 +1042,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Наименования партнер спарк</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Names partner spark</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -768,6 +1060,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Наименования партнер</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Names partner</v8:content>
+										</v8:item>
 									</Title>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
@@ -778,6 +1074,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Наименования:</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Names:</v8:content>
 												</v8:item>
 											</Title>
 											<TitleTextColor>style:FormTextColor</TitleTextColor>
@@ -792,6 +1092,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Наименование лево</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Name left</v8:content>
+														</v8:item>
 													</Title>
 													<Group>Horizontal</Group>
 													<Representation>None</Representation>
@@ -799,11 +1103,15 @@
 													<ExtendedTooltip name="ГруппаНаименованиеЛевоРасширеннаяПодсказка" id="190"/>
 													<ChildItems>
 														<InputField name="НаименованиеСокращенное" id="18">
-															<DataPath>Объект.НаименованиеПолное</DataPath>
+															<DataPath>1/0:be19691e-3e4a-44a7-96c2-ce843902e27e</DataPath>
 															<Title>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Сокр. юридическое</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Abbr. legal name</v8:content>
 																</v8:item>
 															</Title>
 															<TitleLocation>Left</TitleLocation>
@@ -815,12 +1123,16 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Укажите наименование и заполните остальные реквизиты по данным государственных реестров</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Specify the name and fill in other attributes according to national registry data.</v8:content>
+																</v8:item>
 															</InputHint>
 															<ContextMenu name="НаименованиеСокращенноеКонтекстноеМеню" id="19"/>
 															<ExtendedTooltip name="НаименованиеСокращенноеExtendedTooltip" id="41"/>
 														</InputField>
 														<LabelField name="ПереходКИсторииНаименования" id="334">
-															<DataPath>ПереходКИсторииНаименования</DataPath>
+															<DataPath>14</DataPath>
 															<TitleLocation>None</TitleLocation>
 															<AutoMaxWidth>false</AutoMaxWidth>
 															<MaxWidth>16</MaxWidth>
@@ -837,11 +1149,15 @@
 													</ChildItems>
 												</UsualGroup>
 												<InputField name="Наименование" id="1">
-													<DataPath>Объект.Description</DataPath>
+													<DataPath>1/-3</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Рабочее</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Work name</v8:content>
 														</v8:item>
 													</Title>
 													<TitleLocation>Left</TitleLocation>
@@ -853,11 +1169,15 @@
 													<ExtendedTooltip name="НаименованиеExtendedTooltip" id="42"/>
 												</InputField>
 												<InputField name="НаименованиеМеждународное" id="345">
-													<DataPath>Объект.НаименованиеМеждународное</DataPath>
+													<DataPath>1/0:b5729a90-7b03-4912-9990-210602af51f1</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Международное</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>International name</v8:content>
 														</v8:item>
 													</Title>
 													<AutoMaxWidth>false</AutoMaxWidth>
@@ -872,6 +1192,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Партнер</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Partner</v8:content>
 												</v8:item>
 											</Title>
 											<ToolTipRepresentation>None</ToolTipRepresentation>
@@ -888,11 +1212,15 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>&lt;colorstyle -21&gt;Партнер:                      &lt;/&gt;</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>&lt;colorstyle -21&gt;Partner:                      &lt;/&gt;</v8:content>
+													</v8:item>
 												</Title>
 											</ExtendedTooltip>
 											<ChildItems>
 												<InputField name="Партнер" id="13">
-													<DataPath>Объект.Партнер</DataPath>
+													<DataPath>1/0:ce59e7d4-ce32-4e73-8b06-cda594aec2b3</DataPath>
 													<TitleLocation>Left</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
 													<Width>28</Width>
@@ -908,6 +1236,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Страницы партнер</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Partner pages</v8:content>
+														</v8:item>
 													</Title>
 													<PagesRepresentation>None</PagesRepresentation>
 													<ExtendedTooltip name="СтраницыПартнерExtendedTooltip" id="46"/>
@@ -917,6 +1249,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Страница партнер подобран</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Page partner is selected</v8:content>
 																</v8:item>
 															</Title>
 															<HorizontalStretch>false</HorizontalStretch>
@@ -935,6 +1271,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Страница неизвестный партнер</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Page unknown partner</v8:content>
 																</v8:item>
 															</Title>
 															<Group>Horizontal</Group>
@@ -957,6 +1297,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Головной контрагент</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Main counterparty</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
@@ -964,7 +1308,7 @@
 											<ExtendedTooltip name="ГруппаГоловнойКонтрагентРасширеннаяПодсказка" id="67"/>
 											<ChildItems>
 												<InputField name="ГоловнойКонтрагент" id="68">
-													<DataPath>Объект.ГоловнойКонтрагент</DataPath>
+													<DataPath>1/0:9a4dd8c0-cb11-49ac-a82d-7239dd0e26a5</DataPath>
 													<TitleLocation>Left</TitleLocation>
 													<Width>45</Width>
 													<HorizontalStretch>false</HorizontalStretch>
@@ -987,6 +1331,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Спарк</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Spark</v8:content>
+										</v8:item>
 									</Title>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
@@ -1002,6 +1350,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Индексы СПАРК риски</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Indexes 1C-SPARK Risks</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
@@ -1021,8 +1373,8 @@
 													<Width>2</Width>
 													<Height>4</Height>
 													<Picture>
-														<xr:Ref>CommonPicture.ДлительнаяОперация16</xr:Ref>
-														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:Ref>0:8dc04c93-e368-4cd2-a112-3d5339d1843d</xr:Ref>
+														<xr:LoadTransparent>false</xr:LoadTransparent>
 													</Picture>
 													<FileDragMode>AsFile</FileDragMode>
 													<ContextMenu name="КартинкаОжиданиеЗагрузкиИндексовСПАРКРискиКонтекстноеМеню" id="245"/>
@@ -1040,6 +1392,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Предупреждение головной контрагент</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Warning main counterparty</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
 							<Representation>None</Representation>
@@ -1054,10 +1410,14 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Картинка предупреждение головной контрагент</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Picture warning main counterparty</v8:content>
+										</v8:item>
 									</Title>
 									<Picture>
-										<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
-										<xr:LoadTransparent>true</xr:LoadTransparent>
+										<xr:Ref>0:ac2e5217-aaeb-4b6f-b063-538c84f2da06</xr:Ref>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
 									</Picture>
 									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="КартинкаПредупреждениеГоловнойКонтрагентКонтекстноеМеню" id="76"/>
@@ -1074,6 +1434,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Не заполнен головной контрагент. Счета-фактуры и книги продаж будут оформлены некорректно.</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Main counterparty is not specified. Tax invoices and sales ledgers will be inaccurate.</v8:content>
+										</v8:item>
 									</Title>
 									<VerticalAlign>Center</VerticalAlign>
 									<ContextMenu name="ПредупреждениеГоловнойКонтрагентКонтекстноеМеню" id="79"/>
@@ -1082,12 +1446,17 @@
 							</ChildItems>
 						</UsualGroup>
 						<InputField name="ДополнительнаяИнформация" id="22">
-							<DataPath>Объект.ДополнительнаяИнформация</DataPath>
+							<DataPath>1/0:c5da63fe-ed72-43e0-8894-96a84443478c</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дополнительная
 информация</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Additional 
+information</v8:content>
 								</v8:item>
 							</Title>
 							<TitleLocation>Left</TitleLocation>
@@ -1107,6 +1476,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Адреса, телефоны</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Addresses, phones</v8:content>
+						</v8:item>
 					</Title>
 					<HorizontalStretch>true</HorizontalStretch>
 					<ExtendedTooltip name="ГруппаКонтактнаяИнформацияExtendedTooltip" id="58"/>
@@ -1116,6 +1489,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дополнительно</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>More</v8:content>
 						</v8:item>
 					</Title>
 					<HorizontalStretch>false</HorizontalStretch>
@@ -1127,7 +1504,7 @@
 	<Attributes>
 		<Attribute name="Объект" id="1000001">
 			<Type>
-				<v8:Type>cfg:CatalogObject.Контрагенты</v8:Type>
+				<v8:TypeId>fadf052e-6398-4a88-b77c-4b98b97587f1</v8:TypeId>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<SavedData>true</SavedData>
@@ -1137,6 +1514,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Упрощенный ввод доступен</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Simplified input available</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1149,6 +1530,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Использовать партнеров как контрагентов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Use partners as counterparties</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1159,6 +1544,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вид контрагента</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Counterparty type</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1177,6 +1566,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>На основании обособленного контрагента</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Based on a separate counterparty</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1187,6 +1580,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Фоновое задание адрес хранилища</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Background job storage address</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1203,6 +1600,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Фоновое задание идентификатор</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Background job ID</v8:content>
+				</v8:item>
 			</Title>
 			<Type/>
 		</Attribute>
@@ -1211,6 +1612,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настройки подключения к сервису ИППЗаданы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>API service connection settings are set</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1223,6 +1628,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Результат проверки контрагента</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Counterparty check result</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8ui:FormattedString</v8:Type>
@@ -1234,6 +1643,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Реквизиты проверки контрагентов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Counterparty check attributes</v8:content>
+				</v8:item>
 			</Title>
 			<Type/>
 		</Attribute>
@@ -1243,6 +1656,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Индексы СПАРКРиски</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>1C-SPARK Risks indexes</v8:content>
+				</v8:item>
 			</Title>
 			<Type/>
 		</Attribute>
@@ -1251,6 +1668,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Параметры подключаемых команд</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Connected command parameters</v8:content>
 				</v8:item>
 			</Title>
 			<Type/>
@@ -1266,6 +1687,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Переход к истории наименования</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go to name history</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8ui:FormattedString</v8:Type>
@@ -1276,6 +1701,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Право изменения объекта</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Object change right</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1290,15 +1719,23 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Заполнить реквизиты контрагента по ИНН</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Fill in counterparty attributes by TIN</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Заполнить реквизиты контрагента по ИНН</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Fill in counterparty attributes by TIN</v8:content>
+				</v8:item>
 			</ToolTip>
 			<Picture>
-				<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
+				<xr:Ref>0:8ca13f41-3185-4ecb-91cc-5640c93d97ff</xr:Ref>
 				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Representation>Picture</Representation>
@@ -1311,11 +1748,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Создать партнера</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Create partner</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Создать партнера</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Create partner</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1331,11 +1776,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подобрать по ИНН</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select by TIN</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подобрать головного среди имеющихся контрагентов с таким же ИНН или создать нового</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select the main counterparty among the saved ones with the same TIN, or create a new one</v8:content>
 				</v8:item>
 			</ToolTip>
 			<ModifiesSavedData>true</ModifiesSavedData>
@@ -1347,17 +1800,25 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Заполнить по наименованию</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Fill in by name</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Выполнить поиск по наименованию в данных единых государственных реестров и заполнить реквизиты</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Search by name in the unified state register data and fill in the attributes</v8:content>
+				</v8:item>
 			</ToolTip>
 			<Shortcut>Ctrl+G</Shortcut>
 			<Picture>
-				<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
+				<xr:Ref>0:8ca13f41-3185-4ecb-91cc-5640c93d97ff</xr:Ref>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<Representation>Picture</Representation>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -1368,11 +1829,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверить контрагента</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Validate counterparty</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Проверить контрагента</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Validate counterparty</v8:content>
 				</v8:item>
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -1390,10 +1859,14 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Создать на основании</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Create on the basis</v8:content>
+						</v8:item>
 					</Title>
 					<Picture>
 						<xr:Ref>CommonPicture.ЗаполнитьПоШаблону</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
 					</Picture>
 					<Representation>Picture</Representation>
 					<ExtendedTooltip name="ПодменюСоздатьНаОснованииРасширеннаяПодсказка" id="338"/>
@@ -1404,6 +1877,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Создать на основании (Важное)</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Create on the basis (Important)</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииВажноеРасширеннаяПодсказка" id="340"/>
 						</ButtonGroup>
@@ -1413,6 +1890,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Создать на основании (Обычное)</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Create on the basis (Standard)</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииОбычноеРасширеннаяПодсказка" id="342"/>
 						</ButtonGroup>
@@ -1421,6 +1902,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Создать на основании (См. также)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Create on the basis (See also)</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииСмТакжеРасширеннаяПодсказка" id="344"/>
@@ -1433,16 +1918,24 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Заполнение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>FIlling</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дополнительные команды заполнения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional completion commands</v8:content>
+						</v8:item>
 					</ToolTip>
 					<Picture>
 						<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
 					</Picture>
 					<ExtendedTooltip name="ПодменюДополнительныхОбработокЗаполненияРасширеннаяПодсказка" id="96"/>
 				</Popup>
@@ -1452,11 +1945,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Печать</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Print </v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Команды печати</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Print commands</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Picture>
@@ -1465,16 +1966,43 @@
 					</Picture>
 					<ExtendedTooltip name="ПодменюПечатьРасширеннаяПодсказка" id="98"/>
 				</Popup>
+				<Popup name="КомандыЭДО" id="359">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЭДО</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>EDW</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Команды ЭДО</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>EDW commands</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="КомандыЭДОРасширеннаяПодсказка" id="360"/>
+				</Popup>
 				<Popup name="ПодменюОтчеты" id="173">
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отчеты</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Reports</v8:content>
+						</v8:item>
 					</Title>
 					<Picture>
 						<xr:Ref>CommonPicture.Отчеты</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
 					</Picture>
 					<Representation>PictureAndText</Representation>
 					<ExtendedTooltip name="ПодменюОтчетыРасширеннаяПодсказка" id="174"/>
@@ -1485,6 +2013,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подменю отчеты важное</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Important reports submenu</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюОтчетыВажноеРасширеннаяПодсказка" id="176"/>
 						</ButtonGroup>
@@ -1494,11 +2026,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подменю отчеты перейти</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Submenu reports go to</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подменю отчеты важное</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Important reports submenu</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ExtendedTooltip name="ПодменюОтчетыПерейтиРасширеннаяПодсказка" id="178"/>
@@ -1509,11 +2049,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подменю отчеты см также</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Submenu reports see also</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подменю отчеты важное</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Important reports submenu</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ExtendedTooltip name="ПодменюОтчетыСмТакжеРасширеннаяПодсказка" id="180"/>
@@ -1525,6 +2073,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>1СПАРК Риски</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>1C-SPARK Risks</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ПодменюСПАРКРасширеннаяПодсказка" id="251"/>
@@ -1544,6 +2096,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Страницы формы</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Form page</v8:content>
+					</v8:item>
 				</Title>
 				<ExtendedTooltip name="СтраницыФормыРасширеннаяПодсказка" id="184"/>
 				<ChildItems>
@@ -1552,6 +2108,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Основное</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Main</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="СтраницаОсновноеРасширеннаяПодсказка" id="186"/>
@@ -1562,6 +2122,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Юр лицо НДС</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Business entity VAT</v8:content>
+									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
 								<Representation>None</Representation>
@@ -1569,11 +2133,15 @@
 								<ExtendedTooltip name="ГруппаЮрЛицоНДСРасширеннаяПодсказка" id="65"/>
 								<ChildItems>
 									<InputField name="ВидКонтрагента" id="5">
-										<DataPath>ВидКонтрагента</DataPath>
+										<DataPath>4</DataPath>
 										<ToolTip>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Контрагент может быть юридическим или физическим лицом, резидентом или нерезидентом, обособленным подразделением</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Counterparty may be a business entity or an individual, resident or non-resident or a branch office</v8:content>
 											</v8:item>
 										</ToolTip>
 										<EditMode>EnterOnInput</EditMode>
@@ -1591,6 +2159,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Юридическое лицо</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Business entity</v8:content>
+														</v8:item>
 													</Presentation>
 													<Value xsi:type="xs:string">ЮрЛицо</Value>
 												</xr:Value>
@@ -1603,6 +2175,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Физическое лицо</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Individual</v8:content>
 														</v8:item>
 													</Presentation>
 													<Value xsi:type="xs:string">ФизЛицо</Value>
@@ -1617,6 +2193,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Обособленное подразделение юр. лица</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Branch office of business entity</v8:content>
+														</v8:item>
 													</Presentation>
 													<Value xsi:type="xs:string">ОбособленноеПодразделение</Value>
 												</xr:Value>
@@ -1629,6 +2209,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Юр. лицо, за пределами РФ</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Business entity outside RF</v8:content>
 														</v8:item>
 													</Presentation>
 													<Value xsi:type="xs:string">ЮрЛицоНеРезидент</Value>
@@ -1643,6 +2227,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Индивидуальный предприниматель</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Individual entrepreneur</v8:content>
+														</v8:item>
 													</Presentation>
 													<Value xsi:type="xs:string">ИндивидуальныйПредприниматель</Value>
 												</xr:Value>
@@ -1652,7 +2240,6 @@
 										<ExtendedTooltip name="ВидКонтрагентаРасширеннаяПодсказка" id="43"/>
 									</InputField>
 									<CheckBoxField name="НДСПоСтавкам4и2" id="61">
-										<DataPath>Объект.НДСПоСтавкам4и2</DataPath>
 										<TitleLocation>Right</TitleLocation>
 										<CheckBoxType>Auto</CheckBoxType>
 										<ContextMenu name="НДСПоСтавкам4и2КонтекстноеМеню" id="62"/>
@@ -1666,8 +2253,11 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Страницы данных регистрации контрагента</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Counterparty registration data pages</v8:content>
+									</v8:item>
 								</Title>
-								<Width>85</Width>
 								<HorizontalStretch>false</HorizontalStretch>
 								<PagesRepresentation>None</PagesRepresentation>
 								<ExtendedTooltip name="ГруппаСтраницыДанныхРегистрацииКонтрагентаРасширеннаяПодсказка" id="127"/>
@@ -1678,11 +2268,19 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Данные регистрации в РФ</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Data of registration in RF</v8:content>
+											</v8:item>
 										</Title>
 										<ToolTip>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Данные регистрации в Российской Федерации</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Data of registration in the Russian Federation</v8:content>
 											</v8:item>
 										</ToolTip>
 										<ExtendedTooltip name="ГруппаСтраницаРоссийскогоКонтрагентаРасширеннаяПодсказка" id="274"/>
@@ -1692,6 +2290,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>ИННКППОКПО</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>TINCRTRRNCBO</v8:content>
 													</v8:item>
 												</Title>
 												<HorizontalStretch>false</HorizontalStretch>
@@ -1707,6 +2309,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Страницы ИНН</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Pages VAT</v8:content>
+															</v8:item>
 														</Title>
 														<PagesRepresentation>None</PagesRepresentation>
 														<ExtendedTooltip name="СтраницыИННРасширеннаяПодсказка" id="278"/>
@@ -1716,6 +2322,10 @@
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Страница ИНН юр лицо</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Page TIN business entity</v8:content>
 																	</v8:item>
 																</Title>
 																<ToolTipRepresentation>None</ToolTipRepresentation>
@@ -1732,7 +2342,6 @@
 																</ExtendedTooltip>
 																<ChildItems>
 																	<InputField name="ИНН" id="281">
-																		<DataPath>Объект.ИНН</DataPath>
 																		<TitleLocation>Left</TitleLocation>
 																		<EditMode>EnterOnInput</EditMode>
 																		<Width>14</Width>
@@ -1742,6 +2351,10 @@
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Введите ИНН 10 цифр</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Enter 10-digit TIN</v8:content>
 																			</v8:item>
 																		</InputHint>
 																		<ContextMenu name="ИННКонтекстноеМеню" id="282"/>
@@ -1758,13 +2371,16 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>КПП</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>CRTR</v8:content>
+																			</v8:item>
 																		</Title>
 																		<Group>Horizontal</Group>
 																		<ShowTitle>false</ShowTitle>
 																		<ExtendedTooltip name="ГруппаКППРасширеннаяПодсказка" id="327"/>
 																		<ChildItems>
 																			<InputField name="КПП" id="286">
-																				<DataPath>Объект.КПП</DataPath>
 																				<TitleLocation>Left</TitleLocation>
 																				<EditMode>EnterOnInput</EditMode>
 																				<Width>14</Width>
@@ -1775,12 +2391,16 @@
 																						<v8:lang>ru</v8:lang>
 																						<v8:content>Введите КПП 9 цифр</v8:content>
 																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Enter 9-digit CRTR</v8:content>
+																					</v8:item>
 																				</InputHint>
 																				<ContextMenu name="КППКонтекстноеМеню" id="287"/>
 																				<ExtendedTooltip name="КППРасширеннаяПодсказка" id="288"/>
 																			</InputField>
 																			<LabelField name="ПереходКИсторииКПП" id="331">
-																				<DataPath>ПереходКИсторииКПП</DataPath>
+																				<DataPath>13</DataPath>
 																				<TitleLocation>None</TitleLocation>
 																				<AutoMaxWidth>false</AutoMaxWidth>
 																				<MaxWidth>15</MaxWidth>
@@ -1797,6 +2417,10 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Страница ИНН физ лицо</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Page TIN individual</v8:content>
+																	</v8:item>
 																</Title>
 																<ToolTipRepresentation>ShowLeft</ToolTipRepresentation>
 																<Group>Horizontal</Group>
@@ -1810,7 +2434,6 @@
 																</ExtendedTooltip>
 																<ChildItems>
 																	<InputField name="ИННФизЛицо" id="291">
-																		<DataPath>Объект.ИНН</DataPath>
 																		<TitleLocation>None</TitleLocation>
 																		<Width>14</Width>
 																		<HorizontalStretch>false</HorizontalStretch>
@@ -1818,6 +2441,10 @@
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Введите ИНН 12 цифр</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Enter 10-digit TIN</v8:content>
 																			</v8:item>
 																		</InputHint>
 																		<ContextMenu name="ИННФизЛицоКонтекстноеМеню" id="292"/>
@@ -1828,7 +2455,7 @@
 																		<CommandName>Form.Command.ЗаполнитьПоИНН</CommandName>
 																		<Picture>
 																			<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
-																			<xr:LoadTransparent>true</xr:LoadTransparent>
+																			<xr:LoadTransparent>false</xr:LoadTransparent>
 																		</Picture>
 																		<ExtendedTooltip name="ЗаполнитьПоИННФизЛицоРасширеннаяПодсказка" id="295"/>
 																	</Button>
@@ -1837,7 +2464,6 @@
 														</ChildItems>
 													</Pages>
 													<InputField name="КодПоОКПО" id="296">
-														<DataPath>Объект.КодПоОКПО</DataPath>
 														<TitleLocation>Left</TitleLocation>
 														<EditMode>EnterOnInput</EditMode>
 														<Width>13</Width>
@@ -1854,6 +2480,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Результат проверки контрагентов</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Counterparty check result</v8:content>
+													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
@@ -1866,6 +2496,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Страницы картинки результатов проверки контрагента</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Counterparty result check image pages</v8:content>
+															</v8:item>
 														</Title>
 														<PagesRepresentation>None</PagesRepresentation>
 														<ExtendedTooltip name="СтраницыКартинкиРезультатовПроверкиКонтрагентаРасширеннаяПодсказка" id="302"/>
@@ -1875,6 +2509,10 @@
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Страница корректный контрагент</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Correct counterparty page</v8:content>
 																	</v8:item>
 																</Title>
 																<ExtendedTooltip name="СтраницаКорректныйКонтрагентРасширеннаяПодсказка" id="304"/>
@@ -1894,11 +2532,19 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Страница не действующий контрагент</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Page invalid counterparty</v8:content>
+																	</v8:item>
 																</Title>
 																<ToolTip>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Страница корректный контрагент</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Correct counterparty page</v8:content>
 																	</v8:item>
 																</ToolTip>
 																<ExtendedTooltip name="СтраницаНеДействующийКонтрагентРасширеннаяПодсказка" id="309"/>
@@ -1911,10 +2557,14 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Декорация картинка не корректный контрагент</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Decoration image incorrect counterparty</v8:content>
+																			</v8:item>
 																		</Title>
 																		<Picture>
 																			<xr:Ref>CommonPicture.ВниманиеСерый</xr:Ref>
-																			<xr:LoadTransparent>true</xr:LoadTransparent>
+																			<xr:LoadTransparent>false</xr:LoadTransparent>
 																		</Picture>
 																		<FileDragMode>AsFile</FileDragMode>
 																		<ContextMenu name="ДекорацияКартинкаНеДействующийКонтрагентКонтекстноеМеню" id="311"/>
@@ -1928,6 +2578,10 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Страница контрагент не достаточно данных</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Page counterparty not enough data</v8:content>
+																	</v8:item>
 																</Title>
 																<ExtendedTooltip name="СтраницаКонтрагентНеДостаточноДанныхРасширеннаяПодсказка" id="314"/>
 																<ChildItems>
@@ -1939,10 +2593,14 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Декорация картинка не достаточно данных контрагент</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Decoration image not enough data counterparty</v8:content>
+																			</v8:item>
 																		</Title>
 																		<Picture>
 																			<xr:Ref>CommonPicture.Внимание16</xr:Ref>
-																			<xr:LoadTransparent>true</xr:LoadTransparent>
+																			<xr:LoadTransparent>false</xr:LoadTransparent>
 																		</Picture>
 																		<FileDragMode>AsFile</FileDragMode>
 																		<ContextMenu name="ДекорацияКартинкаНедостаточноДанныхКонтрагентКонтекстноеМеню" id="316"/>
@@ -1956,11 +2614,19 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Страница не корректный контрагент</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Incorrect counterparty page</v8:content>
+																	</v8:item>
 																</Title>
 																<ToolTip>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Страница корректный контрагент</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Correct counterparty page</v8:content>
 																	</v8:item>
 																</ToolTip>
 																<ExtendedTooltip name="СтраницаНеКорректныйКонтрагентРасширеннаяПодсказка" id="319"/>
@@ -1973,10 +2639,14 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Декорация картинка не корректный контрагент</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Decoration image incorrect counterparty</v8:content>
+																			</v8:item>
 																		</Title>
 																		<Picture>
 																			<xr:Ref>CommonPicture.ВниманиеКрасный</xr:Ref>
-																			<xr:LoadTransparent>true</xr:LoadTransparent>
+																			<xr:LoadTransparent>false</xr:LoadTransparent>
 																		</Picture>
 																		<FileDragMode>AsFile</FileDragMode>
 																		<ContextMenu name="ДекорацияКартинкаНеКорректныйКонтрагентКонтекстноеМеню" id="321"/>
@@ -1987,7 +2657,7 @@
 														</ChildItems>
 													</Pages>
 													<LabelField name="РезультатПроверкиКонтрагента" id="323">
-														<DataPath>РезультатПроверкиКонтрагента</DataPath>
+														<DataPath>9</DataPath>
 														<TitleLocation>None</TitleLocation>
 														<HorizontalAlign>Left</HorizontalAlign>
 														<Width>75</Width>
@@ -2005,6 +2675,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Данные иностранного контрагента</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Foreign counterparty details</v8:content>
+											</v8:item>
 										</Title>
 										<ToolTipRepresentation>None</ToolTipRepresentation>
 										<Group>Horizontal</Group>
@@ -2017,23 +2691,31 @@
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Страна регистрации налоговый номер</v8:content>
+														<v8:content>Страна регистрации, Налоговый номер</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Registration country, Tax number</v8:content>
 													</v8:item>
 												</Title>
 												<Group>Vertical</Group>
 												<Representation>None</Representation>
+												<United>false</United>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаСтранаРегистрацииНалоговыйНомерРасширеннаяПодсказка" id="258"/>
 												<ChildItems>
 													<InputField name="СтранаРегистрации" id="259">
-														<DataPath>Объект.СтранаРегистрации</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Страна регистрации</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Registration country</v8:content>
+															</v8:item>
 														</Title>
-														<Width>25</Width>
+														<Width>22</Width>
 														<HorizontalStretch>false</HorizontalStretch>
 														<ChoiceParameters>
 															<app:item name="Отбор.Предопределенный">
@@ -2047,11 +2729,14 @@
 														<ExtendedTooltip name="СтранаРегистрацииРасширеннаяПодсказка" id="261"/>
 													</InputField>
 													<InputField name="НалоговыйНомер" id="262">
-														<DataPath>Объект.НалоговыйНомер</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Налоговый номер</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Tax number</v8:content>
 															</v8:item>
 														</Title>
 														<ToolTip>
@@ -2059,13 +2744,22 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Налоговый номер в стране регистрации</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Tax number in the registration country</v8:content>
+															</v8:item>
 														</ToolTip>
-														<Width>25</Width>
+														<Width>24</Width>
+														<AutoMaxWidth>false</AutoMaxWidth>
 														<HorizontalStretch>false</HorizontalStretch>
 														<InputHint>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Налоговый номер в стране регистрации</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Tax number in the registration country</v8:content>
 															</v8:item>
 														</InputHint>
 														<ContextMenu name="НалоговыйНомерКонтекстноеМеню" id="263"/>
@@ -2073,24 +2767,32 @@
 													</InputField>
 												</ChildItems>
 											</UsualGroup>
-											<UsualGroup name="ГруппаРегистрационныйНомерИНН" id="265">
+											<UsualGroup name="ГруппаРегистрационныйНомерИННКПП" id="265">
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Регистрационный номер ИНН</v8:content>
+														<v8:content>Регистрационный номер, ИНН/КПП</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Registration number, TIN/CRTR</v8:content>
 													</v8:item>
 												</Title>
 												<Group>Vertical</Group>
 												<Representation>None</Representation>
+												<United>false</United>
 												<ShowTitle>false</ShowTitle>
-												<ExtendedTooltip name="ГруппаРегистрационныйНомерИННРасширеннаяПодсказка" id="266"/>
+												<ExtendedTooltip name="ГруппаРегистрационныйНомерИННКППРасширеннаяПодсказка" id="266"/>
 												<ChildItems>
 													<InputField name="РегистрационныйНомер" id="267">
-														<DataPath>Объект.РегистрационныйНомер</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Рег. номер</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Reg. number</v8:content>
 															</v8:item>
 														</Title>
 														<TitleLocation>Left</TitleLocation>
@@ -2099,26 +2801,66 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Регистрационный номер в стране регистрации контрагента</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Registration number in the counterparty registration country</v8:content>
+															</v8:item>
 														</ToolTip>
-														<Width>30</Width>
 														<AutoMaxWidth>false</AutoMaxWidth>
+														<MaxWidth>30</MaxWidth>
 														<HorizontalStretch>false</HorizontalStretch>
 														<InputHint>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Регистрационный номер в стране регистрации</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Registration number in the registration country</v8:content>
+															</v8:item>
 														</InputHint>
 														<ContextMenu name="РегистрационныйНомерКонтекстноеМеню" id="268"/>
 														<ExtendedTooltip name="РегистрационныйНомерРасширеннаяПодсказка" id="269"/>
 													</InputField>
-													<InputField name="ИННИностранногоКонтрагента" id="270">
-														<DataPath>Объект.ИНН</DataPath>
-														<Width>14</Width>
-														<HorizontalStretch>false</HorizontalStretch>
-														<ContextMenu name="ИННИностранногоКонтрагентаКонтекстноеМеню" id="271"/>
-														<ExtendedTooltip name="ИННИностранногоКонтрагентаРасширеннаяПодсказка" id="272"/>
-													</InputField>
+													<UsualGroup name="ГруппаИННКПП" id="348">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>ИНН/КПП</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>TIN/CRTR</v8:content>
+															</v8:item>
+														</Title>
+														<Group>Horizontal</Group>
+														<Representation>None</Representation>
+														<ShowTitle>false</ShowTitle>
+														<ExtendedTooltip name="ГруппаИННКППРасширеннаяПодсказка" id="349"/>
+														<ChildItems>
+															<InputField name="ИННИностранногоКонтрагента" id="270">
+																<Width>14</Width>
+																<HorizontalStretch>false</HorizontalStretch>
+																<ContextMenu name="ИННИностранногоКонтрагентаКонтекстноеМеню" id="271"/>
+																<ExtendedTooltip name="ИННИностранногоКонтрагентаРасширеннаяПодсказка" id="272"/>
+															</InputField>
+															<InputField name="КППИностранногоКонтрагента" id="353">
+																<AutoMaxWidth>false</AutoMaxWidth>
+																<MaxWidth>12</MaxWidth>
+																<HorizontalStretch>false</HorizontalStretch>
+																<ContextMenu name="КППИностранногоКонтрагентаКонтекстноеМеню" id="354"/>
+																<ExtendedTooltip name="КППИностранногоКонтрагентаРасширеннаяПодсказка" id="355"/>
+															</InputField>
+															<LabelField name="ПереходКИсторииКППИностранногоКонтрагента" id="356">
+																<DataPath>13</DataPath>
+																<TitleLocation>None</TitleLocation>
+																<AutoMaxWidth>false</AutoMaxWidth>
+																<HorizontalStretch>true</HorizontalStretch>
+																<ContextMenu name="ПереходКИсторииКППИностранногоКонтрагентаКонтекстноеМеню" id="357"/>
+																<ExtendedTooltip name="ПереходКИсторииКППИностранногоКонтрагентаРасширеннаяПодсказка" id="358"/>
+															</LabelField>
+														</ChildItems>
+													</UsualGroup>
 												</ChildItems>
 											</UsualGroup>
 										</ChildItems>
@@ -2130,6 +2872,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Наименования партнер спарк</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Names partner spark</v8:content>
 									</v8:item>
 								</Title>
 								<Group>Vertical</Group>
@@ -2144,6 +2890,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Наименования партнер</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Names partner</v8:content>
+											</v8:item>
 										</Title>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
@@ -2154,6 +2904,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Наименования:</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Names:</v8:content>
 													</v8:item>
 												</Title>
 												<TitleTextColor>style:FormTextColor</TitleTextColor>
@@ -2168,6 +2922,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Наименование лево</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Name left</v8:content>
+															</v8:item>
 														</Title>
 														<Group>Horizontal</Group>
 														<Representation>None</Representation>
@@ -2175,11 +2933,14 @@
 														<ExtendedTooltip name="ГруппаНаименованиеЛевоРасширеннаяПодсказка" id="190"/>
 														<ChildItems>
 															<InputField name="НаименованиеСокращенное" id="18">
-																<DataPath>Объект.НаименованиеПолное</DataPath>
 																<Title>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Сокр. юридическое</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Abbr. legal name</v8:content>
 																	</v8:item>
 																</Title>
 																<TitleLocation>Left</TitleLocation>
@@ -2191,12 +2952,16 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Укажите наименование и заполните остальные реквизиты по данным государственных реестров</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Specify the name and fill in other attributes according to national registry data.</v8:content>
+																	</v8:item>
 																</InputHint>
 																<ContextMenu name="НаименованиеСокращенноеКонтекстноеМеню" id="19"/>
 																<ExtendedTooltip name="НаименованиеСокращенноеExtendedTooltip" id="41"/>
 															</InputField>
 															<LabelField name="ПереходКИсторииНаименования" id="334">
-																<DataPath>ПереходКИсторииНаименования</DataPath>
+																<DataPath>14</DataPath>
 																<TitleLocation>None</TitleLocation>
 																<AutoMaxWidth>false</AutoMaxWidth>
 																<MaxWidth>16</MaxWidth>
@@ -2213,11 +2978,14 @@
 														</ChildItems>
 													</UsualGroup>
 													<InputField name="Наименование" id="1">
-														<DataPath>Объект.Description</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Рабочее</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Work name</v8:content>
 															</v8:item>
 														</Title>
 														<TitleLocation>Left</TitleLocation>
@@ -2229,11 +2997,14 @@
 														<ExtendedTooltip name="НаименованиеExtendedTooltip" id="42"/>
 													</InputField>
 													<InputField name="НаименованиеМеждународное" id="345">
-														<DataPath>Объект.НаименованиеМеждународное</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Международное</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>International name</v8:content>
 															</v8:item>
 														</Title>
 														<AutoMaxWidth>false</AutoMaxWidth>
@@ -2248,6 +3019,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Партнер</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Partner</v8:content>
 													</v8:item>
 												</Title>
 												<ToolTipRepresentation>None</ToolTipRepresentation>
@@ -2268,7 +3043,6 @@
 												</ExtendedTooltip>
 												<ChildItems>
 													<InputField name="Партнер" id="13">
-														<DataPath>Объект.Партнер</DataPath>
 														<TitleLocation>Left</TitleLocation>
 														<EditMode>EnterOnInput</EditMode>
 														<Width>28</Width>
@@ -2284,6 +3058,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Страницы партнер</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Partner pages</v8:content>
+															</v8:item>
 														</Title>
 														<PagesRepresentation>None</PagesRepresentation>
 														<ExtendedTooltip name="СтраницыПартнерExtendedTooltip" id="46"/>
@@ -2293,6 +3071,10 @@
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Страница партнер подобран</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Page partner is selected</v8:content>
 																	</v8:item>
 																</Title>
 																<HorizontalStretch>false</HorizontalStretch>
@@ -2311,6 +3093,10 @@
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Страница неизвестный партнер</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Page unknown partner</v8:content>
 																	</v8:item>
 																</Title>
 																<Group>Horizontal</Group>
@@ -2333,6 +3119,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Головной контрагент</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Main counterparty</v8:content>
+													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
@@ -2340,7 +3130,6 @@
 												<ExtendedTooltip name="ГруппаГоловнойКонтрагентРасширеннаяПодсказка" id="67"/>
 												<ChildItems>
 													<InputField name="ГоловнойКонтрагент" id="68">
-														<DataPath>Объект.ГоловнойКонтрагент</DataPath>
 														<TitleLocation>Left</TitleLocation>
 														<Width>45</Width>
 														<HorizontalStretch>false</HorizontalStretch>
@@ -2363,6 +3152,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Спарк</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Spark</v8:content>
+											</v8:item>
 										</Title>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
@@ -2378,6 +3171,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Индексы СПАРК риски</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Indexes 1C-SPARK Risks</v8:content>
 													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
@@ -2398,7 +3195,7 @@
 														<Height>4</Height>
 														<Picture>
 															<xr:Ref>CommonPicture.ДлительнаяОперация16</xr:Ref>
-															<xr:LoadTransparent>true</xr:LoadTransparent>
+															<xr:LoadTransparent>false</xr:LoadTransparent>
 														</Picture>
 														<FileDragMode>AsFile</FileDragMode>
 														<ContextMenu name="КартинкаОжиданиеЗагрузкиИндексовСПАРКРискиКонтекстноеМеню" id="245"/>
@@ -2416,6 +3213,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Предупреждение головной контрагент</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Warning main counterparty</v8:content>
+									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
 								<Representation>None</Representation>
@@ -2430,10 +3231,14 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Картинка предупреждение головной контрагент</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Picture warning main counterparty</v8:content>
+											</v8:item>
 										</Title>
 										<Picture>
 											<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
-											<xr:LoadTransparent>true</xr:LoadTransparent>
+											<xr:LoadTransparent>false</xr:LoadTransparent>
 										</Picture>
 										<FileDragMode>AsFile</FileDragMode>
 										<ContextMenu name="КартинкаПредупреждениеГоловнойКонтрагентКонтекстноеМеню" id="76"/>
@@ -2450,6 +3255,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Не заполнен головной контрагент. Счета-фактуры и книги продаж будут оформлены некорректно.</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Main counterparty is not specified. Tax invoices and sales ledgers will be inaccurate.</v8:content>
+											</v8:item>
 										</Title>
 										<VerticalAlign>Center</VerticalAlign>
 										<ContextMenu name="ПредупреждениеГоловнойКонтрагентКонтекстноеМеню" id="79"/>
@@ -2458,12 +3267,16 @@
 								</ChildItems>
 							</UsualGroup>
 							<InputField name="ДополнительнаяИнформация" id="22">
-								<DataPath>Объект.ДополнительнаяИнформация</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Дополнительная
 информация</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Additional 
+information</v8:content>
 									</v8:item>
 								</Title>
 								<TitleLocation>Left</TitleLocation>
@@ -2483,6 +3296,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Адреса, телефоны</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Addresses, phones</v8:content>
+							</v8:item>
 						</Title>
 						<HorizontalStretch>true</HorizontalStretch>
 						<ExtendedTooltip name="ГруппаКонтактнаяИнформацияExtendedTooltip" id="58"/>
@@ -2492,6 +3309,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Дополнительно</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>More</v8:content>
 							</v8:item>
 						</Title>
 						<HorizontalStretch>false</HorizontalStretch>
@@ -2514,6 +3335,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Упрощенный ввод доступен</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Simplified input available</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
@@ -2525,6 +3350,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Использовать партнеров как контрагентов</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Use partners as counterparties</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
@@ -2535,6 +3364,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Вид контрагента</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Counterparty type</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -2553,6 +3386,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>На основании обособленного контрагента</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Based on a separate counterparty</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
@@ -2563,6 +3400,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Фоновое задание адрес хранилища</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Background job storage address</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -2579,6 +3420,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Фоновое задание идентификатор</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Background job ID</v8:content>
+					</v8:item>
 				</Title>
 				<Type/>
 			</Attribute>
@@ -2587,6 +3432,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Настройки подключения к сервису ИППЗаданы</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>API service connection settings are set</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -2599,6 +3448,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Результат проверки контрагента</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Counterparty check result</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>v8ui:FormattedString</v8:Type>
@@ -2610,6 +3463,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Реквизиты проверки контрагентов</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Counterparty check attributes</v8:content>
+					</v8:item>
 				</Title>
 				<Type/>
 			</Attribute>
@@ -2619,6 +3476,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Индексы СПАРКРиски</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>1C-SPARK Risks indexes</v8:content>
+					</v8:item>
 				</Title>
 				<Type/>
 			</Attribute>
@@ -2627,6 +3488,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Параметры подключаемых команд</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Connected command parameters</v8:content>
 					</v8:item>
 				</Title>
 				<Type/>
@@ -2642,6 +3507,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Переход к истории наименования</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Go to name history</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>v8ui:FormattedString</v8:Type>
@@ -2652,6 +3521,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Право изменения объекта</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Object change right</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -2666,11 +3539,19 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Заполнить реквизиты контрагента по ИНН</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Fill in counterparty attributes by TIN</v8:content>
+					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Заполнить реквизиты контрагента по ИНН</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Fill in counterparty attributes by TIN</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Picture>
@@ -2687,11 +3568,19 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Создать партнера</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Create partner</v8:content>
+					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Создать партнера</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Create partner</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Picture>
@@ -2707,11 +3596,19 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Подобрать по ИНН</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Select by TIN</v8:content>
+					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Подобрать головного среди имеющихся контрагентов с таким же ИНН или создать нового</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Select the main counterparty among the saved ones with the same TIN, or create a new one</v8:content>
 					</v8:item>
 				</ToolTip>
 				<ModifiesSavedData>true</ModifiesSavedData>
@@ -2723,17 +3620,25 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Заполнить по наименованию</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Fill in by name</v8:content>
+					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Выполнить поиск по наименованию в данных единых государственных реестров и заполнить реквизиты</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Search by name in the unified state register data and fill in the attributes</v8:content>
+					</v8:item>
 				</ToolTip>
 				<Shortcut>Ctrl+G</Shortcut>
 				<Picture>
 					<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
-					<xr:LoadTransparent>true</xr:LoadTransparent>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
 				<Representation>Picture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
@@ -2744,11 +3649,19 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Проверить контрагента</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Validate counterparty</v8:content>
+					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Проверить контрагента</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Validate counterparty</v8:content>
 					</v8:item>
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>

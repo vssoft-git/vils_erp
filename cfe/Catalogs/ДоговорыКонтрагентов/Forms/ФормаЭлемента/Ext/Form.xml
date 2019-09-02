@@ -60,6 +60,29 @@
 				</Picture>
 				<ExtendedTooltip name="ПодменюПечатьРасширеннаяПодсказка" id="282"/>
 			</Popup>
+			<Popup name="КомандыЭДО" id="895">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ЭДО</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>EDW</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Команды ЭДО</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>EDW commands</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ExtendedTooltip name="КомандыЭДОРасширеннаяПодсказка" id="897"/>
+			</Popup>
 			<ButtonGroup name="ФормаГлобальныеКоманды" id="418">
 				<Title>
 					<v8:item>
@@ -200,7 +223,6 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
-		<Event name="OnOpen" callType="After">ВИЛС_ПриОткрытииПосле</Event>
 		<Event name="OnCreateAtServer" callType="After">ВИЛС_ПриСозданииНаСервереПосле</Event>
 		<Event name="c1bc0d3e-d35e-4207-a06b-ece68ed25314" callType="After">ВИЛС_ПриЗаписиНаСервереПосле</Event>
 		<Event name="FillCheckProcessingAtServer" callType="Before">ВИЛС_ОбработкаПроверкиЗаполненияНаСервереПеред</Event>
@@ -297,7 +319,7 @@
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>dated</v8:content>
+															<v8:content>as of</v8:content>
 														</v8:item>
 													</Title>
 													<AutoMaxWidth>false</AutoMaxWidth>
@@ -3757,6 +3779,29 @@ information</v8:content>
 					</Picture>
 					<ExtendedTooltip name="ПодменюПечатьРасширеннаяПодсказка" id="282"/>
 				</Popup>
+				<Popup name="КомандыЭДО" id="868">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЭДО</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>EDW</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Команды ЭДО</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>EDW commands</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="КомандыЭДОРасширеннаяПодсказка" id="869"/>
+				</Popup>
 				<ButtonGroup name="ФормаГлобальныеКоманды" id="418">
 					<Title>
 						<v8:item>
@@ -3985,7 +4030,7 @@ information</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>dated</v8:content>
+																<v8:content>as of</v8:content>
 															</v8:item>
 														</Title>
 														<AutoMaxWidth>false</AutoMaxWidth>
