@@ -273,6 +273,9 @@
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer" callType="After">ВИЛС_ПриСозданииНаСервереПосле</Event>
+	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаСтатусПриоритет" id="188">
 			<Title>
