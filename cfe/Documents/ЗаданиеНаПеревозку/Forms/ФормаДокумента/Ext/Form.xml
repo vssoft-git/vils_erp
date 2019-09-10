@@ -1248,6 +1248,9 @@
 								<ContextMenu name="МаршрутУправлениеПоискомКонтекстноеМеню" id="1448"/>
 								<ExtendedTooltip name="МаршрутУправлениеПоискомРасширеннаяПодсказка" id="1449"/>
 							</SearchControlAddition>
+							<Events>
+								<Event name="Selection" callType="After">ВИЛС_МаршрутВыборПосле</Event>
+							</Events>
 							<ChildItems>
 								<CheckBoxField name="МаршрутДоставлено" id="1262">
 									<DataPath>Объект.Маршрут.Доставлено</DataPath>
