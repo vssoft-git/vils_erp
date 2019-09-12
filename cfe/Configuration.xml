@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>13413e6b-2449-4fad-9804-ea8e65a29c29</xr:ObjectId>
+				<xr:ObjectId>2edfd53b-1119-4ee0-92c6-964e50d82cf6</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -257,6 +257,7 @@
 			<CommonModule>ДоставкаТоваров</CommonModule>
 			<CommonModule>ДоставкаТоваровКлиентСервер</CommonModule>
 			<CommonModule>ОтгрузкаТоваровСХраненияЛокализация</CommonModule>
+			<CommonModule>ДатыЗапретаИзмененияПереопределяемый</CommonModule>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>ИспользоватьПодключаемоеОборудование</FunctionalOption>
 			<FunctionalOption>ИспользоватьПоступлениеПоНесколькимЗаказам</FunctionalOption>
@@ -632,6 +633,7 @@
 			<Report>ВИЛС_ВедомостьДокументовПоступлений</Report>
 			<Report>ВИЛС_ВыпускПродукцииПоОтпускнойСтоимости</Report>
 			<Report>ИсполнениеКонтрактовГОЗ</Report>
+			<Report>ВедомостьРасчетовСПартнерами</Report>
 			<DataProcessor>ПодборСерийВДокументы</DataProcessor>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
