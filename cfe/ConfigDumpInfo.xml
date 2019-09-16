@@ -411,6 +411,10 @@
 		<Metadata name="CommonModule.УправлениеКонтактнойИнформациейСлужебный.Module" id="5c778cf7-83a0-4d83-9cf3-41fb05982f5b.0" configVersion="bc7b685daab41fc64b6624f9cb21e34757ceb3f1"/>
 		<Metadata name="CommonModule.УчетРабочегоВремениРасширенный" id="c3249052-34c4-4903-bb47-2b0c33a24837" configVersion="cf7a53be8b561d453bead745f4594426c1567f20"/>
 		<Metadata name="CommonModule.УчетРабочегоВремениРасширенный.Module" id="c3249052-34c4-4903-bb47-2b0c33a24837.0" configVersion="3417f54fe493642fd0faaaa97c01fb5c8fa26027"/>
+		<Metadata name="CommonModule.УчетСтраховыхВзносов" id="f44fbfa6-ad6d-40dc-a454-adfd3de19174" configVersion="6bfd77c3b8be8630bde329e4abd7444ec8080f28"/>
+		<Metadata name="CommonModule.УчетСтраховыхВзносов.Module" id="f44fbfa6-ad6d-40dc-a454-adfd3de19174.0" configVersion="396426f26f068eae166c6e88d813c0ee001bb49e"/>
+		<Metadata name="CommonModule.УчетСтраховыхВзносовБазовый" id="26a2de71-c3d2-4f18-8e41-c50e554ac90d" configVersion="509d045f1987da37e7e02beebd30805b3da57143"/>
+		<Metadata name="CommonModule.УчетСтраховыхВзносовБазовый.Module" id="26a2de71-c3d2-4f18-8e41-c50e554ac90d.0" configVersion="00a0827fed6ad51615c1a580a43ece1d253a8549"/>
 		<Metadata name="CommonPicture.RFDI" id="51047479-785f-4082-bb88-99bbd2ee77a6" configVersion="f0b217f4cde23c424b4652b5d582cac921f6b6e5"/>
 		<Metadata name="CommonPicture.RFDIЗапись" id="3ec1384c-25ad-4a87-996d-bf17221613d7" configVersion="699433413e3c1be9f253a34025b64c25a4fc179d"/>
 		<Metadata name="CommonPicture.RFDIКоллекция" id="e44cbc10-f715-4763-b19d-46a920135726" configVersion="ad62977b831a76326c1657d60a31b1db6d2ccdf2"/>
@@ -542,7 +546,7 @@
 		<Metadata name="CommonPicture.ЭмблемаСервиса1СЭДО" id="51d79fec-ce06-4111-8cd7-7fe7b646048f" configVersion="c9af69255a3b0fb54cc14e46ef6130e667e50982"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов" id="6f8a616a-05f9-4a26-b137-ffe08a2de753" configVersion="c608bfe3b6a128f415f6c474a7d439715aa46ea6"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов.Template" id="6f8a616a-05f9-4a26-b137-ffe08a2de753.0" configVersion="7c10b1f0883f7212773cc7afbcae6f416b288240"/>
-		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="9312ad2c7957628612a98bca29b780648a2448d6"/>
+		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="41c162a51398a00fad3f656d330e6d141c4a8af2"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="2d3d01ef-e545-4150-a6c6-5d7520ca086c" configVersion="ffbf25b1ccd42c35ee4ef2dc7390091df9f1a092"/>
 		<Metadata name="Constant.ИспользоватьБизнесРегионы" id="ab04cdcb-dc48-4252-9bb5-efc0097f0d24" configVersion="2a1a73d70e7a4e41f4f6f6420a92e7ceb98c7ec1"/>
 		<Metadata name="Constant.ИспользоватьГруппыДоступаПартнеров" id="91cb9a25-f41e-4571-801d-6947e8356d60" configVersion="66cb4cdf60f65d71350cb185af2b0703bc96ff12"/>
@@ -1641,7 +1645,7 @@
 		<Metadata name="Document.ТабельУчетаРабочегоВремени" id="30e7d8d0-0f9d-476c-a8d8-0ce76d9e84fd" configVersion="5f310da4709d2e06212e2d8166c3a5c47a3f64dc"/>
 		<Metadata name="Document.ТабельУчетаРабочегоВремени.Form.ФормаДокументаАльтернативная" id="8e442071-9f21-4fd7-9cf4-40efed18793f" configVersion="dae09413f1a395239c53c9b7a2d99ed1c1974bbe"/>
 		<Metadata name="Document.ТабельУчетаРабочегоВремени.Form.ФормаДокументаАльтернативная.Form" id="8e442071-9f21-4fd7-9cf4-40efed18793f.0" configVersion="3aaae2e8c667229ab518dfdc2654f603441fbc99"/>
-		<Metadata name="Document.ТабельУчетаРабочегоВремени.ManagerModule" id="30e7d8d0-0f9d-476c-a8d8-0ce76d9e84fd.2" configVersion="f8d86a1e0f21f2fd7362b9796f2594fc8ba72860"/>
+		<Metadata name="Document.ТабельУчетаРабочегоВремени.ManagerModule" id="30e7d8d0-0f9d-476c-a8d8-0ce76d9e84fd.2" configVersion="a41fade74641832a2e3266b13c2b590a354d7dc1"/>
 		<Metadata name="Document.ТранспортнаяНакладная" id="2588006c-d478-45a5-8e4b-2c7126fde17c" configVersion="c86420668fe80d6435346a05f27295eeaf80d015">
 			<Metadata name="Document.ТранспортнаяНакладная.Attribute.БанковскийСчетПлательщика" id="0ffd945c-7a16-4f2d-adc3-7f950688aba3"/>
 			<Metadata name="Document.ТранспортнаяНакладная.Attribute.Отпустил" id="13738691-f830-493b-bd2f-9100639d3cab"/>
