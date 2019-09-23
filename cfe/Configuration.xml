@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>1f638ee3-713f-4f91-b13d-9467e13e3ff1</xr:ObjectId>
+				<xr:ObjectId>34529fd8-9616-4db3-a4ef-18a002119297</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -85,6 +85,13 @@
 			<StyleItem>ЦветФонаНеОбеспечен</StyleItem>
 			<StyleItem>ЦветИтоговыхПоказателейДокументов</StyleItem>
 			<StyleItem>ИтогиФонГруппы</StyleItem>
+			<StyleItem>ЦветОшибкиОтправкиБРО</StyleItem>
+			<StyleItem>ЦветШрифтаСтатусаОтправкиПриРучномВводе</StyleItem>
+			<StyleItem>ЦветГиперссылкиБРО</StyleItem>
+			<StyleItem>ЦветНезавершившейсяОтправкиБРО</StyleItem>
+			<StyleItem>ЦветУспешнойОтправкиБРО</StyleItem>
+			<StyleItem>ЦветФонаОшибкиОтправки</StyleItem>
+			<StyleItem>ЦветВыделенияГосОргана</StyleItem>
 			<CommonPicture>ПодключаемоеОборудованиеТерминалСбораДанных16</CommonPicture>
 			<CommonPicture>СерииНоменклатурыУказаныFEFO</CommonPicture>
 			<CommonPicture>НовыйПоШтрихкоду</CommonPicture>
@@ -214,6 +221,10 @@
 			<CommonPicture>Состояние33Процента</CommonPicture>
 			<CommonPicture>ДоставкаКолонкаДоставлено</CommonPicture>
 			<CommonPicture>ТранспортнаяНакладная</CommonPicture>
+			<CommonPicture>ПиктограммыРеглОтчетов</CommonPicture>
+			<CommonPicture>КорзинаБРО</CommonPicture>
+			<CommonPicture>ПризнакНаличияКритическойОшибки</CommonPicture>
+			<CommonPicture>ПиктограммыОтчетов</CommonPicture>
 			<CommonTemplate>ВИЛС_СостояниеОбеспеченияЗаказов</CommonTemplate>
 			<CommonModule>АктВыполненныхРаботЛокализация</CommonModule>
 			<CommonModule>ВозвратСырьяДавальцуЛокализация</CommonModule>
@@ -427,6 +438,7 @@
 			<CommonForm>ФормаОтчета</CommonForm>
 			<CommonForm>ПодборПартийПроизводства</CommonForm>
 			<CommonForm>ВИЛС_ВсеКадровыеДокументы</CommonForm>
+			<CommonForm>РегламентированнаяОтчетность</CommonForm>
 			<Catalog>ПредприятияВЕТИС</Catalog>
 			<Catalog>ЗаписиСкладскогоЖурналаВЕТИС</Catalog>
 			<Catalog>УпаковкиЕдиницыИзмерения</Catalog>
