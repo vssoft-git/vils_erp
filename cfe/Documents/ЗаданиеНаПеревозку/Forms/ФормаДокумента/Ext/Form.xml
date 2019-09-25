@@ -244,6 +244,7 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
+		<Event name="ChoiceProcessing" callType="Before">ВИЛС_ОбработкаВыбораПеред</Event>
 		<Event name="OnReadAtServer" callType="Before">ВИЛС_ПриЧтенииНаСервереПеред</Event>
 		<Event name="OnCreateAtServer" callType="Override">ВИЛС_ПриСозданииНаСервереВместо</Event>
 	</Events>
