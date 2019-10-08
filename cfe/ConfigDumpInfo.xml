@@ -417,6 +417,8 @@
 		<Metadata name="CommonModule.УправлениеКонтактнойИнформациейКлиентСервер.Module" id="bcd89662-bc84-4847-becd-05894c829f55.0" configVersion="06790093bb5906aa9eed132192bcf3835f4b6435"/>
 		<Metadata name="CommonModule.УправлениеКонтактнойИнформациейСлужебный" id="5c778cf7-83a0-4d83-9cf3-41fb05982f5b" configVersion="b697d42fb3f79fdd80217bb2bf7aa58b6e4ad63e"/>
 		<Metadata name="CommonModule.УправлениеКонтактнойИнформациейСлужебный.Module" id="5c778cf7-83a0-4d83-9cf3-41fb05982f5b.0" configVersion="bc7b685daab41fc64b6624f9cb21e34757ceb3f1"/>
+		<Metadata name="CommonModule.УправлениеПечатьюУТВызовСервераЛокализация" id="fb62e38f-54cf-4084-ab3c-64b5044feb2e" configVersion="f3e9e05f11b3babafbe615b1e4db8855e79263cd"/>
+		<Metadata name="CommonModule.УправлениеПечатьюУТВызовСервераЛокализация.Module" id="fb62e38f-54cf-4084-ab3c-64b5044feb2e.0" configVersion="93e6de51481a4436c8384041842df95834a55f4e"/>
 		<Metadata name="CommonModule.УчетРабочегоВремениРасширенный" id="c3249052-34c4-4903-bb47-2b0c33a24837" configVersion="cf7a53be8b561d453bead745f4594426c1567f20"/>
 		<Metadata name="CommonModule.УчетРабочегоВремениРасширенный.Module" id="c3249052-34c4-4903-bb47-2b0c33a24837.0" configVersion="3417f54fe493642fd0faaaa97c01fb5c8fa26027"/>
 		<Metadata name="CommonModule.УчетСтраховыхВзносов" id="f44fbfa6-ad6d-40dc-a454-adfd3de19174" configVersion="6bfd77c3b8be8630bde329e4abd7444ec8080f28"/>
@@ -558,7 +560,7 @@
 		<Metadata name="CommonPicture.ЭмблемаСервиса1СЭДО" id="51d79fec-ce06-4111-8cd7-7fe7b646048f" configVersion="c9af69255a3b0fb54cc14e46ef6130e667e50982"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов" id="6f8a616a-05f9-4a26-b137-ffe08a2de753" configVersion="c608bfe3b6a128f415f6c474a7d439715aa46ea6"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов.Template" id="6f8a616a-05f9-4a26-b137-ffe08a2de753.0" configVersion="7c10b1f0883f7212773cc7afbcae6f416b288240"/>
-		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="ec552c1cc8febce5cc2b47630a1a4bc030f88023"/>
+		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="282f9520e97b4903f27e45d087a4bf36d7840006"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="2d3d01ef-e545-4150-a6c6-5d7520ca086c" configVersion="ffbf25b1ccd42c35ee4ef2dc7390091df9f1a092"/>
 		<Metadata name="Constant.ИспользоватьБизнесРегионы" id="ab04cdcb-dc48-4252-9bb5-efc0097f0d24" configVersion="2a1a73d70e7a4e41f4f6f6420a92e7ceb98c7ec1"/>
 		<Metadata name="Constant.ИспользоватьГруппыДоступаПартнеров" id="91cb9a25-f41e-4571-801d-6947e8356d60" configVersion="66cb4cdf60f65d71350cb185af2b0703bc96ff12"/>
@@ -691,7 +693,7 @@
 		<Metadata name="DefinedType.ОснованиеНачисления" id="d0a8b529-0bb9-476c-98e5-4821957b35ac" configVersion="a5a750addada4e616f7d52a4e44bf58b42f53598"/>
 		<Metadata name="DefinedType.ОтправительПолучательДоставки" id="9aa9c369-200d-43fa-936e-cab222f94c88" configVersion="b066b40252a439cb057af008a2a2f246596de123"/>
 		<Metadata name="DefinedType.ОтправительПолучательТоваров" id="5dc078e7-95e8-4cb9-93eb-851056d6c5e0" configVersion="b415f7efda5f181ec9cd6889480430b0ebd3ff0a"/>
-		<Metadata name="DefinedType.РаспоряжениеНаДоставку" id="6422efc2-ab8f-45ed-913a-0175e0ed0ed4" configVersion="b88ff5ccb27369de1094dcf5685f461e8f08be62"/>
+		<Metadata name="DefinedType.РаспоряжениеНаДоставку" id="cefbbb65-8eae-4c6d-b9d4-1ab7b98dc491" configVersion="62e55583963d924e986529964ad95c78f018ce3d"/>
 		<Metadata name="DefinedType.СтрокаВЕТИС" id="b8471f87-12dc-47a1-8396-e44d4cac69d7" configVersion="b73a49b0b5b525be59010c6bd13a343e54738b8e"/>
 		<Metadata name="Document.АвансовыйОтчет" id="95dcf967-5e7a-47d8-9ebb-f6a38a907b10" configVersion="f50d4d3b7960185480672c947185ef3161f34b87"/>
 		<Metadata name="Document.АктВыполненныхРабот" id="42ecc81c-5ff0-4fd7-a10b-efbee0bbd8d2" configVersion="da053d3381fb8df0bb3ac864fe9faab870b37143">
@@ -953,7 +955,7 @@
 		<Metadata name="Document.ДвижениеПродукцииИМатериалов.Template.ПФ_MXL_М11" id="97c961ad-c372-4c46-aa0c-a3839bc04f0e" configVersion="58c24f5766bd5c949a5a091673548da2a484b178"/>
 		<Metadata name="Document.ДвижениеПродукцииИМатериалов.Template.ПФ_MXL_М11.Template" id="97c961ad-c372-4c46-aa0c-a3839bc04f0e.0" configVersion="d962f531c22b935a45fae737d047bb1dfa907148"/>
 		<Metadata name="Document.ДоговорЗаймаСотруднику" id="9caa81e4-4f8d-44d6-bf32-b3e91efc9454" configVersion="9984cf50fb4b46a0eff483128e3ab2c99d39692d"/>
-		<Metadata name="Document.ЗаданиеНаПеревозку" id="82aee940-cafd-4e0e-af12-0c21a99ece5a" configVersion="a83f9feb49abbfa8e2a74e19113d66920f9879c2">
+		<Metadata name="Document.ЗаданиеНаПеревозку" id="82aee940-cafd-4e0e-af12-0c21a99ece5a" configVersion="6046be8842b232bca83eb72f39f9e9524e57258b">
 			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.ДатаВремяРейсаФактС" id="002172cd-6b95-4c59-8317-5212f73fca7d"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.TabularSection.Маршрут.Attribute.Объем" id="05bce4f5-1df4-4c3f-88e8-96e6fe36a9e5"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.ЗаданиеВыполняет" id="061916a8-1828-4507-b7be-63fbfe33f7df"/>
@@ -965,6 +967,7 @@
 			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.Комментарий" id="4aaf5bca-38c0-448e-92a2-45d58c917309"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.ВИЛС_Водитель" id="4b89becd-992d-4042-8d7d-f2739c1a7c6b"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.Склад" id="4e18f79c-90a9-4202-8361-fc8fe44302f6"/>
+			<Metadata name="Document.ЗаданиеНаПеревозку.TabularSection.Распоряжения.Attribute.Распоряжение" id="547a5932-5c07-493f-94d7-6189269bc0a2"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.TabularSection.Маршрут.Attribute.Вес" id="5ec53fa1-a443-49f5-aca7-9ddd0568fb55"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.ДатаВремяРейсаФактПо" id="692d2625-354a-4567-9933-299f11f953ad"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.ДатаВремяРейсаПланС" id="7563d89c-ccb3-480a-bc27-86cc6f136b6e"/>
@@ -974,7 +977,6 @@
 			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.Водитель" id="914248ba-e0ef-43af-9f03-5ddfaa40a3c0"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.ВИЛС_КурьерЭкспедитор" id="9db67077-601d-43f6-8e20-2afe1204cd49"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.TabularSection.Маршрут.Attribute.Адрес" id="9dff7b47-2996-425f-b39b-e37ae1ecda8e"/>
-			<Metadata name="Document.ЗаданиеНаПеревозку.TabularSection.Распоряжения.Attribute.Распоряжение" id="a00eccb1-3c10-44c0-97d6-46a387d49697"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.TabularSection.Распоряжения.Attribute.ПолучательОтправитель" id="a1b11b26-e34f-48f9-8638-6a9f049160ef"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.Статус" id="a626d10a-474a-4eb5-9c00-edb39176f657"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.Операция" id="b68f9abd-e2a4-46c0-b644-2e0c5c7f6cf6"/>
@@ -994,11 +996,13 @@
 			<Metadata name="Document.ЗаданиеНаПеревозку.TabularSection.Распоряжения" id="f2ec2349-c10f-46b3-9845-b0147172563c"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.Ответственный" id="f6f6340a-5923-424a-8cad-6de4ebbc3cf4"/>
 		</Metadata>
+		<Metadata name="Document.ЗаданиеНаПеревозку.Form.ФормаВыбора" id="07cc524d-80a8-4b49-bd9a-2a91b76f6910" configVersion="6fa133974d819f0911c29dff394bddcdd207aa42"/>
+		<Metadata name="Document.ЗаданиеНаПеревозку.Form.ФормаВыбора.Form" id="07cc524d-80a8-4b49-bd9a-2a91b76f6910.0" configVersion="e564f43053ae692f5c9be8c1b355a70731d4bd68"/>
 		<Metadata name="Document.ЗаданиеНаПеревозку.Form.ФормаДокумента" id="0d22ae3e-fa10-4b02-a439-6d5f56bbc3e3" configVersion="d7dc1ea2ad5c7b68169e7fa7c7f0dbadc36ed50d"/>
-		<Metadata name="Document.ЗаданиеНаПеревозку.Form.ФормаДокумента.Form" id="0d22ae3e-fa10-4b02-a439-6d5f56bbc3e3.0" configVersion="2683702d862780577ff3bc403bd6390c79885f8c"/>
+		<Metadata name="Document.ЗаданиеНаПеревозку.Form.ФормаДокумента.Form" id="0d22ae3e-fa10-4b02-a439-6d5f56bbc3e3.0" configVersion="11286375be495c81aa14c01eea34df33a4eb5272"/>
 		<Metadata name="Document.ЗаданиеНаПеревозку.Form.ФормаПодбораРаспоряжений" id="d6486759-dd26-47a8-a309-e90d8de57066" configVersion="8d5bab71ae659eb7102604c21da1c7d2bc5cd0c0"/>
 		<Metadata name="Document.ЗаданиеНаПеревозку.Form.ФормаПодбораРаспоряжений.Form" id="d6486759-dd26-47a8-a309-e90d8de57066.0" configVersion="b894e240327349bcbf7582511b77880ff803dc11"/>
-		<Metadata name="Document.ЗаданиеНаПеревозку.ManagerModule" id="82aee940-cafd-4e0e-af12-0c21a99ece5a.2" configVersion="c46cd51967819cd237b325dddf16a4f9bd42c846"/>
+		<Metadata name="Document.ЗаданиеНаПеревозку.ManagerModule" id="82aee940-cafd-4e0e-af12-0c21a99ece5a.2" configVersion="0863185257666ed3afbf656ae2bb5e60f75838f7"/>
 		<Metadata name="Document.ЗаданиеНаПеревозку.Template.ПФ_MXL_М2_ВИЛС" id="ecea6f3d-4b77-40aa-825c-19cf3553a80d" configVersion="0258bfad04646537e033ba9d210eddcc1f6f8373"/>
 		<Metadata name="Document.ЗаданиеНаПеревозку.Template.ПФ_MXL_М2_ВИЛС.Template" id="ecea6f3d-4b77-40aa-825c-19cf3553a80d.0" configVersion="b3864dbcfc05906031423e16e0cf95f7bdbca61c"/>
 		<Metadata name="Document.ЗаказДавальца" id="b93a88d4-76df-4010-bbef-34572d5b2f2a" configVersion="b6332f24917df40e038e58a2aaded66863fc5dc9"/>
@@ -1176,6 +1180,7 @@
 		<Metadata name="Document.КадровыйПереводСписком.Form.ФормаСтроки.Form" id="bbaacedf-60f9-41a1-b392-32b5ae1e7842.0" configVersion="103109ecadbaead99330c465c76646f239bd0ddc"/>
 		<Metadata name="Document.КадровыйПереводСписком.ObjectModule" id="3e44d5da-3549-43be-a33d-38e01b5c27ef.0" configVersion="967ecc76d8c44f9385b8ae6a227dfc8af62622b3"/>
 		<Metadata name="Document.КорректировкаПриобретения" id="2fffddcd-97f7-46bc-9be5-c8105d39b359" configVersion="66633789b877cdf0b243fbf96a1e948a3b3e8cd3"/>
+		<Metadata name="Document.КорректировкаРеализации" id="bac5a35b-5dd0-411a-9ee8-05b79449ea29" configVersion="d32edf15052ae068d26cff4c680980cf86cf4350"/>
 		<Metadata name="Document.КорректировкаРегистров" id="053ed769-24ef-4c7d-852a-4264ba54ff6b" configVersion="53da7fc060bdbeec2db96d66a5b53bd3ad241469"/>
 		<Metadata name="Document.ЛистКассовойКниги" id="1adbf05f-5d08-4910-b02d-b1a5c314452d" configVersion="4967bd6919ff7858a2cc1bb4d8d5adc1ecdda668"/>
 		<Metadata name="Document.ЛистКассовойКниги.ManagerModule" id="1adbf05f-5d08-4910-b02d-b1a5c314452d.2" configVersion="099900e10555f29a5345f23f1b5e4d9bf9b1964a"/>
@@ -1306,6 +1311,8 @@
 		<Metadata name="Document.ПередачаСырьяПереработчику.Form.ФормаДокумента.Form" id="82b44df0-46fa-480f-ba20-53cb65a63e4d.0" configVersion="45a2b51d23f730412cf412e3ecda112a7c8be9a5"/>
 		<Metadata name="Document.ПередачаСырьяПереработчику.ManagerModule" id="11f75ecd-3e6d-42ab-9d24-e0e040750333.2" configVersion="e0c966b78f05ca5069c05de73c34c0b9a236319b"/>
 		<Metadata name="Document.ПередачаСырьяПереработчику.ObjectModule" id="11f75ecd-3e6d-42ab-9d24-e0e040750333.0" configVersion="6ac89486e7e3e6033347b85957eb1f8ad5d05f4f"/>
+		<Metadata name="Document.ПередачаТоваровХранителю" id="9f9e1d00-1307-421d-abd9-bbcdb0a11791" configVersion="f655ad50b678d059ae74d3552507bea1c12e8b03"/>
+		<Metadata name="Document.ПеремещениеТоваров" id="55eddb74-c0a8-405a-a7b4-e90839108a1c" configVersion="a55297ca54d282b9d150925147c0ac49f2b98436"/>
 		<Metadata name="Document.ПоступлениеБезналичныхДенежныхСредств" id="b55566b2-9ffb-4bd5-bbeb-75f6d8cdefe2" configVersion="f017bf75b65ac2fe9f0614bb63f2e63a792150d4">
 			<Metadata name="Document.ПоступлениеБезналичныхДенежныхСредств.Attribute.ТипПлатежногоДокумента" id="e273510c-18f6-4aa7-8779-379adcb28169"/>
 		</Metadata>
@@ -1658,54 +1665,17 @@
 		<Metadata name="Document.ТабельУчетаРабочегоВремени.Form.ФормаДокументаАльтернативная" id="8e442071-9f21-4fd7-9cf4-40efed18793f" configVersion="dae09413f1a395239c53c9b7a2d99ed1c1974bbe"/>
 		<Metadata name="Document.ТабельУчетаРабочегоВремени.Form.ФормаДокументаАльтернативная.Form" id="8e442071-9f21-4fd7-9cf4-40efed18793f.0" configVersion="3aaae2e8c667229ab518dfdc2654f603441fbc99"/>
 		<Metadata name="Document.ТабельУчетаРабочегоВремени.ManagerModule" id="30e7d8d0-0f9d-476c-a8d8-0ce76d9e84fd.2" configVersion="a41fade74641832a2e3266b13c2b590a354d7dc1"/>
-		<Metadata name="Document.ТранспортнаяНакладная" id="2588006c-d478-45a5-8e4b-2c7126fde17c" configVersion="01e821281609da615e6e54e72c54ed7b4f902755">
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.БанковскийСчетПлательщика" id="0ffd945c-7a16-4f2d-adc3-7f950688aba3"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.Отпустил" id="13738691-f830-493b-bd2f-9100639d3cab"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ДоверенностьЛицо" id="16759c5f-7575-4997-8e2a-a20390ee3cf1"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.АвтомобильМарка" id="167641ae-5021-40a6-b96d-4d0a48ff2883"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ЗаказчикПеревозки" id="1aa62cad-0c2c-41cb-9961-903e9e74cd83"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.Водитель" id="1f5d2418-b57d-4b36-b99b-34f1fff8a240"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.Грузоотправитель" id="2854fc57-7c56-40f5-acd6-92f603dfeb2e"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ВидПеревозки" id="2f2af824-7540-4a40-a4e2-d6b4b2c96fd1"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ГлавныйБухгалтер" id="38b7f5ca-db4c-4bab-a94e-817026d66195"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.АвтомобильТип" id="3d1f0572-be27-473f-979c-9ee380865506"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.УдостоверениеСерия" id="4323904a-1d71-4089-b79b-b43727845967"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ДоверенностьНомер" id="440aad17-923b-4629-bebb-53d8775bd996"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.СрокДоставки" id="54e488c7-424b-4481-ad9a-bf7c29940229"/>
-			<Metadata name="Document.ТранспортнаяНакладная.TabularSection.ДокументыОснования" id="5c6f0078-cab9-499d-9564-133e2748f5e8"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ЗаданиеНаПеревозку" id="614c6d21-363e-4713-993a-4076af219444"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.АдресПогрузки" id="62fe2fa4-6984-480f-b79a-b6ecd54f34a4"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.Прицеп" id="63a30f7c-0888-4512-a2b4-dd37a3d26274"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ГосударственныйНомерПрицепа" id="64444129-0056-4868-bd08-a821df470bc3"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.Грузополучатель" id="64e2eae4-702b-48e4-b3d3-c30782490e84"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.АвтомобильВместимостьВКубическихМетрах" id="69b1dd15-4316-4d63-b4f1-cdcfadb1209a"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.АвтомобильГосударственныйНомер" id="71b7540d-34f9-4070-9aa1-8bf67b02ba89"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.АдресДоставки" id="74a76b14-1a65-4f2f-a481-720e65170bae"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.Перевозчик" id="7a30809f-9a54-4c9d-818d-db89f85b3ebf"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.БанковскийСчетПеревозчика" id="839aa0b4-7913-4888-bd4f-fe96e6e45cfa"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.МассаБрутто" id="84d776fe-74b1-408f-88cd-9f0c3d98ebb2"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.Руководитель" id="8644a96b-19fe-48d0-8303-68dc322e0349"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ЛицензионнаяКарточкаНомер" id="8783fcd1-583a-4f9d-b255-899af0cfce63"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.АвтомобильГрузоподъемностьВТоннах" id="89431847-6bba-4a91-a65b-55cb5763ea37"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.Плательщик" id="91611e18-5314-4ca2-b780-fdea3c438666"/>
-			<Metadata name="Document.ТранспортнаяНакладная.TabularSection.ДокументыОснования.Attribute.ДокументОснование" id="9734befe-b3d7-453f-b8b3-5eb078fff9f7"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.БанковскийСчетЗаказчикаПеревозки" id="9e1d2e52-ab6c-49a3-a11f-08468c2b1d14"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ВыводДанныхОТоварномСоставе" id="9ee66478-cd07-4658-8afe-38a2a7694833"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ОтпустилДолжность" id="9f907bc1-cbc6-42e8-b83a-694611406c0e"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.МассаНетто" id="a5e65f63-07fa-402e-8eaf-8ed4d480db1b"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.Организация" id="b2e44139-8e84-49d7-b553-b0c93500b65b"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ЛицензионнаяКарточкаРегистрационныйНомер" id="b454650e-4d72-42a6-a7e8-f59c6eed7be7"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ДоверенностьДата" id="c482a032-b590-49d5-a0ce-194b03746ed2"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ДоверенностьВыдана" id="d196f5b3-1f19-4396-a6cd-4c8d411c5f8f"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ЛицензионнаяКарточкаСерия" id="d316686e-543c-4e3e-982d-d1385d312de7"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.УдостоверениеНомер" id="d3e9172b-5b7e-4655-b746-189326725c50"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.ЛицензионнаяКарточкаВид" id="def4088d-bdf9-4247-b30e-2c47c9d41360"/>
-			<Metadata name="Document.ТранспортнаяНакладная.Attribute.Комментарий" id="eaa55670-e904-4402-bb52-01565116964e"/>
+		<Metadata name="Document.ТранспортнаяНакладная" id="1246876c-91f3-4fbc-8d5d-f0da1a018b55" configVersion="c7d00dd6b2435f000ab5d00c53859c3df40955bf">
+			<Metadata name="Document.ТранспортнаяНакладная.Command.ОформитьТранспортныеНакладныеПоЗаданиямНаПеревозку" id="2695b2a1-a2b0-4156-b363-e561e314c0be"/>
+			<Metadata name="Document.ТранспортнаяНакладная.TabularSection.ДокументыОснования.Attribute.ДокументОснование" id="97a71d5d-1036-4603-8c77-dd5c1c102330"/>
+			<Metadata name="Document.ТранспортнаяНакладная.TabularSection.ДокументыОснования.Attribute.ВИЛС_ДокументОснование" id="ad52420c-444c-47fe-b7c9-3651c70751a8"/>
+			<Metadata name="Document.ТранспортнаяНакладная.TabularSection.ДокументыОснования" id="b3cc1408-243a-45bf-b256-a6e84eb308f7"/>
 		</Metadata>
-		<Metadata name="Document.ТранспортнаяНакладная.Form.ФормаДокумента" id="e488eaa1-7ccd-4cf0-8210-e21d879e148e" configVersion="86d3cfecf11f70315aaf46d022b084186e99f75f"/>
-		<Metadata name="Document.ТранспортнаяНакладная.Form.ФормаДокумента.Form" id="e488eaa1-7ccd-4cf0-8210-e21d879e148e.0" configVersion="53b6a7528b2b87c968955860f755f8e2d9d9a3aa"/>
-		<Metadata name="Document.ТранспортнаяНакладная.ManagerModule" id="2588006c-d478-45a5-8e4b-2c7126fde17c.2" configVersion="9843e2906c3648892634b21e236563d14758b3f1"/>
-		<Metadata name="Document.ТранспортнаяНакладная.ObjectModule" id="2588006c-d478-45a5-8e4b-2c7126fde17c.0" configVersion="066595edbed87231612ab146a373ba376bf7aeb4"/>
+		<Metadata name="Document.ТранспортнаяНакладная.Command.ОформитьТранспортныеНакладныеПоЗаданиямНаПеревозку.CommandModule" id="2695b2a1-a2b0-4156-b363-e561e314c0be.2" configVersion="f49710d5ae50dd507241dad798f7fef1bf778194"/>
+		<Metadata name="Document.ТранспортнаяНакладная.Form.ФормаДокумента" id="0b4afcfa-c2cf-4765-9c25-3d374d1ab2d8" configVersion="01eac43570e12ca9d7282cfc9c39b5f62be68028"/>
+		<Metadata name="Document.ТранспортнаяНакладная.Form.ФормаДокумента.Form" id="0b4afcfa-c2cf-4765-9c25-3d374d1ab2d8.0" configVersion="22845edb21053ab6087ff5b240c18a503f8a1788"/>
+		<Metadata name="Document.ТранспортнаяНакладная.ManagerModule" id="1246876c-91f3-4fbc-8d5d-f0da1a018b55.2" configVersion="e37f3b367fec8c4cd16948734d5634d5f854124e"/>
+		<Metadata name="Document.ТранспортнаяНакладная.ObjectModule" id="1246876c-91f3-4fbc-8d5d-f0da1a018b55.0" configVersion="9dc1db8a66f55bc20ab4890a5f04250de14c0436"/>
 		<Metadata name="Document.УведомлениеОЗачисленииВалюты" id="b280c0be-1b71-498d-9245-23a15bc5f035" configVersion="04e6150a71f7ac92ffcb9bb3fbf9ae8933c353a7"/>
 		<Metadata name="Document.Увольнение" id="150d0143-5c0b-49d6-93b0-21826da7ed71" configVersion="60b2b0f3d1af29ddeef9ea17119e770305497e98">
 			<Metadata name="Document.Увольнение.Attribute.Организация" id="5b591f6a-cb59-4909-9cc7-0c3a0bdff0df"/>

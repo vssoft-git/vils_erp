@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>94e6863a-9abf-4955-a096-71186a1630df</xr:ObjectId>
+				<xr:ObjectId>69e33625-e791-482a-96dd-a6d8f944b4a8</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -274,6 +274,7 @@
 			<CommonModule>ОперативныеВзаиморасчетыСервер</CommonModule>
 			<CommonModule>УправлениеКолонтитулами</CommonModule>
 			<CommonModule>ЗаданиеНаПеревозкуЛокализация</CommonModule>
+			<CommonModule>УправлениеПечатьюУТВызовСервераЛокализация</CommonModule>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>ИспользоватьПодключаемоеОборудование</FunctionalOption>
 			<FunctionalOption>ИспользоватьПоступлениеПоНесколькимЗаказам</FunctionalOption>
@@ -356,10 +357,10 @@
 			<DefinedType>ДенежнаяСуммаЛюбогоЗнака</DefinedType>
 			<DefinedType>ДенежнаяСуммаНеотрицательная</DefinedType>
 			<DefinedType>НомерСерии</DefinedType>
-			<DefinedType>РаспоряжениеНаДоставку</DefinedType>
 			<DefinedType>ОтправительПолучательТоваров</DefinedType>
 			<DefinedType>ОтправительПолучательДоставки</DefinedType>
 			<DefinedType>ВедомостьЗарплатаКадры</DefinedType>
+			<DefinedType>РаспоряжениеНаДоставку</DefinedType>
 			<CommonCommand>ИнтеграцияС1СДокументооборотСоздатьПисьмо</CommonCommand>
 			<CommonCommand>ДополнительныеСведенияКоманднаяПанель</CommonCommand>
 			<CommonCommand>ИнтеграцияС1СДокументооборотСоздатьБизнесПроцесс</CommonCommand>
@@ -533,7 +534,6 @@
 			<Document>ПередачаСырьяПереработчику</Document>
 			<Document>СчетФактураВыданный</Document>
 			<Document>РеализацияТоваровУслуг</Document>
-			<Document>ТранспортнаяНакладная</Document>
 			<Document>ПоступлениеБезналичныхДенежныхСредств</Document>
 			<Document>УведомлениеОЗачисленииВалюты</Document>
 			<Document>РаспоряжениеНаПеремещениеДенежныхСредств</Document>
@@ -581,6 +581,10 @@
 			<Document>ОперацияПоПлатежнойКарте</Document>
 			<Document>ПоступлениеДенежныхДокументов</Document>
 			<Document>КорректировкаРегистров</Document>
+			<Document>ПередачаТоваровХранителю</Document>
+			<Document>КорректировкаРеализации</Document>
+			<Document>ПеремещениеТоваров</Document>
+			<Document>ТранспортнаяНакладная</Document>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
 			<Enum>ПорядокОплатыПоСоглашениям</Enum>
 			<Enum>ХозяйственныеОперации</Enum>

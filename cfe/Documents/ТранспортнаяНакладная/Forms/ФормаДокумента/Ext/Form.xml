@@ -1,32 +1,24 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<CommandSet>
-		<ExcludedCommand>Post</ExcludedCommand>
-		<ExcludedCommand>PostAndClose</ExcludedCommand>
-		<ExcludedCommand>Write</ExcludedCommand>
-	</CommandSet>
-	<AutoTime>CurrentOrLast</AutoTime>
-	<UsePostingMode>Auto</UsePostingMode>
-	<RepostOnWrite>true</RepostOnWrite>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
 			<Button name="ФормаПровестиИЗакрыть" id="346">
 				<Type>CommandBarButton</Type>
 				<Representation>Text</Representation>
 				<DefaultButton>true</DefaultButton>
-				<CommandName>Form.Command.ПровестиИЗакрыть</CommandName>
+				<CommandName>1:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 				<ExtendedTooltip name="ФормаПровестиИЗакрытьРасширеннаяПодсказка" id="347"/>
 			</Button>
 			<Button name="ФормаЗаписать" id="348">
 				<Type>CommandBarButton</Type>
 				<Representation>Picture</Representation>
-				<CommandName>Form.Command.ЗаписатьДокумент</CommandName>
+				<CommandName>2:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 				<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="349"/>
 			</Button>
 			<Button name="ФормаПровести" id="350">
 				<Type>CommandBarButton</Type>
 				<Representation>Picture</Representation>
-				<CommandName>Form.Command.ПровестиДокумент</CommandName>
+				<CommandName>3:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 				<ExtendedTooltip name="ФормаПровестиРасширеннаяПодсказка" id="351"/>
 			</Button>
 			<Popup name="ПодменюСоздатьНаОсновании" id="352">
@@ -35,10 +27,14 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Создать на основании</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Create on the basis</v8:content>
+					</v8:item>
 				</Title>
 				<Picture>
 					<xr:Ref>CommonPicture.ЗаполнитьПоШаблону</xr:Ref>
-					<xr:LoadTransparent>true</xr:LoadTransparent>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
 				<Representation>Picture</Representation>
 				<ExtendedTooltip name="ПодменюСоздатьНаОснованииРасширеннаяПодсказка" id="353"/>
@@ -49,6 +45,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Создать на основании (Важное)</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Create on the basis (Important)</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииВажноеРасширеннаяПодсказка" id="389"/>
 					</ButtonGroup>
@@ -58,6 +58,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Создать на основании (Обычное)</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Create on the basis (Standard)</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииОбычноеРасширеннаяПодсказка" id="391"/>
 					</ButtonGroup>
@@ -66,6 +70,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Создать на основании (См. также)</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Create on the basis (See also)</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииСмТакжеРасширеннаяПодсказка" id="393"/>
@@ -78,6 +86,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Форма глобальные команды</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Global commands form</v8:content>
+					</v8:item>
 				</Title>
 				<CommandSource>FormCommandPanelGlobalCommands</CommandSource>
 				<ExtendedTooltip name="ФормаГлобальныеКомандыРасширеннаяПодсказка" id="355"/>
@@ -88,10 +100,14 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Отчеты</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Reports</v8:content>
+					</v8:item>
 				</Title>
 				<Picture>
 					<xr:Ref>CommonPicture.Отчеты</xr:Ref>
-					<xr:LoadTransparent>true</xr:LoadTransparent>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
 				<Representation>PictureAndText</Representation>
 				<ExtendedTooltip name="ПодменюОтчетыРасширеннаяПодсказка" id="357"/>
@@ -102,6 +118,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Подменю отчеты важное</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Important reports submenu</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюОтчетыВажноеРасширеннаяПодсказка" id="359"/>
 					</ButtonGroup>
@@ -111,11 +131,19 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Подменю отчеты обычное</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Submenu reports standard</v8:content>
+							</v8:item>
 						</Title>
 						<ToolTip>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Подменю отчеты важное</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Important reports submenu</v8:content>
 							</v8:item>
 						</ToolTip>
 						<ExtendedTooltip name="ПодменюОтчетыОбычноеРасширеннаяПодсказка" id="361"/>
@@ -126,11 +154,19 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Подменю отчеты см также</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Submenu reports see also</v8:content>
+							</v8:item>
 						</Title>
 						<ToolTip>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Подменю отчеты важное</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Important reports submenu</v8:content>
 							</v8:item>
 						</ToolTip>
 						<ExtendedTooltip name="ПодменюОтчетыСмТакжеРасширеннаяПодсказка" id="363"/>
@@ -143,11 +179,19 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Печать</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Print </v8:content>
+					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Команды печати</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Print commands</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Picture>
@@ -158,12 +202,19 @@
 			</Popup>
 		</ChildItems>
 	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer" callType="After">ВИЛС_ПриСозданииНаСервереПосле</Event>
+	</Events>
 	<ChildItems>
 		<Pages name="ГруппаСтраницы" id="233">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Страницы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pages</v8:content>
 				</v8:item>
 			</Title>
 			<VerticalStretch>true</VerticalStretch>
@@ -175,11 +226,14 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Основное</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Main</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="10"/>
 					<ChildItems>
 						<LabelField name="ЗаданиеНаПеревозку" id="308">
-							<DataPath>Объект.ЗаданиеНаПеревозку</DataPath>
 							<Hiperlink>true</Hiperlink>
 							<ContextMenu name="ЗаданиеНаПеревозкуКонтекстноеМеню" id="309"/>
 							<ExtendedTooltip name="ЗаданиеНаПеревозкуРасширеннаяПодсказка" id="310"/>
@@ -189,6 +243,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Колонки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Columns</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
@@ -202,6 +260,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Информация о покупателе:</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Customer information:</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
 									<Representation>None</Representation>
@@ -213,6 +275,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Номер дата задание на перевозку</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Number date transportation job</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
@@ -226,6 +292,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Номер дата</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Number date</v8:content>
+														</v8:item>
 													</Title>
 													<Group>Horizontal</Group>
 													<Representation>None</Representation>
@@ -233,7 +303,7 @@
 													<ExtendedTooltip name="ГруппаНомерДатаРасширеннаяПодсказка" id="8"/>
 													<ChildItems>
 														<InputField name="Номер" id="1">
-															<DataPath>Объект.Number</DataPath>
+															<DataPath>1/-2</DataPath>
 															<EditMode>EnterOnInput</EditMode>
 															<Width>10</Width>
 															<HorizontalStretch>false</HorizontalStretch>
@@ -241,11 +311,15 @@
 															<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
 														</InputField>
 														<InputField name="Дата" id="4">
-															<DataPath>Объект.Date</DataPath>
+															<DataPath>1/-3</DataPath>
 															<Title>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>от</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>as of</v8:content>
 																</v8:item>
 															</Title>
 															<EditMode>EnterOnInput</EditMode>
@@ -258,24 +332,16 @@
 											</ChildItems>
 										</UsualGroup>
 										<InputField name="Грузополучатель" id="28">
-											<DataPath>Объект.Грузополучатель</DataPath>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>28</MaxWidth>
 											<ContextMenu name="ГрузополучательКонтекстноеМеню" id="29"/>
 											<ExtendedTooltip name="ГрузополучательРасширеннаяПодсказка" id="30"/>
-											<Events>
-												<Event name="OnChange" callType="After">ВИЛС_ГрузополучательПриИзмененииПосле</Event>
-											</Events>
 										</InputField>
 										<InputField name="Грузоотправитель" id="31">
-											<DataPath>Объект.Грузоотправитель</DataPath>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>28</MaxWidth>
 											<ContextMenu name="ГрузоотправительКонтекстноеМеню" id="32"/>
 											<ExtendedTooltip name="ГрузоотправительРасширеннаяПодсказка" id="33"/>
-											<Events>
-												<Event name="OnChange" callType="After">ВИЛС_ГрузоотправительПриИзмененииПосле</Event>
-											</Events>
 										</InputField>
 									</ChildItems>
 								</UsualGroup>
@@ -284,6 +350,10 @@
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
+											<v8:content>[todo Декорация для отступа]</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
 											<v8:content>[todo Декорация для отступа]</v8:content>
 										</v8:item>
 									</ToolTip>
@@ -296,6 +366,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Информация о продавце:</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Seller information:</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
 									<Representation>None</Representation>
@@ -303,25 +377,26 @@
 									<ExtendedTooltip name="ГруппаПравоРасширеннаяПодсказка" id="14"/>
 									<ChildItems>
 										<InputField name="Организация" id="141">
-											<DataPath>Объект.Организация</DataPath>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>28</MaxWidth>
 											<ContextMenu name="ОрганизацияКонтекстноеМеню" id="142"/>
 											<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="143"/>
 										</InputField>
 										<InputField name="Плательщик" id="364">
-											<DataPath>Объект.Плательщик</DataPath>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>28</MaxWidth>
 											<ContextMenu name="ПлательщикКонтекстноеМеню" id="365"/>
 											<ExtendedTooltip name="ПлательщикРасширеннаяПодсказка" id="366"/>
 										</InputField>
 										<InputField name="БанковскийСчетПлательщика" id="383">
-											<DataPath>Объект.БанковскийСчетПлательщика</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Счет плательщика</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Payer account</v8:content>
 												</v8:item>
 											</Title>
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -340,6 +415,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Комментарий</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Comment</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
 							<United>false</United>
@@ -347,7 +426,6 @@
 							<ExtendedTooltip name="ГруппаКомментарийРасширеннаяПодсказка" id="379"/>
 							<ChildItems>
 								<InputField name="Комментарий" id="375">
-									<DataPath>Объект.Комментарий</DataPath>
 									<TitleLocation>Left</TitleLocation>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>72</MaxWidth>
@@ -367,6 +445,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Товарный раздел</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Goods section</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаТоварныйРазделРасширеннаяПодсказка" id="134"/>
 					<ChildItems>
@@ -376,6 +458,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Вывод данных о товарном составе</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Display goods content data</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
@@ -384,11 +470,14 @@
 							<ExtendedTooltip name="ГруппаВыводДанныхОТоварномСоставеРасширеннаяПодсказка" id="387"/>
 							<ChildItems>
 								<RadioButtonField name="ВыводДанныхОТоварномСоставе" id="153">
-									<DataPath>Объект.ВыводДанныхОТоварномСоставе</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Выводить в товарном разделе</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Display in goods section</v8:content>
 										</v8:item>
 									</Title>
 									<TitleLocation>Left</TitleLocation>
@@ -403,6 +492,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>номера накладных</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>invoice numbers</v8:content>
+													</v8:item>
 												</Presentation>
 												<Value xsi:type="xr:DesignTimeRef">Enum.ВариантыВыводаДанныхОТоварномСоставе.EnumValue.НомераНакладных</Value>
 											</xr:Value>
@@ -415,6 +508,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>товарный состав</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>goods content</v8:content>
 													</v8:item>
 												</Presentation>
 												<Value xsi:type="xr:DesignTimeRef">Enum.ВариантыВыводаДанныхОТоварномСоставе.EnumValue.ТоварныйСостав</Value>
@@ -432,6 +529,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Документы-основания:</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Base documents:</v8:content>
+								</v8:item>
 							</Title>
 							<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 							<HorizontalStretch>true</HorizontalStretch>
@@ -448,11 +549,14 @@
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
 									<FileDragMode>AsFile</FileDragMode>
-									<DataPath>Объект.ДокументыОснования</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Документы-основания</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Base documents</v8:content>
 										</v8:item>
 									</Title>
 									<RowFilter xsi:nil="true"/>
@@ -462,22 +566,22 @@
 										<ChildItems>
 											<Button name="ДокументыОснованияДобавить" id="292">
 												<Type>CommandBarButton</Type>
-												<CommandName>Form.Item.ДокументыОснования.StandardCommand.Add</CommandName>
+												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 												<ExtendedTooltip name="ДокументыОснованияДобавитьРасширеннаяПодсказка" id="293"/>
 											</Button>
 											<Button name="ДокументыОснованияУдалить" id="294">
 												<Type>CommandBarButton</Type>
-												<CommandName>Form.Item.ДокументыОснования.StandardCommand.Delete</CommandName>
+												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 												<ExtendedTooltip name="ДокументыОснованияУдалитьРасширеннаяПодсказка" id="295"/>
 											</Button>
 											<Button name="ДокументыОснованияНайти" id="296">
 												<Type>CommandBarButton</Type>
-												<CommandName>Form.Item.ДокументыОснования.StandardCommand.Find</CommandName>
+												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 												<ExtendedTooltip name="ДокументыОснованияНайтиРасширеннаяПодсказка" id="297"/>
 											</Button>
 											<Button name="ДокументыОснованияОтменитьПоиск" id="298">
 												<Type>CommandBarButton</Type>
-												<CommandName>Form.Item.ДокументыОснования.StandardCommand.CancelSearch</CommandName>
+												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 												<ExtendedTooltip name="ДокументыОснованияОтменитьПоискРасширеннаяПодсказка" id="299"/>
 											</Button>
 										</ChildItems>
@@ -509,11 +613,14 @@
 									</SearchControlAddition>
 									<ChildItems>
 										<InputField name="ДокументыОснованияДокументОснование" id="87">
-											<DataPath>1000001/0:5c6f0078-cab9-499d-9564-133e2748f5e8/0:a3e15007-29d4-4b97-8b76-9469624a4485</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Наименование</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Name</v8:content>
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
@@ -541,6 +648,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Товарный раздел колонки</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Goods section columns</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
 							<Representation>None</Representation>
@@ -552,6 +663,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Товарный раздел лево</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Goods section left</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -567,6 +682,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Подписи:</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Signatures:</v8:content>
+												</v8:item>
 											</Title>
 											<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 											<Group>Vertical</Group>
@@ -574,14 +693,12 @@
 											<ExtendedTooltip name="ГруппаПодписиРасширеннаяПодсказка" id="218"/>
 											<ChildItems>
 												<InputField name="Руководитель" id="65">
-													<DataPath>Объект.Руководитель</DataPath>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>28</MaxWidth>
 													<ContextMenu name="РуководительКонтекстноеМеню" id="66"/>
 													<ExtendedTooltip name="РуководительРасширеннаяПодсказка" id="67"/>
 												</InputField>
 												<InputField name="ГлавныйБухгалтер" id="68">
-													<DataPath>Объект.ГлавныйБухгалтер</DataPath>
 													<TitleHeight>1</TitleHeight>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>28</MaxWidth>
@@ -589,7 +706,6 @@
 													<ExtendedTooltip name="ГлавныйБухгалтерРасширеннаяПодсказка" id="70"/>
 												</InputField>
 												<InputField name="ГрузОтпустил" id="71">
-													<DataPath>Объект.Отпустил</DataPath>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>28</MaxWidth>
 													<DropListButton>false</DropListButton>
@@ -599,12 +715,16 @@
 													<ExtendedTooltip name="ГрузОтпустилРасширеннаяПодсказка" id="73"/>
 												</InputField>
 												<InputField name="ГрузОтпустилДолжность" id="74">
-													<DataPath>Объект.ОтпустилДолжность</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Груз отпустил
 (должность)</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Cargo released by
+(position)</v8:content>
 														</v8:item>
 													</Title>
 													<TitleLocation>Left</TitleLocation>
@@ -623,6 +743,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Товарный раздел право</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Goods section right</v8:content>
+										</v8:item>
 									</Title>
 									<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 									<Group>Vertical</Group>
@@ -636,6 +760,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Масса груза:</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Cargo weight:</v8:content>
+												</v8:item>
 											</Title>
 											<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 											<Group>Vertical</Group>
@@ -648,6 +776,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Масса брутто</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Gross weight</v8:content>
+														</v8:item>
 													</Title>
 													<Group>Horizontal</Group>
 													<Representation>None</Representation>
@@ -655,11 +787,14 @@
 													<ExtendedTooltip name="ГруппаМассаБруттоРасширеннаяПодсказка" id="228"/>
 													<ChildItems>
 														<InputField name="МассаБрутто" id="147">
-															<DataPath>Объект.МассаБрутто</DataPath>
 															<Title>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Масса (брутто)</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Weight (gross)</v8:content>
 																</v8:item>
 															</Title>
 															<AutoMaxWidth>false</AutoMaxWidth>
@@ -674,6 +809,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>кг</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>kg</v8:content>
+																</v8:item>
 															</Title>
 															<ContextMenu name="ДекорацияКилограммыБруттоКонтекстноеМеню" id="222"/>
 															<ExtendedTooltip name="ДекорацияКилограммыБруттоРасширеннаяПодсказка" id="223"/>
@@ -686,6 +825,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Масса нетто</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Net weight</v8:content>
+														</v8:item>
 													</Title>
 													<Group>Horizontal</Group>
 													<Representation>None</Representation>
@@ -693,11 +836,14 @@
 													<ExtendedTooltip name="ГруппаМассаНеттоРасширеннаяПодсказка" id="230"/>
 													<ChildItems>
 														<InputField name="МассаНетто" id="150">
-															<DataPath>Объект.МассаНетто</DataPath>
 															<Title>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Масса (нетто)</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Weight (net)</v8:content>
 																</v8:item>
 															</Title>
 															<AutoMaxWidth>false</AutoMaxWidth>
@@ -711,6 +857,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>кг</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>kg</v8:content>
 																</v8:item>
 															</Title>
 															<ContextMenu name="ДекорацияКилограммыНеттоКонтекстноеМеню" id="225"/>
@@ -726,6 +876,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Доверенность:</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Letter of authority:</v8:content>
+												</v8:item>
 											</Title>
 											<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 											<Group>Vertical</Group>
@@ -738,6 +892,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Доверенность номер дата</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Letter of authority number date</v8:content>
+														</v8:item>
 													</Title>
 													<Group>Horizontal</Group>
 													<Representation>None</Representation>
@@ -745,11 +903,14 @@
 													<ExtendedTooltip name="ГруппаДоверенностьНомерДатаРасширеннаяПодсказка" id="114"/>
 													<ChildItems>
 														<InputField name="ДоверенностьНомер" id="101">
-															<DataPath>Объект.ДоверенностьНомер</DataPath>
 															<Title>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Номер доверенности</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Letter of authority number</v8:content>
 																</v8:item>
 															</Title>
 															<TitleLocation>Left</TitleLocation>
@@ -759,11 +920,14 @@
 															<ExtendedTooltip name="ДоверенностьНомерРасширеннаяПодсказка" id="103"/>
 														</InputField>
 														<InputField name="ДоверенностьДата" id="104">
-															<DataPath>Объект.ДоверенностьДата</DataPath>
 															<Title>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>от</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>as of</v8:content>
 																</v8:item>
 															</Title>
 															<AutoMaxWidth>false</AutoMaxWidth>
@@ -773,11 +937,14 @@
 													</ChildItems>
 												</UsualGroup>
 												<InputField name="ДоверенностьВыдана" id="107">
-													<DataPath>Объект.ДоверенностьВыдана</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Кем выдана</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Issued by</v8:content>
 														</v8:item>
 													</Title>
 													<AutoMaxWidth>false</AutoMaxWidth>
@@ -786,11 +953,14 @@
 													<ExtendedTooltip name="ДоверенностьВыданаРасширеннаяПодсказка" id="109"/>
 												</InputField>
 												<InputField name="ДоверенностьЛицо" id="110">
-													<DataPath>Объект.ДоверенностьЛицо</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Кому выдана</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Issued to</v8:content>
 														</v8:item>
 													</Title>
 													<AutoMaxWidth>false</AutoMaxWidth>
@@ -812,6 +982,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Транспортный раздел</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Transport section</v8:content>
+						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
 					<ExtendedTooltip name="ГруппаТранспортныйРазделРасширеннаяПодсказка" id="35"/>
@@ -821,6 +995,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Транспортный раздел:</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Transport section:</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
@@ -835,6 +1013,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Основное:</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Main:</v8:content>
+										</v8:item>
 									</Title>
 									<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 									<Group>Vertical</Group>
@@ -842,23 +1024,24 @@
 									<ExtendedTooltip name="ГруппаТранспортныйРазделОсновноеРасширеннаяПодсказка" id="214"/>
 									<ChildItems>
 										<InputField name="СрокДоставки" id="56">
-											<DataPath>Объект.СрокДоставки</DataPath>
 											<ContextMenu name="СрокДоставкиКонтекстноеМеню" id="57"/>
 											<ExtendedTooltip name="СрокДоставкиРасширеннаяПодсказка" id="58"/>
 										</InputField>
 										<InputField name="Перевозчик" id="50">
-											<DataPath>Объект.Перевозчик</DataPath>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>30</MaxWidth>
 											<ContextMenu name="ПеревозчикКонтекстноеМеню" id="51"/>
 											<ExtendedTooltip name="ПеревозчикРасширеннаяПодсказка" id="52"/>
 										</InputField>
 										<InputField name="БанковскийСчетПеревозчика" id="53">
-											<DataPath>Объект.БанковскийСчетПеревозчика</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Счет перевозчика</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Carrier account</v8:content>
 												</v8:item>
 											</Title>
 											<TitleLocation>Left</TitleLocation>
@@ -868,7 +1051,7 @@
 											<ChoiceParameterLinks>
 												<xr:Link>
 													<xr:Name>Отбор.Владелец</xr:Name>
-													<xr:DataPath xsi:type="xs:string">1</xr:DataPath>
+													<xr:DataPath xsi:type="xs:string">1/0:0798d956-eb49-4301-bdfc-228d1cae2aa5</xr:DataPath>
 													<xr:ValueChange>Clear</xr:ValueChange>
 												</xr:Link>
 											</ChoiceParameterLinks>
@@ -876,7 +1059,6 @@
 											<ExtendedTooltip name="БанковскийСчетПеревозчикаРасширеннаяПодсказка" id="55"/>
 										</InputField>
 										<InputField name="АдресПогрузки" id="77">
-											<DataPath>Объект.АдресПогрузки</DataPath>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>30</MaxWidth>
 											<DropListButton>true</DropListButton>
@@ -885,7 +1067,6 @@
 											<ExtendedTooltip name="АдресПогрузкиРасширеннаяПодсказка" id="79"/>
 										</InputField>
 										<InputField name="АдресДоставки" id="247">
-											<DataPath>Объект.АдресДоставки</DataPath>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>30</MaxWidth>
 											<DropListButton>true</DropListButton>
@@ -894,7 +1075,6 @@
 											<ExtendedTooltip name="АдресДоставкиРасширеннаяПодсказка" id="249"/>
 										</InputField>
 										<InputField name="ЗаказчикПеревозки" id="300">
-											<DataPath>Объект.ЗаказчикПеревозки</DataPath>
 											<TitleLocation>Left</TitleLocation>
 											<TitleHeight>2</TitleHeight>
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -903,11 +1083,14 @@
 											<ExtendedTooltip name="ЗаказчикПеревозкиРасширеннаяПодсказка" id="302"/>
 										</InputField>
 										<InputField name="БанковскийСчетЗаказчикаПеревозки" id="372">
-											<DataPath>Объект.БанковскийСчетЗаказчикаПеревозки</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Счет заказчика</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Customer account</v8:content>
 												</v8:item>
 											</Title>
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -924,6 +1107,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Водитель:</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Driver:</v8:content>
+										</v8:item>
 									</Title>
 									<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 									<Group>Vertical</Group>
@@ -931,11 +1118,14 @@
 									<ExtendedTooltip name="ГруппаВодительРасширеннаяПодсказка" id="202"/>
 									<ChildItems>
 										<InputField name="Водитель" id="188">
-											<DataPath>Объект.Водитель</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>ФИО</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Full name</v8:content>
 												</v8:item>
 											</Title>
 											<Width>28</Width>
@@ -950,6 +1140,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Водительское удостоверение</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Driver license</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
@@ -957,11 +1151,14 @@
 											<ExtendedTooltip name="ГруппаВодительскоеУдостоверениеРасширеннаяПодсказка" id="204"/>
 											<ChildItems>
 												<InputField name="УдостоверениеСерия" id="191">
-													<DataPath>Объект.УдостоверениеСерия</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Серия удостоверения</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Certificate series</v8:content>
 														</v8:item>
 													</Title>
 													<TitleLocation>Left</TitleLocation>
@@ -973,11 +1170,14 @@
 													<ExtendedTooltip name="УдостоверениеСерияРасширеннаяПодсказка" id="193"/>
 												</InputField>
 												<InputField name="УдостоверениеНомер" id="194">
-													<DataPath>Объект.УдостоверениеНомер</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content> номер</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content> number</v8:content>
 														</v8:item>
 													</Title>
 													<AutoMaxWidth>false</AutoMaxWidth>
@@ -998,6 +1198,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Транспортный раздел право</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Transport section right</v8:content>
+								</v8:item>
 							</Title>
 							<TitleTextColor>style:ПоясняющийТекст</TitleTextColor>
 							<Group>Vertical</Group>
@@ -1012,6 +1216,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Транспортное средство:</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Vehicle:</v8:content>
+										</v8:item>
 									</Title>
 									<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 									<Group>Vertical</Group>
@@ -1019,7 +1227,6 @@
 									<ExtendedTooltip name="ГруппаТранспортноеСредствоРасширеннаяПодсказка" id="212"/>
 									<ChildItems>
 										<InputField name="АвтомобильГосударственныйНомер" id="164">
-											<DataPath>Объект.АвтомобильГосударственныйНомер</DataPath>
 											<TitleLocation>Left</TitleLocation>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>30</MaxWidth>
@@ -1027,11 +1234,14 @@
 											<ExtendedTooltip name="АвтомобильГосударственныйНомерРасширеннаяПодсказка" id="166"/>
 										</InputField>
 										<InputField name="АвтомобильМарка" id="161">
-											<DataPath>Объект.АвтомобильМарка</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Марка</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Brand</v8:content>
 												</v8:item>
 											</Title>
 											<TitleLocation>Left</TitleLocation>
@@ -1042,7 +1252,6 @@
 											<ExtendedTooltip name="АвтомобильМаркаРасширеннаяПодсказка" id="163"/>
 										</InputField>
 										<InputField name="Прицеп" id="179">
-											<DataPath>Объект.Прицеп</DataPath>
 											<Width>25</Width>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>30</MaxWidth>
@@ -1050,7 +1259,6 @@
 											<ExtendedTooltip name="ПрицепРасширеннаяПодсказка" id="181"/>
 										</InputField>
 										<InputField name="ГосударственныйНомерПрицепа" id="182">
-											<DataPath>Объект.ГосударственныйНомерПрицепа</DataPath>
 											<TitleLocation>Left</TitleLocation>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>30</MaxWidth>
@@ -1058,7 +1266,6 @@
 											<ExtendedTooltip name="ГосударственныйНомерПрицепаРасширеннаяПодсказка" id="184"/>
 										</InputField>
 										<InputField name="ВидПеревозки" id="185">
-											<DataPath>Объект.ВидПеревозки</DataPath>
 											<Width>25</Width>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>30</MaxWidth>
@@ -1066,11 +1273,14 @@
 											<ExtendedTooltip name="ВидПеревозкиРасширеннаяПодсказка" id="187"/>
 										</InputField>
 										<InputField name="АвтомобильТип" id="273">
-											<DataPath>Объект.АвтомобильТип</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Тип</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Type</v8:content>
 												</v8:item>
 											</Title>
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -1084,6 +1294,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Вместимость</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Capacity</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
@@ -1091,11 +1305,14 @@
 											<ExtendedTooltip name="ГруппаВместимостьРасширеннаяПодсказка" id="283"/>
 											<ChildItems>
 												<InputField name="АвтомобильВместимостьВКубическихМетрах" id="279">
-													<DataPath>Объект.АвтомобильВместимостьВКубическихМетрах</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Вместимость</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Capacity</v8:content>
 														</v8:item>
 													</Title>
 													<ContextMenu name="АвтомобильВместимостьВКубическихМетрахКонтекстноеМеню" id="280"/>
@@ -1107,6 +1324,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>куб. м</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>cubic meter</v8:content>
 														</v8:item>
 													</Title>
 													<ContextMenu name="ДекорацияМетрыКубическиеКонтекстноеМеню" id="287"/>
@@ -1120,6 +1341,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Грузоподъемность</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Carrying capacity</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
@@ -1127,11 +1352,14 @@
 											<ExtendedTooltip name="ГруппаГрузоподъемностьРасширеннаяПодсказка" id="285"/>
 											<ChildItems>
 												<InputField name="АвтомобильГрузоподъемностьВТоннах" id="276">
-													<DataPath>Объект.АвтомобильГрузоподъемностьВТоннах</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Грузоподъемность</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Carrying capacity</v8:content>
 														</v8:item>
 													</Title>
 													<ContextMenu name="АвтомобильГрузоподъемностьВТоннахКонтекстноеМеню" id="277"/>
@@ -1143,6 +1371,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>т</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>t</v8:content>
 														</v8:item>
 													</Title>
 													<ContextMenu name="ДекорацияТонныКонтекстноеМеню" id="290"/>
@@ -1158,6 +1390,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Лицензионная карточка:</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>License card:</v8:content>
+										</v8:item>
 									</Title>
 									<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 									<Group>Vertical</Group>
@@ -1170,6 +1406,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Серия номер лицензионной карточки</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>License card series number</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
@@ -1177,11 +1417,14 @@
 											<ExtendedTooltip name="ГруппаСерияНомерЛицензионнойКарточкиРасширеннаяПодсказка" id="198"/>
 											<ChildItems>
 												<InputField name="ЛицензионнаяКарточкаСерия" id="176">
-													<DataPath>Объект.ЛицензионнаяКарточкаСерия</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Серия</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Series</v8:content>
 														</v8:item>
 													</Title>
 													<TitleLocation>Left</TitleLocation>
@@ -1192,11 +1435,14 @@
 													<ExtendedTooltip name="ЛицензионнаяКарточкаСерияРасширеннаяПодсказка" id="178"/>
 												</InputField>
 												<InputField name="ЛицензионнаяКарточкаНомер" id="170">
-													<DataPath>Объект.ЛицензионнаяКарточкаНомер</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content> номер</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content> number</v8:content>
 														</v8:item>
 													</Title>
 													<AutoMaxWidth>false</AutoMaxWidth>
@@ -1208,11 +1454,14 @@
 											</ChildItems>
 										</UsualGroup>
 										<InputField name="ЛицензионнаяКарточкаВид" id="167">
-											<DataPath>Объект.ЛицензионнаяКарточкаВид</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Вид</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Kind</v8:content>
 												</v8:item>
 											</Title>
 											<TitleLocation>Left</TitleLocation>
@@ -1229,6 +1478,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Стандартная</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Standard</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:string">Стандартная</Value>
 													</xr:Value>
@@ -1242,6 +1495,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Ограниченная</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Limited</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xs:string">Ограниченная</Value>
 													</xr:Value>
@@ -1251,11 +1508,14 @@
 											<ExtendedTooltip name="ЛицензионнаяКарточкаВидРасширеннаяПодсказка" id="169"/>
 										</InputField>
 										<InputField name="ЛицензионнаяКарточкаРегистрационныйНомер" id="173">
-											<DataPath>Объект.ЛицензионнаяКарточкаРегистрационныйНомер</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Рег. номер</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Reg. number</v8:content>
 												</v8:item>
 											</Title>
 											<TitleLocation>Left</TitleLocation>
@@ -1273,118 +1533,27 @@
 			</ChildItems>
 		</Pages>
 	</ChildItems>
-	<Attributes>
-		<Attribute name="Объект" id="1000001">
-			<Type>
-				<v8:Type>cfg:DocumentObject.ТранспортнаяНакладная</v8:Type>
-			</Type>
-			<MainAttribute>true</MainAttribute>
-			<SavedData>true</SavedData>
-			<UseAlways>
-				<Field>Объект.RegisterRecords</Field>
-			</UseAlways>
-			<Columns>
-				<AdditionalColumns table="Объект.ДокументыОснования"/>
-			</Columns>
-		</Attribute>
-		<Attribute name="ПараметрыПодключаемыхКоманд" id="1000002">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Параметры подключаемых команд</v8:content>
-				</v8:item>
-			</Title>
-			<Type/>
-		</Attribute>
-	</Attributes>
-	<Commands>
-		<Command name="ПровестиИЗакрыть" id="1000001">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Провести и закрыть</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Провести документ и закрыть форму</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Shortcut>Ctrl+Enter</Shortcut>
-			<ModifiesSavedData>true</ModifiesSavedData>
-			<CurrentRowUse>DontUse</CurrentRowUse>
-		</Command>
-		<Command name="ЗаписатьДокумент" id="1000002">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Записать</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Записать документ</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Shortcut>Ctrl+S</Shortcut>
-			<Picture>
-				<xr:Ref>StdPicture.Write</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
-			</Picture>
-			<ModifiesSavedData>true</ModifiesSavedData>
-			<CurrentRowUse>DontUse</CurrentRowUse>
-		</Command>
-		<Command name="ПровестиДокумент" id="1000003">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Провести</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Провести документ</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Picture>
-				<xr:Ref>StdPicture.Post</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
-			</Picture>
-			<ModifiesSavedData>true</ModifiesSavedData>
-			<CurrentRowUse>DontUse</CurrentRowUse>
-		</Command>
-	</Commands>
+	<Attributes/>
 	<BaseForm version="2.10">
-		<CommandSet>
-			<ExcludedCommand>Post</ExcludedCommand>
-			<ExcludedCommand>PostAndClose</ExcludedCommand>
-			<ExcludedCommand>Write</ExcludedCommand>
-		</CommandSet>
-		<AutoTime>CurrentOrLast</AutoTime>
-		<UsePostingMode>Auto</UsePostingMode>
-		<RepostOnWrite>true</RepostOnWrite>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<ChildItems>
 				<Button name="ФормаПровестиИЗакрыть" id="346">
 					<Type>CommandBarButton</Type>
 					<Representation>Text</Representation>
 					<DefaultButton>true</DefaultButton>
-					<CommandName>Form.Command.ПровестиИЗакрыть</CommandName>
+					<CommandName>1:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 					<ExtendedTooltip name="ФормаПровестиИЗакрытьРасширеннаяПодсказка" id="347"/>
 				</Button>
 				<Button name="ФормаЗаписать" id="348">
 					<Type>CommandBarButton</Type>
 					<Representation>Picture</Representation>
-					<CommandName>Form.Command.ЗаписатьДокумент</CommandName>
+					<CommandName>2:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 					<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="349"/>
 				</Button>
 				<Button name="ФормаПровести" id="350">
 					<Type>CommandBarButton</Type>
 					<Representation>Picture</Representation>
-					<CommandName>Form.Command.ПровестиДокумент</CommandName>
+					<CommandName>3:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 					<ExtendedTooltip name="ФормаПровестиРасширеннаяПодсказка" id="351"/>
 				</Button>
 				<Popup name="ПодменюСоздатьНаОсновании" id="352">
@@ -1393,10 +1562,14 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Создать на основании</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Create on the basis</v8:content>
+						</v8:item>
 					</Title>
 					<Picture>
 						<xr:Ref>CommonPicture.ЗаполнитьПоШаблону</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
 					</Picture>
 					<Representation>Picture</Representation>
 					<ExtendedTooltip name="ПодменюСоздатьНаОснованииРасширеннаяПодсказка" id="353"/>
@@ -1407,6 +1580,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Создать на основании (Важное)</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Create on the basis (Important)</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииВажноеРасширеннаяПодсказка" id="389"/>
 						</ButtonGroup>
@@ -1416,6 +1593,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Создать на основании (Обычное)</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Create on the basis (Standard)</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииОбычноеРасширеннаяПодсказка" id="391"/>
 						</ButtonGroup>
@@ -1424,6 +1605,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Создать на основании (См. также)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Create on the basis (See also)</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииСмТакжеРасширеннаяПодсказка" id="393"/>
@@ -1436,6 +1621,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Форма глобальные команды</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Global commands form</v8:content>
+						</v8:item>
 					</Title>
 					<CommandSource>FormCommandPanelGlobalCommands</CommandSource>
 					<ExtendedTooltip name="ФормаГлобальныеКомандыРасширеннаяПодсказка" id="355"/>
@@ -1446,10 +1635,14 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отчеты</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Reports</v8:content>
+						</v8:item>
 					</Title>
 					<Picture>
 						<xr:Ref>CommonPicture.Отчеты</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
 					</Picture>
 					<Representation>PictureAndText</Representation>
 					<ExtendedTooltip name="ПодменюОтчетыРасширеннаяПодсказка" id="357"/>
@@ -1460,6 +1653,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подменю отчеты важное</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Important reports submenu</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюОтчетыВажноеРасширеннаяПодсказка" id="359"/>
 						</ButtonGroup>
@@ -1469,11 +1666,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подменю отчеты обычное</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Submenu reports standard</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подменю отчеты важное</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Important reports submenu</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ExtendedTooltip name="ПодменюОтчетыОбычноеРасширеннаяПодсказка" id="361"/>
@@ -1484,11 +1689,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подменю отчеты см также</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Submenu reports see also</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подменю отчеты важное</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Important reports submenu</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ExtendedTooltip name="ПодменюОтчетыСмТакжеРасширеннаяПодсказка" id="363"/>
@@ -1501,11 +1714,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Печать</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Print </v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Команды печати</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Print commands</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Picture>
@@ -1523,6 +1744,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Страницы</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Pages</v8:content>
+					</v8:item>
 				</Title>
 				<VerticalStretch>true</VerticalStretch>
 				<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="234"/>
@@ -1533,11 +1758,14 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Основное</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Main</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="10"/>
 						<ChildItems>
 							<LabelField name="ЗаданиеНаПеревозку" id="308">
-								<DataPath>Объект.ЗаданиеНаПеревозку</DataPath>
 								<Hiperlink>true</Hiperlink>
 								<ContextMenu name="ЗаданиеНаПеревозкуКонтекстноеМеню" id="309"/>
 								<ExtendedTooltip name="ЗаданиеНаПеревозкуРасширеннаяПодсказка" id="310"/>
@@ -1547,6 +1775,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Колонки</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Columns</v8:content>
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
@@ -1560,6 +1792,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Информация о покупателе:</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Customer information:</v8:content>
+											</v8:item>
 										</Title>
 										<Group>Vertical</Group>
 										<Representation>None</Representation>
@@ -1571,6 +1807,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Номер дата задание на перевозку</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Number date transportation job</v8:content>
 													</v8:item>
 												</Title>
 												<Group>Vertical</Group>
@@ -1584,6 +1824,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Номер дата</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Number date</v8:content>
+															</v8:item>
 														</Title>
 														<Group>Horizontal</Group>
 														<Representation>None</Representation>
@@ -1591,7 +1835,7 @@
 														<ExtendedTooltip name="ГруппаНомерДатаРасширеннаяПодсказка" id="8"/>
 														<ChildItems>
 															<InputField name="Номер" id="1">
-																<DataPath>Объект.Number</DataPath>
+																<DataPath>1/-2</DataPath>
 																<EditMode>EnterOnInput</EditMode>
 																<Width>10</Width>
 																<HorizontalStretch>false</HorizontalStretch>
@@ -1599,11 +1843,15 @@
 																<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
 															</InputField>
 															<InputField name="Дата" id="4">
-																<DataPath>Объект.Date</DataPath>
+																<DataPath>1/-3</DataPath>
 																<Title>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>от</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>as of</v8:content>
 																	</v8:item>
 																</Title>
 																<EditMode>EnterOnInput</EditMode>
@@ -1616,14 +1864,12 @@
 												</ChildItems>
 											</UsualGroup>
 											<InputField name="Грузополучатель" id="28">
-												<DataPath>Объект.Грузополучатель</DataPath>
 												<AutoMaxWidth>false</AutoMaxWidth>
 												<MaxWidth>28</MaxWidth>
 												<ContextMenu name="ГрузополучательКонтекстноеМеню" id="29"/>
 												<ExtendedTooltip name="ГрузополучательРасширеннаяПодсказка" id="30"/>
 											</InputField>
 											<InputField name="Грузоотправитель" id="31">
-												<DataPath>Объект.Грузоотправитель</DataPath>
 												<AutoMaxWidth>false</AutoMaxWidth>
 												<MaxWidth>28</MaxWidth>
 												<ContextMenu name="ГрузоотправительКонтекстноеМеню" id="32"/>
@@ -1638,6 +1884,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>[todo Декорация для отступа]</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>[todo Декорация для отступа]</v8:content>
+											</v8:item>
 										</ToolTip>
 										<ContextMenu name="ДекорацияОтступ1КонтекстноеМеню" id="118"/>
 										<ExtendedTooltip name="ДекорацияОтступ1РасширеннаяПодсказка" id="119"/>
@@ -1648,6 +1898,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Информация о продавце:</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Seller information:</v8:content>
+											</v8:item>
 										</Title>
 										<Group>Vertical</Group>
 										<Representation>None</Representation>
@@ -1655,25 +1909,26 @@
 										<ExtendedTooltip name="ГруппаПравоРасширеннаяПодсказка" id="14"/>
 										<ChildItems>
 											<InputField name="Организация" id="141">
-												<DataPath>Объект.Организация</DataPath>
 												<AutoMaxWidth>false</AutoMaxWidth>
 												<MaxWidth>28</MaxWidth>
 												<ContextMenu name="ОрганизацияКонтекстноеМеню" id="142"/>
 												<ExtendedTooltip name="ОрганизацияРасширеннаяПодсказка" id="143"/>
 											</InputField>
 											<InputField name="Плательщик" id="364">
-												<DataPath>Объект.Плательщик</DataPath>
 												<AutoMaxWidth>false</AutoMaxWidth>
 												<MaxWidth>28</MaxWidth>
 												<ContextMenu name="ПлательщикКонтекстноеМеню" id="365"/>
 												<ExtendedTooltip name="ПлательщикРасширеннаяПодсказка" id="366"/>
 											</InputField>
 											<InputField name="БанковскийСчетПлательщика" id="383">
-												<DataPath>Объект.БанковскийСчетПлательщика</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Счет плательщика</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Payer account</v8:content>
 													</v8:item>
 												</Title>
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -1692,6 +1947,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Комментарий</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Comment</v8:content>
+									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
 								<United>false</United>
@@ -1699,7 +1958,6 @@
 								<ExtendedTooltip name="ГруппаКомментарийРасширеннаяПодсказка" id="379"/>
 								<ChildItems>
 									<InputField name="Комментарий" id="375">
-										<DataPath>Объект.Комментарий</DataPath>
 										<TitleLocation>Left</TitleLocation>
 										<AutoMaxWidth>false</AutoMaxWidth>
 										<MaxWidth>72</MaxWidth>
@@ -1719,6 +1977,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Товарный раздел</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Goods section</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ГруппаТоварныйРазделРасширеннаяПодсказка" id="134"/>
 						<ChildItems>
@@ -1728,6 +1990,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Вывод данных о товарном составе</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Display goods content data</v8:content>
+									</v8:item>
 								</Title>
 								<Group>Vertical</Group>
 								<Representation>None</Representation>
@@ -1736,11 +2002,14 @@
 								<ExtendedTooltip name="ГруппаВыводДанныхОТоварномСоставеРасширеннаяПодсказка" id="387"/>
 								<ChildItems>
 									<RadioButtonField name="ВыводДанныхОТоварномСоставе" id="153">
-										<DataPath>Объект.ВыводДанныхОТоварномСоставе</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Выводить в товарном разделе</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Display in goods section</v8:content>
 											</v8:item>
 										</Title>
 										<TitleLocation>Left</TitleLocation>
@@ -1755,6 +2024,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>номера накладных</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>invoice numbers</v8:content>
+														</v8:item>
 													</Presentation>
 													<Value xsi:type="xr:DesignTimeRef">Enum.ВариантыВыводаДанныхОТоварномСоставе.EnumValue.НомераНакладных</Value>
 												</xr:Value>
@@ -1767,6 +2040,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>товарный состав</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>goods content</v8:content>
 														</v8:item>
 													</Presentation>
 													<Value xsi:type="xr:DesignTimeRef">Enum.ВариантыВыводаДанныхОТоварномСоставе.EnumValue.ТоварныйСостав</Value>
@@ -1784,6 +2061,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Документы-основания:</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Base documents:</v8:content>
+									</v8:item>
 								</Title>
 								<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 								<HorizontalStretch>true</HorizontalStretch>
@@ -1800,11 +2081,14 @@
 										<EnableStartDrag>true</EnableStartDrag>
 										<EnableDrag>true</EnableDrag>
 										<FileDragMode>AsFile</FileDragMode>
-										<DataPath>Объект.ДокументыОснования</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Документы-основания</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Base documents</v8:content>
 											</v8:item>
 										</Title>
 										<RowFilter xsi:nil="true"/>
@@ -1814,22 +2098,22 @@
 											<ChildItems>
 												<Button name="ДокументыОснованияДобавить" id="292">
 													<Type>CommandBarButton</Type>
-													<CommandName>Form.Item.ДокументыОснования.StandardCommand.Add</CommandName>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 													<ExtendedTooltip name="ДокументыОснованияДобавитьРасширеннаяПодсказка" id="293"/>
 												</Button>
 												<Button name="ДокументыОснованияУдалить" id="294">
 													<Type>CommandBarButton</Type>
-													<CommandName>Form.Item.ДокументыОснования.StandardCommand.Delete</CommandName>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 													<ExtendedTooltip name="ДокументыОснованияУдалитьРасширеннаяПодсказка" id="295"/>
 												</Button>
 												<Button name="ДокументыОснованияНайти" id="296">
 													<Type>CommandBarButton</Type>
-													<CommandName>Form.Item.ДокументыОснования.StandardCommand.Find</CommandName>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 													<ExtendedTooltip name="ДокументыОснованияНайтиРасширеннаяПодсказка" id="297"/>
 												</Button>
 												<Button name="ДокументыОснованияОтменитьПоиск" id="298">
 													<Type>CommandBarButton</Type>
-													<CommandName>Form.Item.ДокументыОснования.StandardCommand.CancelSearch</CommandName>
+													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 													<ExtendedTooltip name="ДокументыОснованияОтменитьПоискРасширеннаяПодсказка" id="299"/>
 												</Button>
 											</ChildItems>
@@ -1861,11 +2145,14 @@
 										</SearchControlAddition>
 										<ChildItems>
 											<InputField name="ДокументыОснованияДокументОснование" id="87">
-												<DataPath>1000001/0:5c6f0078-cab9-499d-9564-133e2748f5e8/0:a3e15007-29d4-4b97-8b76-9469624a4485</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Наименование</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Name</v8:content>
 													</v8:item>
 												</Title>
 												<EditMode>EnterOnInput</EditMode>
@@ -1893,6 +2180,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Товарный раздел колонки</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Goods section columns</v8:content>
+									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
 								<Representation>None</Representation>
@@ -1904,6 +2195,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Товарный раздел лево</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Goods section left</v8:content>
 											</v8:item>
 										</Title>
 										<Group>Vertical</Group>
@@ -1919,6 +2214,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Подписи:</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Signatures:</v8:content>
+													</v8:item>
 												</Title>
 												<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 												<Group>Vertical</Group>
@@ -1926,14 +2225,12 @@
 												<ExtendedTooltip name="ГруппаПодписиРасширеннаяПодсказка" id="218"/>
 												<ChildItems>
 													<InputField name="Руководитель" id="65">
-														<DataPath>Объект.Руководитель</DataPath>
 														<AutoMaxWidth>false</AutoMaxWidth>
 														<MaxWidth>28</MaxWidth>
 														<ContextMenu name="РуководительКонтекстноеМеню" id="66"/>
 														<ExtendedTooltip name="РуководительРасширеннаяПодсказка" id="67"/>
 													</InputField>
 													<InputField name="ГлавныйБухгалтер" id="68">
-														<DataPath>Объект.ГлавныйБухгалтер</DataPath>
 														<TitleHeight>1</TitleHeight>
 														<AutoMaxWidth>false</AutoMaxWidth>
 														<MaxWidth>28</MaxWidth>
@@ -1941,7 +2238,6 @@
 														<ExtendedTooltip name="ГлавныйБухгалтерРасширеннаяПодсказка" id="70"/>
 													</InputField>
 													<InputField name="ГрузОтпустил" id="71">
-														<DataPath>Объект.Отпустил</DataPath>
 														<AutoMaxWidth>false</AutoMaxWidth>
 														<MaxWidth>28</MaxWidth>
 														<DropListButton>false</DropListButton>
@@ -1951,12 +2247,16 @@
 														<ExtendedTooltip name="ГрузОтпустилРасширеннаяПодсказка" id="73"/>
 													</InputField>
 													<InputField name="ГрузОтпустилДолжность" id="74">
-														<DataPath>Объект.ОтпустилДолжность</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Груз отпустил
 (должность)</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Cargo released by
+(position)</v8:content>
 															</v8:item>
 														</Title>
 														<TitleLocation>Left</TitleLocation>
@@ -1975,6 +2275,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Товарный раздел право</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Goods section right</v8:content>
+											</v8:item>
 										</Title>
 										<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 										<Group>Vertical</Group>
@@ -1988,6 +2292,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Масса груза:</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Cargo weight:</v8:content>
+													</v8:item>
 												</Title>
 												<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 												<Group>Vertical</Group>
@@ -2000,6 +2308,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Масса брутто</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Gross weight</v8:content>
+															</v8:item>
 														</Title>
 														<Group>Horizontal</Group>
 														<Representation>None</Representation>
@@ -2007,11 +2319,14 @@
 														<ExtendedTooltip name="ГруппаМассаБруттоРасширеннаяПодсказка" id="228"/>
 														<ChildItems>
 															<InputField name="МассаБрутто" id="147">
-																<DataPath>Объект.МассаБрутто</DataPath>
 																<Title>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Масса (брутто)</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Weight (gross)</v8:content>
 																	</v8:item>
 																</Title>
 																<AutoMaxWidth>false</AutoMaxWidth>
@@ -2026,6 +2341,10 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>кг</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>kg</v8:content>
+																	</v8:item>
 																</Title>
 																<ContextMenu name="ДекорацияКилограммыБруттоКонтекстноеМеню" id="222"/>
 																<ExtendedTooltip name="ДекорацияКилограммыБруттоРасширеннаяПодсказка" id="223"/>
@@ -2038,6 +2357,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Масса нетто</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Net weight</v8:content>
+															</v8:item>
 														</Title>
 														<Group>Horizontal</Group>
 														<Representation>None</Representation>
@@ -2045,11 +2368,14 @@
 														<ExtendedTooltip name="ГруппаМассаНеттоРасширеннаяПодсказка" id="230"/>
 														<ChildItems>
 															<InputField name="МассаНетто" id="150">
-																<DataPath>Объект.МассаНетто</DataPath>
 																<Title>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Масса (нетто)</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Weight (net)</v8:content>
 																	</v8:item>
 																</Title>
 																<AutoMaxWidth>false</AutoMaxWidth>
@@ -2063,6 +2389,10 @@
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>кг</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>kg</v8:content>
 																	</v8:item>
 																</Title>
 																<ContextMenu name="ДекорацияКилограммыНеттоКонтекстноеМеню" id="225"/>
@@ -2078,6 +2408,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Доверенность:</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Letter of authority:</v8:content>
+													</v8:item>
 												</Title>
 												<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 												<Group>Vertical</Group>
@@ -2090,6 +2424,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Доверенность номер дата</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Letter of authority number date</v8:content>
+															</v8:item>
 														</Title>
 														<Group>Horizontal</Group>
 														<Representation>None</Representation>
@@ -2097,11 +2435,14 @@
 														<ExtendedTooltip name="ГруппаДоверенностьНомерДатаРасширеннаяПодсказка" id="114"/>
 														<ChildItems>
 															<InputField name="ДоверенностьНомер" id="101">
-																<DataPath>Объект.ДоверенностьНомер</DataPath>
 																<Title>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Номер доверенности</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Letter of authority number</v8:content>
 																	</v8:item>
 																</Title>
 																<TitleLocation>Left</TitleLocation>
@@ -2111,11 +2452,14 @@
 																<ExtendedTooltip name="ДоверенностьНомерРасширеннаяПодсказка" id="103"/>
 															</InputField>
 															<InputField name="ДоверенностьДата" id="104">
-																<DataPath>Объект.ДоверенностьДата</DataPath>
 																<Title>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>от</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>as of</v8:content>
 																	</v8:item>
 																</Title>
 																<AutoMaxWidth>false</AutoMaxWidth>
@@ -2125,11 +2469,14 @@
 														</ChildItems>
 													</UsualGroup>
 													<InputField name="ДоверенностьВыдана" id="107">
-														<DataPath>Объект.ДоверенностьВыдана</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Кем выдана</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Issued by</v8:content>
 															</v8:item>
 														</Title>
 														<AutoMaxWidth>false</AutoMaxWidth>
@@ -2138,11 +2485,14 @@
 														<ExtendedTooltip name="ДоверенностьВыданаРасширеннаяПодсказка" id="109"/>
 													</InputField>
 													<InputField name="ДоверенностьЛицо" id="110">
-														<DataPath>Объект.ДоверенностьЛицо</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Кому выдана</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Issued to</v8:content>
 															</v8:item>
 														</Title>
 														<AutoMaxWidth>false</AutoMaxWidth>
@@ -2164,6 +2514,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Транспортный раздел</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Transport section</v8:content>
+							</v8:item>
 						</Title>
 						<Group>Horizontal</Group>
 						<ExtendedTooltip name="ГруппаТранспортныйРазделРасширеннаяПодсказка" id="35"/>
@@ -2173,6 +2527,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Транспортный раздел:</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Transport section:</v8:content>
 									</v8:item>
 								</Title>
 								<Group>Vertical</Group>
@@ -2187,6 +2545,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Основное:</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Main:</v8:content>
+											</v8:item>
 										</Title>
 										<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 										<Group>Vertical</Group>
@@ -2194,23 +2556,24 @@
 										<ExtendedTooltip name="ГруппаТранспортныйРазделОсновноеРасширеннаяПодсказка" id="214"/>
 										<ChildItems>
 											<InputField name="СрокДоставки" id="56">
-												<DataPath>Объект.СрокДоставки</DataPath>
 												<ContextMenu name="СрокДоставкиКонтекстноеМеню" id="57"/>
 												<ExtendedTooltip name="СрокДоставкиРасширеннаяПодсказка" id="58"/>
 											</InputField>
 											<InputField name="Перевозчик" id="50">
-												<DataPath>Объект.Перевозчик</DataPath>
 												<AutoMaxWidth>false</AutoMaxWidth>
 												<MaxWidth>30</MaxWidth>
 												<ContextMenu name="ПеревозчикКонтекстноеМеню" id="51"/>
 												<ExtendedTooltip name="ПеревозчикРасширеннаяПодсказка" id="52"/>
 											</InputField>
 											<InputField name="БанковскийСчетПеревозчика" id="53">
-												<DataPath>Объект.БанковскийСчетПеревозчика</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Счет перевозчика</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Carrier account</v8:content>
 													</v8:item>
 												</Title>
 												<TitleLocation>Left</TitleLocation>
@@ -2220,7 +2583,7 @@
 												<ChoiceParameterLinks>
 													<xr:Link>
 														<xr:Name>Отбор.Владелец</xr:Name>
-														<xr:DataPath xsi:type="xs:string">1</xr:DataPath>
+														<xr:DataPath xsi:type="xs:string">1/0:0798d956-eb49-4301-bdfc-228d1cae2aa5</xr:DataPath>
 														<xr:ValueChange>Clear</xr:ValueChange>
 													</xr:Link>
 												</ChoiceParameterLinks>
@@ -2228,7 +2591,6 @@
 												<ExtendedTooltip name="БанковскийСчетПеревозчикаРасширеннаяПодсказка" id="55"/>
 											</InputField>
 											<InputField name="АдресПогрузки" id="77">
-												<DataPath>Объект.АдресПогрузки</DataPath>
 												<AutoMaxWidth>false</AutoMaxWidth>
 												<MaxWidth>30</MaxWidth>
 												<DropListButton>true</DropListButton>
@@ -2237,7 +2599,6 @@
 												<ExtendedTooltip name="АдресПогрузкиРасширеннаяПодсказка" id="79"/>
 											</InputField>
 											<InputField name="АдресДоставки" id="247">
-												<DataPath>Объект.АдресДоставки</DataPath>
 												<AutoMaxWidth>false</AutoMaxWidth>
 												<MaxWidth>30</MaxWidth>
 												<DropListButton>true</DropListButton>
@@ -2246,7 +2607,6 @@
 												<ExtendedTooltip name="АдресДоставкиРасширеннаяПодсказка" id="249"/>
 											</InputField>
 											<InputField name="ЗаказчикПеревозки" id="300">
-												<DataPath>Объект.ЗаказчикПеревозки</DataPath>
 												<TitleLocation>Left</TitleLocation>
 												<TitleHeight>2</TitleHeight>
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -2255,11 +2615,14 @@
 												<ExtendedTooltip name="ЗаказчикПеревозкиРасширеннаяПодсказка" id="302"/>
 											</InputField>
 											<InputField name="БанковскийСчетЗаказчикаПеревозки" id="372">
-												<DataPath>Объект.БанковскийСчетЗаказчикаПеревозки</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Счет заказчика</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Customer account</v8:content>
 													</v8:item>
 												</Title>
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -2276,6 +2639,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Водитель:</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Driver:</v8:content>
+											</v8:item>
 										</Title>
 										<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 										<Group>Vertical</Group>
@@ -2283,11 +2650,14 @@
 										<ExtendedTooltip name="ГруппаВодительРасширеннаяПодсказка" id="202"/>
 										<ChildItems>
 											<InputField name="Водитель" id="188">
-												<DataPath>Объект.Водитель</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>ФИО</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Full name</v8:content>
 													</v8:item>
 												</Title>
 												<Width>28</Width>
@@ -2302,6 +2672,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Водительское удостоверение</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Driver license</v8:content>
+													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
@@ -2309,11 +2683,14 @@
 												<ExtendedTooltip name="ГруппаВодительскоеУдостоверениеРасширеннаяПодсказка" id="204"/>
 												<ChildItems>
 													<InputField name="УдостоверениеСерия" id="191">
-														<DataPath>Объект.УдостоверениеСерия</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Серия удостоверения</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Certificate series</v8:content>
 															</v8:item>
 														</Title>
 														<TitleLocation>Left</TitleLocation>
@@ -2325,11 +2702,14 @@
 														<ExtendedTooltip name="УдостоверениеСерияРасширеннаяПодсказка" id="193"/>
 													</InputField>
 													<InputField name="УдостоверениеНомер" id="194">
-														<DataPath>Объект.УдостоверениеНомер</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content> номер</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content> number</v8:content>
 															</v8:item>
 														</Title>
 														<AutoMaxWidth>false</AutoMaxWidth>
@@ -2350,6 +2730,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Транспортный раздел право</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Transport section right</v8:content>
+									</v8:item>
 								</Title>
 								<TitleTextColor>style:ПоясняющийТекст</TitleTextColor>
 								<Group>Vertical</Group>
@@ -2364,6 +2748,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Транспортное средство:</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Vehicle:</v8:content>
+											</v8:item>
 										</Title>
 										<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 										<Group>Vertical</Group>
@@ -2371,7 +2759,6 @@
 										<ExtendedTooltip name="ГруппаТранспортноеСредствоРасширеннаяПодсказка" id="212"/>
 										<ChildItems>
 											<InputField name="АвтомобильГосударственныйНомер" id="164">
-												<DataPath>Объект.АвтомобильГосударственныйНомер</DataPath>
 												<TitleLocation>Left</TitleLocation>
 												<AutoMaxWidth>false</AutoMaxWidth>
 												<MaxWidth>30</MaxWidth>
@@ -2379,11 +2766,14 @@
 												<ExtendedTooltip name="АвтомобильГосударственныйНомерРасширеннаяПодсказка" id="166"/>
 											</InputField>
 											<InputField name="АвтомобильМарка" id="161">
-												<DataPath>Объект.АвтомобильМарка</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Марка</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Brand</v8:content>
 													</v8:item>
 												</Title>
 												<TitleLocation>Left</TitleLocation>
@@ -2394,7 +2784,6 @@
 												<ExtendedTooltip name="АвтомобильМаркаРасширеннаяПодсказка" id="163"/>
 											</InputField>
 											<InputField name="Прицеп" id="179">
-												<DataPath>Объект.Прицеп</DataPath>
 												<Width>25</Width>
 												<AutoMaxWidth>false</AutoMaxWidth>
 												<MaxWidth>30</MaxWidth>
@@ -2402,7 +2791,6 @@
 												<ExtendedTooltip name="ПрицепРасширеннаяПодсказка" id="181"/>
 											</InputField>
 											<InputField name="ГосударственныйНомерПрицепа" id="182">
-												<DataPath>Объект.ГосударственныйНомерПрицепа</DataPath>
 												<TitleLocation>Left</TitleLocation>
 												<AutoMaxWidth>false</AutoMaxWidth>
 												<MaxWidth>30</MaxWidth>
@@ -2410,7 +2798,6 @@
 												<ExtendedTooltip name="ГосударственныйНомерПрицепаРасширеннаяПодсказка" id="184"/>
 											</InputField>
 											<InputField name="ВидПеревозки" id="185">
-												<DataPath>Объект.ВидПеревозки</DataPath>
 												<Width>25</Width>
 												<AutoMaxWidth>false</AutoMaxWidth>
 												<MaxWidth>30</MaxWidth>
@@ -2418,11 +2805,14 @@
 												<ExtendedTooltip name="ВидПеревозкиРасширеннаяПодсказка" id="187"/>
 											</InputField>
 											<InputField name="АвтомобильТип" id="273">
-												<DataPath>Объект.АвтомобильТип</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Тип</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Type</v8:content>
 													</v8:item>
 												</Title>
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -2436,6 +2826,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Вместимость</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Capacity</v8:content>
+													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
@@ -2443,11 +2837,14 @@
 												<ExtendedTooltip name="ГруппаВместимостьРасширеннаяПодсказка" id="283"/>
 												<ChildItems>
 													<InputField name="АвтомобильВместимостьВКубическихМетрах" id="279">
-														<DataPath>Объект.АвтомобильВместимостьВКубическихМетрах</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Вместимость</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Capacity</v8:content>
 															</v8:item>
 														</Title>
 														<ContextMenu name="АвтомобильВместимостьВКубическихМетрахКонтекстноеМеню" id="280"/>
@@ -2459,6 +2856,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>куб. м</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>cubic meter</v8:content>
 															</v8:item>
 														</Title>
 														<ContextMenu name="ДекорацияМетрыКубическиеКонтекстноеМеню" id="287"/>
@@ -2472,6 +2873,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Грузоподъемность</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Carrying capacity</v8:content>
+													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
@@ -2479,11 +2884,14 @@
 												<ExtendedTooltip name="ГруппаГрузоподъемностьРасширеннаяПодсказка" id="285"/>
 												<ChildItems>
 													<InputField name="АвтомобильГрузоподъемностьВТоннах" id="276">
-														<DataPath>Объект.АвтомобильГрузоподъемностьВТоннах</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Грузоподъемность</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Carrying capacity</v8:content>
 															</v8:item>
 														</Title>
 														<ContextMenu name="АвтомобильГрузоподъемностьВТоннахКонтекстноеМеню" id="277"/>
@@ -2495,6 +2903,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>т</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>t</v8:content>
 															</v8:item>
 														</Title>
 														<ContextMenu name="ДекорацияТонныКонтекстноеМеню" id="290"/>
@@ -2510,6 +2922,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Лицензионная карточка:</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>License card:</v8:content>
+											</v8:item>
 										</Title>
 										<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 										<Group>Vertical</Group>
@@ -2522,6 +2938,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Серия номер лицензионной карточки</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>License card series number</v8:content>
+													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
@@ -2529,11 +2949,14 @@
 												<ExtendedTooltip name="ГруппаСерияНомерЛицензионнойКарточкиРасширеннаяПодсказка" id="198"/>
 												<ChildItems>
 													<InputField name="ЛицензионнаяКарточкаСерия" id="176">
-														<DataPath>Объект.ЛицензионнаяКарточкаСерия</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Серия</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Series</v8:content>
 															</v8:item>
 														</Title>
 														<TitleLocation>Left</TitleLocation>
@@ -2544,11 +2967,14 @@
 														<ExtendedTooltip name="ЛицензионнаяКарточкаСерияРасширеннаяПодсказка" id="178"/>
 													</InputField>
 													<InputField name="ЛицензионнаяКарточкаНомер" id="170">
-														<DataPath>Объект.ЛицензионнаяКарточкаНомер</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content> номер</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content> number</v8:content>
 															</v8:item>
 														</Title>
 														<AutoMaxWidth>false</AutoMaxWidth>
@@ -2560,11 +2986,14 @@
 												</ChildItems>
 											</UsualGroup>
 											<InputField name="ЛицензионнаяКарточкаВид" id="167">
-												<DataPath>Объект.ЛицензионнаяКарточкаВид</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Вид</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Kind</v8:content>
 													</v8:item>
 												</Title>
 												<TitleLocation>Left</TitleLocation>
@@ -2581,6 +3010,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Стандартная</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Standard</v8:content>
+																</v8:item>
 															</Presentation>
 															<Value xsi:type="xs:string">Стандартная</Value>
 														</xr:Value>
@@ -2594,6 +3027,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Ограниченная</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Limited</v8:content>
+																</v8:item>
 															</Presentation>
 															<Value xsi:type="xs:string">Ограниченная</Value>
 														</xr:Value>
@@ -2603,11 +3040,14 @@
 												<ExtendedTooltip name="ЛицензионнаяКарточкаВидРасширеннаяПодсказка" id="169"/>
 											</InputField>
 											<InputField name="ЛицензионнаяКарточкаРегистрационныйНомер" id="173">
-												<DataPath>Объект.ЛицензионнаяКарточкаРегистрационныйНомер</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Рег. номер</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Reg. number</v8:content>
 													</v8:item>
 												</Title>
 												<TitleLocation>Left</TitleLocation>
@@ -2625,89 +3065,6 @@
 				</ChildItems>
 			</Pages>
 		</ChildItems>
-		<Attributes>
-			<Attribute name="Объект" id="1000001">
-				<Type>
-					<v8:Type>cfg:DocumentObject.ТранспортнаяНакладная</v8:Type>
-				</Type>
-				<MainAttribute>true</MainAttribute>
-				<SavedData>true</SavedData>
-				<UseAlways>
-					<Field>Объект.RegisterRecords</Field>
-				</UseAlways>
-				<Columns>
-					<AdditionalColumns table="Объект.ДокументыОснования"/>
-				</Columns>
-			</Attribute>
-			<Attribute name="ПараметрыПодключаемыхКоманд" id="1000002">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Параметры подключаемых команд</v8:content>
-					</v8:item>
-				</Title>
-				<Type/>
-			</Attribute>
-		</Attributes>
-		<Commands>
-			<Command name="ПровестиИЗакрыть" id="1000001">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Провести и закрыть</v8:content>
-					</v8:item>
-				</Title>
-				<ToolTip>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Провести документ и закрыть форму</v8:content>
-					</v8:item>
-				</ToolTip>
-				<Shortcut>Ctrl+Enter</Shortcut>
-				<ModifiesSavedData>true</ModifiesSavedData>
-				<CurrentRowUse>DontUse</CurrentRowUse>
-			</Command>
-			<Command name="ЗаписатьДокумент" id="1000002">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Записать</v8:content>
-					</v8:item>
-				</Title>
-				<ToolTip>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Записать документ</v8:content>
-					</v8:item>
-				</ToolTip>
-				<Shortcut>Ctrl+S</Shortcut>
-				<Picture>
-					<xr:Ref>StdPicture.Write</xr:Ref>
-					<xr:LoadTransparent>true</xr:LoadTransparent>
-				</Picture>
-				<ModifiesSavedData>true</ModifiesSavedData>
-				<CurrentRowUse>DontUse</CurrentRowUse>
-			</Command>
-			<Command name="ПровестиДокумент" id="1000003">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Провести</v8:content>
-					</v8:item>
-				</Title>
-				<ToolTip>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Провести документ</v8:content>
-					</v8:item>
-				</ToolTip>
-				<Picture>
-					<xr:Ref>StdPicture.Post</xr:Ref>
-					<xr:LoadTransparent>true</xr:LoadTransparent>
-				</Picture>
-				<ModifiesSavedData>true</ModifiesSavedData>
-				<CurrentRowUse>DontUse</CurrentRowUse>
-			</Command>
-		</Commands>
+		<Attributes/>
 	</BaseForm>
 </Form>

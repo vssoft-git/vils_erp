@@ -750,6 +750,7 @@
 			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<Form>ФормаПодбораРаспоряжений</Form>
+			<Form>ФормаВыбора</Form>
 			<TabularSection uuid="191f7bc5-4ae7-4f00-a4ee-924f06527810">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ЗаданиеНаПеревозку.Маршрут" category="TabularSection">
@@ -884,12 +885,13 @@
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="a00eccb1-3c10-44c0-97d6-46a387d49697">
+					<Attribute uuid="547a5932-5c07-493f-94d7-6189269bc0a2">
 						<InternalInfo/>
 						<Properties>
 							<Name>Распоряжение</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>89a28c00-b22c-4a61-a9e9-df53927e4978</ExtendedConfigurationObject>
 							<Type>
 								<v8:TypeSet>cfg:DefinedType.РаспоряжениеНаДоставку</v8:TypeSet>
 							</Type>

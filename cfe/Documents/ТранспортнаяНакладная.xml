@@ -1,613 +1,129 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Document uuid="2588006c-d478-45a5-8e4b-2c7126fde17c">
+	<Document uuid="1246876c-91f3-4fbc-8d5d-f0da1a018b55">
 		<InternalInfo>
 			<xr:GeneratedType name="DocumentObject.ТранспортнаяНакладная" category="Object">
-				<xr:TypeId>95c693e5-a076-447e-a32b-6fe5329a5c87</xr:TypeId>
-				<xr:ValueId>c814cd4f-9505-4154-9051-bf8d255049b0</xr:ValueId>
+				<xr:TypeId>603c2e4b-6c02-4e38-a946-80603c37f9c4</xr:TypeId>
+				<xr:ValueId>caf7fbce-f7ef-4a93-83da-179291a4a0ec</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentRef.ТранспортнаяНакладная" category="Ref">
-				<xr:TypeId>86c0456a-16ed-41e8-bae3-f1b9eb2c6309</xr:TypeId>
-				<xr:ValueId>24a69be8-0014-43fd-936f-f09b6b8c9ad1</xr:ValueId>
+				<xr:TypeId>2fab3743-80f6-47ff-9fd8-20bbbf5ebf6b</xr:TypeId>
+				<xr:ValueId>1fa5a556-df29-40ad-bc4f-0dbdf007e341</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentSelection.ТранспортнаяНакладная" category="Selection">
-				<xr:TypeId>5de1151b-8173-4b7a-ab9a-693a994fb84d</xr:TypeId>
-				<xr:ValueId>51dc76f1-303d-4069-9125-257963aef7ed</xr:ValueId>
+				<xr:TypeId>3ca066c3-d8e4-4702-86fe-db9e7524bb6d</xr:TypeId>
+				<xr:ValueId>8af023ba-5988-4d66-a3d2-1fc6aaff1464</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentList.ТранспортнаяНакладная" category="List">
-				<xr:TypeId>74c159f7-0b37-4e95-9c44-bebc9c5ba8ce</xr:TypeId>
-				<xr:ValueId>ba23f20f-ced9-4cb2-80b4-5455361985e6</xr:ValueId>
+				<xr:TypeId>d1ec2c00-44ff-411a-a3c0-86ea70783bd5</xr:TypeId>
+				<xr:ValueId>f3f3a8f2-ab6f-438c-bb4d-3e29cd130f49</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DocumentManager.ТранспортнаяНакладная" category="Manager">
-				<xr:TypeId>5852994e-783b-4e9c-adec-91c2fe2f4d25</xr:TypeId>
-				<xr:ValueId>a81d7b13-04d8-4465-b206-31a313df0c1f</xr:ValueId>
+				<xr:TypeId>cc72f791-bd45-43e2-95ec-4651894a2d84</xr:TypeId>
+				<xr:ValueId>ec05ff7d-7f28-4d1c-82b0-a0156f98b1fa</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>ТранспортнаяНакладная</Name>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<NumberType>String</NumberType>
-			<NumberLength>11</NumberLength>
-			<NumberAllowedLength>Variable</NumberAllowedLength>
+			<ExtendedConfigurationObject>22163f5e-b24b-429b-a671-2b293a8a2f80</ExtendedConfigurationObject>
 			<RegisterRecords/>
 		</Properties>
 		<ChildObjects>
-			<Attribute uuid="69b1dd15-4316-4d63-b4f1-cdcfadb1209a">
-				<InternalInfo/>
-				<Properties>
-					<Name>АвтомобильВместимостьВКубическихМетрах</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>6</v8:Digits>
-							<v8:FractionDigits>3</v8:FractionDigits>
-							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-						</v8:NumberQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="2f2af824-7540-4a40-a4e2-d6b4b2c96fd1">
-				<InternalInfo/>
-				<Properties>
-					<Name>ВидПеревозки</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>100</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="8783fcd1-583a-4f9d-b255-899af0cfce63">
-				<InternalInfo/>
-				<Properties>
-					<Name>ЛицензионнаяКарточкаНомер</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>6</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="def4088d-bdf9-4247-b30e-2c47c9d41360">
-				<InternalInfo/>
-				<Properties>
-					<Name>ЛицензионнаяКарточкаВид</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>12</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="84d776fe-74b1-408f-88cd-9f0c3d98ebb2">
-				<InternalInfo/>
-				<Properties>
-					<Name>МассаБрутто</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>15</v8:Digits>
-							<v8:FractionDigits>3</v8:FractionDigits>
-							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-						</v8:NumberQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="1aa62cad-0c2c-41cb-9961-903e9e74cd83">
-				<InternalInfo/>
-				<Properties>
-					<Name>ЗаказчикПеревозки</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="16759c5f-7575-4997-8e2a-a20390ee3cf1">
-				<InternalInfo/>
-				<Properties>
-					<Name>ДоверенностьЛицо</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>100</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="eaa55670-e904-4402-bb52-01565116964e">
-				<InternalInfo/>
-				<Properties>
-					<Name>Комментарий</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>0</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="71b7540d-34f9-4070-9aa1-8bf67b02ba89">
-				<InternalInfo/>
-				<Properties>
-					<Name>АвтомобильГосударственныйНомер</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>15</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="614c6d21-363e-4713-993a-4076af219444">
-				<InternalInfo/>
-				<Properties>
-					<Name>ЗаданиеНаПеревозку</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>cfg:DocumentRef.ЗаданиеНаПеревозку</v8:Type>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="64444129-0056-4868-bd08-a821df470bc3">
-				<InternalInfo/>
-				<Properties>
-					<Name>ГосударственныйНомерПрицепа</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>12</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="4323904a-1d71-4089-b79b-b43727845967">
-				<InternalInfo/>
-				<Properties>
-					<Name>УдостоверениеСерия</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>14</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="64e2eae4-702b-48e4-b3d3-c30782490e84">
-				<InternalInfo/>
-				<Properties>
-					<Name>Грузополучатель</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="0ffd945c-7a16-4f2d-adc3-7f950688aba3">
-				<InternalInfo/>
-				<Properties>
-					<Name>БанковскийСчетПлательщика</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="2854fc57-7c56-40f5-acd6-92f603dfeb2e">
-				<InternalInfo/>
-				<Properties>
-					<Name>Грузоотправитель</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="b2e44139-8e84-49d7-b553-b0c93500b65b">
-				<InternalInfo/>
-				<Properties>
-					<Name>Организация</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="91611e18-5314-4ca2-b780-fdea3c438666">
-				<InternalInfo/>
-				<Properties>
-					<Name>Плательщик</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="9f907bc1-cbc6-42e8-b83a-694611406c0e">
-				<InternalInfo/>
-				<Properties>
-					<Name>ОтпустилДолжность</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>150</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="9ee66478-cd07-4658-8afe-38a2a7694833">
-				<InternalInfo/>
-				<Properties>
-					<Name>ВыводДанныхОТоварномСоставе</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>cfg:EnumRef.ВариантыВыводаДанныхОТоварномСоставе</v8:Type>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="7a30809f-9a54-4c9d-818d-db89f85b3ebf">
-				<InternalInfo/>
-				<Properties>
-					<Name>Перевозчик</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="8644a96b-19fe-48d0-8303-68dc322e0349">
-				<InternalInfo/>
-				<Properties>
-					<Name>Руководитель</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>cfg:CatalogRef.ОтветственныеЛицаОрганизаций</v8:Type>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="38b7f5ca-db4c-4bab-a94e-817026d66195">
-				<InternalInfo/>
-				<Properties>
-					<Name>ГлавныйБухгалтер</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>cfg:CatalogRef.ОтветственныеЛицаОрганизаций</v8:Type>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="13738691-f830-493b-bd2f-9100639d3cab">
-				<InternalInfo/>
-				<Properties>
-					<Name>Отпустил</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="d196f5b3-1f19-4396-a6cd-4c8d411c5f8f">
-				<InternalInfo/>
-				<Properties>
-					<Name>ДоверенностьВыдана</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>100</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="a5e65f63-07fa-402e-8eaf-8ed4d480db1b">
-				<InternalInfo/>
-				<Properties>
-					<Name>МассаНетто</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>15</v8:Digits>
-							<v8:FractionDigits>3</v8:FractionDigits>
-							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-						</v8:NumberQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="440aad17-923b-4629-bebb-53d8775bd996">
-				<InternalInfo/>
-				<Properties>
-					<Name>ДоверенностьНомер</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>15</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="c482a032-b590-49d5-a0ce-194b03746ed2">
-				<InternalInfo/>
-				<Properties>
-					<Name>ДоверенностьДата</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:dateTime</v8:Type>
-						<v8:DateQualifiers>
-							<v8:DateFractions>Date</v8:DateFractions>
-						</v8:DateQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="54e488c7-424b-4481-ad9a-bf7c29940229">
-				<InternalInfo/>
-				<Properties>
-					<Name>СрокДоставки</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:dateTime</v8:Type>
-						<v8:DateQualifiers>
-							<v8:DateFractions>Date</v8:DateFractions>
-						</v8:DateQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="839aa0b4-7913-4888-bd4f-fe96e6e45cfa">
-				<InternalInfo/>
-				<Properties>
-					<Name>БанковскийСчетПеревозчика</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>cfg:CatalogRef.БанковскиеСчетаКонтрагентов</v8:Type>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="62fe2fa4-6984-480f-b79a-b6ecd54f34a4">
-				<InternalInfo/>
-				<Properties>
-					<Name>АдресПогрузки</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>500</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="74a76b14-1a65-4f2f-a481-720e65170bae">
-				<InternalInfo/>
-				<Properties>
-					<Name>АдресДоставки</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>500</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="d3e9172b-5b7e-4655-b746-189326725c50">
-				<InternalInfo/>
-				<Properties>
-					<Name>УдостоверениеНомер</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>14</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="9e1d2e52-ab6c-49a3-a11f-08468c2b1d14">
-				<InternalInfo/>
-				<Properties>
-					<Name>БанковскийСчетЗаказчикаПеревозки</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="1f5d2418-b57d-4b36-b99b-34f1fff8a240">
-				<InternalInfo/>
-				<Properties>
-					<Name>Водитель</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>50</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="167641ae-5021-40a6-b96d-4d0a48ff2883">
-				<InternalInfo/>
-				<Properties>
-					<Name>АвтомобильМарка</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>150</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="63a30f7c-0888-4512-a2b4-dd37a3d26274">
-				<InternalInfo/>
-				<Properties>
-					<Name>Прицеп</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>30</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="3d1f0572-be27-473f-979c-9ee380865506">
-				<InternalInfo/>
-				<Properties>
-					<Name>АвтомобильТип</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>50</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="89431847-6bba-4a91-a65b-55cb5763ea37">
-				<InternalInfo/>
-				<Properties>
-					<Name>АвтомобильГрузоподъемностьВТоннах</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:decimal</v8:Type>
-						<v8:NumberQualifiers>
-							<v8:Digits>6</v8:Digits>
-							<v8:FractionDigits>3</v8:FractionDigits>
-							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-						</v8:NumberQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="d316686e-543c-4e3e-982d-d1385d312de7">
-				<InternalInfo/>
-				<Properties>
-					<Name>ЛицензионнаяКарточкаСерия</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>2</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
-			<Attribute uuid="b454650e-4d72-42a6-a7e8-f59c6eed7be7">
-				<InternalInfo/>
-				<Properties>
-					<Name>ЛицензионнаяКарточкаРегистрационныйНомер</Name>
-					<Comment/>
-					<ObjectBelonging>Adopted</ObjectBelonging>
-					<Type>
-						<v8:Type>xs:string</v8:Type>
-						<v8:StringQualifiers>
-							<v8:Length>12</v8:Length>
-							<v8:AllowedLength>Variable</v8:AllowedLength>
-						</v8:StringQualifiers>
-					</Type>
-				</Properties>
-			</Attribute>
 			<Form>ФормаДокумента</Form>
-			<TabularSection uuid="5c6f0078-cab9-499d-9564-133e2748f5e8">
+			<TabularSection uuid="b3cc1408-243a-45bf-b256-a6e84eb308f7">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ТранспортнаяНакладная.ДокументыОснования" category="TabularSection">
-						<xr:TypeId>2aa9364a-ad30-44a7-a8e7-df6f5c2ecd8d</xr:TypeId>
-						<xr:ValueId>c23ef4f9-e3ff-4851-8494-68da0980a391</xr:ValueId>
+						<xr:TypeId>f43083cb-5f5b-4c05-9e99-24dc119d73ae</xr:TypeId>
+						<xr:ValueId>adceff96-0bf6-4acc-9e31-9e2cc4ab4569</xr:ValueId>
 					</xr:GeneratedType>
 					<xr:GeneratedType name="DocumentTabularSectionRow.ТранспортнаяНакладная.ДокументыОснования" category="TabularSectionRow">
-						<xr:TypeId>964ceee7-5bcc-4a58-a172-8f8687326d5f</xr:TypeId>
-						<xr:ValueId>2b06108f-4912-4c42-9a90-0632455822e1</xr:ValueId>
+						<xr:TypeId>997e07ec-aeac-4d07-8fb0-66d1763f9eda</xr:TypeId>
+						<xr:ValueId>4b6492ad-9b89-473b-bd18-a4f446ce1579</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
 					<Name>ДокументыОснования</Name>
 					<Comment/>
 					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>e11552e4-4181-40c3-8c96-f16694186067</ExtendedConfigurationObject>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="9734befe-b3d7-453f-b8b3-5eb078fff9f7">
+					<Attribute uuid="97a71d5d-1036-4603-8c77-dd5c1c102330">
 						<InternalInfo/>
 						<Properties>
 							<Name>ДокументОснование</Name>
 							<Comment/>
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<ExtendedConfigurationObject>8055ffdc-19da-4902-8a7d-2ff437ce5d54</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="ad52420c-444c-47fe-b7c9-3651c70751a8">
+						<Properties>
+							<Name>ВИЛС_ДокументОснование</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Документ основание</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment>(ВИЛС)</Comment>
+							<Type>
+								<v8:Type>cfg:DocumentRef.ПередачаСырьяПереработчику</v8:Type>
+								<v8:Type>cfg:DocumentRef.ОтгрузкаТоваровСХранения</v8:Type>
+								<v8:Type>cfg:DocumentRef.ПередачаТоваровХранителю</v8:Type>
+								<v8:Type>cfg:DocumentRef.ПеремещениеТоваров</v8:Type>
+								<v8:Type>cfg:DocumentRef.ВозвратСырьяДавальцу</v8:Type>
+								<v8:Type>cfg:DocumentRef.ЗаказПоставщику</v8:Type>
+								<v8:Type>cfg:DocumentRef.РеализацияТоваровУслуг</v8:Type>
+								<v8:Type>cfg:DocumentRef.ПередачаДавальцу</v8:Type>
+								<v8:Type>cfg:DocumentRef.КорректировкаРеализации</v8:Type>
+								<v8:Type>cfg:DocumentRef.ВозвратТоваровПоставщику</v8:Type>
+								<v8:Type>cfg:DocumentRef.ПриобретениеТоваровУслуг</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>ShowError</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
+			<Command uuid="2695b2a1-a2b0-4156-b363-e561e314c0be">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОформитьТранспортныеНакладныеПоЗаданиямНаПеревозку</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>8ae3193a-6a6d-4ebc-99e8-05c4d81e956f</ExtendedConfigurationObject>
+					<Group>FormCommandBarImportant</Group>
+					<CommandParameterType>
+						<v8:Type>cfg:DocumentRef.ЗаданиеНаПеревозку</v8:Type>
+					</CommandParameterType>
+				</Properties>
+			</Command>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>
