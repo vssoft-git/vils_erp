@@ -955,7 +955,7 @@
 		<Metadata name="Document.ДвижениеПродукцииИМатериалов.Template.ПФ_MXL_М11" id="97c961ad-c372-4c46-aa0c-a3839bc04f0e" configVersion="58c24f5766bd5c949a5a091673548da2a484b178"/>
 		<Metadata name="Document.ДвижениеПродукцииИМатериалов.Template.ПФ_MXL_М11.Template" id="97c961ad-c372-4c46-aa0c-a3839bc04f0e.0" configVersion="d962f531c22b935a45fae737d047bb1dfa907148"/>
 		<Metadata name="Document.ДоговорЗаймаСотруднику" id="9caa81e4-4f8d-44d6-bf32-b3e91efc9454" configVersion="9984cf50fb4b46a0eff483128e3ab2c99d39692d"/>
-		<Metadata name="Document.ЗаданиеНаПеревозку" id="82aee940-cafd-4e0e-af12-0c21a99ece5a" configVersion="6046be8842b232bca83eb72f39f9e9524e57258b">
+		<Metadata name="Document.ЗаданиеНаПеревозку" id="82aee940-cafd-4e0e-af12-0c21a99ece5a" configVersion="e03143d500de0b87d2a6e48f058eaad265a32efd">
 			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.ДатаВремяРейсаФактС" id="002172cd-6b95-4c59-8317-5212f73fca7d"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.TabularSection.Маршрут.Attribute.Объем" id="05bce4f5-1df4-4c3f-88e8-96e6fe36a9e5"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.ЗаданиеВыполняет" id="061916a8-1828-4507-b7be-63fbfe33f7df"/>
@@ -963,6 +963,7 @@
 			<Metadata name="Document.ЗаданиеНаПеревозку.TabularSection.Маршрут" id="191f7bc5-4ae7-4f00-a4ee-924f06527810"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.TabularSection.Маршрут.Attribute.Зона" id="2220cb59-0227-4d4c-a95d-8946a665f1c2"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.TabularSection.Маршрут.Attribute.Доставлено" id="2adbed04-091c-48ce-b97e-1dbe283ee674"/>
+			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.ВИЛС_ПогрузкаРазгрузка" id="2ef34fe2-28e7-49ee-83d2-1d3906892f53"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.ДополнительнаяИнформация" id="3d3a6d9d-1d7c-42c7-9f91-2adb33cb41ec"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.Комментарий" id="4aaf5bca-38c0-448e-92a2-45d58c917309"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.ВИЛС_Водитель" id="4b89becd-992d-4042-8d7d-f2739c1a7c6b"/>
@@ -972,12 +973,14 @@
 			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.ДатаВремяРейсаФактПо" id="692d2625-354a-4567-9933-299f11f953ad"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.ДатаВремяРейсаПланС" id="7563d89c-ccb3-480a-bc27-86cc6f136b6e"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.Контрагент" id="78facc24-094d-47b5-a267-d2f03a245b36"/>
+			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.ВИЛС_ТребуемыйТипПодсостава" id="7a7e0b30-0c78-4c26-8180-5ee7d2b1d352"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.ВИЛС_ГлавныйБухгалтер" id="81264546-a2cc-4bef-ae5b-bd7bf53988d4"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.TabularSection.Маршрут.Attribute.ВремяС" id="8f671615-14f6-428f-ace0-5e99bfb1eb3f"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.Водитель" id="914248ba-e0ef-43af-9f03-5ddfaa40a3c0"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.ВИЛС_КурьерЭкспедитор" id="9db67077-601d-43f6-8e20-2afe1204cd49"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.TabularSection.Маршрут.Attribute.Адрес" id="9dff7b47-2996-425f-b39b-e37ae1ecda8e"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.TabularSection.Распоряжения.Attribute.ПолучательОтправитель" id="a1b11b26-e34f-48f9-8638-6a9f049160ef"/>
+			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.ВИЛС_ГабаритыГруза" id="a5c370a5-bc10-4eda-9cfb-837bd8f5f1bc"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.Статус" id="a626d10a-474a-4eb5-9c00-edb39176f657"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.Операция" id="b68f9abd-e2a4-46c0-b644-2e0c5c7f6cf6"/>
 			<Metadata name="Document.ЗаданиеНаПеревозку.Attribute.ВИЛС_ДоговорПеревозчика" id="b9c1596b-35b2-42b8-89bb-6beefbc532e1"/>
@@ -999,7 +1002,7 @@
 		<Metadata name="Document.ЗаданиеНаПеревозку.Form.ФормаВыбора" id="07cc524d-80a8-4b49-bd9a-2a91b76f6910" configVersion="6fa133974d819f0911c29dff394bddcdd207aa42"/>
 		<Metadata name="Document.ЗаданиеНаПеревозку.Form.ФормаВыбора.Form" id="07cc524d-80a8-4b49-bd9a-2a91b76f6910.0" configVersion="e564f43053ae692f5c9be8c1b355a70731d4bd68"/>
 		<Metadata name="Document.ЗаданиеНаПеревозку.Form.ФормаДокумента" id="0d22ae3e-fa10-4b02-a439-6d5f56bbc3e3" configVersion="d7dc1ea2ad5c7b68169e7fa7c7f0dbadc36ed50d"/>
-		<Metadata name="Document.ЗаданиеНаПеревозку.Form.ФормаДокумента.Form" id="0d22ae3e-fa10-4b02-a439-6d5f56bbc3e3.0" configVersion="11286375be495c81aa14c01eea34df33a4eb5272"/>
+		<Metadata name="Document.ЗаданиеНаПеревозку.Form.ФормаДокумента.Form" id="0d22ae3e-fa10-4b02-a439-6d5f56bbc3e3.0" configVersion="bad97b1336b78c3a7ee73474eae2706edd063110"/>
 		<Metadata name="Document.ЗаданиеНаПеревозку.Form.ФормаПодбораРаспоряжений" id="d6486759-dd26-47a8-a309-e90d8de57066" configVersion="8d5bab71ae659eb7102604c21da1c7d2bc5cd0c0"/>
 		<Metadata name="Document.ЗаданиеНаПеревозку.Form.ФормаПодбораРаспоряжений.Form" id="d6486759-dd26-47a8-a309-e90d8de57066.0" configVersion="b894e240327349bcbf7582511b77880ff803dc11"/>
 		<Metadata name="Document.ЗаданиеНаПеревозку.ManagerModule" id="82aee940-cafd-4e0e-af12-0c21a99ece5a.2" configVersion="0fb9ed631b8932310d2478dec4b5c55cedf8bf0e"/>
