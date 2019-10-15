@@ -1251,6 +1251,7 @@
 							</SearchControlAddition>
 							<Events>
 								<Event name="Selection" callType="After">ВИЛС_МаршрутВыборПосле</Event>
+								<Event name="BeforeRowChange" callType="After">ВИЛС_МаршрутПередНачаломИзмененияПосле</Event>
 							</Events>
 							<ChildItems>
 								<CheckBoxField name="МаршрутДоставлено" id="1262">
