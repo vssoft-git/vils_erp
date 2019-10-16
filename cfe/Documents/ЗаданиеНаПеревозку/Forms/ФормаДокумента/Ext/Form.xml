@@ -1251,7 +1251,7 @@
 							</SearchControlAddition>
 							<Events>
 								<Event name="Selection" callType="After">ВИЛС_МаршрутВыборПосле</Event>
-								<Event name="BeforeRowChange" callType="After">ВИЛС_МаршрутПередНачаломИзмененияПосле</Event>
+								<Event name="BeforeRowChange" callType="Before">ВИЛС_МаршрутПередНачаломИзмененияПеред</Event>
 							</Events>
 							<ChildItems>
 								<CheckBoxField name="МаршрутДоставлено" id="1262">
@@ -1345,6 +1345,9 @@
 													<ChoiceButton>true</ChoiceButton>
 													<ContextMenu name="МаршрутАдресКонтекстноеМеню" id="1232"/>
 													<ExtendedTooltip name="МаршрутАдресРасширеннаяПодсказка" id="1367"/>
+													<Events>
+														<Event name="ChoiceProcessing" callType="Before">ВИЛС_МаршрутАдресОбработкаВыбораПеред</Event>
+													</Events>
 												</InputField>
 												<InputField name="МаршрутЗонаДоставки" id="1233">
 													<DataPath>Объект.Маршрут.Зона</DataPath>
