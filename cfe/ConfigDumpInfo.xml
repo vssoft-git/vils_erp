@@ -316,6 +316,8 @@
 		<Metadata name="CommonCommand.СоздатьЗаметкуПоПредмету" id="0f6ab92d-236b-4729-98d7-ab1a5ca4ce6e" configVersion="df107aabd205e8ef63a0b030fe8c5cbdc959b031"/>
 		<Metadata name="CommonForm.ВИЛС_ВсеКадровыеДокументы" id="3e0b39a0-3321-4e52-b32b-1a2c72c15374" configVersion="fd7d78a6c00157145f4436a42bd5b690c0d3b8f1"/>
 		<Metadata name="CommonForm.ВИЛС_ВсеКадровыеДокументы.Form" id="3e0b39a0-3321-4e52-b32b-1a2c72c15374.0" configVersion="7aae5f64e5fdfd9e5fccd0eb5654e7aa69046d77"/>
+		<Metadata name="CommonForm.ВыборДокументаРасчетов" id="a1aef75b-883a-4d5d-a35f-280ba8986f9e" configVersion="bb2db1eeb8ac8efd26d36ba8533afa70dcc532a4"/>
+		<Metadata name="CommonForm.ВыборДокументаРасчетов.Form" id="a1aef75b-883a-4d5d-a35f-280ba8986f9e.0" configVersion="40632a8b4504947c9d7d128c40a0dcc34a122865"/>
 		<Metadata name="CommonForm.ПодборПартийПроизводства" id="b9a4b3a0-3de6-4a57-b1a3-a8e9af1ab2de" configVersion="82bc2c4f03a80e512e86aab210ab2b3f288ec55e"/>
 		<Metadata name="CommonForm.ПодборПартийПроизводства.Form" id="b9a4b3a0-3de6-4a57-b1a3-a8e9af1ab2de.0" configVersion="10d057d035348453e20c7f9aff3bcd838796cf1f"/>
 		<Metadata name="CommonForm.РегламентированнаяОтчетность" id="4ad4cd1d-f957-4c50-a808-0818fae53b24" configVersion="0523d11e796ed21173e6050bc3fd7af3ff88c25e"/>
@@ -562,7 +564,7 @@
 		<Metadata name="CommonPicture.ЭмблемаСервиса1СЭДО" id="51d79fec-ce06-4111-8cd7-7fe7b646048f" configVersion="c9af69255a3b0fb54cc14e46ef6130e667e50982"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов" id="6f8a616a-05f9-4a26-b137-ffe08a2de753" configVersion="c608bfe3b6a128f415f6c474a7d439715aa46ea6"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов.Template" id="6f8a616a-05f9-4a26-b137-ffe08a2de753.0" configVersion="7c10b1f0883f7212773cc7afbcae6f416b288240"/>
-		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="aa556d06a01d71a11340aeee0e8b2415b5d4e595"/>
+		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="1d448554ff1e76f1dffeb29f51dfe42648e47afd"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="2d3d01ef-e545-4150-a6c6-5d7520ca086c" configVersion="ffbf25b1ccd42c35ee4ef2dc7390091df9f1a092"/>
 		<Metadata name="Constant.ИспользоватьБизнесРегионы" id="ab04cdcb-dc48-4252-9bb5-efc0097f0d24" configVersion="2a1a73d70e7a4e41f4f6f6420a92e7ceb98c7ec1"/>
 		<Metadata name="Constant.ИспользоватьГруппыДоступаПартнеров" id="91cb9a25-f41e-4571-801d-6947e8356d60" configVersion="66cb4cdf60f65d71350cb185af2b0703bc96ff12"/>
@@ -1321,11 +1323,12 @@
 		<Metadata name="Document.ПередачаСырьяПереработчику.ObjectModule" id="11f75ecd-3e6d-42ab-9d24-e0e040750333.0" configVersion="6ac89486e7e3e6033347b85957eb1f8ad5d05f4f"/>
 		<Metadata name="Document.ПередачаТоваровХранителю" id="9f9e1d00-1307-421d-abd9-bbcdb0a11791" configVersion="f655ad50b678d059ae74d3552507bea1c12e8b03"/>
 		<Metadata name="Document.ПеремещениеТоваров" id="55eddb74-c0a8-405a-a7b4-e90839108a1c" configVersion="a55297ca54d282b9d150925147c0ac49f2b98436"/>
-		<Metadata name="Document.ПоступлениеБезналичныхДенежныхСредств" id="b55566b2-9ffb-4bd5-bbeb-75f6d8cdefe2" configVersion="f017bf75b65ac2fe9f0614bb63f2e63a792150d4">
+		<Metadata name="Document.ПоступлениеБезналичныхДенежныхСредств" id="b55566b2-9ffb-4bd5-bbeb-75f6d8cdefe2" configVersion="7aa77cae0ed8cb6a835e0bab01d598bbcb7a9a9b">
 			<Metadata name="Document.ПоступлениеБезналичныхДенежныхСредств.Attribute.ТипПлатежногоДокумента" id="e273510c-18f6-4aa7-8779-379adcb28169"/>
 		</Metadata>
 		<Metadata name="Document.ПоступлениеБезналичныхДенежныхСредств.Form.ФормаДокумента" id="8b0407bf-5f56-4c69-b4a5-9c10496ec170" configVersion="1d35dfbdec08f42c6e47ddcb5b121c16ab2b85e4"/>
 		<Metadata name="Document.ПоступлениеБезналичныхДенежныхСредств.Form.ФормаДокумента.Form" id="8b0407bf-5f56-4c69-b4a5-9c10496ec170.0" configVersion="969c0470c3b8a207fa9e27a6233cf95fa7bd08d9"/>
+		<Metadata name="Document.ПоступлениеБезналичныхДенежныхСредств.ObjectModule" id="b55566b2-9ffb-4bd5-bbeb-75f6d8cdefe2.0" configVersion="97256c2d338a1b6316ba2c3c6067e1cc4327d214"/>
 		<Metadata name="Document.ПоступлениеДенежныхДокументов" id="7344a387-1df8-45bd-b0d8-b45fde47c981" configVersion="2cf85841258050d35988f1a4be1b43005357f5a9"/>
 		<Metadata name="Document.Премия" id="3014692a-97d0-41e5-af00-7449caffd7da" configVersion="e66593b679b75a0f18260c66bebd559fca59e17b"/>
 		<Metadata name="Document.Премия.ManagerModule" id="3014692a-97d0-41e5-af00-7449caffd7da.2" configVersion="494db7797d74c70df87f368123e9030617284b53"/>
@@ -1594,7 +1597,7 @@
 			<Metadata name="Document.СправкаОПодтверждающихДокументах.Attribute.Банк" id="9b93fe03-a338-4bec-9c7a-c5fd62722f5d"/>
 		</Metadata>
 		<Metadata name="Document.СторнированиеНачислений" id="6da6269d-3d60-4eab-940f-e9895d458855" configVersion="7d2a052da87690ffc673043657c763dcc7686cba"/>
-		<Metadata name="Document.СчетНаОплатуКлиенту" id="eeec84f8-4463-4b8a-8116-ab87e70e3c03" configVersion="801ea813ea13efc68fb77c20a08df6e2d4126abe">
+		<Metadata name="Document.СчетНаОплатуКлиенту" id="eeec84f8-4463-4b8a-8116-ab87e70e3c03" configVersion="eece2345be30107f1ece839c0dc5823ccb7cf7dd">
 			<Metadata name="Document.СчетНаОплатуКлиенту.Attribute.ИдентификаторПлатежа" id="00f24623-10a8-458b-80a0-1ec36f58f347"/>
 			<Metadata name="Document.СчетНаОплатуКлиенту.Attribute.СуммаДокумента" id="0108413a-4d09-475d-92a5-139f332dad85"/>
 			<Metadata name="Document.СчетНаОплатуКлиенту.TabularSection.ВИЛС_ТоварыЗаказа.Attribute.Характеристика" id="01e6b078-5f7f-414f-9077-cc6590755f5b"/>
@@ -1654,6 +1657,8 @@
 		<Metadata name="Document.СчетНаОплатуКлиенту.Form.ВИЛС_ФормаПодбора.Form" id="658e630d-4cb5-4ce1-813f-00407ec18819.0" configVersion="8e8e209d3b5c1fcb99258ebb6a36925d789f3d64"/>
 		<Metadata name="Document.СчетНаОплатуКлиенту.Form.ФормаДокумента" id="29b7836c-2a26-43b3-b43e-dd8709a5dafe" configVersion="4958833809d5f00810e1959134fe1d17bd5fea0f"/>
 		<Metadata name="Document.СчетНаОплатуКлиенту.Form.ФормаДокумента.Form" id="29b7836c-2a26-43b3-b43e-dd8709a5dafe.0" configVersion="f4d3ff23bed35aae22320c46a622b4e88b432f05"/>
+		<Metadata name="Document.СчетНаОплатуКлиенту.Form.ФормаСозданияСчетовНаОплату" id="decd5f03-f529-46af-818f-569c44ec59e8" configVersion="2b9fe80217df81ba4ba6580ff1e0e702a74c6a5c"/>
+		<Metadata name="Document.СчетНаОплатуКлиенту.Form.ФормаСозданияСчетовНаОплату.Form" id="decd5f03-f529-46af-818f-569c44ec59e8.0" configVersion="741bf6cd618a50799b6a880699b3b505c149e0d5"/>
 		<Metadata name="Document.СчетНаОплатуКлиенту.ManagerModule" id="eeec84f8-4463-4b8a-8116-ab87e70e3c03.2" configVersion="b2a7879fbb8872ff70186cd2d7581371eda61034"/>
 		<Metadata name="Document.СчетФактураВыданный" id="e7e61963-271d-4599-86aa-dd9ede7fee77" configVersion="91c630e248dee4440dfba00b13c080e27dd3de94"/>
 		<Metadata name="Document.СчетФактураВыданный.Form.ФормаДокумента" id="7351ff8f-aba8-4d78-a4f4-dd14f7e8d1cf" configVersion="47903de285a0ed0fbb504248d6f8081c453abca2"/>
