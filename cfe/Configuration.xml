@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>c965a030-2b74-485f-8e2c-3ed350aae511</xr:ObjectId>
+				<xr:ObjectId>f4b6bbc1-15ca-4ae3-905f-0d3616b473b2</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -588,6 +588,11 @@
 			<Document>ПеремещениеТоваров</Document>
 			<Document>ТранспортнаяНакладная</Document>
 			<Document>РеализацияУслугПрочихАктивов</Document>
+			<Document>ВнутреннееПотреблениеТоваров</Document>
+			<Document>ПеремещениеВЭксплуатации</Document>
+			<Document>СписаниеИзЭксплуатации</Document>
+			<Document>ПрочееОприходованиеТоваров</Document>
+			<Document>ЗаказНаВнутреннееПотребление</Document>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
 			<Enum>ПорядокОплатыПоСоглашениям</Enum>
 			<Enum>ХозяйственныеОперации</Enum>
@@ -658,6 +663,7 @@
 			<Report>ВИЛС_ВыпускПродукцииПоОтпускнойСтоимости</Report>
 			<Report>ИсполнениеКонтрактовГОЗ</Report>
 			<Report>ВедомостьРасчетовСПартнерами</Report>
+			<Report>МатериалыВЭксплуатации</Report>
 			<DataProcessor>ПодборСерийВДокументы</DataProcessor>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
