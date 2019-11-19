@@ -116,6 +116,50 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<TabularSection uuid="5c73a35e-0dfe-42fd-8872-9e075d4b60be">
+				<InternalInfo>
+					<xr:GeneratedType name="CatalogTabularSection.Номенклатура.ДополнительныеРеквизиты" category="TabularSection">
+						<xr:TypeId>5208d79e-415b-493d-9789-f514c3b29a7f</xr:TypeId>
+						<xr:ValueId>0040e2a0-783a-4ad7-92d0-52865203d12c</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="CatalogTabularSectionRow.Номенклатура.ДополнительныеРеквизиты" category="TabularSectionRow">
+						<xr:TypeId>711d36bf-3c88-4c03-a4d7-1b798c46e4f2</xr:TypeId>
+						<xr:ValueId>09ebec0e-be51-4e42-be07-f865d743bd5b</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ДополнительныеРеквизиты</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>344b6917-b413-4fae-aadd-d62836822de6</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="f472124f-8f40-4dd1-9624-e7fb0d66bc43">
+						<InternalInfo/>
+						<Properties>
+							<Name>Свойство</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>3ebfaae7-710d-4b97-aff3-149de91a4f89</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b0fbd4da-acf7-4fb0-b3ff-c406123ddc7d">
+						<InternalInfo/>
+						<Properties>
+							<Name>Значение</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>c122409e-0e2f-4354-a036-4e8f6440b616</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:Characteristic.ДополнительныеРеквизитыИСведения</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
 			<Form>ФормаСписка</Form>
 		</ChildObjects>
 	</Catalog>
