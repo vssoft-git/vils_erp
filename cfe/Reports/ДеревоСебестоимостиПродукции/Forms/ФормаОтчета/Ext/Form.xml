@@ -1,0 +1,1148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<AutoTitle>false</AutoTitle>
+	<AutoURL>false</AutoURL>
+	<CommandBarLocation>None</CommandBarLocation>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer" callType="After">ВИЛС_ПриСозданииНаСервереПосле</Event>
+	</Events>
+	<ChildItems>
+		<UsualGroup name="КомпоновщикНастроекПользовательскиеНастройки" id="416">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Settings</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Компоновщик настроек пользовательские настройки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Setting composer user settings</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="КомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="417"/>
+		</UsualGroup>
+		<CommandBar name="ОсновнаяКоманднаяПанель" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основная командная панель</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Main command bar</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="ОсновнаяКоманднаяПанельРасширеннаяПодсказка" id="133"/>
+			<ChildItems>
+				<Button name="СформироватьОтчет" id="101">
+					<Type>CommandBarButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+					<ExtendedTooltip name="СформироватьОтчетРасширеннаяПодсказка" id="135"/>
+				</Button>
+				<Button name="ФормироватьСразу" id="820">
+					<Type>CommandBarButton</Type>
+					<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+					<ExtendedTooltip name="ФормироватьСразуРасширеннаяПодсказка" id="821"/>
+				</Button>
+				<ButtonGroup name="ГруппаНастройкиОтчета" id="104">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Настройки отчета</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Report settings</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаНастройкиОтчетаРасширеннаяПодсказка" id="144"/>
+					<ChildItems>
+						<Button name="ВсеНастройки" id="458">
+							<Type>CommandBarButton</Type>
+							<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+							<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+							<ExtendedTooltip name="ВсеНастройкиРасширеннаяПодсказка" id="459"/>
+						</Button>
+						<Button name="ИзменитьУсловияОтборов" id="630">
+							<Type>CommandBarButton</Type>
+							<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+							<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+							<ExtendedTooltip name="ИзменитьУсловияОтборовРасширеннаяПодсказка" id="631"/>
+						</Button>
+						<Button name="СброситьНастройки" id="382">
+							<Type>CommandBarButton</Type>
+							<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+							<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+							<ExtendedTooltip name="СброситьНастройкиРасширеннаяПодсказка" id="383"/>
+						</Button>
+						<Popup name="ГруппаВариантыОтчета" id="795">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Варианты отчета</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Report options</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Выбрать настройки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Select settings</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Picture>
+								<xr:Ref>CommonPicture.ВыбратьВариантОтчета</xr:Ref>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
+							</Picture>
+							<Representation>PictureAndText</Representation>
+							<ExtendedTooltip name="ГруппаВариантыОтчетаРасширеннаяПодсказка" id="796"/>
+							<ChildItems>
+								<Button name="СохранитьВариант" id="797">
+									<Type>CommandBarButton</Type>
+									<Representation>PictureAndText</Representation>
+									<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+									<Picture>
+										<xr:Ref>CommonPicture.СохранитьВариантОтчета</xr:Ref>
+										<xr:LoadTransparent>false</xr:LoadTransparent>
+									</Picture>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сохранить вариант отчета...</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Save report option...</v8:content>
+										</v8:item>
+									</Title>
+									<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+									<ExtendedTooltip name="СохранитьВариантРасширеннаяПодсказка" id="798"/>
+								</Button>
+								<Button name="ВыбратьВариант" id="801">
+									<Type>CommandBarButton</Type>
+									<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Выбрать вариант отчета...</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Select report option...</v8:content>
+										</v8:item>
+									</Title>
+									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+									<ExtendedTooltip name="ВыбратьВариантРасширеннаяПодсказка" id="802"/>
+								</Button>
+								<ButtonGroup name="ВариантыОтчета" id="799">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Варианты отчета</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Report options</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ВариантыОтчетаРасширеннаяПодсказка" id="800"/>
+								</ButtonGroup>
+							</ChildItems>
+						</Popup>
+						<Popup name="ГруппаПрочиеНастройкиОтчета" id="502">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Прочее</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Other</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ГруппаПрочиеНастройкиОтчетаРасширеннаяПодсказка" id="503"/>
+							<ChildItems>
+								<ButtonGroup name="ГруппаПользовательскиеНастройки" id="504">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Пользовательские настройки</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>User settings</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ГруппаПользовательскиеНастройкиРасширеннаяПодсказка" id="505"/>
+									<ChildItems>
+										<Button name="ВыбратьНастройки" id="462">
+											<Type>CommandBarButton</Type>
+											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+											<ExtendedTooltip name="ВыбратьНастройкиРасширеннаяПодсказка" id="463"/>
+										</Button>
+										<Button name="СохранитьНастройки" id="460">
+											<Type>CommandBarButton</Type>
+											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+											<ExtendedTooltip name="СохранитьНастройкиРасширеннаяПодсказка" id="461"/>
+										</Button>
+									</ChildItems>
+								</ButtonGroup>
+							</ChildItems>
+						</Popup>
+					</ChildItems>
+				</ButtonGroup>
+				<ButtonGroup name="ГруппаРаботаВТаблице" id="518">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Работа в таблице</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Work in table</v8:content>
+						</v8:item>
+					</Title>
+					<Representation>Compact</Representation>
+					<ExtendedTooltip name="ГруппаРаботаВТаблицеРасширеннаяПодсказка" id="519"/>
+					<ChildItems>
+						<Button name="РазвернутьВсеГруппы" id="61">
+							<Type>CommandBarButton</Type>
+							<Representation>Picture</Representation>
+							<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+							<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+							<ExtendedTooltip name="РазвернутьВсеГруппыРасширеннаяПодсказка" id="122"/>
+						</Button>
+						<Button name="СвернутьВсеГруппы" id="60">
+							<Type>CommandBarButton</Type>
+							<Representation>Picture</Representation>
+							<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+							<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+							<ExtendedTooltip name="СвернутьВсеГруппыРасширеннаяПодсказка" id="121"/>
+						</Button>
+					</ChildItems>
+				</ButtonGroup>
+				<ButtonGroup name="ГруппаПрограммныйИнтерфейс" id="641">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа кнопок</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Buttons group</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Динамически добавляемые кнопки</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Dynamically added buttons</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаПрограммныйИнтерфейсРасширеннаяПодсказка" id="642"/>
+				</ButtonGroup>
+				<Button name="НовоеОкно" id="41">
+					<Type>CommandBarButton</Type>
+					<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+					<ExtendedTooltip name="НовоеОкноРасширеннаяПодсказка" id="159"/>
+				</Button>
+				<Button name="ИзменитьФорму" id="42">
+					<Type>CommandBarButton</Type>
+					<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+					<ExtendedTooltip name="ИзменитьФормуРасширеннаяПодсказка" id="160"/>
+				</Button>
+				<Button name="Справка" id="43">
+					<Type>CommandBarButton</Type>
+					<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+					<ExtendedTooltip name="СправкаРасширеннаяПодсказка" id="161"/>
+				</Button>
+			</ChildItems>
+		</CommandBar>
+		<UsualGroup name="НеОтсортированное" id="516">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Не отсортированное</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Not sorted</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="НеОтсортированноеРасширеннаяПодсказка" id="517"/>
+		</UsualGroup>
+		<UsualGroup name="ГруппаДерево" id="643">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дерево</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Tree</v8:content>
+				</v8:item>
+			</Title>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаДеревоРасширеннаяПодсказка" id="644"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаОтчетФормируется" id="812">
+					<Visible>false</Visible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчет формируется</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>The report is being generated</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Horizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаОтчетФормируетсяРасширеннаяПодсказка" id="813"/>
+					<ChildItems>
+						<PictureDecoration name="ДекорацияСостояние" id="806">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Декорация состояние</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Decoration state</v8:content>
+								</v8:item>
+							</Title>
+							<Picture>
+								<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
+							</Picture>
+							<FileDragMode>AsFile</FileDragMode>
+							<ContextMenu name="ДекорацияСостояниеКонтекстноеМеню" id="807"/>
+							<ExtendedTooltip name="ДекорацияСостояниеРасширеннаяПодсказка" id="808"/>
+						</PictureDecoration>
+						<LabelDecoration name="ДекорацияНадписьФормируется" id="809">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отчет формируется...</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Generating the report...</v8:content>
+								</v8:item>
+							</Title>
+							<GroupVerticalAlign>Center</GroupVerticalAlign>
+							<ContextMenu name="ДекорацияНадписьФормируетсяКонтекстноеМеню" id="810"/>
+							<ExtendedTooltip name="ДекорацияНадписьФормируетсяРасширеннаяПодсказка" id="811"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<Table name="ПолноеДеревоСебестоимости" id="645">
+					<Representation>Tree</Representation>
+					<CommandBarLocation>None</CommandBarLocation>
+					<ReadOnly>true</ReadOnly>
+					<ChangeRowSet>false</ChangeRowSet>
+					<ChangeRowOrder>false</ChangeRowOrder>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<FileDragMode>AsFile</FileDragMode>
+					<DataPath>38</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Полное дерево себестоимости</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Full cost tree</v8:content>
+						</v8:item>
+					</Title>
+					<ViewStatusLocation>Top</ViewStatusLocation>
+					<ContextMenu name="ПолноеДеревоСебестоимостиКонтекстноеМеню" id="646"/>
+					<AutoCommandBar name="ПолноеДеревоСебестоимостиКоманднаяПанель" id="647">
+						<Autofill>false</Autofill>
+					</AutoCommandBar>
+					<ExtendedTooltip name="ПолноеДеревоСебестоимостиРасширеннаяПодсказка" id="648"/>
+					<SearchStringAddition name="ПолноеДеревоСебестоимостиСтрокаПоиска" id="649">
+						<AdditionSource>
+							<Item>ПолноеДеревоСебестоимости</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ПолноеДеревоСебестоимостиСтрокаПоискаКонтекстноеМеню" id="650"/>
+						<ExtendedTooltip name="ПолноеДеревоСебестоимостиСтрокаПоискаРасширеннаяПодсказка" id="651"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ПолноеДеревоСебестоимостиСостояниеПросмотра" id="652">
+						<AdditionSource>
+							<Item>ПолноеДеревоСебестоимости</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ПолноеДеревоСебестоимостиСостояниеПросмотраКонтекстноеМеню" id="653"/>
+						<ExtendedTooltip name="ПолноеДеревоСебестоимостиСостояниеПросмотраРасширеннаяПодсказка" id="654"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ПолноеДеревоСебестоимостиУправлениеПоиском" id="655">
+						<AdditionSource>
+							<Item>ПолноеДеревоСебестоимости</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ПолноеДеревоСебестоимостиУправлениеПоискомКонтекстноеМеню" id="656"/>
+						<ExtendedTooltip name="ПолноеДеревоСебестоимостиУправлениеПоискомРасширеннаяПодсказка" id="657"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<ColumnGroup name="ПолноеДеревоСебестоимостиГруппаНоменклатура" id="658">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Полное дерево себестоимости группа номенклатура</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Full tree of costs group products</v8:content>
+								</v8:item>
+							</Title>
+							<Group>InCell</Group>
+							<ExtendedTooltip name="ПолноеДеревоСебестоимостиГруппаНоменклатураРасширеннаяПодсказка" id="659"/>
+							<ChildItems>
+								<InputField name="ПолноеДеревоСебестоимостиНоменклатура" id="774">
+									<DataPath>38/19</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>9</MaxWidth>
+									<ContextMenu name="ПолноеДеревоСебестоимостиНоменклатураКонтекстноеМеню" id="775"/>
+									<ExtendedTooltip name="ПолноеДеревоСебестоимостиНоменклатураРасширеннаяПодсказка" id="776"/>
+								</InputField>
+								<InputField name="ПолноеДеревоСебестоимостиХарактеристика" id="777">
+									<DataPath>38/20</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>9</MaxWidth>
+									<ContextMenu name="ПолноеДеревоСебестоимостиХарактеристикаКонтекстноеМеню" id="778"/>
+									<ExtendedTooltip name="ПолноеДеревоСебестоимостиХарактеристикаРасширеннаяПодсказка" id="779"/>
+								</InputField>
+								<InputField name="ПолноеДеревоСебестоимостиСерия" id="803">
+									<DataPath>38/26</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>9</MaxWidth>
+									<ContextMenu name="ПолноеДеревоСебестоимостиСерияКонтекстноеМеню" id="804"/>
+									<ExtendedTooltip name="ПолноеДеревоСебестоимостиСерияРасширеннаяПодсказка" id="805"/>
+								</InputField>
+								<InputField name="ПолноеДеревоСебестоимостиНазначение" id="780">
+									<DataPath>38/21</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>9</MaxWidth>
+									<ContextMenu name="ПолноеДеревоСебестоимостиНазначениеКонтекстноеМеню" id="781"/>
+									<ExtendedTooltip name="ПолноеДеревоСебестоимостиНазначениеРасширеннаяПодсказка" id="782"/>
+								</InputField>
+							</ChildItems>
+						</ColumnGroup>
+						<InputField name="ПолноеДеревоСебестоимостиПартия" id="783">
+							<DataPath>38/22</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>14</MaxWidth>
+							<ContextMenu name="ПолноеДеревоСебестоимостиПартияКонтекстноеМеню" id="784"/>
+							<ExtendedTooltip name="ПолноеДеревоСебестоимостиПартияРасширеннаяПодсказка" id="785"/>
+						</InputField>
+						<InputField name="ПолноеДеревоСебестоимостиПодразделение" id="744">
+							<DataPath>38/9</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>14</MaxWidth>
+							<ContextMenu name="ПолноеДеревоСебестоимостиПодразделениеКонтекстноеМеню" id="745"/>
+							<ExtendedTooltip name="ПолноеДеревоСебестоимостиПодразделениеРасширеннаяПодсказка" id="746"/>
+						</InputField>
+						<InputField name="ПолноеДеревоСебестоимостиТипЗатрат" id="747">
+							<DataPath>38/10</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>14</MaxWidth>
+							<ContextMenu name="ПолноеДеревоСебестоимостиТипЗатратКонтекстноеМеню" id="748"/>
+							<ExtendedTooltip name="ПолноеДеревоСебестоимостиТипЗатратРасширеннаяПодсказка" id="749"/>
+						</InputField>
+						<InputField name="ПолноеДеревоСебестоимостиЕдиницаИзмерения" id="753">
+							<DataPath>38/11</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>9</MaxWidth>
+							<ContextMenu name="ПолноеДеревоСебестоимостиЕдиницаИзмеренияКонтекстноеМеню" id="754"/>
+							<ExtendedTooltip name="ПолноеДеревоСебестоимостиЕдиницаИзмеренияРасширеннаяПодсказка" id="755"/>
+						</InputField>
+						<InputField name="ПолноеДеревоСебестоимостиКоличество" id="756">
+							<DataPath>38/12</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>9</MaxWidth>
+							<ContextMenu name="ПолноеДеревоСебестоимостиКоличествоКонтекстноеМеню" id="757"/>
+							<ExtendedTooltip name="ПолноеДеревоСебестоимостиКоличествоРасширеннаяПодсказка" id="758"/>
+						</InputField>
+						<InputField name="ПолноеДеревоСебестоимостиСумма" id="759">
+							<DataPath>38/14</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>11</MaxWidth>
+							<ContextMenu name="ПолноеДеревоСебестоимостиСуммаКонтекстноеМеню" id="760"/>
+							<ExtendedTooltip name="ПолноеДеревоСебестоимостиСуммаРасширеннаяПодсказка" id="761"/>
+						</InputField>
+						<InputField name="ПолноеДеревоСебестоимостиСуммаЗабалансовая" id="792">
+							<DataPath>38/25</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>11</MaxWidth>
+							<ContextMenu name="ПолноеДеревоСебестоимостиСуммаЗабалансоваяКонтекстноеМеню" id="793"/>
+							<ExtendedTooltip name="ПолноеДеревоСебестоимостиСуммаЗабалансоваяРасширеннаяПодсказка" id="794"/>
+						</InputField>
+						<InputField name="ПолноеДеревоСебестоимостиМатериальные" id="762">
+							<DataPath>38/15</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>11</MaxWidth>
+							<ContextMenu name="ПолноеДеревоСебестоимостиМатериальныеКонтекстноеМеню" id="763"/>
+							<ExtendedTooltip name="ПолноеДеревоСебестоимостиМатериальныеРасширеннаяПодсказка" id="764"/>
+						</InputField>
+						<InputField name="ПолноеДеревоСебестоимостиТрудозатраты" id="765">
+							<DataPath>38/16</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>11</MaxWidth>
+							<ContextMenu name="ПолноеДеревоСебестоимостиТрудозатратыКонтекстноеМеню" id="766"/>
+							<ExtendedTooltip name="ПолноеДеревоСебестоимостиТрудозатратыРасширеннаяПодсказка" id="767"/>
+						</InputField>
+						<InputField name="ПолноеДеревоСебестоимостиПостатейныеПостоянные" id="814">
+							<DataPath>38/32</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ПолноеДеревоСебестоимостиПостатейныеПостоянныеКонтекстноеМеню" id="815"/>
+							<ExtendedTooltip name="ПолноеДеревоСебестоимостиПостатейныеПостоянныеРасширеннаяПодсказка" id="816"/>
+						</InputField>
+						<InputField name="ПолноеДеревоСебестоимостиПостатейныеПеременные" id="817">
+							<DataPath>38/17</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ПолноеДеревоСебестоимостиПостатейныеПеременныеКонтекстноеМеню" id="818"/>
+							<ExtendedTooltip name="ПолноеДеревоСебестоимостиПостатейныеПеременныеРасширеннаяПодсказка" id="819"/>
+						</InputField>
+						<InputField name="ПолноеДеревоСебестоимостиДопРасходы" id="771">
+							<DataPath>38/18</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<MaxWidth>11</MaxWidth>
+							<ContextMenu name="ПолноеДеревоСебестоимостиДопРасходыКонтекстноеМеню" id="772"/>
+							<ExtendedTooltip name="ПолноеДеревоСебестоимостиДопРасходыРасширеннаяПодсказка" id="773"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.10">
+		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+		<AutoTitle>false</AutoTitle>
+		<AutoURL>false</AutoURL>
+		<CommandBarLocation>None</CommandBarLocation>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<Autofill>false</Autofill>
+		</AutoCommandBar>
+		<ChildItems>
+			<UsualGroup name="КомпоновщикНастроекПользовательскиеНастройки" id="416">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Настройки</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Settings</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Компоновщик настроек пользовательские настройки</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Setting composer user settings</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="КомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="417"/>
+			</UsualGroup>
+			<CommandBar name="ОсновнаяКоманднаяПанель" id="5">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Основная командная панель</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Main command bar</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ОсновнаяКоманднаяПанельРасширеннаяПодсказка" id="133"/>
+				<ChildItems>
+					<Button name="СформироватьОтчет" id="101">
+						<Type>CommandBarButton</Type>
+						<DefaultButton>true</DefaultButton>
+						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+						<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="СформироватьОтчетРасширеннаяПодсказка" id="135"/>
+					</Button>
+					<Button name="ФормироватьСразу" id="820">
+						<Type>CommandBarButton</Type>
+						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="ФормироватьСразуРасширеннаяПодсказка" id="821"/>
+					</Button>
+					<ButtonGroup name="ГруппаНастройкиОтчета" id="104">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Настройки отчета</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Report settings</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ГруппаНастройкиОтчетаРасширеннаяПодсказка" id="144"/>
+						<ChildItems>
+							<Button name="ВсеНастройки" id="458">
+								<Type>CommandBarButton</Type>
+								<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+								<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+								<ExtendedTooltip name="ВсеНастройкиРасширеннаяПодсказка" id="459"/>
+							</Button>
+							<Button name="ИзменитьУсловияОтборов" id="630">
+								<Type>CommandBarButton</Type>
+								<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+								<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+								<ExtendedTooltip name="ИзменитьУсловияОтборовРасширеннаяПодсказка" id="631"/>
+							</Button>
+							<Button name="СброситьНастройки" id="382">
+								<Type>CommandBarButton</Type>
+								<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+								<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+								<ExtendedTooltip name="СброситьНастройкиРасширеннаяПодсказка" id="383"/>
+							</Button>
+							<Popup name="ГруппаВариантыОтчета" id="795">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Варианты отчета</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Report options</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Выбрать настройки</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Select settings</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Picture>
+									<xr:Ref>CommonPicture.ВыбратьВариантОтчета</xr:Ref>
+									<xr:LoadTransparent>false</xr:LoadTransparent>
+								</Picture>
+								<Representation>PictureAndText</Representation>
+								<ExtendedTooltip name="ГруппаВариантыОтчетаРасширеннаяПодсказка" id="796"/>
+								<ChildItems>
+									<Button name="СохранитьВариант" id="797">
+										<Type>CommandBarButton</Type>
+										<Representation>PictureAndText</Representation>
+										<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+										<Picture>
+											<xr:Ref>CommonPicture.СохранитьВариантОтчета</xr:Ref>
+											<xr:LoadTransparent>false</xr:LoadTransparent>
+										</Picture>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сохранить вариант отчета...</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Save report option...</v8:content>
+											</v8:item>
+										</Title>
+										<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+										<ExtendedTooltip name="СохранитьВариантРасширеннаяПодсказка" id="798"/>
+									</Button>
+									<Button name="ВыбратьВариант" id="801">
+										<Type>CommandBarButton</Type>
+										<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Выбрать вариант отчета...</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Select report option...</v8:content>
+											</v8:item>
+										</Title>
+										<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+										<ExtendedTooltip name="ВыбратьВариантРасширеннаяПодсказка" id="802"/>
+									</Button>
+									<ButtonGroup name="ВариантыОтчета" id="799">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Варианты отчета</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Report options</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ВариантыОтчетаРасширеннаяПодсказка" id="800"/>
+									</ButtonGroup>
+								</ChildItems>
+							</Popup>
+							<Popup name="ГруппаПрочиеНастройкиОтчета" id="502">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Прочее</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Other</v8:content>
+									</v8:item>
+								</Title>
+								<ExtendedTooltip name="ГруппаПрочиеНастройкиОтчетаРасширеннаяПодсказка" id="503"/>
+								<ChildItems>
+									<ButtonGroup name="ГруппаПользовательскиеНастройки" id="504">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Пользовательские настройки</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>User settings</v8:content>
+											</v8:item>
+										</Title>
+										<ExtendedTooltip name="ГруппаПользовательскиеНастройкиРасширеннаяПодсказка" id="505"/>
+										<ChildItems>
+											<Button name="ВыбратьНастройки" id="462">
+												<Type>CommandBarButton</Type>
+												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+												<ExtendedTooltip name="ВыбратьНастройкиРасширеннаяПодсказка" id="463"/>
+											</Button>
+											<Button name="СохранитьНастройки" id="460">
+												<Type>CommandBarButton</Type>
+												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+												<ExtendedTooltip name="СохранитьНастройкиРасширеннаяПодсказка" id="461"/>
+											</Button>
+										</ChildItems>
+									</ButtonGroup>
+								</ChildItems>
+							</Popup>
+						</ChildItems>
+					</ButtonGroup>
+					<ButtonGroup name="ГруппаРаботаВТаблице" id="518">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Работа в таблице</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Work in table</v8:content>
+							</v8:item>
+						</Title>
+						<Representation>Compact</Representation>
+						<ExtendedTooltip name="ГруппаРаботаВТаблицеРасширеннаяПодсказка" id="519"/>
+						<ChildItems>
+							<Button name="РазвернутьВсеГруппы" id="61">
+								<Type>CommandBarButton</Type>
+								<Representation>Picture</Representation>
+								<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+								<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+								<ExtendedTooltip name="РазвернутьВсеГруппыРасширеннаяПодсказка" id="122"/>
+							</Button>
+							<Button name="СвернутьВсеГруппы" id="60">
+								<Type>CommandBarButton</Type>
+								<Representation>Picture</Representation>
+								<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+								<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+								<ExtendedTooltip name="СвернутьВсеГруппыРасширеннаяПодсказка" id="121"/>
+							</Button>
+						</ChildItems>
+					</ButtonGroup>
+					<ButtonGroup name="ГруппаПрограммныйИнтерфейс" id="641">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Группа кнопок</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Buttons group</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Динамически добавляемые кнопки</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Dynamically added buttons</v8:content>
+							</v8:item>
+						</ToolTip>
+						<ExtendedTooltip name="ГруппаПрограммныйИнтерфейсРасширеннаяПодсказка" id="642"/>
+					</ButtonGroup>
+					<Button name="НовоеОкно" id="41">
+						<Type>CommandBarButton</Type>
+						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="НовоеОкноРасширеннаяПодсказка" id="159"/>
+					</Button>
+					<Button name="ИзменитьФорму" id="42">
+						<Type>CommandBarButton</Type>
+						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="ИзменитьФормуРасширеннаяПодсказка" id="160"/>
+					</Button>
+					<Button name="Справка" id="43">
+						<Type>CommandBarButton</Type>
+						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+						<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="СправкаРасширеннаяПодсказка" id="161"/>
+					</Button>
+				</ChildItems>
+			</CommandBar>
+			<UsualGroup name="НеОтсортированное" id="516">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Не отсортированное</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Not sorted</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Vertical</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="НеОтсортированноеРасширеннаяПодсказка" id="517"/>
+			</UsualGroup>
+			<UsualGroup name="ГруппаДерево" id="643">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Дерево</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Tree</v8:content>
+					</v8:item>
+				</Title>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаДеревоРасширеннаяПодсказка" id="644"/>
+				<ChildItems>
+					<UsualGroup name="ГруппаОтчетФормируется" id="812">
+						<Visible>false</Visible>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Отчет формируется</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>The report is being generated</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Horizontal</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаОтчетФормируетсяРасширеннаяПодсказка" id="813"/>
+						<ChildItems>
+							<PictureDecoration name="ДекорацияСостояние" id="806">
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Декорация состояние</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Decoration state</v8:content>
+									</v8:item>
+								</Title>
+								<Picture>
+									<xr:Ref>CommonPicture.ДлительнаяОперация48</xr:Ref>
+									<xr:LoadTransparent>false</xr:LoadTransparent>
+								</Picture>
+								<FileDragMode>AsFile</FileDragMode>
+								<ContextMenu name="ДекорацияСостояниеКонтекстноеМеню" id="807"/>
+								<ExtendedTooltip name="ДекорацияСостояниеРасширеннаяПодсказка" id="808"/>
+							</PictureDecoration>
+							<LabelDecoration name="ДекорацияНадписьФормируется" id="809">
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Отчет формируется...</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Generating the report...</v8:content>
+									</v8:item>
+								</Title>
+								<GroupVerticalAlign>Center</GroupVerticalAlign>
+								<ContextMenu name="ДекорацияНадписьФормируетсяКонтекстноеМеню" id="810"/>
+								<ExtendedTooltip name="ДекорацияНадписьФормируетсяРасширеннаяПодсказка" id="811"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+					<Table name="ПолноеДеревоСебестоимости" id="645">
+						<Representation>Tree</Representation>
+						<CommandBarLocation>None</CommandBarLocation>
+						<ReadOnly>true</ReadOnly>
+						<ChangeRowSet>false</ChangeRowSet>
+						<ChangeRowOrder>false</ChangeRowOrder>
+						<AutoInsertNewRow>true</AutoInsertNewRow>
+						<EnableStartDrag>true</EnableStartDrag>
+						<EnableDrag>true</EnableDrag>
+						<FileDragMode>AsFile</FileDragMode>
+						<DataPath>38</DataPath>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Полное дерево себестоимости</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Full cost tree</v8:content>
+							</v8:item>
+						</Title>
+						<ViewStatusLocation>Top</ViewStatusLocation>
+						<ContextMenu name="ПолноеДеревоСебестоимостиКонтекстноеМеню" id="646"/>
+						<AutoCommandBar name="ПолноеДеревоСебестоимостиКоманднаяПанель" id="647">
+							<Autofill>false</Autofill>
+						</AutoCommandBar>
+						<ExtendedTooltip name="ПолноеДеревоСебестоимостиРасширеннаяПодсказка" id="648"/>
+						<SearchStringAddition name="ПолноеДеревоСебестоимостиСтрокаПоиска" id="649">
+							<AdditionSource>
+								<Item>ПолноеДеревоСебестоимости</Item>
+								<Type>SearchStringRepresentation</Type>
+							</AdditionSource>
+							<ContextMenu name="ПолноеДеревоСебестоимостиСтрокаПоискаКонтекстноеМеню" id="650"/>
+							<ExtendedTooltip name="ПолноеДеревоСебестоимостиСтрокаПоискаРасширеннаяПодсказка" id="651"/>
+						</SearchStringAddition>
+						<ViewStatusAddition name="ПолноеДеревоСебестоимостиСостояниеПросмотра" id="652">
+							<AdditionSource>
+								<Item>ПолноеДеревоСебестоимости</Item>
+								<Type>ViewStatusRepresentation</Type>
+							</AdditionSource>
+							<ContextMenu name="ПолноеДеревоСебестоимостиСостояниеПросмотраКонтекстноеМеню" id="653"/>
+							<ExtendedTooltip name="ПолноеДеревоСебестоимостиСостояниеПросмотраРасширеннаяПодсказка" id="654"/>
+						</ViewStatusAddition>
+						<SearchControlAddition name="ПолноеДеревоСебестоимостиУправлениеПоиском" id="655">
+							<AdditionSource>
+								<Item>ПолноеДеревоСебестоимости</Item>
+								<Type>SearchControl</Type>
+							</AdditionSource>
+							<ContextMenu name="ПолноеДеревоСебестоимостиУправлениеПоискомКонтекстноеМеню" id="656"/>
+							<ExtendedTooltip name="ПолноеДеревоСебестоимостиУправлениеПоискомРасширеннаяПодсказка" id="657"/>
+						</SearchControlAddition>
+						<ChildItems>
+							<ColumnGroup name="ПолноеДеревоСебестоимостиГруппаНоменклатура" id="658">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Полное дерево себестоимости группа номенклатура</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Full tree of costs group products</v8:content>
+									</v8:item>
+								</Title>
+								<Group>InCell</Group>
+								<ExtendedTooltip name="ПолноеДеревоСебестоимостиГруппаНоменклатураРасширеннаяПодсказка" id="659"/>
+								<ChildItems>
+									<InputField name="ПолноеДеревоСебестоимостиНоменклатура" id="774">
+										<DataPath>38/19</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<MaxWidth>9</MaxWidth>
+										<ContextMenu name="ПолноеДеревоСебестоимостиНоменклатураКонтекстноеМеню" id="775"/>
+										<ExtendedTooltip name="ПолноеДеревоСебестоимостиНоменклатураРасширеннаяПодсказка" id="776"/>
+									</InputField>
+									<InputField name="ПолноеДеревоСебестоимостиХарактеристика" id="777">
+										<DataPath>38/20</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<MaxWidth>9</MaxWidth>
+										<ContextMenu name="ПолноеДеревоСебестоимостиХарактеристикаКонтекстноеМеню" id="778"/>
+										<ExtendedTooltip name="ПолноеДеревоСебестоимостиХарактеристикаРасширеннаяПодсказка" id="779"/>
+									</InputField>
+									<InputField name="ПолноеДеревоСебестоимостиСерия" id="803">
+										<DataPath>38/26</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<MaxWidth>9</MaxWidth>
+										<ContextMenu name="ПолноеДеревоСебестоимостиСерияКонтекстноеМеню" id="804"/>
+										<ExtendedTooltip name="ПолноеДеревоСебестоимостиСерияРасширеннаяПодсказка" id="805"/>
+									</InputField>
+									<InputField name="ПолноеДеревоСебестоимостиНазначение" id="780">
+										<DataPath>38/21</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<MaxWidth>9</MaxWidth>
+										<ContextMenu name="ПолноеДеревоСебестоимостиНазначениеКонтекстноеМеню" id="781"/>
+										<ExtendedTooltip name="ПолноеДеревоСебестоимостиНазначениеРасширеннаяПодсказка" id="782"/>
+									</InputField>
+								</ChildItems>
+							</ColumnGroup>
+							<InputField name="ПолноеДеревоСебестоимостиПартия" id="783">
+								<DataPath>38/22</DataPath>
+								<EditMode>EnterOnInput</EditMode>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>14</MaxWidth>
+								<ContextMenu name="ПолноеДеревоСебестоимостиПартияКонтекстноеМеню" id="784"/>
+								<ExtendedTooltip name="ПолноеДеревоСебестоимостиПартияРасширеннаяПодсказка" id="785"/>
+							</InputField>
+							<InputField name="ПолноеДеревоСебестоимостиПодразделение" id="744">
+								<DataPath>38/9</DataPath>
+								<EditMode>EnterOnInput</EditMode>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>14</MaxWidth>
+								<ContextMenu name="ПолноеДеревоСебестоимостиПодразделениеКонтекстноеМеню" id="745"/>
+								<ExtendedTooltip name="ПолноеДеревоСебестоимостиПодразделениеРасширеннаяПодсказка" id="746"/>
+							</InputField>
+							<InputField name="ПолноеДеревоСебестоимостиТипЗатрат" id="747">
+								<DataPath>38/10</DataPath>
+								<EditMode>EnterOnInput</EditMode>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>14</MaxWidth>
+								<ContextMenu name="ПолноеДеревоСебестоимостиТипЗатратКонтекстноеМеню" id="748"/>
+								<ExtendedTooltip name="ПолноеДеревоСебестоимостиТипЗатратРасширеннаяПодсказка" id="749"/>
+							</InputField>
+							<InputField name="ПолноеДеревоСебестоимостиЕдиницаИзмерения" id="753">
+								<DataPath>38/11</DataPath>
+								<EditMode>EnterOnInput</EditMode>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>9</MaxWidth>
+								<ContextMenu name="ПолноеДеревоСебестоимостиЕдиницаИзмеренияКонтекстноеМеню" id="754"/>
+								<ExtendedTooltip name="ПолноеДеревоСебестоимостиЕдиницаИзмеренияРасширеннаяПодсказка" id="755"/>
+							</InputField>
+							<InputField name="ПолноеДеревоСебестоимостиКоличество" id="756">
+								<DataPath>38/12</DataPath>
+								<EditMode>EnterOnInput</EditMode>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>9</MaxWidth>
+								<ContextMenu name="ПолноеДеревоСебестоимостиКоличествоКонтекстноеМеню" id="757"/>
+								<ExtendedTooltip name="ПолноеДеревоСебестоимостиКоличествоРасширеннаяПодсказка" id="758"/>
+							</InputField>
+							<InputField name="ПолноеДеревоСебестоимостиСумма" id="759">
+								<DataPath>38/14</DataPath>
+								<EditMode>EnterOnInput</EditMode>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>11</MaxWidth>
+								<ContextMenu name="ПолноеДеревоСебестоимостиСуммаКонтекстноеМеню" id="760"/>
+								<ExtendedTooltip name="ПолноеДеревоСебестоимостиСуммаРасширеннаяПодсказка" id="761"/>
+							</InputField>
+							<InputField name="ПолноеДеревоСебестоимостиСуммаЗабалансовая" id="792">
+								<DataPath>38/25</DataPath>
+								<EditMode>EnterOnInput</EditMode>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>11</MaxWidth>
+								<ContextMenu name="ПолноеДеревоСебестоимостиСуммаЗабалансоваяКонтекстноеМеню" id="793"/>
+								<ExtendedTooltip name="ПолноеДеревоСебестоимостиСуммаЗабалансоваяРасширеннаяПодсказка" id="794"/>
+							</InputField>
+							<InputField name="ПолноеДеревоСебестоимостиМатериальные" id="762">
+								<DataPath>38/15</DataPath>
+								<EditMode>EnterOnInput</EditMode>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>11</MaxWidth>
+								<ContextMenu name="ПолноеДеревоСебестоимостиМатериальныеКонтекстноеМеню" id="763"/>
+								<ExtendedTooltip name="ПолноеДеревоСебестоимостиМатериальныеРасширеннаяПодсказка" id="764"/>
+							</InputField>
+							<InputField name="ПолноеДеревоСебестоимостиТрудозатраты" id="765">
+								<DataPath>38/16</DataPath>
+								<EditMode>EnterOnInput</EditMode>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>11</MaxWidth>
+								<ContextMenu name="ПолноеДеревоСебестоимостиТрудозатратыКонтекстноеМеню" id="766"/>
+								<ExtendedTooltip name="ПолноеДеревоСебестоимостиТрудозатратыРасширеннаяПодсказка" id="767"/>
+							</InputField>
+							<InputField name="ПолноеДеревоСебестоимостиПостатейныеПостоянные" id="814">
+								<DataPath>38/32</DataPath>
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ПолноеДеревоСебестоимостиПостатейныеПостоянныеКонтекстноеМеню" id="815"/>
+								<ExtendedTooltip name="ПолноеДеревоСебестоимостиПостатейныеПостоянныеРасширеннаяПодсказка" id="816"/>
+							</InputField>
+							<InputField name="ПолноеДеревоСебестоимостиПостатейныеПеременные" id="817">
+								<DataPath>38/17</DataPath>
+								<EditMode>EnterOnInput</EditMode>
+								<ContextMenu name="ПолноеДеревоСебестоимостиПостатейныеПеременныеКонтекстноеМеню" id="818"/>
+								<ExtendedTooltip name="ПолноеДеревоСебестоимостиПостатейныеПеременныеРасширеннаяПодсказка" id="819"/>
+							</InputField>
+							<InputField name="ПолноеДеревоСебестоимостиДопРасходы" id="771">
+								<DataPath>38/18</DataPath>
+								<EditMode>EnterOnInput</EditMode>
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<MaxWidth>11</MaxWidth>
+								<ContextMenu name="ПолноеДеревоСебестоимостиДопРасходыКонтекстноеМеню" id="772"/>
+								<ExtendedTooltip name="ПолноеДеревоСебестоимостиДопРасходыРасширеннаяПодсказка" id="773"/>
+							</InputField>
+						</ChildItems>
+					</Table>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>
