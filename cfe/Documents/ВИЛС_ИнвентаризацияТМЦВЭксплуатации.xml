@@ -182,7 +182,7 @@
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
 			<DefaultObjectForm>Document.ВИЛС_ИнвентаризацияТМЦВЭксплуатации.Form.ФормаДокумента</DefaultObjectForm>
-			<DefaultListForm/>
+			<DefaultListForm>Document.ВИЛС_ИнвентаризацияТМЦВЭксплуатации.Form.ФормаСписка</DefaultListForm>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
 			<AuxiliaryListForm/>
@@ -445,6 +445,7 @@
 				</Properties>
 			</Attribute>
 			<Form>ФормаДокумента</Form>
+			<Form>ФормаСписка</Form>
 			<TabularSection uuid="4821b534-7fe9-4d71-b74a-578c528692e0">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ВИЛС_ИнвентаризацияТМЦВЭксплуатации.Товары" category="TabularSection">
@@ -741,25 +742,7 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-			<Template>Печать</Template>
-			<Command uuid="67cd08e0-d941-4a6e-be53-d6bf87ae5145">
-				<Properties>
-					<Name>Печать</Name>
-					<Synonym/>
-					<Comment/>
-					<Group>FormCommandBarImportant</Group>
-					<CommandParameterType>
-						<v8:Type>cfg:DocumentRef.ВИЛС_ИнвентаризацияТМЦВЭксплуатации</v8:Type>
-					</CommandParameterType>
-					<ParameterUseMode>Multiple</ParameterUseMode>
-					<ModifiesData>false</ModifiesData>
-					<Representation>Auto</Representation>
-					<ToolTip/>
-					<Picture/>
-					<Shortcut/>
-					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
-				</Properties>
-			</Command>
+			<Template>ПФ_MXL_ИнвентаризацияТМЦВЭксплуатации</Template>
 		</ChildObjects>
 	</Document>
 </MetaDataObject>
