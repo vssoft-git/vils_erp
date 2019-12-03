@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>f04ec421-f972-4b62-bde1-a1c82ce4d1b7</xr:ObjectId>
+				<xr:ObjectId>df05b631-a122-45cb-a122-21639c35d337</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -277,6 +277,7 @@
 			<CommonModule>ОбеспечениеСервер</CommonModule>
 			<CommonModule>ДоставкаТоваров</CommonModule>
 			<CommonModule>УниверсальныеМеханизмыПартийИСебестоимости</CommonModule>
+			<CommonModule>УправлениеПечатьюУТСервер</CommonModule>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>ИспользоватьПодключаемоеОборудование</FunctionalOption>
 			<FunctionalOption>ИспользоватьПоступлениеПоНесколькимЗаказам</FunctionalOption>
@@ -595,6 +596,7 @@
 			<Document>ПрочееОприходованиеТоваров</Document>
 			<Document>ЗаказНаВнутреннееПотребление</Document>
 			<Document>СчетФактураПолученный</Document>
+			<Document>ИнвентаризационнаяОпись</Document>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
 			<Enum>ПорядокОплатыПоСоглашениям</Enum>
 			<Enum>ХозяйственныеОперации</Enum>
@@ -679,6 +681,7 @@
 			<DataProcessor>ПечатьЗаказовНаТоварыУслуги</DataProcessor>
 			<DataProcessor>СостояниеОбеспечения</DataProcessor>
 			<DataProcessor>РаботаСФайлами</DataProcessor>
+			<DataProcessor>ПечатьИНВ3</DataProcessor>
 			<InformationRegister>НаличиеФайлов</InformationRegister>
 			<InformationRegister>РеестрДокументов</InformationRegister>
 			<InformationRegister>ГрафикПлатежей</InformationRegister>
