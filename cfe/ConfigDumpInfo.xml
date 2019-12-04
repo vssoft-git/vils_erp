@@ -571,7 +571,7 @@
 		<Metadata name="CommonPicture.ЭмблемаСервиса1СЭДО" id="51d79fec-ce06-4111-8cd7-7fe7b646048f" configVersion="c9af69255a3b0fb54cc14e46ef6130e667e50982"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов" id="6f8a616a-05f9-4a26-b137-ffe08a2de753" configVersion="c608bfe3b6a128f415f6c474a7d439715aa46ea6"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов.Template" id="6f8a616a-05f9-4a26-b137-ffe08a2de753.0" configVersion="7c10b1f0883f7212773cc7afbcae6f416b288240"/>
-		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="4a1cf0dd6e067b14205e899d6989b162c969d5f9"/>
+		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="3484620e74b22798489efa72267c6b053b428305"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="2d3d01ef-e545-4150-a6c6-5d7520ca086c" configVersion="ffbf25b1ccd42c35ee4ef2dc7390091df9f1a092"/>
 		<Metadata name="Constant.ИспользоватьБизнесРегионы" id="ab04cdcb-dc48-4252-9bb5-efc0097f0d24" configVersion="2a1a73d70e7a4e41f4f6f6420a92e7ceb98c7ec1"/>
 		<Metadata name="Constant.ИспользоватьГруппыДоступаПартнеров" id="91cb9a25-f41e-4571-801d-6947e8356d60" configVersion="66cb4cdf60f65d71350cb185af2b0703bc96ff12"/>
@@ -1145,6 +1145,9 @@
 		<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.ObjectModule" id="50b59e2f-24fe-4e4b-b5f0-1d483cb921fb.0" configVersion="6759adfd415600725bf3d65c2d94adb53bc288a5"/>
 		<Metadata name="Document.ЗаявлениеСотрудникаНаВыплатуПособия" id="aa61b7b9-c4fa-492b-925f-7c10f2788e6b" configVersion="3b772fd26ac1e62db8527f3ab1b072559776ed9d"/>
 		<Metadata name="Document.ИнвентаризационнаяОпись" id="ad20b97a-7f28-48b2-bcfc-585f890dc5da" configVersion="b17d238a399b9f05989fb664f4a5222d9b87b206"/>
+		<Metadata name="Document.ИнвентаризацияОС" id="7b860101-8c44-4ae7-8925-c98a99846e78" configVersion="a3c3bb5bd6da220f20a2b25d1f53b2469514785a"/>
+		<Metadata name="Document.ИнвентаризацияОС.Form.ФормаДокумента" id="35540cec-539d-4758-8025-95fbcbf37591" configVersion="9a1e0cad369997e3e6de14b470e61267cc7c3627"/>
+		<Metadata name="Document.ИнвентаризацияОС.Form.ФормаДокумента.Form" id="35540cec-539d-4758-8025-95fbcbf37591.0" configVersion="3c827b553c0ca5fd05c62cec874a9fdfe2ff22f7"/>
 		<Metadata name="Document.ИнвентаризацияРасчетов" id="e543d2ae-c86b-4cce-a89f-4f5dcbb7d0cb" configVersion="d86cb7b7c81af8bf759b46d93e83aace5513fbf0">
 			<Metadata name="Document.ИнвентаризацияРасчетов.TabularSection.Задолженность.Attribute.НеПодтверждено" id="0c76f4d3-ac9c-426b-8209-9285dec57601"/>
 			<Metadata name="Document.ИнвентаризацияРасчетов.TabularSection.Задолженность.Attribute.ВИЛС_Подтверждено1Месяц" id="127a1e0d-4557-4b61-8177-8a8d10bc683c"/>
@@ -1965,7 +1968,7 @@
 			<Metadata name="Enum.ФормыОплаты.EnumValue.Наличная" id="4af296aa-fa37-4219-9428-33dea0d55b1a"/>
 			<Metadata name="Enum.ФормыОплаты.EnumValue.Безналичная" id="9a057e42-20c1-4c79-9e43-0fb4dd4d13d4"/>
 		</Metadata>
-		<Metadata name="Enum.ХозяйственныеОперации" id="1febf887-f650-49d3-bf7e-c6ce48788985" configVersion="b6d8bdc34e5b4b69b4db9464650d7dda32524b8d">
+		<Metadata name="Enum.ХозяйственныеОперации" id="1febf887-f650-49d3-bf7e-c6ce48788985" configVersion="62f2d720bf4e38064e7b44a56ed35202550f155d">
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.РеализацияБезПереходаПраваСобственности" id="00973d75-c635-44e2-8aeb-d2948bb2096e"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВыплатаЗарплатыЧерезКассу" id="0131bb5c-3dca-449c-95eb-7bb0925019be"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ЗакупкаЧерезПодотчетноеЛицо" id="02df4439-02da-4023-8203-c813bc2917ca"/>
@@ -1976,6 +1979,7 @@
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ОплатаЛизингодателю" id="2ea6e6fa-c4ed-4294-8172-da9db667e1b8"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПеремещениеТоваров" id="2f6e0a66-e489-45b2-acb1-29f4967a6b17"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.СнятиеНаличныхДенежныхСредств" id="2f92a318-1a83-496b-9ec5-380b179bb0e2"/>
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ИнвентаризацияНезавершенногоСтроительства" id="2fb124fe-6db4-4c33-8466-d15eb532f500"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ЗакупкаПоИмпортуТоварыВПути" id="3392a10f-f973-4ce5-9968-08e38f059c85"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПрочееПоступлениеДенежныхСредств" id="3e26a9cf-e402-49d0-b37b-99d5a2971581"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПоступлениеДенежныхСредствСДругогоСчета" id="4d052fcf-0b0e-4ff7-ad82-3a837653116c"/>
@@ -1983,6 +1987,7 @@
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ОплатаПоКредитам" id="4edb7d64-bc14-4856-8886-1f21b537390a"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВыдачаЗаймаСотруднику" id="501016a5-c857-4579-9f66-4393383093c1"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ЗакупкаВСтранахЕАЭСФактуровкаПоставки" id="522a6fe8-ae12-4439-ac53-12addf672316"/>
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ИнвентаризацияОС" id="54d76709-741f-4b43-a947-c1c6ebe1924b"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВозвратДенежныхСредствОтДругойОрганизации" id="5bbc37d0-f58b-498c-a281-2347040edb7a"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.РеализацияКлиенту" id="5be801e2-e40f-48d8-84dd-d7b5b750425a"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВыплатаЗарплатыПоЗарплатномуПроекту" id="5c7e0808-76ea-4852-ae67-950c8d5f1531"/>
@@ -2022,6 +2027,7 @@
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.КонвертацияВалюты" id="eccb6516-7fd0-4a6e-8e4c-6f421c8b404f"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ЗакупкаПоИмпорту" id="ee5495cd-ef66-4b60-bad9-3941c87a1dd8"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ПоступлениеДенежныхСредствИзБанка" id="f7d3258a-9a69-41ad-b3ee-f628d43f2a01"/>
+			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ИнвентаризацияВложенийВОС" id="f820374c-fa4d-49c3-a897-44bac5e8c0fd"/>
 			<Metadata name="Enum.ХозяйственныеОперации.EnumValue.ВозвратДенежныхСредствОтПодотчетника" id="f9aedad5-0477-4513-a579-4ef3d874456b"/>
 		</Metadata>
 		<Metadata name="Enum.ЮрФизЛицо" id="69876ca2-beed-4760-a084-e60360ec9a89" configVersion="ffc16cde9bd38823b0d64267e099b9d68c98753e"/>
