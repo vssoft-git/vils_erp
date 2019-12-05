@@ -28,6 +28,7 @@
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
 	<Events>
+		<Event name="OnOpen" callType="After">ВИЛС_ПриОткрытииПосле</Event>
 		<Event name="OnCreateAtServer" callType="Override">ВИЛС_ПриСозданииНаСервереВместо</Event>
 	</Events>
 	<ChildItems>
