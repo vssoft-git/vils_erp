@@ -50,9 +50,6 @@
 					<v8:content>Toller</v8:content>
 				</v8:item>
 			</title>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Номенклатура</dataPath>
@@ -75,6 +72,9 @@
 					<v8:content>In stock</v8:content>
 				</v8:item>
 			</title>
+			<useRestriction>
+				<group>true</group>
+			</useRestriction>
 			<appearance>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Формат</dcscor:parameter>
@@ -187,6 +187,9 @@
 					<v8:content>Demand</v8:content>
 				</v8:item>
 			</title>
+			<useRestriction>
+				<group>true</group>
+			</useRestriction>
 			<appearance>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Формат</dcscor:parameter>
@@ -232,6 +235,9 @@
 					<v8:content>In stock at the beginning</v8:content>
 				</v8:item>
 			</title>
+			<useRestriction>
+				<group>true</group>
+			</useRestriction>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ПериодСекунда</dataPath>
@@ -254,6 +260,9 @@
 					<v8:content>Ordered</v8:content>
 				</v8:item>
 			</title>
+			<useRestriction>
+				<group>true</group>
+			</useRestriction>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ОформленОтчет</dataPath>
@@ -1355,6 +1364,9 @@
 				<v8:content>Surplus/shortage</v8:content>
 			</v8:item>
 		</title>
+		<useRestriction>
+			<group>true</group>
+		</useRestriction>
 		<appearance>
 			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 				<dcscor:parameter>Формат</dcscor:parameter>
@@ -1373,30 +1385,78 @@
 				<dcscor:value xsi:type="xs:decimal">20</dcscor:value>
 			</dcscor:item>
 		</appearance>
+		<valueType>
+			<v8:Type>xs:decimal</v8:Type>
+			<v8:NumberQualifiers>
+				<v8:Digits>15</v8:Digits>
+				<v8:FractionDigits>3</v8:FractionDigits>
+				<v8:AllowedSign>Any</v8:AllowedSign>
+			</v8:NumberQualifiers>
+		</valueType>
 	</calculatedField>
 	<totalField>
 		<dataPath>ВНаличии</dataPath>
 		<expression>ВЫБОР КОГДА &amp;КоличественныеИтогиПоЕдИзм И Количество(Различные ЕдиницаОтчета) &gt; 1 ТОГДА
    0
-ИНАЧЕ
-    Сумма(ВНаличии)
+ ИНАЧЕ
+    Сумма(ЕСТЬNULL(ВНаличии,0)) 
 КОНЕЦ</expression>
+		<group>ЕдиницаДляОтчетов</group>
+		<group>ЕдиницаДляОтчетов Иерархия</group>
+		<group>ЕдиницаХранения</group>
+		<group>ЕдиницаХранения Иерархия</group>
+		<group>ЗаказПереработчику</group>
+		<group>Номенклатура</group>
+		<group>Номенклатура Иерархия</group>
+		<group>Номенклатура.ЕдиницаИзмерения</group>
+		<group>Переработчик</group>
+		<group>Переработчик Иерархия</group>
+		<group>ПериодДень</group>
+		<group>ПериодСекунда</group>
+		<group>Регистратор</group>
+		<group>ТипИсточника</group>
+		<group>Характеристика</group>
+		<group>ОбщийИтог</group>
 	</totalField>
 	<totalField>
 		<dataPath>Потребность</dataPath>
 		<expression>ВЫБОР КОГДА &amp;КоличественныеИтогиПоЕдИзм И Количество(Различные ЕдиницаОтчета) &gt; 1 ТОГДА
-   0
-ИНАЧЕ
-   Сумма(Потребность)
+ 0
+ ИНАЧЕ
+ Сумма(ЕСТЬNULL(Потребность,0)) 
 КОНЕЦ</expression>
+		<group>ЕдиницаДляОтчетов</group>
+		<group>ЕдиницаДляОтчетов Иерархия</group>
+		<group>ЕдиницаХранения</group>
+		<group>ЕдиницаХранения Иерархия</group>
+		<group>ЗаказПереработчику</group>
+		<group>Номенклатура</group>
+		<group>Номенклатура Иерархия</group>
+		<group>Номенклатура.ЕдиницаИзмерения</group>
+		<group>Переработчик</group>
+		<group>Переработчик Иерархия</group>
+		<group>ПериодДень</group>
+		<group>ПериодСекунда</group>
+		<group>Регистратор</group>
+		<group>ТипИсточника</group>
+		<group>Характеристика</group>
+		<group>ОбщийИтог</group>
 	</totalField>
 	<totalField>
 		<dataPath>ИзлишекДефицит</dataPath>
 		<expression>ВЫБОР КОГДА &amp;КоличественныеИтогиПоЕдИзм И Количество(Различные ЕдиницаОтчета) &gt; 1 ТОГДА
-   0
+ 0 
 ИНАЧЕ
-    Сумма(ВНаличии) - Сумма(Потребность)
-КОНЕЦ</expression>
+ Сумма(ЕСТЬNULL(ВНаличии,0)) - Сумма(ЕСТЬNULL(Потребность,0))
+ КОНЕЦ</expression>
+		<group>ЗаказПереработчику</group>
+		<group>Переработчик</group>
+		<group>Переработчик Иерархия</group>
+	</totalField>
+	<totalField>
+		<dataPath>ИзлишекДефицит</dataPath>
+		<expression>Сумма(0)</expression>
+		<group>Регистратор</group>
 	</totalField>
 	<parameter>
 		<name>Период</name>
