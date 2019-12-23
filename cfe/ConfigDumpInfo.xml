@@ -571,7 +571,7 @@
 		<Metadata name="CommonPicture.ЭмблемаСервиса1СЭДО" id="51d79fec-ce06-4111-8cd7-7fe7b646048f" configVersion="c9af69255a3b0fb54cc14e46ef6130e667e50982"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов" id="6f8a616a-05f9-4a26-b137-ffe08a2de753" configVersion="c608bfe3b6a128f415f6c474a7d439715aa46ea6"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов.Template" id="6f8a616a-05f9-4a26-b137-ffe08a2de753.0" configVersion="7c10b1f0883f7212773cc7afbcae6f416b288240"/>
-		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="d0c6296048fa7e778c19ce25aac4d4f7c02724b6"/>
+		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="c44f385b034502d3d89d2a60de8f2ef860b06b68"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="2d3d01ef-e545-4150-a6c6-5d7520ca086c" configVersion="ffbf25b1ccd42c35ee4ef2dc7390091df9f1a092"/>
 		<Metadata name="Constant.ИспользоватьБизнесРегионы" id="ab04cdcb-dc48-4252-9bb5-efc0097f0d24" configVersion="2a1a73d70e7a4e41f4f6f6420a92e7ceb98c7ec1"/>
 		<Metadata name="Constant.ИспользоватьГруппыДоступаПартнеров" id="91cb9a25-f41e-4571-801d-6947e8356d60" configVersion="66cb4cdf60f65d71350cb185af2b0703bc96ff12"/>
@@ -1461,6 +1461,12 @@
 			<Metadata name="Document.РаспоряжениеНаПеремещениеДенежныхСредств.Attribute.ХозяйственнаяОперация" id="6e22edf3-bc75-4fdd-bbc3-1460dc5002c7"/>
 			<Metadata name="Document.РаспоряжениеНаПеремещениеДенежныхСредств.Attribute.Статус" id="b4774945-c2fb-48c1-a265-c0ef03e7067d"/>
 		</Metadata>
+		<Metadata name="Document.РаспределениеПроизводственныхЗатрат" id="3674f8d8-de9b-4f3d-8da5-d3e445e76954" configVersion="c75100128160d540d45b7ff76a36b6825887c79f"/>
+		<Metadata name="Document.РаспределениеПроизводственныхЗатрат.Form.ФормаРаспределениеМатериаловИРабот" id="1b0db98d-c9f9-45f6-a8e3-f6f2d8c6f56a" configVersion="bd87e923d887e74263f8212c621c86a7f37bcf6e"/>
+		<Metadata name="Document.РаспределениеПроизводственныхЗатрат.Form.ФормаРаспределениеМатериаловИРабот.Form" id="1b0db98d-c9f9-45f6-a8e3-f6f2d8c6f56a.0" configVersion="b1dfce7c342058a5f61e9682b947e51d04403287"/>
+		<Metadata name="Document.РаспределениеПроизводственныхЗатрат.ManagerModule" id="3674f8d8-de9b-4f3d-8da5-d3e445e76954.2" configVersion="c535f36bc7d435f6b994bce1b2737eee3e1184cf"/>
+		<Metadata name="Document.РаспределениеПроизводственныхЗатрат.Template.ПФ_MXL_АктИнвентаризацииМатериаловИПолуфабрикатов2_2_ВИЛС" id="b38a2923-634c-49ce-9b54-6e95b301c619" configVersion="7490841d0af3b4a42cf1a78c2768a03d6e8e0937"/>
+		<Metadata name="Document.РаспределениеПроизводственныхЗатрат.Template.ПФ_MXL_АктИнвентаризацииМатериаловИПолуфабрикатов2_2_ВИЛС.Template" id="b38a2923-634c-49ce-9b54-6e95b301c619.0" configVersion="a1ae75f7cc448eb847f7cf6ba97cff187aaa404e"/>
 		<Metadata name="Document.РасходныйКассовыйОрдер" id="30da88cb-bfc3-4f3a-b8c3-d191598224b4" configVersion="671b67ecb2046de4320f9ec73d0cbc43b5b36b16"/>
 		<Metadata name="Document.РеализацияТоваровУслуг" id="4313406b-e158-47ea-8bfb-46414716bc17" configVersion="681a5c8ab1988c976d51b09fdeebae92758a6797">
 			<Metadata name="Document.РеализацияТоваровУслуг.TabularSection.Товары.Attribute.СрокПоставки" id="08185875-c0c1-4676-b3c8-7eb91751700f"/>

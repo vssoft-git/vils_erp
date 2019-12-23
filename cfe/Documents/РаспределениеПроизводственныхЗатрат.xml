@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="3674f8d8-de9b-4f3d-8da5-d3e445e76954">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.РаспределениеПроизводственныхЗатрат" category="Object">
+				<xr:TypeId>e681142f-f937-4b1b-8912-41774db9a052</xr:TypeId>
+				<xr:ValueId>15f041fb-2444-41ea-8da7-232268242377</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.РаспределениеПроизводственныхЗатрат" category="Ref">
+				<xr:TypeId>ccf740aa-af6d-49ce-9e15-42a66d8fad54</xr:TypeId>
+				<xr:ValueId>552db3ec-d624-4525-8432-ed8ea883fdde</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.РаспределениеПроизводственныхЗатрат" category="Selection">
+				<xr:TypeId>df9da872-3c9d-44e3-aec5-8cc85b6e4da2</xr:TypeId>
+				<xr:ValueId>65d4eaf6-ee38-4764-a421-5d6ade089e4c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.РаспределениеПроизводственныхЗатрат" category="List">
+				<xr:TypeId>ac47ca71-fd89-4415-b052-3dd00e136ecc</xr:TypeId>
+				<xr:ValueId>566a3bb5-7523-4572-84e0-6137963c82d7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.РаспределениеПроизводственныхЗатрат" category="Manager">
+				<xr:TypeId>1ef14499-c717-4516-ba3d-6986fe185a28</xr:TypeId>
+				<xr:ValueId>ff44b178-14b4-4286-a583-e43f8b0be508</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РаспределениеПроизводственныхЗатрат</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>7ecdbd0d-7dbf-443d-af41-e9cde537fb1b</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаРаспределениеМатериаловИРабот</Form>
+			<Template>ПФ_MXL_АктИнвентаризацииМатериаловИПолуфабрикатов2_2_ВИЛС</Template>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>
