@@ -190,6 +190,9 @@
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer" callType="After">ВИЛС_ПриСозданииНаСервереПосле</Event>
+	</Events>
 	<ChildItems>
 		<Pages name="ГруппаСтраницы" id="233">
 			<Title>
