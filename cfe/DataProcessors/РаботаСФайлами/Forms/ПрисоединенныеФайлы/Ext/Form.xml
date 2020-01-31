@@ -526,6 +526,9 @@
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer" callType="Before">ВИЛС_ПриСозданииНаСервереПеред</Event>
+	</Events>
 	<ChildItems>
 		<LabelField name="ВладелецФайла" id="280">
 			<DataPath>9</DataPath>
