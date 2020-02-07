@@ -411,14 +411,14 @@
 		<Metadata name="CommonModule.РаспределениеРасходовБудущихПериодовЛокализация.Module" id="caf51d38-8e1b-4462-a522-e12751dd426f.0" configVersion="cfd98fe68f459515fa0b2325eb630ff87c92dac9"/>
 		<Metadata name="CommonModule.РасчетСебестоимости" id="92f00b72-e134-43cc-b3c8-b56f10227779" configVersion="ec956cf3f426236f6b6b23a91e5e04f7a137f097"/>
 		<Metadata name="CommonModule.РасчетСебестоимости.Module" id="92f00b72-e134-43cc-b3c8-b56f10227779.0" configVersion="154b4b42735b79ab682957aba0770e3d8691dc1c"/>
+		<Metadata name="CommonModule.РасчетСебестоимостиПрикладныеАлгоритмы" id="7b98d8cb-9a39-4131-8e93-ec42c1fc4335" configVersion="e2d54c6b0401f556af35a3aabffc4332d8061a5a"/>
+		<Metadata name="CommonModule.РасчетСебестоимостиПрикладныеАлгоритмы.Module" id="7b98d8cb-9a39-4131-8e93-ec42c1fc4335.0" configVersion="4a5b20dd00df425953e2202867dcef746fcb6b7d"/>
 		<Metadata name="CommonModule.РеализацияТоваровУслугЛокализация" id="1ec9b0f2-878a-4ddd-aef0-41f9bc971152" configVersion="f7a2c1f516634f958fd965c0bd0b9a9dc76993f1"/>
 		<Metadata name="CommonModule.РеализацияТоваровУслугЛокализация.Module" id="1ec9b0f2-878a-4ddd-aef0-41f9bc971152.0" configVersion="4ce51e686cfebde9879ac049f054182eb7a2ced1"/>
 		<Metadata name="CommonModule.РеализацияУслугПрочихАктивовЛокализация" id="14695141-4d3a-4ab6-b337-bec190629481" configVersion="8bf6ce58f4ccded2caadddf8228f7063aa30236b"/>
 		<Metadata name="CommonModule.РеализацияУслугПрочихАктивовЛокализация.Module" id="14695141-4d3a-4ab6-b337-bec190629481.0" configVersion="9ffed4537c6a2e22f7fd43509208adeb9455e7d2"/>
 		<Metadata name="CommonModule.СотрудникиФормыРасширенный" id="f332ddb5-feca-4a64-8125-ec7a1765101f" configVersion="214983f075ebd7893898239a4ae0e02dc8185fad"/>
 		<Metadata name="CommonModule.СотрудникиФормыРасширенный.Module" id="f332ddb5-feca-4a64-8125-ec7a1765101f.0" configVersion="84c6acea15d531c76b2fa1c845eb5f3565a2f937"/>
-		<Metadata name="CommonModule.УниверсальныеМеханизмыПартийИСебестоимости" id="7b98d8cb-9a39-4131-8e93-ec42c1fc4335" configVersion="c5ad8a9268a7d07580d7346e9bc737af420f8a7a"/>
-		<Metadata name="CommonModule.УниверсальныеМеханизмыПартийИСебестоимости.Module" id="7b98d8cb-9a39-4131-8e93-ec42c1fc4335.0" configVersion="4a5b20dd00df425953e2202867dcef746fcb6b7d"/>
 		<Metadata name="CommonModule.УправлениеКолонтитулами" id="516047e0-3366-4b6c-8554-7dea1bda133b" configVersion="eae29f508f2cbf67011c5ddc40001c45a5bb893b"/>
 		<Metadata name="CommonModule.УправлениеКолонтитулами.Module" id="516047e0-3366-4b6c-8554-7dea1bda133b.0" configVersion="20e8cb68e5843cfeed43a9a2c83c908c8aa3504c"/>
 		<Metadata name="CommonModule.УправлениеКонтактнойИнформацией" id="9b596058-8f9c-4365-8531-5ee917c74ab2" configVersion="fc6acb192204c4578b2229490769df1526391952"/>
@@ -1939,8 +1939,8 @@
 			<Metadata name="Enum.ТипыИсполнителейЗаданийНаПеревозку.EnumValue.НашаТранспортнаяСлужба" id="0ce4dbc7-2175-4543-97e3-f124795183f6"/>
 			<Metadata name="Enum.ТипыИсполнителейЗаданийНаПеревозку.EnumValue.Перевозчик" id="362f7d0e-64f7-4a1b-bbb0-4a9d96391a28"/>
 		</Metadata>
-		<Metadata name="Enum.ТипыКомиссииЗаБанковскиеПереводы" id="2d99a6c9-05a8-48e7-b7e9-10176a305a56" configVersion="03f2cf6f259be8e721e379a88ca4296090d39e44">
-			<Metadata name="Enum.ТипыКомиссииЗаБанковскиеПереводы.EnumValue.SNA" id="b6e69987-f2c7-4c3a-9dea-78b01a55bcb5"/>
+		<Metadata name="Enum.ТипыКомиссииЗаБанковскиеПереводы" id="2d99a6c9-05a8-48e7-b7e9-10176a305a56" configVersion="bfa6d8aef93998e448ba2f56540ff9c4d805dde2">
+			<Metadata name="Enum.ТипыКомиссииЗаБанковскиеПереводы.EnumValue.SHA" id="b6e69987-f2c7-4c3a-9dea-78b01a55bcb5"/>
 			<Metadata name="Enum.ТипыКомиссииЗаБанковскиеПереводы.EnumValue.BEN" id="be0153e9-aa7a-43ed-98e4-bc2a673f37f6"/>
 			<Metadata name="Enum.ТипыКомиссииЗаБанковскиеПереводы.EnumValue.OUR" id="e2c60909-a437-41c4-aec6-e622bf939406"/>
 		</Metadata>
