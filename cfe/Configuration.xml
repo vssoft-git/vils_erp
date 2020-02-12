@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>92573689-e0c4-43e5-bff9-2e41abe07694</xr:ObjectId>
+				<xr:ObjectId>f75ed30e-b444-4eaf-9ab1-bc4d55148b9a</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -249,6 +249,7 @@
 			<CommonModule>КадровыйУчет</CommonModule>
 			<CommonModule>КадровыйУчетБазовый</CommonModule>
 			<CommonModule>КадровыйУчетРасширенный</CommonModule>
+			<CommonModule>МодификацияКонфигурацииПереопределяемый</CommonModule>
 			<CommonModule>ОбеспечениеСервер</CommonModule>
 			<CommonModule>ОбменСБанкамиПоЗарплатнымПроектамПереопределяемый</CommonModule>
 			<CommonModule>ОбщегоНазначения</CommonModule>
@@ -664,6 +665,7 @@
 			<Enum>ТипыИсполнителейЗаданийНаПеревозку</Enum>
 			<Enum>СтатусыЗаданийНаПеревозку</Enum>
 			<Enum>ВидыДоставки</Enum>
+			<Enum>ПорядокРегистрацииСчетовФактурНаАванс</Enum>
 			<Report>ВИЛС_ВедомостьДокументовПоступлений</Report>
 			<Report>ВИЛС_ВыпускПродукцииПоОтпускнойСтоимости</Report>
 			<Report>ИсполнениеКонтрактовГОЗ</Report>
@@ -672,6 +674,7 @@
 			<Report>ДеревоСебестоимостиПродукции</Report>
 			<Report>СостояниеВыполненияДокументов</Report>
 			<Report>ВИЛС_ОстаткиТоваровПереданныхПереработчикам</Report>
+			<Report>ВИЛС_ВедомостьПоДенежнымСредствам</Report>
 			<DataProcessor>ПодборСерийВДокументы</DataProcessor>
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
