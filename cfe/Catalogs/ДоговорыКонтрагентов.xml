@@ -856,17 +856,6 @@
 					<ObjectBelonging>Adopted</ObjectBelonging>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="d8d33e3e-93dc-4b2b-b678-722388405fd4">
-						<InternalInfo/>
-						<Properties>
-							<Name>Свойство</Name>
-							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
-							<Type>
-								<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
-							</Type>
-						</Properties>
-					</Attribute>
 					<Attribute uuid="f3e346d5-abf2-4cde-ac01-bf3f86f9f92c">
 						<InternalInfo/>
 						<Properties>
@@ -879,17 +868,6 @@
 									<v8:Length>0</v8:Length>
 									<v8:AllowedLength>Variable</v8:AllowedLength>
 								</v8:StringQualifiers>
-							</Type>
-						</Properties>
-					</Attribute>
-					<Attribute uuid="45fb86ee-b678-43a7-9e1a-fb3ee8c2e47c">
-						<InternalInfo/>
-						<Properties>
-							<Name>Значение</Name>
-							<Comment/>
-							<ObjectBelonging>Adopted</ObjectBelonging>
-							<Type>
-								<v8:TypeSet>cfg:Characteristic.ДополнительныеРеквизитыИСведения</v8:TypeSet>
 							</Type>
 						</Properties>
 					</Attribute>

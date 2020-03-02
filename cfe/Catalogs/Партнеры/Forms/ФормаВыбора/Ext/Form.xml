@@ -249,7 +249,7 @@
 									</SearchControlAddition>
 									<ChildItems>
 										<PictureField name="ЕстьОшибкиПроверкаКонтрагентов" id="414">
-											<DataPath>Список.НомерКартинкиСостояниеПроверки</DataPath>
+											<DataPath>~Список.НомерКартинкиСостояниеПроверки</DataPath>
 											<Visible>false</Visible>
 											<TitleLocation>None</TitleLocation>
 											<ToolTip>
@@ -271,13 +271,13 @@
 											<ExtendedTooltip name="ЕстьОшибкиПроверкаКонтрагентовРасширеннаяПодсказка" id="416"/>
 										</PictureField>
 										<LabelField name="Наименование" id="96">
-											<DataPath>Список.Description</DataPath>
+											<DataPath>~Список.Description~Список.Наименование</DataPath>
 											<Width>40</Width>
 											<ContextMenu name="НаименованиеКонтекстноеМеню" id="97"/>
 											<ExtendedTooltip name="НаименованиеExtendedTooltip" id="268"/>
 										</LabelField>
 										<LabelField name="БизнесРегион" id="92">
-											<DataPath>Список.БизнесРегион</DataPath>
+											<DataPath>~Список.БизнесРегион</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -288,13 +288,13 @@
 											<ExtendedTooltip name="БизнесРегионExtendedTooltip" id="269"/>
 										</LabelField>
 										<LabelField name="ДатаРегистрации" id="140">
-											<DataPath>Список.ДатаРегистрации</DataPath>
+											<DataPath>~Список.ДатаРегистрации</DataPath>
 											<Width>8</Width>
 											<ContextMenu name="ДатаРегистрацииКонтекстноеМеню" id="141"/>
 											<ExtendedTooltip name="ДатаРегистрацииExtendedTooltip" id="270"/>
 										</LabelField>
 										<InputField name="Код" id="75">
-											<DataPath>Список.Code</DataPath>
+											<DataPath>~Список.Code~Список.Код</DataPath>
 											<UserVisible>
 												<xr:Common>false</xr:Common>
 											</UserVisible>
@@ -303,13 +303,13 @@
 											<ExtendedTooltip name="КодExtendedTooltip" id="271"/>
 										</InputField>
 										<InputField name="ОсновнойМенеджер" id="51">
-											<DataPath>Список.ОсновнойМенеджер</DataPath>
+											<DataPath>~Список.ОсновнойМенеджер</DataPath>
 											<Wrap>false</Wrap>
 											<ContextMenu name="ОсновнойМенеджерКонтекстноеМеню" id="52"/>
 											<ExtendedTooltip name="ОсновнойМенеджерExtendedTooltip" id="272"/>
 										</InputField>
 										<CheckBoxField name="Клиент" id="57">
-											<DataPath>Список.Клиент</DataPath>
+											<DataPath>~Список.Клиент</DataPath>
 											<UserVisible>
 												<xr:Common>false</xr:Common>
 											</UserVisible>
@@ -318,7 +318,7 @@
 											<ExtendedTooltip name="КлиентExtendedTooltip" id="273"/>
 										</CheckBoxField>
 										<CheckBoxField name="Поставщик" id="61">
-											<DataPath>Список.Поставщик</DataPath>
+											<DataPath>~Список.Поставщик</DataPath>
 											<UserVisible>
 												<xr:Common>false</xr:Common>
 											</UserVisible>
@@ -327,7 +327,7 @@
 											<ExtendedTooltip name="ПоставщикExtendedTooltip" id="274"/>
 										</CheckBoxField>
 										<CheckBoxField name="Конкурент" id="59">
-											<DataPath>Список.Конкурент</DataPath>
+											<DataPath>~Список.Конкурент</DataPath>
 											<UserVisible>
 												<xr:Common>false</xr:Common>
 											</UserVisible>
@@ -336,7 +336,7 @@
 											<ExtendedTooltip name="КонкурентExtendedTooltip" id="275"/>
 										</CheckBoxField>
 										<CheckBoxField name="ПрочиеОтношения" id="63">
-											<DataPath>Список.ПрочиеОтношения</DataPath>
+											<DataPath>~Список.ПрочиеОтношения</DataPath>
 											<UserVisible>
 												<xr:Common>false</xr:Common>
 											</UserVisible>
@@ -345,7 +345,7 @@
 											<ExtendedTooltip name="ПрочиеОтношенияExtendedTooltip" id="276"/>
 										</CheckBoxField>
 										<LabelField name="Родитель" id="144">
-											<DataPath>Список.Parent</DataPath>
+											<DataPath>~Список.Parent~Список.Родитель</DataPath>
 											<UserVisible>
 												<xr:Common>false</xr:Common>
 											</UserVisible>
@@ -353,7 +353,7 @@
 											<ExtendedTooltip name="РодительExtendedTooltip" id="277"/>
 										</LabelField>
 										<LabelField name="ГруппаДоступа" id="146">
-											<DataPath>Список.ГруппаДоступа</DataPath>
+											<DataPath>~Список.ГруппаДоступа</DataPath>
 											<UserVisible>
 												<xr:Common>false</xr:Common>
 											</UserVisible>
@@ -361,14 +361,14 @@
 											<ExtendedTooltip name="ГруппаДоступаExtendedTooltip" id="278"/>
 										</LabelField>
 										<LabelField name="Комментарий" id="148">
-											<DataPath>Список.Комментарий</DataPath>
+											<DataPath>~Список.Комментарий</DataPath>
 											<Width>5</Width>
 											<Height>1</Height>
 											<ContextMenu name="КомментарийКонтекстноеМеню" id="149"/>
 											<ExtendedTooltip name="КомментарийExtendedTooltip" id="279"/>
 										</LabelField>
 										<LabelField name="ВидКонтрагента" id="389">
-											<DataPath>Список.ВидКонтрагента</DataPath>
+											<DataPath>~Список.ВидКонтрагента</DataPath>
 											<UserVisible>
 												<xr:Common>false</xr:Common>
 											</UserVisible>
@@ -382,7 +382,7 @@
 											<ExtendedTooltip name="ВидКонтрагентаРасширеннаяПодсказка" id="391"/>
 										</LabelField>
 										<LabelField name="ИНН" id="326">
-											<DataPath>Список.ИНН</DataPath>
+											<DataPath>~Список.ИНН</DataPath>
 											<UserVisible>
 												<xr:Common>false</xr:Common>
 											</UserVisible>
@@ -390,7 +390,7 @@
 											<ExtendedTooltip name="ИННРасширеннаяПодсказка" id="328"/>
 										</LabelField>
 										<LabelField name="КПП" id="332">
-											<DataPath>Список.КПП</DataPath>
+											<DataPath>~Список.КПП</DataPath>
 											<UserVisible>
 												<xr:Common>false</xr:Common>
 											</UserVisible>
@@ -398,7 +398,7 @@
 											<ExtendedTooltip name="КППРасширеннаяПодсказка" id="334"/>
 										</LabelField>
 										<LabelField name="КодПоОКПО" id="329">
-											<DataPath>Список.КодПоОКПО</DataPath>
+											<DataPath>~Список.КодПоОКПО</DataPath>
 											<UserVisible>
 												<xr:Common>false</xr:Common>
 											</UserVisible>
@@ -406,7 +406,7 @@
 											<ExtendedTooltip name="КодПоОКПОРасширеннаяПодсказка" id="331"/>
 										</LabelField>
 										<LabelField name="ГоловнойКонтрагент" id="392">
-											<DataPath>Список.ГоловнойКонтрагент</DataPath>
+											<DataPath>~Список.ГоловнойКонтрагент</DataPath>
 											<UserVisible>
 												<xr:Common>false</xr:Common>
 											</UserVisible>
@@ -420,7 +420,7 @@
 											<ExtendedTooltip name="ГоловнойКонтрагентРасширеннаяПодсказка" id="394"/>
 										</LabelField>
 										<LabelField name="Ссылка" id="321">
-											<DataPath>Список.Ref</DataPath>
+											<DataPath>~Список.Ref~Список.Ссылка</DataPath>
 											<UserVisible>
 												<xr:Common>false</xr:Common>
 											</UserVisible>
@@ -680,7 +680,7 @@
 						<Button name="ОтчетДосьеПартнера" id="174">
 							<Type>Hyperlink</Type>
 							<CommandName>0</CommandName>
-							<DataPath>Items.Список.CurrentData.Ref</DataPath>
+							<DataPath>~Items.Список.CurrentData.Ref~Items.Список.CurrentData.Ссылка</DataPath>
 							<ExtendedTooltip name="ОтчетДосьеПартнераExtendedTooltip" id="290"/>
 						</Button>
 						<UsualGroup name="ГруппаКонтрагентыПартнера" id="397">
@@ -1351,19 +1351,19 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
-				<Field>Список.Code</Field>
-				<Field>Список.Parent</Field>
-				<Field>Список.Ref</Field>
-				<Field>Список.БизнесРегион</Field>
-				<Field>Список.ГоловнойКонтрагент</Field>
-				<Field>Список.ДатаРегистрации</Field>
-				<Field>Список.Клиент</Field>
-				<Field>Список.КлиентИлиПоставщик</Field>
-				<Field>Список.Конкурент</Field>
-				<Field>Список.ОбособленноеПодразделение</Field>
-				<Field>Список.ОсновнойМенеджер</Field>
-				<Field>Список.Поставщик</Field>
-				<Field>Список.ПрочиеОтношения</Field>
+				<Field>~Список.Code~Список.Код</Field>
+				<Field>~Список.Parent~Список.Родитель</Field>
+				<Field>~Список.Ref~Список.Ссылка</Field>
+				<Field>~Список.БизнесРегион</Field>
+				<Field>~Список.ГоловнойКонтрагент</Field>
+				<Field>~Список.ДатаРегистрации</Field>
+				<Field>~Список.Клиент</Field>
+				<Field>~Список.КлиентИлиПоставщик</Field>
+				<Field>~Список.Конкурент</Field>
+				<Field>~Список.ОбособленноеПодразделение</Field>
+				<Field>~Список.ОсновнойМенеджер</Field>
+				<Field>~Список.Поставщик</Field>
+				<Field>~Список.ПрочиеОтношения</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
@@ -1730,8 +1730,8 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
 				<v8:Type>xs:string</v8:Type>
+				<v8:TypeId>92b050f8-4a94-4d52-a162-4fbce7b4e8c1</v8:TypeId>
 				<v8:StringQualifiers>
 					<v8:Length>20</v8:Length>
 					<v8:AllowedLength>Variable</v8:AllowedLength>
@@ -2027,8 +2027,8 @@
 						</v8:item>
 					</Title>
 					<Type>
-						<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
 						<v8:Type>xs:string</v8:Type>
+						<v8:TypeId>92b050f8-4a94-4d52-a162-4fbce7b4e8c1</v8:TypeId>
 						<v8:StringQualifiers>
 							<v8:Length>0</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
@@ -2072,7 +2072,7 @@
 						</v8:item>
 					</Title>
 					<Type>
-						<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
+						<v8:TypeId>92b050f8-4a94-4d52-a162-4fbce7b4e8c1</v8:TypeId>
 					</Type>
 				</Column>
 				<Column name="ЭтоРеквизит" id="3">
@@ -2111,8 +2111,8 @@
 				</v8:item>
 			</Title>
 			<Type>
-				<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
 				<v8:Type>xs:string</v8:Type>
+				<v8:TypeId>92b050f8-4a94-4d52-a162-4fbce7b4e8c1</v8:TypeId>
 				<v8:StringQualifiers>
 					<v8:Length>30</v8:Length>
 					<v8:AllowedLength>Variable</v8:AllowedLength>
@@ -2227,8 +2227,8 @@
 						</v8:item>
 					</Title>
 					<Type>
-						<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
 						<v8:Type>xs:string</v8:Type>
+						<v8:TypeId>92b050f8-4a94-4d52-a162-4fbce7b4e8c1</v8:TypeId>
 						<v8:StringQualifiers>
 							<v8:Length>50</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
@@ -2668,7 +2668,7 @@
 										</SearchControlAddition>
 										<ChildItems>
 											<PictureField name="ЕстьОшибкиПроверкаКонтрагентов" id="414">
-												<DataPath>Список.НомерКартинкиСостояниеПроверки</DataPath>
+												<DataPath>~Список.НомерКартинкиСостояниеПроверки</DataPath>
 												<Visible>false</Visible>
 												<TitleLocation>None</TitleLocation>
 												<ToolTip>
@@ -2690,13 +2690,13 @@
 												<ExtendedTooltip name="ЕстьОшибкиПроверкаКонтрагентовРасширеннаяПодсказка" id="416"/>
 											</PictureField>
 											<LabelField name="Наименование" id="96">
-												<DataPath>Список.Description</DataPath>
+												<DataPath>~Список.Description~Список.Наименование</DataPath>
 												<Width>40</Width>
 												<ContextMenu name="НаименованиеКонтекстноеМеню" id="97"/>
 												<ExtendedTooltip name="НаименованиеExtendedTooltip" id="268"/>
 											</LabelField>
 											<LabelField name="БизнесРегион" id="92">
-												<DataPath>Список.БизнесРегион</DataPath>
+												<DataPath>~Список.БизнесРегион</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2707,13 +2707,13 @@
 												<ExtendedTooltip name="БизнесРегионExtendedTooltip" id="269"/>
 											</LabelField>
 											<LabelField name="ДатаРегистрации" id="140">
-												<DataPath>Список.ДатаРегистрации</DataPath>
+												<DataPath>~Список.ДатаРегистрации</DataPath>
 												<Width>8</Width>
 												<ContextMenu name="ДатаРегистрацииКонтекстноеМеню" id="141"/>
 												<ExtendedTooltip name="ДатаРегистрацииExtendedTooltip" id="270"/>
 											</LabelField>
 											<InputField name="Код" id="75">
-												<DataPath>Список.Code</DataPath>
+												<DataPath>~Список.Code~Список.Код</DataPath>
 												<UserVisible>
 													<xr:Common>false</xr:Common>
 												</UserVisible>
@@ -2722,13 +2722,13 @@
 												<ExtendedTooltip name="КодExtendedTooltip" id="271"/>
 											</InputField>
 											<InputField name="ОсновнойМенеджер" id="51">
-												<DataPath>Список.ОсновнойМенеджер</DataPath>
+												<DataPath>~Список.ОсновнойМенеджер</DataPath>
 												<Wrap>false</Wrap>
 												<ContextMenu name="ОсновнойМенеджерКонтекстноеМеню" id="52"/>
 												<ExtendedTooltip name="ОсновнойМенеджерExtendedTooltip" id="272"/>
 											</InputField>
 											<CheckBoxField name="Клиент" id="57">
-												<DataPath>Список.Клиент</DataPath>
+												<DataPath>~Список.Клиент</DataPath>
 												<UserVisible>
 													<xr:Common>false</xr:Common>
 												</UserVisible>
@@ -2737,7 +2737,7 @@
 												<ExtendedTooltip name="КлиентExtendedTooltip" id="273"/>
 											</CheckBoxField>
 											<CheckBoxField name="Поставщик" id="61">
-												<DataPath>Список.Поставщик</DataPath>
+												<DataPath>~Список.Поставщик</DataPath>
 												<UserVisible>
 													<xr:Common>false</xr:Common>
 												</UserVisible>
@@ -2746,7 +2746,7 @@
 												<ExtendedTooltip name="ПоставщикExtendedTooltip" id="274"/>
 											</CheckBoxField>
 											<CheckBoxField name="Конкурент" id="59">
-												<DataPath>Список.Конкурент</DataPath>
+												<DataPath>~Список.Конкурент</DataPath>
 												<UserVisible>
 													<xr:Common>false</xr:Common>
 												</UserVisible>
@@ -2755,7 +2755,7 @@
 												<ExtendedTooltip name="КонкурентExtendedTooltip" id="275"/>
 											</CheckBoxField>
 											<CheckBoxField name="ПрочиеОтношения" id="63">
-												<DataPath>Список.ПрочиеОтношения</DataPath>
+												<DataPath>~Список.ПрочиеОтношения</DataPath>
 												<UserVisible>
 													<xr:Common>false</xr:Common>
 												</UserVisible>
@@ -2764,7 +2764,7 @@
 												<ExtendedTooltip name="ПрочиеОтношенияExtendedTooltip" id="276"/>
 											</CheckBoxField>
 											<LabelField name="Родитель" id="144">
-												<DataPath>Список.Parent</DataPath>
+												<DataPath>~Список.Parent~Список.Родитель</DataPath>
 												<UserVisible>
 													<xr:Common>false</xr:Common>
 												</UserVisible>
@@ -2772,7 +2772,7 @@
 												<ExtendedTooltip name="РодительExtendedTooltip" id="277"/>
 											</LabelField>
 											<LabelField name="ГруппаДоступа" id="146">
-												<DataPath>Список.ГруппаДоступа</DataPath>
+												<DataPath>~Список.ГруппаДоступа</DataPath>
 												<UserVisible>
 													<xr:Common>false</xr:Common>
 												</UserVisible>
@@ -2780,14 +2780,14 @@
 												<ExtendedTooltip name="ГруппаДоступаExtendedTooltip" id="278"/>
 											</LabelField>
 											<LabelField name="Комментарий" id="148">
-												<DataPath>Список.Комментарий</DataPath>
+												<DataPath>~Список.Комментарий</DataPath>
 												<Width>5</Width>
 												<Height>1</Height>
 												<ContextMenu name="КомментарийКонтекстноеМеню" id="149"/>
 												<ExtendedTooltip name="КомментарийExtendedTooltip" id="279"/>
 											</LabelField>
 											<LabelField name="ВидКонтрагента" id="389">
-												<DataPath>Список.ВидКонтрагента</DataPath>
+												<DataPath>~Список.ВидКонтрагента</DataPath>
 												<UserVisible>
 													<xr:Common>false</xr:Common>
 												</UserVisible>
@@ -2801,7 +2801,7 @@
 												<ExtendedTooltip name="ВидКонтрагентаРасширеннаяПодсказка" id="391"/>
 											</LabelField>
 											<LabelField name="ИНН" id="326">
-												<DataPath>Список.ИНН</DataPath>
+												<DataPath>~Список.ИНН</DataPath>
 												<UserVisible>
 													<xr:Common>false</xr:Common>
 												</UserVisible>
@@ -2809,7 +2809,7 @@
 												<ExtendedTooltip name="ИННРасширеннаяПодсказка" id="328"/>
 											</LabelField>
 											<LabelField name="КПП" id="332">
-												<DataPath>Список.КПП</DataPath>
+												<DataPath>~Список.КПП</DataPath>
 												<UserVisible>
 													<xr:Common>false</xr:Common>
 												</UserVisible>
@@ -2817,7 +2817,7 @@
 												<ExtendedTooltip name="КППРасширеннаяПодсказка" id="334"/>
 											</LabelField>
 											<LabelField name="КодПоОКПО" id="329">
-												<DataPath>Список.КодПоОКПО</DataPath>
+												<DataPath>~Список.КодПоОКПО</DataPath>
 												<UserVisible>
 													<xr:Common>false</xr:Common>
 												</UserVisible>
@@ -2825,7 +2825,7 @@
 												<ExtendedTooltip name="КодПоОКПОРасширеннаяПодсказка" id="331"/>
 											</LabelField>
 											<LabelField name="ГоловнойКонтрагент" id="392">
-												<DataPath>Список.ГоловнойКонтрагент</DataPath>
+												<DataPath>~Список.ГоловнойКонтрагент</DataPath>
 												<UserVisible>
 													<xr:Common>false</xr:Common>
 												</UserVisible>
@@ -2839,7 +2839,7 @@
 												<ExtendedTooltip name="ГоловнойКонтрагентРасширеннаяПодсказка" id="394"/>
 											</LabelField>
 											<LabelField name="Ссылка" id="321">
-												<DataPath>Список.Ref</DataPath>
+												<DataPath>~Список.Ref~Список.Ссылка</DataPath>
 												<UserVisible>
 													<xr:Common>false</xr:Common>
 												</UserVisible>
@@ -3099,7 +3099,7 @@
 							<Button name="ОтчетДосьеПартнера" id="174">
 								<Type>Hyperlink</Type>
 								<CommandName>0</CommandName>
-								<DataPath>Items.Список.CurrentData.Ref</DataPath>
+								<DataPath>~Items.Список.CurrentData.Ref~Items.Список.CurrentData.Ссылка</DataPath>
 								<ExtendedTooltip name="ОтчетДосьеПартнераExtendedTooltip" id="290"/>
 							</Button>
 							<UsualGroup name="ГруппаКонтрагентыПартнера" id="397">
@@ -3770,19 +3770,19 @@
 				</Type>
 				<MainAttribute>true</MainAttribute>
 				<UseAlways>
-					<Field>Список.Code</Field>
-					<Field>Список.Parent</Field>
-					<Field>Список.Ref</Field>
-					<Field>Список.БизнесРегион</Field>
-					<Field>Список.ГоловнойКонтрагент</Field>
-					<Field>Список.ДатаРегистрации</Field>
-					<Field>Список.Клиент</Field>
-					<Field>Список.КлиентИлиПоставщик</Field>
-					<Field>Список.Конкурент</Field>
-					<Field>Список.ОбособленноеПодразделение</Field>
-					<Field>Список.ОсновнойМенеджер</Field>
-					<Field>Список.Поставщик</Field>
-					<Field>Список.ПрочиеОтношения</Field>
+					<Field>~Список.Code~Список.Код</Field>
+					<Field>~Список.Parent~Список.Родитель</Field>
+					<Field>~Список.Ref~Список.Ссылка</Field>
+					<Field>~Список.БизнесРегион</Field>
+					<Field>~Список.ГоловнойКонтрагент</Field>
+					<Field>~Список.ДатаРегистрации</Field>
+					<Field>~Список.Клиент</Field>
+					<Field>~Список.КлиентИлиПоставщик</Field>
+					<Field>~Список.Конкурент</Field>
+					<Field>~Список.ОбособленноеПодразделение</Field>
+					<Field>~Список.ОсновнойМенеджер</Field>
+					<Field>~Список.Поставщик</Field>
+					<Field>~Список.ПрочиеОтношения</Field>
 				</UseAlways>
 				<Settings xsi:type="DynamicList">
 					<ManualQuery>true</ManualQuery>
@@ -4149,8 +4149,8 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
 					<v8:Type>xs:string</v8:Type>
+					<v8:TypeId>92b050f8-4a94-4d52-a162-4fbce7b4e8c1</v8:TypeId>
 					<v8:StringQualifiers>
 						<v8:Length>20</v8:Length>
 						<v8:AllowedLength>Variable</v8:AllowedLength>
@@ -4446,8 +4446,8 @@
 							</v8:item>
 						</Title>
 						<Type>
-							<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
 							<v8:Type>xs:string</v8:Type>
+							<v8:TypeId>92b050f8-4a94-4d52-a162-4fbce7b4e8c1</v8:TypeId>
 							<v8:StringQualifiers>
 								<v8:Length>0</v8:Length>
 								<v8:AllowedLength>Variable</v8:AllowedLength>
@@ -4491,7 +4491,7 @@
 							</v8:item>
 						</Title>
 						<Type>
-							<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
+							<v8:TypeId>92b050f8-4a94-4d52-a162-4fbce7b4e8c1</v8:TypeId>
 						</Type>
 					</Column>
 					<Column name="ЭтоРеквизит" id="3">
@@ -4530,8 +4530,8 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
 					<v8:Type>xs:string</v8:Type>
+					<v8:TypeId>92b050f8-4a94-4d52-a162-4fbce7b4e8c1</v8:TypeId>
 					<v8:StringQualifiers>
 						<v8:Length>30</v8:Length>
 						<v8:AllowedLength>Variable</v8:AllowedLength>
@@ -4646,8 +4646,8 @@
 							</v8:item>
 						</Title>
 						<Type>
-							<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
 							<v8:Type>xs:string</v8:Type>
+							<v8:TypeId>92b050f8-4a94-4d52-a162-4fbce7b4e8c1</v8:TypeId>
 							<v8:StringQualifiers>
 								<v8:Length>50</v8:Length>
 								<v8:AllowedLength>Variable</v8:AllowedLength>

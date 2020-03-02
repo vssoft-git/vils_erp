@@ -1789,10 +1789,10 @@
 			</Type>
 			<MainAttribute>true</MainAttribute>
 			<UseAlways>
-				<Field>Список.Parent</Field>
-				<Field>Список.Ref</Field>
-				<Field>Список.ГоловнойКонтрагент</Field>
-				<Field>Список.ОбособленноеПодразделение</Field>
+				<Field>~Список.Parent~Список.Родитель</Field>
+				<Field>~Список.Ref~Список.Ссылка</Field>
+				<Field>~Список.ГоловнойКонтрагент</Field>
+				<Field>~Список.ОбособленноеПодразделение</Field>
 			</UseAlways>
 			<Settings xsi:type="DynamicList">
 				<ManualQuery>true</ManualQuery>
@@ -4856,10 +4856,10 @@
 				</Type>
 				<MainAttribute>true</MainAttribute>
 				<UseAlways>
-					<Field>Список.Parent</Field>
-					<Field>Список.Ref</Field>
-					<Field>Список.ГоловнойКонтрагент</Field>
-					<Field>Список.ОбособленноеПодразделение</Field>
+					<Field>~Список.Parent~Список.Родитель</Field>
+					<Field>~Список.Ref~Список.Ссылка</Field>
+					<Field>~Список.ГоловнойКонтрагент</Field>
+					<Field>~Список.ОбособленноеПодразделение</Field>
 				</UseAlways>
 				<Settings xsi:type="DynamicList">
 					<ManualQuery>true</ManualQuery>
@@ -5430,8 +5430,8 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
 					<v8:Type>xs:string</v8:Type>
+					<v8:TypeId>92b050f8-4a94-4d52-a162-4fbce7b4e8c1</v8:TypeId>
 					<v8:StringQualifiers>
 						<v8:Length>20</v8:Length>
 						<v8:AllowedLength>Variable</v8:AllowedLength>
@@ -5606,7 +5606,7 @@
 							</v8:item>
 						</Title>
 						<Type>
-							<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
+							<v8:TypeId>92b050f8-4a94-4d52-a162-4fbce7b4e8c1</v8:TypeId>
 						</Type>
 					</Column>
 					<Column name="ЭтоРеквизит" id="3">
@@ -5759,8 +5759,8 @@
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
 					<v8:Type>xs:string</v8:Type>
+					<v8:TypeId>92b050f8-4a94-4d52-a162-4fbce7b4e8c1</v8:TypeId>
 					<v8:StringQualifiers>
 						<v8:Length>30</v8:Length>
 						<v8:AllowedLength>Variable</v8:AllowedLength>
@@ -5813,8 +5813,8 @@
 							</v8:item>
 						</Title>
 						<Type>
-							<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
 							<v8:Type>xs:string</v8:Type>
+							<v8:TypeId>92b050f8-4a94-4d52-a162-4fbce7b4e8c1</v8:TypeId>
 							<v8:StringQualifiers>
 								<v8:Length>0</v8:Length>
 								<v8:AllowedLength>Variable</v8:AllowedLength>
@@ -5873,8 +5873,8 @@
 							</v8:item>
 						</Title>
 						<Type>
-							<v8:Type>cfg:ChartOfCharacteristicTypesRef.ДополнительныеРеквизитыИСведения</v8:Type>
 							<v8:Type>xs:string</v8:Type>
+							<v8:TypeId>92b050f8-4a94-4d52-a162-4fbce7b4e8c1</v8:TypeId>
 							<v8:StringQualifiers>
 								<v8:Length>50</v8:Length>
 								<v8:AllowedLength>Variable</v8:AllowedLength>
