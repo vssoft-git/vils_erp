@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>1a7e4edc-165d-458d-8504-b73a0d3fd459</xr:ObjectId>
+				<xr:ObjectId>634ff7e6-409b-405d-a96c-6088c1af2829</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -681,20 +681,20 @@
 			<Report>СостояниеВыполненияДокументов</Report>
 			<Report>ВИЛС_ОстаткиТоваровПереданныхПереработчикам</Report>
 			<Report>ВИЛС_ВедомостьПоДенежнымСредствам</Report>
-			<DataProcessor>ПодборСерийВДокументы</DataProcessor>
-			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
-			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
 			<DataProcessor>АктивныеПользователи</DataProcessor>
+			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
 			<DataProcessor>ПечатьАктОбОказанииУслуг</DataProcessor>
-			<DataProcessor>ПечатьСчетовНаОплату</DataProcessor>
-			<DataProcessor>ПечатьОбщихФорм</DataProcessor>
-			<DataProcessor>ПечатьТранспортнойНакладной</DataProcessor>
 			<DataProcessor>ПечатьЗаказовНаТоварыУслуги</DataProcessor>
-			<DataProcessor>СостояниеОбеспечения</DataProcessor>
-			<DataProcessor>РаботаСФайлами</DataProcessor>
-			<DataProcessor>ПечатьИНВ3</DataProcessor>
 			<DataProcessor>ПечатьИНВ19</DataProcessor>
+			<DataProcessor>ПечатьИНВ3</DataProcessor>
+			<DataProcessor>ПечатьОбщихФорм</DataProcessor>
+			<DataProcessor>ПечатьСчетовНаОплату</DataProcessor>
+			<DataProcessor>ПечатьТранспортнойНакладной</DataProcessor>
+			<DataProcessor>ПодборСерийВДокументы</DataProcessor>
 			<DataProcessor>ПодборТоваровВДокументПродажи</DataProcessor>
+			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
+			<DataProcessor>РаботаСФайлами</DataProcessor>
+			<DataProcessor>СостояниеОбеспечения</DataProcessor>
 			<InformationRegister>НаличиеФайлов</InformationRegister>
 			<InformationRegister>РеестрДокументов</InformationRegister>
 			<InformationRegister>ГрафикПлатежей</InformationRegister>

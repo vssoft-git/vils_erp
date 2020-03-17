@@ -1,20 +1,21 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<DataProcessor uuid="6d1d7497-c74d-4b06-a1ca-fd5c8e81de53">
+	<DataProcessor uuid="e2e9e83f-db7f-47b1-ae6e-bff3c77899ee">
 		<InternalInfo>
 			<xr:GeneratedType name="DataProcessorObject.ИнтеграцияС1СДокументооборот" category="Object">
-				<xr:TypeId>d04709a9-4b0f-45d5-9e66-d520edd51752</xr:TypeId>
-				<xr:ValueId>698790ed-b421-4046-944f-51eddf5529e4</xr:ValueId>
+				<xr:TypeId>37df5656-af20-4836-96c9-32b8dc6cf015</xr:TypeId>
+				<xr:ValueId>3e6dcf6d-3704-48b6-ae88-fb6facc72d12</xr:ValueId>
 			</xr:GeneratedType>
 			<xr:GeneratedType name="DataProcessorManager.ИнтеграцияС1СДокументооборот" category="Manager">
-				<xr:TypeId>bd663747-322b-4240-a4c5-b1d8061a3286</xr:TypeId>
-				<xr:ValueId>d3652d4f-2d5a-46a2-9d30-018300cff3a7</xr:ValueId>
+				<xr:TypeId>5e90902c-053c-499e-b7a2-a8bf4bd6301a</xr:TypeId>
+				<xr:ValueId>4e7d9ee6-5836-4a5d-8cd3-51bb1ac81eda</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
 			<Name>ИнтеграцияС1СДокументооборот</Name>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>c9ae60de-0fd8-4ded-9d21-df18b8131b34</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects>
 			<Form>Документооборот</Form>
