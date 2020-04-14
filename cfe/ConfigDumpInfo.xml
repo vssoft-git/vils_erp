@@ -376,6 +376,8 @@
 		<Metadata name="CommonModule.КадровыйУчетБазовый.Module" id="9fb1cd4e-e435-4b50-aed9-7f9bf9f752fa.0" configVersion="6746b827fd3dac96801121cf1d52ddb78e864efd"/>
 		<Metadata name="CommonModule.КадровыйУчетРасширенный" id="6aef26b2-4456-4f9c-900e-28958ad1d93f" configVersion="98c4623eb8e963243dea504ddf3612981c46b4d0"/>
 		<Metadata name="CommonModule.КадровыйУчетРасширенный.Module" id="6aef26b2-4456-4f9c-900e-28958ad1d93f.0" configVersion="fe10e5604f3a7e25c0a70745a8f59d249c600ad9"/>
+		<Metadata name="CommonModule.КорректировкаРеализацииЛокализация" id="d76b4888-fb65-4ce2-b28f-f818e7ef3daa" configVersion="bccd3bc576633b54793403caa9965ddb67bf424a"/>
+		<Metadata name="CommonModule.КорректировкаРеализацииЛокализация.Module" id="d76b4888-fb65-4ce2-b28f-f818e7ef3daa.0" configVersion="631b389b6837293a18ff95eb4750165f75818b97"/>
 		<Metadata name="CommonModule.МодификацияКонфигурацииПереопределяемый" id="c5c2f8ef-5ae0-4645-b140-be2998f64efd" configVersion="0ad3b394059a826ac35f55ac46b59ff9312494eb"/>
 		<Metadata name="CommonModule.МодификацияКонфигурацииПереопределяемый.Module" id="c5c2f8ef-5ae0-4645-b140-be2998f64efd.0" configVersion="7fff33cd3a6d0c254c6509c0a99d759627e7992b"/>
 		<Metadata name="CommonModule.ОбеспечениеСервер" id="39c04d67-4a87-4f4e-add1-4f7d0f07ef20" configVersion="cd3ee0478ebe0e97889837e1cb09a0840bfc6179"/>
@@ -573,7 +575,7 @@
 		<Metadata name="CommonPicture.ЭмблемаСервиса1СЭДО" id="51d79fec-ce06-4111-8cd7-7fe7b646048f" configVersion="c9af69255a3b0fb54cc14e46ef6130e667e50982"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов" id="6f8a616a-05f9-4a26-b137-ffe08a2de753" configVersion="c608bfe3b6a128f415f6c474a7d439715aa46ea6"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов.Template" id="6f8a616a-05f9-4a26-b137-ffe08a2de753.0" configVersion="7c10b1f0883f7212773cc7afbcae6f416b288240"/>
-		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="0c2460fb41a30a54ab91388df7fb82287780e83b"/>
+		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="7eae063c29d0831733c4a3b02185c48cf936e4f9"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="2d3d01ef-e545-4150-a6c6-5d7520ca086c" configVersion="ffbf25b1ccd42c35ee4ef2dc7390091df9f1a092"/>
 		<Metadata name="Constant.ИспользоватьБизнесРегионы" id="ab04cdcb-dc48-4252-9bb5-efc0097f0d24" configVersion="2a1a73d70e7a4e41f4f6f6420a92e7ceb98c7ec1"/>
 		<Metadata name="Constant.ИспользоватьГруппыДоступаПартнеров" id="91cb9a25-f41e-4571-801d-6947e8356d60" configVersion="66cb4cdf60f65d71350cb185af2b0703bc96ff12"/>
@@ -2234,6 +2236,7 @@
 		<Metadata name="Report.СостояниеВыполненияДокументов" id="96858dbe-e285-4ba3-9308-88b0e969b37f" configVersion="089b86caf96c3ababf6c59c721195e8521e11f17"/>
 		<Metadata name="Report.СостояниеВыполненияДокументов.ManagerModule" id="96858dbe-e285-4ba3-9308-88b0e969b37f.2" configVersion="834f56c583dfc158d2d7ab0c60cbcfa209ba01ea"/>
 		<Metadata name="SettingsStorage.ХранилищеВариантовОтчетов" id="7d3072f4-3ab2-4408-aac0-def208e81fa3" configVersion="7d9270ea564cd3844f6dcc7910dc46870f81f33d"/>
+		<Metadata name="StyleItem.БыстрыеОтборыФонГруппы" id="abd58fe0-ccc9-4df3-99f4-dea3d9d4c38c" configVersion="72f687f7b279609d9d2a109d220e58ea45cbe915"/>
 		<Metadata name="StyleItem.ВыполненнаяЗадача" id="95d28a77-abce-4759-846d-328021954f30" configVersion="e428b9ca5444378204d0b28af3cc6b0cc0ca85b3"/>
 		<Metadata name="StyleItem.ИзмененныеСтроки" id="7f8a9237-591c-42fe-bdda-fe08095d0464" configVersion="51a72000859d09751cda7b63f75eb936e3ae0a5a"/>
 		<Metadata name="StyleItem.ИтогиФон" id="2ac40105-6a0b-4f11-92bf-64a19e948684" configVersion="3a1792acf27f9cc466913e3c0dc793e1c0a184ae"/>
@@ -2257,6 +2260,7 @@
 		<Metadata name="StyleItem.ЦветУспешнойОтправкиБРО" id="ef3e82cb-52c0-49b8-8539-b2dd7aa48b2a" configVersion="23bc62e276673d1faf75be588c449bbc2bb63e5e"/>
 		<Metadata name="StyleItem.ЦветФонаВыделения" id="58607073-93cf-4512-a9b6-d21e1581696d" configVersion="b69a052a6322015f817dc416f0e7057dd234ec48"/>
 		<Metadata name="StyleItem.ЦветФонаНеОбеспечен" id="b4a01826-b299-481f-9887-5af2ceebfef4" configVersion="7c3bbf8ffcc530af48163f6d7e4591fe99a5d2c8"/>
+		<Metadata name="StyleItem.ЦветФонаНекорректногоКонтрагента" id="17e2015c-e002-4511-833c-8dfa9344abc1" configVersion="fcef525191e92cbc10bed32627345fff567f73fb"/>
 		<Metadata name="StyleItem.ЦветФонаОшибкиОтправки" id="4d573d6b-3753-4b16-8d96-c3ca5c7ff27a" configVersion="b8cad866bd74c9d37f9b9ef1495087131239888f"/>
 		<Metadata name="StyleItem.ЦветФонаПолностьюОбеспечен" id="660b605b-5fd2-49eb-a681-79b0155df4dd" configVersion="d91bb208c83c5a508118e528ff681308790c3d05"/>
 		<Metadata name="StyleItem.ЦветФонаЧастичноОбеспечен" id="0e41875b-c325-4f4a-be5e-fecb36b43647" configVersion="48736ab294c91b02059d817713b8ddfaac0b208f"/>
