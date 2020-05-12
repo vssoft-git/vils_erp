@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>8e10752b-da54-44e8-b0ef-98e5b45fc16d</xr:ObjectId>
+				<xr:ObjectId>805e4ebd-50b5-4487-84c8-5bfa04b32fab</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -532,6 +532,7 @@
 			<Catalog>ФизическиеЛица</Catalog>
 			<Catalog>ХарактеристикиНоменклатуры</Catalog>
 			<Catalog>ШаблоныЭтикетокИЦенников</Catalog>
+			<Catalog>ШтатноеРасписание</Catalog>
 			<Document>АвансовыйОтчет</Document>
 			<Document>АктВыполненныхРабот</Document>
 			<Document>БольничныйЛист</Document>
@@ -675,6 +676,7 @@
 			<Enum>СтатусыЗаданийНаПеревозку</Enum>
 			<Enum>ВидыДоставки</Enum>
 			<Enum>ПорядокРегистрацииСчетовФактурНаАванс</Enum>
+			<Enum>КатегорииНачисленийИНеоплаченногоВремени</Enum>
 			<Report>ВИЛС_ВедомостьДокументовПоступлений</Report>
 			<Report>ВИЛС_ВыпускПродукцииПоОтпускнойСтоимости</Report>
 			<Report>ИсполнениеКонтрактовГОЗ</Report>
@@ -709,6 +711,7 @@
 			<InformationRegister>СтроковыеСведенияФизическихЛиц</InformationRegister>
 			<InformationRegister>ДокументыФизическихЛиц</InformationRegister>
 			<InformationRegister>МножителиПартийИПолуфабрикатов</InformationRegister>
+			<InformationRegister>БухучетЗарплатыСотрудников</InformationRegister>
 			<AccumulationRegister>ДенежныеСредстваКВыплате</AccumulationRegister>
 			<AccumulationRegister>Закупки</AccumulationRegister>
 			<AccumulationRegister>ДвиженияНоменклатураНоменклатура</AccumulationRegister>

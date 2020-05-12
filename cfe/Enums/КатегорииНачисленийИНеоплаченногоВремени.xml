@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="52ffa44d-47af-4ad8-9ed3-503215cb38f3">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.КатегорииНачисленийИНеоплаченногоВремени" category="Ref">
+				<xr:TypeId>b0f28c37-a8e5-434a-b8d5-8a570fcf6f03</xr:TypeId>
+				<xr:ValueId>aadbad18-a76f-4aea-ad15-86a82b0e3d12</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.КатегорииНачисленийИНеоплаченногоВремени" category="Manager">
+				<xr:TypeId>1fac6b3e-b7b9-431e-a594-3b39d04c0a46</xr:TypeId>
+				<xr:ValueId>6e3e6afd-0cbb-418f-88e4-0db5e2a708f6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.КатегорииНачисленийИНеоплаченногоВремени" category="List">
+				<xr:TypeId>8493eafa-3546-49f4-bab8-16d0274c6fd9</xr:TypeId>
+				<xr:ValueId>2aaeccc4-18c7-4c06-90a9-a7ffb0c384bc</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>КатегорииНачисленийИНеоплаченногоВремени</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>575a5299-d916-4d2c-b352-f132c3cf3b05</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="75239ff1-7045-4f26-9350-70de24bdc49b">
+				<InternalInfo/>
+				<Properties>
+					<Name>Льгота</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>7ad363e0-74c7-4fee-b8ea-2c92526af0a5</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="07da37df-bba2-458c-b57b-a0ab222d5eba">
+				<InternalInfo/>
+				<Properties>
+					<Name>ВыбираемаяСотрудникомЛьгота</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>6445f88b-356b-456b-a637-6309fe186225</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
