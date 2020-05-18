@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>805e4ebd-50b5-4487-84c8-5bfa04b32fab</xr:ObjectId>
+				<xr:ObjectId>d44254b0-a26c-4532-bd06-170a90e80dea</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -66,6 +66,7 @@
 			<Subsystem>Казначейство</Subsystem>
 			<Subsystem>Склад</Subsystem>
 			<Subsystem>РегламентированныйУчет</Subsystem>
+			<Subsystem>Зарплата</Subsystem>
 			<StyleItem>ЦветГиперссылки</StyleItem>
 			<StyleItem>ПоясняющийТекст</StyleItem>
 			<StyleItem>ИтогиФон</StyleItem>
@@ -284,6 +285,7 @@
 			<CommonModule>УчетРабочегоВремениРасширенный</CommonModule>
 			<CommonModule>УчетСтраховыхВзносов</CommonModule>
 			<CommonModule>УчетСтраховыхВзносовБазовый</CommonModule>
+			<CommonModule>РассылкаОтчетов</CommonModule>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>ИспользоватьПодключаемоеОборудование</FunctionalOption>
 			<FunctionalOption>ИспользоватьПоступлениеПоНесколькимЗаказам</FunctionalOption>
@@ -533,6 +535,7 @@
 			<Catalog>ХарактеристикиНоменклатуры</Catalog>
 			<Catalog>ШаблоныЭтикетокИЦенников</Catalog>
 			<Catalog>ШтатноеРасписание</Catalog>
+			<Catalog>УчетныеЗаписиЭлектроннойПочты</Catalog>
 			<Document>АвансовыйОтчет</Document>
 			<Document>АктВыполненныхРабот</Document>
 			<Document>БольничныйЛист</Document>
@@ -700,6 +703,7 @@
 			<DataProcessor>ПомощникЗачетаОплат</DataProcessor>
 			<DataProcessor>РаботаСФайлами</DataProcessor>
 			<DataProcessor>СостояниеОбеспечения</DataProcessor>
+			<DataProcessor>СервисРассылкиЗарплатныхОтчетов</DataProcessor>
 			<InformationRegister>НаличиеФайлов</InformationRegister>
 			<InformationRegister>РеестрДокументов</InformationRegister>
 			<InformationRegister>ГрафикПлатежей</InformationRegister>
