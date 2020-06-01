@@ -706,6 +706,22 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="083a7645-1e20-4d81-a46a-cc4c6b5f7ea5">
+				<InternalInfo/>
+				<Properties>
+					<Name>КодВидаДохода</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>4907c8fb-a58c-4c1b-a122-e440ed2484ee</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>1</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<Form>ФормаСпискаДокументов</Form>
 			<TabularSection uuid="f9ed0603-6042-40fb-8ab8-a50baa6aa93e">
@@ -1134,6 +1150,18 @@
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:TypeSet>cfg:DefinedType.ДенежнаяСуммаНеотрицательная</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="30d103db-5290-4104-b8c7-f5b7cad59bba">
+						<InternalInfo/>
+						<Properties>
+							<Name>ДоговорЗаймаСотруднику</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>08846a81-f592-44b1-b735-efa7b62be0de</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:DocumentRef.ДоговорЗаймаСотруднику</v8:Type>
 							</Type>
 						</Properties>
 					</Attribute>
