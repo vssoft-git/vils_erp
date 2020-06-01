@@ -604,6 +604,58 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="49f602d5-4428-460d-8a78-726041952d70">
+				<InternalInfo/>
+				<Properties>
+					<Name>ГлавныйБухгалтер</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>302b84f1-49bb-439f-8acf-dd5f02b4b6e0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ОтветственныеЛицаОрганизаций</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="49353d15-59a9-4258-ab43-a86da0ac5202">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЗаказПоставщику</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>5a272903-ac15-4c54-83f5-b82f1b6b646d</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ЗаказПоставщику</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="783408ff-0249-4a48-b35c-2d30e9b63446">
+				<InternalInfo/>
+				<Properties>
+					<Name>УдалитьТоварноТранспортнаяНакладнаяЕГАИС</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>47f1d601-2e82-4788-a421-062d38aaae90</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ТТНВходящаяЕГАИС</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2ca66b72-54c6-4b91-89f2-3ac08fc70a12">
+				<InternalInfo/>
+				<Properties>
+					<Name>НаименованиеВходящегоДокумента</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>4e5758e0-b3c6-40b0-8f37-e87b287ff527</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>128</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="52e9eaf5-a120-41fd-8f33-f6ce464595d5">
 				<InternalInfo>
@@ -966,6 +1018,65 @@
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>cfg:CatalogRef.КлючиАналитикиУчетаПартий</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="b0a73844-d656-45c2-92ec-a9ad6046efe0">
+						<InternalInfo/>
+						<Properties>
+							<Name>ДатаВходящегоДокумента</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>24a8e9e7-406e-4d35-99d6-d4196c662964</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:dateTime</v8:Type>
+								<v8:DateQualifiers>
+									<v8:DateFractions>Date</v8:DateFractions>
+								</v8:DateQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="fe2526d6-4171-4350-90a2-381ebb30cfcc">
+						<InternalInfo/>
+						<Properties>
+							<Name>ЗаказПоставщику</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>422786fa-18ea-4f26-8dd6-4a588060e399</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>cfg:DocumentRef.ЗаказПоставщику</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="a8c7a14b-0949-47c3-a583-cb7031a1965f">
+						<InternalInfo/>
+						<Properties>
+							<Name>НомерВходящегоДокумента</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>f79abc1e-3587-4e59-87ea-28756ca0bbbf</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>30</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="e531a1e1-1e9d-42b7-ac77-c06ca435dcb8">
+						<InternalInfo/>
+						<Properties>
+							<Name>НаименованиеВходящегоДокумента</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>f498a97f-85c5-40ae-b536-2cf82a9f18cc</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:string</v8:Type>
+								<v8:StringQualifiers>
+									<v8:Length>128</v8:Length>
+									<v8:AllowedLength>Variable</v8:AllowedLength>
+								</v8:StringQualifiers>
 							</Type>
 						</Properties>
 					</Attribute>

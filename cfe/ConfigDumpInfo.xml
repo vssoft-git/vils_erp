@@ -1402,7 +1402,7 @@
 		<Metadata name="Document.ПриемНаРаботуСписком.Form.ФормаСтроки" id="e1f1dbdb-98c1-47c7-b84e-3a7b5cc313e1" configVersion="94736c397c75e5de7f4e038efe4859256c647fd3"/>
 		<Metadata name="Document.ПриемНаРаботуСписком.Form.ФормаСтроки.Form" id="e1f1dbdb-98c1-47c7-b84e-3a7b5cc313e1.0" configVersion="db349b491bf8f23ff5d3213c4d021b9fe47a1ad7"/>
 		<Metadata name="Document.ПриемНаРаботуСписком.ObjectModule" id="28d4e9fd-c983-4d47-b9b5-284a227e7d3f.0" configVersion="baf1e50f6d3151ca198ef958f947ee2daf14e799"/>
-		<Metadata name="Document.ПриобретениеТоваровУслуг" id="5f9225dd-d81b-463c-b6d1-991e131c359b" configVersion="f1e1ba0928630a6fc61736cc100cebe38be77918">
+		<Metadata name="Document.ПриобретениеТоваровУслуг" id="5f9225dd-d81b-463c-b6d1-991e131c359b" configVersion="d0cfb5d63472ab13fc5745f6e24280c8345287fb">
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.СуммаДокумента" id="0c2d1db5-600d-48ac-8646-dc6fca1d0eac"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.РегистрироватьЦеныПоставщика" id="0f3f6da9-d54f-4b65-ac9d-c45e13f366ff"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.БанковскийСчетГрузоотправителя" id="0fa07a53-76f6-4ccb-b2dc-eb8c84f5439d"/>
@@ -1420,6 +1420,7 @@
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.Принял" id="2abc5d48-9eb3-4055-aeee-b49329d96faa"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.ХозяйственнаяОперация" id="2affabeb-b714-4678-9640-10d538bde809"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.ПоступлениеПоЗаказам" id="2b3ff2b4-08ec-4172-a0c2-733688704b75"/>
+			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.НаименованиеВходящегоДокумента" id="2ca66b72-54c6-4b91-89f2-3ac08fc70a12"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.БанковскийСчетКонтрагента" id="320a0a28-db80-4fb4-96a7-f112388eea6f"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.TabularSection.Товары.Attribute.СуммаСНДС" id="330cba5b-1879-419e-b7ae-5fecfcf0d351"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.TabularSection.Товары.Attribute.ПроцентРучнойСкидки" id="34e377a3-e4aa-4ab1-95ad-7bd47fd804a3"/>
@@ -1427,6 +1428,8 @@
 			<Metadata name="Document.ПриобретениеТоваровУслуг.TabularSection.Товары.Attribute.УдалитьАналитикаУчетаПартий" id="4064cc12-4994-422e-b417-af8ae9faa7be"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.НомерВходящегоДокумента" id="40ddf2ee-1cee-40e4-9742-b1092e3b3521"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.ДополнительнаяИнформацияПоДоставке" id="45ed5f83-2c9c-4499-8224-75e18e818e66"/>
+			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.ЗаказПоставщику" id="49353d15-59a9-4258-ab43-a86da0ac5202"/>
+			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.ГлавныйБухгалтер" id="49f602d5-4428-460d-8a78-726041952d70"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.ВернутьМногооборотнуюТару" id="4ac303f9-667c-453c-b2f3-133ac8928fb2"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.TabularSection.Товары.Attribute.КоличествоУпаковок" id="4b81c54b-5b0a-413f-8621-5b137054c5a3"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.ЗонаДоставки" id="4f78a0c3-6178-4d05-8a9a-fab1f6da8ca8"/>
@@ -1439,6 +1442,7 @@
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.Организация" id="6e1a1c45-6566-4680-9eb0-8d234ec8658f"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.TabularSection.Товары.Attribute.Номенклатура" id="707e733b-fae0-4b7d-921b-44c817a01f64"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.TabularSection.Товары.Attribute.Серия" id="73bb7ae2-6bf1-4e95-92cd-c382ae5e7444"/>
+			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.УдалитьТоварноТранспортнаяНакладнаяЕГАИС" id="783408ff-0249-4a48-b35c-2d30e9b63446"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.ВремяДоставкиС" id="79788a68-3901-4859-b0d4-224cb653a55f"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.ФормаОплаты" id="798b7f47-fa79-45b2-8e07-f2eb21f3fe24"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.TabularSection.Товары.Attribute.НомерГТД" id="7b3d1961-c5fd-4688-ae62-a3cec4012adf"/>
@@ -1457,9 +1461,11 @@
 			<Metadata name="Document.ПриобретениеТоваровУслуг.TabularSection.Товары.Attribute.Подразделение" id="a6c46de8-889f-42ed-9180-d4618acba092"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.TabularSection.Товары.Attribute.СписатьНаРасходы" id="a77b8953-c9b0-4a57-9cb3-002fa95f4891"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.ОсобыеУсловияПеревозки" id="a846a08b-7e5c-48ad-bf8a-2e864245eea0"/>
+			<Metadata name="Document.ПриобретениеТоваровУслуг.TabularSection.Товары.Attribute.НомерВходящегоДокумента" id="a8c7a14b-0949-47c3-a583-cb7031a1965f"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.ПорядокРасчетов" id="aa739f38-0fad-4f3d-8c66-cb0d9d56844b"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.ДатаВходящегоДокумента" id="ae243110-8c69-46bb-821e-7a0e753fe545"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.TabularSection.Товары.Attribute.Цена" id="af6b3748-b9a9-429f-92be-8081f03ff498"/>
+			<Metadata name="Document.ПриобретениеТоваровУслуг.TabularSection.Товары.Attribute.ДатаВходящегоДокумента" id="b0a73844-d656-45c2-92ec-a9ad6046efe0"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.TabularSection.Товары.Attribute.СуммаРучнойСкидки" id="b5c6f543-f19b-422d-9ba3-8dc4048da93d"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.ПринялДолжность" id="ba680b01-4935-4e39-aed1-9f3e0b540b50"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.Грузоотправитель" id="ba695872-979b-49a2-8c51-db76aae27472"/>
@@ -1477,12 +1483,14 @@
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.Партнер" id="df68af49-ddc1-463f-bd9e-056b579f404d"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.TabularSection.Товары.Attribute.Сумма" id="e064e308-87c6-477a-81bc-ab0cba63e631"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.ПорядокОплаты" id="e3e302a7-35fc-472e-ab48-1cadd7e0fd3e"/>
+			<Metadata name="Document.ПриобретениеТоваровУслуг.TabularSection.Товары.Attribute.НаименованиеВходящегоДокумента" id="e531a1e1-1e9d-42b7-ac77-c06ca435dcb8"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.АдресДоставки" id="e703081d-9a4b-4138-9788-967ac544a4f2"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.TabularSection.Товары.Attribute.ВидЦеныПоставщика" id="ea4a75b5-07a0-41b2-8ebc-1eb60e357a33"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.TabularSection.Товары.Attribute.АналитикаРасходов" id="ef85f0ce-5539-47c5-b5e3-8513972dcd26"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.ПеревозчикПартнер" id="f6d4902f-4ac4-4bcc-b059-d2af1d7d1f20"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.TabularSection.Товары.Attribute.НоменклатураПоставщика" id="f70aac73-b8a3-4e15-97e6-be8462846158"/>
 			<Metadata name="Document.ПриобретениеТоваровУслуг.Attribute.ОсобыеУсловияПеревозкиОписание" id="f93df6f4-568c-4300-9822-c1b85cb924d7"/>
+			<Metadata name="Document.ПриобретениеТоваровУслуг.TabularSection.Товары.Attribute.ЗаказПоставщику" id="fe2526d6-4171-4350-90a2-381ebb30cfcc"/>
 		</Metadata>
 		<Metadata name="Document.ПриобретениеТоваровУслуг.Form.ФормаДокумента" id="9bc03e33-f522-4fb4-955b-4080c81bac15" configVersion="003e793e58f3df7f29337c2b912d074501f827ae"/>
 		<Metadata name="Document.ПриобретениеТоваровУслуг.Form.ФормаДокумента.Form" id="9bc03e33-f522-4fb4-955b-4080c81bac15.0" configVersion="58da42b594c5f9b1e9ea9f972541cf3d83f32995"/>

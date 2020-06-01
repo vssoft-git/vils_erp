@@ -6426,7 +6426,7 @@ number</v8:content>
 																<ExtendedTooltip name="ПоступлениеПоЗаказуExtendedTooltip" id="1009"/>
 															</CheckBoxField>
 															<LabelField name="ЗаказПоставщику" id="27">
-																<DataPath>1000001/0:49353d15-59a9-4258-ab43-a86da0ac5202</DataPath>
+																<DataPath>Объект.ЗаказПоставщику</DataPath>
 																<Title>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
@@ -7989,7 +7989,7 @@ number</v8:content>
 										<ExtendedTooltip name="ТоварыГруппаЗаказПоставщикуExtendedTooltip" id="1120"/>
 										<ChildItems>
 											<InputField name="ТоварыЗаказПоставщику" id="817">
-												<DataPath>1000001/0:52e9eaf5-a120-41fd-8f33-f6ce464595d5/0:fe2526d6-4171-4350-90a2-381ebb30cfcc</DataPath>
+												<DataPath>Объект.Товары.ЗаказПоставщику</DataPath>
 												<SkipOnInput>true</SkipOnInput>
 												<EditMode>EnterOnInput</EditMode>
 												<CellHyperlink>true</CellHyperlink>
@@ -8195,7 +8195,7 @@ number</v8:content>
 										<ExtendedTooltip name="ГруппаДокументРасходаРасширеннаяПодсказка" id="1838"/>
 										<ChildItems>
 											<InputField name="ТоварыНомерВходящегоДокумента" id="1839">
-												<DataPath>1000001/0:52e9eaf5-a120-41fd-8f33-f6ce464595d5/0:a8c7a14b-0949-47c3-a583-cb7031a1965f</DataPath>
+												<DataPath>Объект.Товары.НомерВходящегоДокумента</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -8212,7 +8212,7 @@ number</v8:content>
 												<ExtendedTooltip name="ТоварыНомерВходящегоДокументаРасширеннаяПодсказка" id="1841"/>
 											</InputField>
 											<InputField name="ТоварыДатаВходящегоДокумента" id="1842">
-												<DataPath>1000001/0:52e9eaf5-a120-41fd-8f33-f6ce464595d5/0:b0a73844-d656-45c2-92ec-a9ad6046efe0</DataPath>
+												<DataPath>Объект.Товары.ДатаВходящегоДокумента</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -8228,7 +8228,7 @@ number</v8:content>
 												<ExtendedTooltip name="ТоварыДатаВходящегоДокументаРасширеннаяПодсказка" id="1844"/>
 											</InputField>
 											<InputField name="ТоварыНаименованиеВходящегоДокумента" id="1845">
-												<DataPath>1000001/0:52e9eaf5-a120-41fd-8f33-f6ce464595d5/0:e531a1e1-1e9d-42b7-ac77-c06ca435dcb8</DataPath>
+												<DataPath>Объект.Товары.НаименованиеВходящегоДокумента</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -9011,7 +9011,7 @@ information</v8:content>
 										<ExtendedTooltip name="ГруппаПараметрыЛевоExtendedTooltip" id="1230"/>
 										<ChildItems>
 											<InputField name="ТоварноТранспортнаяНакладнаяЕГАИС" id="1800">
-												<DataPath>1000001/0:783408ff-0249-4a48-b35c-2d30e9b63446</DataPath>
+												<DataPath>Объект.УдалитьТоварноТранспортнаяНакладнаяЕГАИС</DataPath>
 												<UserVisible>
 													<xr:Common>false</xr:Common>
 												</UserVisible>
@@ -9053,7 +9053,7 @@ information</v8:content>
 												<ExtendedTooltip name="РуководительExtendedTooltip" id="1238"/>
 											</InputField>
 											<InputField name="ГлавныйБухгалтер" id="1829">
-												<DataPath>1000001/0:49f602d5-4428-460d-8a78-726041952d70</DataPath>
+												<DataPath>Объект.ГлавныйБухгалтер</DataPath>
 												<ContextMenu name="ГлавныйБухгалтерКонтекстноеМеню" id="1830"/>
 												<ExtendedTooltip name="ГлавныйБухгалтерРасширеннаяПодсказка" id="1831"/>
 											</InputField>
@@ -9417,7 +9417,7 @@ number</v8:content>
 														</ChildItems>
 													</UsualGroup>
 													<InputField name="НаименованиеВходящегоДокумента" id="1850">
-														<DataPath>1000001/0:2ca66b72-54c6-4b91-89f2-3ac08fc70a12</DataPath>
+														<DataPath>Объект.НаименованиеВходящегоДокумента</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
