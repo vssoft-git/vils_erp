@@ -134,7 +134,7 @@
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>EDW</v8:content>
+						<v8:content>EDI</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
@@ -157,7 +157,7 @@
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Print </v8:content>
+						<v8:content>Print</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
@@ -480,7 +480,7 @@
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>as of</v8:content>
+															<v8:content>from</v8:content>
 														</v8:item>
 													</Title>
 													<TitleLocation>Left</TitleLocation>
@@ -521,7 +521,7 @@
 											<ExtendedTooltip name="ПодразделениеExtendedTooltip" id="499"/>
 										</InputField>
 										<LabelField name="НадписьРеквизитыПлательщика" id="1210">
-											<DataPath>55</DataPath>
+											<DataPath>НадписьРеквизитыПлательщика</DataPath>
 											<TitleLocation>None</TitleLocation>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>38</MaxWidth>
@@ -595,7 +595,7 @@
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Transaction</v8:content>
+													<v8:content>Operation</v8:content>
 												</v8:item>
 											</Title>
 											<TitleLocation>Left</TitleLocation>
@@ -909,7 +909,7 @@
 													<ExtendedTooltip name="ХозяйственнаяОперацияПоЗарплатеРасширеннаяПодсказка" id="991"/>
 												</InputField>
 												<InputField name="ФормаОплаты" id="992">
-													<DataPath>5</DataPath>
+													<DataPath>ФормаОплаты</DataPath>
 													<TitleLocation>None</TitleLocation>
 													<ToolTip>
 														<v8:item>
@@ -953,7 +953,7 @@
 													<ChoiceParameterLinks>
 														<xr:Link>
 															<xr:Name>Организация</xr:Name>
-															<xr:DataPath xsi:type="xs:string">1/0:270f8088-8c38-4b2c-828e-14fbd42be8a5</xr:DataPath>
+															<xr:DataPath xsi:type="xs:string">1</xr:DataPath>
 															<xr:ValueChange>Clear</xr:ValueChange>
 														</xr:Link>
 													</ChoiceParameterLinks>
@@ -1256,7 +1256,7 @@
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Beneficiary</v8:content>
+													<v8:content>Recipient</v8:content>
 												</v8:item>
 											</Title>
 											<TitleLocation>Left</TitleLocation>
@@ -1346,7 +1346,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>as of</v8:content>
+											<v8:content>from</v8:content>
 										</v8:item>
 									</Title>
 									<Wrap>false</Wrap>
@@ -1408,7 +1408,7 @@
 									<ExtendedTooltip name="СверхЛимитаExtendedTooltip" id="471"/>
 								</CheckBoxField>
 								<LabelField name="НадписьФактическаяОплата" id="1001">
-									<DataPath>24</DataPath>
+									<DataPath>НадписьФактическаяОплата</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<Hiperlink>true</Hiperlink>
 									<ContextMenu name="НадписьФактическаяОплатаКонтекстноеМеню" id="1002"/>
@@ -1607,7 +1607,7 @@ purchase</v8:content>
 							<ExtendedTooltip name="ГруппаДатаОтчетаРасширеннаяПодсказка" id="620"/>
 							<ChildItems>
 								<InputField name="ПериодАвансовогоОтчета" id="621">
-									<DataPath>21</DataPath>
+									<DataPath>ПериодАвансовогоОтчета</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -1696,7 +1696,7 @@ purchase</v8:content>
 									<ExtendedTooltip name="ПеречислениеВБюджетExtendedTooltip" id="1080"/>
 								</CheckBoxField>
 								<LabelField name="НадписьРеквизитыПлатежаВБюджет" id="1081">
-									<DataPath>36</DataPath>
+									<DataPath>НадписьРеквизитыПлатежаВБюджет</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>60</MaxWidth>
@@ -1714,10 +1714,9 @@ purchase</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Identifier</v8:content>
+									<v8:content>ID</v8:content>
 								</v8:item>
 							</Title>
-							<Group>Vertical</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаИдентификаторРасширеннаяПодсказка" id="628"/>
@@ -1750,6 +1749,119 @@ purchase</v8:content>
 									<MaxWidth>28</MaxWidth>
 									<ContextMenu name="ИдентификаторПлатежаКонтекстноеМеню" id="630"/>
 									<ExtendedTooltip name="ИдентификаторПлатежаРасширеннаяПодсказка" id="631"/>
+								</InputField>
+								<InputField name="КодВидаДохода" id="1280">
+									<DataPath>1000001/0:083a7645-1e20-4d81-a46a-cc4c6b5f7ea5</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>КВД</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>КВД</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Согласно Указанию Банка России от 14.10.2019 № 5286-У предусмотрена следующая классификация доходов для целей
+исполнительного производства при перечислении физическому лицу:
+1 - при переводе заработной платы и иных доходов, в отношении которых установлены ограничения размеров удержания
+2 - при переводе денежных средств, на которые не может быть обращено взыскание
+3 - при переводе денежных средств, на которые не может быть обращено взыскание с оговорками для алиментов
+
+Код вида дохода не указывается при переводе денежных средств, не являющихся доходами физического лица.
+Код указывается в реквизите 20 "Наз. пл. кодом" платежного поручения.</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Согласно Указанию Банка России от 14.10.2019 № 5286-У предусмотрена следующая классификация доходов для целей
+исполнительного производства при перечислении физическому лицу:
+1 - при переводе заработной платы и иных доходов, в отношении которых установлены ограничения размеров удержания
+2 - при переводе денежных средств, на которые не может быть обращено взыскание
+3 - при переводе денежных средств, на которые не может быть обращено взыскание с оговорками для алиментов
+
+Код вида дохода не указывается при переводе денежных средств, не являющихся доходами физического лица.
+Код указывается в реквизите 20 "Наз. пл. кодом" платежного поручения.</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Button</ToolTipRepresentation>
+									<Width>4</Width>
+									<DropListButton>true</DropListButton>
+									<ChoiceButton>false</ChoiceButton>
+									<ChoiceList>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>(не заполняется) Не является доходом физического лица</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>(не заполняется) Не является доходом физического лица</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string"/>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>1 - Разрешено удержание по исполнительному листу с ограничением по сумме</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>1 - Разрешено удержание по исполнительному листу с ограничением по сумме</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">1</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>2 - Запрещено удержание по исполнительному листу</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>2 - Запрещено удержание по исполнительному листу</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">2</Value>
+											</xr:Value>
+										</xr:Item>
+										<xr:Item>
+											<xr:Presentation/>
+											<xr:CheckState>0</xr:CheckState>
+											<xr:Value xsi:type="FormChoiceListDesTimeValue">
+												<Presentation>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>3 -  Разрешено удержание по исполнительному листу без ограничений</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>3 -  Разрешено удержание по исполнительному листу без ограничений</v8:content>
+													</v8:item>
+												</Presentation>
+												<Value xsi:type="xs:string">3</Value>
+											</xr:Value>
+										</xr:Item>
+									</ChoiceList>
+									<ContextMenu name="КодВидаДоходаКонтекстноеМеню" id="1281"/>
+									<ExtendedTooltip name="КодВидаДоходаРасширеннаяПодсказка" id="1282"/>
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
@@ -1843,7 +1955,7 @@ purchase</v8:content>
 									<ExtendedTooltip name="ТипКомиссииЗаПереводРасширеннаяПодсказка" id="1223"/>
 								</InputField>
 								<LabelField name="КодыИнструкцийБанку" id="1224">
-									<DataPath>58</DataPath>
+									<DataPath>КодыИнструкцийБанку</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<Width>40</Width>
 									<AutoMaxWidth>false</AutoMaxWidth>
@@ -1853,7 +1965,7 @@ purchase</v8:content>
 									<ExtendedTooltip name="КодыИнструкцийБанкуРасширеннаяПодсказка" id="1226"/>
 								</LabelField>
 								<LabelField name="ИнформацияДляРегулирующихОрганов" id="1260">
-									<DataPath>71</DataPath>
+									<DataPath>ИнформацияДляРегулирующихОрганов</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>29</MaxWidth>
@@ -1971,7 +2083,7 @@ purchase</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Explanation commands</v8:content>
+									<v8:content>Amount allocation commands</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
@@ -1980,7 +2092,7 @@ purchase</v8:content>
 							<ExtendedTooltip name="ГруппаКомандыРасшифровкиРасширеннаяПодсказка" id="1035"/>
 							<ChildItems>
 								<RadioButtonField name="ПереключательРасшифровки" id="794">
-									<DataPath>28</DataPath>
+									<DataPath>ПереключательРасшифровки</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<RadioButtonType>Tumbler</RadioButtonType>
 									<ChoiceList>
@@ -2061,7 +2173,7 @@ purchase</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Explanation pages</v8:content>
+									<v8:content>Amount allocation pages</v8:content>
 								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
@@ -2075,7 +2187,7 @@ purchase</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Explanation without split</v8:content>
+											<v8:content>Amount allocation without split</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="РасшифровкаБезРазбиенияРасширеннаяПодсказка" id="791"/>
@@ -2279,7 +2391,7 @@ purchase</v8:content>
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Explanation without split dimension group</v8:content>
+													<v8:content>Amount allocation without split dimension group</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
@@ -2361,7 +2473,7 @@ purchase</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Explanation as a list</v8:content>
+											<v8:content>Amount allocation as a list</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="РасшифровкаСпискомРасширеннаяПодсказка" id="793"/>
@@ -2908,12 +3020,12 @@ purchase</v8:content>
 									<ChoiceParameterLinks>
 										<xr:Link>
 											<xr:Name>Отбор.ВалютаДенежныхСредств</xr:Name>
-											<xr:DataPath xsi:type="xs:string">1/0:bbdd7ef1-8534-429f-a83e-806de2e85c36</xr:DataPath>
+											<xr:DataPath xsi:type="xs:string">1</xr:DataPath>
 											<xr:ValueChange>Clear</xr:ValueChange>
 										</xr:Link>
 										<xr:Link>
 											<xr:Name>Отбор.Владелец</xr:Name>
-											<xr:DataPath xsi:type="xs:string">270:02023637-7868-4a5f-8576-835a76e0c9ba/0:650817aa-07a2-4697-813c-aca61657b42f</xr:DataPath>
+											<xr:DataPath xsi:type="xs:string">270:02023637-7868-4a5f-8576-835a76e0c9ba/0:9df0eb39-8a10-42d8-86f1-f66d0cb47cd9</xr:DataPath>
 											<xr:ValueChange>Clear</xr:ValueChange>
 										</xr:Link>
 									</ChoiceParameterLinks>
@@ -2946,7 +3058,7 @@ purchase</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Payment from SOD funds</v8:content>
+							<v8:content>Payment from SDO funds</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаОплатаЗаСчетСредствРасширеннаяПодсказка" id="977"/>
@@ -3559,7 +3671,7 @@ purchase</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Basis</v8:content>
+					<v8:content>Base</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -3861,7 +3973,7 @@ purchase</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Decryption switch</v8:content>
+					<v8:content>Amount allocation switch</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -4015,7 +4127,7 @@ purchase</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Name</v8:content>
+							<v8:content>Description</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -4328,7 +4440,7 @@ purchase</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Foreign assignee in the confirmed SDO list</v8:content>
+					<v8:content>Foreign assignee in the approved SDO list</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -5018,7 +5130,7 @@ purchase</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Write</v8:content>
+					<v8:content>Save</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -5234,7 +5346,7 @@ purchase</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>EDW</v8:content>
+							<v8:content>EDI</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
@@ -5257,7 +5369,7 @@ purchase</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Print </v8:content>
+							<v8:content>Print</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
@@ -5376,6 +5488,7 @@ purchase</v8:content>
 				<ExtendedTooltip name="ГруппаСтатусПриоритетРасширеннаяПодсказка" id="462"/>
 				<ChildItems>
 					<InputField name="Статус" id="463">
+						<DataPath>Объект.Статус</DataPath>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -5428,6 +5541,7 @@ purchase</v8:content>
 						<ExtendedTooltip name="СтатусExtendedTooltip" id="465"/>
 					</InputField>
 					<InputField name="Приоритет" id="466">
+						<DataPath>Объект.ПриоритетОплаты</DataPath>
 						<TitleLocation>Left</TitleLocation>
 						<Width>12</Width>
 						<HorizontalStretch>false</HorizontalStretch>
@@ -5436,6 +5550,7 @@ purchase</v8:content>
 						<ExtendedTooltip name="ПриоритетExtendedTooltip" id="468"/>
 					</InputField>
 					<LabelField name="КтоРешил" id="472">
+						<DataPath>Объект.КтоРешил</DataPath>
 						<ReadOnly>true</ReadOnly>
 						<Title>
 							<v8:item>
@@ -5489,6 +5604,7 @@ purchase</v8:content>
 						<ExtendedTooltip name="СтраницаОсновноеРасширеннаяПодсказка" id="478"/>
 						<ChildItems>
 							<LabelField name="ДокументОснование" id="479">
+								<DataPath>Объект.ДокументОснование</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -5555,6 +5671,7 @@ purchase</v8:content>
 												<ExtendedTooltip name="ГруппаНомерДатаExtendedTooltip" id="487"/>
 												<ChildItems>
 													<InputField name="Номер" id="488">
+														<DataPath>Объект.Number</DataPath>
 														<TitleLocation>Left</TitleLocation>
 														<AutoMaxWidth>false</AutoMaxWidth>
 														<MaxWidth>9</MaxWidth>
@@ -5563,6 +5680,7 @@ purchase</v8:content>
 														<ExtendedTooltip name="НомерExtendedTooltip" id="490"/>
 													</InputField>
 													<InputField name="Дата" id="491">
+														<DataPath>Объект.Date</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -5570,7 +5688,7 @@ purchase</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>as of</v8:content>
+																<v8:content>from</v8:content>
 															</v8:item>
 														</Title>
 														<TitleLocation>Left</TitleLocation>
@@ -5583,6 +5701,7 @@ purchase</v8:content>
 												</ChildItems>
 											</UsualGroup>
 											<InputField name="Организация" id="494">
+												<DataPath>Объект.Организация</DataPath>
 												<TitleLocation>Left</TitleLocation>
 												<AutoMaxWidth>false</AutoMaxWidth>
 												<MaxWidth>28</MaxWidth>
@@ -5591,6 +5710,7 @@ purchase</v8:content>
 												<ExtendedTooltip name="ОрганизацияExtendedTooltip" id="496"/>
 											</InputField>
 											<InputField name="Подразделение" id="497">
+												<DataPath>Объект.Подразделение</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -5609,7 +5729,7 @@ purchase</v8:content>
 												<ExtendedTooltip name="ПодразделениеExtendedTooltip" id="499"/>
 											</InputField>
 											<LabelField name="НадписьРеквизитыПлательщика" id="1210">
-												<DataPath>55</DataPath>
+												<DataPath>НадписьРеквизитыПлательщика</DataPath>
 												<TitleLocation>None</TitleLocation>
 												<AutoMaxWidth>false</AutoMaxWidth>
 												<MaxWidth>38</MaxWidth>
@@ -5618,6 +5738,7 @@ purchase</v8:content>
 												<ExtendedTooltip name="НадписьРеквизитыПлательщикаРасширеннаяПодсказка" id="1212"/>
 											</LabelField>
 											<InputField name="Заявитель" id="500">
+												<DataPath>Объект.КтоЗаявил</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -5636,6 +5757,7 @@ purchase</v8:content>
 												<ExtendedTooltip name="ЗаявительExtendedTooltip" id="502"/>
 											</InputField>
 											<InputField name="ПланированиеСуммы" id="503">
+												<DataPath>Объект.ПланированиеСуммы</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -5673,6 +5795,7 @@ purchase</v8:content>
 										<ExtendedTooltip name="ГруппаШапкаПравоExtendedTooltip" id="523"/>
 										<ChildItems>
 											<InputField name="ХозяйственнаяОперация" id="526">
+												<DataPath>Объект.ХозяйственнаяОперация</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -5680,7 +5803,7 @@ purchase</v8:content>
 													</v8:item>
 													<v8:item>
 														<v8:lang>en</v8:lang>
-														<v8:content>Transaction</v8:content>
+														<v8:content>Operation</v8:content>
 													</v8:item>
 												</Title>
 												<TitleLocation>Left</TitleLocation>
@@ -5707,7 +5830,7 @@ purchase</v8:content>
 																</v8:item>
 																<v8:item>
 																	<v8:lang>en</v8:lang>
-																	<v8:content>Payment to advance holder</v8:content>
+																	<v8:content>Payment to the advance holder</v8:content>
 																</v8:item>
 															</Presentation>
 															<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ВыдачаДенежныхСредствПодотчетнику</Value>
@@ -5911,6 +6034,7 @@ purchase</v8:content>
 												<ExtendedTooltip name="ГруппаДатаПлатежаExtendedTooltip" id="985"/>
 												<ChildItems>
 													<InputField name="ЖелательнаяДатаПлатежа" id="986">
+														<DataPath>Объект.ЖелательнаяДатаПлатежа</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -5930,6 +6054,7 @@ purchase</v8:content>
 														<ExtendedTooltip name="ЖелательнаяДатаПлатежаExtendedTooltip" id="988"/>
 													</InputField>
 													<InputField name="ХозяйственнаяОперацияПоЗарплате" id="989">
+														<DataPath>Объект.ХозяйственнаяОперацияПоЗарплате</DataPath>
 														<TitleLocation>None</TitleLocation>
 														<Width>17</Width>
 														<MaxWidth>17</MaxWidth>
@@ -5992,7 +6117,7 @@ purchase</v8:content>
 														<ExtendedTooltip name="ХозяйственнаяОперацияПоЗарплатеРасширеннаяПодсказка" id="991"/>
 													</InputField>
 													<InputField name="ФормаОплаты" id="992">
-														<DataPath>5</DataPath>
+														<DataPath>ФормаОплаты</DataPath>
 														<TitleLocation>None</TitleLocation>
 														<ToolTip>
 															<v8:item>
@@ -6030,12 +6155,13 @@ purchase</v8:content>
 												<ExtendedTooltip name="ГруппаТипНалогаРасширеннаяПодсказка" id="1158"/>
 												<ChildItems>
 													<InputField name="ТипНалога" id="1165">
+														<DataPath>Объект.ТипНалога</DataPath>
 														<AutoMaxWidth>false</AutoMaxWidth>
 														<MaxWidth>28</MaxWidth>
 														<ChoiceParameterLinks>
 															<xr:Link>
 																<xr:Name>Организация</xr:Name>
-																<xr:DataPath xsi:type="xs:string">1/0:270f8088-8c38-4b2c-828e-14fbd42be8a5</xr:DataPath>
+																<xr:DataPath xsi:type="xs:string">1</xr:DataPath>
 																<xr:ValueChange>Clear</xr:ValueChange>
 															</xr:Link>
 														</ChoiceParameterLinks>
@@ -6124,6 +6250,7 @@ purchase</v8:content>
 												<ExtendedTooltip name="ГруппаОплатаЗаявкиРасширеннаяПодсказка" id="784"/>
 												<ChildItems>
 													<InputField name="БанковскийСчет" id="1042">
+														<DataPath>Объект.БанковскийСчет</DataPath>
 														<AutoMaxWidth>false</AutoMaxWidth>
 														<MaxWidth>28</MaxWidth>
 														<QuickChoice>false</QuickChoice>
@@ -6131,6 +6258,7 @@ purchase</v8:content>
 														<ExtendedTooltip name="БанковскийСчетРасширеннаяПодсказка" id="1044"/>
 													</InputField>
 													<InputField name="Касса" id="1045">
+														<DataPath>Объект.Касса</DataPath>
 														<AutoMaxWidth>false</AutoMaxWidth>
 														<MaxWidth>28</MaxWidth>
 														<QuickChoice>false</QuickChoice>
@@ -6140,6 +6268,7 @@ purchase</v8:content>
 												</ChildItems>
 											</UsualGroup>
 											<InputField name="Контрагент" id="529">
+												<DataPath>Объект.Контрагент</DataPath>
 												<TitleLocation>Left</TitleLocation>
 												<AutoMaxWidth>false</AutoMaxWidth>
 												<MaxWidth>28</MaxWidth>
@@ -6194,10 +6323,6 @@ purchase</v8:content>
 													<PictureDecoration name="КартинкаОжиданиеЗагрузкиИндексовСПАРКРиски" id="1199">
 														<Width>2</Width>
 														<Height>1</Height>
-														<Picture>
-															<xr:Ref>CommonPicture.ДлительнаяОперация16</xr:Ref>
-															<xr:LoadTransparent>false</xr:LoadTransparent>
-														</Picture>
 														<FileDragMode>AsFile</FileDragMode>
 														<ContextMenu name="КартинкаОжиданиеЗагрузкиИндексовСПАРКРискиКонтекстноеМеню" id="1200"/>
 														<ExtendedTooltip name="КартинкаОжиданиеЗагрузкиИндексовСПАРКРискиРасширеннаяПодсказка" id="1201"/>
@@ -6258,6 +6383,7 @@ purchase</v8:content>
 														<ExtendedTooltip name="СписокФизЛицОтключеноРасширеннаяПодсказка" id="1267"/>
 													</RadioButtonField>
 													<InputField name="ПодотчетноеЛицо" id="532">
+														<DataPath>Объект.ПодотчетноеЛицо</DataPath>
 														<TitleLocation>None</TitleLocation>
 														<AutoMaxWidth>false</AutoMaxWidth>
 														<MaxWidth>25</MaxWidth>
@@ -6268,6 +6394,7 @@ purchase</v8:content>
 														<ExtendedTooltip name="ПодотчетноеЛицоExtendedTooltip" id="534"/>
 													</InputField>
 													<InputField name="Сотрудник" id="1274">
+														<DataPath>Объект.ПодотчетноеЛицо</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -6290,6 +6417,7 @@ purchase</v8:content>
 												</ChildItems>
 											</UsualGroup>
 											<InputField name="БанковскийСчетКонтрагента" id="535">
+												<DataPath>Объект.БанковскийСчетКонтрагента</DataPath>
 												<TitleLocation>Left</TitleLocation>
 												<AutoMaxWidth>false</AutoMaxWidth>
 												<MaxWidth>28</MaxWidth>
@@ -6324,6 +6452,7 @@ purchase</v8:content>
 												<ExtendedTooltip name="СписокФизЛицВключеноРасширеннаяПодсказка" id="1270"/>
 											</RadioButtonField>
 											<InputField name="ОрганизацияПолучатель" id="538">
+												<DataPath>Объект.ОрганизацияПолучатель</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -6331,7 +6460,7 @@ purchase</v8:content>
 													</v8:item>
 													<v8:item>
 														<v8:lang>en</v8:lang>
-														<v8:content>Beneficiary</v8:content>
+														<v8:content>Recipient</v8:content>
 													</v8:item>
 												</Title>
 												<TitleLocation>Left</TitleLocation>
@@ -6341,6 +6470,7 @@ purchase</v8:content>
 												<ExtendedTooltip name="ОрганизацияПолучательExtendedTooltip" id="540"/>
 											</InputField>
 											<InputField name="БанковскийСчетПолучатель" id="541">
+												<DataPath>Объект.БанковскийСчетПолучатель</DataPath>
 												<TitleLocation>Left</TitleLocation>
 												<AutoMaxWidth>false</AutoMaxWidth>
 												<MaxWidth>28</MaxWidth>
@@ -6348,6 +6478,7 @@ purchase</v8:content>
 												<ExtendedTooltip name="БанковскийСчетПолучательExtendedTooltip" id="543"/>
 											</InputField>
 											<InputField name="КассаПолучатель" id="544">
+												<DataPath>Объект.КассаПолучатель</DataPath>
 												<TitleLocation>Left</TitleLocation>
 												<AutoMaxWidth>false</AutoMaxWidth>
 												<MaxWidth>28</MaxWidth>
@@ -6355,6 +6486,7 @@ purchase</v8:content>
 												<ExtendedTooltip name="КассаПолучательExtendedTooltip" id="546"/>
 											</InputField>
 											<InputField name="СтатьяДвиженияДенежныхСредств" id="547">
+												<DataPath>Объект.СтатьяДвиженияДенежныхСредств</DataPath>
 												<TitleLocation>Left</TitleLocation>
 												<AutoMaxWidth>false</AutoMaxWidth>
 												<MaxWidth>28</MaxWidth>
@@ -6394,6 +6526,7 @@ purchase</v8:content>
 								<ExtendedTooltip name="ГруппаНомерДатаВедомостиНаВыплатуЗарплатыExtendedTooltip" id="515"/>
 								<ChildItems>
 									<InputField name="НомерВедомостиНаВыплатуЗарплаты" id="516">
+										<DataPath>Объект.НомерВедомостиНаВыплатуЗарплаты</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -6409,6 +6542,7 @@ purchase</v8:content>
 										<ExtendedTooltip name="НомерВедомостиНаВыплатуЗарплатыExtendedTooltip" id="518"/>
 									</InputField>
 									<InputField name="ДатаВедомостиНаВыплатуЗарплаты" id="519">
+										<DataPath>Объект.ДатаВедомостиНаВыплатуЗарплаты</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -6416,7 +6550,7 @@ purchase</v8:content>
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>as of</v8:content>
+												<v8:content>from</v8:content>
 											</v8:item>
 										</Title>
 										<Wrap>false</Wrap>
@@ -6442,6 +6576,7 @@ purchase</v8:content>
 								<ExtendedTooltip name="ГруппаСуммаExtendedTooltip" id="507"/>
 								<ChildItems>
 									<InputField name="СуммаДокумента" id="508">
+										<DataPath>Объект.СуммаДокумента</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -6460,6 +6595,7 @@ purchase</v8:content>
 										<ExtendedTooltip name="СуммаДокументаExtendedTooltip" id="510"/>
 									</InputField>
 									<InputField name="Валюта" id="511">
+										<DataPath>Объект.Валюта</DataPath>
 										<TitleLocation>None</TitleLocation>
 										<Width>8</Width>
 										<HorizontalStretch>false</HorizontalStretch>
@@ -6469,13 +6605,14 @@ purchase</v8:content>
 										<ExtendedTooltip name="ВалютаExtendedTooltip" id="513"/>
 									</InputField>
 									<CheckBoxField name="СверхЛимита" id="469">
+										<DataPath>Объект.СверхЛимита</DataPath>
 										<TitleLocation>Right</TitleLocation>
 										<CheckBoxType>Auto</CheckBoxType>
 										<ContextMenu name="СверхЛимитаКонтекстноеМеню" id="470"/>
 										<ExtendedTooltip name="СверхЛимитаExtendedTooltip" id="471"/>
 									</CheckBoxField>
 									<LabelField name="НадписьФактическаяОплата" id="1001">
-										<DataPath>24</DataPath>
+										<DataPath>НадписьФактическаяОплата</DataPath>
 										<TitleLocation>None</TitleLocation>
 										<Hiperlink>true</Hiperlink>
 										<ContextMenu name="НадписьФактическаяОплатаКонтекстноеМеню" id="1002"/>
@@ -6501,6 +6638,7 @@ purchase</v8:content>
 								<ExtendedTooltip name="ГруппаКонвертацияВалютыExtendedTooltip" id="607"/>
 								<ChildItems>
 									<InputField name="ВалютаКонвертации" id="610">
+										<DataPath>Объект.ВалютаКонвертации</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -6552,6 +6690,7 @@ purchase</v8:content>
 												<ExtendedTooltip name="ГруппаКурсБанкаРасширеннаяПодсказка" id="1240"/>
 												<ChildItems>
 													<RadioButtonField name="ВариантКурсаБанк" id="1241">
+														<DataPath>Объект.УсловиеСделкиКонвертации</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -6586,6 +6725,7 @@ purchase</v8:content>
 														<ExtendedTooltip name="ВариантКурсаБанкРасширеннаяПодсказка" id="1243"/>
 													</RadioButtonField>
 													<RadioButtonField name="ВариантКурсаЦБ" id="1244">
+														<DataPath>Объект.УсловиеСделкиКонвертации</DataPath>
 														<TitleLocation>None</TitleLocation>
 														<RadioButtonType>Auto</RadioButtonType>
 														<ChoiceList>
@@ -6611,11 +6751,13 @@ purchase</v8:content>
 														<ExtendedTooltip name="ВариантКурсаЦБРасширеннаяПодсказка" id="1246"/>
 													</RadioButtonField>
 													<InputField name="КурсКонвертации" id="613">
+														<DataPath>Объект.КурсКонвертации</DataPath>
 														<TitleLocation>None</TitleLocation>
 														<ContextMenu name="КурсКонвертацииКонтекстноеМеню" id="614"/>
 														<ExtendedTooltip name="КурсКонвертацииExtendedTooltip" id="615"/>
 													</InputField>
 													<InputField name="СуммаКонвертации" id="616">
+														<DataPath>Объект.СуммаКонвертации</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -6632,6 +6774,7 @@ purchase</v8:content>
 												</ChildItems>
 											</UsualGroup>
 											<InputField name="БанковскийСчетСписанияКомиссии" id="1247">
+												<DataPath>Объект.БанковскийСчетСписанияКомиссии</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -6668,7 +6811,7 @@ purchase</v8:content>
 								<ExtendedTooltip name="ГруппаДатаОтчетаРасширеннаяПодсказка" id="620"/>
 								<ChildItems>
 									<InputField name="ПериодАвансовогоОтчета" id="621">
-										<DataPath>21</DataPath>
+										<DataPath>ПериодАвансовогоОтчета</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -6698,6 +6841,7 @@ purchase</v8:content>
 										<ExtendedTooltip name="ПериодАвансовогоОтчетаРасширеннаяПодсказка" id="623"/>
 									</InputField>
 									<InputField name="ДатаАвансовогоОтчета" id="624">
+										<DataPath>Объект.ДатаАвансовогоОтчета</DataPath>
 										<ReadOnly>true</ReadOnly>
 										<Title>
 											<v8:item>
@@ -6739,6 +6883,7 @@ purchase</v8:content>
 										<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="1109"/>
 									</LabelDecoration>
 									<CheckBoxField name="ПеречислениеВБюджет" id="1078">
+										<DataPath>Объект.ПеречислениеВБюджет</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -6755,7 +6900,7 @@ purchase</v8:content>
 										<ExtendedTooltip name="ПеречислениеВБюджетExtendedTooltip" id="1080"/>
 									</CheckBoxField>
 									<LabelField name="НадписьРеквизитыПлатежаВБюджет" id="1081">
-										<DataPath>36</DataPath>
+										<DataPath>НадписьРеквизитыПлатежаВБюджет</DataPath>
 										<TitleLocation>None</TitleLocation>
 										<AutoMaxWidth>false</AutoMaxWidth>
 										<MaxWidth>60</MaxWidth>
@@ -6773,15 +6918,15 @@ purchase</v8:content>
 									</v8:item>
 									<v8:item>
 										<v8:lang>en</v8:lang>
-										<v8:content>Identifier</v8:content>
+										<v8:content>ID</v8:content>
 									</v8:item>
 								</Title>
-								<Group>Vertical</Group>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="ГруппаИдентификаторРасширеннаяПодсказка" id="628"/>
 								<ChildItems>
 									<InputField name="ИдентификаторПлатежа" id="629">
+										<DataPath>Объект.ИдентификаторПлатежа</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -6809,6 +6954,119 @@ purchase</v8:content>
 										<ContextMenu name="ИдентификаторПлатежаКонтекстноеМеню" id="630"/>
 										<ExtendedTooltip name="ИдентификаторПлатежаРасширеннаяПодсказка" id="631"/>
 									</InputField>
+									<InputField name="КодВидаДохода" id="1280">
+										<DataPath>Объект.КодВидаДохода</DataPath>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>КВД</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>КВД</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Согласно Указанию Банка России от 14.10.2019 № 5286-У предусмотрена следующая классификация доходов для целей
+исполнительного производства при перечислении физическому лицу:
+1 - при переводе заработной платы и иных доходов, в отношении которых установлены ограничения размеров удержания
+2 - при переводе денежных средств, на которые не может быть обращено взыскание
+3 - при переводе денежных средств, на которые не может быть обращено взыскание с оговорками для алиментов
+
+Код вида дохода не указывается при переводе денежных средств, не являющихся доходами физического лица.
+Код указывается в реквизите 20 "Наз. пл. кодом" платежного поручения.</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Согласно Указанию Банка России от 14.10.2019 № 5286-У предусмотрена следующая классификация доходов для целей
+исполнительного производства при перечислении физическому лицу:
+1 - при переводе заработной платы и иных доходов, в отношении которых установлены ограничения размеров удержания
+2 - при переводе денежных средств, на которые не может быть обращено взыскание
+3 - при переводе денежных средств, на которые не может быть обращено взыскание с оговорками для алиментов
+
+Код вида дохода не указывается при переводе денежных средств, не являющихся доходами физического лица.
+Код указывается в реквизите 20 "Наз. пл. кодом" платежного поручения.</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ToolTipRepresentation>Button</ToolTipRepresentation>
+										<Width>4</Width>
+										<DropListButton>true</DropListButton>
+										<ChoiceButton>false</ChoiceButton>
+										<ChoiceList>
+											<xr:Item>
+												<xr:Presentation/>
+												<xr:CheckState>0</xr:CheckState>
+												<xr:Value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>(не заполняется) Не является доходом физического лица</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>(не заполняется) Не является доходом физического лица</v8:content>
+														</v8:item>
+													</Presentation>
+													<Value xsi:type="xs:string"/>
+												</xr:Value>
+											</xr:Item>
+											<xr:Item>
+												<xr:Presentation/>
+												<xr:CheckState>0</xr:CheckState>
+												<xr:Value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>1 - Разрешено удержание по исполнительному листу с ограничением по сумме</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>1 - Разрешено удержание по исполнительному листу с ограничением по сумме</v8:content>
+														</v8:item>
+													</Presentation>
+													<Value xsi:type="xs:string">1</Value>
+												</xr:Value>
+											</xr:Item>
+											<xr:Item>
+												<xr:Presentation/>
+												<xr:CheckState>0</xr:CheckState>
+												<xr:Value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>2 - Запрещено удержание по исполнительному листу</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>2 - Запрещено удержание по исполнительному листу</v8:content>
+														</v8:item>
+													</Presentation>
+													<Value xsi:type="xs:string">2</Value>
+												</xr:Value>
+											</xr:Item>
+											<xr:Item>
+												<xr:Presentation/>
+												<xr:CheckState>0</xr:CheckState>
+												<xr:Value xsi:type="FormChoiceListDesTimeValue">
+													<Presentation>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>3 -  Разрешено удержание по исполнительному листу без ограничений</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>3 -  Разрешено удержание по исполнительному листу без ограничений</v8:content>
+														</v8:item>
+													</Presentation>
+													<Value xsi:type="xs:string">3</Value>
+												</xr:Value>
+											</xr:Item>
+										</ChoiceList>
+										<ContextMenu name="КодВидаДоходаКонтекстноеМеню" id="1281"/>
+										<ExtendedTooltip name="КодВидаДоходаРасширеннаяПодсказка" id="1282"/>
+									</InputField>
 								</ChildItems>
 							</UsualGroup>
 							<UsualGroup name="ГруппаВалютныйПлатеж" id="1219">
@@ -6828,6 +7086,7 @@ purchase</v8:content>
 								<ExtendedTooltip name="ГруппаВалютныйПлатежРасширеннаяПодсказка" id="1220"/>
 								<ChildItems>
 									<InputField name="ТипКомиссииЗаПеревод" id="1221">
+										<DataPath>Объект.ТипКомиссииЗаПеревод</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -6867,11 +7126,11 @@ purchase</v8:content>
 													<Presentation>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>SNA - Комиссия оплачивается совместно: плательщик - комиссию своего банка, остальное - получатель</v8:content>
+															<v8:content>SHA - Комиссия оплачивается совместно: плательщик - комиссию своего банка, остальное - получатель</v8:content>
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>SNA - Fee is paid together: payer - commission of his or her bank, the rest is paid by a recipient</v8:content>
+															<v8:content>SHA - Fee is paid together: payer - commission of their bank, the rest is paid by a recipient</v8:content>
 														</v8:item>
 													</Presentation>
 													<Value xsi:type="xr:DesignTimeRef">Enum.ТипыКомиссииЗаБанковскиеПереводы.EnumValue.SHA</Value>
@@ -6900,7 +7159,7 @@ purchase</v8:content>
 										<ExtendedTooltip name="ТипКомиссииЗаПереводРасширеннаяПодсказка" id="1223"/>
 									</InputField>
 									<LabelField name="КодыИнструкцийБанку" id="1224">
-										<DataPath>58</DataPath>
+										<DataPath>КодыИнструкцийБанку</DataPath>
 										<TitleLocation>None</TitleLocation>
 										<Width>40</Width>
 										<AutoMaxWidth>false</AutoMaxWidth>
@@ -6910,7 +7169,7 @@ purchase</v8:content>
 										<ExtendedTooltip name="КодыИнструкцийБанкуРасширеннаяПодсказка" id="1226"/>
 									</LabelField>
 									<LabelField name="ИнформацияДляРегулирующихОрганов" id="1260">
-										<DataPath>71</DataPath>
+										<DataPath>ИнформацияДляРегулирующихОрганов</DataPath>
 										<TitleLocation>None</TitleLocation>
 										<AutoMaxWidth>false</AutoMaxWidth>
 										<MaxWidth>29</MaxWidth>
@@ -6938,6 +7197,7 @@ purchase</v8:content>
 								<ExtendedTooltip name="ГруппаИнформацияПолучателюРасширеннаяПодсказка" id="1233"/>
 								<ChildItems>
 									<InputField name="ИнформацияПолучателюПлатежа" id="1234">
+										<DataPath>Объект.ИнформацияПолучателюПлатежа</DataPath>
 										<TitleLocation>Left</TitleLocation>
 										<TitleHeight>3</TitleHeight>
 										<Width>69</Width>
@@ -6966,6 +7226,7 @@ purchase</v8:content>
 								<ExtendedTooltip name="ГруппаЗаметкиРасширеннаяПодсказка" id="1231"/>
 								<ChildItems>
 									<InputField name="Заметки" id="651">
+										<DataPath>Объект.Комментарий</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -7015,6 +7276,7 @@ purchase</v8:content>
 								<v8:content>Amount allocation</v8:content>
 							</v8:item>
 						</Title>
+						<TitleDataPath>Объект.РасшифровкаПлатежа.RowsCount</TitleDataPath>
 						<ExtendedTooltip name="СтраницаРасшифровкаРасширеннаяПодсказка" id="660"/>
 						<ChildItems>
 							<UsualGroup name="ГруппаКомандыРасшифровки" id="1034">
@@ -7025,7 +7287,7 @@ purchase</v8:content>
 									</v8:item>
 									<v8:item>
 										<v8:lang>en</v8:lang>
-										<v8:content>Explanation commands</v8:content>
+										<v8:content>Amount allocation commands</v8:content>
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
@@ -7034,7 +7296,7 @@ purchase</v8:content>
 								<ExtendedTooltip name="ГруппаКомандыРасшифровкиРасширеннаяПодсказка" id="1035"/>
 								<ChildItems>
 									<RadioButtonField name="ПереключательРасшифровки" id="794">
-										<DataPath>28</DataPath>
+										<DataPath>ПереключательРасшифровки</DataPath>
 										<TitleLocation>None</TitleLocation>
 										<RadioButtonType>Tumbler</RadioButtonType>
 										<ChoiceList>
@@ -7077,6 +7339,7 @@ purchase</v8:content>
 										<ExtendedTooltip name="ПереключательРасшифровкиРасширеннаяПодсказка" id="796"/>
 									</RadioButtonField>
 									<CheckBoxField name="ПлатежиПо275ФЗ" id="1036">
+										<DataPath>Объект.ПлатежиПо275ФЗ</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -7093,6 +7356,7 @@ purchase</v8:content>
 										<ExtendedTooltip name="ПлатежиПо275ФЗРасширеннаяПодсказка" id="1038"/>
 									</CheckBoxField>
 									<CheckBoxField name="НДФЛПоВедомостям" id="1175">
+										<DataPath>Объект.НДФЛПоВедомостям</DataPath>
 										<TitleLocation>Right</TitleLocation>
 										<CheckBoxType>Auto</CheckBoxType>
 										<ContextMenu name="НДФЛПоВедомостямКонтекстноеМеню" id="1176"/>
@@ -7113,7 +7377,7 @@ purchase</v8:content>
 									</v8:item>
 									<v8:item>
 										<v8:lang>en</v8:lang>
-										<v8:content>Explanation pages</v8:content>
+										<v8:content>Amount allocation pages</v8:content>
 									</v8:item>
 								</Title>
 								<PagesRepresentation>None</PagesRepresentation>
@@ -7127,12 +7391,13 @@ purchase</v8:content>
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Explanation without split</v8:content>
+												<v8:content>Amount allocation without split</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="РасшифровкаБезРазбиенияРасширеннаяПодсказка" id="791"/>
 										<ChildItems>
 											<InputField name="РасшифровкаБезРазбиенияЗаказ" id="797">
+												<DataPath>Items.РасшифровкаПлатежа.CurrentData.Заказ</DataPath>
 												<DropListButton>false</DropListButton>
 												<ChoiceButton>true</ChoiceButton>
 												<CreateButton>false</CreateButton>
@@ -7140,6 +7405,7 @@ purchase</v8:content>
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияЗаказРасширеннаяПодсказка" id="799"/>
 											</InputField>
 											<InputField name="РасшифровкаБезРазбиенияВедомость" id="1178">
+												<DataPath>Items.РасшифровкаПлатежа.CurrentData.Ведомость</DataPath>
 												<Width>40</Width>
 												<HorizontalStretch>false</HorizontalStretch>
 												<DropListButton>false</DropListButton>
@@ -7150,26 +7416,32 @@ purchase</v8:content>
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияВедомостьРасширеннаяПодсказка" id="1180"/>
 											</InputField>
 											<InputField name="РасшифровкаБезРазбиенияПартнер" id="800">
+												<DataPath>Items.РасшифровкаПлатежа.CurrentData.Партнер</DataPath>
 												<ContextMenu name="РасшифровкаБезРазбиенияПартнерКонтекстноеМеню" id="801"/>
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияПартнерРасширеннаяПодсказка" id="802"/>
 											</InputField>
 											<InputField name="РасшифровкаБезРазбиенияДоговорКредитаДепозита" id="803">
+												<DataPath>Items.РасшифровкаПлатежа.CurrentData.ДоговорКредитаДепозита</DataPath>
 												<ContextMenu name="РасшифровкаБезРазбиенияДоговорКредитаДепозитаКонтекстноеМеню" id="804"/>
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияДоговорКредитаДепозитаРасширеннаяПодсказка" id="805"/>
 											</InputField>
 											<InputField name="РасшифровкаБезРазбиенияДоговорЗаймаСотруднику" id="806">
+												<DataPath>Items.РасшифровкаПлатежа.CurrentData.ДоговорЗаймаСотруднику</DataPath>
 												<ContextMenu name="РасшифровкаБезРазбиенияДоговорЗаймаСотрудникуКонтекстноеМеню" id="807"/>
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияДоговорЗаймаСотрудникуРасширеннаяПодсказка" id="808"/>
 											</InputField>
 											<InputField name="РасшифровкаБезРазбиенияТипСуммыКредитаДепозита" id="815">
+												<DataPath>Items.РасшифровкаПлатежа.CurrentData.ТипСуммыКредитаДепозита</DataPath>
 												<ContextMenu name="РасшифровкаБезРазбиенияТипСуммыКредитаДепозитаКонтекстноеМеню" id="816"/>
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияТипСуммыКредитаДепозитаРасширеннаяПодсказка" id="817"/>
 											</InputField>
 											<InputField name="РасшифровкаБезРазбиенияДоговорЛизинга" id="809">
+												<DataPath>Items.РасшифровкаПлатежа.CurrentData.ДоговорЛизинга</DataPath>
 												<ContextMenu name="РасшифровкаБезРазбиенияДоговорЛизингаКонтекстноеМеню" id="810"/>
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияДоговорЛизингаРасширеннаяПодсказка" id="811"/>
 											</InputField>
 											<InputField name="РасшифровкаБезРазбиенияТипПлатежаПоЛизингу" id="812">
+												<DataPath>Items.РасшифровкаПлатежа.CurrentData.ТипПлатежаПоЛизингу</DataPath>
 												<ContextMenu name="РасшифровкаБезРазбиенияТипПлатежаПоЛизингуКонтекстноеМеню" id="813"/>
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияТипПлатежаПоЛизингуРасширеннаяПодсказка" id="814"/>
 											</InputField>
@@ -7190,6 +7462,7 @@ purchase</v8:content>
 												<ExtendedTooltip name="ГруппаСуммаВзаиморасчетовРасширеннаяПодсказка" id="833"/>
 												<ChildItems>
 													<InputField name="РасшифровкаБезРазбиенияСуммаВзаиморасчетов" id="821">
+														<DataPath>Items.РасшифровкаПлатежа.CurrentData.СуммаВзаиморасчетов</DataPath>
 														<WarningOnEditRepresentation>Show</WarningOnEditRepresentation>
 														<WarningOnEdit>
 															<v8:item>
@@ -7205,6 +7478,7 @@ purchase</v8:content>
 														<ExtendedTooltip name="РасшифровкаБезРазбиенияСуммаВзаиморасчетовРасширеннаяПодсказка" id="823"/>
 													</InputField>
 													<InputField name="РасшифровкаБезРазбиенияВалютаВзаиморасчетов" id="824">
+														<DataPath>Items.РасшифровкаПлатежа.CurrentData.ВалютаВзаиморасчетов</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -7239,6 +7513,7 @@ purchase</v8:content>
 												<ExtendedTooltip name="ГруппаНДСРасширеннаяПодсказка" id="1125"/>
 												<ChildItems>
 													<InputField name="РасшифровкаБезРазбиенияСтавкаНДС" id="1126">
+														<DataPath>Items.РасшифровкаПлатежа.CurrentData.СтавкаНДС</DataPath>
 														<AutoMaxWidth>false</AutoMaxWidth>
 														<MaxWidth>14</MaxWidth>
 														<HorizontalStretch>false</HorizontalStretch>
@@ -7246,10 +7521,12 @@ purchase</v8:content>
 														<ExtendedTooltip name="РасшифровкаБезРазбиенияСтавкаНДСРасширеннаяПодсказка" id="1128"/>
 													</InputField>
 													<InputField name="РасшифровкаБезРазбиенияСуммаНДС" id="1129">
+														<DataPath>Items.РасшифровкаПлатежа.CurrentData.СуммаНДС</DataPath>
 														<ContextMenu name="РасшифровкаБезРазбиенияСуммаНДСКонтекстноеМеню" id="1130"/>
 														<ExtendedTooltip name="РасшифровкаБезРазбиенияСуммаНДСРасширеннаяПодсказка" id="1131"/>
 													</InputField>
 													<LabelField name="ВалютаНДС" id="1132">
+														<DataPath>Объект.Валюта</DataPath>
 														<TitleLocation>None</TitleLocation>
 														<HorizontalStretch>false</HorizontalStretch>
 														<ContextMenu name="ВалютаНДСКонтекстноеМеню" id="1133"/>
@@ -7258,6 +7535,7 @@ purchase</v8:content>
 												</ChildItems>
 											</UsualGroup>
 											<InputField name="РасшифровкаБезРазбиенияСтатьяДвиженияДенежныхСредств" id="818">
+												<DataPath>Items.РасшифровкаПлатежа.CurrentData.СтатьяДвиженияДенежныхСредств</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -7275,16 +7553,19 @@ purchase</v8:content>
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияСтатьяДвиженияДенежныхСредствРасширеннаяПодсказка" id="820"/>
 											</InputField>
 											<InputField name="РасшифровкаБезРазбиенияПодразделение" id="1115">
+												<DataPath>Items.РасшифровкаПлатежа.CurrentData.Подразделение</DataPath>
 												<ContextMenu name="РасшифровкаБезРазбиенияПодразделениеКонтекстноеМеню" id="1116"/>
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияПодразделениеРасширеннаяПодсказка" id="1117"/>
 											</InputField>
 											<InputField name="РасшифровкаБезРазбиенияНаправлениеДеятельности" id="1151">
+												<DataPath>Items.РасшифровкаПлатежа.CurrentData.НаправлениеДеятельности</DataPath>
 												<DropListButton>true</DropListButton>
 												<ChooseType>false</ChooseType>
 												<ContextMenu name="РасшифровкаБезРазбиенияНаправлениеДеятельностиКонтекстноеМеню" id="1152"/>
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияНаправлениеДеятельностиРасширеннаяПодсказка" id="1153"/>
 											</InputField>
 											<InputField name="РасшифровкаБезРазбиенияСтатьяРасходов" id="827">
+												<DataPath>Items.РасшифровкаПлатежа.CurrentData.СтатьяРасходов</DataPath>
 												<DropListButton>false</DropListButton>
 												<ChoiceButton>true</ChoiceButton>
 												<ChoiceButtonRepresentation>ShowInInputField</ChoiceButtonRepresentation>
@@ -7314,7 +7595,7 @@ purchase</v8:content>
 													</v8:item>
 													<v8:item>
 														<v8:lang>en</v8:lang>
-														<v8:content>Explanation without split dimension group</v8:content>
+														<v8:content>Amount allocation without split dimension group</v8:content>
 													</v8:item>
 												</Title>
 												<Group>Vertical</Group>
@@ -7323,10 +7604,12 @@ purchase</v8:content>
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияГруппаАналитикаРасширеннаяПодсказка" id="831"/>
 												<ChildItems>
 													<InputField name="РасшифровкаБезРазбиенияАналитикаРасходов" id="834">
+														<DataPath>Items.РасшифровкаПлатежа.CurrentData.АналитикаРасходов</DataPath>
 														<ContextMenu name="РасшифровкаБезРазбиенияАналитикаРасходовКонтекстноеМеню" id="835"/>
 														<ExtendedTooltip name="РасшифровкаБезРазбиенияАналитикаРасходовРасширеннаяПодсказка" id="836"/>
 													</InputField>
 													<InputField name="РасшифровкаБезРазбиенияАналитикаАктивовПассивов" id="837">
+														<DataPath>Items.РасшифровкаПлатежа.CurrentData.АналитикаАктивовПассивов</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -7358,23 +7641,28 @@ purchase</v8:content>
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияПредставлениеОтраженияВРеглУчетеРасширеннаяПодсказка" id="1093"/>
 											</LabelField>
 											<InputField name="РасшифровкаБезРазбиенияОрганизация" id="1202">
+												<DataPath>Items.РасшифровкаПлатежа.CurrentData.Организация</DataPath>
 												<ReadOnly>true</ReadOnly>
 												<ContextMenu name="РасшифровкаБезРазбиенияОрганизацияКонтекстноеМеню" id="1203"/>
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияОрганизацияРасширеннаяПодсказка" id="1204"/>
 											</InputField>
 											<InputField name="Договор" id="973">
+												<DataPath>Объект.Договор</DataPath>
 												<ContextMenu name="ДоговорКонтекстноеМеню" id="974"/>
 												<ExtendedTooltip name="ДоговорРасширеннаяПодсказка" id="975"/>
 											</InputField>
 											<InputField name="ГруппаФинансовогоУчета" id="1252">
+												<DataPath>Объект.ГруппаФинансовогоУчета</DataPath>
 												<ContextMenu name="ГруппаФинансовогоУчетаКонтекстноеМеню" id="1253"/>
 												<ExtendedTooltip name="ГруппаФинансовогоУчетаРасширеннаяПодсказка" id="1254"/>
 											</InputField>
 											<InputField name="НаправлениеДеятельности" id="1227">
+												<DataPath>Объект.НаправлениеДеятельности</DataPath>
 												<ContextMenu name="НаправлениеДеятельностиКонтекстноеМеню" id="1228"/>
 												<ExtendedTooltip name="НаправлениеДеятельностиРасширеннаяПодсказка" id="1229"/>
 											</InputField>
 											<InputField name="РасшифровкаБезРазбиенияКомментарий" id="840">
+												<DataPath>Items.РасшифровкаПлатежа.CurrentData.Комментарий</DataPath>
 												<ContextMenu name="РасшифровкаБезРазбиенияКомментарийКонтекстноеМеню" id="841"/>
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияКомментарийРасширеннаяПодсказка" id="842"/>
 											</InputField>
@@ -7388,7 +7676,7 @@ purchase</v8:content>
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Explanation as a list</v8:content>
+												<v8:content>Amount allocation as a list</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="РасшифровкаСпискомРасширеннаяПодсказка" id="793"/>
@@ -7400,6 +7688,7 @@ purchase</v8:content>
 												<Footer>true</Footer>
 												<AutoAddIncomplete>false</AutoAddIncomplete>
 												<FileDragMode>AsFile</FileDragMode>
+												<DataPath>Объект.РасшифровкаПлатежа</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -7469,11 +7758,13 @@ purchase</v8:content>
 												</SearchControlAddition>
 												<ChildItems>
 													<InputField name="РасшифровкаПлатежаНомерСтроки" id="674">
+														<DataPath>Объект.РасшифровкаПлатежа.LineNumber</DataPath>
 														<Wrap>false</Wrap>
 														<ContextMenu name="РасшифровкаПлатежаНомерСтрокиКонтекстноеМеню" id="675"/>
 														<ExtendedTooltip name="РасшифровкаПлатежаНомерСтрокиExtendedTooltip" id="676"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаЗаказ" id="677">
+														<DataPath>Объект.РасшифровкаПлатежа.Заказ</DataPath>
 														<Wrap>false</Wrap>
 														<DropListButton>false</DropListButton>
 														<ChoiceButton>true</ChoiceButton>
@@ -7483,37 +7774,44 @@ purchase</v8:content>
 														<ExtendedTooltip name="РасшифровкаПлатежаЗаказExtendedTooltip" id="679"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаВедомость" id="1181">
+														<DataPath>Объект.РасшифровкаПлатежа.Ведомость</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<ContextMenu name="РасшифровкаПлатежаВедомостьКонтекстноеМеню" id="1182"/>
 														<ExtendedTooltip name="РасшифровкаПлатежаВедомостьРасширеннаяПодсказка" id="1183"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаПартнер" id="680">
+														<DataPath>Объект.РасшифровкаПлатежа.Партнер</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<ContextMenu name="РасшифровкаПлатежаПартнерКонтекстноеМеню" id="681"/>
 														<ExtendedTooltip name="РасшифровкаПлатежаПартнерExtendedTooltip" id="682"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаДоговорКредитаДепозита" id="683">
+														<DataPath>Объект.РасшифровкаПлатежа.ДоговорКредитаДепозита</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<ContextMenu name="РасшифровкаПлатежаДоговорКредитаДепозитаКонтекстноеМеню" id="684"/>
 														<ExtendedTooltip name="РасшифровкаПлатежаДоговорКредитаДепозитаExtendedTooltip" id="685"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаДоговорЗаймаСотруднику" id="686">
+														<DataPath>Объект.РасшифровкаПлатежа.ДоговорЗаймаСотруднику</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<ContextMenu name="РасшифровкаПлатежаДоговорЗаймаСотрудникуКонтекстноеМеню" id="687"/>
 														<ExtendedTooltip name="РасшифровкаПлатежаДоговорЗаймаСотрудникуРасширеннаяПодсказка" id="688"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаДоговорЛизинга" id="689">
+														<DataPath>Объект.РасшифровкаПлатежа.ДоговорЛизинга</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<ContextMenu name="РасшифровкаПлатежаДоговорЛизингаКонтекстноеМеню" id="690"/>
 														<ExtendedTooltip name="РасшифровкаПлатежаДоговорЛизингаРасширеннаяПодсказка" id="691"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаТипПлатежаПоЛизингу" id="692">
+														<DataPath>Объект.РасшифровкаПлатежа.ТипПлатежаПоЛизингу</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<ListChoiceMode>true</ListChoiceMode>
 														<ContextMenu name="РасшифровкаПлатежаТипПлатежаПоЛизингуКонтекстноеМеню" id="693"/>
 														<ExtendedTooltip name="РасшифровкаПлатежаТипПлатежаПоЛизингуРасширеннаяПодсказка" id="694"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаТипСуммыКредитаДепозита" id="695">
+														<DataPath>Объект.РасшифровкаПлатежа.ТипСуммыКредитаДепозита</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<Width>12</Width>
 														<HorizontalStretch>false</HorizontalStretch>
@@ -7521,6 +7819,7 @@ purchase</v8:content>
 														<ExtendedTooltip name="РасшифровкаПлатежаТипСуммыКредитаДепозитаРасширеннаяПодсказка" id="697"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаСтатьяДвиженияДенежныхСредств" id="698">
+														<DataPath>Объект.РасшифровкаПлатежа.СтатьяДвиженияДенежныхСредств</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -7539,12 +7838,15 @@ purchase</v8:content>
 														<ExtendedTooltip name="РасшифровкаПлатежаСтатьяДвиженияДенежныхСредствExtendedTooltip" id="700"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаСумма" id="701">
+														<DataPath>Объект.РасшифровкаПлатежа.Сумма</DataPath>
+														<FooterDataPath>Объект.РасшифровкаПлатежа.TotalСумма</FooterDataPath>
 														<FooterFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
 														<Wrap>false</Wrap>
 														<ContextMenu name="РасшифровкаПлатежаСуммаКонтекстноеМеню" id="702"/>
 														<ExtendedTooltip name="РасшифровкаПлатежаСуммаExtendedTooltip" id="703"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаСуммаВзаиморасчетов" id="704">
+														<DataPath>Объект.РасшифровкаПлатежа.СуммаВзаиморасчетов</DataPath>
 														<SkipOnInput>true</SkipOnInput>
 														<WarningOnEditRepresentation>Show</WarningOnEditRepresentation>
 														<WarningOnEdit>
@@ -7561,6 +7863,7 @@ purchase</v8:content>
 														<ExtendedTooltip name="РасшифровкаПлатежаСуммаВзаиморасчетовExtendedTooltip" id="706"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаВалютаВзаиморасчетов" id="707">
+														<DataPath>Объект.РасшифровкаПлатежа.ВалютаВзаиморасчетов</DataPath>
 														<SkipOnInput>true</SkipOnInput>
 														<Title>
 															<v8:item>
@@ -7576,26 +7879,32 @@ purchase</v8:content>
 														<ExtendedTooltip name="РасшифровкаПлатежаВалютаВзаиморасчетовExtendedTooltip" id="709"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаСтавкаНДС" id="1135">
+														<DataPath>Объект.РасшифровкаПлатежа.СтавкаНДС</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<ContextMenu name="РасшифровкаПлатежаСтавкаНДСКонтекстноеМеню" id="1136"/>
 														<ExtendedTooltip name="РасшифровкаПлатежаСтавкаНДСРасширеннаяПодсказка" id="1137"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаСуммаНДС" id="1138">
+														<DataPath>Объект.РасшифровкаПлатежа.СуммаНДС</DataPath>
 														<EditMode>EnterOnInput</EditMode>
+														<FooterDataPath>Объект.РасшифровкаПлатежа.TotalСуммаНДС</FooterDataPath>
 														<ContextMenu name="РасшифровкаПлатежаСуммаНДСКонтекстноеМеню" id="1139"/>
 														<ExtendedTooltip name="РасшифровкаПлатежаСуммаНДСРасширеннаяПодсказка" id="1140"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаПодразделение" id="1118">
+														<DataPath>Объект.РасшифровкаПлатежа.Подразделение</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<ContextMenu name="РасшифровкаПлатежаПодразделениеКонтекстноеМеню" id="1119"/>
 														<ExtendedTooltip name="РасшифровкаПлатежаПодразделениеРасширеннаяПодсказка" id="1120"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаНаправлениеДеятельности" id="1154">
+														<DataPath>Объект.РасшифровкаПлатежа.НаправлениеДеятельности</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<ContextMenu name="РасшифровкаПлатежаНаправлениеДеятельностиКонтекстноеМеню" id="1155"/>
 														<ExtendedTooltip name="РасшифровкаПлатежаНаправлениеДеятельностиРасширеннаяПодсказка" id="1156"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаСтатьяРасходов" id="710">
+														<DataPath>Объект.РасшифровкаПлатежа.СтатьяРасходов</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<DropListButton>false</DropListButton>
 														<ChoiceButton>true</ChoiceButton>
@@ -7633,6 +7942,7 @@ purchase</v8:content>
 														<ExtendedTooltip name="РасшифровкаПлатежаГруппаАналитикаРасширеннаяПодсказка" id="714"/>
 														<ChildItems>
 															<InputField name="РасшифровкаПлатежаАналитикаРасходов" id="715">
+																<DataPath>Объект.РасшифровкаПлатежа.АналитикаРасходов</DataPath>
 																<EditMode>EnterOnInput</EditMode>
 																<ShowInHeader>false</ShowInHeader>
 																<ShowInFooter>false</ShowInFooter>
@@ -7643,6 +7953,7 @@ purchase</v8:content>
 																<ExtendedTooltip name="РасшифровкаПлатежаАналитикаРасходовExtendedTooltip" id="717"/>
 															</InputField>
 															<InputField name="РасшифровкаПлатежаАналитикаАктивовПассивов" id="718">
+																<DataPath>Объект.РасшифровкаПлатежа.АналитикаАктивовПассивов</DataPath>
 																<EditMode>EnterOnInput</EditMode>
 																<ShowInHeader>false</ShowInHeader>
 																<ShowInFooter>false</ShowInFooter>
@@ -7687,12 +7998,14 @@ purchase</v8:content>
 														</ChildItems>
 													</ColumnGroup>
 													<InputField name="РасшифровкаПлатежаОрганизация" id="1205">
+														<DataPath>Объект.РасшифровкаПлатежа.Организация</DataPath>
 														<ReadOnly>true</ReadOnly>
 														<EditMode>EnterOnInput</EditMode>
 														<ContextMenu name="РасшифровкаПлатежаОрганизацияКонтекстноеМеню" id="1206"/>
 														<ExtendedTooltip name="РасшифровкаПлатежаОрганизацияРасширеннаяПодсказка" id="1207"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаКомментарий" id="721">
+														<DataPath>Объект.РасшифровкаПлатежа.Комментарий</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<ContextMenu name="РасшифровкаПлатежаКомментарийКонтекстноеМеню" id="722"/>
 														<ExtendedTooltip name="РасшифровкаПлатежаКомментарийРасширеннаяПодсказка" id="723"/>
@@ -7839,6 +8152,7 @@ purchase</v8:content>
 								<v8:content>Personal accounts of staff</v8:content>
 							</v8:item>
 						</Title>
+						<TitleDataPath>Объект.ЛицевыеСчетаСотрудников.RowsCount</TitleDataPath>
 						<ExtendedTooltip name="СтраницаЛицевыеСчетаСотрудниковРасширеннаяПодсказка" id="755"/>
 						<ChildItems>
 							<Table name="ЛицевыеСчетаСотрудников" id="756">
@@ -7847,6 +8161,7 @@ purchase</v8:content>
 								<EnableStartDrag>true</EnableStartDrag>
 								<EnableDrag>true</EnableDrag>
 								<FileDragMode>AsFile</FileDragMode>
+								<DataPath>Объект.ЛицевыеСчетаСотрудников</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -7892,6 +8207,7 @@ purchase</v8:content>
 										<ExtendedTooltip name="ЛицевыеСчетаСотрудниковНомерСтрокиExtendedTooltip" id="771"/>
 									</LabelField>
 									<InputField name="ЛицевыеСчетаСотрудниковФизическоеЛицо" id="772">
+										<DataPath>Объект.ЛицевыеСчетаСотрудников.ФизическоеЛицо</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<DropListButton>false</DropListButton>
 										<ChoiceButton>true</ChoiceButton>
@@ -7900,16 +8216,17 @@ purchase</v8:content>
 										<ExtendedTooltip name="ЛицевыеСчетаСотрудниковФизическоеЛицоExtendedTooltip" id="774"/>
 									</InputField>
 									<InputField name="ЛицевыеСчетаСотрудниковЛицевойСчет" id="775">
+										<DataPath>Объект.ЛицевыеСчетаСотрудников.ЛицевойСчет</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<ChoiceParameterLinks>
 											<xr:Link>
 												<xr:Name>Отбор.ВалютаДенежныхСредств</xr:Name>
-												<xr:DataPath xsi:type="xs:string">1/0:bbdd7ef1-8534-429f-a83e-806de2e85c36</xr:DataPath>
+												<xr:DataPath xsi:type="xs:string">1</xr:DataPath>
 												<xr:ValueChange>Clear</xr:ValueChange>
 											</xr:Link>
 											<xr:Link>
 												<xr:Name>Отбор.Владелец</xr:Name>
-												<xr:DataPath xsi:type="xs:string">270:02023637-7868-4a5f-8576-835a76e0c9ba/0:650817aa-07a2-4697-813c-aca61657b42f</xr:DataPath>
+												<xr:DataPath xsi:type="xs:string">270:02023637-7868-4a5f-8576-835a76e0c9ba/0:9df0eb39-8a10-42d8-86f1-f66d0cb47cd9</xr:DataPath>
 												<xr:ValueChange>Clear</xr:ValueChange>
 											</xr:Link>
 										</ChoiceParameterLinks>
@@ -7917,6 +8234,7 @@ purchase</v8:content>
 										<ExtendedTooltip name="ЛицевыеСчетаСотрудниковЛицевойСчетExtendedTooltip" id="777"/>
 									</InputField>
 									<InputField name="ЛицевыеСчетаСотрудниковСумма" id="778">
+										<DataPath>Объект.ЛицевыеСчетаСотрудников.Сумма</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="ЛицевыеСчетаСотрудниковСуммаКонтекстноеМеню" id="779"/>
 										<ExtendedTooltip name="ЛицевыеСчетаСотрудниковСуммаExtendedTooltip" id="780"/>
@@ -7940,12 +8258,13 @@ purchase</v8:content>
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Payment from SOD funds</v8:content>
+								<v8:content>Payment from SDO funds</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="СтраницаОплатаЗаСчетСредствРасширеннаяПодсказка" id="977"/>
 						<ChildItems>
 							<CheckBoxField name="ПлатежиПо275ФЗВыплатаЗарплаты" id="1058">
+								<DataPath>Объект.ПлатежиПо275ФЗ</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -7962,6 +8281,7 @@ purchase</v8:content>
 								<ExtendedTooltip name="ПлатежиПо275ФЗВыплатаЗарплатыРасширеннаяПодсказка" id="1060"/>
 							</CheckBoxField>
 							<InputField name="ТипПлатежаФЗ275" id="1004">
+								<DataPath>Объект.ТипПлатежаФЗ275</DataPath>
 								<ContextMenu name="ТипПлатежаФЗ275КонтекстноеМеню" id="1005"/>
 								<ExtendedTooltip name="ТипПлатежаФЗ275РасширеннаяПодсказка" id="1006"/>
 							</InputField>
@@ -7998,11 +8318,13 @@ purchase</v8:content>
 										<ExtendedTooltip name="ГруппаЛевоРасширеннаяПодсказка" id="1062"/>
 										<ChildItems>
 											<InputField name="ПредметОплаты" id="981">
+												<DataPath>Объект.ПредметОплаты</DataPath>
 												<DropListButton>true</DropListButton>
 												<ContextMenu name="ПредметОплатыКонтекстноеМеню" id="982"/>
 												<ExtendedTooltip name="ПредметОплатыРасширеннаяПодсказка" id="983"/>
 											</InputField>
 											<RadioButtonField name="ВариантОплаты" id="1031">
+												<DataPath>Объект.ВариантОплаты</DataPath>
 												<RadioButtonType>Auto</RadioButtonType>
 												<ChoiceList>
 													<xr:Item>
@@ -8072,6 +8394,7 @@ purchase</v8:content>
 										<ExtendedTooltip name="ГруппаПравоРасширеннаяПодсказка" id="1064"/>
 										<ChildItems>
 											<InputField name="ПунктКонтрактаПредмета" id="1055">
+												<DataPath>Объект.ПунктКонтрактаПредмета</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -8088,6 +8411,7 @@ purchase</v8:content>
 												<ExtendedTooltip name="ПунктКонтрактаПредметаРасширеннаяПодсказка" id="1057"/>
 											</InputField>
 											<InputField name="ПунктКонтрактаОплаты" id="1052">
+												<DataPath>Объект.ПунктКонтрактаОплаты</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -8120,6 +8444,7 @@ purchase</v8:content>
 								<v8:content>Justification documents</v8:content>
 							</v8:item>
 						</Title>
+						<TitleDataPath>Объект.ПодтверждающиеДокументы.RowsCount</TitleDataPath>
 						<ExtendedTooltip name="СтраницаПодтверждающиеДокументыРасширеннаяПодсказка" id="893"/>
 						<ChildItems>
 							<Table name="ПодтверждающиеДокументы" id="894">
@@ -8127,6 +8452,7 @@ purchase</v8:content>
 								<EnableStartDrag>true</EnableStartDrag>
 								<EnableDrag>true</EnableDrag>
 								<FileDragMode>AsFile</FileDragMode>
+								<DataPath>Объект.ПодтверждающиеДокументы</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -8205,34 +8531,40 @@ purchase</v8:content>
 								</SearchControlAddition>
 								<ChildItems>
 									<LabelField name="ПодтверждающиеДокументыНомерСтроки" id="907">
+										<DataPath>Объект.ПодтверждающиеДокументы.LineNumber</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="ПодтверждающиеДокументыНомерСтрокиКонтекстноеМеню" id="908"/>
 										<ExtendedTooltip name="ПодтверждающиеДокументыНомерСтрокиРасширеннаяПодсказка" id="909"/>
 									</LabelField>
 									<InputField name="ПодтверждающиеДокументыВидДокумента" id="910">
+										<DataPath>Объект.ПодтверждающиеДокументы.ВидДокумента</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="ПодтверждающиеДокументыВидДокументаКонтекстноеМеню" id="911"/>
 										<ExtendedTooltip name="ПодтверждающиеДокументыВидДокументаРасширеннаяПодсказка" id="912"/>
 									</InputField>
 									<InputField name="ПодтверждающиеДокументыНомер" id="913">
+										<DataPath>Объект.ПодтверждающиеДокументы.Номер</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>20</Width>
 										<ContextMenu name="ПодтверждающиеДокументыНомерКонтекстноеМеню" id="914"/>
 										<ExtendedTooltip name="ПодтверждающиеДокументыНомерРасширеннаяПодсказка" id="915"/>
 									</InputField>
 									<InputField name="ПодтверждающиеДокументыДата" id="916">
+										<DataPath>Объект.ПодтверждающиеДокументы.Дата</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>15</Width>
 										<ContextMenu name="ПодтверждающиеДокументыДатаКонтекстноеМеню" id="917"/>
 										<ExtendedTooltip name="ПодтверждающиеДокументыДатаРасширеннаяПодсказка" id="918"/>
 									</InputField>
 									<InputField name="ПодтверждающиеДокументыСумма" id="970">
+										<DataPath>Объект.ПодтверждающиеДокументы.Сумма</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>17</Width>
 										<ContextMenu name="ПодтверждающиеДокументыСуммаКонтекстноеМеню" id="971"/>
 										<ExtendedTooltip name="ПодтверждающиеДокументыСуммаРасширеннаяПодсказка" id="972"/>
 									</InputField>
 									<InputField name="ПодтверждающиеДокументыФайл" id="1148">
+										<DataPath>Объект.ПодтверждающиеДокументы.Файл</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<DropListButton>false</DropListButton>
 										<ChoiceButton>true</ChoiceButton>
@@ -8267,6 +8599,7 @@ purchase</v8:content>
 								<v8:content>Allocation by accounts</v8:content>
 							</v8:item>
 						</Title>
+						<TitleDataPath>Объект.РаспределениеПоСчетам.RowsCount</TitleDataPath>
 						<ExtendedTooltip name="СтраницаРаспределениеПоСчетамРасширеннаяПодсказка" id="844"/>
 						<ChildItems>
 							<Table name="РаспределениеПоСчетам" id="845">
@@ -8274,6 +8607,7 @@ purchase</v8:content>
 								<EnableStartDrag>true</EnableStartDrag>
 								<EnableDrag>true</EnableDrag>
 								<FileDragMode>AsFile</FileDragMode>
+								<DataPath>Объект.РаспределениеПоСчетам</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -8314,23 +8648,27 @@ purchase</v8:content>
 								</SearchControlAddition>
 								<ChildItems>
 									<LabelField name="РаспределениеПоСчетамНомерСтроки" id="858">
+										<DataPath>Объект.РаспределениеПоСчетам.LineNumber</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>1</Width>
 										<ContextMenu name="РаспределениеПоСчетамНомерСтрокиКонтекстноеМеню" id="859"/>
 										<ExtendedTooltip name="РаспределениеПоСчетамНомерСтрокиРасширеннаяПодсказка" id="860"/>
 									</LabelField>
 									<InputField name="РаспределениеПоСчетамБанковскийСчет" id="864">
+										<DataPath>Объект.РаспределениеПоСчетам.БанковскийСчетКасса</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<QuickChoice>false</QuickChoice>
 										<ContextMenu name="РаспределениеПоСчетамБанковскийСчетКонтекстноеМеню" id="865"/>
 										<ExtendedTooltip name="РаспределениеПоСчетамБанковскийСчетРасширеннаяПодсказка" id="866"/>
 									</InputField>
 									<InputField name="РаспределениеПоСчетамСумма" id="867">
+										<DataPath>Объект.РаспределениеПоСчетам.Сумма</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="РаспределениеПоСчетамСуммаКонтекстноеМеню" id="868"/>
 										<ExtendedTooltip name="РаспределениеПоСчетамСуммаРасширеннаяПодсказка" id="869"/>
 									</InputField>
 									<InputField name="РаспределениеПоСчетамДатаПлатежа" id="870">
+										<DataPath>Объект.РаспределениеПоСчетам.ДатаПлатежа</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="РаспределениеПоСчетамДатаПлатежаКонтекстноеМеню" id="871"/>
 										<ExtendedTooltip name="РаспределениеПоСчетамДатаПлатежаРасширеннаяПодсказка" id="872"/>
@@ -8380,6 +8718,7 @@ purchase</v8:content>
 						</ChildItems>
 					</UsualGroup>
 					<InputField name="НазначениеПлатежа" id="634">
+						<DataPath>Объект.НазначениеПлатежа</DataPath>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -8532,7 +8871,7 @@ purchase</v8:content>
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Basis</v8:content>
+						<v8:content>Base</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -8839,7 +9178,7 @@ purchase</v8:content>
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Decryption switch</v8:content>
+						<v8:content>Amount allocation switch</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -8993,7 +9332,7 @@ purchase</v8:content>
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Name</v8:content>
+								<v8:content>Description</v8:content>
 							</v8:item>
 						</Title>
 						<Type>
@@ -9306,7 +9645,7 @@ purchase</v8:content>
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Foreign assignee in the confirmed SDO list</v8:content>
+						<v8:content>Foreign assignee in the approved SDO list</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -9738,7 +10077,7 @@ purchase</v8:content>
 				</FunctionalOptions>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПодборПоОстаткам" id="1000012">
+			<Command name="ПодборПоОстаткам" id="1">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9762,7 +10101,7 @@ purchase</v8:content>
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗаполнитьВедомостиНаВыплатуЗарплатыПоОстаткам" id="1000013">
+			<Command name="ЗаполнитьВедомостиНаВыплатуЗарплатыПоОстаткам" id="9">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9786,7 +10125,7 @@ purchase</v8:content>
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ВыгрузитьФайлДляОбменаСБанком" id="1000014">
+			<Command name="ВыгрузитьФайлДляОбменаСБанком" id="10">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9817,7 +10156,7 @@ purchase</v8:content>
 				<Representation>TextPicture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПровестиИЗакрыть" id="1000015">
+			<Command name="ПровестиИЗакрыть" id="11">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9845,7 +10184,7 @@ purchase</v8:content>
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗаполнитьРасшифровкуПлатежа" id="1000016">
+			<Command name="ЗаполнитьРасшифровкуПлатежа" id="12">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9869,7 +10208,7 @@ purchase</v8:content>
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗаполнитьПодтверждающиеДокументы" id="1000017">
+			<Command name="ЗаполнитьПодтверждающиеДокументы" id="13">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9893,7 +10232,7 @@ purchase</v8:content>
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПросмотретьПодтверждающийДокумент" id="1000018">
+			<Command name="ПросмотретьПодтверждающийДокумент" id="15">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9921,7 +10260,7 @@ purchase</v8:content>
 				<Representation>TextPicture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗаполнитьПоПредыдущемуПлатежу" id="1000019">
+			<Command name="ЗаполнитьПоПредыдущемуПлатежу" id="16">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9944,7 +10283,7 @@ purchase</v8:content>
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="НастроитьОтражениеВРеглУчете" id="1000020">
+			<Command name="НастроитьОтражениеВРеглУчете" id="17">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9963,7 +10302,7 @@ purchase</v8:content>
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗаполнитьНазначениеПлатежа" id="1000021">
+			<Command name="ЗаполнитьНазначениеПлатежа" id="2">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9988,7 +10327,7 @@ purchase</v8:content>
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗаписатьДокумент" id="1000022">
+			<Command name="ЗаписатьДокумент" id="18">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9996,7 +10335,7 @@ purchase</v8:content>
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Write</v8:content>
+						<v8:content>Save</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
@@ -10017,7 +10356,7 @@ purchase</v8:content>
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПровестиДокумент" id="1000023">
+			<Command name="ПровестиДокумент" id="19">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -10045,7 +10384,7 @@ purchase</v8:content>
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПодобратьСчетаФактуры" id="1000024">
+			<Command name="ПодобратьСчетаФактуры" id="4">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
