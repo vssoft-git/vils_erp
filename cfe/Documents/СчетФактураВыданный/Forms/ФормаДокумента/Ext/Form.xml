@@ -350,6 +350,9 @@
 											</Title>
 											<ContextMenu name="ДатаКонтекстноеМеню" id="530"/>
 											<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="531"/>
+											<Events>
+												<Event name="OnChange" callType="After">ВИЛС_ДатаПриИзмененииПосле</Event>
+											</Events>
 										</InputField>
 									</ChildItems>
 								</UsualGroup>
