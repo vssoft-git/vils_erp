@@ -27,6 +27,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Создать на основании</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Create on the basis</v8:content>
+					</v8:item>
 				</Title>
 				<Picture>
 					<xr:Ref>CommonPicture.ЗаполнитьПоШаблону</xr:Ref>
@@ -41,6 +45,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Создать на основании (Важное)</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Create on the basis (Important)</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииВажноеРасширеннаяПодсказка" id="396"/>
 					</ButtonGroup>
@@ -50,6 +58,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Создать на основании (Обычное)</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Create on the basis (Standard)</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииОбычноеРасширеннаяПодсказка" id="398"/>
 					</ButtonGroup>
@@ -58,6 +70,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Создать на основании (См. также)</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Create on the basis (See also)</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииСмТакжеРасширеннаяПодсказка" id="400"/>
@@ -70,6 +86,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Форма глобальные команды</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Global commands form</v8:content>
+					</v8:item>
 				</Title>
 				<CommandSource>FormCommandPanelGlobalCommands</CommandSource>
 				<ExtendedTooltip name="ФормаГлобальныеКомандыРасширеннаяПодсказка" id="251"/>
@@ -80,11 +100,19 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>ЭДО</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>EDI</v8:content>
+					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Команды электронного документооборота</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Data interchange commands</v8:content>
 					</v8:item>
 				</ToolTip>
 				<ExtendedTooltip name="ПодменюЭДОРасширеннаяПодсказка" id="349"/>
@@ -94,6 +122,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Отчеты</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Reports</v8:content>
 					</v8:item>
 				</Title>
 				<Picture>
@@ -109,6 +141,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Подменю отчеты важное</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Important reports submenu</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюОтчетыВажноеРасширеннаяПодсказка" id="255"/>
 					</ButtonGroup>
@@ -118,11 +154,19 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Подменю отчеты обычное</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Submenu reports standard</v8:content>
+							</v8:item>
 						</Title>
 						<ToolTip>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Подменю отчеты важное</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Important reports submenu</v8:content>
 							</v8:item>
 						</ToolTip>
 						<ExtendedTooltip name="ПодменюОтчетыОбычноеРасширеннаяПодсказка" id="257"/>
@@ -133,11 +177,19 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Подменю отчеты см также</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Submenu reports see also</v8:content>
+							</v8:item>
 						</Title>
 						<ToolTip>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Подменю отчеты важное</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Important reports submenu</v8:content>
 							</v8:item>
 						</ToolTip>
 						<ExtendedTooltip name="ПодменюОтчетыСмТакжеРасширеннаяПодсказка" id="259"/>
@@ -150,11 +202,19 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Заполнение</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>FIlling</v8:content>
+					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Дополнительные команды заполнения</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Additional completion commands</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Picture>
@@ -169,11 +229,19 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Печать</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Print</v8:content>
+					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Команды печати</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Print commands</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Picture>
@@ -200,6 +268,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Страницы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pages</v8:content>
+				</v8:item>
 			</Title>
 			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="234"/>
 			<ChildItems>
@@ -209,6 +281,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Основное</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Main</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаОсновноеРасширеннаяПодсказка" id="236"/>
 					<ChildItems>
@@ -217,6 +293,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Документ</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Document</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
@@ -229,6 +309,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Основные реквизиты</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Main attributes</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -243,6 +327,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Номер дата</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Number date</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
@@ -250,7 +338,6 @@
 											<ExtendedTooltip name="ГруппаНомерДатаExtendedTooltip" id="130"/>
 											<ChildItems>
 												<InputField name="Номер" id="1">
-													<DataPath>1/-2</DataPath>
 													<TitleLocation>Left</TitleLocation>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>10</MaxWidth>
@@ -259,11 +346,14 @@
 													<ExtendedTooltip name="НомерExtendedTooltip" id="131"/>
 												</InputField>
 												<InputField name="Дата" id="3">
-													<DataPath>1/-3</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>от</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>from</v8:content>
 														</v8:item>
 													</Title>
 													<TitleLocation>Left</TitleLocation>
@@ -277,11 +367,14 @@
 											</ChildItems>
 										</UsualGroup>
 										<InputField name="ТипПлатежногоДокумента" id="9">
-											<DataPath>1/0:e273510c-18f6-4aa7-8779-379adcb28169</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Тип документа</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Document type</v8:content>
 												</v8:item>
 											</Title>
 											<TitleLocation>Left</TitleLocation>
@@ -331,6 +424,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Проведено банком</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Processed by bank</v8:content>
+												</v8:item>
 											</Title>
 											<Width>30</Width>
 											<HorizontalStretch>false</HorizontalStretch>
@@ -361,6 +458,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Счет</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Account</v8:content>
+												</v8:item>
 											</Title>
 											<AutoMaxWidth>false</AutoMaxWidth>
 											<MaxWidth>28</MaxWidth>
@@ -375,6 +476,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Идентификатор платежа</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Payment ID</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
@@ -386,6 +491,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>УИП</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>UIP</v8:content>
 														</v8:item>
 													</Title>
 													<TitleLocation>Left</TitleLocation>
@@ -408,6 +517,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Сумма</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Amount</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
@@ -419,6 +532,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Сумма</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Amount</v8:content>
 														</v8:item>
 													</Title>
 													<TitleLocation>Left</TitleLocation>
@@ -432,6 +549,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Валюта</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Currency</v8:content>
 														</v8:item>
 													</Title>
 													<TitleLocation>None</TitleLocation>
@@ -453,6 +574,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Дополнительные реквизиты шапки</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Additional header attributes</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
 									<Representation>None</Representation>
@@ -466,6 +591,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Операция</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Operation</v8:content>
 												</v8:item>
 											</Title>
 											<TitleLocation>Left</TitleLocation>
@@ -491,6 +620,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Поступление оплаты по эквайрингу</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Acquiring payment receipt</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ПоступлениеОплатыПоПлатежнойКарте</Value>
 													</xr:Value>
@@ -503,6 +636,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Поступление от другой организации</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Receipt from another company</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ПоступлениеДенежныхСредствИзДругойОрганизации</Value>
@@ -517,6 +654,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Передача между организацией и филиалом</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Transfer between the company and its branch</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ВнутренняяПередачаДенежныхСредств</Value>
 													</xr:Value>
@@ -529,6 +670,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Поступление с другого счета</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Receipt from another account</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ПоступлениеДенежныхСредствСДругогоСчета</Value>
@@ -543,6 +688,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Инкассация в банк</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Cash collection to bank</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ПоступлениеДенежныхСредствИзКассыНаРасчетныйСчет</Value>
 													</xr:Value>
@@ -555,6 +704,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Поступление по кредитам и займам полученным</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Loan repayment receipt</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ПоступлениеДенежныхСредствПоКредитам</Value>
@@ -569,6 +722,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Поступление по депозитам</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Receipt by deposits</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ПоступлениеДенежныхСредствПоДепозитам</Value>
 													</xr:Value>
@@ -582,6 +739,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Погашение займа контрагентом</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Loan repayment by counterparty</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ПоступлениеДенежныхСредствПоЗаймамВыданным</Value>
 													</xr:Value>
@@ -594,6 +755,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Погашение займа сотрудником</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Loan repayment by employee</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ПогашениеЗаймаСотрудником</Value>
@@ -616,6 +781,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Прочее поступление</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Other receipt</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ПрочееПоступлениеДенежныхСредств</Value>
 													</xr:Value>
@@ -628,6 +797,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Возврат от поставщика</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Return from supplier</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ВозвратДенежныхСредствОтПоставщика</Value>
@@ -642,6 +815,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Возврат от подотчетника</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Return from the advance holder</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ВозвратДенежныхСредствОтПодотчетника</Value>
 													</xr:Value>
@@ -654,6 +831,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Возврат от другой организации</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Return from other company</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ВозвратДенежныхСредствОтДругойОрганизации</Value>
@@ -668,6 +849,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Возврат неперечисленной зарплаты на лицевые счета</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Unremitted salary return to personal accounts</v8:content>
+															</v8:item>
 														</Presentation>
 														<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ВозвратНеперечисленныхДС</Value>
 													</xr:Value>
@@ -680,6 +865,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Возврат зарплаты по зарплатному проекту</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Salary return by payroll card program</v8:content>
 															</v8:item>
 														</Presentation>
 														<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ВозвратНеперечисленнойЗарплатыПоЗарплатномуПроекту</Value>
@@ -696,11 +885,19 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Входящий номер и дата</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Incoming number and date</v8:content>
+												</v8:item>
 											</Title>
 											<ToolTip>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Группа номер дата входящего документа</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Group incoming document number date</v8:content>
 												</v8:item>
 											</ToolTip>
 											<Group>Horizontal</Group>
@@ -713,6 +910,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Номер по банку</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Bank number</v8:content>
 														</v8:item>
 													</Title>
 													<TitleLocation>Left</TitleLocation>
@@ -727,6 +928,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>от</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>from</v8:content>
 														</v8:item>
 													</Title>
 													<TitleLocation>Left</TitleLocation>
@@ -743,6 +948,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Счет отправитель</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Sender account</v8:content>
+												</v8:item>
 											</Title>
 											<TitleLocation>Left</TitleLocation>
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -757,6 +966,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Касса</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Cash account</v8:content>
+												</v8:item>
 											</Title>
 											<TitleLocation>Left</TitleLocation>
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -769,6 +982,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Группа контрагента</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Counterparty group</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
@@ -790,6 +1007,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Страницы проблема проверка контрагента контрагент</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Counterparty check issue counterparty pages</v8:content>
+														</v8:item>
 													</Title>
 													<PagesRepresentation>None</PagesRepresentation>
 													<ExtendedTooltip name="СтраницыПроблемаПроверкаКонтрагентаКонтрагентРасширеннаяПодсказка" id="222"/>
@@ -799,6 +1020,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Страница нет проблемы контрагент</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>No issues counterparty page</v8:content>
 																</v8:item>
 															</Title>
 															<ExtendedTooltip name="СтраницаНетПроблемыКонтрагентРасширеннаяПодсказка" id="224"/>
@@ -817,6 +1042,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Страница есть проблема контрагент</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Issue exists counterparty page</v8:content>
+																</v8:item>
 															</Title>
 															<ExtendedTooltip name="СтраницаЕстьПроблемаКонтрагентРасширеннаяПодсказка" id="229"/>
 															<ChildItems>
@@ -826,11 +1055,11 @@
 																			<v8:lang>ru</v8:lang>
 																			<v8:content>Проблема проверка контрагента</v8:content>
 																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Counterparty check issue</v8:content>
+																		</v8:item>
 																	</Title>
-																	<Picture>
-																		<xr:Ref>CommonPicture.ВниманиеКрасный</xr:Ref>
-																		<xr:LoadTransparent>false</xr:LoadTransparent>
-																	</Picture>
 																	<FileDragMode>AsFile</FileDragMode>
 																	<ContextMenu name="ПроблемаПроверкаКонтрагентаКонтекстноеМеню" id="231"/>
 																	<ExtendedTooltip name="ПроблемаПроверкаКонтрагентаРасширеннаяПодсказка" id="232"/>
@@ -839,6 +1068,59 @@
 														</Page>
 													</ChildItems>
 												</Pages>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ГруппаИндексыСПАРКРиски" id="414">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Индексы СПАРК риски</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Indexes 1C-SPARK Risks</v8:content>
+												</v8:item>
+											</Title>
+											<Group>Horizontal</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ГруппаИндексыСПАРКРискиРасширеннаяПодсказка" id="415"/>
+											<ChildItems>
+												<UsualGroup name="ГруппаИндексы" id="416">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Индексы</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Indexes</v8:content>
+														</v8:item>
+													</Title>
+													<Group>Horizontal</Group>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<BackColor>style:ToolTipBackColor</BackColor>
+													<ExtendedTooltip name="ГруппаИндексыРасширеннаяПодсказка" id="417"/>
+													<ChildItems>
+														<LabelDecoration name="ДекорацияИндексыСПАРКРиски" id="418">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<MaxWidth>32</MaxWidth>
+															<Height>1</Height>
+															<HorizontalStretch>true</HorizontalStretch>
+															<VerticalAlign>Top</VerticalAlign>
+															<ContextMenu name="ДекорацияИндексыСПАРКРискиКонтекстноеМеню" id="419"/>
+															<ExtendedTooltip name="ДекорацияИндексыСПАРКРискиРасширеннаяПодсказка" id="420"/>
+														</LabelDecoration>
+													</ChildItems>
+												</UsualGroup>
+												<PictureDecoration name="КартинкаОжиданиеЗагрузкиИндексовСПАРКРиски" id="421">
+													<Width>2</Width>
+													<Height>1</Height>
+													<FileDragMode>AsFile</FileDragMode>
+													<ContextMenu name="КартинкаОжиданиеЗагрузкиИндексовСПАРКРискиКонтекстноеМеню" id="422"/>
+													<ExtendedTooltip name="КартинкаОжиданиеЗагрузкиИндексовСПАРКРискиРасширеннаяПодсказка" id="423"/>
+												</PictureDecoration>
 											</ChildItems>
 										</UsualGroup>
 										<InputField name="ПодотчетноеЛицо" id="120">
@@ -856,6 +1138,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Счет плательщика</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Payer account</v8:content>
 												</v8:item>
 											</Title>
 											<TitleLocation>Left</TitleLocation>
@@ -877,6 +1163,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Документ выдачи</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Withdrawal document</v8:content>
 												</v8:item>
 											</Title>
 											<TitleLocation>Left</TitleLocation>
@@ -913,6 +1203,11 @@
 													<v8:content>Статья активов
 и пассивов</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Item of assets
+and liabilities</v8:content>
+												</v8:item>
 											</Title>
 											<TitleLocation>Left</TitleLocation>
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -929,6 +1224,11 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Аналитика активов
 и пассивов</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Dimension of assets 
+and liabilities </v8:content>
 												</v8:item>
 											</Title>
 											<TitleLocation>Left</TitleLocation>
@@ -950,6 +1250,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дополнительные реквизиты</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Additional attributes</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
@@ -962,6 +1266,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Конвертация валюты</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Currency conversion</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
 							<Representation>None</Representation>
@@ -973,6 +1281,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Продана валюта</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Currency is sold</v8:content>
 										</v8:item>
 									</Title>
 									<TitleLocation>Left</TitleLocation>
@@ -988,6 +1300,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>по курсу</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>by exchange rate</v8:content>
+										</v8:item>
 									</Title>
 									<ContextMenu name="КурсКонвертацииКонтекстноеМеню" id="115"/>
 									<ExtendedTooltip name="КурсКонвертацииExtendedTooltip" id="153"/>
@@ -997,6 +1313,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>на сумму</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>to the amount of</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="СуммаКонвертацииКонтекстноеМеню" id="214"/>
@@ -1010,6 +1330,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Соответствует</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Matches</v8:content>
 								</v8:item>
 							</Title>
 							<AutoMaxWidth>false</AutoMaxWidth>
@@ -1032,6 +1356,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Расшифровка платежа</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Amount allocation</v8:content>
+						</v8:item>
 					</Title>
 					<ExtendedTooltip name="СтраницаРасшифровкаРасширеннаяПодсказка" id="238"/>
 					<ChildItems>
@@ -1049,6 +1377,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Без разбиения</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>No splits</v8:content>
+											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:decimal">0</Value>
 									</xr:Value>
@@ -1061,6 +1393,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Списком</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>As a list</v8:content>
 											</v8:item>
 										</Presentation>
 										<Value xsi:type="xs:decimal">1</Value>
@@ -1076,6 +1412,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страницы расшифровки</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Amount allocation pages</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="СтраницыРасшифровкиРасширеннаяПодсказка" id="294"/>
@@ -1085,6 +1425,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Расшифровка без разбиения</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Amount allocation without split</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="РасшифровкаБезРазбиенияРасширеннаяПодсказка" id="296"/>
@@ -1111,6 +1455,7 @@
 											<ExtendedTooltip name="РасшифровкаБезРазбиенияДоговорКредитаДепозитаРасширеннаяПодсказка" id="310"/>
 										</InputField>
 										<InputField name="РасшифровкаБезРазбиенияДоговорЗаймаСотруднику" id="311">
+											<ToolTipRepresentation>ShowAuto</ToolTipRepresentation>
 											<ContextMenu name="РасшифровкаБезРазбиенияДоговорЗаймаСотрудникуКонтекстноеМеню" id="312"/>
 											<ExtendedTooltip name="РасшифровкаБезРазбиенияДоговорЗаймаСотрудникуРасширеннаяПодсказка" id="313"/>
 										</InputField>
@@ -1125,6 +1470,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Сумма взаиморасчетов</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Mutual settlements amount</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
@@ -1138,6 +1487,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Сумма взаиморасчетов заполняется при проведении автоматически</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Mutual settlements amount is filled in automatically on posting</v8:content>
+														</v8:item>
 													</WarningOnEdit>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="РасшифровкаБезРазбиенияСуммаВзаиморасчетовКонтекстноеМеню" id="321"/>
@@ -1148,6 +1501,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Валюта</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Currency</v8:content>
 														</v8:item>
 													</Title>
 													<HorizontalStretch>false</HorizontalStretch>
@@ -1162,6 +1519,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>НДС</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>VAT</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
@@ -1193,6 +1554,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Статья ДДС</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Cash flow item</v8:content>
 												</v8:item>
 											</Title>
 											<DropListButton>false</DropListButton>
@@ -1237,6 +1602,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Аналитика</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Dimension</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Vertical</Group>
 											<Representation>None</Representation>
@@ -1258,6 +1627,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Счет регл. учета</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Compliance accounting account</v8:content>
 												</v8:item>
 											</Title>
 											<Hiperlink>true</Hiperlink>
@@ -1300,6 +1673,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Расшифровка списком</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Explanation as a list</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="РасшифровкаСпискомРасширеннаяПодсказка" id="298"/>
 									<ChildItems>
@@ -1313,6 +1690,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Расшифровка платежа</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Amount allocation</v8:content>
 												</v8:item>
 											</Title>
 											<RowFilter xsi:nil="true"/>
@@ -1395,6 +1776,7 @@
 													<ExtendedTooltip name="РасшифровкаПлатежаДоговорКредитаДепозитаExtendedTooltip" id="160"/>
 												</InputField>
 												<InputField name="РасшифровкаПлатежаДоговорЗаймаСотруднику" id="282">
+													<ToolTipRepresentation>Balloon</ToolTipRepresentation>
 													<EditMode>EnterOnInput</EditMode>
 													<ContextMenu name="РасшифровкаПлатежаДоговорЗаймаСотрудникуКонтекстноеМеню" id="283"/>
 													<ExtendedTooltip name="РасшифровкаПлатежаДоговорЗаймаСотрудникуРасширеннаяПодсказка" id="284"/>
@@ -1429,6 +1811,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Сумма взаиморасчетов заполняется при проведении автоматически</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Mutual settlements amount is filled in automatically on posting</v8:content>
+														</v8:item>
 													</WarningOnEdit>
 													<ContextMenu name="РасшифровкаПлатежаСуммаВзаиморасчетовКонтекстноеМеню" id="85"/>
 													<ExtendedTooltip name="РасшифровкаПлатежаСуммаВзаиморасчетовExtendedTooltip" id="163"/>
@@ -1439,6 +1825,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Валюта</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Currency</v8:content>
 														</v8:item>
 													</Title>
 													<ContextMenu name="РасшифровкаПлатежаВалютаВзаиморасчетовКонтекстноеМеню" id="88"/>
@@ -1470,6 +1860,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Статья доходов/пассивов</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Income/liability item</v8:content>
+														</v8:item>
 													</Title>
 													<Wrap>false</Wrap>
 													<DropListButton>false</DropListButton>
@@ -1498,6 +1892,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Аналитика</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Dimension</v8:content>
 														</v8:item>
 													</Title>
 													<ShowInHeader>true</ShowInHeader>
@@ -1531,6 +1929,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Счет регл. учета</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Compliance accounting account</v8:content>
+														</v8:item>
 													</Title>
 													<ShowInHeader>true</ShowInHeader>
 													<ExtendedTooltip name="РасшифровкаПлатежаГруппаСчетРеглУчетаРасширеннаяПодсказка" id="273"/>
@@ -1559,6 +1961,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Владелец объекта расчета</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Settlement object owner</v8:content>
+														</v8:item>
 													</ToolTip>
 													<EditMode>EnterOnInput</EditMode>
 													<ContextMenu name="РасшифровкаПлатежаОрганизацияКонтекстноеМеню" id="192"/>
@@ -1571,6 +1977,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Реквизиты объекта расчетов</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Settlements object details</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
@@ -1585,11 +1995,11 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Декорация есть расхождения</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Decoration there are discrepancies</v8:content>
+														</v8:item>
 													</Title>
-													<Picture>
-														<xr:Ref>CommonPicture.НовостиВнимание</xr:Ref>
-														<xr:LoadTransparent>false</xr:LoadTransparent>
-													</Picture>
 													<FileDragMode>AsFile</FileDragMode>
 													<ContextMenu name="ДекорацияЕстьРасхожденияКонтекстноеМеню" id="390"/>
 													<ExtendedTooltip name="ДекорацияЕстьРасхожденияРасширеннаяПодсказка" id="391"/>
@@ -1599,6 +2009,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Нераспределенный платеж:</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Non-allocated payment:</v8:content>
 														</v8:item>
 													</Title>
 													<Hyperlink>true</Hyperlink>
@@ -1621,6 +2035,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Назначение платежа</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Purpose of payment</v8:content>
+				</v8:item>
 			</Title>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
@@ -1632,6 +2050,11 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Назначение
 платежа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Purpose of
+payment</v8:content>
 						</v8:item>
 					</Title>
 					<TitleLocation>Left</TitleLocation>
@@ -1648,6 +2071,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подвал</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Footer</v8:content>
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
@@ -1701,6 +2128,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Создать на основании</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Create on the basis</v8:content>
+						</v8:item>
 					</Title>
 					<Picture>
 						<xr:Ref>CommonPicture.ЗаполнитьПоШаблону</xr:Ref>
@@ -1715,6 +2146,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Создать на основании (Важное)</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Create on the basis (Important)</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииВажноеРасширеннаяПодсказка" id="396"/>
 						</ButtonGroup>
@@ -1724,6 +2159,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Создать на основании (Обычное)</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Create on the basis (Standard)</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииОбычноеРасширеннаяПодсказка" id="398"/>
 						</ButtonGroup>
@@ -1732,6 +2171,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Создать на основании (См. также)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Create on the basis (See also)</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииСмТакжеРасширеннаяПодсказка" id="400"/>
@@ -1744,6 +2187,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Форма глобальные команды</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Global commands form</v8:content>
+						</v8:item>
 					</Title>
 					<CommandSource>FormCommandPanelGlobalCommands</CommandSource>
 					<ExtendedTooltip name="ФормаГлобальныеКомандыРасширеннаяПодсказка" id="251"/>
@@ -1754,11 +2201,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>ЭДО</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>EDI</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Команды электронного документооборота</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data interchange commands</v8:content>
 						</v8:item>
 					</ToolTip>
 					<ExtendedTooltip name="ПодменюЭДОРасширеннаяПодсказка" id="349"/>
@@ -1768,6 +2223,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отчеты</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Reports</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -1783,6 +2242,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подменю отчеты важное</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Important reports submenu</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюОтчетыВажноеРасширеннаяПодсказка" id="255"/>
 						</ButtonGroup>
@@ -1792,11 +2255,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подменю отчеты обычное</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Submenu reports standard</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подменю отчеты важное</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Important reports submenu</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ExtendedTooltip name="ПодменюОтчетыОбычноеРасширеннаяПодсказка" id="257"/>
@@ -1807,11 +2278,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подменю отчеты см также</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Submenu reports see also</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подменю отчеты важное</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Important reports submenu</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ExtendedTooltip name="ПодменюОтчетыСмТакжеРасширеннаяПодсказка" id="259"/>
@@ -1824,11 +2303,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Заполнение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>FIlling</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дополнительные команды заполнения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional completion commands</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Picture>
@@ -1843,11 +2330,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Печать</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Print</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Команды печати</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Print commands</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Picture>
@@ -1871,6 +2366,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Страницы</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Pages</v8:content>
+					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="234"/>
 				<ChildItems>
@@ -1880,6 +2379,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Основное</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Main</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="СтраницаОсновноеРасширеннаяПодсказка" id="236"/>
 						<ChildItems>
@@ -1888,6 +2391,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Документ</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Document</v8:content>
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
@@ -1900,6 +2407,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Основные реквизиты</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Main attributes</v8:content>
 											</v8:item>
 										</Title>
 										<Group>Vertical</Group>
@@ -1914,6 +2425,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Номер дата</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Number date</v8:content>
+													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
@@ -1921,7 +2436,6 @@
 												<ExtendedTooltip name="ГруппаНомерДатаExtendedTooltip" id="130"/>
 												<ChildItems>
 													<InputField name="Номер" id="1">
-														<DataPath>1/-2</DataPath>
 														<TitleLocation>Left</TitleLocation>
 														<AutoMaxWidth>false</AutoMaxWidth>
 														<MaxWidth>10</MaxWidth>
@@ -1930,11 +2444,14 @@
 														<ExtendedTooltip name="НомерExtendedTooltip" id="131"/>
 													</InputField>
 													<InputField name="Дата" id="3">
-														<DataPath>1/-3</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>от</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>from</v8:content>
 															</v8:item>
 														</Title>
 														<TitleLocation>Left</TitleLocation>
@@ -1948,11 +2465,14 @@
 												</ChildItems>
 											</UsualGroup>
 											<InputField name="ТипПлатежногоДокумента" id="9">
-												<DataPath>1/0:e273510c-18f6-4aa7-8779-379adcb28169</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Тип документа</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Document type</v8:content>
 													</v8:item>
 												</Title>
 												<TitleLocation>Left</TitleLocation>
@@ -2002,6 +2522,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Проведено банком</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Processed by bank</v8:content>
+													</v8:item>
 												</Title>
 												<Width>30</Width>
 												<HorizontalStretch>false</HorizontalStretch>
@@ -2032,6 +2556,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Счет</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Account</v8:content>
+													</v8:item>
 												</Title>
 												<AutoMaxWidth>false</AutoMaxWidth>
 												<MaxWidth>28</MaxWidth>
@@ -2046,6 +2574,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Идентификатор платежа</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Payment ID</v8:content>
+													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
@@ -2057,6 +2589,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>УИП</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>UIP</v8:content>
 															</v8:item>
 														</Title>
 														<TitleLocation>Left</TitleLocation>
@@ -2079,6 +2615,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Сумма</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Amount</v8:content>
+													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
@@ -2090,6 +2630,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Сумма</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Amount</v8:content>
 															</v8:item>
 														</Title>
 														<TitleLocation>Left</TitleLocation>
@@ -2103,6 +2647,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Валюта</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Currency</v8:content>
 															</v8:item>
 														</Title>
 														<TitleLocation>None</TitleLocation>
@@ -2124,6 +2672,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Дополнительные реквизиты шапки</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Additional header attributes</v8:content>
+											</v8:item>
 										</Title>
 										<Group>Vertical</Group>
 										<Representation>None</Representation>
@@ -2137,6 +2689,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Операция</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Operation</v8:content>
 													</v8:item>
 												</Title>
 												<TitleLocation>Left</TitleLocation>
@@ -2162,6 +2718,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Поступление оплаты по эквайрингу</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Acquiring payment receipt</v8:content>
+																</v8:item>
 															</Presentation>
 															<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ПоступлениеОплатыПоПлатежнойКарте</Value>
 														</xr:Value>
@@ -2174,6 +2734,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Поступление от другой организации</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Receipt from another company</v8:content>
 																</v8:item>
 															</Presentation>
 															<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ПоступлениеДенежныхСредствИзДругойОрганизации</Value>
@@ -2188,6 +2752,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Передача между организацией и филиалом</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Transfer between the company and its branch</v8:content>
+																</v8:item>
 															</Presentation>
 															<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ВнутренняяПередачаДенежныхСредств</Value>
 														</xr:Value>
@@ -2200,6 +2768,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Поступление с другого счета</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Receipt from another account</v8:content>
 																</v8:item>
 															</Presentation>
 															<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ПоступлениеДенежныхСредствСДругогоСчета</Value>
@@ -2214,6 +2786,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Инкассация в банк</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Cash collection to bank</v8:content>
+																</v8:item>
 															</Presentation>
 															<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ПоступлениеДенежныхСредствИзКассыНаРасчетныйСчет</Value>
 														</xr:Value>
@@ -2226,6 +2802,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Поступление по кредитам и займам полученным</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Loan repayment receipt</v8:content>
 																</v8:item>
 															</Presentation>
 															<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ПоступлениеДенежныхСредствПоКредитам</Value>
@@ -2240,6 +2820,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Поступление по депозитам</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Receipt by deposits</v8:content>
+																</v8:item>
 															</Presentation>
 															<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ПоступлениеДенежныхСредствПоДепозитам</Value>
 														</xr:Value>
@@ -2253,6 +2837,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Погашение займа контрагентом</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Loan repayment by counterparty</v8:content>
+																</v8:item>
 															</Presentation>
 															<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ПоступлениеДенежныхСредствПоЗаймамВыданным</Value>
 														</xr:Value>
@@ -2265,6 +2853,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Погашение займа сотрудником</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Loan repayment by employee</v8:content>
 																</v8:item>
 															</Presentation>
 															<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ПогашениеЗаймаСотрудником</Value>
@@ -2287,6 +2879,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Прочее поступление</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Other receipt</v8:content>
+																</v8:item>
 															</Presentation>
 															<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ПрочееПоступлениеДенежныхСредств</Value>
 														</xr:Value>
@@ -2299,6 +2895,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Возврат от поставщика</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Return from supplier</v8:content>
 																</v8:item>
 															</Presentation>
 															<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ВозвратДенежныхСредствОтПоставщика</Value>
@@ -2313,6 +2913,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Возврат от подотчетника</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Return from the advance holder</v8:content>
+																</v8:item>
 															</Presentation>
 															<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ВозвратДенежныхСредствОтПодотчетника</Value>
 														</xr:Value>
@@ -2325,6 +2929,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Возврат от другой организации</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Return from other company</v8:content>
 																</v8:item>
 															</Presentation>
 															<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ВозвратДенежныхСредствОтДругойОрганизации</Value>
@@ -2339,6 +2947,10 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Возврат неперечисленной зарплаты на лицевые счета</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Unremitted salary return to personal accounts</v8:content>
+																</v8:item>
 															</Presentation>
 															<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ВозвратНеперечисленныхДС</Value>
 														</xr:Value>
@@ -2351,6 +2963,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Возврат зарплаты по зарплатному проекту</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Salary return by payroll card program</v8:content>
 																</v8:item>
 															</Presentation>
 															<Value xsi:type="xr:DesignTimeRef">Enum.ХозяйственныеОперации.EnumValue.ВозвратНеперечисленнойЗарплатыПоЗарплатномуПроекту</Value>
@@ -2367,11 +2983,19 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Входящий номер и дата</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Incoming number and date</v8:content>
+													</v8:item>
 												</Title>
 												<ToolTip>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Группа номер дата входящего документа</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Group incoming document number date</v8:content>
 													</v8:item>
 												</ToolTip>
 												<Group>Horizontal</Group>
@@ -2384,6 +3008,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Номер по банку</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Bank number</v8:content>
 															</v8:item>
 														</Title>
 														<TitleLocation>Left</TitleLocation>
@@ -2398,6 +3026,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>от</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>from</v8:content>
 															</v8:item>
 														</Title>
 														<TitleLocation>Left</TitleLocation>
@@ -2414,6 +3046,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Счет отправитель</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Sender account</v8:content>
+													</v8:item>
 												</Title>
 												<TitleLocation>Left</TitleLocation>
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -2428,6 +3064,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Касса</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Cash account</v8:content>
+													</v8:item>
 												</Title>
 												<TitleLocation>Left</TitleLocation>
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -2440,6 +3080,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Группа контрагента</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Counterparty group</v8:content>
 													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
@@ -2461,6 +3105,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Страницы проблема проверка контрагента контрагент</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Counterparty check issue counterparty pages</v8:content>
+															</v8:item>
 														</Title>
 														<PagesRepresentation>None</PagesRepresentation>
 														<ExtendedTooltip name="СтраницыПроблемаПроверкаКонтрагентаКонтрагентРасширеннаяПодсказка" id="222"/>
@@ -2470,6 +3118,10 @@
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Страница нет проблемы контрагент</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>No issues counterparty page</v8:content>
 																	</v8:item>
 																</Title>
 																<ExtendedTooltip name="СтраницаНетПроблемыКонтрагентРасширеннаяПодсказка" id="224"/>
@@ -2488,6 +3140,10 @@
 																		<v8:lang>ru</v8:lang>
 																		<v8:content>Страница есть проблема контрагент</v8:content>
 																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Issue exists counterparty page</v8:content>
+																	</v8:item>
 																</Title>
 																<ExtendedTooltip name="СтраницаЕстьПроблемаКонтрагентРасширеннаяПодсказка" id="229"/>
 																<ChildItems>
@@ -2497,11 +3153,11 @@
 																				<v8:lang>ru</v8:lang>
 																				<v8:content>Проблема проверка контрагента</v8:content>
 																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Counterparty check issue</v8:content>
+																			</v8:item>
 																		</Title>
-																		<Picture>
-																			<xr:Ref>CommonPicture.ВниманиеКрасный</xr:Ref>
-																			<xr:LoadTransparent>false</xr:LoadTransparent>
-																		</Picture>
 																		<FileDragMode>AsFile</FileDragMode>
 																		<ContextMenu name="ПроблемаПроверкаКонтрагентаКонтекстноеМеню" id="231"/>
 																		<ExtendedTooltip name="ПроблемаПроверкаКонтрагентаРасширеннаяПодсказка" id="232"/>
@@ -2510,6 +3166,59 @@
 															</Page>
 														</ChildItems>
 													</Pages>
+												</ChildItems>
+											</UsualGroup>
+											<UsualGroup name="ГруппаИндексыСПАРКРиски" id="414">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Индексы СПАРК риски</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Indexes 1C-SPARK Risks</v8:content>
+													</v8:item>
+												</Title>
+												<Group>Horizontal</Group>
+												<Representation>None</Representation>
+												<ShowTitle>false</ShowTitle>
+												<ExtendedTooltip name="ГруппаИндексыСПАРКРискиРасширеннаяПодсказка" id="415"/>
+												<ChildItems>
+													<UsualGroup name="ГруппаИндексы" id="416">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Индексы</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Indexes</v8:content>
+															</v8:item>
+														</Title>
+														<Group>Horizontal</Group>
+														<Representation>None</Representation>
+														<ShowTitle>false</ShowTitle>
+														<BackColor>style:ToolTipBackColor</BackColor>
+														<ExtendedTooltip name="ГруппаИндексыРасширеннаяПодсказка" id="417"/>
+														<ChildItems>
+															<LabelDecoration name="ДекорацияИндексыСПАРКРиски" id="418">
+																<AutoMaxWidth>false</AutoMaxWidth>
+																<MaxWidth>32</MaxWidth>
+																<Height>1</Height>
+																<HorizontalStretch>true</HorizontalStretch>
+																<VerticalAlign>Top</VerticalAlign>
+																<ContextMenu name="ДекорацияИндексыСПАРКРискиКонтекстноеМеню" id="419"/>
+																<ExtendedTooltip name="ДекорацияИндексыСПАРКРискиРасширеннаяПодсказка" id="420"/>
+															</LabelDecoration>
+														</ChildItems>
+													</UsualGroup>
+													<PictureDecoration name="КартинкаОжиданиеЗагрузкиИндексовСПАРКРиски" id="421">
+														<Width>2</Width>
+														<Height>1</Height>
+														<FileDragMode>AsFile</FileDragMode>
+														<ContextMenu name="КартинкаОжиданиеЗагрузкиИндексовСПАРКРискиКонтекстноеМеню" id="422"/>
+														<ExtendedTooltip name="КартинкаОжиданиеЗагрузкиИндексовСПАРКРискиРасширеннаяПодсказка" id="423"/>
+													</PictureDecoration>
 												</ChildItems>
 											</UsualGroup>
 											<InputField name="ПодотчетноеЛицо" id="120">
@@ -2527,6 +3236,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Счет плательщика</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Payer account</v8:content>
 													</v8:item>
 												</Title>
 												<TitleLocation>Left</TitleLocation>
@@ -2548,6 +3261,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Документ выдачи</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Withdrawal document</v8:content>
 													</v8:item>
 												</Title>
 												<TitleLocation>Left</TitleLocation>
@@ -2584,6 +3301,11 @@
 														<v8:content>Статья активов
 и пассивов</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Item of assets
+and liabilities</v8:content>
+													</v8:item>
 												</Title>
 												<TitleLocation>Left</TitleLocation>
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -2600,6 +3322,11 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Аналитика активов
 и пассивов</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Dimension of assets 
+and liabilities </v8:content>
 													</v8:item>
 												</Title>
 												<TitleLocation>Left</TitleLocation>
@@ -2621,6 +3348,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Дополнительные реквизиты</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Additional attributes</v8:content>
+									</v8:item>
 								</Title>
 								<Group>Vertical</Group>
 								<Representation>None</Representation>
@@ -2633,6 +3364,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Конвертация валюты</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Currency conversion</v8:content>
+									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
 								<Representation>None</Representation>
@@ -2644,6 +3379,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Продана валюта</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Currency is sold</v8:content>
 											</v8:item>
 										</Title>
 										<TitleLocation>Left</TitleLocation>
@@ -2659,6 +3398,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>по курсу</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>by exchange rate</v8:content>
+											</v8:item>
 										</Title>
 										<ContextMenu name="КурсКонвертацииКонтекстноеМеню" id="115"/>
 										<ExtendedTooltip name="КурсКонвертацииExtendedTooltip" id="153"/>
@@ -2668,6 +3411,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>на сумму</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>to the amount of</v8:content>
 											</v8:item>
 										</Title>
 										<ContextMenu name="СуммаКонвертацииКонтекстноеМеню" id="214"/>
@@ -2681,6 +3428,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Соответствует</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Matches</v8:content>
 									</v8:item>
 								</Title>
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -2703,6 +3454,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Расшифровка платежа</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Amount allocation</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="СтраницаРасшифровкаРасширеннаяПодсказка" id="238"/>
 						<ChildItems>
@@ -2720,6 +3475,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Без разбиения</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>No splits</v8:content>
+												</v8:item>
 											</Presentation>
 											<Value xsi:type="xs:decimal">0</Value>
 										</xr:Value>
@@ -2732,6 +3491,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Списком</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>As a list</v8:content>
 												</v8:item>
 											</Presentation>
 											<Value xsi:type="xs:decimal">1</Value>
@@ -2747,6 +3510,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Страницы расшифровки</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Amount allocation pages</v8:content>
+									</v8:item>
 								</Title>
 								<PagesRepresentation>None</PagesRepresentation>
 								<ExtendedTooltip name="СтраницыРасшифровкиРасширеннаяПодсказка" id="294"/>
@@ -2756,6 +3523,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Расшифровка без разбиения</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Amount allocation without split</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="РасшифровкаБезРазбиенияРасширеннаяПодсказка" id="296"/>
@@ -2782,6 +3553,7 @@
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияДоговорКредитаДепозитаРасширеннаяПодсказка" id="310"/>
 											</InputField>
 											<InputField name="РасшифровкаБезРазбиенияДоговорЗаймаСотруднику" id="311">
+												<ToolTipRepresentation>ShowAuto</ToolTipRepresentation>
 												<ContextMenu name="РасшифровкаБезРазбиенияДоговорЗаймаСотрудникуКонтекстноеМеню" id="312"/>
 												<ExtendedTooltip name="РасшифровкаБезРазбиенияДоговорЗаймаСотрудникуРасширеннаяПодсказка" id="313"/>
 											</InputField>
@@ -2796,6 +3568,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Сумма взаиморасчетов</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Mutual settlements amount</v8:content>
+													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
@@ -2809,6 +3585,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Сумма взаиморасчетов заполняется при проведении автоматически</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Mutual settlements amount is filled in automatically on posting</v8:content>
+															</v8:item>
 														</WarningOnEdit>
 														<HorizontalStretch>false</HorizontalStretch>
 														<ContextMenu name="РасшифровкаБезРазбиенияСуммаВзаиморасчетовКонтекстноеМеню" id="321"/>
@@ -2819,6 +3599,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Валюта</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Currency</v8:content>
 															</v8:item>
 														</Title>
 														<HorizontalStretch>false</HorizontalStretch>
@@ -2833,6 +3617,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>НДС</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>VAT</v8:content>
 													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
@@ -2864,6 +3652,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Статья ДДС</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Cash flow item</v8:content>
 													</v8:item>
 												</Title>
 												<DropListButton>false</DropListButton>
@@ -2908,6 +3700,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Аналитика</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Dimension</v8:content>
+													</v8:item>
 												</Title>
 												<Group>Vertical</Group>
 												<Representation>None</Representation>
@@ -2929,6 +3725,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Счет регл. учета</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Compliance accounting account</v8:content>
 													</v8:item>
 												</Title>
 												<Hiperlink>true</Hiperlink>
@@ -2971,6 +3771,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Расшифровка списком</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Explanation as a list</v8:content>
+											</v8:item>
 										</Title>
 										<ExtendedTooltip name="РасшифровкаСпискомРасширеннаяПодсказка" id="298"/>
 										<ChildItems>
@@ -2984,6 +3788,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Расшифровка платежа</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Amount allocation</v8:content>
 													</v8:item>
 												</Title>
 												<RowFilter xsi:nil="true"/>
@@ -3066,6 +3874,7 @@
 														<ExtendedTooltip name="РасшифровкаПлатежаДоговорКредитаДепозитаExtendedTooltip" id="160"/>
 													</InputField>
 													<InputField name="РасшифровкаПлатежаДоговорЗаймаСотруднику" id="282">
+														<ToolTipRepresentation>Balloon</ToolTipRepresentation>
 														<EditMode>EnterOnInput</EditMode>
 														<ContextMenu name="РасшифровкаПлатежаДоговорЗаймаСотрудникуКонтекстноеМеню" id="283"/>
 														<ExtendedTooltip name="РасшифровкаПлатежаДоговорЗаймаСотрудникуРасширеннаяПодсказка" id="284"/>
@@ -3100,6 +3909,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Сумма взаиморасчетов заполняется при проведении автоматически</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Mutual settlements amount is filled in automatically on posting</v8:content>
+															</v8:item>
 														</WarningOnEdit>
 														<ContextMenu name="РасшифровкаПлатежаСуммаВзаиморасчетовКонтекстноеМеню" id="85"/>
 														<ExtendedTooltip name="РасшифровкаПлатежаСуммаВзаиморасчетовExtendedTooltip" id="163"/>
@@ -3110,6 +3923,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Валюта</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Currency</v8:content>
 															</v8:item>
 														</Title>
 														<ContextMenu name="РасшифровкаПлатежаВалютаВзаиморасчетовКонтекстноеМеню" id="88"/>
@@ -3141,6 +3958,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Статья доходов/пассивов</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Income/liability item</v8:content>
+															</v8:item>
 														</Title>
 														<Wrap>false</Wrap>
 														<DropListButton>false</DropListButton>
@@ -3169,6 +3990,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Аналитика</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Dimension</v8:content>
 															</v8:item>
 														</Title>
 														<ShowInHeader>true</ShowInHeader>
@@ -3202,6 +4027,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Счет регл. учета</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Compliance accounting account</v8:content>
+															</v8:item>
 														</Title>
 														<ShowInHeader>true</ShowInHeader>
 														<ExtendedTooltip name="РасшифровкаПлатежаГруппаСчетРеглУчетаРасширеннаяПодсказка" id="273"/>
@@ -3230,6 +4059,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Владелец объекта расчета</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Settlement object owner</v8:content>
+															</v8:item>
 														</ToolTip>
 														<EditMode>EnterOnInput</EditMode>
 														<ContextMenu name="РасшифровкаПлатежаОрганизацияКонтекстноеМеню" id="192"/>
@@ -3242,6 +4075,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Реквизиты объекта расчетов</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Settlements object details</v8:content>
 													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
@@ -3256,11 +4093,11 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Декорация есть расхождения</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Decoration there are discrepancies</v8:content>
+															</v8:item>
 														</Title>
-														<Picture>
-															<xr:Ref>CommonPicture.НовостиВнимание</xr:Ref>
-															<xr:LoadTransparent>false</xr:LoadTransparent>
-														</Picture>
 														<FileDragMode>AsFile</FileDragMode>
 														<ContextMenu name="ДекорацияЕстьРасхожденияКонтекстноеМеню" id="390"/>
 														<ExtendedTooltip name="ДекорацияЕстьРасхожденияРасширеннаяПодсказка" id="391"/>
@@ -3270,6 +4107,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Нераспределенный платеж:</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Non-allocated payment:</v8:content>
 															</v8:item>
 														</Title>
 														<Hyperlink>true</Hyperlink>
@@ -3292,6 +4133,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Назначение платежа</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Purpose of payment</v8:content>
+					</v8:item>
 				</Title>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
@@ -3303,6 +4148,11 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Назначение
 платежа</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Purpose of
+payment</v8:content>
 							</v8:item>
 						</Title>
 						<TitleLocation>Left</TitleLocation>
@@ -3319,6 +4169,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Подвал</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Footer</v8:content>
 					</v8:item>
 				</Title>
 				<Group>Horizontal</Group>
