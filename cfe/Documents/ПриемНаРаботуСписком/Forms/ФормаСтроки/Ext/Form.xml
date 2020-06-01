@@ -130,13 +130,11 @@
 					<ExtendedTooltip name="ОсновноеExtendedTooltip" id="248"/>
 					<ChildItems>
 						<InputField name="Организация" id="5">
-							<DataPath>1/0:e34d7649-fd2e-4b86-ba08-c88d2f7562c0</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="ОрганизацияКонтекстноеМеню" id="6"/>
 							<ExtendedTooltip name="ОрганизацияExtendedTooltip" id="249"/>
 						</InputField>
 						<InputField name="Сотрудник" id="104">
-							<DataPath>1/0:30c7bca4-f277-4b70-87cf-53c4f04c5f46</DataPath>
 							<ChoiceParameterLinks>
 								<xr:Link>
 									<xr:Name>АдресСпискаПодобранныхСотрудников</xr:Name>
@@ -157,7 +155,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Additional information</v8:content>
+							<v8:content>More</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -184,19 +182,54 @@
 							<ExtendedTooltip name="ГруппаНомерДатаПриказаОПриемеExtendedTooltip" id="261"/>
 							<ChildItems>
 								<InputField name="Дата" id="3">
-									<DataPath>1/-3</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>10</Width>
 									<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
 									<ExtendedTooltip name="ДатаExtendedTooltip" id="262"/>
 								</InputField>
-								<InputField name="Номер" id="1">
-									<DataPath>1/-2</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<HorizontalStretch>false</HorizontalStretch>
-									<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
-									<ExtendedTooltip name="НомерExtendedTooltip" id="263"/>
-								</InputField>
+								<UsualGroup name="НомераГруппа" id="746">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Номера группа</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Numbers group</v8:content>
+										</v8:item>
+									</Title>
+									<Width>40</Width>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<BackColor>style:ОбъединенныеЭлементыФормыФон</BackColor>
+									<ExtendedTooltip name="НомераГруппаРасширеннаяПодсказка" id="747"/>
+									<ChildItems>
+										<InputField name="Номер" id="1">
+											<EditMode>EnterOnInput</EditMode>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+											<ExtendedTooltip name="НомерExtendedTooltip" id="263"/>
+										</InputField>
+										<InputField name="НомерПриказа" id="743">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>печатать как</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>print as</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTipRepresentation>Button</ToolTipRepresentation>
+											<Width>10</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="НомерПриказаКонтекстноеМеню" id="744"/>
+											<ExtendedTooltip name="НомерПриказаРасширеннаяПодсказка" id="745"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаСвязанныеДокументы" id="730">
@@ -306,10 +339,6 @@
 											<v8:content>Unspecified lengths of service picture</v8:content>
 										</v8:item>
 									</Title>
-									<Picture>
-										<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
-									</Picture>
 									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="СтажиНеЗаданыКартинкаКонтекстноеМеню" id="648"/>
 									<ExtendedTooltip name="СтажиНеЗаданыКартинкаРасширеннаяПодсказка" id="649"/>
@@ -386,7 +415,6 @@
 											<ExtendedTooltip name="ГруппаДатаПриемаИспытательныйСрокExtendedTooltip" id="254"/>
 											<ChildItems>
 												<InputField name="ДатаПриема" id="114">
-													<DataPath>1/0:bad4bad4-83aa-4665-a10b-4f2bbf439724</DataPath>
 													<ContextMenu name="ДатаПриемаКонтекстноеМеню" id="115"/>
 													<ExtendedTooltip name="ДатаПриемаExtendedTooltip" id="255"/>
 												</InputField>
@@ -424,6 +452,33 @@
 											<ContextMenu name="ДолжностьКонтекстноеМеню" id="111"/>
 											<ExtendedTooltip name="ДолжностьExtendedTooltip" id="253"/>
 										</InputField>
+										<UsualGroup name="СведенияТрудовойКнижкиГруппа" id="738">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Сведения трудовой книжки</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Employment record book information</v8:content>
+												</v8:item>
+											</Title>
+											<Group>Vertical</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="СведенияТрудовойКнижкиГруппаРасширеннаяПодсказка" id="739"/>
+											<ChildItems>
+												<InputField name="ТрудоваяФункция" id="732">
+													<ContextMenu name="ТрудоваяФункцияКонтекстноеМеню" id="733"/>
+													<ExtendedTooltip name="ТрудоваяФункцияРасширеннаяПодсказка" id="734"/>
+												</InputField>
+												<InputField name="НаименованиеДокумента" id="740">
+													<ChoiceButton>true</ChoiceButton>
+													<ContextMenu name="НаименованиеДокументаКонтекстноеМеню" id="741"/>
+													<ExtendedTooltip name="НаименованиеДокументаРасширеннаяПодсказка" id="742"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
 										<InputField name="ПКУ" id="660">
 											<ChoiceParameterLinks>
 												<xr:Link>
@@ -618,6 +673,12 @@
 														</Button>
 													</ChildItems>
 												</UsualGroup>
+												<CheckBoxField name="ОтразитьВТрудовойКнижке" id="735">
+													<TitleLocation>Right</TitleLocation>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="ОтразитьВТрудовойКнижкеКонтекстноеМеню" id="736"/>
+													<ExtendedTooltip name="ОтразитьВТрудовойКнижкеРасширеннаяПодсказка" id="737"/>
+												</CheckBoxField>
 											</ChildItems>
 										</UsualGroup>
 									</ChildItems>
@@ -1676,7 +1737,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Size</v8:content>
+											<v8:content>Amount</v8:content>
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
@@ -1744,7 +1805,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>dated</v8:content>
+											<v8:content>from</v8:content>
 										</v8:item>
 									</Title>
 									<Width>10</Width>
@@ -1998,7 +2059,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Additional information</v8:content>
+							<v8:content>More</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
@@ -2250,7 +2311,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Additional information</v8:content>
+							<v8:content>More</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -2500,13 +2561,11 @@
 						<ExtendedTooltip name="ОсновноеExtendedTooltip" id="248"/>
 						<ChildItems>
 							<InputField name="Организация" id="5">
-								<DataPath>1/0:e34d7649-fd2e-4b86-ba08-c88d2f7562c0</DataPath>
 								<EditMode>EnterOnInput</EditMode>
 								<ContextMenu name="ОрганизацияКонтекстноеМеню" id="6"/>
 								<ExtendedTooltip name="ОрганизацияExtendedTooltip" id="249"/>
 							</InputField>
 							<InputField name="Сотрудник" id="104">
-								<DataPath>1/0:30c7bca4-f277-4b70-87cf-53c4f04c5f46</DataPath>
 								<ChoiceParameterLinks>
 									<xr:Link>
 										<xr:Name>АдресСпискаПодобранныхСотрудников</xr:Name>
@@ -2527,7 +2586,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Additional information</v8:content>
+								<v8:content>More</v8:content>
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
@@ -2554,19 +2613,54 @@
 								<ExtendedTooltip name="ГруппаНомерДатаПриказаОПриемеExtendedTooltip" id="261"/>
 								<ChildItems>
 									<InputField name="Дата" id="3">
-										<DataPath>1/-3</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>10</Width>
 										<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
 										<ExtendedTooltip name="ДатаExtendedTooltip" id="262"/>
 									</InputField>
-									<InputField name="Номер" id="1">
-										<DataPath>1/-2</DataPath>
-										<EditMode>EnterOnInput</EditMode>
-										<HorizontalStretch>false</HorizontalStretch>
-										<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
-										<ExtendedTooltip name="НомерExtendedTooltip" id="263"/>
-									</InputField>
+									<UsualGroup name="НомераГруппа" id="746">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Номера группа</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Numbers group</v8:content>
+											</v8:item>
+										</Title>
+										<Width>40</Width>
+										<Group>AlwaysHorizontal</Group>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<BackColor>style:ОбъединенныеЭлементыФормыФон</BackColor>
+										<ExtendedTooltip name="НомераГруппаРасширеннаяПодсказка" id="747"/>
+										<ChildItems>
+											<InputField name="Номер" id="1">
+												<EditMode>EnterOnInput</EditMode>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+												<ExtendedTooltip name="НомерExtendedTooltip" id="263"/>
+											</InputField>
+											<InputField name="НомерПриказа" id="743">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>печатать как</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>print as</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTipRepresentation>Button</ToolTipRepresentation>
+												<Width>10</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="НомерПриказаКонтекстноеМеню" id="744"/>
+												<ExtendedTooltip name="НомерПриказаРасширеннаяПодсказка" id="745"/>
+											</InputField>
+										</ChildItems>
+									</UsualGroup>
 								</ChildItems>
 							</UsualGroup>
 							<UsualGroup name="ГруппаСвязанныеДокументы" id="730">
@@ -2676,10 +2770,6 @@
 												<v8:content>Unspecified lengths of service picture</v8:content>
 											</v8:item>
 										</Title>
-										<Picture>
-											<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
-											<xr:LoadTransparent>false</xr:LoadTransparent>
-										</Picture>
 										<FileDragMode>AsFile</FileDragMode>
 										<ContextMenu name="СтажиНеЗаданыКартинкаКонтекстноеМеню" id="648"/>
 										<ExtendedTooltip name="СтажиНеЗаданыКартинкаРасширеннаяПодсказка" id="649"/>
@@ -2756,7 +2846,6 @@
 												<ExtendedTooltip name="ГруппаДатаПриемаИспытательныйСрокExtendedTooltip" id="254"/>
 												<ChildItems>
 													<InputField name="ДатаПриема" id="114">
-														<DataPath>1/0:bad4bad4-83aa-4665-a10b-4f2bbf439724</DataPath>
 														<ContextMenu name="ДатаПриемаКонтекстноеМеню" id="115"/>
 														<ExtendedTooltip name="ДатаПриемаExtendedTooltip" id="255"/>
 													</InputField>
@@ -2794,6 +2883,33 @@
 												<ContextMenu name="ДолжностьКонтекстноеМеню" id="111"/>
 												<ExtendedTooltip name="ДолжностьExtendedTooltip" id="253"/>
 											</InputField>
+											<UsualGroup name="СведенияТрудовойКнижкиГруппа" id="738">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Сведения трудовой книжки</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Employment record book information</v8:content>
+													</v8:item>
+												</Title>
+												<Group>Vertical</Group>
+												<Representation>None</Representation>
+												<ShowTitle>false</ShowTitle>
+												<ExtendedTooltip name="СведенияТрудовойКнижкиГруппаРасширеннаяПодсказка" id="739"/>
+												<ChildItems>
+													<InputField name="ТрудоваяФункция" id="732">
+														<ContextMenu name="ТрудоваяФункцияКонтекстноеМеню" id="733"/>
+														<ExtendedTooltip name="ТрудоваяФункцияРасширеннаяПодсказка" id="734"/>
+													</InputField>
+													<InputField name="НаименованиеДокумента" id="740">
+														<ChoiceButton>true</ChoiceButton>
+														<ContextMenu name="НаименованиеДокументаКонтекстноеМеню" id="741"/>
+														<ExtendedTooltip name="НаименованиеДокументаРасширеннаяПодсказка" id="742"/>
+													</InputField>
+												</ChildItems>
+											</UsualGroup>
 											<InputField name="ПКУ" id="660">
 												<ChoiceParameterLinks>
 													<xr:Link>
@@ -2988,6 +3104,12 @@
 															</Button>
 														</ChildItems>
 													</UsualGroup>
+													<CheckBoxField name="ОтразитьВТрудовойКнижке" id="735">
+														<TitleLocation>Right</TitleLocation>
+														<CheckBoxType>Auto</CheckBoxType>
+														<ContextMenu name="ОтразитьВТрудовойКнижкеКонтекстноеМеню" id="736"/>
+														<ExtendedTooltip name="ОтразитьВТрудовойКнижкеРасширеннаяПодсказка" id="737"/>
+													</CheckBoxField>
 												</ChildItems>
 											</UsualGroup>
 										</ChildItems>
@@ -3125,7 +3247,7 @@
 													<Button name="ДобавитьУправленческие" id="694">
 														<Type>CommandBarButton</Type>
 														<Representation>PictureAndText</Representation>
-														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<CommandName>0:b0016a68-ec64-4e6d-b905-c71fd62efc4c</CommandName>
 														<ExtendedTooltip name="ДобавитьУправленческиеРасширеннаяПодсказка" id="695"/>
 													</Button>
 												</ChildItems>
@@ -3173,23 +3295,23 @@
 													</Button>
 													<Button name="УдалитьУправленческие" id="705">
 														<Type>CommandBarButton</Type>
-														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<CommandName>0:8d772f97-c0ef-47c0-9cb0-efea28c61341</CommandName>
 														<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 														<ExtendedTooltip name="УдалитьУправленческиеРасширеннаяПодсказка" id="706"/>
 													</Button>
 													<Button name="ПереместитьВверхУправленческие" id="707">
 														<Type>CommandBarButton</Type>
-														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<CommandName>0:37740564-9e86-44a0-bea9-3f485a5a3f91</CommandName>
 														<ExtendedTooltip name="ПереместитьВверхУправленческиеРасширеннаяПодсказка" id="708"/>
 													</Button>
 													<Button name="ПереместитьВнизУправленческие" id="709">
 														<Type>CommandBarButton</Type>
-														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<CommandName>0:fa51b106-eae6-44c7-8054-76cbb3100603</CommandName>
 														<ExtendedTooltip name="ПереместитьВнизУправленческиеРасширеннаяПодсказка" id="710"/>
 													</Button>
 													<Button name="ВывестиСписокУправленческие" id="711">
 														<Type>CommandBarButton</Type>
-														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<CommandName>0:49602716-fea6-497f-8047-726404038857</CommandName>
 														<ExtendedTooltip name="ВывестиСписокУправленческиеРасширеннаяПодсказка" id="712"/>
 													</Button>
 													<ButtonGroup name="ГруппаЗаполнитьУправленческие" id="713">
@@ -3355,7 +3477,7 @@
 															<Button name="Добавить" id="179">
 																<Type>CommandBarButton</Type>
 																<Representation>PictureAndText</Representation>
-																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<CommandName>0:b0016a68-ec64-4e6d-b905-c71fd62efc4c</CommandName>
 																<ExtendedTooltip name="ДобавитьExtendedTooltip" id="279"/>
 															</Button>
 														</ChildItems>
@@ -3403,23 +3525,23 @@
 															</Button>
 															<Button name="Удалить" id="181">
 																<Type>CommandBarButton</Type>
-																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<CommandName>0:8d772f97-c0ef-47c0-9cb0-efea28c61341</CommandName>
 																<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 																<ExtendedTooltip name="УдалитьExtendedTooltip" id="281"/>
 															</Button>
 															<Button name="ПереместитьВверх" id="182">
 																<Type>CommandBarButton</Type>
-																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<CommandName>0:37740564-9e86-44a0-bea9-3f485a5a3f91</CommandName>
 																<ExtendedTooltip name="ПереместитьВверхExtendedTooltip" id="282"/>
 															</Button>
 															<Button name="ПереместитьВниз" id="183">
 																<Type>CommandBarButton</Type>
-																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<CommandName>0:fa51b106-eae6-44c7-8054-76cbb3100603</CommandName>
 																<ExtendedTooltip name="ПереместитьВнизExtendedTooltip" id="283"/>
 															</Button>
 															<Button name="ВывестиСписок" id="193">
 																<Type>CommandBarButton</Type>
-																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<CommandName>0:49602716-fea6-497f-8047-726404038857</CommandName>
 																<ExtendedTooltip name="ВывестиСписокExtendedTooltip" id="294"/>
 															</Button>
 															<ButtonGroup name="ГруппаЗаполнить" id="432">
@@ -3929,7 +4051,7 @@
 										<ChildItems>
 											<Button name="ЛьготыДобавить" id="599">
 												<Type>CommandBarButton</Type>
-												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+												<CommandName>0:b0016a68-ec64-4e6d-b905-c71fd62efc4c</CommandName>
 												<ExtendedTooltip name="ЛьготыДобавитьРасширеннаяПодсказка" id="600"/>
 											</Button>
 										</ChildItems>
@@ -3966,23 +4088,23 @@
 											</Button>
 											<Button name="ЛьготыУдалить" id="610">
 												<Type>CommandBarButton</Type>
-												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+												<CommandName>0:8d772f97-c0ef-47c0-9cb0-efea28c61341</CommandName>
 												<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 												<ExtendedTooltip name="ЛьготыУдалитьРасширеннаяПодсказка" id="611"/>
 											</Button>
 											<Button name="ЛьготыПереместитьВверх" id="612">
 												<Type>CommandBarButton</Type>
-												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+												<CommandName>0:37740564-9e86-44a0-bea9-3f485a5a3f91</CommandName>
 												<ExtendedTooltip name="ЛьготыПереместитьВверхРасширеннаяПодсказка" id="613"/>
 											</Button>
 											<Button name="ЛьготыПереместитьВниз" id="614">
 												<Type>CommandBarButton</Type>
-												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+												<CommandName>0:fa51b106-eae6-44c7-8054-76cbb3100603</CommandName>
 												<ExtendedTooltip name="ЛьготыПереместитьВнизРасширеннаяПодсказка" id="615"/>
 											</Button>
 											<Button name="ЛьготыВывестиСписок" id="616">
 												<Type>CommandBarButton</Type>
-												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+												<CommandName>0:49602716-fea6-497f-8047-726404038857</CommandName>
 												<ExtendedTooltip name="ЛьготыВывестиСписокРасширеннаяПодсказка" id="617"/>
 											</Button>
 										</ChildItems>
@@ -4046,7 +4168,7 @@
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Size</v8:content>
+												<v8:content>Amount</v8:content>
 											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
@@ -4114,7 +4236,7 @@
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>dated</v8:content>
+												<v8:content>from</v8:content>
 											</v8:item>
 										</Title>
 										<Width>10</Width>
@@ -4368,7 +4490,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Additional information</v8:content>
+								<v8:content>More</v8:content>
 							</v8:item>
 						</Title>
 						<Group>Horizontal</Group>
@@ -4620,7 +4742,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Additional information</v8:content>
+								<v8:content>More</v8:content>
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
@@ -4688,7 +4810,7 @@
 					<Button name="Закрыть" id="625">
 						<Type>CommandBarButton</Type>
 						<Representation>Text</Representation>
-						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+						<CommandName>Form.StandardCommand.Close</CommandName>
 						<ExtendedTooltip name="ЗакрытьРасширеннаяПодсказка" id="626"/>
 					</Button>
 				</ChildItems>
