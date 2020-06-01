@@ -210,12 +210,49 @@
 									<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
 									<ExtendedTooltip name="ДатаExtendedTooltip" id="262"/>
 								</InputField>
-								<InputField name="Номер" id="1">
-									<EditMode>EnterOnInput</EditMode>
-									<HorizontalStretch>false</HorizontalStretch>
-									<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
-									<ExtendedTooltip name="НомерExtendedTooltip" id="263"/>
-								</InputField>
+								<UsualGroup name="НомераГруппа" id="746">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Номера группа</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Numbers group</v8:content>
+										</v8:item>
+									</Title>
+									<Width>40</Width>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<BackColor>style:ОбъединенныеЭлементыФормыФон</BackColor>
+									<ExtendedTooltip name="НомераГруппаРасширеннаяПодсказка" id="747"/>
+									<ChildItems>
+										<InputField name="Номер" id="1">
+											<EditMode>EnterOnInput</EditMode>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+											<ExtendedTooltip name="НомерExtendedTooltip" id="263"/>
+										</InputField>
+										<InputField name="НомерПриказа" id="743">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>печатать как</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>print as</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTipRepresentation>Button</ToolTipRepresentation>
+											<Width>10</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="НомерПриказаКонтекстноеМеню" id="744"/>
+											<ExtendedTooltip name="НомерПриказаРасширеннаяПодсказка" id="745"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаСвязанныеДокументы" id="730">
@@ -2627,12 +2664,49 @@
 										<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
 										<ExtendedTooltip name="ДатаExtendedTooltip" id="262"/>
 									</InputField>
-									<InputField name="Номер" id="1">
-										<EditMode>EnterOnInput</EditMode>
-										<HorizontalStretch>false</HorizontalStretch>
-										<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
-										<ExtendedTooltip name="НомерExtendedTooltip" id="263"/>
-									</InputField>
+									<UsualGroup name="НомераГруппа" id="746">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Номера группа</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Numbers group</v8:content>
+											</v8:item>
+										</Title>
+										<Width>40</Width>
+										<Group>AlwaysHorizontal</Group>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<BackColor>style:ОбъединенныеЭлементыФормыФон</BackColor>
+										<ExtendedTooltip name="НомераГруппаРасширеннаяПодсказка" id="747"/>
+										<ChildItems>
+											<InputField name="Номер" id="1">
+												<EditMode>EnterOnInput</EditMode>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+												<ExtendedTooltip name="НомерExtendedTooltip" id="263"/>
+											</InputField>
+											<InputField name="НомерПриказа" id="743">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>печатать как</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>print as</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTipRepresentation>Button</ToolTipRepresentation>
+												<Width>10</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="НомерПриказаКонтекстноеМеню" id="744"/>
+												<ExtendedTooltip name="НомерПриказаРасширеннаяПодсказка" id="745"/>
+											</InputField>
+										</ChildItems>
+									</UsualGroup>
 								</ChildItems>
 							</UsualGroup>
 							<UsualGroup name="ГруппаСвязанныеДокументы" id="730">
