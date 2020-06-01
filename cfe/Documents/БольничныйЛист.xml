@@ -649,6 +649,18 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="a9b6872e-d35f-4a1a-8362-5f777de11e6f">
+				<InternalInfo/>
+				<Properties>
+					<Name>ЭЛНКарантинПоКоронавирусу</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>711cda3b-5c12-4946-8302-dd4d8a0f5924</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<TabularSection uuid="ed35f0a8-be9d-4674-b770-6e5cfa427973">
 				<InternalInfo>
@@ -778,6 +790,35 @@
 							</Type>
 						</Properties>
 					</Attribute>
+					<Attribute uuid="a29ff1d1-a3b0-40d9-8ac9-142e135a8291">
+						<InternalInfo/>
+						<Properties>
+							<Name>СкидкаПоВзносам</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>2bc883b2-a159-4640-8bb9-e4131ef2e991</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c2cdb1c5-bbd0-41fb-910c-cc1d04041cd9">
+						<InternalInfo/>
+						<Properties>
+							<Name>МестоПолученияДохода</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>4bbbe9ff-7071-44d5-aaf4-0f9fc8e001cb</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ТерриторияВыполненияРаботВОрганизации</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
 				</ChildObjects>
 			</TabularSection>
 			<TabularSection uuid="e283c1b2-792c-4185-8fd2-57a16ffa90ca">
@@ -896,6 +937,35 @@
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:TypeSet>cfg:DefinedType.ОснованиеНачисления</v8:TypeSet>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="15e5b689-820f-413a-a876-08b4268ed98b">
+						<InternalInfo/>
+						<Properties>
+							<Name>СкидкаПоВзносам</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>bd776ba0-5278-4985-ae90-baf179f666be</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>2</v8:FractionDigits>
+									<v8:AllowedSign>Any</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="c969a2b5-880c-484a-b73a-830678bb3ed4">
+						<InternalInfo/>
+						<Properties>
+							<Name>МестоПолученияДохода</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>98b654e7-42b9-4374-8b1f-a987a449ea11</ExtendedConfigurationObject>
+							<Type>
+								<v8:TypeSet>cfg:DefinedType.ТерриторияВыполненияРаботВОрганизации</v8:TypeSet>
 							</Type>
 						</Properties>
 					</Attribute>

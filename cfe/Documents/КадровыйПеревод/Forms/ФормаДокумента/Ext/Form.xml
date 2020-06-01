@@ -92,7 +92,6 @@
 			<Button name="ПрисоединенныеФайлы" id="800">
 				<Type>CommandBarButton</Type>
 				<CommandName>0:c1645396-c0ca-4427-a1a0-47bfdb0129c9</CommandName>
-				<DataPath>1/-5</DataPath>
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -213,7 +212,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Additional information</v8:content>
+							<v8:content>More</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -238,19 +237,54 @@
 							<ExtendedTooltip name="ДатаНомерExtendedTooltip" id="336"/>
 							<ChildItems>
 								<InputField name="Дата" id="3">
-									<DataPath>1/-3</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>10</Width>
 									<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
 									<ExtendedTooltip name="ДатаExtendedTooltip" id="337"/>
 								</InputField>
-								<InputField name="Номер" id="1">
-									<DataPath>1/-2</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<HorizontalStretch>false</HorizontalStretch>
-									<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
-									<ExtendedTooltip name="НомерExtendedTooltip" id="338"/>
-								</InputField>
+								<UsualGroup name="НомераГруппа" id="951">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Номера группа</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Numbers group</v8:content>
+										</v8:item>
+									</Title>
+									<Width>40</Width>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<BackColor>style:ОбъединенныеЭлементыФормыФон</BackColor>
+									<ExtendedTooltip name="НомераГруппаРасширеннаяПодсказка" id="952"/>
+									<ChildItems>
+										<InputField name="Номер" id="1">
+											<EditMode>EnterOnInput</EditMode>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+											<ExtendedTooltip name="НомерExtendedTooltip" id="338"/>
+										</InputField>
+										<InputField name="НомерПриказа" id="948">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>печатать как</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>print as</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTipRepresentation>Button</ToolTipRepresentation>
+											<Width>10</Width>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="НомерПриказаКонтекстноеМеню" id="949"/>
+											<ExtendedTooltip name="НомерПриказаРасширеннаяПодсказка" id="950"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
 						<CheckBoxField name="СменаВидаДоговора" id="653">
@@ -476,17 +510,69 @@
 															<ContextMenu name="ДолжностьКонтекстноеМеню" id="111"/>
 															<ExtendedTooltip name="ДолжностьExtendedTooltip" id="348"/>
 														</InputField>
+														<UsualGroup name="СведенияТрудовойКнижкиГруппа" id="943">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Сведения трудовой книжки</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Employment record book information</v8:content>
+																</v8:item>
+															</Title>
+															<Group>Vertical</Group>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<ExtendedTooltip name="СведенияТрудовойКнижкиГруппаРасширеннаяПодсказка" id="944"/>
+															<ChildItems>
+																<InputField name="ТрудоваяФункция" id="935">
+																	<ContextMenu name="ТрудоваяФункцияКонтекстноеМеню" id="936"/>
+																	<ExtendedTooltip name="ТрудоваяФункцияРасширеннаяПодсказка" id="937"/>
+																</InputField>
+																<InputField name="НаименованиеДокумента" id="945">
+																	<ChoiceButton>true</ChoiceButton>
+																	<ContextMenu name="НаименованиеДокументаКонтекстноеМеню" id="946"/>
+																	<ExtendedTooltip name="НаименованиеДокументаРасширеннаяПодсказка" id="947"/>
+																</InputField>
+															</ChildItems>
+														</UsualGroup>
 													</ChildItems>
 												</UsualGroup>
-												<LabelField name="КоличествоСтавок" id="795">
-													<DataPath>48</DataPath>
-													<TitleLocation>Left</TitleLocation>
-													<AutoMaxWidth>false</AutoMaxWidth>
-													<MaxWidth>10</MaxWidth>
-													<Hiperlink>true</Hiperlink>
-													<ContextMenu name="КоличествоСтавокКонтекстноеМеню" id="796"/>
-													<ExtendedTooltip name="КоличествоСтавокРасширеннаяПодсказка" id="797"/>
-												</LabelField>
+												<UsualGroup name="КоличествоСтавокГруппа" id="938">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Количество ставок группа</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Number of rates group</v8:content>
+														</v8:item>
+													</Title>
+													<Group>Vertical</Group>
+													<Representation>None</Representation>
+													<United>false</United>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="КоличествоСтавокГруппаРасширеннаяПодсказка" id="939"/>
+													<ChildItems>
+														<LabelField name="КоличествоСтавок" id="795">
+															<DataPath>48</DataPath>
+															<TitleLocation>Left</TitleLocation>
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<MaxWidth>10</MaxWidth>
+															<Hiperlink>true</Hiperlink>
+															<ContextMenu name="КоличествоСтавокКонтекстноеМеню" id="796"/>
+															<ExtendedTooltip name="КоличествоСтавокРасширеннаяПодсказка" id="797"/>
+														</LabelField>
+														<CheckBoxField name="ОтразитьВТрудовойКнижке" id="940">
+															<TitleLocation>Right</TitleLocation>
+															<CheckBoxType>Auto</CheckBoxType>
+															<ContextMenu name="ОтразитьВТрудовойКнижкеКонтекстноеМеню" id="941"/>
+															<ExtendedTooltip name="ОтразитьВТрудовойКнижкеРасширеннаяПодсказка" id="942"/>
+														</CheckBoxField>
+													</ChildItems>
+												</UsualGroup>
 											</ChildItems>
 										</UsualGroup>
 										<UsualGroup name="ГруппаГрейд" id="659">
@@ -1136,7 +1222,7 @@
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Pages of command bar of the "Accruals" tabular section</v8:content>
+													<v8:content>Pages of "Accruals" tabular section command bar</v8:content>
 												</v8:item>
 											</Title>
 											<PagesRepresentation>None</PagesRepresentation>
@@ -1587,7 +1673,7 @@
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>Pages of command bar of the "Accruals" tabular section</v8:content>
+															<v8:content>Pages of "Accruals" tabular section command bar</v8:content>
 														</v8:item>
 													</Title>
 													<PagesRepresentation>None</PagesRepresentation>
@@ -1959,7 +2045,7 @@
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>Basis</v8:content>
+															<v8:content>Base</v8:content>
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
@@ -2935,7 +3021,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Size</v8:content>
+											<v8:content>Amount</v8:content>
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
@@ -2966,269 +3052,282 @@
 							<ContextMenu name="ИзменитьСведенияОДоговореКонтрактеКонтекстноеМеню" id="680"/>
 							<ExtendedTooltip name="ИзменитьСведенияОДоговореКонтрактеРасширеннаяПодсказка" id="681"/>
 						</CheckBoxField>
-						<UsualGroup name="ГруппаНомерДатаТрудовогоДоговора" id="606">
+						<UsualGroup name="СведенияДоговораКонтракта" id="933">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Трудовой договор</v8:content>
+									<v8:content>Сведения договора контракта</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Employment contract</v8:content>
+									<v8:content>Contract agreement information</v8:content>
 								</v8:item>
 							</Title>
-							<Group>Horizontal</Group>
-							<Representation>None</Representation>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаНомерДатаТрудовогоДоговораExtendedTooltip" id="607"/>
-							<ChildItems>
-								<InputField name="ТрудовойДоговорНомер" id="608">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Договор №</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Contract No.</v8:content>
-										</v8:item>
-									</Title>
-									<HorizontalStretch>false</HorizontalStretch>
-									<ContextMenu name="ТрудовойДоговорНомерКонтекстноеМеню" id="609"/>
-									<ExtendedTooltip name="ТрудовойДоговорНомерExtendedTooltip" id="610"/>
-								</InputField>
-								<InputField name="ТрудовойДоговорДата" id="611">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>от</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>dated</v8:content>
-										</v8:item>
-									</Title>
-									<Width>10</Width>
-									<ContextMenu name="ТрудовойДоговорДатаКонтекстноеМеню" id="612"/>
-									<ExtendedTooltip name="ТрудовойДоговорДатаExtendedTooltip" id="613"/>
-								</InputField>
-							</ChildItems>
-						</UsualGroup>
-						<UsualGroup name="ГруппаСрочныйДоговорОснование" id="614">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Срочный договор основание</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Fixed-term contract basis</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Заполняется только в случае оформления срочного трудового договора</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>It is filled in only for fixed-term employment contract</v8:content>
-								</v8:item>
-							</ToolTip>
 							<Group>Vertical</Group>
 							<Representation>None</Representation>
-							<United>false</United>
 							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаСрочныйДоговорОснованиеРасширеннаяПодсказка" id="615"/>
+							<ExtendedTooltip name="СведенияДоговораКонтрактаРасширеннаяПодсказка" id="934"/>
 							<ChildItems>
-								<UsualGroup name="СрочныйДоговорГруппа" id="896">
+								<UsualGroup name="ГруппаНомерДатаТрудовогоДоговора" id="606">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Срочный договор группа</v8:content>
+											<v8:content>Трудовой договор</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Fixed-term contract group</v8:content>
-										</v8:item>
-									</Title>
-									<Width>30</Width>
-									<HorizontalStretch>false</HorizontalStretch>
-									<GroupHorizontalAlign>Left</GroupHorizontalAlign>
-									<Group>Horizontal</Group>
-									<HorizontalAlign>Right</HorizontalAlign>
-									<Representation>None</Representation>
-									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="СрочныйДоговорГруппаРасширеннаяПодсказка" id="897"/>
-									<ChildItems>
-										<CheckBoxField name="СрочныйДоговор" id="616">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Срочный договор до</v8:content>
-												</v8:item>
-												<v8:item>
-													<v8:lang>en</v8:lang>
-													<v8:content>Fixed-term contract till</v8:content>
-												</v8:item>
-											</Title>
-											<TitleLocation>Right</TitleLocation>
-											<GroupHorizontalAlign>Left</GroupHorizontalAlign>
-											<CheckBoxType>Auto</CheckBoxType>
-											<ContextMenu name="СрочныйДоговорКонтекстноеМеню" id="617"/>
-											<ExtendedTooltip name="СрочныйДоговорРасширеннаяПодсказка" id="618"/>
-										</CheckBoxField>
-										<InputField name="ДатаЗавершенияТрудовогоДоговора" id="619">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Дата завершения</v8:content>
-												</v8:item>
-												<v8:item>
-													<v8:lang>en</v8:lang>
-													<v8:content>End date</v8:content>
-												</v8:item>
-											</Title>
-											<TitleLocation>None</TitleLocation>
-											<ContextMenu name="ДатаЗавершенияТрудовогоДоговораКонтекстноеМеню" id="620"/>
-											<ExtendedTooltip name="ДатаЗавершенияТрудовогоДоговораExtendedTooltip" id="621"/>
-										</InputField>
-									</ChildItems>
-								</UsualGroup>
-								<UsualGroup name="ОснованиеСрочногоДоговораГруппа" id="898">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Основание срочного договора группа</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Fixed-term contract basis group</v8:content>
+											<v8:content>Employment contract</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
 									<Representation>None</Representation>
-									<United>false</United>
 									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="ОснованиеСрочногоДоговораГруппаРасширеннаяПодсказка" id="899"/>
+									<ExtendedTooltip name="ГруппаНомерДатаТрудовогоДоговораExtendedTooltip" id="607"/>
 									<ChildItems>
-										<InputField name="ОснованиеСрочногоДоговора" id="622">
-											<MaxWidth>29</MaxWidth>
-											<ChooseType>false</ChooseType>
-											<ContextMenu name="ОснованиеСрочногоДоговораКонтекстноеМеню" id="623"/>
-											<ExtendedTooltip name="ОснованиеСрочногоДоговораРасширеннаяПодсказка" id="624"/>
+										<InputField name="ТрудовойДоговорНомер" id="608">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Договор №</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Contract No.</v8:content>
+												</v8:item>
+											</Title>
+											<HorizontalStretch>false</HorizontalStretch>
+											<ContextMenu name="ТрудовойДоговорНомерКонтекстноеМеню" id="609"/>
+											<ExtendedTooltip name="ТрудовойДоговорНомерExtendedTooltip" id="610"/>
 										</InputField>
-										<CheckBoxField name="СезонныйДоговор" id="893">
-											<TitleLocation>Right</TitleLocation>
-											<CheckBoxType>Auto</CheckBoxType>
-											<ContextMenu name="СезонныйДоговорКонтекстноеМеню" id="894"/>
-											<ExtendedTooltip name="СезонныйДоговорРасширеннаяПодсказка" id="895"/>
-										</CheckBoxField>
+										<InputField name="ТрудовойДоговорДата" id="611">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>от</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>from</v8:content>
+												</v8:item>
+											</Title>
+											<Width>10</Width>
+											<ContextMenu name="ТрудовойДоговорДатаКонтекстноеМеню" id="612"/>
+											<ExtendedTooltip name="ТрудовойДоговорДатаExtendedTooltip" id="613"/>
+										</InputField>
 									</ChildItems>
 								</UsualGroup>
-							</ChildItems>
-						</UsualGroup>
-						<InputField name="СрокЗаключенияДоговора" id="656">
-							<ChoiceButton>true</ChoiceButton>
-							<ContextMenu name="СрокЗаключенияДоговораКонтекстноеМеню" id="657"/>
-							<ExtendedTooltip name="СрокЗаключенияДоговораРасширеннаяПодсказка" id="658"/>
-						</InputField>
-						<UsualGroup name="ГруппаПоступлениеНаСлужбу" id="628">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Поступление на службу</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Recruitment</v8:content>
-								</v8:item>
-							</Title>
-							<Group>Horizontal</Group>
-							<Representation>None</Representation>
-							<United>false</United>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаПоступлениеНаСлужбуРасширеннаяПодсказка" id="629"/>
-							<ChildItems>
-								<InputField name="СпособПоступленияНаСлужбу" id="630">
-									<ContextMenu name="СпособПоступленияНаСлужбуКонтекстноеМеню" id="631"/>
-									<ExtendedTooltip name="СпособПоступленияНаСлужбуРасширеннаяПодсказка" id="632"/>
-								</InputField>
-								<CheckBoxField name="ПоступлениеНаСлужбуВпервые" id="633">
-									<TitleLocation>Right</TitleLocation>
-									<CheckBoxType>Auto</CheckBoxType>
-									<ContextMenu name="ПоступлениеНаСлужбуВпервыеКонтекстноеМеню" id="634"/>
-									<ExtendedTooltip name="ПоступлениеНаСлужбуВпервыеРасширеннаяПодсказка" id="635"/>
-								</CheckBoxField>
-							</ChildItems>
-						</UsualGroup>
-						<InputField name="ОборудованиеРабочегоМеста" id="647">
-							<ChoiceButton>true</ChoiceButton>
-							<ContextMenu name="ОборудованиеРабочегоМестаКонтекстноеМеню" id="648"/>
-							<ExtendedTooltip name="ОборудованиеРабочегоМестаРасширеннаяПодсказка" id="649"/>
-						</InputField>
-						<InputField name="ИныеУсловияДоговора" id="650">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Иные условия</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Other conditions</v8:content>
-								</v8:item>
-							</Title>
-							<ChoiceButton>true</ChoiceButton>
-							<ContextMenu name="ИныеУсловияДоговораКонтекстноеМеню" id="651"/>
-							<ExtendedTooltip name="ИныеУсловияДоговораРасширеннаяПодсказка" id="652"/>
-						</InputField>
-						<UsualGroup name="ГруппаОснованиеПредставителяВидАктаГосоргана" id="639">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Основание представителя и вид акта госоргана</v8:content>
-								</v8:item>
-								<v8:item>
-									<v8:lang>en</v8:lang>
-									<v8:content>Basis of representative and statement kind of state authority</v8:content>
-								</v8:item>
-							</Title>
-							<Group>Horizontal</Group>
-							<Representation>None</Representation>
-							<United>false</United>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаОснованиеПредставителяВидАктаГосорганаРасширеннаяПодсказка" id="640"/>
-							<ChildItems>
-								<InputField name="ОснованиеПредставителяНанимателя" id="641">
+								<UsualGroup name="ГруппаСрочныйДоговорОснование" id="614">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Основание представителя</v8:content>
+											<v8:content>Срочный договор основание</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Representative basis</v8:content>
+											<v8:content>Fixed-term contract basis</v8:content>
 										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>На основании чего представитель нанимателя имеет право на подписание трудового договора</v8:content>
+											<v8:content>Заполняется только в случае оформления срочного трудового договора</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Basis for the employer's representative to sign employment contract</v8:content>
+											<v8:content>It is filled in only for fixed-term employment contract</v8:content>
 										</v8:item>
 									</ToolTip>
+									<Group>Vertical</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаСрочныйДоговорОснованиеРасширеннаяПодсказка" id="615"/>
+									<ChildItems>
+										<UsualGroup name="СрочныйДоговорГруппа" id="896">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Срочный договор группа</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Fixed-term contract group</v8:content>
+												</v8:item>
+											</Title>
+											<Width>30</Width>
+											<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+											<Group>AlwaysHorizontal</Group>
+											<HorizontalAlign>Right</HorizontalAlign>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="СрочныйДоговорГруппаРасширеннаяПодсказка" id="897"/>
+											<ChildItems>
+												<CheckBoxField name="СрочныйДоговор" id="616">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Срочный договор до</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Fixed-term contract till</v8:content>
+														</v8:item>
+													</Title>
+													<TitleLocation>Right</TitleLocation>
+													<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="СрочныйДоговорКонтекстноеМеню" id="617"/>
+													<ExtendedTooltip name="СрочныйДоговорРасширеннаяПодсказка" id="618"/>
+												</CheckBoxField>
+												<InputField name="ДатаЗавершенияТрудовогоДоговора" id="619">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Дата завершения</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>End date</v8:content>
+														</v8:item>
+													</Title>
+													<TitleLocation>None</TitleLocation>
+													<ContextMenu name="ДатаЗавершенияТрудовогоДоговораКонтекстноеМеню" id="620"/>
+													<ExtendedTooltip name="ДатаЗавершенияТрудовогоДоговораExtendedTooltip" id="621"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="ОснованиеСрочногоДоговораГруппа" id="898">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Основание срочного договора группа</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Fixed-term contract basis group</v8:content>
+												</v8:item>
+											</Title>
+											<Group>Horizontal</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ОснованиеСрочногоДоговораГруппаРасширеннаяПодсказка" id="899"/>
+											<ChildItems>
+												<InputField name="ОснованиеСрочногоДоговора" id="622">
+													<MaxWidth>29</MaxWidth>
+													<ChooseType>false</ChooseType>
+													<ContextMenu name="ОснованиеСрочногоДоговораКонтекстноеМеню" id="623"/>
+													<ExtendedTooltip name="ОснованиеСрочногоДоговораРасширеннаяПодсказка" id="624"/>
+												</InputField>
+												<CheckBoxField name="СезонныйДоговор" id="893">
+													<TitleLocation>Right</TitleLocation>
+													<CheckBoxType>Auto</CheckBoxType>
+													<ContextMenu name="СезонныйДоговорКонтекстноеМеню" id="894"/>
+													<ExtendedTooltip name="СезонныйДоговорРасширеннаяПодсказка" id="895"/>
+												</CheckBoxField>
+											</ChildItems>
+										</UsualGroup>
+										<InputField name="СрокЗаключенияДоговора" id="656">
+											<ChoiceButton>true</ChoiceButton>
+											<ContextMenu name="СрокЗаключенияДоговораКонтекстноеМеню" id="657"/>
+											<ExtendedTooltip name="СрокЗаключенияДоговораРасширеннаяПодсказка" id="658"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+								<UsualGroup name="ГруппаПоступлениеНаСлужбу" id="628">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Поступление на службу</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Recruitment</v8:content>
+										</v8:item>
+									</Title>
+									<Group>Horizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаПоступлениеНаСлужбуРасширеннаяПодсказка" id="629"/>
+									<ChildItems>
+										<InputField name="СпособПоступленияНаСлужбу" id="630">
+											<ContextMenu name="СпособПоступленияНаСлужбуКонтекстноеМеню" id="631"/>
+											<ExtendedTooltip name="СпособПоступленияНаСлужбуРасширеннаяПодсказка" id="632"/>
+										</InputField>
+										<CheckBoxField name="ПоступлениеНаСлужбуВпервые" id="633">
+											<TitleLocation>Right</TitleLocation>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ПоступлениеНаСлужбуВпервыеКонтекстноеМеню" id="634"/>
+											<ExtendedTooltip name="ПоступлениеНаСлужбуВпервыеРасширеннаяПодсказка" id="635"/>
+										</CheckBoxField>
+									</ChildItems>
+								</UsualGroup>
+								<InputField name="ОборудованиеРабочегоМеста" id="647">
 									<ChoiceButton>true</ChoiceButton>
-									<ContextMenu name="ОснованиеПредставителяНанимателяКонтекстноеМеню" id="642"/>
-									<ExtendedTooltip name="ОснованиеПредставителяНанимателяРасширеннаяПодсказка" id="643"/>
+									<ContextMenu name="ОборудованиеРабочегоМестаКонтекстноеМеню" id="648"/>
+									<ExtendedTooltip name="ОборудованиеРабочегоМестаРасширеннаяПодсказка" id="649"/>
 								</InputField>
-								<InputField name="ВидАктаГосоргана" id="644">
+								<InputField name="ИныеУсловияДоговора" id="650">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Иные условия</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Other conditions</v8:content>
+										</v8:item>
+									</Title>
 									<ChoiceButton>true</ChoiceButton>
-									<ContextMenu name="ВидАктаГосорганаКонтекстноеМеню" id="645"/>
-									<ExtendedTooltip name="ВидАктаГосорганаРасширеннаяПодсказка" id="646"/>
+									<ContextMenu name="ИныеУсловияДоговораКонтекстноеМеню" id="651"/>
+									<ExtendedTooltip name="ИныеУсловияДоговораРасширеннаяПодсказка" id="652"/>
 								</InputField>
+								<UsualGroup name="ГруппаОснованиеПредставителяВидАктаГосоргана" id="639">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Основание представителя и вид акта госоргана</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Basis of representative and statement kind of state authority</v8:content>
+										</v8:item>
+									</Title>
+									<Group>Horizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаОснованиеПредставителяВидАктаГосорганаРасширеннаяПодсказка" id="640"/>
+									<ChildItems>
+										<InputField name="ОснованиеПредставителяНанимателя" id="641">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Основание представителя</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Representative basis</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>На основании чего представитель нанимателя имеет право на подписание трудового договора</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Basis for the employer's representative to sign employment contract</v8:content>
+												</v8:item>
+											</ToolTip>
+											<ChoiceButton>true</ChoiceButton>
+											<ContextMenu name="ОснованиеПредставителяНанимателяКонтекстноеМеню" id="642"/>
+											<ExtendedTooltip name="ОснованиеПредставителяНанимателяРасширеннаяПодсказка" id="643"/>
+										</InputField>
+										<InputField name="ВидАктаГосоргана" id="644">
+											<ChoiceButton>true</ChoiceButton>
+											<ContextMenu name="ВидАктаГосорганаКонтекстноеМеню" id="645"/>
+											<ExtendedTooltip name="ВидАктаГосорганаРасширеннаяПодсказка" id="646"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
 					</ChildItems>
@@ -3241,7 +3340,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Additional information</v8:content>
+							<v8:content>More</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
@@ -3516,7 +3615,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Additional information</v8:content>
+							<v8:content>More</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -3810,8 +3909,7 @@
 				</ButtonGroup>
 				<Button name="ПрисоединенныеФайлы" id="800">
 					<Type>CommandBarButton</Type>
-					<CommandName>0:c1645396-c0ca-4427-a1a0-47bfdb0129c9</CommandName>
-					<DataPath>1/-5</DataPath>
+					<CommandName>CommonCommand.ПрисоединенныеФайлы</CommandName>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -3928,7 +4026,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Additional information</v8:content>
+								<v8:content>More</v8:content>
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
@@ -3953,19 +4051,54 @@
 								<ExtendedTooltip name="ДатаНомерExtendedTooltip" id="336"/>
 								<ChildItems>
 									<InputField name="Дата" id="3">
-										<DataPath>1/-3</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>10</Width>
 										<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
 										<ExtendedTooltip name="ДатаExtendedTooltip" id="337"/>
 									</InputField>
-									<InputField name="Номер" id="1">
-										<DataPath>1/-2</DataPath>
-										<EditMode>EnterOnInput</EditMode>
-										<HorizontalStretch>false</HorizontalStretch>
-										<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
-										<ExtendedTooltip name="НомерExtendedTooltip" id="338"/>
-									</InputField>
+									<UsualGroup name="НомераГруппа" id="951">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Номера группа</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Numbers group</v8:content>
+											</v8:item>
+										</Title>
+										<Width>40</Width>
+										<Group>AlwaysHorizontal</Group>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<BackColor>style:ОбъединенныеЭлементыФормыФон</BackColor>
+										<ExtendedTooltip name="НомераГруппаРасширеннаяПодсказка" id="952"/>
+										<ChildItems>
+											<InputField name="Номер" id="1">
+												<EditMode>EnterOnInput</EditMode>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+												<ExtendedTooltip name="НомерExtendedTooltip" id="338"/>
+											</InputField>
+											<InputField name="НомерПриказа" id="948">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>печатать как</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>print as</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTipRepresentation>Button</ToolTipRepresentation>
+												<Width>10</Width>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="НомерПриказаКонтекстноеМеню" id="949"/>
+												<ExtendedTooltip name="НомерПриказаРасширеннаяПодсказка" id="950"/>
+											</InputField>
+										</ChildItems>
+									</UsualGroup>
 								</ChildItems>
 							</UsualGroup>
 							<CheckBoxField name="СменаВидаДоговора" id="653">
@@ -4191,17 +4324,69 @@
 																<ContextMenu name="ДолжностьКонтекстноеМеню" id="111"/>
 																<ExtendedTooltip name="ДолжностьExtendedTooltip" id="348"/>
 															</InputField>
+															<UsualGroup name="СведенияТрудовойКнижкиГруппа" id="943">
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Сведения трудовой книжки</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Employment record book information</v8:content>
+																	</v8:item>
+																</Title>
+																<Group>Vertical</Group>
+																<Representation>None</Representation>
+																<ShowTitle>false</ShowTitle>
+																<ExtendedTooltip name="СведенияТрудовойКнижкиГруппаРасширеннаяПодсказка" id="944"/>
+																<ChildItems>
+																	<InputField name="ТрудоваяФункция" id="935">
+																		<ContextMenu name="ТрудоваяФункцияКонтекстноеМеню" id="936"/>
+																		<ExtendedTooltip name="ТрудоваяФункцияРасширеннаяПодсказка" id="937"/>
+																	</InputField>
+																	<InputField name="НаименованиеДокумента" id="945">
+																		<ChoiceButton>true</ChoiceButton>
+																		<ContextMenu name="НаименованиеДокументаКонтекстноеМеню" id="946"/>
+																		<ExtendedTooltip name="НаименованиеДокументаРасширеннаяПодсказка" id="947"/>
+																	</InputField>
+																</ChildItems>
+															</UsualGroup>
 														</ChildItems>
 													</UsualGroup>
-													<LabelField name="КоличествоСтавок" id="795">
-														<DataPath>48</DataPath>
-														<TitleLocation>Left</TitleLocation>
-														<AutoMaxWidth>false</AutoMaxWidth>
-														<MaxWidth>10</MaxWidth>
-														<Hiperlink>true</Hiperlink>
-														<ContextMenu name="КоличествоСтавокКонтекстноеМеню" id="796"/>
-														<ExtendedTooltip name="КоличествоСтавокРасширеннаяПодсказка" id="797"/>
-													</LabelField>
+													<UsualGroup name="КоличествоСтавокГруппа" id="938">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Количество ставок группа</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Number of rates group</v8:content>
+															</v8:item>
+														</Title>
+														<Group>Vertical</Group>
+														<Representation>None</Representation>
+														<United>false</United>
+														<ShowTitle>false</ShowTitle>
+														<ExtendedTooltip name="КоличествоСтавокГруппаРасширеннаяПодсказка" id="939"/>
+														<ChildItems>
+															<LabelField name="КоличествоСтавок" id="795">
+																<DataPath>48</DataPath>
+																<TitleLocation>Left</TitleLocation>
+																<AutoMaxWidth>false</AutoMaxWidth>
+																<MaxWidth>10</MaxWidth>
+																<Hiperlink>true</Hiperlink>
+																<ContextMenu name="КоличествоСтавокКонтекстноеМеню" id="796"/>
+																<ExtendedTooltip name="КоличествоСтавокРасширеннаяПодсказка" id="797"/>
+															</LabelField>
+															<CheckBoxField name="ОтразитьВТрудовойКнижке" id="940">
+																<TitleLocation>Right</TitleLocation>
+																<CheckBoxType>Auto</CheckBoxType>
+																<ContextMenu name="ОтразитьВТрудовойКнижкеКонтекстноеМеню" id="941"/>
+																<ExtendedTooltip name="ОтразитьВТрудовойКнижкеРасширеннаяПодсказка" id="942"/>
+															</CheckBoxField>
+														</ChildItems>
+													</UsualGroup>
 												</ChildItems>
 											</UsualGroup>
 											<UsualGroup name="ГруппаГрейд" id="659">
@@ -4851,7 +5036,7 @@
 													</v8:item>
 													<v8:item>
 														<v8:lang>en</v8:lang>
-														<v8:content>Pages of command bar of the "Accruals" tabular section</v8:content>
+														<v8:content>Pages of "Accruals" tabular section command bar</v8:content>
 													</v8:item>
 												</Title>
 												<PagesRepresentation>None</PagesRepresentation>
@@ -4887,7 +5072,7 @@
 																	<Button name="ДобавитьВГруппеДобавитьОтменитьУправленческие" id="843">
 																		<Type>CommandBarButton</Type>
 																		<Representation>PictureAndText</Representation>
-																		<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																		<CommandName>0:b0016a68-ec64-4e6d-b905-c71fd62efc4c</CommandName>
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
@@ -4904,7 +5089,7 @@
 																	<Button name="УдалитьВГруппеДобавитьОтменитьУправленческие" id="845">
 																		<Type>CommandBarButton</Type>
 																		<Representation>PictureAndText</Representation>
-																		<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																		<CommandName>0:8d772f97-c0ef-47c0-9cb0-efea28c61341</CommandName>
 																		<Picture>
 																			<xr:Ref>CommonPicture.ПротоколСОшибкой</xr:Ref>
 																			<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -4956,7 +5141,7 @@
 																	<Button name="ДобавитьВГруппеКнопокДобавитьПродолжитьУправленческие" id="851">
 																		<Type>CommandBarButton</Type>
 																		<Representation>PictureAndText</Representation>
-																		<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																		<CommandName>0:b0016a68-ec64-4e6d-b905-c71fd62efc4c</CommandName>
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
@@ -4973,7 +5158,7 @@
 																	<Button name="УдалитьВГруппеКнопокДобавитьПродолжитьУправленческие" id="853">
 																		<Type>CommandBarButton</Type>
 																		<Representation>PictureAndText</Representation>
-																		<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																		<CommandName>0:8d772f97-c0ef-47c0-9cb0-efea28c61341</CommandName>
 																		<Picture>
 																			<xr:Ref>CommonPicture.ОперацияВыполненаУспешно</xr:Ref>
 																			<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -5024,7 +5209,7 @@
 																	<Button name="ДобавитьВГруппеКнопокДобавитьУдалитьУправленческие" id="859">
 																		<Type>CommandBarButton</Type>
 																		<Representation>PictureAndText</Representation>
-																		<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																		<CommandName>0:b0016a68-ec64-4e6d-b905-c71fd62efc4c</CommandName>
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
@@ -5041,7 +5226,7 @@
 																	<Button name="УдалитьВГруппеКнопокДобавитьУдалитьУправленческие" id="861">
 																		<Type>CommandBarButton</Type>
 																		<Representation>PictureAndText</Representation>
-																		<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																		<CommandName>0:8d772f97-c0ef-47c0-9cb0-efea28c61341</CommandName>
 																		<Picture>
 																			<xr:Ref>StdPicture.Delete</xr:Ref>
 																			<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -5098,17 +5283,17 @@
 													</Button>
 													<Button name="УправленческиеНачисленияПереместитьВверх" id="872">
 														<Type>CommandBarButton</Type>
-														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<CommandName>0:37740564-9e86-44a0-bea9-3f485a5a3f91</CommandName>
 														<ExtendedTooltip name="УправленческиеНачисленияПереместитьВверхРасширеннаяПодсказка" id="873"/>
 													</Button>
 													<Button name="УправленческиеНачисленияПереместитьВниз" id="874">
 														<Type>CommandBarButton</Type>
-														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<CommandName>0:fa51b106-eae6-44c7-8054-76cbb3100603</CommandName>
 														<ExtendedTooltip name="УправленческиеНачисленияПереместитьВнизРасширеннаяПодсказка" id="875"/>
 													</Button>
 													<Button name="УправленческиеНачисленияВывестиСписок" id="876">
 														<Type>CommandBarButton</Type>
-														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<CommandName>0:49602716-fea6-497f-8047-726404038857</CommandName>
 														<ExtendedTooltip name="УправленческиеНачисленияВывестиСписокРасширеннаяПодсказка" id="877"/>
 													</Button>
 													<ButtonGroup name="УправленческиеНачисленияГруппаЗаполнить" id="878">
@@ -5302,7 +5487,7 @@
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>Pages of command bar of the "Accruals" tabular section</v8:content>
+																<v8:content>Pages of "Accruals" tabular section command bar</v8:content>
 															</v8:item>
 														</Title>
 														<PagesRepresentation>None</PagesRepresentation>
@@ -5338,7 +5523,7 @@
 																			<Button name="ДобавитьВГруппеДобавитьОтменить" id="185">
 																				<Type>CommandBarButton</Type>
 																				<Representation>PictureAndText</Representation>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																				<CommandName>0:b0016a68-ec64-4e6d-b905-c71fd62efc4c</CommandName>
 																				<Title>
 																					<v8:item>
 																						<v8:lang>ru</v8:lang>
@@ -5355,7 +5540,7 @@
 																			<Button name="УдалитьВГруппеДобавитьОтменить" id="186">
 																				<Type>CommandBarButton</Type>
 																				<Representation>PictureAndText</Representation>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																				<CommandName>0:8d772f97-c0ef-47c0-9cb0-efea28c61341</CommandName>
 																				<Picture>
 																					<xr:Ref>CommonPicture.ПротоколСОшибкой</xr:Ref>
 																					<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -5407,7 +5592,7 @@
 																			<Button name="ДобавитьВГруппеКнопокДобавитьПродолжить" id="192">
 																				<Type>CommandBarButton</Type>
 																				<Representation>PictureAndText</Representation>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																				<CommandName>0:b0016a68-ec64-4e6d-b905-c71fd62efc4c</CommandName>
 																				<Title>
 																					<v8:item>
 																						<v8:lang>ru</v8:lang>
@@ -5424,7 +5609,7 @@
 																			<Button name="УдалитьВГруппеКнопокДобавитьПродолжить" id="193">
 																				<Type>CommandBarButton</Type>
 																				<Representation>PictureAndText</Representation>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																				<CommandName>0:8d772f97-c0ef-47c0-9cb0-efea28c61341</CommandName>
 																				<Picture>
 																					<xr:Ref>CommonPicture.ОперацияВыполненаУспешно</xr:Ref>
 																					<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -5475,7 +5660,7 @@
 																			<Button name="ДобавитьВГруппеКнопокДобавитьУдалить" id="204">
 																				<Type>CommandBarButton</Type>
 																				<Representation>PictureAndText</Representation>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																				<CommandName>0:b0016a68-ec64-4e6d-b905-c71fd62efc4c</CommandName>
 																				<Title>
 																					<v8:item>
 																						<v8:lang>ru</v8:lang>
@@ -5492,7 +5677,7 @@
 																			<Button name="УдалитьВГруппеКнопокДобавитьУдалить" id="205">
 																				<Type>CommandBarButton</Type>
 																				<Representation>PictureAndText</Representation>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																				<CommandName>0:8d772f97-c0ef-47c0-9cb0-efea28c61341</CommandName>
 																				<Picture>
 																					<xr:Ref>StdPicture.Delete</xr:Ref>
 																					<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -5549,17 +5734,17 @@
 															</Button>
 															<Button name="ПереместитьВверх" id="558">
 																<Type>CommandBarButton</Type>
-																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<CommandName>0:37740564-9e86-44a0-bea9-3f485a5a3f91</CommandName>
 																<ExtendedTooltip name="ПереместитьВверхРасширеннаяПодсказка" id="559"/>
 															</Button>
 															<Button name="ПереместитьВниз" id="560">
 																<Type>CommandBarButton</Type>
-																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<CommandName>0:fa51b106-eae6-44c7-8054-76cbb3100603</CommandName>
 																<ExtendedTooltip name="ПереместитьВнизРасширеннаяПодсказка" id="561"/>
 															</Button>
 															<Button name="ВывестиСписок" id="562">
 																<Type>CommandBarButton</Type>
-																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<CommandName>0:49602716-fea6-497f-8047-726404038857</CommandName>
 																<ExtendedTooltip name="ВывестиСписокРасширеннаяПодсказка" id="563"/>
 															</Button>
 															<ButtonGroup name="ГруппаЗаполнить" id="564">
@@ -5674,7 +5859,7 @@
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>Basis</v8:content>
+																<v8:content>Base</v8:content>
 															</v8:item>
 														</Title>
 														<EditMode>EnterOnInput</EditMode>
@@ -5760,13 +5945,13 @@
 																			<Button name="ДобавитьВГруппеДобавитьОтменитьДП" id="468">
 																				<Type>CommandBarButton</Type>
 																				<Representation>PictureAndText</Representation>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																				<CommandName>0:b0016a68-ec64-4e6d-b905-c71fd62efc4c</CommandName>
 																				<ExtendedTooltip name="ДобавитьВГруппеДобавитьОтменитьДПРасширеннаяПодсказка" id="469"/>
 																			</Button>
 																			<Button name="УдалитьВГруппеДобавитьОтменитьДП" id="470">
 																				<Type>CommandBarButton</Type>
 																				<Representation>PictureAndText</Representation>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																				<CommandName>0:8d772f97-c0ef-47c0-9cb0-efea28c61341</CommandName>
 																				<Picture>
 																					<xr:Ref>CommonPicture.ПротоколСОшибкой</xr:Ref>
 																					<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -5817,13 +6002,13 @@
 																			<Button name="ДобавитьВГруппеДобавитьПродолжитьДП" id="478">
 																				<Type>CommandBarButton</Type>
 																				<Representation>PictureAndText</Representation>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																				<CommandName>0:b0016a68-ec64-4e6d-b905-c71fd62efc4c</CommandName>
 																				<ExtendedTooltip name="ДобавитьВГруппеДобавитьПродолжитьДПРасширеннаяПодсказка" id="479"/>
 																			</Button>
 																			<Button name="УдалитьВГруппеКнопокДобавитьПродолжитьДП" id="480">
 																				<Type>CommandBarButton</Type>
 																				<Representation>PictureAndText</Representation>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																				<CommandName>0:8d772f97-c0ef-47c0-9cb0-efea28c61341</CommandName>
 																				<Picture>
 																					<xr:Ref>CommonPicture.ОперацияВыполненаУспешно</xr:Ref>
 																					<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -5874,13 +6059,13 @@
 																			<Button name="ДобавитьВГруппеДобавитьУдалитьДП" id="486">
 																				<Type>CommandBarButton</Type>
 																				<Representation>PictureAndText</Representation>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																				<CommandName>0:b0016a68-ec64-4e6d-b905-c71fd62efc4c</CommandName>
 																				<ExtendedTooltip name="ДобавитьВГруппеДобавитьУдалитьДПРасширеннаяПодсказка" id="487"/>
 																			</Button>
 																			<Button name="УдалитьВГруппеКнопокДобавитьУдалитьДП" id="488">
 																				<Type>CommandBarButton</Type>
 																				<Representation>PictureAndText</Representation>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																				<CommandName>0:8d772f97-c0ef-47c0-9cb0-efea28c61341</CommandName>
 																				<Picture>
 																					<xr:Ref>StdPicture.Delete</xr:Ref>
 																					<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -6414,13 +6599,13 @@
 															<Button name="ЛьготыДобавитьВГруппеДобавитьОтменить" id="731">
 																<Type>CommandBarButton</Type>
 																<Representation>PictureAndText</Representation>
-																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<CommandName>0:b0016a68-ec64-4e6d-b905-c71fd62efc4c</CommandName>
 																<ExtendedTooltip name="ЛьготыДобавитьВГруппеДобавитьОтменитьРасширеннаяПодсказка" id="732"/>
 															</Button>
 															<Button name="ЛьготыУдалитьВГруппеДобавитьОтменить" id="739">
 																<Type>CommandBarButton</Type>
 																<Representation>PictureAndText</Representation>
-																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<CommandName>0:8d772f97-c0ef-47c0-9cb0-efea28c61341</CommandName>
 																<Picture>
 																	<xr:Ref>CommonPicture.ПротоколСОшибкой</xr:Ref>
 																	<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -6471,13 +6656,13 @@
 															<Button name="ЛьготыДобавитьВГруппеКнопокДобавитьПродолжить" id="745">
 																<Type>CommandBarButton</Type>
 																<Representation>PictureAndText</Representation>
-																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<CommandName>0:b0016a68-ec64-4e6d-b905-c71fd62efc4c</CommandName>
 																<ExtendedTooltip name="ЛьготыДобавитьВГруппеКнопокДобавитьПродолжитьРасширеннаяПодсказка" id="746"/>
 															</Button>
 															<Button name="ЛьготыУдалитьВГруппеКнопокДобавитьПродолжить" id="747">
 																<Type>CommandBarButton</Type>
 																<Representation>PictureAndText</Representation>
-																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<CommandName>0:8d772f97-c0ef-47c0-9cb0-efea28c61341</CommandName>
 																<Picture>
 																	<xr:Ref>CommonPicture.ОперацияВыполненаУспешно</xr:Ref>
 																	<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -6528,13 +6713,13 @@
 															<Button name="ЛьготыДобавитьВГруппеКнопокДобавитьУдалить" id="753">
 																<Type>CommandBarButton</Type>
 																<Representation>PictureAndText</Representation>
-																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<CommandName>0:b0016a68-ec64-4e6d-b905-c71fd62efc4c</CommandName>
 																<ExtendedTooltip name="ЛьготыДобавитьВГруппеКнопокДобавитьУдалитьРасширеннаяПодсказка" id="754"/>
 															</Button>
 															<Button name="ЛьготыУдалитьВГруппеКнопокДобавитьУдалить" id="755">
 																<Type>CommandBarButton</Type>
 																<Representation>PictureAndText</Representation>
-																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<CommandName>0:8d772f97-c0ef-47c0-9cb0-efea28c61341</CommandName>
 																<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 																<ExtendedTooltip name="ЛьготыУдалитьВГруппеКнопокДобавитьУдалитьРасширеннаяПодсказка" id="756"/>
 															</Button>
@@ -6576,17 +6761,17 @@
 											</Button>
 											<Button name="ЛьготыПереместитьВверх" id="766">
 												<Type>CommandBarButton</Type>
-												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+												<CommandName>0:37740564-9e86-44a0-bea9-3f485a5a3f91</CommandName>
 												<ExtendedTooltip name="ЛьготыПереместитьВверхРасширеннаяПодсказка" id="767"/>
 											</Button>
 											<Button name="ЛьготыПереместитьВниз" id="768">
 												<Type>CommandBarButton</Type>
-												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+												<CommandName>0:fa51b106-eae6-44c7-8054-76cbb3100603</CommandName>
 												<ExtendedTooltip name="ЛьготыПереместитьВнизРасширеннаяПодсказка" id="769"/>
 											</Button>
 											<Button name="ЛьготыВывестиСписок" id="770">
 												<Type>CommandBarButton</Type>
-												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+												<CommandName>0:49602716-fea6-497f-8047-726404038857</CommandName>
 												<ExtendedTooltip name="ЛьготыВывестиСписокРасширеннаяПодсказка" id="771"/>
 											</Button>
 										</ChildItems>
@@ -6650,7 +6835,7 @@
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Size</v8:content>
+												<v8:content>Amount</v8:content>
 											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
@@ -6681,269 +6866,282 @@
 								<ContextMenu name="ИзменитьСведенияОДоговореКонтрактеКонтекстноеМеню" id="680"/>
 								<ExtendedTooltip name="ИзменитьСведенияОДоговореКонтрактеРасширеннаяПодсказка" id="681"/>
 							</CheckBoxField>
-							<UsualGroup name="ГруппаНомерДатаТрудовогоДоговора" id="606">
+							<UsualGroup name="СведенияДоговораКонтракта" id="933">
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>Трудовой договор</v8:content>
+										<v8:content>Сведения договора контракта</v8:content>
 									</v8:item>
 									<v8:item>
 										<v8:lang>en</v8:lang>
-										<v8:content>Employment contract</v8:content>
+										<v8:content>Contract agreement information</v8:content>
 									</v8:item>
 								</Title>
-								<Group>Horizontal</Group>
-								<Representation>None</Representation>
-								<ShowTitle>false</ShowTitle>
-								<ExtendedTooltip name="ГруппаНомерДатаТрудовогоДоговораExtendedTooltip" id="607"/>
-								<ChildItems>
-									<InputField name="ТрудовойДоговорНомер" id="608">
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Договор №</v8:content>
-											</v8:item>
-											<v8:item>
-												<v8:lang>en</v8:lang>
-												<v8:content>Contract No.</v8:content>
-											</v8:item>
-										</Title>
-										<HorizontalStretch>false</HorizontalStretch>
-										<ContextMenu name="ТрудовойДоговорНомерКонтекстноеМеню" id="609"/>
-										<ExtendedTooltip name="ТрудовойДоговорНомерExtendedTooltip" id="610"/>
-									</InputField>
-									<InputField name="ТрудовойДоговорДата" id="611">
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>от</v8:content>
-											</v8:item>
-											<v8:item>
-												<v8:lang>en</v8:lang>
-												<v8:content>dated</v8:content>
-											</v8:item>
-										</Title>
-										<Width>10</Width>
-										<ContextMenu name="ТрудовойДоговорДатаКонтекстноеМеню" id="612"/>
-										<ExtendedTooltip name="ТрудовойДоговорДатаExtendedTooltip" id="613"/>
-									</InputField>
-								</ChildItems>
-							</UsualGroup>
-							<UsualGroup name="ГруппаСрочныйДоговорОснование" id="614">
-								<Title>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Срочный договор основание</v8:content>
-									</v8:item>
-									<v8:item>
-										<v8:lang>en</v8:lang>
-										<v8:content>Fixed-term contract basis</v8:content>
-									</v8:item>
-								</Title>
-								<ToolTip>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Заполняется только в случае оформления срочного трудового договора</v8:content>
-									</v8:item>
-									<v8:item>
-										<v8:lang>en</v8:lang>
-										<v8:content>It is filled in only for fixed-term employment contract</v8:content>
-									</v8:item>
-								</ToolTip>
 								<Group>Vertical</Group>
 								<Representation>None</Representation>
-								<United>false</United>
 								<ShowTitle>false</ShowTitle>
-								<ExtendedTooltip name="ГруппаСрочныйДоговорОснованиеРасширеннаяПодсказка" id="615"/>
+								<ExtendedTooltip name="СведенияДоговораКонтрактаРасширеннаяПодсказка" id="934"/>
 								<ChildItems>
-									<UsualGroup name="СрочныйДоговорГруппа" id="896">
+									<UsualGroup name="ГруппаНомерДатаТрудовогоДоговора" id="606">
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
-												<v8:content>Срочный договор группа</v8:content>
+												<v8:content>Трудовой договор</v8:content>
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Fixed-term contract group</v8:content>
-											</v8:item>
-										</Title>
-										<Width>30</Width>
-										<HorizontalStretch>false</HorizontalStretch>
-										<GroupHorizontalAlign>Left</GroupHorizontalAlign>
-										<Group>Horizontal</Group>
-										<HorizontalAlign>Right</HorizontalAlign>
-										<Representation>None</Representation>
-										<ShowTitle>false</ShowTitle>
-										<ExtendedTooltip name="СрочныйДоговорГруппаРасширеннаяПодсказка" id="897"/>
-										<ChildItems>
-											<CheckBoxField name="СрочныйДоговор" id="616">
-												<Title>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Срочный договор до</v8:content>
-													</v8:item>
-													<v8:item>
-														<v8:lang>en</v8:lang>
-														<v8:content>Fixed-term contract till</v8:content>
-													</v8:item>
-												</Title>
-												<TitleLocation>Right</TitleLocation>
-												<GroupHorizontalAlign>Left</GroupHorizontalAlign>
-												<CheckBoxType>Auto</CheckBoxType>
-												<ContextMenu name="СрочныйДоговорКонтекстноеМеню" id="617"/>
-												<ExtendedTooltip name="СрочныйДоговорРасширеннаяПодсказка" id="618"/>
-											</CheckBoxField>
-											<InputField name="ДатаЗавершенияТрудовогоДоговора" id="619">
-												<Title>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Дата завершения</v8:content>
-													</v8:item>
-													<v8:item>
-														<v8:lang>en</v8:lang>
-														<v8:content>End date</v8:content>
-													</v8:item>
-												</Title>
-												<TitleLocation>None</TitleLocation>
-												<ContextMenu name="ДатаЗавершенияТрудовогоДоговораКонтекстноеМеню" id="620"/>
-												<ExtendedTooltip name="ДатаЗавершенияТрудовогоДоговораExtendedTooltip" id="621"/>
-											</InputField>
-										</ChildItems>
-									</UsualGroup>
-									<UsualGroup name="ОснованиеСрочногоДоговораГруппа" id="898">
-										<Title>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Основание срочного договора группа</v8:content>
-											</v8:item>
-											<v8:item>
-												<v8:lang>en</v8:lang>
-												<v8:content>Fixed-term contract basis group</v8:content>
+												<v8:content>Employment contract</v8:content>
 											</v8:item>
 										</Title>
 										<Group>Horizontal</Group>
 										<Representation>None</Representation>
-										<United>false</United>
 										<ShowTitle>false</ShowTitle>
-										<ExtendedTooltip name="ОснованиеСрочногоДоговораГруппаРасширеннаяПодсказка" id="899"/>
+										<ExtendedTooltip name="ГруппаНомерДатаТрудовогоДоговораExtendedTooltip" id="607"/>
 										<ChildItems>
-											<InputField name="ОснованиеСрочногоДоговора" id="622">
-												<MaxWidth>29</MaxWidth>
-												<ChooseType>false</ChooseType>
-												<ContextMenu name="ОснованиеСрочногоДоговораКонтекстноеМеню" id="623"/>
-												<ExtendedTooltip name="ОснованиеСрочногоДоговораРасширеннаяПодсказка" id="624"/>
+											<InputField name="ТрудовойДоговорНомер" id="608">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Договор №</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Contract No.</v8:content>
+													</v8:item>
+												</Title>
+												<HorizontalStretch>false</HorizontalStretch>
+												<ContextMenu name="ТрудовойДоговорНомерКонтекстноеМеню" id="609"/>
+												<ExtendedTooltip name="ТрудовойДоговорНомерExtendedTooltip" id="610"/>
 											</InputField>
-											<CheckBoxField name="СезонныйДоговор" id="893">
-												<TitleLocation>Right</TitleLocation>
-												<CheckBoxType>Auto</CheckBoxType>
-												<ContextMenu name="СезонныйДоговорКонтекстноеМеню" id="894"/>
-												<ExtendedTooltip name="СезонныйДоговорРасширеннаяПодсказка" id="895"/>
-											</CheckBoxField>
+											<InputField name="ТрудовойДоговорДата" id="611">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>от</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>from</v8:content>
+													</v8:item>
+												</Title>
+												<Width>10</Width>
+												<ContextMenu name="ТрудовойДоговорДатаКонтекстноеМеню" id="612"/>
+												<ExtendedTooltip name="ТрудовойДоговорДатаExtendedTooltip" id="613"/>
+											</InputField>
 										</ChildItems>
 									</UsualGroup>
-								</ChildItems>
-							</UsualGroup>
-							<InputField name="СрокЗаключенияДоговора" id="656">
-								<ChoiceButton>true</ChoiceButton>
-								<ContextMenu name="СрокЗаключенияДоговораКонтекстноеМеню" id="657"/>
-								<ExtendedTooltip name="СрокЗаключенияДоговораРасширеннаяПодсказка" id="658"/>
-							</InputField>
-							<UsualGroup name="ГруппаПоступлениеНаСлужбу" id="628">
-								<Title>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Поступление на службу</v8:content>
-									</v8:item>
-									<v8:item>
-										<v8:lang>en</v8:lang>
-										<v8:content>Recruitment</v8:content>
-									</v8:item>
-								</Title>
-								<Group>Horizontal</Group>
-								<Representation>None</Representation>
-								<United>false</United>
-								<ShowTitle>false</ShowTitle>
-								<ExtendedTooltip name="ГруппаПоступлениеНаСлужбуРасширеннаяПодсказка" id="629"/>
-								<ChildItems>
-									<InputField name="СпособПоступленияНаСлужбу" id="630">
-										<ContextMenu name="СпособПоступленияНаСлужбуКонтекстноеМеню" id="631"/>
-										<ExtendedTooltip name="СпособПоступленияНаСлужбуРасширеннаяПодсказка" id="632"/>
-									</InputField>
-									<CheckBoxField name="ПоступлениеНаСлужбуВпервые" id="633">
-										<TitleLocation>Right</TitleLocation>
-										<CheckBoxType>Auto</CheckBoxType>
-										<ContextMenu name="ПоступлениеНаСлужбуВпервыеКонтекстноеМеню" id="634"/>
-										<ExtendedTooltip name="ПоступлениеНаСлужбуВпервыеРасширеннаяПодсказка" id="635"/>
-									</CheckBoxField>
-								</ChildItems>
-							</UsualGroup>
-							<InputField name="ОборудованиеРабочегоМеста" id="647">
-								<ChoiceButton>true</ChoiceButton>
-								<ContextMenu name="ОборудованиеРабочегоМестаКонтекстноеМеню" id="648"/>
-								<ExtendedTooltip name="ОборудованиеРабочегоМестаРасширеннаяПодсказка" id="649"/>
-							</InputField>
-							<InputField name="ИныеУсловияДоговора" id="650">
-								<Title>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Иные условия</v8:content>
-									</v8:item>
-									<v8:item>
-										<v8:lang>en</v8:lang>
-										<v8:content>Other conditions</v8:content>
-									</v8:item>
-								</Title>
-								<ChoiceButton>true</ChoiceButton>
-								<ContextMenu name="ИныеУсловияДоговораКонтекстноеМеню" id="651"/>
-								<ExtendedTooltip name="ИныеУсловияДоговораРасширеннаяПодсказка" id="652"/>
-							</InputField>
-							<UsualGroup name="ГруппаОснованиеПредставителяВидАктаГосоргана" id="639">
-								<Title>
-									<v8:item>
-										<v8:lang>ru</v8:lang>
-										<v8:content>Основание представителя и вид акта госоргана</v8:content>
-									</v8:item>
-									<v8:item>
-										<v8:lang>en</v8:lang>
-										<v8:content>Basis of representative and statement kind of state authority</v8:content>
-									</v8:item>
-								</Title>
-								<Group>Horizontal</Group>
-								<Representation>None</Representation>
-								<United>false</United>
-								<ShowTitle>false</ShowTitle>
-								<ExtendedTooltip name="ГруппаОснованиеПредставителяВидАктаГосорганаРасширеннаяПодсказка" id="640"/>
-								<ChildItems>
-									<InputField name="ОснованиеПредставителяНанимателя" id="641">
+									<UsualGroup name="ГруппаСрочныйДоговорОснование" id="614">
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
-												<v8:content>Основание представителя</v8:content>
+												<v8:content>Срочный договор основание</v8:content>
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Representative basis</v8:content>
+												<v8:content>Fixed-term contract basis</v8:content>
 											</v8:item>
 										</Title>
 										<ToolTip>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
-												<v8:content>На основании чего представитель нанимателя имеет право на подписание трудового договора</v8:content>
+												<v8:content>Заполняется только в случае оформления срочного трудового договора</v8:content>
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Basis for the employer's representative to sign employment contract</v8:content>
+												<v8:content>It is filled in only for fixed-term employment contract</v8:content>
 											</v8:item>
 										</ToolTip>
+										<Group>Vertical</Group>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаСрочныйДоговорОснованиеРасширеннаяПодсказка" id="615"/>
+										<ChildItems>
+											<UsualGroup name="СрочныйДоговорГруппа" id="896">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Срочный договор группа</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Fixed-term contract group</v8:content>
+													</v8:item>
+												</Title>
+												<Width>30</Width>
+												<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+												<Group>AlwaysHorizontal</Group>
+												<HorizontalAlign>Right</HorizontalAlign>
+												<Representation>None</Representation>
+												<ShowTitle>false</ShowTitle>
+												<ExtendedTooltip name="СрочныйДоговорГруппаРасширеннаяПодсказка" id="897"/>
+												<ChildItems>
+													<CheckBoxField name="СрочныйДоговор" id="616">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Срочный договор до</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Fixed-term contract till</v8:content>
+															</v8:item>
+														</Title>
+														<TitleLocation>Right</TitleLocation>
+														<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+														<CheckBoxType>Auto</CheckBoxType>
+														<ContextMenu name="СрочныйДоговорКонтекстноеМеню" id="617"/>
+														<ExtendedTooltip name="СрочныйДоговорРасширеннаяПодсказка" id="618"/>
+													</CheckBoxField>
+													<InputField name="ДатаЗавершенияТрудовогоДоговора" id="619">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Дата завершения</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>End date</v8:content>
+															</v8:item>
+														</Title>
+														<TitleLocation>None</TitleLocation>
+														<ContextMenu name="ДатаЗавершенияТрудовогоДоговораКонтекстноеМеню" id="620"/>
+														<ExtendedTooltip name="ДатаЗавершенияТрудовогоДоговораExtendedTooltip" id="621"/>
+													</InputField>
+												</ChildItems>
+											</UsualGroup>
+											<UsualGroup name="ОснованиеСрочногоДоговораГруппа" id="898">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Основание срочного договора группа</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Fixed-term contract basis group</v8:content>
+													</v8:item>
+												</Title>
+												<Group>Horizontal</Group>
+												<Representation>None</Representation>
+												<ShowTitle>false</ShowTitle>
+												<ExtendedTooltip name="ОснованиеСрочногоДоговораГруппаРасширеннаяПодсказка" id="899"/>
+												<ChildItems>
+													<InputField name="ОснованиеСрочногоДоговора" id="622">
+														<MaxWidth>29</MaxWidth>
+														<ChooseType>false</ChooseType>
+														<ContextMenu name="ОснованиеСрочногоДоговораКонтекстноеМеню" id="623"/>
+														<ExtendedTooltip name="ОснованиеСрочногоДоговораРасширеннаяПодсказка" id="624"/>
+													</InputField>
+													<CheckBoxField name="СезонныйДоговор" id="893">
+														<TitleLocation>Right</TitleLocation>
+														<CheckBoxType>Auto</CheckBoxType>
+														<ContextMenu name="СезонныйДоговорКонтекстноеМеню" id="894"/>
+														<ExtendedTooltip name="СезонныйДоговорРасширеннаяПодсказка" id="895"/>
+													</CheckBoxField>
+												</ChildItems>
+											</UsualGroup>
+											<InputField name="СрокЗаключенияДоговора" id="656">
+												<ChoiceButton>true</ChoiceButton>
+												<ContextMenu name="СрокЗаключенияДоговораКонтекстноеМеню" id="657"/>
+												<ExtendedTooltip name="СрокЗаключенияДоговораРасширеннаяПодсказка" id="658"/>
+											</InputField>
+										</ChildItems>
+									</UsualGroup>
+									<UsualGroup name="ГруппаПоступлениеНаСлужбу" id="628">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Поступление на службу</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Recruitment</v8:content>
+											</v8:item>
+										</Title>
+										<Group>Horizontal</Group>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаПоступлениеНаСлужбуРасширеннаяПодсказка" id="629"/>
+										<ChildItems>
+											<InputField name="СпособПоступленияНаСлужбу" id="630">
+												<ContextMenu name="СпособПоступленияНаСлужбуКонтекстноеМеню" id="631"/>
+												<ExtendedTooltip name="СпособПоступленияНаСлужбуРасширеннаяПодсказка" id="632"/>
+											</InputField>
+											<CheckBoxField name="ПоступлениеНаСлужбуВпервые" id="633">
+												<TitleLocation>Right</TitleLocation>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ПоступлениеНаСлужбуВпервыеКонтекстноеМеню" id="634"/>
+												<ExtendedTooltip name="ПоступлениеНаСлужбуВпервыеРасширеннаяПодсказка" id="635"/>
+											</CheckBoxField>
+										</ChildItems>
+									</UsualGroup>
+									<InputField name="ОборудованиеРабочегоМеста" id="647">
 										<ChoiceButton>true</ChoiceButton>
-										<ContextMenu name="ОснованиеПредставителяНанимателяКонтекстноеМеню" id="642"/>
-										<ExtendedTooltip name="ОснованиеПредставителяНанимателяРасширеннаяПодсказка" id="643"/>
+										<ContextMenu name="ОборудованиеРабочегоМестаКонтекстноеМеню" id="648"/>
+										<ExtendedTooltip name="ОборудованиеРабочегоМестаРасширеннаяПодсказка" id="649"/>
 									</InputField>
-									<InputField name="ВидАктаГосоргана" id="644">
+									<InputField name="ИныеУсловияДоговора" id="650">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Иные условия</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Other conditions</v8:content>
+											</v8:item>
+										</Title>
 										<ChoiceButton>true</ChoiceButton>
-										<ContextMenu name="ВидАктаГосорганаКонтекстноеМеню" id="645"/>
-										<ExtendedTooltip name="ВидАктаГосорганаРасширеннаяПодсказка" id="646"/>
+										<ContextMenu name="ИныеУсловияДоговораКонтекстноеМеню" id="651"/>
+										<ExtendedTooltip name="ИныеУсловияДоговораРасширеннаяПодсказка" id="652"/>
 									</InputField>
+									<UsualGroup name="ГруппаОснованиеПредставителяВидАктаГосоргана" id="639">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Основание представителя и вид акта госоргана</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Basis of representative and statement kind of state authority</v8:content>
+											</v8:item>
+										</Title>
+										<Group>Horizontal</Group>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="ГруппаОснованиеПредставителяВидАктаГосорганаРасширеннаяПодсказка" id="640"/>
+										<ChildItems>
+											<InputField name="ОснованиеПредставителяНанимателя" id="641">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Основание представителя</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Representative basis</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>На основании чего представитель нанимателя имеет право на подписание трудового договора</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Basis for the employer's representative to sign employment contract</v8:content>
+													</v8:item>
+												</ToolTip>
+												<ChoiceButton>true</ChoiceButton>
+												<ContextMenu name="ОснованиеПредставителяНанимателяКонтекстноеМеню" id="642"/>
+												<ExtendedTooltip name="ОснованиеПредставителяНанимателяРасширеннаяПодсказка" id="643"/>
+											</InputField>
+											<InputField name="ВидАктаГосоргана" id="644">
+												<ChoiceButton>true</ChoiceButton>
+												<ContextMenu name="ВидАктаГосорганаКонтекстноеМеню" id="645"/>
+												<ExtendedTooltip name="ВидАктаГосорганаРасширеннаяПодсказка" id="646"/>
+											</InputField>
+										</ChildItems>
+									</UsualGroup>
 								</ChildItems>
 							</UsualGroup>
 						</ChildItems>
@@ -6956,7 +7154,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Additional information</v8:content>
+								<v8:content>More</v8:content>
 							</v8:item>
 						</Title>
 						<Group>Horizontal</Group>
@@ -7231,7 +7429,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Additional information</v8:content>
+								<v8:content>More</v8:content>
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
@@ -7299,7 +7497,7 @@
 					<Button name="Закрыть" id="787">
 						<Type>CommandBarButton</Type>
 						<Representation>Text</Representation>
-						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+						<CommandName>Form.StandardCommand.Close</CommandName>
 						<ExtendedTooltip name="ЗакрытьРасширеннаяПодсказка" id="788"/>
 					</Button>
 				</ChildItems>

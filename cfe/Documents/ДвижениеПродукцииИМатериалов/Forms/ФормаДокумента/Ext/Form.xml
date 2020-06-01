@@ -37,10 +37,14 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Создать на основании</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Create on the basis</v8:content>
+					</v8:item>
 				</Title>
 				<Picture>
 					<xr:Ref>CommonPicture.ЗаполнитьПоШаблону</xr:Ref>
-					<xr:LoadTransparent>true</xr:LoadTransparent>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
 				<Representation>Picture</Representation>
 				<ExtendedTooltip name="ПодменюСоздатьНаОснованииРасширеннаяПодсказка" id="170"/>
@@ -51,6 +55,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Создать на основании (Важное)</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Create on the basis (Important)</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииВажноеРасширеннаяПодсказка" id="444"/>
 					</ButtonGroup>
@@ -60,6 +68,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Создать на основании (Обычное)</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Create on the basis (Standard)</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииОбычноеРасширеннаяПодсказка" id="446"/>
 					</ButtonGroup>
@@ -68,6 +80,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Создать на основании (См. также)</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Create on the basis (See also)</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииСмТакжеРасширеннаяПодсказка" id="448"/>
@@ -80,11 +96,19 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Печать</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Print</v8:content>
+					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Команды печати</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Print commands</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Picture>
@@ -99,6 +123,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Команды формы</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Form commands</v8:content>
+					</v8:item>
 				</Title>
 				<CommandSource>Form</CommandSource>
 				<ExtendedTooltip name="ГруппаКомандыФормыРасширеннаяПодсказка" id="166"/>
@@ -108,6 +136,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Команды формы</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Form commands</v8:content>
 					</v8:item>
 				</Title>
 				<CommandSource>FormCommandPanelGlobalCommands</CommandSource>
@@ -119,10 +151,14 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Отчеты</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Reports</v8:content>
+					</v8:item>
 				</Title>
 				<Picture>
 					<xr:Ref>CommonPicture.Отчеты</xr:Ref>
-					<xr:LoadTransparent>true</xr:LoadTransparent>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
 				<Representation>PictureAndText</Representation>
 				<ExtendedTooltip name="ПодменюОтчетыРасширеннаяПодсказка" id="174"/>
@@ -133,6 +169,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Подменю отчеты важное</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Important reports submenu</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюОтчетыВажноеРасширеннаяПодсказка" id="176"/>
 					</ButtonGroup>
@@ -142,11 +182,19 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Подменю отчеты обычное</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Submenu reports standard</v8:content>
+							</v8:item>
 						</Title>
 						<ToolTip>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Подменю отчеты важное</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Important reports submenu</v8:content>
 							</v8:item>
 						</ToolTip>
 						<ExtendedTooltip name="ПодменюОтчетыОбычноеРасширеннаяПодсказка" id="178"/>
@@ -157,11 +205,19 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Подменю отчеты см также</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Submenu reports see also</v8:content>
+							</v8:item>
 						</Title>
 						<ToolTip>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Подменю отчеты важное</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Important reports submenu</v8:content>
 							</v8:item>
 						</ToolTip>
 						<ExtendedTooltip name="ПодменюОтчетыСмТакжеРасширеннаяПодсказка" id="180"/>
@@ -174,16 +230,24 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Заполнение</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>FIlling</v8:content>
+					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Дополнительные команды заполнения</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Additional completion commands</v8:content>
+					</v8:item>
 				</ToolTip>
 				<Picture>
 					<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
-					<xr:LoadTransparent>true</xr:LoadTransparent>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
 				<ExtendedTooltip name="ПодменюДополнительныхОбработокЗаполненияРасширеннаяПодсказка" id="182"/>
 			</Popup>
@@ -209,6 +273,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Статус</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Status</v8:content>
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
@@ -240,6 +308,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Страницы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Pages</v8:content>
+				</v8:item>
 			</Title>
 			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="29"/>
 			<ChildItems>
@@ -248,6 +320,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Основное</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Main</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаОсновноеРасширеннаяПодсказка" id="266"/>
@@ -258,11 +334,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>По распоряжениям</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>By references</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Поступление по заказам</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Receipt under orders</v8:content>
 								</v8:item>
 							</ToolTip>
 							<Group>Horizontal</Group>
@@ -277,11 +361,19 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страницы заказ</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Pages order</v8:content>
+										</v8:item>
 									</Title>
 									<ToolTip>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Заказ поставщику</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Purchase order</v8:content>
 										</v8:item>
 									</ToolTip>
 									<HorizontalStretch>true</HorizontalStretch>
@@ -295,6 +387,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Страница заказ</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Page order</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
 											<ExtendedTooltip name="СтраницаЗаказРасширеннаяПодсказка" id="272"/>
@@ -305,6 +401,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>По распоряжению</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>By reference</v8:content>
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
@@ -318,6 +418,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Распоряжение</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Reference</v8:content>
 														</v8:item>
 													</Title>
 													<AutoMaxWidth>false</AutoMaxWidth>
@@ -340,17 +444,21 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Картинка расхождение1</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Picture discrepancy1</v8:content>
+														</v8:item>
 													</Title>
 													<ToolTip>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Количество строк, не привязанных к заказу</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Number of lines not related to the order</v8:content>
+														</v8:item>
 													</ToolTip>
-													<Picture>
-														<xr:Ref>CommonPicture.ПревышениеЗаказа</xr:Ref>
-														<xr:LoadTransparent>false</xr:LoadTransparent>
-													</Picture>
 													<FileDragMode>AsFile</FileDragMode>
 													<ContextMenu name="КартинкаРасхождение1КонтекстноеМеню" id="318"/>
 													<ExtendedTooltip name="КартинкаРасхождение1РасширеннаяПодсказка" id="319"/>
@@ -370,6 +478,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Страница заказы</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Orders page</v8:content>
+												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
 											<ExtendedTooltip name="СтраницаЗаказыРасширеннаяПодсказка" id="288"/>
@@ -380,6 +492,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>По распоряжениям</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>By references</v8:content>
 														</v8:item>
 													</Title>
 													<TitleLocation>Right</TitleLocation>
@@ -393,6 +509,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Распоряжения</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>References</v8:content>
 														</v8:item>
 													</Title>
 													<AutoMaxWidth>false</AutoMaxWidth>
@@ -409,6 +529,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Закрыть распоряжения</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Close references</v8:content>
+														</v8:item>
 													</Title>
 													<ExtendedTooltip name="ЗакрытьЗаказыРасширеннаяПодсказка" id="423"/>
 												</Button>
@@ -420,17 +544,21 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Картинка расхождение2</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Picture discrepancy2</v8:content>
+														</v8:item>
 													</Title>
 													<ToolTip>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Количество строк не привязанных к заказу</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Number of lines not related to the order</v8:content>
+														</v8:item>
 													</ToolTip>
-													<Picture>
-														<xr:Ref>CommonPicture.ПревышениеЗаказа</xr:Ref>
-														<xr:LoadTransparent>false</xr:LoadTransparent>
-													</Picture>
 													<FileDragMode>AsFile</FileDragMode>
 													<ContextMenu name="КартинкаРасхождение2КонтекстноеМеню" id="324"/>
 													<ExtendedTooltip name="КартинкаРасхождение2РасширеннаяПодсказка" id="325"/>
@@ -449,6 +577,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Страница без распоряжений</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Page without references</v8:content>
 												</v8:item>
 											</Title>
 											<ExtendedTooltip name="СтраницаБезРаспоряженийРасширеннаяПодсказка" id="345"/>
@@ -469,6 +601,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Шапка</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Header</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
 							<Representation>None</Representation>
@@ -481,6 +617,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Шапка лево</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Header left</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
 									<Representation>None</Representation>
@@ -492,6 +632,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Номер дата</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Number date</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
@@ -512,6 +656,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>от</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>from</v8:content>
 														</v8:item>
 													</Title>
 													<Width>14</Width>
@@ -538,6 +686,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Получатель</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Recipient</v8:content>
+												</v8:item>
 											</Title>
 											<Width>28</Width>
 											<HorizontalStretch>false</HorizontalStretch>
@@ -555,6 +707,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Шапка право</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Header right</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -607,6 +763,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Продукция и материалы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Products and materials</v8:content>
+						</v8:item>
 					</Title>
 					<TitleDataPath>Объект.Товары.RowsCount</TitleDataPath>
 					<ExtendedTooltip name="ГруппаТоварыРасширеннаяПодсказка" id="31"/>
@@ -619,15 +779,18 @@
 							<EnableDrag>true</EnableDrag>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>Объект.Товары</DataPath>
-							<RowPictureDataPath>Объект.Товары.РасхождениеЗаказ</RowPictureDataPath>
 							<RowsPicture>
 								<xr:Ref>CommonPicture.СостоянияСтрок</xr:Ref>
-								<xr:LoadTransparent>true</xr:LoadTransparent>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
 							</RowsPicture>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Товары</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Goods</v8:content>
 								</v8:item>
 							</Title>
 							<RowFilter xsi:nil="true"/>
@@ -678,6 +841,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Торговое оборудование</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Shop fixtures and fittings</v8:content>
+											</v8:item>
 										</Title>
 										<ExtendedTooltip name="ГруппаТорговоеОборудованиеExtendedTooltip" id="238"/>
 										<ChildItems>
@@ -691,6 +858,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Найти товар по штрихкоду</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Find goods by barcode</v8:content>
+													</v8:item>
 												</Title>
 												<ExtendedTooltip name="ТоварыПоискПоШтрихкодуExtendedTooltip" id="240"/>
 											</Button>
@@ -703,6 +874,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Загрузить товары из ТСД</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Import goods from PDT</v8:content>
 													</v8:item>
 												</Title>
 												<ExtendedTooltip name="ТоварыЗагрузитьДанныеИзТСДExtendedTooltip" id="242"/>
@@ -735,6 +910,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Заполнить</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Fill in</v8:content>
+											</v8:item>
 										</Title>
 										<ExtendedTooltip name="ТоварыЗаполнитьExtendedTooltip" id="250"/>
 										<ChildItems>
@@ -743,6 +922,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Подобрать товары</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Select goods</v8:content>
 													</v8:item>
 												</Title>
 												<ExtendedTooltip name="ГруппаПодобратьТоварыExtendedTooltip" id="252"/>
@@ -775,6 +958,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Товары группа привязать к распоряжениям</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Goods group link to references</v8:content>
+													</v8:item>
 												</Title>
 												<ExtendedTooltip name="ТоварыГруппаПривязатьКРаспоряжениямРасширеннаяПодсказка" id="431"/>
 												<ChildItems>
@@ -785,6 +972,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Заполнить распоряжения</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Fill in references</v8:content>
 															</v8:item>
 														</Title>
 														<ExtendedTooltip name="ТоварыЗаполнитьРаспоряженияРасширеннаяПодсказка" id="433"/>
@@ -838,6 +1029,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Тип</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Type</v8:content>
+										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>7</Width>
@@ -855,7 +1050,6 @@
 									<ExtendedTooltip name="ТоварыНоменклатураКодРасширеннаяПодсказка" id="368"/>
 								</LabelField>
 								<InputField name="ТоварыАртикул" id="360">
-									<DataPath>Объект.Товары.Артикул</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -888,6 +1082,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Товары группа серия</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Goods group series</v8:content>
+										</v8:item>
 									</Title>
 									<Group>InCell</Group>
 									<ExtendedTooltip name="ТоварыГруппаСерияРасширеннаяПодсказка" id="359"/>
@@ -898,11 +1096,11 @@
 											<EditMode>EnterOnInput</EditMode>
 											<HeaderPicture>
 												<xr:Ref>CommonPicture.СерииНоменклатурыКолонкаСтатусов</xr:Ref>
-												<xr:LoadTransparent>true</xr:LoadTransparent>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</HeaderPicture>
 											<ValuesPicture>
 												<xr:Ref>CommonPicture.СтатусыУказанияСерий</xr:Ref>
-												<xr:LoadTransparent>true</xr:LoadTransparent>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</ValuesPicture>
 											<FileDragMode>AsFile</FileDragMode>
 											<ContextMenu name="ТоварыСтатусУказанияСерийКонтекстноеМеню" id="370"/>
@@ -935,6 +1133,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Количество</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Quantity</v8:content>
+										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>10</Width>
@@ -947,6 +1149,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Товары упаковка единица измерения</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Goods packaging unit of measure</v8:content>
 										</v8:item>
 									</Title>
 									<Group>InCell</Group>
@@ -969,6 +1175,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Ед. изм.</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>UOM</v8:content>
 												</v8:item>
 											</Title>
 											<EditMode>EnterOnInput</EditMode>
@@ -997,6 +1207,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Товары группа распоряжение</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Goods group reference</v8:content>
 										</v8:item>
 									</Title>
 									<Group>InCell</Group>
@@ -1040,6 +1254,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дополнительно</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>More</v8:content>
+						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
 					<ExtendedTooltip name="ГруппаДополнительноРасширеннаяПодсказка" id="338"/>
@@ -1049,6 +1267,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дополнительно лево</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Additionally left</v8:content>
 								</v8:item>
 							</Title>
 							<Width>40</Width>
@@ -1064,6 +1286,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Потребление для деятельности</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Consumption for activity</v8:content>
 										</v8:item>
 									</Title>
 									<TitleLocation>Left</TitleLocation>
@@ -1094,6 +1320,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Дополнительно право</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Additionally right</v8:content>
+								</v8:item>
 							</Title>
 							<Width>40</Width>
 							<HorizontalStretch>false</HorizontalStretch>
@@ -1113,6 +1343,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Дополнительные реквизиты</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Additional attributes</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
 									<Representation>NormalSeparation</Representation>
@@ -1125,27 +1359,6 @@
 				</Page>
 			</ChildItems>
 		</Pages>
-		<UsualGroup name="ГруппаИнтеграция" id="449">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Интеграция</v8:content>
-				</v8:item>
-			</Title>
-			<Group>Vertical</Group>
-			<Representation>None</Representation>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаИнтеграцияРасширеннаяПодсказка" id="450"/>
-			<ChildItems>
-				<LabelField name="ТекстМаркировкаТоваров" id="417">
-					<DataPath>ТекстМаркировкаТоваров</DataPath>
-					<TitleLocation>None</TitleLocation>
-					<AutoMaxWidth>false</AutoMaxWidth>
-					<ContextMenu name="ТекстМаркировкаТоваровКонтекстноеМеню" id="418"/>
-					<ExtendedTooltip name="ТекстМаркировкаТоваровРасширеннаяПодсказка" id="419"/>
-				</LabelField>
-			</ChildItems>
-		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1000001">
@@ -1158,54 +1371,7 @@
 				<Field>Объект.RegisterRecords</Field>
 			</UseAlways>
 			<Columns>
-				<AdditionalColumns table="Объект.Товары">
-					<Column name="ХарактеристикиИспользуются" id="1">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Характеристики используются</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>xs:boolean</v8:Type>
-						</Type>
-					</Column>
-					<Column name="Артикул" id="2">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Артикул</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:TypeSet>cfg:DefinedType.Артикул</v8:TypeSet>
-						</Type>
-					</Column>
-					<Column name="ТипНоменклатуры" id="3">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Тип номенклатуры</v8:content>
-							</v8:item>
-						</Title>
-						<Type>
-							<v8:Type>cfg:EnumRef.ТипыНоменклатуры</v8:Type>
-						</Type>
-					</Column>
-					<Column name="РасхождениеЗаказ" id="4">
-						<Type>
-							<v8:Type>xs:decimal</v8:Type>
-							<v8:NumberQualifiers>
-								<v8:Digits>1</v8:Digits>
-								<v8:FractionDigits>0</v8:FractionDigits>
-								<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-							</v8:NumberQualifiers>
-						</Type>
-						<FunctionalOptions>
-							<Item>FunctionalOption.ИспользоватьЗаказыКлиентов</Item>
-						</FunctionalOptions>
-					</Column>
-				</AdditionalColumns>
+				<AdditionalColumns table="Объект.Товары"/>
 			</Columns>
 		</Attribute>
 		<Attribute name="ИспользоватьПодключаемоеОборудование" id="1000002">
@@ -1213,6 +1379,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Использовать подключаемое оборудование</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Use peripherals</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1225,6 +1395,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Не выполнять проверку перед записью</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Do not check before writing</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1235,6 +1409,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Параметры указания серий</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Series specification parameters</v8:content>
 				</v8:item>
 			</Title>
 			<Type/>
@@ -1247,6 +1425,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Поддерживаемые типы подключаемого оборудования</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Supported peripherals types</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1263,6 +1445,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Принудительно закрыть форму</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Forcefully close the form</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1273,6 +1459,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Надпись распоряжения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Label references</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1289,16 +1479,25 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список распоряжений</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Reference list</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
 			</Type>
+			<Settings xsi:type="v8:TypeDescription"/>
 		</Attribute>
 		<Attribute name="НадписьНесколькоСкладов" id="1000009">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Надпись несколько складов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Several warehouses text</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1315,6 +1514,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Надпись расхождение</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Label discrepancy</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -1324,9 +1527,9 @@
 				</v8:StringQualifiers>
 			</Type>
 			<FunctionalOptions>
+				<Item>FunctionalOption.ИспользоватьУправлениеРемонтами</Item>
 				<Item>FunctionalOption.ИспользоватьЗаказыНаВнутреннееПотребление</Item>
 				<Item>FunctionalOption.ИспользоватьПроизводство</Item>
-				<Item>FunctionalOption.ИспользоватьУправлениеРемонтами</Item>
 			</FunctionalOptions>
 		</Attribute>
 		<Attribute name="НачатаОтгрузка" id="1000011">
@@ -1334,6 +1537,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Начата отгрузка</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Shipment start</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1346,6 +1553,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Ордерная схема</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Advanced warehousing</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1357,6 +1568,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Направления деятельности кэшированные значения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Line of business cached values</v8:content>
+				</v8:item>
 			</Title>
 			<Type/>
 		</Attribute>
@@ -1365,6 +1580,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отправитель до изменения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Sender before change</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1378,6 +1597,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Метаданные формы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Form metadata </v8:content>
+				</v8:item>
 			</Title>
 			<Type/>
 		</Attribute>
@@ -1387,6 +1610,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Результаты заполнения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Filling results</v8:content>
+				</v8:item>
 			</Title>
 			<Type/>
 		</Attribute>
@@ -1395,6 +1622,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Хоз операция до изменения</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Business transaction before change</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1407,6 +1638,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Использовать несколько складов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Use several warehouses</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1417,6 +1652,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Использовать плановую стоимость</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Use target cost</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1429,6 +1668,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Доступен выбор подразделения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>You can select department</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1440,6 +1683,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Представление полей</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Field presentation</v8:content>
+				</v8:item>
 			</Title>
 			<Type/>
 		</Attribute>
@@ -1448,6 +1695,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Доступны строки сверх заказа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Lines exceeding the order are available</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1471,6 +1722,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Обновить при открытии</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Update on opening</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1482,6 +1737,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Параметры подключаемых команд</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Connected command parameters</v8:content>
+				</v8:item>
 			</Title>
 			<Type/>
 		</Attribute>
@@ -1490,6 +1749,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>По этапу</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>By step</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1507,11 +1770,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Провести и закрыть</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Post and close</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Провести и закрыть</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Post and close</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1527,11 +1798,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Скопировать строки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Copy lines</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Скопировать строки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Copy lines</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>Ctrl+Shift+C</Shortcut>
@@ -1547,11 +1826,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Указать серии</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Specify series</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Указать серии</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Specify series</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1572,11 +1859,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Разбить строку</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Split line</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Разбить строку</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Split line</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>Ctrl+F9</Shortcut>
@@ -1593,11 +1888,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Поиск по штрихкоду</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Search by barcode</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Поиск по штрихкоду</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Search by barcode</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F7</Shortcut>
@@ -1614,11 +1917,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Получить вес</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Receive weight</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Получить вес</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Receive weight</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1637,11 +1948,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подобрать товары</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select goods</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подобрать товары</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select goods</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1658,11 +1977,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить качество</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change quality</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить качество</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change quality</v8:content>
 				</v8:item>
 			</ToolTip>
 			<FunctionalOptions>
@@ -1677,17 +2004,24 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Загрузить данные из ТСД</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Import data from PDT</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Загрузить данные из ТСД</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Import data from PDT</v8:content>
+				</v8:item>
 			</ToolTip>
 			<Picture>
 				<xr:Ref>CommonPicture.ПодключаемоеОборудованиеТерминалСбораДанных16</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
-				<xr:TransparentPixel x="13" y="2"/>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<FunctionalOptions>
 				<Item>FunctionalOption.ИспользоватьПодключаемоеОборудование</Item>
@@ -1701,11 +2035,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вставить строки</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Insert lines</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вставить строки</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Insert lines</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>Ctrl+Shift+V</Shortcut>
@@ -1722,11 +2064,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Заполнить серии по FEFO</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Fill in series by FEFO</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Заполнить серии по FEFO</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Fill in series by FEFO</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1742,11 +2092,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дополнить тарой</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add package</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дополнить многооборотной тарой</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Add reusable package</v8:content>
 				</v8:item>
 			</ToolTip>
 			<FunctionalOptions>
@@ -1761,11 +2119,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отвязать от распоряжения</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Unlink from reference</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Отвязать строки от распоряжений</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Unlink lines from references</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1781,16 +2147,24 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Округлить до целой единицы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Round up to integer</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Округлить до целой единицы, например, округлить 1.2 (шт) до 2 (шт)</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Round up to integer, for example, round 1.2 (pieces) up to 2 (pieces)</v8:content>
+				</v8:item>
 			</ToolTip>
 			<Picture>
 				<xr:Ref>CommonPicture.ОкруглитьДоЦелойЕдиницы</xr:Ref>
-				<xr:LoadTransparent>true</xr:LoadTransparent>
+				<xr:LoadTransparent>false</xr:LoadTransparent>
 			</Picture>
 			<ModifiesSavedData>true</ModifiesSavedData>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -1801,11 +2175,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть виды запасов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open inventory kinds</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Открыть виды запасов</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Open inventory kinds</v8:content>
 				</v8:item>
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -1815,6 +2197,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Подобрать по распоряжениям/ордерам</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Select by references/notes</v8:content>
 				</v8:item>
 			</Title>
 			<Picture>
@@ -1831,11 +2217,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Закрыть распоряжение</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Close reference</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Закрыть заказ</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Close order</v8:content>
 				</v8:item>
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -1846,11 +2240,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Привязать к распоряжениям</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Link to references</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Привязать к распоряжениям</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Link to references</v8:content>
 				</v8:item>
 			</ToolTip>
 			<ModifiesSavedData>true</ModifiesSavedData>
@@ -1862,11 +2264,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Save</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Записать документ</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Write document</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>Ctrl+S</Shortcut>
@@ -1883,11 +2293,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Провести</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Post</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Провести документ</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Post document</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -1936,10 +2354,14 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Создать на основании</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Create on the basis</v8:content>
+						</v8:item>
 					</Title>
 					<Picture>
 						<xr:Ref>CommonPicture.ЗаполнитьПоШаблону</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
 					</Picture>
 					<Representation>Picture</Representation>
 					<ExtendedTooltip name="ПодменюСоздатьНаОснованииРасширеннаяПодсказка" id="170"/>
@@ -1950,6 +2372,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Создать на основании (Важное)</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Create on the basis (Important)</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииВажноеРасширеннаяПодсказка" id="444"/>
 						</ButtonGroup>
@@ -1959,6 +2385,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Создать на основании (Обычное)</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Create on the basis (Standard)</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииОбычноеРасширеннаяПодсказка" id="446"/>
 						</ButtonGroup>
@@ -1967,6 +2397,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Создать на основании (См. также)</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Create on the basis (See also)</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииСмТакжеРасширеннаяПодсказка" id="448"/>
@@ -1979,11 +2413,19 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Печать</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Print</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Команды печати</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Print commands</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Picture>
@@ -1998,6 +2440,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Команды формы</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Form commands</v8:content>
+						</v8:item>
 					</Title>
 					<CommandSource>Form</CommandSource>
 					<ExtendedTooltip name="ГруппаКомандыФормыРасширеннаяПодсказка" id="166"/>
@@ -2007,6 +2453,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Команды формы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Form commands</v8:content>
 						</v8:item>
 					</Title>
 					<CommandSource>FormCommandPanelGlobalCommands</CommandSource>
@@ -2018,10 +2468,14 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отчеты</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Reports</v8:content>
+						</v8:item>
 					</Title>
 					<Picture>
 						<xr:Ref>CommonPicture.Отчеты</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
 					</Picture>
 					<Representation>PictureAndText</Representation>
 					<ExtendedTooltip name="ПодменюОтчетыРасширеннаяПодсказка" id="174"/>
@@ -2032,6 +2486,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подменю отчеты важное</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Important reports submenu</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюОтчетыВажноеРасширеннаяПодсказка" id="176"/>
 						</ButtonGroup>
@@ -2041,11 +2499,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подменю отчеты обычное</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Submenu reports standard</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подменю отчеты важное</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Important reports submenu</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ExtendedTooltip name="ПодменюОтчетыОбычноеРасширеннаяПодсказка" id="178"/>
@@ -2056,11 +2522,19 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подменю отчеты см также</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Submenu reports see also</v8:content>
+								</v8:item>
 							</Title>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Подменю отчеты важное</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Important reports submenu</v8:content>
 								</v8:item>
 							</ToolTip>
 							<ExtendedTooltip name="ПодменюОтчетыСмТакжеРасширеннаяПодсказка" id="180"/>
@@ -2073,16 +2547,24 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Заполнение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>FIlling</v8:content>
+						</v8:item>
 					</Title>
 					<ToolTip>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дополнительные команды заполнения</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional completion commands</v8:content>
+						</v8:item>
 					</ToolTip>
 					<Picture>
 						<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
 					</Picture>
 					<ExtendedTooltip name="ПодменюДополнительныхОбработокЗаполненияРасширеннаяПодсказка" id="182"/>
 				</Popup>
@@ -2105,6 +2587,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Статус</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Status</v8:content>
 					</v8:item>
 				</Title>
 				<Group>Horizontal</Group>
@@ -2136,6 +2622,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Страницы</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Pages</v8:content>
+					</v8:item>
 				</Title>
 				<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="29"/>
 				<ChildItems>
@@ -2144,6 +2634,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Основное</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Main</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ГруппаОсновноеРасширеннаяПодсказка" id="266"/>
@@ -2154,11 +2648,19 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>По распоряжениям</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>By references</v8:content>
+									</v8:item>
 								</Title>
 								<ToolTip>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Поступление по заказам</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Receipt under orders</v8:content>
 									</v8:item>
 								</ToolTip>
 								<Group>Horizontal</Group>
@@ -2173,11 +2675,19 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Страницы заказ</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Pages order</v8:content>
+											</v8:item>
 										</Title>
 										<ToolTip>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Заказ поставщику</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Purchase order</v8:content>
 											</v8:item>
 										</ToolTip>
 										<HorizontalStretch>true</HorizontalStretch>
@@ -2191,6 +2701,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Страница заказ</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Page order</v8:content>
+													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
 												<ExtendedTooltip name="СтраницаЗаказРасширеннаяПодсказка" id="272"/>
@@ -2201,6 +2715,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>По распоряжению</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>By reference</v8:content>
 															</v8:item>
 														</Title>
 														<TitleLocation>Right</TitleLocation>
@@ -2214,6 +2732,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Распоряжение</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Reference</v8:content>
 															</v8:item>
 														</Title>
 														<AutoMaxWidth>false</AutoMaxWidth>
@@ -2236,17 +2758,21 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Картинка расхождение1</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Picture discrepancy1</v8:content>
+															</v8:item>
 														</Title>
 														<ToolTip>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Количество строк, не привязанных к заказу</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Number of lines not related to the order</v8:content>
+															</v8:item>
 														</ToolTip>
-														<Picture>
-															<xr:Ref>CommonPicture.ПревышениеЗаказа</xr:Ref>
-															<xr:LoadTransparent>false</xr:LoadTransparent>
-														</Picture>
 														<FileDragMode>AsFile</FileDragMode>
 														<ContextMenu name="КартинкаРасхождение1КонтекстноеМеню" id="318"/>
 														<ExtendedTooltip name="КартинкаРасхождение1РасширеннаяПодсказка" id="319"/>
@@ -2266,6 +2792,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Страница заказы</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Orders page</v8:content>
+													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
 												<ExtendedTooltip name="СтраницаЗаказыРасширеннаяПодсказка" id="288"/>
@@ -2276,6 +2806,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>По распоряжениям</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>By references</v8:content>
 															</v8:item>
 														</Title>
 														<TitleLocation>Right</TitleLocation>
@@ -2289,6 +2823,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Распоряжения</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>References</v8:content>
 															</v8:item>
 														</Title>
 														<AutoMaxWidth>false</AutoMaxWidth>
@@ -2305,6 +2843,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Закрыть распоряжения</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Close references</v8:content>
+															</v8:item>
 														</Title>
 														<ExtendedTooltip name="ЗакрытьЗаказыРасширеннаяПодсказка" id="423"/>
 													</Button>
@@ -2316,17 +2858,21 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Картинка расхождение2</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Picture discrepancy2</v8:content>
+															</v8:item>
 														</Title>
 														<ToolTip>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Количество строк не привязанных к заказу</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Number of lines not related to the order</v8:content>
+															</v8:item>
 														</ToolTip>
-														<Picture>
-															<xr:Ref>CommonPicture.ПревышениеЗаказа</xr:Ref>
-															<xr:LoadTransparent>false</xr:LoadTransparent>
-														</Picture>
 														<FileDragMode>AsFile</FileDragMode>
 														<ContextMenu name="КартинкаРасхождение2КонтекстноеМеню" id="324"/>
 														<ExtendedTooltip name="КартинкаРасхождение2РасширеннаяПодсказка" id="325"/>
@@ -2345,6 +2891,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Страница без распоряжений</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Page without references</v8:content>
 													</v8:item>
 												</Title>
 												<ExtendedTooltip name="СтраницаБезРаспоряженийРасширеннаяПодсказка" id="345"/>
@@ -2365,6 +2915,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Шапка</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Header</v8:content>
+									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
 								<Representation>None</Representation>
@@ -2377,6 +2931,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Шапка лево</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Header left</v8:content>
+											</v8:item>
 										</Title>
 										<Group>Vertical</Group>
 										<Representation>None</Representation>
@@ -2388,6 +2946,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Номер дата</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Number date</v8:content>
 													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
@@ -2408,6 +2970,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>от</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>from</v8:content>
 															</v8:item>
 														</Title>
 														<Width>14</Width>
@@ -2434,6 +3000,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Получатель</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Recipient</v8:content>
+													</v8:item>
 												</Title>
 												<Width>28</Width>
 												<HorizontalStretch>false</HorizontalStretch>
@@ -2451,6 +3021,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Шапка право</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Header right</v8:content>
 											</v8:item>
 										</Title>
 										<Group>Vertical</Group>
@@ -2503,6 +3077,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Продукция и материалы</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Products and materials</v8:content>
+							</v8:item>
 						</Title>
 						<TitleDataPath>Объект.Товары.RowsCount</TitleDataPath>
 						<ExtendedTooltip name="ГруппаТоварыРасширеннаяПодсказка" id="31"/>
@@ -2515,15 +3093,18 @@
 								<EnableDrag>true</EnableDrag>
 								<FileDragMode>AsFile</FileDragMode>
 								<DataPath>Объект.Товары</DataPath>
-								<RowPictureDataPath>Объект.Товары.РасхождениеЗаказ</RowPictureDataPath>
 								<RowsPicture>
 									<xr:Ref>CommonPicture.СостоянияСтрок</xr:Ref>
-									<xr:LoadTransparent>true</xr:LoadTransparent>
+									<xr:LoadTransparent>false</xr:LoadTransparent>
 								</RowsPicture>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Товары</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Goods</v8:content>
 									</v8:item>
 								</Title>
 								<RowFilter xsi:nil="true"/>
@@ -2574,6 +3155,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Торговое оборудование</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Shop fixtures and fittings</v8:content>
+												</v8:item>
 											</Title>
 											<ExtendedTooltip name="ГруппаТорговоеОборудованиеExtendedTooltip" id="238"/>
 											<ChildItems>
@@ -2587,6 +3172,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Найти товар по штрихкоду</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Find goods by barcode</v8:content>
+														</v8:item>
 													</Title>
 													<ExtendedTooltip name="ТоварыПоискПоШтрихкодуExtendedTooltip" id="240"/>
 												</Button>
@@ -2599,6 +3188,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Загрузить товары из ТСД</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Import goods from PDT</v8:content>
 														</v8:item>
 													</Title>
 													<ExtendedTooltip name="ТоварыЗагрузитьДанныеИзТСДExtendedTooltip" id="242"/>
@@ -2631,6 +3224,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Заполнить</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Fill in</v8:content>
+												</v8:item>
 											</Title>
 											<ExtendedTooltip name="ТоварыЗаполнитьExtendedTooltip" id="250"/>
 											<ChildItems>
@@ -2639,6 +3236,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Подобрать товары</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Select goods</v8:content>
 														</v8:item>
 													</Title>
 													<ExtendedTooltip name="ГруппаПодобратьТоварыExtendedTooltip" id="252"/>
@@ -2671,6 +3272,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Товары группа привязать к распоряжениям</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Goods group link to references</v8:content>
+														</v8:item>
 													</Title>
 													<ExtendedTooltip name="ТоварыГруппаПривязатьКРаспоряжениямРасширеннаяПодсказка" id="431"/>
 													<ChildItems>
@@ -2681,6 +3286,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Заполнить распоряжения</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Fill in references</v8:content>
 																</v8:item>
 															</Title>
 															<ExtendedTooltip name="ТоварыЗаполнитьРаспоряженияРасширеннаяПодсказка" id="433"/>
@@ -2734,6 +3343,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Тип</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Type</v8:content>
+											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>7</Width>
@@ -2751,7 +3364,6 @@
 										<ExtendedTooltip name="ТоварыНоменклатураКодРасширеннаяПодсказка" id="368"/>
 									</LabelField>
 									<InputField name="ТоварыАртикул" id="360">
-										<DataPath>Объект.Товары.Артикул</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -2784,6 +3396,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Товары группа серия</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Goods group series</v8:content>
+											</v8:item>
 										</Title>
 										<Group>InCell</Group>
 										<ExtendedTooltip name="ТоварыГруппаСерияРасширеннаяПодсказка" id="359"/>
@@ -2794,11 +3410,11 @@
 												<EditMode>EnterOnInput</EditMode>
 												<HeaderPicture>
 													<xr:Ref>CommonPicture.СерииНоменклатурыКолонкаСтатусов</xr:Ref>
-													<xr:LoadTransparent>true</xr:LoadTransparent>
+													<xr:LoadTransparent>false</xr:LoadTransparent>
 												</HeaderPicture>
 												<ValuesPicture>
 													<xr:Ref>CommonPicture.СтатусыУказанияСерий</xr:Ref>
-													<xr:LoadTransparent>true</xr:LoadTransparent>
+													<xr:LoadTransparent>false</xr:LoadTransparent>
 												</ValuesPicture>
 												<FileDragMode>AsFile</FileDragMode>
 												<ContextMenu name="ТоварыСтатусУказанияСерийКонтекстноеМеню" id="370"/>
@@ -2831,6 +3447,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Количество</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Quantity</v8:content>
+											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>10</Width>
@@ -2843,6 +3463,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Товары упаковка единица измерения</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Goods packaging unit of measure</v8:content>
 											</v8:item>
 										</Title>
 										<Group>InCell</Group>
@@ -2865,6 +3489,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Ед. изм.</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>UOM</v8:content>
 													</v8:item>
 												</Title>
 												<EditMode>EnterOnInput</EditMode>
@@ -2893,6 +3521,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Товары группа распоряжение</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Goods group reference</v8:content>
 											</v8:item>
 										</Title>
 										<Group>InCell</Group>
@@ -2936,6 +3568,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Дополнительно</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>More</v8:content>
+							</v8:item>
 						</Title>
 						<Group>Horizontal</Group>
 						<ExtendedTooltip name="ГруппаДополнительноРасширеннаяПодсказка" id="338"/>
@@ -2945,6 +3581,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Дополнительно лево</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Additionally left</v8:content>
 									</v8:item>
 								</Title>
 								<Width>40</Width>
@@ -2960,6 +3600,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Потребление для деятельности</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Consumption for activity</v8:content>
 											</v8:item>
 										</Title>
 										<TitleLocation>Left</TitleLocation>
@@ -2990,6 +3634,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Дополнительно право</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Additionally right</v8:content>
+									</v8:item>
 								</Title>
 								<Width>40</Width>
 								<HorizontalStretch>false</HorizontalStretch>
@@ -3009,6 +3657,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Дополнительные реквизиты</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Additional attributes</v8:content>
+											</v8:item>
 										</Title>
 										<Group>Vertical</Group>
 										<Representation>NormalSeparation</Representation>
@@ -3021,29 +3673,19 @@
 					</Page>
 				</ChildItems>
 			</Pages>
-			<UsualGroup name="ГруппаИнтеграция" id="449">
+		</ChildItems>
+		<Attributes>
+			<Attribute name="ТекстМаркировкаТоваров" id="1000023">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
-						<v8:content>Интеграция</v8:content>
+						<v8:content>Текст маркировка товаров</v8:content>
 					</v8:item>
 				</Title>
-				<Group>Vertical</Group>
-				<Representation>None</Representation>
-				<ShowTitle>false</ShowTitle>
-				<ExtendedTooltip name="ГруппаИнтеграцияРасширеннаяПодсказка" id="450"/>
-				<ChildItems>
-					<LabelField name="ТекстМаркировкаТоваров" id="417">
-						<DataPath>ТекстМаркировкаТоваров</DataPath>
-						<TitleLocation>None</TitleLocation>
-						<AutoMaxWidth>false</AutoMaxWidth>
-						<ContextMenu name="ТекстМаркировкаТоваровКонтекстноеМеню" id="418"/>
-						<ExtendedTooltip name="ТекстМаркировкаТоваровРасширеннаяПодсказка" id="419"/>
-					</LabelField>
-				</ChildItems>
-			</UsualGroup>
-		</ChildItems>
-		<Attributes>
+				<Type>
+					<v8:Type>v8ui:FormattedString</v8:Type>
+				</Type>
+			</Attribute>
 			<Attribute name="Объект" id="1000001">
 				<Type>
 					<v8:Type>cfg:DocumentObject.ДвижениеПродукцииИМатериалов</v8:Type>
@@ -3053,62 +3695,16 @@
 				<UseAlways>
 					<Field>Объект.RegisterRecords</Field>
 				</UseAlways>
-				<Columns>
-					<AdditionalColumns table="Объект.Товары">
-						<Column name="ХарактеристикиИспользуются" id="1">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Характеристики используются</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>xs:boolean</v8:Type>
-							</Type>
-						</Column>
-						<Column name="Артикул" id="2">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Артикул</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:TypeSet>cfg:DefinedType.Артикул</v8:TypeSet>
-							</Type>
-						</Column>
-						<Column name="ТипНоменклатуры" id="3">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Тип номенклатуры</v8:content>
-								</v8:item>
-							</Title>
-							<Type>
-								<v8:Type>cfg:EnumRef.ТипыНоменклатуры</v8:Type>
-							</Type>
-						</Column>
-						<Column name="РасхождениеЗаказ" id="4">
-							<Type>
-								<v8:Type>xs:decimal</v8:Type>
-								<v8:NumberQualifiers>
-									<v8:Digits>1</v8:Digits>
-									<v8:FractionDigits>0</v8:FractionDigits>
-									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-								</v8:NumberQualifiers>
-							</Type>
-							<FunctionalOptions>
-								<Item>FunctionalOption.ИспользоватьЗаказыКлиентов</Item>
-							</FunctionalOptions>
-						</Column>
-					</AdditionalColumns>
-				</Columns>
 			</Attribute>
 			<Attribute name="ИспользоватьПодключаемоеОборудование" id="1000002">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Использовать подключаемое оборудование</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Use peripherals</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -3121,6 +3717,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Не выполнять проверку перед записью</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Do not check before writing</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
@@ -3131,6 +3731,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Параметры указания серий</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Series specification parameters</v8:content>
 					</v8:item>
 				</Title>
 				<Type/>
@@ -3143,6 +3747,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Поддерживаемые типы подключаемого оборудования</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Supported peripherals types</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -3159,6 +3767,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Принудительно закрыть форму</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Forcefully close the form</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
@@ -3169,6 +3781,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Надпись распоряжения</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Label references</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -3185,16 +3801,25 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Список распоряжений</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Reference list</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>v8:ValueListType</v8:Type>
 				</Type>
+				<Settings xsi:type="v8:TypeDescription"/>
 			</Attribute>
 			<Attribute name="НадписьНесколькоСкладов" id="1000009">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Надпись несколько складов</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Several warehouses text</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -3210,6 +3835,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Надпись расхождение</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Label discrepancy</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -3231,6 +3860,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Начата отгрузка</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Shipment start</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
@@ -3241,6 +3874,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Ордерная схема</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Advanced warehousing</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -3253,6 +3890,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Направления деятельности кэшированные значения</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Line of business cached values</v8:content>
+					</v8:item>
 				</Title>
 				<Type/>
 			</Attribute>
@@ -3261,6 +3902,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Отправитель до изменения</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Sender before change</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -3274,6 +3919,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Метаданные формы</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Form metadata </v8:content>
+					</v8:item>
 				</Title>
 				<Type/>
 			</Attribute>
@@ -3283,6 +3932,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Результаты заполнения</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Filling results</v8:content>
+					</v8:item>
 				</Title>
 				<Type/>
 			</Attribute>
@@ -3291,6 +3944,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Хоз операция до изменения</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Business transaction before change</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -3303,6 +3960,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Использовать несколько складов</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Use several warehouses</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
@@ -3313,6 +3974,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Использовать плановую стоимость</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Use target cost</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -3325,6 +3990,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Доступен выбор подразделения</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>You can select department</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
@@ -3336,6 +4005,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Представление полей</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Field presentation</v8:content>
+					</v8:item>
 				</Title>
 				<Type/>
 			</Attribute>
@@ -3345,20 +4018,13 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Доступны строки сверх заказа</v8:content>
 					</v8:item>
-				</Title>
-				<Type>
-					<v8:Type>xs:boolean</v8:Type>
-				</Type>
-			</Attribute>
-			<Attribute name="ТекстМаркировкаТоваров" id="1000023">
-				<Title>
 					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Текст маркировка товаров</v8:content>
+						<v8:lang>en</v8:lang>
+						<v8:content>Lines exceeding the order are available</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
-					<v8:Type>v8ui:FormattedString</v8:Type>
+					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
 			<Attribute name="ОбновитьПриОткрытии" id="1000024">
@@ -3366,6 +4032,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Обновить при открытии</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Update on opening</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -3378,6 +4048,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Параметры подключаемых команд</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Connected command parameters</v8:content>
+					</v8:item>
 				</Title>
 				<Type/>
 			</Attribute>
@@ -3386,6 +4060,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>По этапу</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>By step</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -3397,17 +4075,25 @@
 			</Attribute>
 		</Attributes>
 		<Commands>
-			<Command name="ПровестиИЗакрыть" id="1000001">
+			<Command name="ПровестиИЗакрыть" id="1">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Провести и закрыть</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Post and close</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Провести и закрыть</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Post and close</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Picture>
@@ -3417,17 +4103,25 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="СкопироватьСтроки" id="1000002">
+			<Command name="СкопироватьСтроки" id="2">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Скопировать строки</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Copy lines</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Скопировать строки</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Copy lines</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Shortcut>Ctrl+Shift+C</Shortcut>
@@ -3437,17 +4131,25 @@
 				</Picture>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="УказатьСерии" id="1000003">
+			<Command name="УказатьСерии" id="3">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Указать серии</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Specify series</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Указать серии</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Specify series</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Picture>
@@ -3462,17 +4164,25 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="РазбитьСтроку" id="1000004">
+			<Command name="РазбитьСтроку" id="4">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Разбить строку</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Split line</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Разбить строку</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Split line</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Shortcut>Ctrl+F9</Shortcut>
@@ -3483,17 +4193,25 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПоискПоШтрихкоду" id="1000005">
+			<Command name="ПоискПоШтрихкоду" id="5">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Поиск по штрихкоду</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Search by barcode</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Поиск по штрихкоду</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Search by barcode</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Shortcut>F7</Shortcut>
@@ -3504,17 +4222,25 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПолучитьВес" id="1000006">
+			<Command name="ПолучитьВес" id="6">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Получить вес</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Receive weight</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Получить вес</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Receive weight</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Picture>
@@ -3527,17 +4253,25 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПодобратьТовары" id="1000007">
+			<Command name="ПодобратьТовары" id="7">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Подобрать товары</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Select goods</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Подобрать товары</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Select goods</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Picture>
@@ -3548,17 +4282,25 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ИзменитьКачество" id="1000008">
+			<Command name="ИзменитьКачество" id="10">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Изменить качество</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Change quality</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Изменить качество</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Change quality</v8:content>
 					</v8:item>
 				</ToolTip>
 				<FunctionalOptions>
@@ -3567,11 +4309,15 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗагрузитьДанныеИзТСД" id="1000009">
+			<Command name="ЗагрузитьДанныеИзТСД" id="11">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Загрузить данные из ТСД</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Import data from PDT</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
@@ -3579,11 +4325,14 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Загрузить данные из ТСД</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Import data from PDT</v8:content>
+					</v8:item>
 				</ToolTip>
 				<Picture>
 					<xr:Ref>CommonPicture.ПодключаемоеОборудованиеТерминалСбораДанных16</xr:Ref>
-					<xr:LoadTransparent>true</xr:LoadTransparent>
-					<xr:TransparentPixel x="13" y="2"/>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
 				<FunctionalOptions>
 					<Item>FunctionalOption.ИспользоватьПодключаемоеОборудование</Item>
@@ -3591,17 +4340,25 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ВставитьСтроки" id="1000010">
+			<Command name="ВставитьСтроки" id="13">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Вставить строки</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Insert lines</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Вставить строки</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Insert lines</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Shortcut>Ctrl+Shift+V</Shortcut>
@@ -3612,17 +4369,25 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗаполнитьСерииПоFEFO" id="1000011">
+			<Command name="ЗаполнитьСерииПоFEFO" id="8">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Заполнить серии по FEFO</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Fill in series by FEFO</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Заполнить серии по FEFO</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Fill in series by FEFO</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Picture>
@@ -3632,17 +4397,25 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ДополнитьМногооборотнойТарой" id="1000012">
+			<Command name="ДополнитьМногооборотнойТарой" id="14">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Дополнить тарой</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Add package</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Дополнить многооборотной тарой</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Add reusable package</v8:content>
 					</v8:item>
 				</ToolTip>
 				<FunctionalOptions>
@@ -3651,17 +4424,25 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ОтвязатьОтЗаказа" id="1000013">
+			<Command name="ОтвязатьОтЗаказа" id="15">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Отвязать от распоряжения</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Unlink from reference</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Отвязать строки от распоряжений</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Unlink lines from references</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Picture>
@@ -3671,11 +4452,15 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ОкруглитьДоЦелойУпаковки" id="1000014">
+			<Command name="ОкруглитьДоЦелойУпаковки" id="18">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Округлить до целой единицы</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Round up to integer</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
@@ -3683,19 +4468,27 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Округлить до целой единицы, например, округлить 1.2 (шт) до 2 (шт)</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Round up to integer, for example, round 1.2 (pieces) up to 2 (pieces)</v8:content>
+					</v8:item>
 				</ToolTip>
 				<Picture>
 					<xr:Ref>CommonPicture.ОкруглитьДоЦелойЕдиницы</xr:Ref>
-					<xr:LoadTransparent>true</xr:LoadTransparent>
+					<xr:LoadTransparent>false</xr:LoadTransparent>
 				</Picture>
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ОткрытьВидыЗапасов" id="1000015">
+			<Command name="ОткрытьВидыЗапасов" id="17">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Открыть виды запасов</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Open inventory kinds</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
@@ -3703,14 +4496,22 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Открыть виды запасов</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Open inventory kinds</v8:content>
+					</v8:item>
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПодобратьТоварыПоЗаказамОрдерам" id="1000016">
+			<Command name="ПодобратьТоварыПоЗаказамОрдерам" id="19">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Подобрать по распоряжениям/ордерам</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Select by references/notes</v8:content>
 					</v8:item>
 				</Title>
 				<Picture>
@@ -3721,11 +4522,15 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗакрытьЗаказ" id="1000017">
+			<Command name="ЗакрытьЗаказ" id="9">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Закрыть распоряжение</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Close reference</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
@@ -3733,14 +4538,22 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Закрыть заказ</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Close order</v8:content>
+					</v8:item>
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПривязатьКРаспоряжениям" id="1000018">
+			<Command name="ПривязатьКРаспоряжениям" id="12">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Привязать к распоряжениям</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Link to references</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
@@ -3748,21 +4561,33 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Привязать к распоряжениям</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Link to references</v8:content>
+					</v8:item>
 				</ToolTip>
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗаписатьДокумент" id="1000019">
+			<Command name="ЗаписатьДокумент" id="20">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Записать</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Save</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Записать документ</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Write document</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Shortcut>Ctrl+S</Shortcut>
@@ -3773,17 +4598,25 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПровестиДокумент" id="1000020">
+			<Command name="ПровестиДокумент" id="21">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Провести</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Post</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Провести документ</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Post document</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Picture>

@@ -89,7 +89,7 @@
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Print </v8:content>
+						<v8:content>Print</v8:content>
 					</v8:item>
 				</Title>
 				<Picture>
@@ -292,7 +292,6 @@
 											<ExtendedTooltip name="ГруппаНомерДатаExtendedTooltip" id="340"/>
 											<ChildItems>
 												<InputField name="Номер" id="1">
-													<DataPath>1/-2</DataPath>
 													<TitleLocation>Left</TitleLocation>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>10</MaxWidth>
@@ -301,7 +300,6 @@
 													<ExtendedTooltip name="НомерExtendedTooltip" id="341"/>
 												</InputField>
 												<InputField name="Дата" id="3">
-													<DataPath>1/-3</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -309,7 +307,7 @@
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>dated</v8:content>
+															<v8:content>from</v8:content>
 														</v8:item>
 													</Title>
 													<TitleLocation>Left</TitleLocation>
@@ -423,10 +421,6 @@
 																			<v8:content>Decoration counterparty check issue</v8:content>
 																		</v8:item>
 																	</Title>
-																	<Picture>
-																		<xr:Ref>CommonPicture.ВниманиеКрасный</xr:Ref>
-																		<xr:LoadTransparent>false</xr:LoadTransparent>
-																	</Picture>
 																	<FileDragMode>AsFile</FileDragMode>
 																	<ContextMenu name="ПроблемаПроверкаКонтрагентаПартнерКонтекстноеМеню" id="570"/>
 																	<ExtendedTooltip name="ПроблемаПроверкаКонтрагентаПартнерРасширеннаяПодсказка" id="571"/>
@@ -521,10 +515,6 @@
 																			<v8:content>Counterparty check issue</v8:content>
 																		</v8:item>
 																	</Title>
-																	<Picture>
-																		<xr:Ref>CommonPicture.ВниманиеКрасный</xr:Ref>
-																		<xr:LoadTransparent>false</xr:LoadTransparent>
-																	</Picture>
 																	<FileDragMode>AsFile</FileDragMode>
 																	<ContextMenu name="ПроблемаПроверкаКонтрагентаКонтекстноеМеню" id="587"/>
 																	<ExtendedTooltip name="ПроблемаПроверкаКонтрагентаРасширеннаяПодсказка" id="588"/>
@@ -953,7 +943,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Supplier products code</v8:content>
+											<v8:content>Supplier product code</v8:content>
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
@@ -1228,10 +1218,6 @@
 											<v8:content>Ship from multiple warehouses</v8:content>
 										</v8:item>
 									</ToolTip>
-									<Picture>
-										<xr:Ref>CommonPicture.Информация</xr:Ref>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
-									</Picture>
 									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="КартинкаНесколькоСкладовКонтекстноеМеню" id="877"/>
 									<ExtendedTooltip name="КартинкаНесколькоСкладовExtendedTooltip" id="878"/>
@@ -2077,7 +2063,7 @@ information</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Additional information</v8:content>
+							<v8:content>More</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ГруппаДополнительноExtendedTooltip" id="400"/>
@@ -2424,22 +2410,6 @@ information</v8:content>
 				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
-		<UsualGroup name="ГруппаИнтеграция" id="909">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Интеграция</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Integration</v8:content>
-				</v8:item>
-			</Title>
-			<Group>Vertical</Group>
-			<Representation>None</Representation>
-			<ShowTitle>false</ShowTitle>
-			<ExtendedTooltip name="ГруппаИнтеграцияРасширеннаяПодсказка" id="910"/>
-		</UsualGroup>
 	</ChildItems>
 	<Attributes/>
 	<BaseForm version="2.10">
@@ -2532,7 +2502,7 @@ information</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Print </v8:content>
+							<v8:content>Print</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -2732,7 +2702,6 @@ information</v8:content>
 												<ExtendedTooltip name="ГруппаНомерДатаExtendedTooltip" id="340"/>
 												<ChildItems>
 													<InputField name="Номер" id="1">
-														<DataPath>1/-2</DataPath>
 														<TitleLocation>Left</TitleLocation>
 														<AutoMaxWidth>false</AutoMaxWidth>
 														<MaxWidth>10</MaxWidth>
@@ -2741,7 +2710,6 @@ information</v8:content>
 														<ExtendedTooltip name="НомерExtendedTooltip" id="341"/>
 													</InputField>
 													<InputField name="Дата" id="3">
-														<DataPath>1/-3</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -2749,7 +2717,7 @@ information</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>dated</v8:content>
+																<v8:content>from</v8:content>
 															</v8:item>
 														</Title>
 														<TitleLocation>Left</TitleLocation>
@@ -2863,10 +2831,6 @@ information</v8:content>
 																				<v8:content>Decoration counterparty check issue</v8:content>
 																			</v8:item>
 																		</Title>
-																		<Picture>
-																			<xr:Ref>CommonPicture.ВниманиеКрасный</xr:Ref>
-																			<xr:LoadTransparent>false</xr:LoadTransparent>
-																		</Picture>
 																		<FileDragMode>AsFile</FileDragMode>
 																		<ContextMenu name="ПроблемаПроверкаКонтрагентаПартнерКонтекстноеМеню" id="570"/>
 																		<ExtendedTooltip name="ПроблемаПроверкаКонтрагентаПартнерРасширеннаяПодсказка" id="571"/>
@@ -2961,10 +2925,6 @@ information</v8:content>
 																				<v8:content>Counterparty check issue</v8:content>
 																			</v8:item>
 																		</Title>
-																		<Picture>
-																			<xr:Ref>CommonPicture.ВниманиеКрасный</xr:Ref>
-																			<xr:LoadTransparent>false</xr:LoadTransparent>
-																		</Picture>
 																		<FileDragMode>AsFile</FileDragMode>
 																		<ContextMenu name="ПроблемаПроверкаКонтрагентаКонтекстноеМеню" id="587"/>
 																		<ExtendedTooltip name="ПроблемаПроверкаКонтрагентаРасширеннаяПодсказка" id="588"/>
@@ -3393,7 +3353,7 @@ information</v8:content>
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Supplier products code</v8:content>
+												<v8:content>Supplier product code</v8:content>
 											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
@@ -3668,10 +3628,6 @@ information</v8:content>
 												<v8:content>Ship from multiple warehouses</v8:content>
 											</v8:item>
 										</ToolTip>
-										<Picture>
-											<xr:Ref>CommonPicture.Информация</xr:Ref>
-											<xr:LoadTransparent>false</xr:LoadTransparent>
-										</Picture>
 										<FileDragMode>AsFile</FileDragMode>
 										<ContextMenu name="КартинкаНесколькоСкладовКонтекстноеМеню" id="877"/>
 										<ExtendedTooltip name="КартинкаНесколькоСкладовExtendedTooltip" id="878"/>
@@ -4517,7 +4473,7 @@ information</v8:content>
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Additional information</v8:content>
+								<v8:content>More</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ГруппаДополнительноExtendedTooltip" id="400"/>
@@ -4863,22 +4819,6 @@ information</v8:content>
 						</ChildItems>
 					</UsualGroup>
 				</ChildItems>
-			</UsualGroup>
-			<UsualGroup name="ГруппаИнтеграция" id="909">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Интеграция</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Integration</v8:content>
-					</v8:item>
-				</Title>
-				<Group>Vertical</Group>
-				<Representation>None</Representation>
-				<ShowTitle>false</ShowTitle>
-				<ExtendedTooltip name="ГруппаИнтеграцияРасширеннаяПодсказка" id="910"/>
 			</UsualGroup>
 		</ChildItems>
 		<Attributes/>

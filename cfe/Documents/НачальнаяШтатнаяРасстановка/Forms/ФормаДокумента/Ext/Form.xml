@@ -200,7 +200,6 @@
 									<ExtendedTooltip name="МесяцСтрокойExtendedTooltip" id="109"/>
 								</InputField>
 								<InputField name="Организация" id="7">
-									<DataPath>1/0:a057ee39-d981-4b51-8e8f-c108530a02db</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ContextMenu name="ОрганизацияКонтекстноеМеню" id="8"/>
 									<ExtendedTooltip name="ОрганизацияExtendedTooltip" id="108"/>
@@ -248,14 +247,12 @@
 							<ExtendedTooltip name="ДатаНомерExtendedTooltip" id="111"/>
 							<ChildItems>
 								<InputField name="Дата" id="3">
-									<DataPath>1/-3</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>10</Width>
 									<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
 									<ExtendedTooltip name="ДатаExtendedTooltip" id="112"/>
 								</InputField>
 								<InputField name="Номер" id="1">
-									<DataPath>1/-2</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
@@ -280,7 +277,6 @@
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
 			<FileDragMode>AsFile</FileDragMode>
-			<DataPath>1/0:267ea681-3689-4d34-99a6-d241b24d8d90</DataPath>
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -347,7 +343,6 @@
 			</SearchControlAddition>
 			<ChildItems>
 				<LabelField name="СотрудникиНомерСтроки" id="20">
-					<DataPath>1/0:267ea681-3689-4d34-99a6-d241b24d8d90/-2</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="СотрудникиНомерСтрокиКонтекстноеМеню" id="21"/>
 					<ExtendedTooltip name="СотрудникиНомерСтрокиExtendedTooltip" id="116"/>
@@ -366,7 +361,6 @@
 					<ExtendedTooltip name="СотрудникиСотрудникВидЗанятостиГруппаExtendedTooltip" id="117"/>
 					<ChildItems>
 						<InputField name="СотрудникиСотрудник" id="22">
-							<DataPath>1/0:267ea681-3689-4d34-99a6-d241b24d8d90/0:bc812754-a09e-4bb8-b27e-b78520b5fb67</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<ContextMenu name="СотрудникиСотрудникКонтекстноеМеню" id="23"/>
 							<ExtendedTooltip name="СотрудникиСотрудникExtendedTooltip" id="118"/>
@@ -392,7 +386,6 @@
 									<ExtendedTooltip name="СотрудникиВидЗанятостиExtendedTooltip" id="119"/>
 								</InputField>
 								<InputField name="СотрудникиДатаПриема" id="104">
-									<DataPath>1/0:267ea681-3689-4d34-99a6-d241b24d8d90/8:5bdad865-f2c5-434b-8041-ba4aad3b6687</DataPath>
 									<SkipOnInput>true</SkipOnInput>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>10</Width>
@@ -441,24 +434,90 @@
 							<ContextMenu name="СотрудникиДолжностьПоШтатномуРасписаниюКонтекстноеМеню" id="29"/>
 							<ExtendedTooltip name="СотрудникиДолжностьПоШтатномуРасписаниюExtendedTooltip" id="123"/>
 						</InputField>
+						<ColumnGroup name="СотрудникиОвобождатьСтавкуГруппа" id="226">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сотрудники овобождать ставку группа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Employees release rate group</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Horizontal</Group>
+							<ExtendedTooltip name="СотрудникиОвобождатьСтавкуГруппаРасширеннаяПодсказка" id="227"/>
+							<ChildItems>
+								<CheckBoxField name="СотрудникиОсвобождатьСтавку" id="228">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Освобождена</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Released</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Освобождена на время 
+отпуска по уходу за ребенком</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Released for 
+child care leave</v8:content>
+										</v8:item>
+									</ToolTip>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="СотрудникиОсвобождатьСтавкуКонтекстноеМеню" id="229"/>
+									<ExtendedTooltip name="СотрудникиОсвобождатьСтавкуРасширеннаяПодсказка" id="230"/>
+								</CheckBoxField>
+								<InputField name="СотрудникиПланируемаяДатаВозврата" id="231">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Отп. по уходу до</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Care leave till</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Предполагаемая дата окончания отпуска по уходу за ребенком</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>End date of child care leave</v8:content>
+										</v8:item>
+									</ToolTip>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СотрудникиПланируемаяДатаВозвратаКонтекстноеМеню" id="232"/>
+									<ExtendedTooltip name="СотрудникиПланируемаяДатаВозвратаРасширеннаяПодсказка" id="233"/>
+								</InputField>
+							</ChildItems>
+						</ColumnGroup>
 					</ChildItems>
 				</ColumnGroup>
 				<LabelField name="СотрудникиПредставлениеЗарплаты" id="91">
-					<DataPath>1/0:267ea681-3689-4d34-99a6-d241b24d8d90/2:5bdad865-f2c5-434b-8041-ba4aad3b6687</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<CellHyperlink>true</CellHyperlink>
 					<ContextMenu name="СотрудникиПредставлениеЗарплатыКонтекстноеМеню" id="92"/>
 					<ExtendedTooltip name="СотрудникиПредставлениеЗарплатыExtendedTooltip" id="125"/>
 				</LabelField>
 				<LabelField name="СотрудникиПредставлениеПересчетаТарифныхСтавок" id="141">
-					<DataPath>1/0:267ea681-3689-4d34-99a6-d241b24d8d90/3:5bdad865-f2c5-434b-8041-ba4aad3b6687</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<CellHyperlink>true</CellHyperlink>
 					<ContextMenu name="СотрудникиПредставлениеПересчетаТарифныхСтавокКонтекстноеМеню" id="142"/>
 					<ExtendedTooltip name="СотрудникиПредставлениеПересчетаТарифныхСтавокРасширеннаяПодсказка" id="143"/>
 				</LabelField>
 				<LabelField name="СотрудникиКоличествоСтавок" id="205">
-					<DataPath>1/0:267ea681-3689-4d34-99a6-d241b24d8d90/7:5bdad865-f2c5-434b-8041-ba4aad3b6687</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<CellHyperlink>true</CellHyperlink>
 					<Hiperlink>true</Hiperlink>
@@ -466,7 +525,6 @@
 					<ExtendedTooltip name="СотрудникиКоличествоСтавокРасширеннаяПодсказка" id="207"/>
 				</LabelField>
 				<LabelField name="СотрудникиПредставлениеАванса" id="93">
-					<DataPath>1/0:267ea681-3689-4d34-99a6-d241b24d8d90/1:5bdad865-f2c5-434b-8041-ba4aad3b6687</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<CellHyperlink>true</CellHyperlink>
 					<ContextMenu name="СотрудникиПредставлениеАвансаКонтекстноеМеню" id="94"/>
@@ -511,14 +569,12 @@
 					<ExtendedTooltip name="СотрудникиРазрядКатегорияРасширеннаяПодсказка" id="146"/>
 				</InputField>
 				<LabelField name="СотрудникиПредставлениеПраваНаОтпуск" id="97">
-					<DataPath>1/0:267ea681-3689-4d34-99a6-d241b24d8d90/4:5bdad865-f2c5-434b-8041-ba4aad3b6687</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<CellHyperlink>true</CellHyperlink>
 					<ContextMenu name="СотрудникиПредставлениеПраваНаОтпускКонтекстноеМеню" id="98"/>
 					<ExtendedTooltip name="СотрудникиПредставлениеПраваНаОтпускExtendedTooltip" id="129"/>
 				</LabelField>
 				<InputField name="СотрудникиПредставлениеЛьгот" id="197">
-					<DataPath>1/0:267ea681-3689-4d34-99a6-d241b24d8d90/6:5bdad865-f2c5-434b-8041-ba4aad3b6687</DataPath>
 					<Visible>false</Visible>
 					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
@@ -582,7 +638,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Additional information</v8:content>
+					<v8:content>More</v8:content>
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
@@ -999,7 +1055,6 @@
 										<ExtendedTooltip name="МесяцСтрокойExtendedTooltip" id="109"/>
 									</InputField>
 									<InputField name="Организация" id="7">
-										<DataPath>1/0:a057ee39-d981-4b51-8e8f-c108530a02db</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="ОрганизацияКонтекстноеМеню" id="8"/>
 										<ExtendedTooltip name="ОрганизацияExtendedTooltip" id="108"/>
@@ -1047,14 +1102,12 @@
 								<ExtendedTooltip name="ДатаНомерExtendedTooltip" id="111"/>
 								<ChildItems>
 									<InputField name="Дата" id="3">
-										<DataPath>1/-3</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>10</Width>
 										<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
 										<ExtendedTooltip name="ДатаExtendedTooltip" id="112"/>
 									</InputField>
 									<InputField name="Номер" id="1">
-										<DataPath>1/-2</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<HorizontalStretch>false</HorizontalStretch>
 										<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
@@ -1079,7 +1132,6 @@
 				<EnableStartDrag>true</EnableStartDrag>
 				<EnableDrag>true</EnableDrag>
 				<FileDragMode>AsFile</FileDragMode>
-				<DataPath>1/0:267ea681-3689-4d34-99a6-d241b24d8d90</DataPath>
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -1146,7 +1198,6 @@
 				</SearchControlAddition>
 				<ChildItems>
 					<LabelField name="СотрудникиНомерСтроки" id="20">
-						<DataPath>1/0:267ea681-3689-4d34-99a6-d241b24d8d90/-2</DataPath>
 						<EditMode>EnterOnInput</EditMode>
 						<ContextMenu name="СотрудникиНомерСтрокиКонтекстноеМеню" id="21"/>
 						<ExtendedTooltip name="СотрудникиНомерСтрокиExtendedTooltip" id="116"/>
@@ -1165,7 +1216,6 @@
 						<ExtendedTooltip name="СотрудникиСотрудникВидЗанятостиГруппаExtendedTooltip" id="117"/>
 						<ChildItems>
 							<InputField name="СотрудникиСотрудник" id="22">
-								<DataPath>1/0:267ea681-3689-4d34-99a6-d241b24d8d90/0:bc812754-a09e-4bb8-b27e-b78520b5fb67</DataPath>
 								<EditMode>EnterOnInput</EditMode>
 								<ContextMenu name="СотрудникиСотрудникКонтекстноеМеню" id="23"/>
 								<ExtendedTooltip name="СотрудникиСотрудникExtendedTooltip" id="118"/>
@@ -1191,7 +1241,6 @@
 										<ExtendedTooltip name="СотрудникиВидЗанятостиExtendedTooltip" id="119"/>
 									</InputField>
 									<InputField name="СотрудникиДатаПриема" id="104">
-										<DataPath>1/0:267ea681-3689-4d34-99a6-d241b24d8d90/8:5bdad865-f2c5-434b-8041-ba4aad3b6687</DataPath>
 										<SkipOnInput>true</SkipOnInput>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>10</Width>
@@ -1240,24 +1289,90 @@
 								<ContextMenu name="СотрудникиДолжностьПоШтатномуРасписаниюКонтекстноеМеню" id="29"/>
 								<ExtendedTooltip name="СотрудникиДолжностьПоШтатномуРасписаниюExtendedTooltip" id="123"/>
 							</InputField>
+							<ColumnGroup name="СотрудникиОвобождатьСтавкуГруппа" id="226">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Сотрудники овобождать ставку группа</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Employees release rate group</v8:content>
+									</v8:item>
+								</Title>
+								<Group>Horizontal</Group>
+								<ExtendedTooltip name="СотрудникиОвобождатьСтавкуГруппаРасширеннаяПодсказка" id="227"/>
+								<ChildItems>
+									<CheckBoxField name="СотрудникиОсвобождатьСтавку" id="228">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Освобождена</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Released</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Освобождена на время 
+отпуска по уходу за ребенком</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Released for 
+child care leave</v8:content>
+											</v8:item>
+										</ToolTip>
+										<EditMode>EnterOnInput</EditMode>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="СотрудникиОсвобождатьСтавкуКонтекстноеМеню" id="229"/>
+										<ExtendedTooltip name="СотрудникиОсвобождатьСтавкуРасширеннаяПодсказка" id="230"/>
+									</CheckBoxField>
+									<InputField name="СотрудникиПланируемаяДатаВозврата" id="231">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Отп. по уходу до</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Care leave till</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Предполагаемая дата окончания отпуска по уходу за ребенком</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>End date of child care leave</v8:content>
+											</v8:item>
+										</ToolTip>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="СотрудникиПланируемаяДатаВозвратаКонтекстноеМеню" id="232"/>
+										<ExtendedTooltip name="СотрудникиПланируемаяДатаВозвратаРасширеннаяПодсказка" id="233"/>
+									</InputField>
+								</ChildItems>
+							</ColumnGroup>
 						</ChildItems>
 					</ColumnGroup>
 					<LabelField name="СотрудникиПредставлениеЗарплаты" id="91">
-						<DataPath>1/0:267ea681-3689-4d34-99a6-d241b24d8d90/2:5bdad865-f2c5-434b-8041-ba4aad3b6687</DataPath>
 						<EditMode>EnterOnInput</EditMode>
 						<CellHyperlink>true</CellHyperlink>
 						<ContextMenu name="СотрудникиПредставлениеЗарплатыКонтекстноеМеню" id="92"/>
 						<ExtendedTooltip name="СотрудникиПредставлениеЗарплатыExtendedTooltip" id="125"/>
 					</LabelField>
 					<LabelField name="СотрудникиПредставлениеПересчетаТарифныхСтавок" id="141">
-						<DataPath>1/0:267ea681-3689-4d34-99a6-d241b24d8d90/3:5bdad865-f2c5-434b-8041-ba4aad3b6687</DataPath>
 						<EditMode>EnterOnInput</EditMode>
 						<CellHyperlink>true</CellHyperlink>
 						<ContextMenu name="СотрудникиПредставлениеПересчетаТарифныхСтавокКонтекстноеМеню" id="142"/>
 						<ExtendedTooltip name="СотрудникиПредставлениеПересчетаТарифныхСтавокРасширеннаяПодсказка" id="143"/>
 					</LabelField>
 					<LabelField name="СотрудникиКоличествоСтавок" id="205">
-						<DataPath>1/0:267ea681-3689-4d34-99a6-d241b24d8d90/7:5bdad865-f2c5-434b-8041-ba4aad3b6687</DataPath>
 						<EditMode>EnterOnInput</EditMode>
 						<CellHyperlink>true</CellHyperlink>
 						<Hiperlink>true</Hiperlink>
@@ -1265,7 +1380,6 @@
 						<ExtendedTooltip name="СотрудникиКоличествоСтавокРасширеннаяПодсказка" id="207"/>
 					</LabelField>
 					<LabelField name="СотрудникиПредставлениеАванса" id="93">
-						<DataPath>1/0:267ea681-3689-4d34-99a6-d241b24d8d90/1:5bdad865-f2c5-434b-8041-ba4aad3b6687</DataPath>
 						<EditMode>EnterOnInput</EditMode>
 						<CellHyperlink>true</CellHyperlink>
 						<ContextMenu name="СотрудникиПредставлениеАвансаКонтекстноеМеню" id="94"/>
@@ -1310,14 +1424,12 @@
 						<ExtendedTooltip name="СотрудникиРазрядКатегорияРасширеннаяПодсказка" id="146"/>
 					</InputField>
 					<LabelField name="СотрудникиПредставлениеПраваНаОтпуск" id="97">
-						<DataPath>1/0:267ea681-3689-4d34-99a6-d241b24d8d90/4:5bdad865-f2c5-434b-8041-ba4aad3b6687</DataPath>
 						<EditMode>EnterOnInput</EditMode>
 						<CellHyperlink>true</CellHyperlink>
 						<ContextMenu name="СотрудникиПредставлениеПраваНаОтпускКонтекстноеМеню" id="98"/>
 						<ExtendedTooltip name="СотрудникиПредставлениеПраваНаОтпускExtendedTooltip" id="129"/>
 					</LabelField>
 					<InputField name="СотрудникиПредставлениеЛьгот" id="197">
-						<DataPath>1/0:267ea681-3689-4d34-99a6-d241b24d8d90/6:5bdad865-f2c5-434b-8041-ba4aad3b6687</DataPath>
 						<Visible>false</Visible>
 						<ReadOnly>true</ReadOnly>
 						<EditMode>EnterOnInput</EditMode>
@@ -1381,7 +1493,7 @@
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Additional information</v8:content>
+						<v8:content>More</v8:content>
 					</v8:item>
 				</Title>
 				<Group>Vertical</Group>

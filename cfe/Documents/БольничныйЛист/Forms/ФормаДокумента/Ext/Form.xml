@@ -111,7 +111,7 @@
 							<ExtendedTooltip name="МесяцОрганизацияРасширеннаяПодсказка" id="723"/>
 							<ChildItems>
 								<InputField name="ПериодРегистрации" id="284">
-									<DataPath>10</DataPath>
+									<DataPath>МесяцНачисленияСтрокой</DataPath>
 									<Width>13</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ChoiceButton>true</ChoiceButton>
@@ -290,7 +290,7 @@
 					</ChildItems>
 				</CommandBar>
 				<LabelField name="ЗаголовокГиперссылкиЭЛН" id="1270">
-					<DataPath>64</DataPath>
+					<DataPath>ЗаголовокГиперссылкиЭЛН</DataPath>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -439,7 +439,7 @@
 											<ExtendedTooltip name="ЯвляетсяПродолжениемБолезниExtendedTooltip" id="587"/>
 										</CheckBoxField>
 										<LabelField name="НадписьПервичныйЛистокНетрудоспособности" id="544">
-											<DataPath>18</DataPath>
+											<DataPath>НадписьПервичныйЛистокНетрудоспособности</DataPath>
 											<TitleLocation>None</TitleLocation>
 											<Hiperlink>true</Hiperlink>
 											<ContextMenu name="НадписьПервичныйЛистокНетрудоспособностиКонтекстноеМеню" id="545"/>
@@ -550,9 +550,8 @@
 																	<ExtendedTooltip name="ДатаОкончанияExtendedTooltip" id="583"/>
 																</InputField>
 																<LabelField name="НадписьДнейОсвобожденияОтРаботы" id="539">
-																	<DataPath>11</DataPath>
+																	<DataPath>НадписьДнейОсвобожденияОтРаботы</DataPath>
 																	<TitleLocation>None</TitleLocation>
-																	<Width>10</Width>
 																	<HorizontalStretch>true</HorizontalStretch>
 																	<ContextMenu name="НадписьДнейОсвобожденияОтРаботыКонтекстноеМеню" id="540"/>
 																	<ExtendedTooltip name="НадписьДнейОсвобожденияОтРаботыExtendedTooltip" id="584"/>
@@ -570,52 +569,52 @@
 												</UsualGroup>
 											</ChildItems>
 										</UsualGroup>
-										<Pages name="СтраницыДополненияПричиныНетрудоспособности" id="534">
+										<Pages name="СтраницыУточнениеПричины" id="1316">
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Страницы дополнения причины нетрудоспособности</v8:content>
+													<v8:content>Страницы уточнение причины</v8:content>
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Pages supplements reasons for incapacity for work</v8:content>
+													<v8:content>Page reason clarification</v8:content>
 												</v8:item>
 											</Title>
 											<PagesRepresentation>None</PagesRepresentation>
-											<ExtendedTooltip name="СтраницыДополненияПричиныНетрудоспособностиExtendedTooltip" id="595"/>
+											<ExtendedTooltip name="СтраницыУточнениеПричиныРасширеннаяПодсказка" id="1318"/>
 											<ChildItems>
-												<Page name="СтраницаПоУмолчанию" id="536">
+												<Page name="СтраницаУточнениеПричиныНет" id="1312">
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Страница по умолчанию</v8:content>
+															<v8:content>Страница уточнение причины нет</v8:content>
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>Default page</v8:content>
+															<v8:content>Page reason clarification none</v8:content>
 														</v8:item>
 													</Title>
-													<ExtendedTooltip name="СтраницаПоУмолчаниюExtendedTooltip" id="596"/>
+													<ExtendedTooltip name="СтраницаУточнениеПричиныНетРасширеннаяПодсказка" id="1319"/>
 													<ChildItems>
-														<LabelDecoration name="ДекорацияСтраницыПоУмолчанию" id="537">
+														<LabelDecoration name="ПустаяДекорация" id="1309">
 															<Enabled>false</Enabled>
-															<ContextMenu name="ДекорацияСтраницыПоУмолчаниюКонтекстноеМеню" id="538"/>
-															<ExtendedTooltip name="ДекорацияСтраницыПоУмолчаниюExtendedTooltip" id="597"/>
+															<ContextMenu name="ПустаяДекорацияКонтекстноеМеню" id="1321"/>
+															<ExtendedTooltip name="ПустаяДекорацияРасширеннаяПодсказка" id="1322"/>
 														</LabelDecoration>
 													</ChildItems>
 												</Page>
-												<Page name="СтраницаБеременностьИРоды" id="535">
+												<Page name="СтраницаУточнениеПричиныПоБеременностиИРодам" id="1314">
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Страница беременность и роды</v8:content>
+															<v8:content>Страница уточнение причины по беременности и родам</v8:content>
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>Page pregnancy and childbirth</v8:content>
+															<v8:content>Page reason clarification due to pregnancy and birth</v8:content>
 														</v8:item>
 													</Title>
-													<ExtendedTooltip name="СтраницаБеременностьИРодыExtendedTooltip" id="601"/>
+													<ExtendedTooltip name="СтраницаУточнениеПричиныПоБеременностиИРодамРасширеннаяПодсказка" id="1320"/>
 													<ChildItems>
 														<CheckBoxField name="РасчетПоПравилам2010Года" id="505">
 															<DataPath>1/0:fcf68edf-aac9-458a-aed8-c77c26fe3970</DataPath>
@@ -631,6 +630,47 @@
 															<ContextMenu name="ОсвобождатьСтавкуКонтекстноеМеню" id="778"/>
 															<ExtendedTooltip name="ОсвобождатьСтавкуРасширеннаяПодсказка" id="779"/>
 														</CheckBoxField>
+													</ChildItems>
+												</Page>
+												<Page name="СтраницаУточнениеПричиныКарантин" id="1300">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Страница уточнение причины карантин</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Page reason clarification quarantine</v8:content>
+														</v8:item>
+													</Title>
+													<ExtendedTooltip name="СтраницаУточнениеПричиныКарантинРасширеннаяПодсказка" id="1301"/>
+													<ChildItems>
+														<UsualGroup name="ГруппаКарантинПоКоронавирусу" id="1302">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Карантин по коронавирусу</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Quarantine due to Coronavirus</v8:content>
+																</v8:item>
+															</Title>
+															<Group>AlwaysHorizontal</Group>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<BackColor>style:ФонУправляющегоПоля</BackColor>
+															<ExtendedTooltip name="ГруппаКарантинПоКоронавирусуРасширеннаяПодсказка" id="1303"/>
+															<ChildItems>
+																<CheckBoxField name="КарантинПоКоронавирусу" id="1304">
+																	<DataPath>1000001/0:a9b6872e-d35f-4a1a-8362-5f777de11e6f</DataPath>
+																	<TitleLocation>Right</TitleLocation>
+																	<CheckBoxType>Auto</CheckBoxType>
+																	<ContextMenu name="КарантинПоКоронавирусуКонтекстноеМеню" id="1305"/>
+																	<ExtendedTooltip name="КарантинПоКоронавирусуРасширеннаяПодсказка" id="1306"/>
+																</CheckBoxField>
+															</ChildItems>
+														</UsualGroup>
 													</ChildItems>
 												</Page>
 											</ChildItems>
@@ -907,7 +947,7 @@ from work were changed).</v8:content>
 											<ExtendedTooltip name="НачисленоГруппаExtendedTooltip" id="641"/>
 											<ChildItems>
 												<InputField name="НачисленоИтог" id="404">
-													<DataPath>6</DataPath>
+													<DataPath>НачисленоИтог</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<HorizontalAlign>Right</HorizontalAlign>
 													<Width>10</Width>
@@ -915,7 +955,7 @@ from work were changed).</v8:content>
 													<ExtendedTooltip name="НачисленоИтогExtendedTooltip" id="642"/>
 												</InputField>
 												<InputField name="НачисленоРаботодатель" id="294">
-													<DataPath>2</DataPath>
+													<DataPath>НачисленоРаботодатель</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<HorizontalAlign>Right</HorizontalAlign>
 													<Width>10</Width>
@@ -923,7 +963,7 @@ from work were changed).</v8:content>
 													<ExtendedTooltip name="НачисленоРаботодательExtendedTooltip" id="643"/>
 												</InputField>
 												<InputField name="НачисленоФСС" id="296">
-													<DataPath>5</DataPath>
+													<DataPath>НачисленоФСС</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<HorizontalAlign>Right</HorizontalAlign>
 													<Width>10</Width>
@@ -948,7 +988,7 @@ from work were changed).</v8:content>
 											<ExtendedTooltip name="УдержаноГруппаExtendedTooltip" id="646"/>
 											<ChildItems>
 												<InputField name="УдержаноВсего" id="522">
-													<DataPath>22</DataPath>
+													<DataPath>УдержаноИтог</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<Title>
 														<v8:item>
@@ -981,7 +1021,7 @@ from work were changed).</v8:content>
 													<ExtendedTooltip name="НДФЛИзменитьExtendedTooltip" id="648"/>
 													<ChildItems>
 														<InputField name="НДФЛ" id="525">
-															<DataPath>17</DataPath>
+															<DataPath>НДФЛ</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<Width>10</Width>
 															<ContextMenu name="НДФЛКонтекстноеМеню" id="526"/>
@@ -1012,7 +1052,7 @@ from work were changed).</v8:content>
 													<ExtendedTooltip name="УдержанияИзменитьExtendedTooltip" id="651"/>
 													<ChildItems>
 														<InputField name="ПрочиеУдержания" id="561">
-															<DataPath>23</DataPath>
+															<DataPath>ПрочиеУдержания</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<Title>
 																<v8:item>
@@ -1054,7 +1094,7 @@ from work were changed).</v8:content>
 											<ExtendedTooltip name="ПерерасчетГруппаExtendedTooltip" id="654"/>
 											<ChildItems>
 												<InputField name="ПерерасчетИтог" id="298">
-													<DataPath>3</DataPath>
+													<DataPath>ПерерасчетИтог</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<Title>
 														<v8:item>
@@ -1085,16 +1125,6 @@ from work were changed).</v8:content>
 													<v8:content>Average earnings</v8:content>
 												</v8:item>
 											</Title>
-											<ToolTip>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Средний заработок группа</v8:content>
-												</v8:item>
-												<v8:item>
-													<v8:lang>en</v8:lang>
-													<v8:content>Average earnings group</v8:content>
-												</v8:item>
-											</ToolTip>
 											<Group>Vertical</Group>
 											<Representation>None</Representation>
 											<ExtendedTooltip name="СреднийЗаработокГруппаРасширеннаяПодсказка" id="656"/>
@@ -1169,7 +1199,7 @@ from work were changed).</v8:content>
 													<ExtendedTooltip name="ЗаполненностьДанныхИнфоExtendedTooltip" id="657"/>
 													<ChildItems>
 														<PictureField name="ЗаполненностьДанныхКартинка" id="706">
-															<DataPath>27</DataPath>
+															<DataPath>ЗаполненностьДанныхКартинка</DataPath>
 															<TitleLocation>None</TitleLocation>
 															<Width>2</Width>
 															<Height>1</Height>
@@ -1183,7 +1213,7 @@ from work were changed).</v8:content>
 															<ExtendedTooltip name="ЗаполненностьДанныхКартинкаРасширеннаяПодсказка" id="708"/>
 														</PictureField>
 														<LabelField name="ЗаполненностьДанныхИнформационныйТекст" id="401">
-															<DataPath>12</DataPath>
+															<DataPath>ЗаполненностьДанныхИнформационныйТекст</DataPath>
 															<TitleLocation>None</TitleLocation>
 															<Width>5</Width>
 															<AutoMaxWidth>false</AutoMaxWidth>
@@ -1235,7 +1265,7 @@ from work were changed).</v8:content>
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>Edit</v8:content>
+															<v8:content>Change</v8:content>
 														</v8:item>
 													</Title>
 													<ExtendedTooltip name="ОткрытьДенежноеСодержаниеРасширеннаяПодсказка" id="818"/>
@@ -1331,7 +1361,7 @@ from work were changed).</v8:content>
 							<ExtendedTooltip name="КорректировкаВыплатыГруппаРасширеннаяПодсказка" id="1257"/>
 							<ChildItems>
 								<InputField name="КорректировкаВыплаты" id="1260">
-									<DataPath>63</DataPath>
+									<DataPath>КорректировкаВыплаты</DataPath>
 									<Width>10</Width>
 									<ContextMenu name="КорректировкаВыплатыКонтекстноеМеню" id="1261"/>
 									<ExtendedTooltip name="КорректировкаВыплатыРасширеннаяПодсказка" id="1262"/>
@@ -1482,7 +1512,7 @@ from work were changed).</v8:content>
 													<ExtendedTooltip name="ДатаОкончанияРодственник1РасширеннаяПодсказка" id="862"/>
 												</InputField>
 												<LabelField name="НадписьДнейБолезниПервыйРодственник" id="873">
-													<DataPath>57</DataPath>
+													<DataPath>НадписьДнейБолезниПервыйРодственник</DataPath>
 													<TitleLocation>None</TitleLocation>
 													<Width>10</Width>
 													<HorizontalStretch>false</HorizontalStretch>
@@ -1494,7 +1524,7 @@ from work were changed).</v8:content>
 									</ChildItems>
 								</UsualGroup>
 								<LabelField name="ОстатокОплачиваемыхДнейУходаЗаРодственником1" id="837">
-									<DataPath>55</DataPath>
+									<DataPath>ОстатокОплачиваемыхДнейУходаЗаРодственником1</DataPath>
 									<HorizontalAlign>Center</HorizontalAlign>
 									<ContextMenu name="ОстатокОплачиваемыхДнейУходаЗаРодственником1КонтекстноеМеню" id="838"/>
 									<ExtendedTooltip name="ОстатокОплачиваемыхДнейУходаЗаРодственником1РасширеннаяПодсказка" id="839"/>
@@ -1615,7 +1645,7 @@ from work were changed).</v8:content>
 													<ExtendedTooltip name="ДатаОкончанияРодственник2РасширеннаяПодсказка" id="870"/>
 												</InputField>
 												<LabelField name="НадписьДнейБолезниВторойРодственник" id="876">
-													<DataPath>58</DataPath>
+													<DataPath>НадписьДнейБолезниВторойРодственник</DataPath>
 													<TitleLocation>None</TitleLocation>
 													<Width>10</Width>
 													<HorizontalStretch>false</HorizontalStretch>
@@ -1627,7 +1657,7 @@ from work were changed).</v8:content>
 									</ChildItems>
 								</UsualGroup>
 								<LabelField name="ОстатокОплачиваемыхДнейУходаЗаРодственником2" id="840">
-									<DataPath>56</DataPath>
+									<DataPath>ОстатокОплачиваемыхДнейУходаЗаРодственником2</DataPath>
 									<ToolTipRepresentation>Button</ToolTipRepresentation>
 									<HorizontalAlign>Center</HorizontalAlign>
 									<ContextMenu name="ОстатокОплачиваемыхДнейУходаЗаРодственником2КонтекстноеМеню" id="841"/>
@@ -1722,7 +1752,7 @@ from work were changed).</v8:content>
 											<ExtendedTooltip name="ДатаОкончанияОплатыExtendedTooltip" id="611"/>
 										</InputField>
 										<LabelField name="НадписьДнейОплатыПособия" id="549">
-											<DataPath>19</DataPath>
+											<DataPath>НадписьДнейОплатыПособия</DataPath>
 											<TitleLocation>None</TitleLocation>
 											<Width>4</Width>
 											<ContextMenu name="НадписьДнейОплатыПособияКонтекстноеМеню" id="550"/>
@@ -1748,7 +1778,7 @@ from work were changed).</v8:content>
 									<ExtendedTooltip name="ГруппаСтажПроцентрОграничениеРасширеннаяПодсказка" id="735"/>
 									<ChildItems>
 										<LabelField name="НадписьСтаж" id="553">
-											<DataPath>20</DataPath>
+											<DataPath>НадписьСтаж</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -2361,6 +2391,12 @@ from work were changed).</v8:content>
 									<ContextMenu name="НачисленияПодразделениеКонтекстноеМеню" id="1246"/>
 									<ExtendedTooltip name="НачисленияПодразделениеРасширеннаяПодсказка" id="1247"/>
 								</InputField>
+								<InputField name="НачисленияМестоПолученияДохода" id="1307">
+									<DataPath>1000001/0:05602073-4658-455e-9b9c-81a0456ece4e/0:c2cdb1c5-bbd0-41fb-910c-cc1d04041cd9</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НачисленияМестоПолученияДоходаКонтекстноеМеню" id="1295"/>
+									<ExtendedTooltip name="НачисленияМестоПолученияДоходаРасширеннаяПодсказка" id="1323"/>
+								</InputField>
 								<InputField name="НачисленияДокументОснование" id="849">
 									<DataPath>1/0:21377ca5-9dff-4d75-95ff-b32c6468408f/0:cba08f70-101e-4fed-bc97-6f95a073efd1</DataPath>
 									<Title>
@@ -2370,7 +2406,7 @@ from work were changed).</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Basis</v8:content>
+											<v8:content>Base</v8:content>
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
@@ -2570,7 +2606,7 @@ from work were changed).</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Basis</v8:content>
+											<v8:content>Base</v8:content>
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
@@ -2741,6 +2777,12 @@ from work were changed).</v8:content>
 										</InputField>
 									</ChildItems>
 								</ColumnGroup>
+								<InputField name="НачисленияПерерасчетМестоПолученияДохода" id="1297">
+									<DataPath>1000001/0:de5d18a7-1f02-4a98-a9f6-f645087c90be/0:c969a2b5-880c-484a-b73a-830678bb3ed4</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НачисленияПерерасчетМестоПолученияДоходаКонтекстноеМеню" id="1298"/>
+									<ExtendedTooltip name="НачисленияПерерасчетМестоПолученияДоходаРасширеннаяПодсказка" id="1299"/>
+								</InputField>
 								<InputField name="НачисленияПерерасчетДокументОснование" id="852">
 									<DataPath>1/0:df4378d6-7b71-4247-80d3-1567c6e491c0/0:6373bcb2-a324-4dd7-ab64-4c6f82373602</DataPath>
 									<Title>
@@ -2750,7 +2792,7 @@ from work were changed).</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Basis</v8:content>
+											<v8:content>Base</v8:content>
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
@@ -2773,20 +2815,10 @@ from work were changed).</v8:content>
 							<v8:content>SSF pilot project </v8:content>
 						</v8:item>
 					</Title>
-					<ToolTip>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Страница пилотный проект ФСС</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Page pilot project SSF</v8:content>
-						</v8:item>
-					</ToolTip>
 					<ExtendedTooltip name="СтраницаПилотныйПроектФССРасширеннаяПодсказка" id="664"/>
 					<ChildItems>
 						<LabelField name="ГиперссылкаВводДополнительныхДанных" id="463">
-							<DataPath>16</DataPath>
+							<DataPath>ГиперссылкаВводДополнительныхДанных</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -2815,7 +2847,7 @@ from work were changed).</v8:content>
 							<ExtendedTooltip name="ГиперссылкаВводДополнительныхДанныхExtendedTooltip" id="669"/>
 						</LabelField>
 						<LabelField name="ГиперссылкаЗаявлениеСотрудникаНаВыплатуПособия" id="461">
-							<DataPath>66</DataPath>
+							<DataPath>ГиперссылкаЗаявлениеСотрудникаНаВыплатуПособия</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<ToolTip>
 								<v8:item>
@@ -2847,7 +2879,7 @@ from work were changed).</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Cellar</v8:content>
+					<v8:content>Footer</v8:content>
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
@@ -3023,16 +3055,6 @@ from work were changed).</v8:content>
 			</FunctionalOptions>
 		</Attribute>
 		<Attribute name="РазмерОграниченияПособия" id="1000005">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Размер ограничения пособия</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Allowance limit</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
 				<v8:NumberQualifiers>
@@ -3043,16 +3065,6 @@ from work were changed).</v8:content>
 			</Type>
 		</Attribute>
 		<Attribute name="НачисленияПерерасчетПодробно" id="1000006">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Начисления перерасчет подробно</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Accruals recalculation details</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
@@ -3123,16 +3135,6 @@ from work were changed).</v8:content>
 			</FunctionalOptions>
 		</Attribute>
 		<Attribute name="ЗаголовокГиперссылкиЗаявления" id="1000010">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Ввести заявление сотрудника на выплату пособия</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Enter an employee allowance payment request</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
 				<v8:StringQualifiers>
@@ -3142,16 +3144,6 @@ from work were changed).</v8:content>
 			</Type>
 		</Attribute>
 		<Attribute name="ЗаявлениеНаВыплатуПособия" id="1000011">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Заявление на выплату пособия</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Allowance payment request</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:TypeId>ecb9fdda-e48f-4ca8-972b-f6e9f9cf5d55</v8:TypeId>
 			</Type>
@@ -3271,16 +3263,6 @@ from work were changed).</v8:content>
 			</FunctionalOptions>
 		</Attribute>
 		<Attribute name="ДатаУвольненияСотрудника" id="1000018">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Дата увольнения сотрудника</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Date of employee termination of employment</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:dateTime</v8:Type>
 				<v8:DateQualifiers>
@@ -3335,31 +3317,11 @@ from work were changed).</v8:content>
 			</FunctionalOptions>
 		</Attribute>
 		<Attribute name="РегистрацияНачисленийДоступна" id="1000021">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Регистрация начислений доступна</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Accrual registration is available</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="ДоступноИзменение" id="1000022">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Доступно изменение</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Change is available</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
@@ -3383,162 +3345,52 @@ from work were changed).</v8:content>
 			</FunctionalOptions>
 		</Attribute>
 		<Attribute name="ИспользуетсяРасчетЗарплаты" id="1000024">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Используется расчет зарплаты</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Payroll is used</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="РаботаВБюджетномУчреждении" id="1000025">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Работа в бюджетном учреждении</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Work in budgetary institution</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="ОграниченияНаУровнеЗаписей" id="1000026">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Ограничения на уровне записей</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Restrictions on the record level</v8:content>
-				</v8:item>
-			</Title>
 			<Type/>
 		</Attribute>
 		<Attribute name="РасчетНеобходимоВыполнить" id="1000027">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Расчет необходимо выполнить</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>You need to perform calculation</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="НеобходимоПерезаполнитьНачисления" id="1000028">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Необходимо перезаполнить начисления</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Refill accruals</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="ДляСотрудникаВведенСтраховойСтаж" id="1000029">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Для сотрудника введен страховой стаж</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Pensionable service for employee is entered</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="РассчитыватьДокументыПриРедактировании" id="1000030">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Рассчитывать документы при редактировании</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Calculate documents on editing</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="ТребуетсяОбновитьДанныеУчетаСреднегоЗаработка" id="1000031">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Требуется обновить данные учета среднего заработка</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Update accounting data of average earnings</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="ЗаполнениеВыполнено" id="1000032">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Заполнение выполнено</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Population is executed</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="НазначенияРасчетаДенежногоСодержания" id="1000033">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Назначения расчета денежного содержания</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Assignments of monetary pay calculation</v8:content>
-				</v8:item>
-			</Title>
 			<Type/>
 		</Attribute>
 		<Attribute name="ВариантДоплаты" id="1000034">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Вариант доплаты</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Extra pay option</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:decimal</v8:Type>
 				<v8:NumberQualifiers>
@@ -3549,121 +3401,41 @@ from work were changed).</v8:content>
 			</Type>
 		</Attribute>
 		<Attribute name="ДоплачиватьДоСохраняемогоДенежногоСодержанияЗаДниБолезни" id="1000035">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Доплачивать до сохраняемого денежного содержания за дни болезни</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Pay supplement to retained monetary pay for sick days</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="ДоплачиватьДоСреднегоЗаДниБолезни" id="1000036">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Доплачивать до среднего за дни болезни</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Supplement to average for sick days</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="РеквизитыКДобавлению" id="1000037">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Реквизиты к добавлению</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Attributes for addition</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
 			</Type>
 			<Settings xsi:type="v8:TypeDescription"/>
 		</Attribute>
 		<Attribute name="РеквизитыКУдалению" id="1000038">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Реквизиты к удалению</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Attributes for deletion</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
 			</Type>
 			<Settings xsi:type="v8:TypeDescription"/>
 		</Attribute>
 		<Attribute name="ДокументСторнирован" id="1000039">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Документ сторнирован</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Document is reversed</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="ДокументСторно" id="1000040">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Документ сторно</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Document storno</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:TypeId>0055c732-718f-4a32-a013-e8ec8d64a887</v8:TypeId>
 			</Type>
 		</Attribute>
 		<Attribute name="КонтролируемыеПоляНачисления" id="1000041">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Контролируемые поля начисления</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Accrual controlled fields</v8:content>
-				</v8:item>
-			</Title>
 			<Type/>
 		</Attribute>
 		<Attribute name="КонтролируемыеПоляНачисленияПерерасчет" id="1000042">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Контролируемые поля начисления перерасчет</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Accrual controlled fields recalculation</v8:content>
-				</v8:item>
-			</Title>
 			<Type/>
 		</Attribute>
 		<Attribute name="ОстатокОплачиваемыхДнейУходаЗаРодственником1" id="1000043">
@@ -3725,46 +3497,16 @@ from work were changed).</v8:content>
 			</Type>
 		</Attribute>
 		<Attribute name="ОкончательныйРасчетНДФЛ" id="1000047">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Окончательный расчет НДФЛ</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>PIT final calculation</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
 		</Attribute>
 		<Attribute name="ИзмененныеДанные" id="1000048">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Измененные данные</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Changed data</v8:content>
-				</v8:item>
-			</Title>
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
 			</Type>
 			<Columns>
 				<Column name="ИмяТаблицы" id="1">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Имя таблицы</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Table name</v8:content>
-						</v8:item>
-					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
@@ -3774,46 +3516,16 @@ from work were changed).</v8:content>
 					</Type>
 				</Column>
 				<Column name="ФизическоеЛицо" id="2">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Физическое лицо</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Individual</v8:content>
-						</v8:item>
-					</Title>
 					<Type>
 						<v8:TypeId>cedad008-72f7-4948-9729-1d52bc8841e6</v8:TypeId>
 					</Type>
 				</Column>
 				<Column name="Сотрудник" id="3">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Сотрудник</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Employee</v8:content>
-						</v8:item>
-					</Title>
 					<Type>
 						<v8:TypeId>277259a2-b7f1-4387-8d39-2b5988932cdf</v8:TypeId>
 					</Type>
 				</Column>
 				<Column name="ВидРасчета" id="4">
-					<Title>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Вид расчета</v8:content>
-						</v8:item>
-						<v8:item>
-							<v8:lang>en</v8:lang>
-							<v8:content>Calculation kind</v8:content>
-						</v8:item>
-					</Title>
 					<Type>
 						<v8:TypeId>9b261ec4-bb7c-4588-b017-b4d0d967251d</v8:TypeId>
 						<v8:TypeId>ad1f59e5-717c-4f14-8c5e-138d521a4341</v8:TypeId>
@@ -3822,16 +3534,6 @@ from work were changed).</v8:content>
 			</Columns>
 		</Attribute>
 		<Attribute name="ПараметрыПодключаемыхКоманд" id="1000049">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Параметры подключаемых команд</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Connected command parameters</v8:content>
-				</v8:item>
-			</Title>
 			<Type/>
 		</Attribute>
 		<Attribute name="КорректировкаВыплаты" id="1000050">
@@ -3874,16 +3576,6 @@ from work were changed).</v8:content>
 			</Type>
 		</Attribute>
 		<Attribute name="Основание" id="1000052">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Основание</v8:content>
-				</v8:item>
-				<v8:item>
-					<v8:lang>en</v8:lang>
-					<v8:content>Basis</v8:content>
-				</v8:item>
-			</Title>
 			<Type/>
 		</Attribute>
 		<Attribute name="ГиперссылкаЗаявлениеСотрудникаНаВыплатуПособия" id="1000053">
@@ -3944,7 +3636,7 @@ from work were changed).</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Edit</v8:content>
+					<v8:content>Change</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -4037,7 +3729,7 @@ from work were changed).</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Details</v8:content>
+					<v8:content>More</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -4068,7 +3760,7 @@ from work were changed).</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Details</v8:content>
+					<v8:content>More</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -4129,7 +3821,7 @@ from work were changed).</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Edit</v8:content>
+					<v8:content>Change</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -4185,7 +3877,7 @@ from work were changed).</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Write</v8:content>
+					<v8:content>Save</v8:content>
 				</v8:item>
 			</Title>
 			<Shortcut>Ctrl+S</Shortcut>
@@ -4432,7 +4124,7 @@ from work were changed).</v8:content>
 								<ExtendedTooltip name="МесяцОрганизацияРасширеннаяПодсказка" id="723"/>
 								<ChildItems>
 									<InputField name="ПериодРегистрации" id="284">
-										<DataPath>10</DataPath>
+										<DataPath>МесяцНачисленияСтрокой</DataPath>
 										<Width>13</Width>
 										<HorizontalStretch>false</HorizontalStretch>
 										<ChoiceButton>true</ChoiceButton>
@@ -4445,6 +4137,7 @@ from work were changed).</v8:content>
 										<ExtendedTooltip name="ПериодРегистрацииExtendedTooltip" id="574"/>
 									</InputField>
 									<InputField name="Организация" id="282">
+										<DataPath>Объект.Организация</DataPath>
 										<ContextMenu name="ОрганизацияКонтекстноеМеню" id="283"/>
 										<ExtendedTooltip name="ОрганизацияExtendedTooltip" id="575"/>
 									</InputField>
@@ -4467,6 +4160,7 @@ from work were changed).</v8:content>
 								<ExtendedTooltip name="ГруппаСотрудникСтажExtendedTooltip" id="576"/>
 								<ChildItems>
 									<InputField name="Сотрудник" id="13">
+										<DataPath>Объект.Сотрудник</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<AutoMaxWidth>false</AutoMaxWidth>
 										<ContextMenu name="СотрудникКонтекстноеМеню" id="14"/>
@@ -4510,11 +4204,13 @@ from work were changed).</v8:content>
 								<ExtendedTooltip name="ДатаНомерExtendedTooltip" id="590"/>
 								<ChildItems>
 									<InputField name="Дата" id="278">
+										<DataPath>Объект.Date</DataPath>
 										<Width>10</Width>
 										<ContextMenu name="ДатаКонтекстноеМеню" id="279"/>
 										<ExtendedTooltip name="ДатаExtendedTooltip" id="591"/>
 									</InputField>
 									<InputField name="Номер" id="276">
+										<DataPath>Объект.Number</DataPath>
 										<Width>10</Width>
 										<HorizontalStretch>false</HorizontalStretch>
 										<ContextMenu name="НомерКонтекстноеМеню" id="277"/>
@@ -4558,6 +4254,7 @@ from work were changed).</v8:content>
 				<ExtendedTooltip name="ГруппаНомерЛисткаНетрудоспособностиРасширеннаяПодсказка" id="1264"/>
 				<ChildItems>
 					<InputField name="НомерЛисткаНетрудоспособности" id="1265">
+						<DataPath>Объект.НомерЛисткаНетрудоспособности</DataPath>
 						<Width>13</Width>
 						<HorizontalStretch>false</HorizontalStretch>
 						<ContextMenu name="НомерЛисткаНетрудоспособностиКонтекстноеМеню" id="1266"/>
@@ -4606,7 +4303,7 @@ from work were changed).</v8:content>
 						</ChildItems>
 					</CommandBar>
 					<LabelField name="ЗаголовокГиперссылкиЭЛН" id="1270">
-						<DataPath>64</DataPath>
+						<DataPath>ЗаголовокГиперссылкиЭЛН</DataPath>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
@@ -4677,10 +4374,6 @@ from work were changed).</v8:content>
 												<v8:content>Unspecified lengths of service picture</v8:content>
 											</v8:item>
 										</Title>
-										<Picture>
-											<xr:Ref>CommonPicture.Предупреждение</xr:Ref>
-											<xr:LoadTransparent>false</xr:LoadTransparent>
-										</Picture>
 										<FileDragMode>AsFile</FileDragMode>
 										<ContextMenu name="СтажиНеЗаданыКартинкаКонтекстноеМеню" id="783"/>
 										<ExtendedTooltip name="СтажиНеЗаданыКартинкаРасширеннаяПодсказка" id="784"/>
@@ -4736,6 +4429,7 @@ from work were changed).</v8:content>
 										<ExtendedTooltip name="ПервичныйБольничныйExtendedTooltip" id="586"/>
 										<ChildItems>
 											<CheckBoxField name="ЯвляетсяПродолжениемБолезни" id="21">
+												<DataPath>Объект.ЯвляетсяПродолжениемБолезни</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -4754,7 +4448,7 @@ from work were changed).</v8:content>
 												<ExtendedTooltip name="ЯвляетсяПродолжениемБолезниExtendedTooltip" id="587"/>
 											</CheckBoxField>
 											<LabelField name="НадписьПервичныйЛистокНетрудоспособности" id="544">
-												<DataPath>18</DataPath>
+												<DataPath>НадписьПервичныйЛистокНетрудоспособности</DataPath>
 												<TitleLocation>None</TitleLocation>
 												<Hiperlink>true</Hiperlink>
 												<ContextMenu name="НадписьПервичныйЛистокНетрудоспособностиКонтекстноеМеню" id="545"/>
@@ -4811,6 +4505,7 @@ from work were changed).</v8:content>
 														<ExtendedTooltip name="ПричинаНетрудоспособностиГруппаExtendedTooltip" id="579"/>
 														<ChildItems>
 															<InputField name="ПричинаНетрудоспособности" id="17">
+																<DataPath>Объект.ПричинаНетрудоспособности</DataPath>
 																<EditMode>EnterOnInput</EditMode>
 																<ContextMenu name="ПричинаНетрудоспособностиКонтекстноеМеню" id="18"/>
 																<ExtendedTooltip name="ПричинаНетрудоспособностиExtendedTooltip" id="580"/>
@@ -4832,6 +4527,7 @@ from work were changed).</v8:content>
 																<ExtendedTooltip name="ПериодБольничногоExtendedTooltip" id="581"/>
 																<ChildItems>
 																	<InputField name="ДатаНачала" id="27">
+																		<DataPath>Объект.ДатаНачала</DataPath>
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
@@ -4847,6 +4543,7 @@ from work were changed).</v8:content>
 																		<ExtendedTooltip name="ДатаНачалаExtendedTooltip" id="582"/>
 																	</InputField>
 																	<InputField name="ДатаОкончания" id="31">
+																		<DataPath>Объект.ДатаОкончания</DataPath>
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
@@ -4862,9 +4559,10 @@ from work were changed).</v8:content>
 																		<ExtendedTooltip name="ДатаОкончанияExtendedTooltip" id="583"/>
 																	</InputField>
 																	<LabelField name="НадписьДнейОсвобожденияОтРаботы" id="539">
-																		<DataPath>11</DataPath>
+																		<DataPath>НадписьДнейОсвобожденияОтРаботы</DataPath>
 																		<TitleLocation>None</TitleLocation>
-																		<Width>10</Width>
+																		<AutoMaxWidth>false</AutoMaxWidth>
+																		<MaxWidth>10</MaxWidth>
 																		<HorizontalStretch>true</HorizontalStretch>
 																		<ContextMenu name="НадписьДнейОсвобожденияОтРаботыКонтекстноеМеню" id="540"/>
 																		<ExtendedTooltip name="НадписьДнейОсвобожденияОтРаботыExtendedTooltip" id="584"/>
@@ -4872,6 +4570,7 @@ from work were changed).</v8:content>
 																</ChildItems>
 															</UsualGroup>
 															<CheckBoxField name="УчитыватьЗаработокПредыдущихСтрахователей" id="503">
+																<DataPath>Объект.УчитыватьЗаработокПредыдущихСтрахователей</DataPath>
 																<TitleLocation>Right</TitleLocation>
 																<CheckBoxType>Auto</CheckBoxType>
 																<ContextMenu name="УчитыватьЗаработокПредыдущихСтрахователейКонтекстноеМеню" id="504"/>
@@ -4881,65 +4580,108 @@ from work were changed).</v8:content>
 													</UsualGroup>
 												</ChildItems>
 											</UsualGroup>
-											<Pages name="СтраницыДополненияПричиныНетрудоспособности" id="534">
+											<Pages name="СтраницыУточнениеПричины" id="534">
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Страницы дополнения причины нетрудоспособности</v8:content>
+														<v8:content>Страницы уточнение причины</v8:content>
 													</v8:item>
 													<v8:item>
 														<v8:lang>en</v8:lang>
-														<v8:content>Pages supplements reasons for incapacity for work</v8:content>
+														<v8:content>Page reason clarification</v8:content>
 													</v8:item>
 												</Title>
 												<PagesRepresentation>None</PagesRepresentation>
-												<ExtendedTooltip name="СтраницыДополненияПричиныНетрудоспособностиExtendedTooltip" id="595"/>
+												<ExtendedTooltip name="СтраницыУточнениеПричиныРасширеннаяПодсказка" id="595"/>
 												<ChildItems>
-													<Page name="СтраницаПоУмолчанию" id="536">
+													<Page name="СтраницаУточнениеПричиныНет" id="536">
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Страница по умолчанию</v8:content>
+																<v8:content>Страница уточнение причины нет</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>Default page</v8:content>
+																<v8:content>Page reason clarification none</v8:content>
 															</v8:item>
 														</Title>
-														<ExtendedTooltip name="СтраницаПоУмолчаниюExtendedTooltip" id="596"/>
+														<ExtendedTooltip name="СтраницаУточнениеПричиныНетРасширеннаяПодсказка" id="596"/>
 														<ChildItems>
-															<LabelDecoration name="ДекорацияСтраницыПоУмолчанию" id="537">
+															<LabelDecoration name="ПустаяДекорация" id="537">
 																<Enabled>false</Enabled>
-																<ContextMenu name="ДекорацияСтраницыПоУмолчаниюКонтекстноеМеню" id="538"/>
-																<ExtendedTooltip name="ДекорацияСтраницыПоУмолчаниюExtendedTooltip" id="597"/>
+																<ContextMenu name="ПустаяДекорацияКонтекстноеМеню" id="538"/>
+																<ExtendedTooltip name="ПустаяДекорацияРасширеннаяПодсказка" id="597"/>
 															</LabelDecoration>
 														</ChildItems>
 													</Page>
-													<Page name="СтраницаБеременностьИРоды" id="535">
+													<Page name="СтраницаУточнениеПричиныПоБеременностиИРодам" id="535">
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Страница беременность и роды</v8:content>
+																<v8:content>Страница уточнение причины по беременности и родам</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>Page pregnancy and childbirth</v8:content>
+																<v8:content>Page reason clarification due to pregnancy and birth</v8:content>
 															</v8:item>
 														</Title>
-														<ExtendedTooltip name="СтраницаБеременностьИРодыExtendedTooltip" id="601"/>
+														<ExtendedTooltip name="СтраницаУточнениеПричиныПоБеременностиИРодамРасширеннаяПодсказка" id="601"/>
 														<ChildItems>
 															<CheckBoxField name="РасчетПоПравилам2010Года" id="505">
+																<DataPath>Объект.РасчетПоПравилам2010Года</DataPath>
 																<TitleLocation>Right</TitleLocation>
 																<CheckBoxType>Auto</CheckBoxType>
 																<ContextMenu name="РасчетПоПравилам2010ГодаКонтекстноеМеню" id="506"/>
 																<ExtendedTooltip name="РасчетПоПравилам2010ГодаExtendedTooltip" id="602"/>
 															</CheckBoxField>
 															<CheckBoxField name="ОсвобождатьСтавку" id="777">
+																<DataPath>Объект.ОсвобождатьСтавку</DataPath>
 																<TitleLocation>Right</TitleLocation>
 																<CheckBoxType>Auto</CheckBoxType>
 																<ContextMenu name="ОсвобождатьСтавкуКонтекстноеМеню" id="778"/>
 																<ExtendedTooltip name="ОсвобождатьСтавкуРасширеннаяПодсказка" id="779"/>
 															</CheckBoxField>
+														</ChildItems>
+													</Page>
+													<Page name="СтраницаУточнениеПричиныКарантин" id="1300">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Страница уточнение причины карантин</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Page reason clarification quarantine</v8:content>
+															</v8:item>
+														</Title>
+														<ExtendedTooltip name="СтраницаУточнениеПричиныКарантинРасширеннаяПодсказка" id="1301"/>
+														<ChildItems>
+															<UsualGroup name="ГруппаКарантинПоКоронавирусу" id="1302">
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Карантин по коронавирусу</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Quarantine due to Coronavirus</v8:content>
+																	</v8:item>
+																</Title>
+																<Group>AlwaysHorizontal</Group>
+																<Representation>None</Representation>
+																<ShowTitle>false</ShowTitle>
+																<BackColor>style:ФонУправляющегоПоля</BackColor>
+																<ExtendedTooltip name="ГруппаКарантинПоКоронавирусуРасширеннаяПодсказка" id="1303"/>
+																<ChildItems>
+																	<CheckBoxField name="КарантинПоКоронавирусу" id="1304">
+																		<DataPath>Объект.ЭЛНКарантинПоКоронавирусу</DataPath>
+																		<TitleLocation>Right</TitleLocation>
+																		<CheckBoxType>Auto</CheckBoxType>
+																		<ContextMenu name="КарантинПоКоронавирусуКонтекстноеМеню" id="1305"/>
+																		<ExtendedTooltip name="КарантинПоКоронавирусуРасширеннаяПодсказка" id="1306"/>
+																	</CheckBoxField>
+																</ChildItems>
+															</UsualGroup>
 														</ChildItems>
 													</Page>
 												</ChildItems>
@@ -4965,6 +4707,7 @@ from work were changed).</v8:content>
 								<ExtendedTooltip name="ГруппаРассчитатьЗарплатуДоплатуРасширеннаяПодсказка" id="758"/>
 								<ChildItems>
 									<CheckBoxField name="ДоначислитьЗарплатуПриНеобходимости" id="1273">
+										<DataPath>Объект.ДоначислитьЗарплатуПриНеобходимости</DataPath>
 										<TitleLocation>Right</TitleLocation>
 										<ToolTip>
 											<v8:item>
@@ -5001,6 +4744,7 @@ from work were changed).</v8:content>
 										<ExtendedTooltip name="ГруппаЗарплатаДоплатаРасширеннаяПодсказка" id="1277"/>
 										<ChildItems>
 											<CheckBoxField name="РассчитатьЗарплату" id="717">
+												<DataPath>Объект.РассчитатьЗарплату</DataPath>
 												<TitleLocation>Right</TitleLocation>
 												<ToolTip>
 													<v8:item>
@@ -5047,6 +4791,7 @@ from work were changed).</v8:content>
 														<ExtendedTooltip name="ДоплатаДоСреднегоЗаработкаРасширеннаяПодсказка" id="791"/>
 														<ChildItems>
 															<CheckBoxField name="ДоплачиватьДоСреднегоЗаработка" id="792">
+																<DataPath>Объект.ДоплачиватьДоСреднегоЗаработка</DataPath>
 																<Title>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
@@ -5064,6 +4809,7 @@ from work were changed).</v8:content>
 																<ExtendedTooltip name="ДоплачиватьДоСреднегоЗаработкаРасширеннаяПодсказка" id="794"/>
 															</CheckBoxField>
 															<InputField name="ПроцентДоплатыЗаДниНетрудоспособности" id="795">
+																<DataPath>Объект.ПроцентДоплатыЗаДниНетрудоспособности</DataPath>
 																<Title>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
@@ -5095,6 +4841,7 @@ from work were changed).</v8:content>
 														<ExtendedTooltip name="ДоплатаДоДенежногоСодержанияРасширеннаяПодсказка" id="799"/>
 														<ChildItems>
 															<CheckBoxField name="ДоплачиватьДоДенежногоСодержания" id="800">
+																<DataPath>Объект.ДоплачиватьДоДенежногоСодержания</DataPath>
 																<Title>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
@@ -5153,6 +4900,7 @@ from work were changed).</v8:content>
 								<ExtendedTooltip name="ТерриториальныеУсловияРасширеннаяПодсказка" id="1252"/>
 								<ChildItems>
 									<CheckBoxField name="ДоходПолученНаТерриторииРФ" id="1253">
+										<DataPath>Объект.ДоходПолученНаТерриторииРФ</DataPath>
 										<TitleLocation>Right</TitleLocation>
 										<CheckBoxType>Auto</CheckBoxType>
 										<ContextMenu name="ДоходПолученНаТерриторииРФКонтекстноеМеню" id="1254"/>
@@ -5210,7 +4958,7 @@ from work were changed).</v8:content>
 												<ExtendedTooltip name="НачисленоГруппаExtendedTooltip" id="641"/>
 												<ChildItems>
 													<InputField name="НачисленоИтог" id="404">
-														<DataPath>6</DataPath>
+														<DataPath>НачисленоИтог</DataPath>
 														<ReadOnly>true</ReadOnly>
 														<HorizontalAlign>Right</HorizontalAlign>
 														<Width>10</Width>
@@ -5218,7 +4966,7 @@ from work were changed).</v8:content>
 														<ExtendedTooltip name="НачисленоИтогExtendedTooltip" id="642"/>
 													</InputField>
 													<InputField name="НачисленоРаботодатель" id="294">
-														<DataPath>2</DataPath>
+														<DataPath>НачисленоРаботодатель</DataPath>
 														<ReadOnly>true</ReadOnly>
 														<HorizontalAlign>Right</HorizontalAlign>
 														<Width>10</Width>
@@ -5226,7 +4974,7 @@ from work were changed).</v8:content>
 														<ExtendedTooltip name="НачисленоРаботодательExtendedTooltip" id="643"/>
 													</InputField>
 													<InputField name="НачисленоФСС" id="296">
-														<DataPath>5</DataPath>
+														<DataPath>НачисленоФСС</DataPath>
 														<ReadOnly>true</ReadOnly>
 														<HorizontalAlign>Right</HorizontalAlign>
 														<Width>10</Width>
@@ -5251,7 +4999,7 @@ from work were changed).</v8:content>
 												<ExtendedTooltip name="УдержаноГруппаExtendedTooltip" id="646"/>
 												<ChildItems>
 													<InputField name="УдержаноВсего" id="522">
-														<DataPath>22</DataPath>
+														<DataPath>УдержаноИтог</DataPath>
 														<ReadOnly>true</ReadOnly>
 														<Title>
 															<v8:item>
@@ -5284,7 +5032,7 @@ from work were changed).</v8:content>
 														<ExtendedTooltip name="НДФЛИзменитьExtendedTooltip" id="648"/>
 														<ChildItems>
 															<InputField name="НДФЛ" id="525">
-																<DataPath>17</DataPath>
+																<DataPath>НДФЛ</DataPath>
 																<ReadOnly>true</ReadOnly>
 																<Width>10</Width>
 																<ContextMenu name="НДФЛКонтекстноеМеню" id="526"/>
@@ -5315,7 +5063,7 @@ from work were changed).</v8:content>
 														<ExtendedTooltip name="УдержанияИзменитьExtendedTooltip" id="651"/>
 														<ChildItems>
 															<InputField name="ПрочиеУдержания" id="561">
-																<DataPath>23</DataPath>
+																<DataPath>ПрочиеУдержания</DataPath>
 																<ReadOnly>true</ReadOnly>
 																<Title>
 																	<v8:item>
@@ -5357,7 +5105,7 @@ from work were changed).</v8:content>
 												<ExtendedTooltip name="ПерерасчетГруппаExtendedTooltip" id="654"/>
 												<ChildItems>
 													<InputField name="ПерерасчетИтог" id="298">
-														<DataPath>3</DataPath>
+														<DataPath>ПерерасчетИтог</DataPath>
 														<ReadOnly>true</ReadOnly>
 														<Title>
 															<v8:item>
@@ -5388,16 +5136,6 @@ from work were changed).</v8:content>
 														<v8:content>Average earnings</v8:content>
 													</v8:item>
 												</Title>
-												<ToolTip>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Средний заработок группа</v8:content>
-													</v8:item>
-													<v8:item>
-														<v8:lang>en</v8:lang>
-														<v8:content>Average earnings group</v8:content>
-													</v8:item>
-												</ToolTip>
 												<Group>Vertical</Group>
 												<Representation>None</Representation>
 												<ExtendedTooltip name="СреднийЗаработокГруппаРасширеннаяПодсказка" id="656"/>
@@ -5419,6 +5157,7 @@ from work were changed).</v8:content>
 														<ExtendedTooltip name="СреднийЗаработокПоказательExtendedTooltip" id="660"/>
 														<ChildItems>
 															<InputField name="СреднийДневнойЗаработок" id="264">
+																<DataPath>Объект.СреднийДневнойЗаработок</DataPath>
 																<ReadOnly>true</ReadOnly>
 																<Title>
 																	<v8:item>
@@ -5471,7 +5210,7 @@ from work were changed).</v8:content>
 														<ExtendedTooltip name="ЗаполненностьДанныхИнфоExtendedTooltip" id="657"/>
 														<ChildItems>
 															<PictureField name="ЗаполненностьДанныхКартинка" id="706">
-																<DataPath>27</DataPath>
+																<DataPath>ЗаполненностьДанныхКартинка</DataPath>
 																<TitleLocation>None</TitleLocation>
 																<Width>2</Width>
 																<Height>1</Height>
@@ -5485,7 +5224,7 @@ from work were changed).</v8:content>
 																<ExtendedTooltip name="ЗаполненностьДанныхКартинкаРасширеннаяПодсказка" id="708"/>
 															</PictureField>
 															<LabelField name="ЗаполненностьДанныхИнформационныйТекст" id="401">
-																<DataPath>12</DataPath>
+																<DataPath>ЗаполненностьДанныхИнформационныйТекст</DataPath>
 																<TitleLocation>None</TitleLocation>
 																<Width>5</Width>
 																<AutoMaxWidth>false</AutoMaxWidth>
@@ -5519,6 +5258,7 @@ from work were changed).</v8:content>
 												<ExtendedTooltip name="ДенежноеСодержаниеИнфоРасширеннаяПодсказка" id="809"/>
 												<ChildItems>
 													<InputField name="СохраняемоеДенежноеСодержание" id="814">
+														<DataPath>Объект.СохраняемоеДенежноеСодержание</DataPath>
 														<ReadOnly>true</ReadOnly>
 														<TitleLocation>None</TitleLocation>
 														<Width>10</Width>
@@ -5536,7 +5276,7 @@ from work were changed).</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>Edit</v8:content>
+																<v8:content>Change</v8:content>
 															</v8:item>
 														</Title>
 														<ExtendedTooltip name="ОткрытьДенежноеСодержаниеРасширеннаяПодсказка" id="818"/>
@@ -5632,7 +5372,7 @@ from work were changed).</v8:content>
 								<ExtendedTooltip name="КорректировкаВыплатыГруппаРасширеннаяПодсказка" id="1257"/>
 								<ChildItems>
 									<InputField name="КорректировкаВыплаты" id="1260">
-										<DataPath>63</DataPath>
+										<DataPath>КорректировкаВыплаты</DataPath>
 										<Width>10</Width>
 										<ContextMenu name="КорректировкаВыплатыКонтекстноеМеню" id="1261"/>
 										<ExtendedTooltip name="КорректировкаВыплатыРасширеннаяПодсказка" id="1262"/>
@@ -5661,6 +5401,7 @@ from work were changed).</v8:content>
 						<ExtendedTooltip name="УходЗаРодственникамиСтраницаРасширеннаяПодсказка" id="830"/>
 						<ChildItems>
 							<InputField name="СлучайУходаЗаБольнымРебенком" id="53">
+								<DataPath>Объект.СлучайУходаЗаБольнымРебенком</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -5709,6 +5450,7 @@ from work were changed).</v8:content>
 										<ExtendedTooltip name="ГруппаПериодРодственникЗаКоторымОсуществляетсяУход1РасширеннаяПодсказка" id="848"/>
 										<ChildItems>
 											<InputField name="РодственникЗаКоторымОсуществляетсяУход1" id="831">
+												<DataPath>Объект.РодственникЗаКоторымОсуществляетсяУход1</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -5751,6 +5493,7 @@ from work were changed).</v8:content>
 												<ExtendedTooltip name="ГруппаПериодБолезниРодственник1РасширеннаяПодсказка" id="856"/>
 												<ChildItems>
 													<InputField name="ДатаНачалаРодственник1" id="857">
+														<DataPath>Объект.ДатаНачалаРодственник1</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -5765,6 +5508,7 @@ from work were changed).</v8:content>
 														<ExtendedTooltip name="ДатаНачалаРодственник1РасширеннаяПодсказка" id="859"/>
 													</InputField>
 													<InputField name="ДатаОкончанияРодственник1" id="860">
+														<DataPath>Объект.ДатаОкончанияРодственник1</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -5779,7 +5523,7 @@ from work were changed).</v8:content>
 														<ExtendedTooltip name="ДатаОкончанияРодственник1РасширеннаяПодсказка" id="862"/>
 													</InputField>
 													<LabelField name="НадписьДнейБолезниПервыйРодственник" id="873">
-														<DataPath>57</DataPath>
+														<DataPath>НадписьДнейБолезниПервыйРодственник</DataPath>
 														<TitleLocation>None</TitleLocation>
 														<Width>10</Width>
 														<HorizontalStretch>false</HorizontalStretch>
@@ -5791,7 +5535,7 @@ from work were changed).</v8:content>
 										</ChildItems>
 									</UsualGroup>
 									<LabelField name="ОстатокОплачиваемыхДнейУходаЗаРодственником1" id="837">
-										<DataPath>55</DataPath>
+										<DataPath>ОстатокОплачиваемыхДнейУходаЗаРодственником1</DataPath>
 										<HorizontalAlign>Center</HorizontalAlign>
 										<ContextMenu name="ОстатокОплачиваемыхДнейУходаЗаРодственником1КонтекстноеМеню" id="838"/>
 										<ExtendedTooltip name="ОстатокОплачиваемыхДнейУходаЗаРодственником1РасширеннаяПодсказка" id="839"/>
@@ -5840,6 +5584,7 @@ from work were changed).</v8:content>
 										<ExtendedTooltip name="ГруппаРодственникПериодБолезни2РасширеннаяПодсказка" id="872"/>
 										<ChildItems>
 											<InputField name="РодственникЗаКоторымОсуществляетсяУход2" id="834">
+												<DataPath>Объект.РодственникЗаКоторымОсуществляетсяУход2</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -5881,6 +5626,7 @@ from work were changed).</v8:content>
 												<ExtendedTooltip name="ГруппаПериодБолезниРодственник2РасширеннаяПодсказка" id="864"/>
 												<ChildItems>
 													<InputField name="ДатаНачалаРодственник2" id="865">
+														<DataPath>Объект.ДатаНачалаРодственник2</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -5895,6 +5641,7 @@ from work were changed).</v8:content>
 														<ExtendedTooltip name="ДатаНачалаРодственник2РасширеннаяПодсказка" id="867"/>
 													</InputField>
 													<InputField name="ДатаОкончанияРодственник2" id="868">
+														<DataPath>Объект.ДатаОкончанияРодственник2</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -5909,7 +5656,7 @@ from work were changed).</v8:content>
 														<ExtendedTooltip name="ДатаОкончанияРодственник2РасширеннаяПодсказка" id="870"/>
 													</InputField>
 													<LabelField name="НадписьДнейБолезниВторойРодственник" id="876">
-														<DataPath>58</DataPath>
+														<DataPath>НадписьДнейБолезниВторойРодственник</DataPath>
 														<TitleLocation>None</TitleLocation>
 														<Width>10</Width>
 														<HorizontalStretch>false</HorizontalStretch>
@@ -5921,7 +5668,7 @@ from work were changed).</v8:content>
 										</ChildItems>
 									</UsualGroup>
 									<LabelField name="ОстатокОплачиваемыхДнейУходаЗаРодственником2" id="840">
-										<DataPath>56</DataPath>
+										<DataPath>ОстатокОплачиваемыхДнейУходаЗаРодственником2</DataPath>
 										<ToolTipRepresentation>Button</ToolTipRepresentation>
 										<HorizontalAlign>Center</HorizontalAlign>
 										<ContextMenu name="ОстатокОплачиваемыхДнейУходаЗаРодственником2КонтекстноеМеню" id="841"/>
@@ -5978,6 +5725,7 @@ from work were changed).</v8:content>
 										<ExtendedTooltip name="НазначениеПособияГруппаExtendedTooltip" id="608"/>
 										<ChildItems>
 											<CheckBoxField name="НазначитьПособие" id="481">
+												<DataPath>Объект.НазначитьПособие</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -5994,11 +5742,13 @@ from work were changed).</v8:content>
 												<ExtendedTooltip name="НазначитьПособиеExtendedTooltip" id="609"/>
 											</CheckBoxField>
 											<InputField name="ДатаНачалаОплаты" id="486">
+												<DataPath>Объект.ДатаНачалаОплаты</DataPath>
 												<TitleLocation>None</TitleLocation>
 												<ContextMenu name="ДатаНачалаОплатыКонтекстноеМеню" id="487"/>
 												<ExtendedTooltip name="ДатаНачалаОплатыExtendedTooltip" id="610"/>
 											</InputField>
 											<InputField name="ДатаОкончанияОплаты" id="546">
+												<DataPath>Объект.ДатаОкончанияОплаты</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -6013,7 +5763,7 @@ from work were changed).</v8:content>
 												<ExtendedTooltip name="ДатаОкончанияОплатыExtendedTooltip" id="611"/>
 											</InputField>
 											<LabelField name="НадписьДнейОплатыПособия" id="549">
-												<DataPath>19</DataPath>
+												<DataPath>НадписьДнейОплатыПособия</DataPath>
 												<TitleLocation>None</TitleLocation>
 												<Width>4</Width>
 												<ContextMenu name="НадписьДнейОплатыПособияКонтекстноеМеню" id="550"/>
@@ -6039,7 +5789,7 @@ from work were changed).</v8:content>
 										<ExtendedTooltip name="ГруппаСтажПроцентрОграничениеРасширеннаяПодсказка" id="735"/>
 										<ChildItems>
 											<LabelField name="НадписьСтаж" id="553">
-												<DataPath>20</DataPath>
+												<DataPath>НадписьСтаж</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -6055,11 +5805,13 @@ from work were changed).</v8:content>
 												<ExtendedTooltip name="НадписьСтажExtendedTooltip" id="578"/>
 											</LabelField>
 											<InputField name="ПроцентОплаты" id="19">
+												<DataPath>Объект.ПроцентОплаты</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<ContextMenu name="ПроцентОплатыКонтекстноеМеню" id="20"/>
 												<ExtendedTooltip name="ПроцентОплатыExtendedTooltip" id="614"/>
 											</InputField>
 											<InputField name="ОграничениеПособия" id="388">
+												<DataPath>Объект.ОграничениеПособия</DataPath>
 												<HorizontalStretch>false</HorizontalStretch>
 												<ContextMenu name="ОграничениеПособияКонтекстноеМеню" id="389"/>
 												<ExtendedTooltip name="ОграничениеПособияExtendedTooltip" id="616"/>
@@ -6081,6 +5833,7 @@ from work were changed).</v8:content>
 												<ExtendedTooltip name="ДоляКоэффГруппаРасширеннаяПодсказка" id="710"/>
 												<ChildItems>
 													<LabelField name="РайонныйКоэффициентРФНаНачалоСобытия" id="518">
+														<DataPath>Объект.РайонныйКоэффициентРФнаНачалоСобытия</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -6096,6 +5849,7 @@ from work were changed).</v8:content>
 														<ExtendedTooltip name="РайонныйКоэффициентРФНаНачалоСобытияРасширеннаяПодсказка" id="619"/>
 													</LabelField>
 													<InputField name="ДоляНеполногоВремени" id="516">
+														<DataPath>Объект.ДоляНеполногоВремени</DataPath>
 														<Width>7</Width>
 														<ContextMenu name="ДоляНеполногоВремениКонтекстноеМеню" id="517"/>
 														<ExtendedTooltip name="ДоляНеполногоВремениExtendedTooltip" id="618"/>
@@ -6138,6 +5892,7 @@ from work were changed).</v8:content>
 												<ExtendedTooltip name="ГруппаФлагЛьготИУсловияExtendedTooltip" id="621"/>
 												<ChildItems>
 													<CheckBoxField name="ПрименятьЛьготыПриНачисленииПособия" id="557">
+														<DataPath>Объект.ПрименятьЛьготыПриНачисленииПособия</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -6154,6 +5909,7 @@ from work were changed).</v8:content>
 														<ExtendedTooltip name="ПрименятьЛьготыПриНачисленииПособияExtendedTooltip" id="622"/>
 													</CheckBoxField>
 													<InputField name="ФинансированиеФедеральнымБюджетом" id="559">
+														<DataPath>Объект.ФинансированиеФедеральнымБюджетом</DataPath>
 														<TitleLocation>None</TitleLocation>
 														<HorizontalStretch>false</HorizontalStretch>
 														<ListChoiceMode>true</ListChoiceMode>
@@ -6222,6 +5978,7 @@ from work were changed).</v8:content>
 												<ExtendedTooltip name="ГруппаУсловияОплатыСЛьготамиExtendedTooltip" id="624"/>
 												<ChildItems>
 													<InputField name="ОграничениеПособияБезЛьгот" id="569">
+														<DataPath>Объект.ОграничениеПособияБезЛьгот</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -6237,6 +5994,7 @@ from work were changed).</v8:content>
 														<ExtendedTooltip name="ОграничениеПособияБезЛьготExtendedTooltip" id="626"/>
 													</InputField>
 													<InputField name="ПроцентОплатыБезЛьгот" id="567">
+														<DataPath>Объект.ПроцентОплатыБезЛьгот</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -6271,6 +6029,7 @@ from work were changed).</v8:content>
 										<ExtendedTooltip name="ГруппаУсловияИсчисленияExtendedTooltip" id="1217"/>
 										<ChildItems>
 											<InputField name="УсловияИсчисленияКод1" id="1218">
+												<DataPath>Объект.УсловияИсчисленияКод1</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -6286,12 +6045,14 @@ from work were changed).</v8:content>
 												<ExtendedTooltip name="УсловияИсчисленияКод1ExtendedTooltip" id="1220"/>
 											</InputField>
 											<InputField name="УсловияИсчисленияКод2" id="1221">
+												<DataPath>Объект.УсловияИсчисленияКод2</DataPath>
 												<TitleLocation>None</TitleLocation>
 												<ListChoiceMode>true</ListChoiceMode>
 												<ContextMenu name="УсловияИсчисленияКод2КонтекстноеМеню" id="1222"/>
 												<ExtendedTooltip name="УсловияИсчисленияКод2ExtendedTooltip" id="1223"/>
 											</InputField>
 											<InputField name="УсловияИсчисленияКод3" id="1224">
+												<DataPath>Объект.УсловияИсчисленияКод3</DataPath>
 												<TitleLocation>None</TitleLocation>
 												<ListChoiceMode>true</ListChoiceMode>
 												<ContextMenu name="УсловияИсчисленияКод3КонтекстноеМеню" id="1225"/>
@@ -6337,6 +6098,7 @@ from work were changed).</v8:content>
 										<ExtendedTooltip name="ОграничениеExtendedTooltip" id="628"/>
 										<ChildItems>
 											<InputField name="ДатаНачалаСобытия" id="491">
+												<DataPath>Объект.ДатаНачалаСобытия</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -6351,6 +6113,7 @@ from work were changed).</v8:content>
 												<ExtendedTooltip name="ДатаНачалаСобытияExtendedTooltip" id="629"/>
 											</InputField>
 											<InputField name="ДатаНарушенияРежима" id="33">
+												<DataPath>Объект.ДатаНарушенияРежима</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -6366,6 +6129,7 @@ from work were changed).</v8:content>
 												<ExtendedTooltip name="ДатаНарушенияРежимаExtendedTooltip" id="630"/>
 											</InputField>
 											<InputField name="ДатаНачалаПоловиннойОплаты" id="488">
+												<DataPath>Объект.ДатаНачалаПоловиннойОплаты</DataPath>
 												<ContextMenu name="ДатаНачалаПоловиннойОплатыКонтекстноеМеню" id="489"/>
 												<ExtendedTooltip name="ДатаНачалаПоловиннойОплатыExtendedTooltip" id="600"/>
 											</InputField>
@@ -6387,6 +6151,7 @@ from work were changed).</v8:content>
 										<ExtendedTooltip name="ИспользуемыеНачисленияГруппаExtendedTooltip" id="631"/>
 										<ChildItems>
 											<InputField name="ВидОплатыПособия" id="395">
+												<DataPath>Объект.ВидОплатыПособия</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -6401,6 +6166,7 @@ from work were changed).</v8:content>
 												<ExtendedTooltip name="ВидОплатыПособияExtendedTooltip" id="632"/>
 											</InputField>
 											<InputField name="ВидОплатыЗаСчетРаботодателя" id="528">
+												<DataPath>Объект.ВидОплатыЗаСчетРаботодателя</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -6415,6 +6181,7 @@ from work were changed).</v8:content>
 												<ExtendedTooltip name="ВидОплатыЗаСчетРаботодателяExtendedTooltip" id="633"/>
 											</InputField>
 											<InputField name="ВидНеоплачиваемогоВремени" id="530">
+												<DataPath>Объект.ВидНеоплачиваемогоВремени</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -6429,6 +6196,7 @@ from work were changed).</v8:content>
 												<ExtendedTooltip name="ВидНеоплачиваемогоВремениExtendedTooltip" id="634"/>
 											</InputField>
 											<InputField name="ВидРасчетаДоплаты" id="397">
+												<DataPath>Объект.ВидРасчетаДоплаты</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -6471,6 +6239,7 @@ from work were changed).</v8:content>
 								<EnableStartDrag>true</EnableStartDrag>
 								<EnableDrag>true</EnableDrag>
 								<FileDragMode>AsFile</FileDragMode>
+								<DataPath>Объект.Начисления</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -6522,28 +6291,33 @@ from work were changed).</v8:content>
 								</SearchControlAddition>
 								<ChildItems>
 									<LabelField name="НачисленияНомерСтроки" id="80">
+										<DataPath>Объект.Начисления.LineNumber</DataPath>
 										<ReadOnly>true</ReadOnly>
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="НачисленияНомерСтрокиКонтекстноеМеню" id="81"/>
 										<ExtendedTooltip name="НачисленияНомерСтрокиExtendedTooltip" id="677"/>
 									</LabelField>
 									<InputField name="НачисленияНачисление" id="82">
+										<DataPath>Объект.Начисления.Начисление</DataPath>
 										<ReadOnly>true</ReadOnly>
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="НачисленияНачислениеКонтекстноеМеню" id="83"/>
 										<ExtendedTooltip name="НачисленияНачислениеExtendedTooltip" id="678"/>
 									</InputField>
 									<InputField name="НачисленияРезультат" id="88">
+										<DataPath>Объект.Начисления.Результат</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="НачисленияРезультатКонтекстноеМеню" id="89"/>
 										<ExtendedTooltip name="НачисленияРезультатExtendedTooltip" id="679"/>
 									</InputField>
 									<InputField name="НачисленияСкидкаПоВзносам" id="1288">
+										<DataPath>Объект.Начисления.СкидкаПоВзносам</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="НачисленияСкидкаПоВзносамКонтекстноеМеню" id="1289"/>
 										<ExtendedTooltip name="НачисленияСкидкаПоВзносамРасширеннаяПодсказка" id="1290"/>
 									</InputField>
 									<InputField name="НачисленияРезультатВТомЧислеЗаСчетФБ" id="824">
+										<DataPath>Объект.Начисления.РезультатВТомЧислеЗаСчетФБ</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="НачисленияРезультатВТомЧислеЗаСчетФБКонтекстноеМеню" id="825"/>
 										<ExtendedTooltip name="НачисленияРезультатВТомЧислеЗаСчетФБРасширеннаяПодсказка" id="826"/>
@@ -6576,6 +6350,7 @@ from work were changed).</v8:content>
 												<ExtendedTooltip name="НачисленияПериодРасширеннаяПодсказка" id="1081"/>
 												<ChildItems>
 													<InputField name="НачисленияДатаНачала" id="84">
+														<DataPath>Объект.Начисления.ДатаНачала</DataPath>
 														<ReadOnly>true</ReadOnly>
 														<Title>
 															<v8:item>
@@ -6592,6 +6367,7 @@ from work were changed).</v8:content>
 														<ExtendedTooltip name="НачисленияДатаНачалаExtendedTooltip" id="681"/>
 													</InputField>
 													<InputField name="НачисленияДатаОкончания" id="86">
+														<DataPath>Объект.Начисления.ДатаОкончания</DataPath>
 														<ReadOnly>true</ReadOnly>
 														<EditMode>EnterOnInput</EditMode>
 														<ShowInHeader>false</ShowInHeader>
@@ -6613,11 +6389,19 @@ from work were changed).</v8:content>
 										</ChildItems>
 									</ColumnGroup>
 									<InputField name="НачисленияПодразделение" id="1245">
+										<DataPath>Объект.Начисления.Подразделение</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="НачисленияПодразделениеКонтекстноеМеню" id="1246"/>
 										<ExtendedTooltip name="НачисленияПодразделениеРасширеннаяПодсказка" id="1247"/>
 									</InputField>
+									<InputField name="НачисленияМестоПолученияДохода" id="1294">
+										<DataPath>Объект.Начисления.МестоПолученияДохода</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="НачисленияМестоПолученияДоходаКонтекстноеМеню" id="1295"/>
+										<ExtendedTooltip name="НачисленияМестоПолученияДоходаРасширеннаяПодсказка" id="1296"/>
+									</InputField>
 									<InputField name="НачисленияДокументОснование" id="849">
+										<DataPath>Объект.Начисления.ДокументОснование</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -6625,7 +6409,7 @@ from work were changed).</v8:content>
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Basis</v8:content>
+												<v8:content>Base</v8:content>
 											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
@@ -6661,6 +6445,7 @@ from work were changed).</v8:content>
 								<EnableStartDrag>true</EnableStartDrag>
 								<EnableDrag>true</EnableDrag>
 								<FileDragMode>AsFile</FileDragMode>
+								<DataPath>Объект.УправленческиеНачисления</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -6725,16 +6510,19 @@ from work were changed).</v8:content>
 								</SearchControlAddition>
 								<ChildItems>
 									<LabelField name="УправленческиеНачисленияНомерСтроки" id="1138">
+										<DataPath>Объект.УправленческиеНачисления.LineNumber</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="УправленческиеНачисленияНомерСтрокиКонтекстноеМеню" id="1139"/>
 										<ExtendedTooltip name="УправленческиеНачисленияНомерСтрокиРасширеннаяПодсказка" id="1140"/>
 									</LabelField>
 									<InputField name="УправленческиеНачисленияНачисление" id="1153">
+										<DataPath>Объект.УправленческиеНачисления.Начисление</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="УправленческиеНачисленияНачислениеКонтекстноеМеню" id="1154"/>
 										<ExtendedTooltip name="УправленческиеНачисленияНачислениеРасширеннаяПодсказка" id="1155"/>
 									</InputField>
 									<InputField name="УправленческиеНачисленияРезультат" id="1156">
+										<DataPath>Объект.УправленческиеНачисления.Результат</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="УправленческиеНачисленияРезультатКонтекстноеМеню" id="1157"/>
 										<ExtendedTooltip name="УправленческиеНачисленияРезультатРасширеннаяПодсказка" id="1158"/>
@@ -6768,6 +6556,7 @@ from work were changed).</v8:content>
 												<ExtendedTooltip name="УправленческиеНачисленияПериодРасширеннаяПодсказка" id="1117"/>
 												<ChildItems>
 													<InputField name="УправленческиеНачисленияДатаНачала" id="1147">
+														<DataPath>Объект.УправленческиеНачисления.ДатаНачала</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -6783,6 +6572,7 @@ from work were changed).</v8:content>
 														<ExtendedTooltip name="УправленческиеНачисленияДатаНачалаРасширеннаяПодсказка" id="1149"/>
 													</InputField>
 													<InputField name="УправленческиеНачисленияДатаОкончания" id="1150">
+														<DataPath>Объект.УправленческиеНачисления.ДатаОкончания</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<ShowInHeader>false</ShowInHeader>
 														<ShowInFooter>false</ShowInFooter>
@@ -6804,11 +6594,13 @@ from work were changed).</v8:content>
 										</ChildItems>
 									</ColumnGroup>
 									<InputField name="УправленческиеНачисленияПодразделение" id="1248">
+										<DataPath>Объект.УправленческиеНачисления.Подразделение</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="УправленческиеНачисленияПодразделениеКонтекстноеМеню" id="1249"/>
 										<ExtendedTooltip name="УправленческиеНачисленияПодразделениеРасширеннаяПодсказка" id="1250"/>
 									</InputField>
 									<InputField name="УправленческиеНачисленияДокументОснование" id="1210">
+										<DataPath>Объект.УправленческиеНачисления.ДокументОснование</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -6816,7 +6608,7 @@ from work were changed).</v8:content>
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Basis</v8:content>
+												<v8:content>Base</v8:content>
 											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
@@ -6848,6 +6640,7 @@ from work were changed).</v8:content>
 								<EnableStartDrag>true</EnableStartDrag>
 								<EnableDrag>true</EnableDrag>
 								<FileDragMode>AsFile</FileDragMode>
+								<DataPath>Объект.НачисленияПерерасчет</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -6899,21 +6692,25 @@ from work were changed).</v8:content>
 								</SearchControlAddition>
 								<ChildItems>
 									<LabelField name="НачисленияПерерасчетНомерСтроки" id="313">
+										<DataPath>Объект.НачисленияПерерасчет.LineNumber</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="НачисленияПерерасчетНомерСтрокиКонтекстноеМеню" id="314"/>
 										<ExtendedTooltip name="НачисленияПерерасчетНомерСтрокиExtendedTooltip" id="691"/>
 									</LabelField>
 									<InputField name="НачисленияПерерасчетНачисление" id="323">
+										<DataPath>Объект.НачисленияПерерасчет.Начисление</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="НачисленияПерерасчетНачислениеКонтекстноеМеню" id="324"/>
 										<ExtendedTooltip name="НачисленияПерерасчетНачислениеExtendedTooltip" id="692"/>
 									</InputField>
 									<InputField name="НачисленияПерерасчетРезультат" id="327">
+										<DataPath>Объект.НачисленияПерерасчет.Результат</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="НачисленияПерерасчетРезультатКонтекстноеМеню" id="328"/>
 										<ExtendedTooltip name="НачисленияПерерасчетРезультатExtendedTooltip" id="693"/>
 									</InputField>
 									<InputField name="НачисленияПерерасчетСкидкаПоВзносам" id="1291">
+										<DataPath>Объект.НачисленияПерерасчет.СкидкаПоВзносам</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<ContextMenu name="НачисленияПерерасчетСкидкаПоВзносамКонтекстноеМеню" id="1292"/>
 										<ExtendedTooltip name="НачисленияПерерасчетСкидкаПоВзносамРасширеннаяПодсказка" id="1293"/>
@@ -6946,6 +6743,7 @@ from work were changed).</v8:content>
 												<ExtendedTooltip name="НачисленияПерерасчетПериодРасширеннаяПодсказка" id="1076"/>
 												<ChildItems>
 													<InputField name="НачисленияПерерасчетДатаНачала" id="1161">
+														<DataPath>Объект.НачисленияПерерасчет.ДатаНачала</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -6961,6 +6759,7 @@ from work were changed).</v8:content>
 														<ExtendedTooltip name="НачисленияПерерасчетДатаНачалаРасширеннаяПодсказка" id="1163"/>
 													</InputField>
 													<InputField name="НачисленияПерерасчетДатаОкончания" id="1164">
+														<DataPath>Объект.НачисленияПерерасчет.ДатаОкончания</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<ShowInHeader>false</ShowInHeader>
 														<ContextMenu name="НачисленияПерерасчетДатаОкончанияКонтекстноеМеню" id="1165"/>
@@ -6979,7 +6778,14 @@ from work were changed).</v8:content>
 											</InputField>
 										</ChildItems>
 									</ColumnGroup>
+									<InputField name="НачисленияПерерасчетМестоПолученияДохода" id="1297">
+										<DataPath>Объект.НачисленияПерерасчет.МестоПолученияДохода</DataPath>
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="НачисленияПерерасчетМестоПолученияДоходаКонтекстноеМеню" id="1298"/>
+										<ExtendedTooltip name="НачисленияПерерасчетМестоПолученияДоходаРасширеннаяПодсказка" id="1299"/>
+									</InputField>
 									<InputField name="НачисленияПерерасчетДокументОснование" id="852">
+										<DataPath>Объект.НачисленияПерерасчет.ДокументОснование</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -6987,7 +6793,7 @@ from work were changed).</v8:content>
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Basis</v8:content>
+												<v8:content>Base</v8:content>
 											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
@@ -7010,20 +6816,10 @@ from work were changed).</v8:content>
 								<v8:content>SSF pilot project </v8:content>
 							</v8:item>
 						</Title>
-						<ToolTip>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Страница пилотный проект ФСС</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Page pilot project SSF</v8:content>
-							</v8:item>
-						</ToolTip>
 						<ExtendedTooltip name="СтраницаПилотныйПроектФССРасширеннаяПодсказка" id="664"/>
 						<ChildItems>
 							<LabelField name="ГиперссылкаВводДополнительныхДанных" id="463">
-								<DataPath>16</DataPath>
+								<DataPath>ГиперссылкаВводДополнительныхДанных</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -7052,7 +6848,7 @@ from work were changed).</v8:content>
 								<ExtendedTooltip name="ГиперссылкаВводДополнительныхДанныхExtendedTooltip" id="669"/>
 							</LabelField>
 							<LabelField name="ГиперссылкаЗаявлениеСотрудникаНаВыплатуПособия" id="461">
-								<DataPath>66</DataPath>
+								<DataPath>ГиперссылкаЗаявлениеСотрудникаНаВыплатуПособия</DataPath>
 								<TitleLocation>None</TitleLocation>
 								<ToolTip>
 									<v8:item>
@@ -7084,7 +6880,7 @@ from work were changed).</v8:content>
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Cellar</v8:content>
+						<v8:content>Footer</v8:content>
 					</v8:item>
 				</Title>
 				<Group>Vertical</Group>
@@ -7159,6 +6955,7 @@ from work were changed).</v8:content>
 						<ExtendedTooltip name="ГруппаКомментарийОтветственныйРасширеннаяПодсказка" id="721"/>
 						<ChildItems>
 							<InputField name="Комментарий" id="300">
+								<DataPath>Объект.Комментарий</DataPath>
 								<TitleLocation>Left</TitleLocation>
 								<Height>1</Height>
 								<VerticalStretch>false</VerticalStretch>
@@ -7168,6 +6965,7 @@ from work were changed).</v8:content>
 								<ExtendedTooltip name="КомментарийExtendedTooltip" id="704"/>
 							</InputField>
 							<InputField name="Ответственный" id="302">
+								<DataPath>Объект.Ответственный</DataPath>
 								<HorizontalStretch>false</HorizontalStretch>
 								<ContextMenu name="ОтветственныйКонтекстноеМеню" id="303"/>
 								<ExtendedTooltip name="ОтветственныйExtendedTooltip" id="593"/>
@@ -7258,16 +7056,6 @@ from work were changed).</v8:content>
 				</FunctionalOptions>
 			</Attribute>
 			<Attribute name="РазмерОграниченияПособия" id="1000005">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Размер ограничения пособия</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Allowance limit</v8:content>
-					</v8:item>
-				</Title>
 				<Type>
 					<v8:Type>xs:decimal</v8:Type>
 					<v8:NumberQualifiers>
@@ -7278,16 +7066,6 @@ from work were changed).</v8:content>
 				</Type>
 			</Attribute>
 			<Attribute name="НачисленияПерерасчетПодробно" id="1000006">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Начисления перерасчет подробно</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Accruals recalculation details</v8:content>
-					</v8:item>
-				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
@@ -7358,16 +7136,6 @@ from work were changed).</v8:content>
 				</FunctionalOptions>
 			</Attribute>
 			<Attribute name="ЗаголовокГиперссылкиЗаявления" id="1000010">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Ввести заявление сотрудника на выплату пособия</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Enter an employee allowance payment request</v8:content>
-					</v8:item>
-				</Title>
 				<Type>
 					<v8:Type>xs:string</v8:Type>
 					<v8:StringQualifiers>
@@ -7377,16 +7145,6 @@ from work were changed).</v8:content>
 				</Type>
 			</Attribute>
 			<Attribute name="ЗаявлениеНаВыплатуПособия" id="1000011">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Заявление на выплату пособия</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Allowance payment request</v8:content>
-					</v8:item>
-				</Title>
 				<Type>
 					<v8:Type>cfg:DocumentRef.ЗаявлениеСотрудникаНаВыплатуПособия</v8:Type>
 				</Type>
@@ -7506,16 +7264,6 @@ from work were changed).</v8:content>
 				</FunctionalOptions>
 			</Attribute>
 			<Attribute name="ДатаУвольненияСотрудника" id="1000018">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Дата увольнения сотрудника</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Date of employee termination of employment</v8:content>
-					</v8:item>
-				</Title>
 				<Type>
 					<v8:Type>xs:dateTime</v8:Type>
 					<v8:DateQualifiers>
@@ -7570,31 +7318,11 @@ from work were changed).</v8:content>
 				</FunctionalOptions>
 			</Attribute>
 			<Attribute name="РегистрацияНачисленийДоступна" id="1000021">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Регистрация начислений доступна</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Accrual registration is available</v8:content>
-					</v8:item>
-				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
 			<Attribute name="ДоступноИзменение" id="1000022">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Доступно изменение</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Change is available</v8:content>
-					</v8:item>
-				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
@@ -7618,162 +7346,52 @@ from work were changed).</v8:content>
 				</FunctionalOptions>
 			</Attribute>
 			<Attribute name="ИспользуетсяРасчетЗарплаты" id="1000024">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Используется расчет зарплаты</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Payroll is used</v8:content>
-					</v8:item>
-				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
 			<Attribute name="РаботаВБюджетномУчреждении" id="1000025">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Работа в бюджетном учреждении</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Work in budgetary institution</v8:content>
-					</v8:item>
-				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
 			<Attribute name="ОграниченияНаУровнеЗаписей" id="1000026">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Ограничения на уровне записей</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Restrictions on the record level</v8:content>
-					</v8:item>
-				</Title>
 				<Type/>
 			</Attribute>
 			<Attribute name="РасчетНеобходимоВыполнить" id="1000027">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Расчет необходимо выполнить</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>You need to perform calculation</v8:content>
-					</v8:item>
-				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
 			<Attribute name="НеобходимоПерезаполнитьНачисления" id="1000028">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Необходимо перезаполнить начисления</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Refill accruals</v8:content>
-					</v8:item>
-				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
 			<Attribute name="ДляСотрудникаВведенСтраховойСтаж" id="1000029">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Для сотрудника введен страховой стаж</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Pensionable service for employee is entered</v8:content>
-					</v8:item>
-				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
 			<Attribute name="РассчитыватьДокументыПриРедактировании" id="1000030">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Рассчитывать документы при редактировании</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Calculate documents on editing</v8:content>
-					</v8:item>
-				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
 			<Attribute name="ТребуетсяОбновитьДанныеУчетаСреднегоЗаработка" id="1000031">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Требуется обновить данные учета среднего заработка</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Update accounting data of average earnings</v8:content>
-					</v8:item>
-				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
 			<Attribute name="ЗаполнениеВыполнено" id="1000032">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Заполнение выполнено</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Population is executed</v8:content>
-					</v8:item>
-				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
 			<Attribute name="НазначенияРасчетаДенежногоСодержания" id="1000033">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Назначения расчета денежного содержания</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Assignments of monetary pay calculation</v8:content>
-					</v8:item>
-				</Title>
 				<Type/>
 			</Attribute>
 			<Attribute name="ВариантДоплаты" id="1000034">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Вариант доплаты</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Extra pay option</v8:content>
-					</v8:item>
-				</Title>
 				<Type>
 					<v8:Type>xs:decimal</v8:Type>
 					<v8:NumberQualifiers>
@@ -7784,121 +7402,41 @@ from work were changed).</v8:content>
 				</Type>
 			</Attribute>
 			<Attribute name="ДоплачиватьДоСохраняемогоДенежногоСодержанияЗаДниБолезни" id="1000035">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Доплачивать до сохраняемого денежного содержания за дни болезни</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Pay supplement to retained monetary pay for sick days</v8:content>
-					</v8:item>
-				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
 			<Attribute name="ДоплачиватьДоСреднегоЗаДниБолезни" id="1000036">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Доплачивать до среднего за дни болезни</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Supplement to average for sick days</v8:content>
-					</v8:item>
-				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
 			<Attribute name="РеквизитыКДобавлению" id="1000037">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Реквизиты к добавлению</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Attributes for addition</v8:content>
-					</v8:item>
-				</Title>
 				<Type>
 					<v8:Type>v8:ValueListType</v8:Type>
 				</Type>
 				<Settings xsi:type="v8:TypeDescription"/>
 			</Attribute>
 			<Attribute name="РеквизитыКУдалению" id="1000038">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Реквизиты к удалению</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Attributes for deletion</v8:content>
-					</v8:item>
-				</Title>
 				<Type>
 					<v8:Type>v8:ValueListType</v8:Type>
 				</Type>
 				<Settings xsi:type="v8:TypeDescription"/>
 			</Attribute>
 			<Attribute name="ДокументСторнирован" id="1000039">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Документ сторнирован</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Document is reversed</v8:content>
-					</v8:item>
-				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
 			<Attribute name="ДокументСторно" id="1000040">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Документ сторно</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Document storno</v8:content>
-					</v8:item>
-				</Title>
 				<Type>
 					<v8:Type>cfg:DocumentRef.СторнированиеНачислений</v8:Type>
 				</Type>
 			</Attribute>
 			<Attribute name="КонтролируемыеПоляНачисления" id="1000041">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Контролируемые поля начисления</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Accrual controlled fields</v8:content>
-					</v8:item>
-				</Title>
 				<Type/>
 			</Attribute>
 			<Attribute name="КонтролируемыеПоляНачисленияПерерасчет" id="1000042">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Контролируемые поля начисления перерасчет</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Accrual controlled fields recalculation</v8:content>
-					</v8:item>
-				</Title>
 				<Type/>
 			</Attribute>
 			<Attribute name="ОстатокОплачиваемыхДнейУходаЗаРодственником1" id="1000043">
@@ -7960,46 +7498,16 @@ from work were changed).</v8:content>
 				</Type>
 			</Attribute>
 			<Attribute name="ОкончательныйРасчетНДФЛ" id="1000047">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Окончательный расчет НДФЛ</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>PIT final calculation</v8:content>
-					</v8:item>
-				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
 				</Type>
 			</Attribute>
 			<Attribute name="ИзмененныеДанные" id="1000048">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Измененные данные</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Changed data</v8:content>
-					</v8:item>
-				</Title>
 				<Type>
 					<v8:Type>v8:ValueTable</v8:Type>
 				</Type>
 				<Columns>
 					<Column name="ИмяТаблицы" id="1">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Имя таблицы</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Table name</v8:content>
-							</v8:item>
-						</Title>
 						<Type>
 							<v8:Type>xs:string</v8:Type>
 							<v8:StringQualifiers>
@@ -8009,46 +7517,16 @@ from work were changed).</v8:content>
 						</Type>
 					</Column>
 					<Column name="ФизическоеЛицо" id="2">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Физическое лицо</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Individual</v8:content>
-							</v8:item>
-						</Title>
 						<Type>
 							<v8:Type>cfg:CatalogRef.ФизическиеЛица</v8:Type>
 						</Type>
 					</Column>
 					<Column name="Сотрудник" id="3">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Сотрудник</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Employee</v8:content>
-							</v8:item>
-						</Title>
 						<Type>
 							<v8:Type>cfg:CatalogRef.Сотрудники</v8:Type>
 						</Type>
 					</Column>
 					<Column name="ВидРасчета" id="4">
-						<Title>
-							<v8:item>
-								<v8:lang>ru</v8:lang>
-								<v8:content>Вид расчета</v8:content>
-							</v8:item>
-							<v8:item>
-								<v8:lang>en</v8:lang>
-								<v8:content>Calculation kind</v8:content>
-							</v8:item>
-						</Title>
 						<Type>
 							<v8:Type>cfg:ChartOfCalculationTypesRef.Удержания</v8:Type>
 							<v8:Type>cfg:ChartOfCalculationTypesRef.Начисления</v8:Type>
@@ -8057,16 +7535,6 @@ from work were changed).</v8:content>
 				</Columns>
 			</Attribute>
 			<Attribute name="ПараметрыПодключаемыхКоманд" id="1000049">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Параметры подключаемых команд</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Connected command parameters</v8:content>
-					</v8:item>
-				</Title>
 				<Type/>
 			</Attribute>
 			<Attribute name="КорректировкаВыплаты" id="1000050">
@@ -8109,16 +7577,6 @@ from work were changed).</v8:content>
 				</Type>
 			</Attribute>
 			<Attribute name="Основание" id="1000052">
-				<Title>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Основание</v8:content>
-					</v8:item>
-					<v8:item>
-						<v8:lang>en</v8:lang>
-						<v8:content>Basis</v8:content>
-					</v8:item>
-				</Title>
 				<Type/>
 			</Attribute>
 			<Attribute name="ГиперссылкаЗаявлениеСотрудникаНаВыплатуПособия" id="1000053">
@@ -8171,7 +7629,7 @@ from work were changed).</v8:content>
 			</ConditionalAppearance>
 		</Attributes>
 		<Commands>
-			<Command name="ОткрытьСреднийЗаработок" id="1000001">
+			<Command name="ОткрытьСреднийЗаработок" id="2">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8179,7 +7637,7 @@ from work were changed).</v8:content>
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Edit</v8:content>
+						<v8:content>Change</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
@@ -8202,7 +7660,7 @@ from work were changed).</v8:content>
 				<Representation>Picture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="Рассчитать" id="1000002">
+			<Command name="Рассчитать" id="3">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8234,7 +7692,7 @@ from work were changed).</v8:content>
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПерерасчетПодробно" id="1000003">
+			<Command name="ПерерасчетПодробно" id="4">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8264,7 +7722,7 @@ from work were changed).</v8:content>
 				</FunctionalOptions>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПодробнееОРасчетеНДФЛ" id="1000004">
+			<Command name="ПодробнееОРасчетеНДФЛ" id="1">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8272,7 +7730,7 @@ from work were changed).</v8:content>
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Details</v8:content>
+						<v8:content>More</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
@@ -8295,7 +7753,7 @@ from work were changed).</v8:content>
 				<Representation>Picture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПодробнееОРасчетеУдержаний" id="1000005">
+			<Command name="ПодробнееОРасчетеУдержаний" id="5">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8303,7 +7761,7 @@ from work were changed).</v8:content>
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Details</v8:content>
+						<v8:content>More</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
@@ -8326,7 +7784,7 @@ from work were changed).</v8:content>
 				<Representation>Picture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="НачисленияПодробно" id="1000006">
+			<Command name="НачисленияПодробно" id="7">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8356,7 +7814,7 @@ from work were changed).</v8:content>
 				</FunctionalOptions>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ОткрытьДенежноеСодержание" id="1000007">
+			<Command name="ОткрытьДенежноеСодержание" id="6">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8364,7 +7822,7 @@ from work were changed).</v8:content>
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Edit</v8:content>
+						<v8:content>Change</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
@@ -8384,7 +7842,7 @@ from work were changed).</v8:content>
 				<Representation>Picture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="УправленческиеНачисленияПодробно" id="1000008">
+			<Command name="УправленческиеНачисленияПодробно" id="8">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8412,7 +7870,7 @@ from work were changed).</v8:content>
 				<Representation>Picture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="КомандаЗаписать" id="1000009">
+			<Command name="КомандаЗаписать" id="9">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8420,7 +7878,7 @@ from work were changed).</v8:content>
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Write</v8:content>
+						<v8:content>Save</v8:content>
 					</v8:item>
 				</Title>
 				<Shortcut>Ctrl+S</Shortcut>
@@ -8432,7 +7890,7 @@ from work were changed).</v8:content>
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="КомандаПровести" id="1000010">
+			<Command name="КомандаПровести" id="10">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8451,7 +7909,7 @@ from work were changed).</v8:content>
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="КомандаПровестиИЗакрыть" id="1000011">
+			<Command name="КомандаПровестиИЗакрыть" id="11">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8470,7 +7928,7 @@ from work were changed).</v8:content>
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="КорректировкаВыплатыПодробно" id="1000012">
+			<Command name="КорректировкаВыплатыПодробно" id="12">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8488,7 +7946,7 @@ from work were changed).</v8:content>
 				<Representation>Picture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПолучитьИзФСС" id="1000013">
+			<Command name="ПолучитьИзФСС" id="13">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -8517,7 +7975,7 @@ from work were changed).</v8:content>
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗагрузитьИзФайла" id="1000014">
+			<Command name="ЗагрузитьИзФайла" id="14">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
