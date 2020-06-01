@@ -173,14 +173,12 @@
 							<ExtendedTooltip name="ДатаВремяExtendedTooltip" id="329"/>
 							<ChildItems>
 								<InputField name="Дата" id="3">
-									<DataPath>1/-3</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>10</Width>
 									<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
 									<ExtendedTooltip name="ДатаExtendedTooltip" id="330"/>
 								</InputField>
 								<InputField name="Номер" id="1">
-									<DataPath>1/-2</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
@@ -698,14 +696,12 @@ additional accruals of the previous period will be paid if necessary
 											</SearchControlAddition>
 											<ChildItems>
 												<InputField name="ОтсутствияПоДругимМестамРаботыДолжность" id="1085">
-													<DataPath>36/5</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<ContextMenu name="ОтсутствияПоДругимМестамРаботыДолжностьКонтекстноеМеню" id="1086"/>
 													<ExtendedTooltip name="ОтсутствияПоДругимМестамРаботыДолжностьРасширеннаяПодсказка" id="1087"/>
 												</InputField>
 												<LabelField name="ОтсутствияПоДругимМестамРаботыОрганизация" id="683">
-													<DataPath>36/4</DataPath>
 													<UserVisible>
 														<xr:Common>false</xr:Common>
 													</UserVisible>
@@ -714,19 +710,16 @@ additional accruals of the previous period will be paid if necessary
 													<ExtendedTooltip name="ОтсутствияПоДругимМестамРаботыОрганизацияРасширеннаяПодсказка" id="685"/>
 												</LabelField>
 												<LabelField name="ОтсутствияПоДругимМестамРаботыСсылка" id="651">
-													<DataPath>36/1</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<CellHyperlink>true</CellHyperlink>
 													<ContextMenu name="ОтсутствияПоДругимМестамРаботыСсылкаКонтекстноеМеню" id="652"/>
 													<ExtendedTooltip name="ОтсутствияПоДругимМестамРаботыСсылкаРасширеннаяПодсказка" id="653"/>
 												</LabelField>
 												<LabelField name="ОтсутствияПоДругимМестамРаботыДатаНачала" id="657">
-													<DataPath>36/2</DataPath>
 													<ContextMenu name="ОтсутствияПоДругимМестамРаботыДатаНачалаКонтекстноеМеню" id="658"/>
 													<ExtendedTooltip name="ОтсутствияПоДругимМестамРаботыДатаНачалаРасширеннаяПодсказка" id="659"/>
 												</LabelField>
 												<LabelField name="ОтсутствияПоДругимМестамРаботыДатаОкончания" id="660">
-													<DataPath>36/3</DataPath>
 													<ContextMenu name="ОтсутствияПоДругимМестамРаботыДатаОкончанияКонтекстноеМеню" id="661"/>
 													<ExtendedTooltip name="ОтсутствияПоДругимМестамРаботыДатаОкончанияРасширеннаяПодсказка" id="662"/>
 												</LabelField>
@@ -897,7 +890,7 @@ additional accruals of the previous period will be paid if necessary
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Basis</v8:content>
+									<v8:content>Base</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
@@ -1193,16 +1186,6 @@ additional accruals of the previous period will be paid if necessary
 											<v8:content>Average earnings</v8:content>
 										</v8:item>
 									</Title>
-									<ToolTip>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Средний заработок группа</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Average earnings group</v8:content>
-										</v8:item>
-									</ToolTip>
 									<Group>Vertical</Group>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
@@ -1941,6 +1924,11 @@ additional accruals of the previous period will be paid if necessary
 									<ContextMenu name="НачисленияПодразделениеКонтекстноеМеню" id="1308"/>
 									<ExtendedTooltip name="НачисленияПодразделениеРасширеннаяПодсказка" id="1309"/>
 								</InputField>
+								<InputField name="НачисленияМестоПолученияДохода" id="1313">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НачисленияМестоПолученияДоходаКонтекстноеМеню" id="1314"/>
+									<ExtendedTooltip name="НачисленияМестоПолученияДоходаРасширеннаяПодсказка" id="1315"/>
+								</InputField>
 								<InputField name="НачисленияДокументОснование" id="692">
 									<Title>
 										<v8:item>
@@ -1949,7 +1937,7 @@ additional accruals of the previous period will be paid if necessary
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Basis</v8:content>
+											<v8:content>Base</v8:content>
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
@@ -2135,7 +2123,7 @@ additional accruals of the previous period will be paid if necessary
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Basis</v8:content>
+											<v8:content>Base</v8:content>
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
@@ -2302,6 +2290,11 @@ additional accruals of the previous period will be paid if necessary
 									<ContextMenu name="НачисленияПерерасчетПодразделениеКонтекстноеМеню" id="1311"/>
 									<ExtendedTooltip name="НачисленияПерерасчетПодразделениеРасширеннаяПодсказка" id="1312"/>
 								</InputField>
+								<InputField name="НачисленияПерерасчетМестоПолученияДохода" id="1316">
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НачисленияПерерасчетМестоПолученияДоходаКонтекстноеМеню" id="1317"/>
+									<ExtendedTooltip name="НачисленияПерерасчетМестоПолученияДоходаРасширеннаяПодсказка" id="1318"/>
+								</InputField>
 								<InputField name="НачисленияПерерасчетДокументОснование" id="695">
 									<Title>
 										<v8:item>
@@ -2310,7 +2303,7 @@ additional accruals of the previous period will be paid if necessary
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Basis</v8:content>
+											<v8:content>Base</v8:content>
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
@@ -2330,7 +2323,7 @@ additional accruals of the previous period will be paid if necessary
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Additional information</v8:content>
+							<v8:content>More</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="ДополнительноСтраницаРасширеннаяПодсказка" id="1253"/>
@@ -2513,7 +2506,7 @@ additional accruals of the previous period will be paid if necessary
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Additional information</v8:content>
+					<v8:content>More</v8:content>
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
@@ -3050,14 +3043,12 @@ additional accruals of the previous period will be paid if necessary
 								<ExtendedTooltip name="ДатаВремяExtendedTooltip" id="329"/>
 								<ChildItems>
 									<InputField name="Дата" id="3">
-										<DataPath>1/-3</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>10</Width>
 										<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
 										<ExtendedTooltip name="ДатаExtendedTooltip" id="330"/>
 									</InputField>
 									<InputField name="Номер" id="1">
-										<DataPath>1/-2</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<HorizontalStretch>false</HorizontalStretch>
 										<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
@@ -3575,14 +3566,12 @@ additional accruals of the previous period will be paid if necessary
 												</SearchControlAddition>
 												<ChildItems>
 													<InputField name="ОтсутствияПоДругимМестамРаботыДолжность" id="1085">
-														<DataPath>36/5</DataPath>
 														<ReadOnly>true</ReadOnly>
 														<EditMode>EnterOnInput</EditMode>
 														<ContextMenu name="ОтсутствияПоДругимМестамРаботыДолжностьКонтекстноеМеню" id="1086"/>
 														<ExtendedTooltip name="ОтсутствияПоДругимМестамРаботыДолжностьРасширеннаяПодсказка" id="1087"/>
 													</InputField>
 													<LabelField name="ОтсутствияПоДругимМестамРаботыОрганизация" id="683">
-														<DataPath>36/4</DataPath>
 														<UserVisible>
 															<xr:Common>false</xr:Common>
 														</UserVisible>
@@ -3591,19 +3580,16 @@ additional accruals of the previous period will be paid if necessary
 														<ExtendedTooltip name="ОтсутствияПоДругимМестамРаботыОрганизацияРасширеннаяПодсказка" id="685"/>
 													</LabelField>
 													<LabelField name="ОтсутствияПоДругимМестамРаботыСсылка" id="651">
-														<DataPath>36/1</DataPath>
 														<ReadOnly>true</ReadOnly>
 														<CellHyperlink>true</CellHyperlink>
 														<ContextMenu name="ОтсутствияПоДругимМестамРаботыСсылкаКонтекстноеМеню" id="652"/>
 														<ExtendedTooltip name="ОтсутствияПоДругимМестамРаботыСсылкаРасширеннаяПодсказка" id="653"/>
 													</LabelField>
 													<LabelField name="ОтсутствияПоДругимМестамРаботыДатаНачала" id="657">
-														<DataPath>36/2</DataPath>
 														<ContextMenu name="ОтсутствияПоДругимМестамРаботыДатаНачалаКонтекстноеМеню" id="658"/>
 														<ExtendedTooltip name="ОтсутствияПоДругимМестамРаботыДатаНачалаРасширеннаяПодсказка" id="659"/>
 													</LabelField>
 													<LabelField name="ОтсутствияПоДругимМестамРаботыДатаОкончания" id="660">
-														<DataPath>36/3</DataPath>
 														<ContextMenu name="ОтсутствияПоДругимМестамРаботыДатаОкончанияКонтекстноеМеню" id="661"/>
 														<ExtendedTooltip name="ОтсутствияПоДругимМестамРаботыДатаОкончанияРасширеннаяПодсказка" id="662"/>
 													</LabelField>
@@ -3774,7 +3760,7 @@ additional accruals of the previous period will be paid if necessary
 									</v8:item>
 									<v8:item>
 										<v8:lang>en</v8:lang>
-										<v8:content>Basis</v8:content>
+										<v8:content>Base</v8:content>
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
@@ -4070,16 +4056,6 @@ additional accruals of the previous period will be paid if necessary
 												<v8:content>Average earnings</v8:content>
 											</v8:item>
 										</Title>
-										<ToolTip>
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Средний заработок группа</v8:content>
-											</v8:item>
-											<v8:item>
-												<v8:lang>en</v8:lang>
-												<v8:content>Average earnings group</v8:content>
-											</v8:item>
-										</ToolTip>
 										<Group>Vertical</Group>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
@@ -4818,6 +4794,11 @@ additional accruals of the previous period will be paid if necessary
 										<ContextMenu name="НачисленияПодразделениеКонтекстноеМеню" id="1308"/>
 										<ExtendedTooltip name="НачисленияПодразделениеРасширеннаяПодсказка" id="1309"/>
 									</InputField>
+									<InputField name="НачисленияМестоПолученияДохода" id="1313">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="НачисленияМестоПолученияДоходаКонтекстноеМеню" id="1314"/>
+										<ExtendedTooltip name="НачисленияМестоПолученияДоходаРасширеннаяПодсказка" id="1315"/>
+									</InputField>
 									<InputField name="НачисленияДокументОснование" id="692">
 										<Title>
 											<v8:item>
@@ -4826,7 +4807,7 @@ additional accruals of the previous period will be paid if necessary
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Basis</v8:content>
+												<v8:content>Base</v8:content>
 											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
@@ -5012,7 +4993,7 @@ additional accruals of the previous period will be paid if necessary
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Basis</v8:content>
+												<v8:content>Base</v8:content>
 											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
@@ -5179,6 +5160,11 @@ additional accruals of the previous period will be paid if necessary
 										<ContextMenu name="НачисленияПерерасчетПодразделениеКонтекстноеМеню" id="1311"/>
 										<ExtendedTooltip name="НачисленияПерерасчетПодразделениеРасширеннаяПодсказка" id="1312"/>
 									</InputField>
+									<InputField name="НачисленияПерерасчетМестоПолученияДохода" id="1316">
+										<EditMode>EnterOnInput</EditMode>
+										<ContextMenu name="НачисленияПерерасчетМестоПолученияДоходаКонтекстноеМеню" id="1317"/>
+										<ExtendedTooltip name="НачисленияПерерасчетМестоПолученияДоходаРасширеннаяПодсказка" id="1318"/>
+									</InputField>
 									<InputField name="НачисленияПерерасчетДокументОснование" id="695">
 										<Title>
 											<v8:item>
@@ -5187,7 +5173,7 @@ additional accruals of the previous period will be paid if necessary
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Basis</v8:content>
+												<v8:content>Base</v8:content>
 											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
@@ -5207,7 +5193,7 @@ additional accruals of the previous period will be paid if necessary
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Additional information</v8:content>
+								<v8:content>More</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ДополнительноСтраницаРасширеннаяПодсказка" id="1253"/>
@@ -5390,7 +5376,7 @@ additional accruals of the previous period will be paid if necessary
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Additional information</v8:content>
+						<v8:content>More</v8:content>
 					</v8:item>
 				</Title>
 				<Group>Vertical</Group>
