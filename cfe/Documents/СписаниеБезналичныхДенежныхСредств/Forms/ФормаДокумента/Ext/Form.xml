@@ -271,6 +271,9 @@
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
+	<Events>
+		<Event name="ChoiceProcessing" callType="ChangeAndValidate">ВИЛС_ОбработкаВыбораИзменениеИКонтроль</Event>
+	</Events>
 	<ChildItems>
 		<Pages name="ГруппаСтраницы" id="497">
 			<Title>
@@ -9459,7 +9462,7 @@
 			</Attribute>
 		</Attributes>
 		<Commands>
-			<Command name="ПодборПоОстаткам" id="2">
+			<Command name="ПодборПоОстаткам" id="1000001">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9483,7 +9486,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗаполнитьВедомостиНаВыплатуЗарплатыПоОстаткам" id="8">
+			<Command name="ЗаполнитьВедомостиНаВыплатуЗарплатыПоОстаткам" id="1000002">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9507,7 +9510,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПодобратьИзЗаявок" id="9">
+			<Command name="ПодобратьИзЗаявок" id="1000003">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9533,7 +9536,7 @@
 				</FunctionalOptions>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ВыгрузитьФайлДляОбменаСБанком" id="10">
+			<Command name="ВыгрузитьФайлДляОбменаСБанком" id="1000004">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9564,7 +9567,7 @@
 				<Representation>TextPicture</Representation>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗаполнитьПоПредыдущемуПлатежу" id="11">
+			<Command name="ЗаполнитьПоПредыдущемуПлатежу" id="1000005">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9587,7 +9590,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПровестиИЗакрыть" id="12">
+			<Command name="ПровестиИЗакрыть" id="1000006">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9615,7 +9618,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="НастроитьОтражениеВРеглУчете" id="13">
+			<Command name="НастроитьОтражениеВРеглУчете" id="1000007">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9632,7 +9635,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗаполнитьРасшифровкуПлатежа" id="14">
+			<Command name="ЗаполнитьРасшифровкуПлатежа" id="1000008">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9656,7 +9659,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПроверитьКонтрагентов" id="15">
+			<Command name="ПроверитьКонтрагентов" id="1000009">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9679,7 +9682,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗаполнитьНазначениеПлатежа" id="16">
+			<Command name="ЗаполнитьНазначениеПлатежа" id="1000010">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9704,7 +9707,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ЗаписатьДокумент" id="17">
+			<Command name="ЗаписатьДокумент" id="1000011">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9733,7 +9736,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПровестиДокумент" id="18">
+			<Command name="ПровестиДокумент" id="1000012">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9761,7 +9764,7 @@
 				<ModifiesSavedData>true</ModifiesSavedData>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ВставитьВНазначение" id="4">
+			<Command name="ВставитьВНазначение" id="1000013">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
@@ -9784,7 +9787,7 @@
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
 			</Command>
-			<Command name="ПодобратьСчетаФактуры" id="1">
+			<Command name="ПодобратьСчетаФактуры" id="1000014">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
