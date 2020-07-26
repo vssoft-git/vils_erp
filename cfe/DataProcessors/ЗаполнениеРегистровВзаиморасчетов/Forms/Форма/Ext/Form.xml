@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+	<SaveDataInSettings>UseList</SaveDataInSettings>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="ГруппаЧастичноеПерезаполнение" id="15">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Частичное перезаполнение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Partial refilling</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа частичное перезаполнение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group partial refilling</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаЧастичноеПерезаполнениеРасширеннаяПодсказка" id="16"/>
+			<ChildItems>
+				<InputField name="ДатаНачалаПересчета" id="19">
+					<DataPath>5</DataPath>
+					<ContextMenu name="ДатаНачалаПересчетаКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ДатаНачалаПересчетаРасширеннаяПодсказка" id="21"/>
+				</InputField>
+				<InputField name="КлючАналитикиУчетаПоПартнерам" id="1">
+					<DataPath>2</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Аналитика учета по партнерам</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Partner accounting dimension</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="КлючАналитикиУчетаПоПартнерамКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КлючАналитикиУчетаПоПартнерамРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="ОбъектРасчетов" id="4">
+					<DataPath>3</DataPath>
+					<ContextMenu name="ОбъектРасчетовКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ОбъектРасчетовРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<Button name="ЗаполнитьПоУказанным" id="11">
+					<Type>UsualButton</Type>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заполнить по указанным</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Fill in by specified</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ЗаполнитьПоУказаннымРасширеннаяПодсказка" id="12"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаПолноеПерезаполнение" id="17">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Полное перезаполнение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Total refilling</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа полное перезаполнение</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Group total refilling</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаПолноеПерезаполнениеРасширеннаяПодсказка" id="18"/>
+			<ChildItems>
+				<Button name="ПерезаполнитьВсеРегистры" id="13">
+					<Type>UsualButton</Type>
+					<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Перезаполнить все регистры</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Refill all registers</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ПерезаполнитьВсеРегистрыРасширеннаяПодсказка" id="14"/>
+				</Button>
+				<Button name="ЗаполнитьПлановые" id="22">
+					<Type>UsualButton</Type>
+					<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<ExtendedTooltip name="ЗаполнитьПлановыеРасширеннаяПодсказка" id="23"/>
+				</Button>
+				<Button name="Очистить" id="7">
+					<Type>UsualButton</Type>
+					<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Очистить все регистры</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Clear all registers</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ОчиститьРасширеннаяПодсказка" id="8"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.10">
+		<AutoSaveDataInSettings>Use</AutoSaveDataInSettings>
+		<SaveDataInSettings>UseList</SaveDataInSettings>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<Autofill>false</Autofill>
+		</AutoCommandBar>
+		<ChildItems>
+			<UsualGroup name="ГруппаЧастичноеПерезаполнение" id="15">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Частичное перезаполнение</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Partial refilling</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа частичное перезаполнение</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Group partial refilling</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Vertical</Group>
+				<ExtendedTooltip name="ГруппаЧастичноеПерезаполнениеРасширеннаяПодсказка" id="16"/>
+				<ChildItems>
+					<InputField name="ДатаНачалаПересчета" id="19">
+						<DataPath>5</DataPath>
+						<ContextMenu name="ДатаНачалаПересчетаКонтекстноеМеню" id="20"/>
+						<ExtendedTooltip name="ДатаНачалаПересчетаРасширеннаяПодсказка" id="21"/>
+					</InputField>
+					<InputField name="КлючАналитикиУчетаПоПартнерам" id="1">
+						<DataPath>2</DataPath>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Аналитика учета по партнерам</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Partner accounting dimension</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="КлючАналитикиУчетаПоПартнерамКонтекстноеМеню" id="2"/>
+						<ExtendedTooltip name="КлючАналитикиУчетаПоПартнерамРасширеннаяПодсказка" id="3"/>
+					</InputField>
+					<InputField name="ОбъектРасчетов" id="4">
+						<DataPath>3</DataPath>
+						<ContextMenu name="ОбъектРасчетовКонтекстноеМеню" id="5"/>
+						<ExtendedTooltip name="ОбъектРасчетовРасширеннаяПодсказка" id="6"/>
+					</InputField>
+					<Button name="ЗаполнитьПоУказанным" id="11">
+						<Type>UsualButton</Type>
+						<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Заполнить по указанным</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Fill in by specified</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ЗаполнитьПоУказаннымРасширеннаяПодсказка" id="12"/>
+					</Button>
+				</ChildItems>
+			</UsualGroup>
+			<UsualGroup name="ГруппаПолноеПерезаполнение" id="17">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Полное перезаполнение</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Total refilling</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа полное перезаполнение</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Group total refilling</v8:content>
+					</v8:item>
+				</ToolTip>
+				<Group>Vertical</Group>
+				<ExtendedTooltip name="ГруппаПолноеПерезаполнениеРасширеннаяПодсказка" id="18"/>
+				<ChildItems>
+					<Button name="ПерезаполнитьВсеРегистры" id="13">
+						<Type>UsualButton</Type>
+						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Перезаполнить все регистры</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Refill all registers</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ПерезаполнитьВсеРегистрыРасширеннаяПодсказка" id="14"/>
+					</Button>
+					<Button name="ЗаполнитьПлановые" id="22">
+						<Type>UsualButton</Type>
+						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+						<ExtendedTooltip name="ЗаполнитьПлановыеРасширеннаяПодсказка" id="23"/>
+					</Button>
+					<Button name="Очистить" id="7">
+						<Type>UsualButton</Type>
+						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Очистить все регистры</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Clear all registers</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ОчиститьРасширеннаяПодсказка" id="8"/>
+					</Button>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>
