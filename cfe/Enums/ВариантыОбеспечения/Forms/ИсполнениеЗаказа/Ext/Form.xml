@@ -31,7 +31,7 @@
 		</ChildItems>
 	</AutoCommandBar>
 	<Events>
-		<Event name="OnCreateAtServer" callType="Override">ВИЛС_ПриСозданииНаСервере</Event>
+		<Event name="OnCreateAtServer" callType="Override">ВИЛС_ПриСозданииНаСервереВместо</Event>
 	</Events>
 	<ChildItems>
 		<Pages name="Страницы" id="226">
