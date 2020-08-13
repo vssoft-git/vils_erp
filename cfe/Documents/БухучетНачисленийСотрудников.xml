@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Document uuid="6cdbb1c2-46d1-4c80-bc77-74081945fa7f">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.БухучетНачисленийСотрудников" category="Object">
+				<xr:TypeId>14955286-9068-4511-8c22-5182a0fbfa08</xr:TypeId>
+				<xr:ValueId>9aeebe9d-0214-4dec-bc4b-d5b7a3589e43</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.БухучетНачисленийСотрудников" category="Ref">
+				<xr:TypeId>d74df0a0-e8ce-4ae8-b8ef-45d5dd46ebee</xr:TypeId>
+				<xr:ValueId>83808248-81b2-4611-a97b-37b9370d9128</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.БухучетНачисленийСотрудников" category="Selection">
+				<xr:TypeId>3597ad9d-3c18-49dd-a4ad-b005a186b84d</xr:TypeId>
+				<xr:ValueId>a922c124-5053-4a16-b214-ce8cc99f7db3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.БухучетНачисленийСотрудников" category="List">
+				<xr:TypeId>cab09bd9-da42-47ba-926e-30ebb766a73a</xr:TypeId>
+				<xr:ValueId>10e59967-c25b-4004-8172-ec7263335cc6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.БухучетНачисленийСотрудников" category="Manager">
+				<xr:TypeId>8143c6d6-1622-4775-9d4e-e27512545b02</xr:TypeId>
+				<xr:ValueId>a7966b15-9292-4537-89ff-505388926629</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>БухучетНачисленийСотрудников</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>cea3c9ea-3a46-4d24-a593-cc379e974873</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>
