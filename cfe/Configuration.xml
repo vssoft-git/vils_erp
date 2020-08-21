@@ -28,7 +28,7 @@
 			</xr:ContainedObject>
 			<xr:ContainedObject>
 				<xr:ClassId>fb282519-d103-4dd3-bc12-cb271d631dfc</xr:ClassId>
-				<xr:ObjectId>6f40e1b3-28d3-4599-b95f-d8935723ea17</xr:ObjectId>
+				<xr:ObjectId>34704705-f5f1-4f64-9405-ae69a514ac09</xr:ObjectId>
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
@@ -687,6 +687,7 @@
 			<Enum>ВидыДоставки</Enum>
 			<Enum>ПорядокРегистрацииСчетовФактурНаАванс</Enum>
 			<Enum>КатегорииНачисленийИНеоплаченногоВремени</Enum>
+			<Enum>ВидыВнеоборотныхАктивов</Enum>
 			<Report>ВИЛС_ВедомостьДокументовПоступлений</Report>
 			<Report>ВИЛС_ВыпускПродукцииПоОтпускнойСтоимости</Report>
 			<Report>ИсполнениеКонтрактовГОЗ</Report>
@@ -697,6 +698,7 @@
 			<Report>ВИЛС_ОстаткиТоваровПереданныхПереработчикам</Report>
 			<Report>ВИЛС_ВедомостьПоДенежнымСредствам</Report>
 			<Report>ВИЛС_ПартииВПроизводствеПоПериодам</Report>
+			<Report>АнализНачисленийИУдержаний</Report>
 			<DataProcessor>АктивныеПользователи</DataProcessor>
 			<DataProcessor>ИнтеграцияС1СДокументооборот</DataProcessor>
 			<DataProcessor>ПечатьАктОбОказанииУслуг</DataProcessor>
