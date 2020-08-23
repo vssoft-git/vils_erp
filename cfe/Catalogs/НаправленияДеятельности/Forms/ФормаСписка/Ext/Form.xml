@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="NewWriteProcessing" callType="After">ВИЛС_ОбработкаЗаписиНовогоПосле</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="СтатусОтбор" id="49">
+			<DataPath>2</DataPath>
+			<HorizontalStretch>false</HorizontalStretch>
+			<ContextMenu name="СтатусОтборКонтекстноеМеню" id="50"/>
+			<ExtendedTooltip name="СтатусОтборРасширеннаяПодсказка" id="51"/>
+		</InputField>
+		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа пользовательских настроек</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>User settings group</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Vertical</Group>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
+		</UsualGroup>
+		<Table name="Список" id="3">
+			<Representation>Tree</Representation>
+			<DefaultItem>true</DefaultItem>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<InitialTreeView>ExpandTopLevel</InitialTreeView>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<DataPath>1</DataPath>
+			<RowPictureDataPath>1/10000000</RowPictureDataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>List</v8:content>
+				</v8:item>
+			</Title>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
+			<ContextMenu name="СписокКонтекстноеМеню" id="4"/>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="5">
+				<ChildItems>
+					<Button name="КнопкаИзменитьФорму" id="55">
+						<Type>CommandBarButton</Type>
+						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="КнопкаИзменитьФормуРасширеннаяПодсказка" id="56"/>
+					</Button>
+					<Button name="КнопкаСправка" id="59">
+						<Type>CommandBarButton</Type>
+						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+						<ExtendedTooltip name="КнопкаСправкаРасширеннаяПодсказка" id="60"/>
+					</Button>
+				</ChildItems>
+			</AutoCommandBar>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
+			<SearchStringAddition name="СписокСтрокаПоиска" id="7">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="10"/>
+				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="11"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСостояниеПросмотра" id="12">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокУправлениеПоиском" id="17">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="20"/>
+				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="21"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="Наименование" id="22">
+					<DataPath>1/2</DataPath>
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="24"/>
+				</LabelField>
+				<LabelField name="Статус" id="52">
+					<DataPath>1/11</DataPath>
+					<ContextMenu name="СтатусКонтекстноеМеню" id="53"/>
+					<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="54"/>
+				</LabelField>
+				<CheckBoxField name="УчетДоходов" id="25">
+					<DataPath>1/24</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="УчетДоходовКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="УчетДоходовРасширеннаяПодсказка" id="27"/>
+				</CheckBoxField>
+				<CheckBoxField name="УчетЗатрат" id="28">
+					<DataPath>1/37</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="УчетЗатратКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="УчетЗатратРасширеннаяПодсказка" id="30"/>
+				</CheckBoxField>
+				<LabelField name="УчетДенежныхСредств" id="31">
+					<DataPath>1/47</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Учет денежных средств</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Cash management</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="УчетДенежныхСредствКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="УчетДенежныхСредствРасширеннаяПодсказка" id="33"/>
+				</LabelField>
+				<CheckBoxField name="УчетВнеоборотныхАктивов" id="34">
+					<DataPath>1/56</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="УчетВнеоборотныхАктивовКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="УчетВнеоборотныхАктивовРасширеннаяПодсказка" id="36"/>
+				</CheckBoxField>
+				<CheckBoxField name="УчетДенежныхСредствРаздельно" id="43">
+					<DataPath>1/66</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Учет денежных средств (раздельно)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Cash management (separately)</v8:content>
+						</v8:item>
+					</Title>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="УчетДенежныхСредствРаздельноКонтекстноеМеню" id="44"/>
+					<ExtendedTooltip name="УчетДенежныхСредствРаздельноРасширеннаяПодсказка" id="45"/>
+				</CheckBoxField>
+				<CheckBoxField name="УчетДенежныхСредствПоКорреспонденции" id="40">
+					<DataPath>1/75</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Учет денежных средств (по корреспонденции)</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Cash management (by correspondence)</v8:content>
+						</v8:item>
+					</Title>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="УчетДенежныхСредствПоКорреспонденцииКонтекстноеМеню" id="41"/>
+					<ExtendedTooltip name="УчетДенежныхСредствПоКорреспонденцииРасширеннаяПодсказка" id="42"/>
+				</CheckBoxField>
+				<LabelField name="Комментарий" id="46">
+					<DataPath>1/83</DataPath>
+					<Height>1</Height>
+					<VerticalStretch>false</VerticalStretch>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="47"/>
+					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="48"/>
+				</LabelField>
+				<LabelField name="Ссылка" id="37">
+					<DataPath>1/89</DataPath>
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="СсылкаКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="39"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.10">
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<Autofill>false</Autofill>
+		</AutoCommandBar>
+		<ChildItems>
+			<InputField name="СтатусОтбор" id="49">
+				<DataPath>2</DataPath>
+				<HorizontalStretch>false</HorizontalStretch>
+				<ContextMenu name="СтатусОтборКонтекстноеМеню" id="50"/>
+				<ExtendedTooltip name="СтатусОтборРасширеннаяПодсказка" id="51"/>
+			</InputField>
+			<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа пользовательских настроек</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>User settings group</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Vertical</Group>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
+			</UsualGroup>
+			<Table name="Список" id="3">
+				<Representation>Tree</Representation>
+				<DefaultItem>true</DefaultItem>
+				<UseAlternationRowColor>true</UseAlternationRowColor>
+				<InitialTreeView>ExpandTopLevel</InitialTreeView>
+				<EnableStartDrag>true</EnableStartDrag>
+				<EnableDrag>true</EnableDrag>
+				<FileDragMode>AsFile</FileDragMode>
+				<DataPath>1</DataPath>
+				<RowPictureDataPath>1/10000000</RowPictureDataPath>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Список</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>List</v8:content>
+					</v8:item>
+				</Title>
+				<AutoRefresh>false</AutoRefresh>
+				<AutoRefreshPeriod>60</AutoRefreshPeriod>
+				<Period>
+					<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+					<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+					<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+				</Period>
+				<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+				<RestoreCurrentRow>false</RestoreCurrentRow>
+				<TopLevelParent xsi:nil="true"/>
+				<ShowRoot>true</ShowRoot>
+				<AllowRootChoice>false</AllowRootChoice>
+				<UpdateOnDataChange>Auto</UpdateOnDataChange>
+				<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
+				<ContextMenu name="СписокКонтекстноеМеню" id="4"/>
+				<AutoCommandBar name="СписокКоманднаяПанель" id="5">
+					<ChildItems>
+						<Button name="КнопкаИзменитьФорму" id="55">
+							<Type>CommandBarButton</Type>
+							<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+							<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+							<ExtendedTooltip name="КнопкаИзменитьФормуРасширеннаяПодсказка" id="56"/>
+						</Button>
+						<Button name="КнопкаСправка" id="59">
+							<Type>CommandBarButton</Type>
+							<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+							<ExtendedTooltip name="КнопкаСправкаРасширеннаяПодсказка" id="60"/>
+						</Button>
+					</ChildItems>
+				</AutoCommandBar>
+				<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
+				<SearchStringAddition name="СписокСтрокаПоиска" id="7">
+					<AdditionSource>
+						<Item>Список</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="10"/>
+					<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="11"/>
+				</SearchStringAddition>
+				<ViewStatusAddition name="СписокСостояниеПросмотра" id="12">
+					<AdditionSource>
+						<Item>Список</Item>
+						<Type>ViewStatusRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="16"/>
+				</ViewStatusAddition>
+				<SearchControlAddition name="СписокУправлениеПоиском" id="17">
+					<AdditionSource>
+						<Item>Список</Item>
+						<Type>SearchControl</Type>
+					</AdditionSource>
+					<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="21"/>
+				</SearchControlAddition>
+				<ChildItems>
+					<LabelField name="Наименование" id="22">
+						<DataPath>1/2</DataPath>
+						<DefaultItem>true</DefaultItem>
+						<ContextMenu name="НаименованиеКонтекстноеМеню" id="23"/>
+						<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="24"/>
+					</LabelField>
+					<LabelField name="Статус" id="52">
+						<DataPath>1/11</DataPath>
+						<ContextMenu name="СтатусКонтекстноеМеню" id="53"/>
+						<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="54"/>
+					</LabelField>
+					<CheckBoxField name="УчетДоходов" id="25">
+						<DataPath>1/24</DataPath>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="УчетДоходовКонтекстноеМеню" id="26"/>
+						<ExtendedTooltip name="УчетДоходовРасширеннаяПодсказка" id="27"/>
+					</CheckBoxField>
+					<CheckBoxField name="УчетЗатрат" id="28">
+						<DataPath>1/37</DataPath>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="УчетЗатратКонтекстноеМеню" id="29"/>
+						<ExtendedTooltip name="УчетЗатратРасширеннаяПодсказка" id="30"/>
+					</CheckBoxField>
+					<LabelField name="УчетДенежныхСредств" id="31">
+						<DataPath>1/47</DataPath>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Учет денежных средств</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Cash management</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="УчетДенежныхСредствКонтекстноеМеню" id="32"/>
+						<ExtendedTooltip name="УчетДенежныхСредствРасширеннаяПодсказка" id="33"/>
+					</LabelField>
+					<CheckBoxField name="УчетВнеоборотныхАктивов" id="34">
+						<DataPath>1/56</DataPath>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="УчетВнеоборотныхАктивовКонтекстноеМеню" id="35"/>
+						<ExtendedTooltip name="УчетВнеоборотныхАктивовРасширеннаяПодсказка" id="36"/>
+					</CheckBoxField>
+					<CheckBoxField name="УчетДенежныхСредствРаздельно" id="43">
+						<DataPath>1/66</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Учет денежных средств (раздельно)</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Cash management (separately)</v8:content>
+							</v8:item>
+						</Title>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="УчетДенежныхСредствРаздельноКонтекстноеМеню" id="44"/>
+						<ExtendedTooltip name="УчетДенежныхСредствРаздельноРасширеннаяПодсказка" id="45"/>
+					</CheckBoxField>
+					<CheckBoxField name="УчетДенежныхСредствПоКорреспонденции" id="40">
+						<DataPath>1/75</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Учет денежных средств (по корреспонденции)</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Cash management (by correspondence)</v8:content>
+							</v8:item>
+						</Title>
+						<CheckBoxType>Auto</CheckBoxType>
+						<ContextMenu name="УчетДенежныхСредствПоКорреспонденцииКонтекстноеМеню" id="41"/>
+						<ExtendedTooltip name="УчетДенежныхСредствПоКорреспонденцииРасширеннаяПодсказка" id="42"/>
+					</CheckBoxField>
+					<LabelField name="Комментарий" id="46">
+						<DataPath>1/83</DataPath>
+						<Height>1</Height>
+						<VerticalStretch>false</VerticalStretch>
+						<ContextMenu name="КомментарийКонтекстноеМеню" id="47"/>
+						<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="48"/>
+					</LabelField>
+					<LabelField name="Ссылка" id="37">
+						<DataPath>1/89</DataPath>
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="СсылкаКонтекстноеМеню" id="38"/>
+						<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="39"/>
+					</LabelField>
+				</ChildItems>
+			</Table>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>
