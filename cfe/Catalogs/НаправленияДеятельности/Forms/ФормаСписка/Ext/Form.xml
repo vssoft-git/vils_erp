@@ -4,7 +4,7 @@
 		<Autofill>false</Autofill>
 	</AutoCommandBar>
 	<Events>
-		<Event name="NewWriteProcessing" callType="After">ВИЛС_ОбработкаЗаписиНовогоПосле</Event>
+		<Event name="NotificationProcessing" callType="After">ВИЛС_ОбработкаОповещенияПосле</Event>
 	</Events>
 	<ChildItems>
 		<InputField name="СтатусОтбор" id="49">

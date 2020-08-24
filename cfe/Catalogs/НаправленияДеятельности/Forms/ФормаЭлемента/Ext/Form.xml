@@ -4,6 +4,8 @@
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="047d4d09-961c-4bdc-8519-eef10674c35b" callType="After">ВИЛС_ПослеЗаписиПосле</Event>
+		<Event name="9cc34712-da5f-4faa-a653-343d2085fbe8" callType="After">ВИЛС_ПередЗаписьюПосле</Event>
+		<Event name="OnClose" callType="After">ВИЛС_ПриЗакрытииПосле</Event>
 	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаНаименованиеСтатус" id="173">
