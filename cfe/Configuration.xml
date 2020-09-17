@@ -67,6 +67,7 @@
 			<Subsystem>Склад</Subsystem>
 			<Subsystem>РегламентированныйУчет</Subsystem>
 			<Subsystem>Зарплата</Subsystem>
+			<Subsystem>ПодключаемыеОтчетыИОбработки</Subsystem>
 			<StyleItem>ЦветГиперссылки</StyleItem>
 			<StyleItem>ПоясняющийТекст</StyleItem>
 			<StyleItem>ИтогиФон</StyleItem>
@@ -723,6 +724,7 @@
 			<DataProcessor>КлиентБанк</DataProcessor>
 			<DataProcessor>ЗаполнениеРегистровВзаиморасчетов</DataProcessor>
 			<DataProcessor>ПечатьМ11</DataProcessor>
+			<DataProcessor>ВИЛС_ОбработкаЗаполненияКорректировкиРегистров</DataProcessor>
 			<InformationRegister>НаличиеФайлов</InformationRegister>
 			<InformationRegister>РеестрДокументов</InformationRegister>
 			<InformationRegister>ГрафикПлатежей</InformationRegister>
