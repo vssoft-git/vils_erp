@@ -21,7 +21,7 @@
 			<field>Период</field>
 			<role>
 				<dcscom:periodNumber>2</dcscom:periodNumber>
-				<dcscom:periodType>Main</dcscom:periodType>
+				<dcscom:periodType>Additional</dcscom:periodType>
 			</role>
 			<appearance>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
@@ -262,7 +262,7 @@
 	</dataSet>
 	<calculatedField>
 		<dataPath>Ресурс</dataPath>
-		<expression>Сотрудник</expression>
+		<expression>Регистратор</expression>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
 				<v8:lang>ru</v8:lang>
