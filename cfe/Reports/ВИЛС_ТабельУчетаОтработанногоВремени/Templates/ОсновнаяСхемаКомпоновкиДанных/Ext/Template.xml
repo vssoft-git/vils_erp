@@ -160,6 +160,9 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Организация</dataPath>
 			<field>Организация</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ПартияПроизводства</dataPath>
@@ -177,34 +180,159 @@
 			<dataPath>КодСтрокиРаспоряжения</dataPath>
 			<field>КодСтрокиРаспоряжения</field>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЧасовПоТабелю</dataPath>
+			<field>ЧасовПоТабелю</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Часов по табелю</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Исполнитель</dataPath>
+			<field>Исполнитель</field>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
-		<query>ВЫБРАТЬ РАЗРЕШЕННЫЕ РАЗЛИЧНЫЕ
+		<query>ВЫБРАТЬ РАЗЛИЧНЫЕ
+	Трудозатраты.Организация КАК Организация,
+	ВЫРАЗИТЬ(Трудозатраты.Исполнитель КАК Справочник.ФизическиеЛица) КАК Сотрудник,
+	НАЧАЛОПЕРИОДА(Трудозатраты.Период, ДЕНЬ) КАК Период,
+	ЗНАЧЕНИЕ(Справочник.ВидыИспользованияРабочегоВремени.Явка) КАК ВидУчетаВремени,
+	Трудозатраты.Регистратор КАК Регистратор,
+	СУММА(1) КАК ДниОборот,
+	СУММА(Трудозатраты.КоличествоПриход) КАК ЧасыОборот,
+	"Я" КАК БуквенныйКод,
+	СУММА(Трудозатраты.КоличествоПриход) КАК Явка,
+	СУММА(0) КАК ВечерниеЧасы,
+	СУММА(0) КАК НочныеЧасы,
+	&amp;ПС КАК ПС,
+	СУММА(0) КАК ЧасовПоТабелю
+ПОМЕСТИТЬ ДанныеТрудозатрат
+ИЗ
+	РегистрНакопления.ТрудозатратыКОформлению.Обороты(
+			&amp;НачалоПериода,
+			&amp;КонецПериода,
+			Регистратор,
+			НЕ &amp;ДанныеТабеля
+				И Исполнитель ССЫЛКА Справочник.ФизическиеЛица {(ВЫРАЗИТЬ(Исполнитель КАК Справочник.ФизическиеЛица)).* КАК Сотрудник, (Организация).* КАК Организация}) КАК Трудозатраты
+
+СГРУППИРОВАТЬ ПО
+	Трудозатраты.Исполнитель,
+	Трудозатраты.Регистратор,
+	НАЧАЛОПЕРИОДА(Трудозатраты.Период, ДЕНЬ),
+	Трудозатраты.Организация,
+	ВЫРАЗИТЬ(Трудозатраты.Исполнитель КАК Справочник.ФизическиеЛица)
+
+ИНДЕКСИРОВАТЬ ПО
+	Сотрудник,
+	ВидУчетаВремени,
+	Период
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗЛИЧНЫЕ
+	Сотрудники.ГоловнаяОрганизация КАК Организация,
+	Сотрудники.ФизическоеЛицо КАК Сотрудник,
 	НАЧАЛОПЕРИОДА(ДанныеТабеля.Период, ДЕНЬ) КАК Период,
-	ДанныеТабеля.Сотрудник.ФизическоеЛицо КАК Сотрудник,
 	ДанныеТабеля.ВидУчетаВремени КАК ВидУчетаВремени,
 	ДанныеТабеля.Регистратор КАК Регистратор,
-	СУММА(ДанныеТабеля.ДниОборот) КАК ДниОборот,
-	СУММА(ДанныеТабеля.ЧасыОборот) КАК ЧасыОборот,
+	СУММА(ВЫБОР
+			КОГДА &amp;ДанныеТабеля
+				ТОГДА ДанныеТабеля.ДниОборот
+			ИНАЧЕ 0
+		КОНЕЦ) КАК ДниОборот,
+	СУММА(ВЫБОР
+			КОГДА &amp;ДанныеТабеля
+				ТОГДА ДанныеТабеля.ЧасыОборот
+			ИНАЧЕ 0
+		КОНЕЦ) КАК ЧасыОборот,
 	ДанныеТабеля.ВидУчетаВремени.БуквенныйКод КАК БуквенныйКод,
 	СУММА(ВЫБОР
 			КОГДА ДанныеТабеля.ВидУчетаВремени = ЗНАЧЕНИЕ(Справочник.ВидыИспользованияРабочегоВремени.Явка)
+					И &amp;ДанныеТабеля
 				ТОГДА ДанныеТабеля.ЧасыОборот
 			ИНАЧЕ 0
 		КОНЕЦ) КАК Явка,
 	СУММА(ВЫБОР
 			КОГДА ДанныеТабеля.ВидУчетаВремени = ЗНАЧЕНИЕ(Справочник.ВидыИспользованияРабочегоВремени.РаботаВечерниеЧасы)
+					И &amp;ДанныеТабеля
 				ТОГДА ДанныеТабеля.ЧасыОборот
 			ИНАЧЕ 0
 		КОНЕЦ) КАК ВечерниеЧасы,
 	СУММА(ВЫБОР
 			КОГДА ДанныеТабеля.ВидУчетаВремени = ЗНАЧЕНИЕ(Справочник.ВидыИспользованияРабочегоВремени.РаботаНочныеЧасы)
+					И &amp;ДанныеТабеля
 				ТОГДА ДанныеТабеля.ЧасыОборот
 			ИНАЧЕ 0
 		КОНЕЦ) КАК НочныеЧасы,
-	&amp;ПС КАК ПС
+	&amp;ПС КАК ПС,
+	СУММА(ВЫБОР
+			КОГДА ДанныеТабеля.ВидУчетаВремени = ЗНАЧЕНИЕ(Справочник.ВидыИспользованияРабочегоВремени.Явка)
+				ТОГДА ДанныеТабеля.ЧасыОборот
+			ИНАЧЕ 0
+		КОНЕЦ + ВЫБОР
+			КОГДА ДанныеТабеля.ВидУчетаВремени = ЗНАЧЕНИЕ(Справочник.ВидыИспользованияРабочегоВремени.РаботаВечерниеЧасы)
+				ТОГДА ДанныеТабеля.ЧасыОборот
+			ИНАЧЕ 0
+		КОНЕЦ + ВЫБОР
+			КОГДА ДанныеТабеля.ВидУчетаВремени = ЗНАЧЕНИЕ(Справочник.ВидыИспользованияРабочегоВремени.РаботаНочныеЧасы)
+				ТОГДА ДанныеТабеля.ЧасыОборот
+			ИНАЧЕ 0
+		КОНЕЦ) КАК ЧасовПоТабелю
+ПОМЕСТИТЬ ДанныеТабеля
+ИЗ
+	РегистрНакопления.ДанныеТабельногоУчетаРабочегоВремениСотрудников.Обороты(
+			&amp;НачалоПериода,
+			&amp;КонецПериода,
+			Регистратор,
+			ПериодРегистрации МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода
+				И ВЫБОР
+					КОГДА НЕ &amp;ДанныеТабеля
+						ТОГДА Сотрудник.ФизическоеЛицо В
+								(ВЫБРАТЬ РАЗЛИЧНЫЕ
+									Т.Сотрудник
+								ИЗ
+									ДанныеТрудозатрат КАК Т)
+					ИНАЧЕ ИСТИНА
+				КОНЕЦ
+				И ВидУчетаВремени В (ЗНАЧЕНИЕ(Справочник.ВидыИспользованияРабочегоВремени.Явка), ЗНАЧЕНИЕ(Справочник.ВидыИспользованияРабочегоВремени.РаботаВечерниеЧасы), ЗНАЧЕНИЕ(Справочник.ВидыИспользованияРабочегоВремени.РаботаНочныеЧасы)) {(Сотрудник.ФизическоеЛицо).* КАК Сотрудник, (УсловияТруда).* КАК УсловияТруда, (Территория).* КАК Территория, (ВидУчетаВремени).* КАК ВидУчетаВремени, (Сотрудник.ГоловнаяОрганизация).* КАК Организация}) КАК ДанныеТабеля
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Справочник.Сотрудники КАК Сотрудники
+		ПО ДанныеТабеля.Сотрудник = Сотрудники.Ссылка
+
+СГРУППИРОВАТЬ ПО
+	ДанныеТабеля.Регистратор,
+	ДанныеТабеля.ВидУчетаВремени,
+	ДанныеТабеля.ВидУчетаВремени.БуквенныйКод,
+	НАЧАЛОПЕРИОДА(ДанныеТабеля.Период, ДЕНЬ),
+	Сотрудники.ФизическоеЛицо,
+	Сотрудники.ГоловнаяОрганизация
+
+ИНДЕКСИРОВАТЬ ПО
+	ВидУчетаВремени,
+	Период
+;
+
+////////////////////////////////////////////////////////////////////////////////
+ВЫБРАТЬ РАЗРЕШЕННЫЕ РАЗЛИЧНЫЕ
+	ИсточникДанных.Организация КАК Организация,
+	ИсточникДанных.Сотрудник КАК Сотрудник,
+	ИсточникДанных.Период КАК Период,
+	ИсточникДанных.ВидУчетаВремени КАК ВидУчетаВремени,
+	ИсточникДанных.Регистратор КАК Регистратор,
+	СУММА(ИсточникДанных.ДниОборот) КАК ДниОборот,
+	СУММА(ИсточникДанных.ЧасыОборот) КАК ЧасыОборот,
+	ИсточникДанных.БуквенныйКод КАК БуквенныйКод,
+	СУММА(ИсточникДанных.Явка) КАК Явка,
+	СУММА(ИсточникДанных.ВечерниеЧасы) КАК ВечерниеЧасы,
+	СУММА(ИсточникДанных.НочныеЧасы) КАК НочныеЧасы,
+	ИсточникДанных.ПС КАК ПС,
+	СУММА(ИсточникДанных.ЧасовПоТабелю) КАК ЧасовПоТабелю
 {ВЫБРАТЬ
-	Период,
+	Организация.*,
 	Сотрудник.*,
+	Период,
 	ВидУчетаВремени.*,
 	Регистратор.*,
 	ДниОборот,
@@ -212,48 +340,128 @@
 	БуквенныйКод,
 	Явка,
 	ВечерниеЧасы,
-	НочныеЧасы}
+	НочныеЧасы,
+	ПС,
+	ЧасовПоТабелю}
 ИЗ
-	РегистрНакопления.ДанныеТабельногоУчетаРабочегоВремениСотрудников.Обороты(
-			&amp;НачалоПериода,
-			&amp;КонецПериода,
-			Регистратор,
-			&amp;ДанныеТабеля
-				И (ПериодРегистрации МЕЖДУ &amp;НачалоПериода И &amp;КонецПериода)
-				И ВидУчетаВремени В (ЗНАЧЕНИЕ(Справочник.ВидыИспользованияРабочегоВремени.Явка), ЗНАЧЕНИЕ(Справочник.ВидыИспользованияРабочегоВремени.РаботаВечерниеЧасы), ЗНАЧЕНИЕ(Справочник.ВидыИспользованияРабочегоВремени.РаботаНочныеЧасы)) {(Сотрудник.ФизическоеЛицо).* КАК Сотрудник, (УсловияТруда).* КАК УсловияТруда, (Территория).* КАК Территория, (ВидУчетаВремени).* КАК ВидУчетаВремени}) КАК ДанныеТабеля
+	(ВЫБРАТЬ РАЗЛИЧНЫЕ
+		ДанныеТабеля.Организация КАК Организация,
+		ДанныеТабеля.Сотрудник КАК Сотрудник,
+		ВЫБОР
+			КОГДА &amp;ДанныеТабеля
+				ТОГДА ДанныеТабеля.Период
+			ИНАЧЕ НАЧАЛОПЕРИОДА(&amp;КонецПериода, ДЕНЬ)
+		КОНЕЦ КАК Период,
+		ВЫБОР
+			КОГДА &amp;ДанныеТабеля
+				ТОГДА ДанныеТабеля.ВидУчетаВремени
+			ИНАЧЕ ЗНАЧЕНИЕ(Справочник.ВидыИспользованияРабочегоВремени.Явка)
+		КОНЕЦ КАК ВидУчетаВремени,
+		ВЫБОР
+			КОГДА &amp;ДанныеТабеля
+				ТОГДА ДанныеТабеля.Регистратор
+			ИНАЧЕ NULL
+		КОНЕЦ КАК Регистратор,
+		СУММА(ВЫБОР
+				КОГДА &amp;ДанныеТабеля
+					ТОГДА ДанныеТабеля.ДниОборот
+				ИНАЧЕ 0
+			КОНЕЦ) КАК ДниОборот,
+		СУММА(ВЫБОР
+				КОГДА &amp;ДанныеТабеля
+					ТОГДА ДанныеТабеля.ЧасыОборот
+				ИНАЧЕ 0
+			КОНЕЦ) КАК ЧасыОборот,
+		ВЫБОР
+			КОГДА &amp;ДанныеТабеля
+				ТОГДА ДанныеТабеля.БуквенныйКод
+			ИНАЧЕ "Я"
+		КОНЕЦ КАК БуквенныйКод,
+		СУММА(ВЫБОР
+				КОГДА &amp;ДанныеТабеля
+					ТОГДА ДанныеТабеля.Явка
+				ИНАЧЕ 0
+			КОНЕЦ) КАК Явка,
+		СУММА(ВЫБОР
+				КОГДА &amp;ДанныеТабеля
+					ТОГДА ДанныеТабеля.ВечерниеЧасы
+				ИНАЧЕ 0
+			КОНЕЦ) КАК ВечерниеЧасы,
+		СУММА(ВЫБОР
+				КОГДА &amp;ДанныеТабеля
+					ТОГДА ДанныеТабеля.НочныеЧасы
+				ИНАЧЕ 0
+			КОНЕЦ) КАК НочныеЧасы,
+		&amp;ПС КАК ПС,
+		СУММА(ДанныеТабеля.ЧасовПоТабелю) КАК ЧасовПоТабелю
+	ИЗ
+		ДанныеТабеля КАК ДанныеТабеля
+	
+	СГРУППИРОВАТЬ ПО
+		ВЫБОР
+			КОГДА &amp;ДанныеТабеля
+				ТОГДА ДанныеТабеля.Регистратор
+			ИНАЧЕ NULL
+		КОНЕЦ,
+		ВЫБОР
+			КОГДА &amp;ДанныеТабеля
+				ТОГДА ДанныеТабеля.БуквенныйКод
+			ИНАЧЕ "Я"
+		КОНЕЦ,
+		ДанныеТабеля.Сотрудник,
+		ДанныеТабеля.Организация,
+		ВЫБОР
+			КОГДА &amp;ДанныеТабеля
+				ТОГДА ДанныеТабеля.Период
+			ИНАЧЕ НАЧАЛОПЕРИОДА(&amp;КонецПериода, ДЕНЬ)
+		КОНЕЦ,
+		ВЫБОР
+			КОГДА &amp;ДанныеТабеля
+				ТОГДА ДанныеТабеля.ВидУчетаВремени
+			ИНАЧЕ ЗНАЧЕНИЕ(Справочник.ВидыИспользованияРабочегоВремени.Явка)
+		КОНЕЦ
+	
+	ОБЪЕДИНИТЬ
+	
+	ВЫБРАТЬ РАЗЛИЧНЫЕ
+		ДанныеТрудозатрат.Организация,
+		ДанныеТрудозатрат.Сотрудник,
+		ДанныеТрудозатрат.Период,
+		ДанныеТрудозатрат.ВидУчетаВремени,
+		ДанныеТрудозатрат.Регистратор,
+		СУММА(ДанныеТрудозатрат.ДниОборот),
+		СУММА(ДанныеТрудозатрат.ЧасыОборот),
+		ДанныеТрудозатрат.БуквенныйКод,
+		СУММА(ДанныеТрудозатрат.Явка),
+		СУММА(ДанныеТрудозатрат.ВечерниеЧасы),
+		СУММА(ДанныеТрудозатрат.НочныеЧасы),
+		ДанныеТрудозатрат.ПС,
+		СУММА(ДанныеТрудозатрат.ЧасовПоТабелю)
+	ИЗ
+		ДанныеТрудозатрат КАК ДанныеТрудозатрат
+	
+	СГРУППИРОВАТЬ ПО
+		ДанныеТрудозатрат.Период,
+		ДанныеТрудозатрат.Сотрудник,
+		ДанныеТрудозатрат.Регистратор,
+		ДанныеТрудозатрат.ВидУчетаВремени,
+		ДанныеТрудозатрат.БуквенныйКод,
+		ДанныеТрудозатрат.ПС,
+		ДанныеТрудозатрат.Организация) КАК ИсточникДанных
 {ГДЕ
-	ДанныеТабеля.Сотрудник.ФизическоеЛицо.* КАК Сотрудник}
+	ИсточникДанных.Организация.*,
+	ИсточникДанных.Сотрудник.*,
+	ИсточникДанных.ВидУчетаВремени.*,
+	ИсточникДанных.Регистратор.*}
 
 СГРУППИРОВАТЬ ПО
-	ДанныеТабеля.Регистратор,
-	ДанныеТабеля.ВидУчетаВремени,
-	ДанныеТабеля.ВидУчетаВремени.БуквенныйКод,
-	ДанныеТабеля.Сотрудник.ФизическоеЛицо,
-	НАЧАЛОПЕРИОДА(ДанныеТабеля.Период, ДЕНЬ)
-
-ОБЪЕДИНИТЬ
-
-ВЫБРАТЬ РАЗЛИЧНЫЕ
-	НАЧАЛОПЕРИОДА(ТрудозатратыКОформлениюОбороты.Период, ДЕНЬ),
-	ТрудозатратыКОформлениюОбороты.Исполнитель,
-	ЗНАЧЕНИЕ(Справочник.ВидыИспользованияРабочегоВремени.Явка),
-	ТрудозатратыКОформлениюОбороты.Регистратор,
-	СУММА(1),
-	СУММА(ТрудозатратыКОформлениюОбороты.КоличествоПриход),
-	"Я",
-	СУММА(ТрудозатратыКОформлениюОбороты.КоличествоПриход),
-	СУММА(0),
-	СУММА(0),
-	&amp;ПС
-ИЗ
-	РегистрНакопления.ТрудозатратыКОформлению.Обороты(&amp;НачалоПериода, &amp;КонецПериода, Регистратор, НЕ &amp;ДанныеТабеля {(Исполнитель).* КАК Сотрудник}) КАК ТрудозатратыКОформлениюОбороты
-{ГДЕ
-	ТрудозатратыКОформлениюОбороты.Исполнитель.* КАК Сотрудник}
-
-СГРУППИРОВАТЬ ПО
-	ТрудозатратыКОформлениюОбороты.Исполнитель,
-	ТрудозатратыКОформлениюОбороты.Регистратор,
-	НАЧАЛОПЕРИОДА(ТрудозатратыКОформлениюОбороты.Период, ДЕНЬ)
+	ИсточникДанных.Период,
+	ИсточникДанных.Сотрудник,
+	ИсточникДанных.ВидУчетаВремени,
+	ИсточникДанных.Регистратор,
+	ИсточникДанных.БуквенныйКод,
+	ИсточникДанных.ПС,
+	ИсточникДанных.Организация
 
 УПОРЯДОЧИТЬ ПО
 	Сотрудник,
@@ -279,6 +487,23 @@
 										ВЫБОР КОГДА Сумма(НочныеЧасы)&gt;0		ТОГДА Сумма(НочныеЧасы)		ИНАЧЕ "" КОНЕЦ,
 										ВЫБОР КОГДА Сумма(НочныеЧасы)&gt;0		ТОГДА ""					ИНАЧЕ "" КОНЕЦ)</presentationExpression>
 	</calculatedField>
+	<calculatedField>
+		<dataPath>ПоТабелю</dataPath>
+		<expression>Организация</expression>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>По табелю</v8:content>
+			</v8:item>
+		</title>
+		<presentationExpression>ФОРМАТ(Сумма(ЧасовПоТабелю), "ЧДЦ=2")</presentationExpression>
+		<appearance>
+			<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+				<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+				<dcscor:value xsi:type="v8ui:HorizontalAlign">Right</dcscor:value>
+			</dcscor:item>
+		</appearance>
+	</calculatedField>
 	<totalField>
 		<dataPath>ДниОборот</dataPath>
 		<expression>Сумма(ДниОборот)</expression>
@@ -289,15 +514,15 @@
 	</totalField>
 	<totalField>
 		<dataPath>Ресурс</dataPath>
-		<expression>(Ресурс)</expression>
+		<expression>Сумма(Ресурс)</expression>
 	</totalField>
 	<totalField>
-		<dataPath>БуквенныйКод</dataPath>
-		<expression>(БуквенныйКод)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ВидУчетаВремени</dataPath>
-		<expression>(ВидУчетаВремени)</expression>
+		<dataPath>ЧасовПоТабелю</dataPath>
+		<expression>Сумма(ЧасовПоТабелю)</expression>
+		<group>Организация</group>
+		<group>Сотрудник</group>
+		<group>Сотрудник Иерархия</group>
+		<group>ОбщийИтог</group>
 	</totalField>
 	<parameter>
 		<name>Период</name>
@@ -486,6 +711,36 @@
 					<dcsset:useInParameters>DontUse</dcsset:useInParameters>
 					<dcsset:useInFilter>DontUse</dcsset:useInFilter>
 				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>Ресурс</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:HorizontalAlign">Left</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Размещение</dcscor:parameter>
+							<dcscor:value xsi:type="dcscor:DataCompositionTextPlacementType">Wrap</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">5</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">10</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+					<dcsset:useInFieldsHeader>DontUse</dcsset:useInFieldsHeader>
+					<dcsset:useInHeader>DontUse</dcsset:useInHeader>
+					<dcsset:useInParameters>DontUse</dcsset:useInParameters>
+					<dcsset:useInFilter>DontUse</dcsset:useInFilter>
+				</dcsset:item>
 			</dcsset:conditionalAppearance>
 			<dcsset:outputParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
@@ -495,11 +750,11 @@
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ГоризонтальноеРасположениеОбщихИтогов</dcscor:parameter>
-					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">End</dcscor:value>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">Begin</dcscor:value>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
-					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">End</dcscor:value>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">None</dcscor:value>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Заголовок</dcscor:parameter>
@@ -532,7 +787,14 @@
 				<dcsset:row>
 					<dcsset:groupItems>
 						<dcsset:item xsi:type="dcsset:GroupItemField">
-							<dcsset:field>Сотрудник</dcsset:field>
+							<dcsset:field>Организация</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>ПоТабелю</dcsset:field>
 							<dcsset:groupType>Items</dcsset:groupType>
 							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
@@ -548,7 +810,14 @@
 					<dcsset:item>
 						<dcsset:groupItems>
 							<dcsset:item xsi:type="dcsset:GroupItemField">
-								<dcsset:field>Регистратор</dcsset:field>
+								<dcsset:field>Сотрудник</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>ПоТабелю</dcsset:field>
 								<dcsset:groupType>Items</dcsset:groupType>
 								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
@@ -561,6 +830,35 @@
 						<dcsset:selection>
 							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 						</dcsset:selection>
+						<dcsset:item>
+							<dcsset:groupItems>
+								<dcsset:item xsi:type="dcsset:GroupItemField">
+									<dcsset:field>Регистратор</dcsset:field>
+									<dcsset:groupType>Items</dcsset:groupType>
+									<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+									<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+									<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+								</dcsset:item>
+							</dcsset:groupItems>
+							<dcsset:filter>
+								<dcsset:item xsi:type="dcsset:FilterItemComparison">
+									<dcsset:left xsi:type="dcscor:Field">Регистратор</dcsset:left>
+									<dcsset:comparisonType>Filled</dcsset:comparisonType>
+								</dcsset:item>
+							</dcsset:filter>
+							<dcsset:order>
+								<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+							</dcsset:order>
+							<dcsset:selection>
+								<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+							</dcsset:selection>
+							<dcsset:outputParameters>
+								<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+									<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+									<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+								</dcscor:item>
+							</dcsset:outputParameters>
+						</dcsset:item>
 					</dcsset:item>
 				</dcsset:row>
 			</dcsset:item>
