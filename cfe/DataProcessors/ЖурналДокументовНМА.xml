@@ -1,17 +1,24 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
-	<Subsystem uuid="2ecd34f3-5c49-41c5-bf06-523bfa697f4a">
-		<InternalInfo/>
+	<DataProcessor uuid="e7026c4a-a5f7-4f73-af79-71cb089da5ff">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ЖурналДокументовНМА" category="Object">
+				<xr:TypeId>fa50419b-1597-4bd2-b04f-eff93b47b6ac</xr:TypeId>
+				<xr:ValueId>d7c0b226-e5cf-4e6c-8366-1c7bd68ff60a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ЖурналДокументовНМА" category="Manager">
+				<xr:TypeId>d1f95abf-8e46-4fa0-a15e-efaee1f7c4bb</xr:TypeId>
+				<xr:ValueId>9cdeb5b4-a599-4fe1-9e1c-c736b21b29c9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
 		<Properties>
-			<Name>РегламентированныйУчет</Name>
+			<Name>ЖурналДокументовНМА</Name>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
-			<ExtendedConfigurationObject>2f77e30c-beb6-4f34-86cf-c4395dee1995</ExtendedConfigurationObject>
-			<Content/>
+			<ExtendedConfigurationObject>8400bbcf-993f-4d5c-94ce-ef1ad5577a6f</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects>
-			<Subsystem>БухгалтерскийИНалоговыйУчет</Subsystem>
-			<Subsystem>НематериальныеАктивы</Subsystem>
+			<Form>ДокументыПоНМА</Form>
 		</ChildObjects>
-	</Subsystem>
+	</DataProcessor>
 </MetaDataObject>

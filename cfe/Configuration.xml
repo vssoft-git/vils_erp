@@ -231,6 +231,7 @@
 			<CommonPicture>КорзинаБРО</CommonPicture>
 			<CommonPicture>ПризнакНаличияКритическойОшибки</CommonPicture>
 			<CommonPicture>ПиктограммыОтчетов</CommonPicture>
+			<CommonPicture>ИсключитьИзУчетнойПолитики</CommonPicture>
 			<CommonTemplate>ВИЛС_СостояниеОбеспеченияЗаказов</CommonTemplate>
 			<CommonModule>АктВыполненныхРаботЛокализация</CommonModule>
 			<CommonModule>БухгалтерскийУчетКлиентПереопределяемый</CommonModule>
@@ -627,6 +628,7 @@
 			<Document>БухучетНачисленийСотрудников</Document>
 			<Document>СчетФактураНалоговыйАгент</Document>
 			<Document>СверкаВзаиморасчетов</Document>
+			<Document>ИнвентаризацияНМА</Document>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
 			<Enum>ПорядокОплатыПоСоглашениям</Enum>
 			<Enum>ХозяйственныеОперации</Enum>
@@ -729,6 +731,7 @@
 			<DataProcessor>ЗаполнениеРегистровВзаиморасчетов</DataProcessor>
 			<DataProcessor>ПечатьМ11</DataProcessor>
 			<DataProcessor>ВИЛС_ОбработкаЗаполненияКорректировкиРегистров</DataProcessor>
+			<DataProcessor>ЖурналДокументовНМА</DataProcessor>
 			<InformationRegister>НаличиеФайлов</InformationRegister>
 			<InformationRegister>РеестрДокументов</InformationRegister>
 			<InformationRegister>ГрафикПлатежей</InformationRegister>
