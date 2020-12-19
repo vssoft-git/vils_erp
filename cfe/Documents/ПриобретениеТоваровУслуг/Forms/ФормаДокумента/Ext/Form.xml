@@ -1575,7 +1575,7 @@
 									<ExtendedTooltip name="ТоварыНоменклатураТипНоменклатурыExtendedTooltip" id="1089"/>
 								</LabelField>
 								<LabelField name="ТоварыНоменклатураПоставщикаКод" id="856">
-									<DataPath>Объект.Товары.НоменклатураПоставщика.Code</DataPath>
+									<DataPath>Объект.Товары.НоменклатураПартнера.Code</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -1595,7 +1595,7 @@
 									<ExtendedTooltip name="ТоварыНоменклатураПоставщикаКодExtendedTooltip" id="1091"/>
 								</LabelField>
 								<LabelField name="ТоварыНоменклатураПоставщикаАртикул" id="858">
-									<DataPath>Объект.Товары.НоменклатураПоставщика.Артикул</DataPath>
+									<DataPath>Объект.Товары.НоменклатураПартнера.Артикул</DataPath>
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -1615,7 +1615,7 @@
 									<ExtendedTooltip name="ТоварыНоменклатураПоставщикаАртикулExtendedTooltip" id="1092"/>
 								</LabelField>
 								<InputField name="ТоварыНоменклатураПоставщика" id="256">
-									<DataPath>Объект.Товары.НоменклатураПоставщика</DataPath>
+									<DataPath>Объект.Товары.НоменклатураПартнера</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>22</Width>
 									<DropListButton>true</DropListButton>
@@ -5812,7 +5812,7 @@ number</v8:content>
 										<ExtendedTooltip name="ТоварыНоменклатураТипНоменклатурыExtendedTooltip" id="1089"/>
 									</LabelField>
 									<LabelField name="ТоварыНоменклатураПоставщикаКод" id="856">
-										<DataPath>Объект.Товары.НоменклатураПоставщика.Code</DataPath>
+										<DataPath>Объект.Товары.НоменклатураПартнера.Code</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -5832,7 +5832,7 @@ number</v8:content>
 										<ExtendedTooltip name="ТоварыНоменклатураПоставщикаКодExtendedTooltip" id="1091"/>
 									</LabelField>
 									<LabelField name="ТоварыНоменклатураПоставщикаАртикул" id="858">
-										<DataPath>Объект.Товары.НоменклатураПоставщика.Артикул</DataPath>
+										<DataPath>Объект.Товары.НоменклатураПартнера.Артикул</DataPath>
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -5852,7 +5852,7 @@ number</v8:content>
 										<ExtendedTooltip name="ТоварыНоменклатураПоставщикаАртикулExtendedTooltip" id="1092"/>
 									</LabelField>
 									<InputField name="ТоварыНоменклатураПоставщика" id="256">
-										<DataPath>Объект.Товары.НоменклатураПоставщика</DataPath>
+										<DataPath>Объект.Товары.НоменклатураПартнера</DataPath>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>22</Width>
 										<DropListButton>true</DropListButton>

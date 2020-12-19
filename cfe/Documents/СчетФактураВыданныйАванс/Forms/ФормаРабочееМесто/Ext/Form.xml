@@ -411,7 +411,6 @@
 									</SearchControlAddition>
 									<ChildItems>
 										<InputField name="ПолученныеАвансыДатаВыписки" id="457">
-											<DataPath>11/7</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<Width>8</Width>
 											<HorizontalStretch>false</HorizontalStretch>
@@ -434,7 +433,6 @@
 											<ExtendedTooltip name="ПолученныеАвансыГруппаСФExtendedTooltip" id="500"/>
 											<ChildItems>
 												<CheckBoxField name="ПолученныеАвансыСФСформирован" id="445">
-													<DataPath>11/1</DataPath>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
 													<CheckBoxType>Auto</CheckBoxType>
@@ -442,7 +440,6 @@
 													<ExtendedTooltip name="ПолученныеАвансыСФСформированРасширеннаяПодсказка" id="501"/>
 												</CheckBoxField>
 												<InputField name="ПолученныеАвансыСФСумма" id="468">
-													<DataPath>11/10</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<Width>9</Width>
 													<ContextMenu name="ПолученныеАвансыСФСуммаКонтекстноеМеню" id="469"/>
@@ -451,20 +448,17 @@
 											</ChildItems>
 										</ColumnGroup>
 										<InputField name="ПолученныеАвансыКонтрагент" id="447">
-											<DataPath>11/2</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="ПолученныеАвансыКонтрагентКонтекстноеМеню" id="448"/>
 											<ExtendedTooltip name="ПолученныеАвансыКонтрагентExtendedTooltip" id="503"/>
 										</InputField>
 										<InputField name="ПолученныеАвансыСумма" id="449">
-											<DataPath>11/3</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<Width>9</Width>
 											<ContextMenu name="ПолученныеАвансыСуммаКонтекстноеМеню" id="450"/>
 											<ExtendedTooltip name="ПолученныеАвансыСуммаExtendedTooltip" id="504"/>
 										</InputField>
 										<InputField name="ПолученныеАвансыСтавкаНДС" id="451">
-											<DataPath>11/4</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<Width>9</Width>
 											<HorizontalStretch>false</HorizontalStretch>
@@ -472,14 +466,12 @@
 											<ExtendedTooltip name="ПолученныеАвансыСтавкаНДСExtendedTooltip" id="505"/>
 										</InputField>
 										<InputField name="ПолученныеАвансыСуммаНДС" id="453">
-											<DataPath>11/5</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<Width>9</Width>
 											<ContextMenu name="ПолученныеАвансыСуммаНДСКонтекстноеМеню" id="454"/>
 											<ExtendedTooltip name="ПолученныеАвансыСуммаНДСExtendedTooltip" id="506"/>
 										</InputField>
 										<InputField name="ПолученныеАвансыДокументОснование" id="455">
-											<DataPath>11/6</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -499,26 +491,22 @@
 											<ExtendedTooltip name="ПолученныеАвансыДокументОснованиеExtendedTooltip" id="507"/>
 										</InputField>
 										<InputField name="ПолученныеАвансыНаправлениеДеятельности" id="638">
-											<DataPath>11/12</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="ПолученныеАвансыНаправлениеДеятельностиКонтекстноеМеню" id="639"/>
 											<ExtendedTooltip name="ПолученныеАвансыНаправлениеДеятельностиРасширеннаяПодсказка" id="640"/>
 										</InputField>
 										<InputField name="ПолученныеАвансыВалютаДокумента" id="459">
-											<DataPath>11/8</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="ПолученныеАвансыВалютаДокументаКонтекстноеМеню" id="460"/>
 											<ExtendedTooltip name="ПолученныеАвансыВалютаДокументаExtendedTooltip" id="508"/>
 										</InputField>
 										<InputField name="ПолученныеАвансыВалютнаяСумма" id="461">
-											<DataPath>11/9</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<Width>9</Width>
 											<ContextMenu name="ПолученныеАвансыВалютнаяСуммаКонтекстноеМеню" id="462"/>
 											<ExtendedTooltip name="ПолученныеАвансыВалютнаяСуммаExtendedTooltip" id="509"/>
 										</InputField>
 										<InputField name="ПолученныеАвансыСчетФактура" id="465">
-											<DataPath>11/11</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ContextMenu name="ПолученныеАвансыСчетФактураКонтекстноеМеню" id="466"/>
 											<ExtendedTooltip name="ПолученныеАвансыСчетФактураExtendedTooltip" id="510"/>
@@ -560,7 +548,6 @@
 							<EnableStartDrag>true</EnableStartDrag>
 							<FileDragMode>AsFile</FileDragMode>
 							<DataPath>12</DataPath>
-							<RowPictureDataPath>12/10000000</RowPictureDataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -616,20 +603,17 @@
 							</SearchControlAddition>
 							<ChildItems>
 								<LabelField name="НеиспользуемыеСчетаФактурыДата" id="324">
-									<DataPath>12/1</DataPath>
 									<Width>14</Width>
 									<ContextMenu name="НеиспользуемыеСчетаФактурыДатаКонтекстноеМеню" id="325"/>
 									<ExtendedTooltip name="НеиспользуемыеСчетаФактурыДатаExtendedTooltip" id="513"/>
 								</LabelField>
 								<LabelField name="НеиспользуемыеСчетаФактурыНомер" id="326">
-									<DataPath>12/2</DataPath>
 									<Width>11</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ContextMenu name="НеиспользуемыеСчетаФактурыНомерКонтекстноеМеню" id="327"/>
 									<ExtendedTooltip name="НеиспользуемыеСчетаФактурыНомерExtendedTooltip" id="514"/>
 								</LabelField>
 								<InputField name="НеиспользуемыеСчетаФактурыСчетФактура" id="470">
-									<DataPath>12/8</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -644,29 +628,24 @@
 									<ExtendedTooltip name="НеиспользуемыеСчетаФактурыСчетФактураExtendedTooltip" id="515"/>
 								</InputField>
 								<LabelField name="НеиспользуемыеСчетаФактурыДокументОснование" id="328">
-									<DataPath>12/9</DataPath>
 									<ContextMenu name="НеиспользуемыеСчетаФактурыДокументОснованиеКонтекстноеМеню" id="329"/>
 									<ExtendedTooltip name="НеиспользуемыеСчетаФактурыДокументОснованиеExtendedTooltip" id="516"/>
 								</LabelField>
 								<LabelField name="НеиспользуемыеСчетаФактурыКонтрагент" id="332">
-									<DataPath>12/11</DataPath>
 									<ContextMenu name="НеиспользуемыеСчетаФактурыКонтрагентКонтекстноеМеню" id="333"/>
 									<ExtendedTooltip name="НеиспользуемыеСчетаФактурыКонтрагентExtendedTooltip" id="517"/>
 								</LabelField>
 								<LabelField name="НеиспользуемыеСчетаФактурыСумма" id="336">
-									<DataPath>12/13</DataPath>
 									<Width>9</Width>
 									<ContextMenu name="НеиспользуемыеСчетаФактурыСуммаКонтекстноеМеню" id="337"/>
 									<ExtendedTooltip name="НеиспользуемыеСчетаФактурыСуммаExtendedTooltip" id="518"/>
 								</LabelField>
 								<LabelField name="НеиспользуемыеСчетаФактурыСуммаНДС" id="338">
-									<DataPath>12/15</DataPath>
 									<Width>9</Width>
 									<ContextMenu name="НеиспользуемыеСчетаФактурыСуммаНДСКонтекстноеМеню" id="339"/>
 									<ExtendedTooltip name="НеиспользуемыеСчетаФактурыСуммаНДСExtendedTooltip" id="519"/>
 								</LabelField>
 								<LabelField name="НеиспользуемыеСчетаФактурыКомментарий" id="330">
-									<DataPath>12/16</DataPath>
 									<ContextMenu name="НеиспользуемыеСчетаФактурыКомментарийКонтекстноеМеню" id="331"/>
 									<ExtendedTooltip name="НеиспользуемыеСчетаФактурыКомментарийExtendedTooltip" id="520"/>
 								</LabelField>
@@ -1145,7 +1124,6 @@
 										</SearchControlAddition>
 										<ChildItems>
 											<InputField name="ПолученныеАвансыДатаВыписки" id="457">
-												<DataPath>11/7</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<Width>8</Width>
 												<HorizontalStretch>false</HorizontalStretch>
@@ -1168,7 +1146,6 @@
 												<ExtendedTooltip name="ПолученныеАвансыГруппаСФExtendedTooltip" id="500"/>
 												<ChildItems>
 													<CheckBoxField name="ПолученныеАвансыСФСформирован" id="445">
-														<DataPath>11/1</DataPath>
 														<TitleLocation>None</TitleLocation>
 														<EditMode>EnterOnInput</EditMode>
 														<CheckBoxType>Auto</CheckBoxType>
@@ -1176,7 +1153,6 @@
 														<ExtendedTooltip name="ПолученныеАвансыСФСформированРасширеннаяПодсказка" id="501"/>
 													</CheckBoxField>
 													<InputField name="ПолученныеАвансыСФСумма" id="468">
-														<DataPath>11/10</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<Width>9</Width>
 														<ContextMenu name="ПолученныеАвансыСФСуммаКонтекстноеМеню" id="469"/>
@@ -1185,20 +1161,17 @@
 												</ChildItems>
 											</ColumnGroup>
 											<InputField name="ПолученныеАвансыКонтрагент" id="447">
-												<DataPath>11/2</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<ContextMenu name="ПолученныеАвансыКонтрагентКонтекстноеМеню" id="448"/>
 												<ExtendedTooltip name="ПолученныеАвансыКонтрагентExtendedTooltip" id="503"/>
 											</InputField>
 											<InputField name="ПолученныеАвансыСумма" id="449">
-												<DataPath>11/3</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<Width>9</Width>
 												<ContextMenu name="ПолученныеАвансыСуммаКонтекстноеМеню" id="450"/>
 												<ExtendedTooltip name="ПолученныеАвансыСуммаExtendedTooltip" id="504"/>
 											</InputField>
 											<InputField name="ПолученныеАвансыСтавкаНДС" id="451">
-												<DataPath>11/4</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<Width>9</Width>
 												<HorizontalStretch>false</HorizontalStretch>
@@ -1206,14 +1179,12 @@
 												<ExtendedTooltip name="ПолученныеАвансыСтавкаНДСExtendedTooltip" id="505"/>
 											</InputField>
 											<InputField name="ПолученныеАвансыСуммаНДС" id="453">
-												<DataPath>11/5</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<Width>9</Width>
 												<ContextMenu name="ПолученныеАвансыСуммаНДСКонтекстноеМеню" id="454"/>
 												<ExtendedTooltip name="ПолученныеАвансыСуммаНДСExtendedTooltip" id="506"/>
 											</InputField>
 											<InputField name="ПолученныеАвансыДокументОснование" id="455">
-												<DataPath>11/6</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -1233,26 +1204,22 @@
 												<ExtendedTooltip name="ПолученныеАвансыДокументОснованиеExtendedTooltip" id="507"/>
 											</InputField>
 											<InputField name="ПолученныеАвансыНаправлениеДеятельности" id="638">
-												<DataPath>11/12</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<ContextMenu name="ПолученныеАвансыНаправлениеДеятельностиКонтекстноеМеню" id="639"/>
 												<ExtendedTooltip name="ПолученныеАвансыНаправлениеДеятельностиРасширеннаяПодсказка" id="640"/>
 											</InputField>
 											<InputField name="ПолученныеАвансыВалютаДокумента" id="459">
-												<DataPath>11/8</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<ContextMenu name="ПолученныеАвансыВалютаДокументаКонтекстноеМеню" id="460"/>
 												<ExtendedTooltip name="ПолученныеАвансыВалютаДокументаExtendedTooltip" id="508"/>
 											</InputField>
 											<InputField name="ПолученныеАвансыВалютнаяСумма" id="461">
-												<DataPath>11/9</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<Width>9</Width>
 												<ContextMenu name="ПолученныеАвансыВалютнаяСуммаКонтекстноеМеню" id="462"/>
 												<ExtendedTooltip name="ПолученныеАвансыВалютнаяСуммаExtendedTooltip" id="509"/>
 											</InputField>
 											<InputField name="ПолученныеАвансыСчетФактура" id="465">
-												<DataPath>11/11</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<ContextMenu name="ПолученныеАвансыСчетФактураКонтекстноеМеню" id="466"/>
 												<ExtendedTooltip name="ПолученныеАвансыСчетФактураExtendedTooltip" id="510"/>
@@ -1294,7 +1261,6 @@
 								<EnableStartDrag>true</EnableStartDrag>
 								<FileDragMode>AsFile</FileDragMode>
 								<DataPath>12</DataPath>
-								<RowPictureDataPath>12/10000000</RowPictureDataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -1350,20 +1316,17 @@
 								</SearchControlAddition>
 								<ChildItems>
 									<LabelField name="НеиспользуемыеСчетаФактурыДата" id="324">
-										<DataPath>12/1</DataPath>
 										<Width>14</Width>
 										<ContextMenu name="НеиспользуемыеСчетаФактурыДатаКонтекстноеМеню" id="325"/>
 										<ExtendedTooltip name="НеиспользуемыеСчетаФактурыДатаExtendedTooltip" id="513"/>
 									</LabelField>
 									<LabelField name="НеиспользуемыеСчетаФактурыНомер" id="326">
-										<DataPath>12/2</DataPath>
 										<Width>11</Width>
 										<HorizontalStretch>false</HorizontalStretch>
 										<ContextMenu name="НеиспользуемыеСчетаФактурыНомерКонтекстноеМеню" id="327"/>
 										<ExtendedTooltip name="НеиспользуемыеСчетаФактурыНомерExtendedTooltip" id="514"/>
 									</LabelField>
 									<InputField name="НеиспользуемыеСчетаФактурыСчетФактура" id="470">
-										<DataPath>12/8</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -1378,29 +1341,24 @@
 										<ExtendedTooltip name="НеиспользуемыеСчетаФактурыСчетФактураExtendedTooltip" id="515"/>
 									</InputField>
 									<LabelField name="НеиспользуемыеСчетаФактурыДокументОснование" id="328">
-										<DataPath>12/9</DataPath>
 										<ContextMenu name="НеиспользуемыеСчетаФактурыДокументОснованиеКонтекстноеМеню" id="329"/>
 										<ExtendedTooltip name="НеиспользуемыеСчетаФактурыДокументОснованиеExtendedTooltip" id="516"/>
 									</LabelField>
 									<LabelField name="НеиспользуемыеСчетаФактурыКонтрагент" id="332">
-										<DataPath>12/11</DataPath>
 										<ContextMenu name="НеиспользуемыеСчетаФактурыКонтрагентКонтекстноеМеню" id="333"/>
 										<ExtendedTooltip name="НеиспользуемыеСчетаФактурыКонтрагентExtendedTooltip" id="517"/>
 									</LabelField>
 									<LabelField name="НеиспользуемыеСчетаФактурыСумма" id="336">
-										<DataPath>12/13</DataPath>
 										<Width>9</Width>
 										<ContextMenu name="НеиспользуемыеСчетаФактурыСуммаКонтекстноеМеню" id="337"/>
 										<ExtendedTooltip name="НеиспользуемыеСчетаФактурыСуммаExtendedTooltip" id="518"/>
 									</LabelField>
 									<LabelField name="НеиспользуемыеСчетаФактурыСуммаНДС" id="338">
-										<DataPath>12/15</DataPath>
 										<Width>9</Width>
 										<ContextMenu name="НеиспользуемыеСчетаФактурыСуммаНДСКонтекстноеМеню" id="339"/>
 										<ExtendedTooltip name="НеиспользуемыеСчетаФактурыСуммаНДСExtendedTooltip" id="519"/>
 									</LabelField>
 									<LabelField name="НеиспользуемыеСчетаФактурыКомментарий" id="330">
-										<DataPath>12/16</DataPath>
 										<ContextMenu name="НеиспользуемыеСчетаФактурыКомментарийКонтекстноеМеню" id="331"/>
 										<ExtendedTooltip name="НеиспользуемыеСчетаФактурыКомментарийExtendedTooltip" id="520"/>
 									</LabelField>

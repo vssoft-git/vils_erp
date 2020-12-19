@@ -44,14 +44,14 @@
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<KeepMappingToExtendedConfigurationObjectsByIDs>true</KeepMappingToExtendedConfigurationObjectsByIDs>
 			<NamePrefix>ВИЛС_</NamePrefix>
-			<ConfigurationExtensionCompatibilityMode>Version8_3_12</ConfigurationExtensionCompatibilityMode>
+			<ConfigurationExtensionCompatibilityMode>Version8_3_14</ConfigurationExtensionCompatibilityMode>
 			<DefaultRunMode>ManagedApplication</DefaultRunMode>
 			<UsePurposes>
 				<v8:Value xsi:type="app:ApplicationUsePurpose">PlatformApplication</v8:Value>
 			</UsePurposes>
 			<ScriptVariant>Russian</ScriptVariant>
-			<Vendor/>
-			<Version/>
+			<Vendor>ВИЛС</Vendor>
+			<Version>1.0.2.1</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -59,7 +59,7 @@
 			<VendorInformationAddress/>
 			<ConfigurationInformationAddress/>
 			<InterfaceCompatibilityMode>TaxiEnableVersion8_2</InterfaceCompatibilityMode>
-			<CompatibilityMode>Version8_3_12</CompatibilityMode>
+			<CompatibilityMode>Version8_3_14</CompatibilityMode>
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
@@ -98,6 +98,7 @@
 			<StyleItem>ЦветФонаНекорректногоКонтрагента</StyleItem>
 			<StyleItem>БыстрыеОтборыФонГруппы</StyleItem>
 			<StyleItem>ОбъединенныеЭлементыФормыФон</StyleItem>
+			<StyleItem>НедоступныеДанныеЦвет</StyleItem>
 			<CommonPicture>ПодключаемоеОборудованиеТерминалСбораДанных16</CommonPicture>
 			<CommonPicture>СерииНоменклатурыУказаныFEFO</CommonPicture>
 			<CommonPicture>НовыйПоШтрихкоду</CommonPicture>
@@ -175,7 +176,6 @@
 			<CommonPicture>СчитатьКартуЛояльности</CommonPicture>
 			<CommonPicture>Набор</CommonPicture>
 			<CommonPicture>Наборы</CommonPicture>
-			<CommonPicture>ЗаполнитьЦеныПоВидуЦен</CommonPicture>
 			<CommonPicture>ОформитьПоРаспоряжению</CommonPicture>
 			<CommonPicture>Успешно</CommonPicture>
 			<CommonPicture>СинхронизацияДанных</CommonPicture>
@@ -297,6 +297,7 @@
 			<CommonModule>УправлениеПечатью</CommonModule>
 			<CommonModule>УчетНДС</CommonModule>
 			<CommonModule>ВариантыОтчетов</CommonModule>
+			<CommonModule>УчетСтраховыхВзносовЗаполнениеОтчетности</CommonModule>
 			<SettingsStorage>ХранилищеВариантовОтчетов</SettingsStorage>
 			<FunctionalOption>ИспользоватьПодключаемоеОборудование</FunctionalOption>
 			<FunctionalOption>ИспользоватьПоступлениеПоНесколькимЗаказам</FunctionalOption>
@@ -307,7 +308,6 @@
 			<FunctionalOption>ИспользоватьУправленческуюОрганизацию</FunctionalOption>
 			<FunctionalOption>ИспользоватьНесколькоВалют</FunctionalOption>
 			<FunctionalOption>ИспользоватьСоглашенияСПоставщиками</FunctionalOption>
-			<FunctionalOption>ИспользоватьНоменклатуруПоставщиков</FunctionalOption>
 			<FunctionalOption>ИспользоватьКачествоТоваров</FunctionalOption>
 			<FunctionalOption>ИспользоватьИмпортныеТовары</FunctionalOption>
 			<FunctionalOption>ИспользоватьСкладыВТабличнойЧастиДокументовЗакупки</FunctionalOption>
@@ -399,7 +399,7 @@
 			<Constant>ИспользоватьПоступлениеПоНесколькимЗаказам</Constant>
 			<Constant>ИспользоватьСерииНоменклатуры</Constant>
 			<Constant>ИспользоватьЗаказыПоставщикам</Constant>
-			<Constant>ИспользоватьНоменклатуруПоставщиков</Constant>
+			<Constant>ИспользоватьНоменклатуруПартнеров</Constant>
 			<Constant>ИспользоватьРучныеСкидкиВЗакупках</Constant>
 			<Constant>ИспользоватьУправленческуюОрганизацию</Constant>
 			<Constant>ИспользоватьНесколькоВалют</Constant>
@@ -508,7 +508,7 @@
 			<Catalog>Назначения</Catalog>
 			<Catalog>НаправленияДеятельности</Catalog>
 			<Catalog>Номенклатура</Catalog>
-			<Catalog>НоменклатураПоставщиков</Catalog>
+			<Catalog>НоменклатураКонтрагентов</Catalog>
 			<Catalog>НомераГТД</Catalog>
 			<Catalog>ОбъектыЭксплуатации</Catalog>
 			<Catalog>Организации</Catalog>
@@ -549,6 +549,7 @@
 			<Catalog>ШаблоныЭтикетокИЦенников</Catalog>
 			<Catalog>ШтатноеРасписание</Catalog>
 			<Catalog>УчетныеЗаписиЭлектроннойПочты</Catalog>
+			<Catalog>РолиИсполнителей</Catalog>
 			<Document>АвансовыйОтчет</Document>
 			<Document>АктВыполненныхРабот</Document>
 			<Document>БольничныйЛист</Document>
@@ -744,6 +745,7 @@
 			<InformationRegister>ДокументыФизическихЛиц</InformationRegister>
 			<InformationRegister>МножителиПартийИПолуфабрикатов</InformationRegister>
 			<InformationRegister>БухучетЗарплатыСотрудников</InformationRegister>
+			<InformationRegister>ИсполнителиЗадач</InformationRegister>
 			<AccumulationRegister>ДенежныеСредстваКВыплате</AccumulationRegister>
 			<AccumulationRegister>Закупки</AccumulationRegister>
 			<AccumulationRegister>ДвиженияНоменклатураНоменклатура</AccumulationRegister>

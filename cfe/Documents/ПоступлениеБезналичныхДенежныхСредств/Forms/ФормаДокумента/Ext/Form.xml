@@ -449,9 +449,6 @@
 													<Width>13</Width>
 													<ContextMenu name="ДатаПроведенияБанкомКонтекстноеМеню" id="200"/>
 													<ExtendedTooltip name="ДатаПроведенияБанкомРасширеннаяПодсказка" id="201"/>
-													<Events>
-														<Event name="OnChange" callType="After">ВИЛС_ДатаПроведенияБанкомПриИзмененииПосле</Event>
-													</Events>
 												</InputField>
 											</ChildItems>
 										</UsualGroup>

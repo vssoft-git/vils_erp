@@ -2,29 +2,29 @@
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
 	<Catalog uuid="9bb4f514-00be-4632-b765-210ed46985f3">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.НоменклатураПоставщиков" category="Object">
+			<xr:GeneratedType name="CatalogObject.НоменклатураКонтрагентов" category="Object">
 				<xr:TypeId>ec96a522-da60-4cac-a319-cf9536b857bc</xr:TypeId>
 				<xr:ValueId>96f100b9-05c1-472e-9d7c-a3c5566be93f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.НоменклатураПоставщиков" category="Ref">
+			<xr:GeneratedType name="CatalogRef.НоменклатураКонтрагентов" category="Ref">
 				<xr:TypeId>59747e78-8675-47e1-911f-faade681a11d</xr:TypeId>
 				<xr:ValueId>6e33856b-8746-4a86-bde7-34dcc33a0727</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.НоменклатураПоставщиков" category="Selection">
+			<xr:GeneratedType name="CatalogSelection.НоменклатураКонтрагентов" category="Selection">
 				<xr:TypeId>996eb27e-8581-489e-a93c-e09abbd670a1</xr:TypeId>
 				<xr:ValueId>6fca4651-3b3f-4019-9440-e7b2b209fc62</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.НоменклатураПоставщиков" category="List">
+			<xr:GeneratedType name="CatalogList.НоменклатураКонтрагентов" category="List">
 				<xr:TypeId>6a6f678e-c956-46de-865d-1997feb948f5</xr:TypeId>
 				<xr:ValueId>32643e15-7fea-449d-b6d2-befad1c4d675</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.НоменклатураПоставщиков" category="Manager">
+			<xr:GeneratedType name="CatalogManager.НоменклатураКонтрагентов" category="Manager">
 				<xr:TypeId>9cbdda3d-336c-452f-a89e-44d5699563eb</xr:TypeId>
 				<xr:ValueId>447166cc-0a04-40ed-b5aa-fadc00232cf0</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>НоменклатураПоставщиков</Name>
+			<Name>НоменклатураКонтрагентов</Name>
 			<Comment/>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<CodeLength>11</CodeLength>
@@ -41,7 +41,7 @@
 					<Type>
 						<v8:Type>xs:string</v8:Type>
 						<v8:StringQualifiers>
-							<v8:Length>50</v8:Length>
+							<v8:Length>100</v8:Length>
 							<v8:AllowedLength>Variable</v8:AllowedLength>
 						</v8:StringQualifiers>
 					</Type>

@@ -467,7 +467,6 @@
 																			<EnableDrag>true</EnableDrag>
 																			<FileDragMode>AsFile</FileDragMode>
 																			<DataPath>13</DataPath>
-																			<RowPictureDataPath>13/10</RowPictureDataPath>
 																			<RowsPicture>
 																				<xr:Ref>CommonPicture.КоллекцияПиктограммФайлов</xr:Ref>
 																				<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -575,7 +574,6 @@
 																			</SearchControlAddition>
 																			<ChildItems>
 																				<InputField name="ДеревоПриложенийПредставление" id="25">
-																					<DataPath>13/2</DataPath>
 																					<ReadOnly>true</ReadOnly>
 																					<EditMode>EnterOnInput</EditMode>
 																					<Height>1</Height>
@@ -599,12 +597,7 @@
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
 																					<v8:content>У задачи нет предметов.
-&lt;u&gt;&lt;color LightGray&gt;&lt;link ДобавитьПредмет&gt;Добавить…&lt;/&gt;&lt;/&gt;&lt;/&gt;</v8:content>
-																				</v8:item>
-																				<v8:item>
-																					<v8:lang>en</v8:lang>
-																					<v8:content>The task has no subjects. 
-&lt;u&gt;&lt;color LightGray&gt;&lt;link ДобавитьПредмет&gt;Add...&lt;/&gt;&lt;/&gt;&lt;/&gt;</v8:content>
+&lt;link ДобавитьПредмет&gt;&lt;u&gt;&lt;color LightGray&gt;Добавить…&lt;/&gt;&lt;/&gt;&lt;/&gt;</v8:content>
 																				</v8:item>
 																			</Title>
 																			<HorizontalAlign>Center</HorizontalAlign>
@@ -727,14 +720,12 @@
 																			</SearchControlAddition>
 																			<ChildItems>
 																				<InputField name="СвойстваСвойство" id="528">
-																					<DataPath>87/1</DataPath>
 																					<ReadOnly>true</ReadOnly>
 																					<EditMode>EnterOnInput</EditMode>
 																					<ContextMenu name="СвойстваСвойствоКонтекстноеМеню" id="529"/>
 																					<ExtendedTooltip name="СвойстваСвойствоРасширеннаяПодсказка" id="530"/>
 																				</InputField>
 																				<InputField name="СвойстваЗначение" id="531">
-																					<DataPath>87/2</DataPath>
 																					<EditMode>Directly</EditMode>
 																					<AutoChoiceIncomplete>false</AutoChoiceIncomplete>
 																					<InputHint>
@@ -1578,7 +1569,6 @@
 											<ExtendedTooltip name="ИсполнителиГруппаExtendedTooltip" id="375"/>
 											<ChildItems>
 												<PictureField name="ИсполнителиКартинкаСостояния" id="181">
-													<DataPath>36/20</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
@@ -1591,7 +1581,6 @@
 													<ExtendedTooltip name="ИсполнителиКартинкаСостоянияExtendedTooltip" id="376"/>
 												</PictureField>
 												<PictureField name="ИсполнителиКартинкаОтветственный" id="189">
-													<DataPath>36/24</DataPath>
 													<Visible>false</Visible>
 													<ReadOnly>true</ReadOnly>
 													<TitleLocation>None</TitleLocation>
@@ -1605,7 +1594,6 @@
 													<ExtendedTooltip name="ИсполнителиКартинкаОтветственныйExtendedTooltip" id="377"/>
 												</PictureField>
 												<InputField name="ИсполнителиИсполнитель" id="118">
-													<DataPath>36/6</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<Title>
 														<v8:item>
@@ -1624,7 +1612,6 @@
 													<ExtendedTooltip name="ИсполнителиИсполнительExtendedTooltip" id="378"/>
 												</InputField>
 												<InputField name="ИсполнителиОсновнойОбъектАдресации" id="175">
-													<DataPath>36/13</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
@@ -1634,7 +1621,6 @@
 													<ExtendedTooltip name="ИсполнителиОсновнойОбъектАдресацииExtendedTooltip" id="379"/>
 												</InputField>
 												<InputField name="ИсполнителиДополнительныйОбъектАдресации" id="177">
-													<DataPath>36/16</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
@@ -1646,7 +1632,6 @@
 											</ChildItems>
 										</ColumnGroup>
 										<InputField name="ИсполнителиСрокИсполнения" id="126">
-											<DataPath>36/10</DataPath>
 											<Visible>false</Visible>
 											<ReadOnly>true</ReadOnly>
 											<Title>
@@ -1686,7 +1671,6 @@
 											<ExtendedTooltip name="ИсполнителиСрокИсполненияExtendedTooltip" id="381"/>
 										</InputField>
 										<PictureField name="ИсполнителиВыполнена" id="108">
-											<DataPath>36/1</DataPath>
 											<Visible>false</Visible>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
@@ -1700,7 +1684,6 @@
 											<ExtendedTooltip name="ИсполнителиВыполненаExtendedTooltip" id="382"/>
 										</PictureField>
 										<InputField name="ИсполнителиРезультат" id="268">
-											<DataPath>36/21</DataPath>
 											<Visible>false</Visible>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
@@ -1709,7 +1692,6 @@
 											<ExtendedTooltip name="ИсполнителиРезультатExtendedTooltip" id="383"/>
 										</InputField>
 										<InputField name="ИсполнителиДатаИсполнения" id="116">
-											<DataPath>36/5</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<Title>
 												<v8:item>
@@ -1748,7 +1730,6 @@
 											<ExtendedTooltip name="ИсполнителиДатаИсполненияExtendedTooltip" id="384"/>
 										</InputField>
 										<InputField name="ИсполнителиКомментарий" id="124">
-											<DataPath>36/9</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<Title>
 												<v8:item>
@@ -1766,7 +1747,6 @@
 											<ExtendedTooltip name="ИсполнителиКомментарийExtendedTooltip" id="385"/>
 										</InputField>
 										<InputField name="ИсполнителиДатаОтвета" id="272">
-											<DataPath>36/30</DataPath>
 											<Visible>false</Visible>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
@@ -1795,7 +1775,6 @@
 											<ExtendedTooltip name="ИсполнителиДатаОтветаExtendedTooltip" id="386"/>
 										</InputField>
 										<InputField name="ИсполнителиДатаСогласования" id="187">
-											<DataPath>36/5</DataPath>
 											<Visible>false</Visible>
 											<ReadOnly>true</ReadOnly>
 											<Title>
@@ -1834,7 +1813,6 @@
 											<ExtendedTooltip name="ИсполнителиДатаСогласованияExtendedTooltip" id="387"/>
 										</InputField>
 										<CheckBoxField name="ИсполнителиОтправленоНаДоработку" id="141">
-											<DataPath>36/11</DataPath>
 											<Visible>false</Visible>
 											<EditMode>Directly</EditMode>
 											<CheckBoxType>Auto</CheckBoxType>
@@ -1842,7 +1820,6 @@
 											<ExtendedTooltip name="ИсполнителиОтправленоНаДоработкуExtendedTooltip" id="388"/>
 										</CheckBoxField>
 										<InputField name="ИсполнителиКомментарийПроверяющего" id="143">
-											<DataPath>36/12</DataPath>
 											<Visible>false</Visible>
 											<EditMode>EnterOnInput</EditMode>
 											<HorizontalStretch>true</HorizontalStretch>
@@ -1850,7 +1827,6 @@
 											<ExtendedTooltip name="ИсполнителиКомментарийПроверяющегоExtendedTooltip" id="389"/>
 										</InputField>
 										<CheckBoxField name="ИсполнителиЯвкаОбязательна" id="270">
-											<DataPath>36/29</DataPath>
 											<Visible>false</Visible>
 											<ReadOnly>true</ReadOnly>
 											<EditMode>EnterOnInput</EditMode>
@@ -1949,7 +1925,6 @@
 									</SearchControlAddition>
 									<ChildItems>
 										<InputField name="ЭтапыНомерСтроки" id="219">
-											<DataPath>61/3</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<Width>3</Width>
 											<ContextMenu name="ЭтапыНомерСтрокиКонтекстноеМеню" id="220"/>
@@ -1980,7 +1955,6 @@
 											<ExtendedTooltip name="ЭтапыГруппаЗадачаExtendedTooltip" id="395"/>
 											<ChildItems>
 												<PictureField name="ЭтапыЗадачаВыполнена" id="229">
-													<DataPath>61/24</DataPath>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
 													<ValuesPicture>
@@ -1992,7 +1966,6 @@
 													<ExtendedTooltip name="ЭтапыЗадачаВыполненаExtendedTooltip" id="396"/>
 												</PictureField>
 												<InputField name="ЭтапыШаблонБизнесПроцесса" id="221">
-													<DataPath>61/13</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -2011,21 +1984,18 @@
 											</ChildItems>
 										</ColumnGroup>
 										<InputField name="ЭтапыСрок" id="223">
-											<DataPath>61/2</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<Width>10</Width>
 											<ContextMenu name="ЭтапыСрокКонтекстноеМеню" id="224"/>
 											<ExtendedTooltip name="ЭтапыСрокExtendedTooltip" id="398"/>
 										</InputField>
 										<InputField name="ЭтапыИсполнителиЭтапаСтрокой" id="227">
-											<DataPath>61/1</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<Width>15</Width>
 											<ContextMenu name="ЭтапыИсполнителиЭтапаСтрокойКонтекстноеМеню" id="228"/>
 											<ExtendedTooltip name="ЭтапыИсполнителиЭтапаСтрокойExtendedTooltip" id="399"/>
 										</InputField>
 										<InputField name="ЭтапыПредшественникиЭтапаСтрокой" id="225">
-											<DataPath>61/17</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -3631,7 +3601,6 @@
 																				<EnableDrag>true</EnableDrag>
 																				<FileDragMode>AsFile</FileDragMode>
 																				<DataPath>13</DataPath>
-																				<RowPictureDataPath>13/10</RowPictureDataPath>
 																				<RowsPicture>
 																					<xr:Ref>CommonPicture.КоллекцияПиктограммФайлов</xr:Ref>
 																					<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -3739,7 +3708,6 @@
 																				</SearchControlAddition>
 																				<ChildItems>
 																					<InputField name="ДеревоПриложенийПредставление" id="25">
-																						<DataPath>13/2</DataPath>
 																						<ReadOnly>true</ReadOnly>
 																						<EditMode>EnterOnInput</EditMode>
 																						<Height>1</Height>
@@ -3763,12 +3731,7 @@
 																					<v8:item>
 																						<v8:lang>ru</v8:lang>
 																						<v8:content>У задачи нет предметов.
-&lt;u&gt;&lt;color LightGray&gt;&lt;link ДобавитьПредмет&gt;Добавить…&lt;/&gt;&lt;/&gt;&lt;/&gt;</v8:content>
-																					</v8:item>
-																					<v8:item>
-																						<v8:lang>en</v8:lang>
-																						<v8:content>The task has no subjects. 
-&lt;u&gt;&lt;color LightGray&gt;&lt;link ДобавитьПредмет&gt;Add...&lt;/&gt;&lt;/&gt;&lt;/&gt;</v8:content>
+&lt;link ДобавитьПредмет&gt;&lt;u&gt;&lt;color LightGray&gt;Добавить…&lt;/&gt;&lt;/&gt;&lt;/&gt;</v8:content>
 																					</v8:item>
 																				</Title>
 																				<HorizontalAlign>Center</HorizontalAlign>
@@ -3891,14 +3854,12 @@
 																				</SearchControlAddition>
 																				<ChildItems>
 																					<InputField name="СвойстваСвойство" id="528">
-																						<DataPath>87/1</DataPath>
 																						<ReadOnly>true</ReadOnly>
 																						<EditMode>EnterOnInput</EditMode>
 																						<ContextMenu name="СвойстваСвойствоКонтекстноеМеню" id="529"/>
 																						<ExtendedTooltip name="СвойстваСвойствоРасширеннаяПодсказка" id="530"/>
 																					</InputField>
 																					<InputField name="СвойстваЗначение" id="531">
-																						<DataPath>87/2</DataPath>
 																						<EditMode>Directly</EditMode>
 																						<AutoChoiceIncomplete>false</AutoChoiceIncomplete>
 																						<InputHint>
@@ -4742,7 +4703,6 @@
 												<ExtendedTooltip name="ИсполнителиГруппаExtendedTooltip" id="375"/>
 												<ChildItems>
 													<PictureField name="ИсполнителиКартинкаСостояния" id="181">
-														<DataPath>36/20</DataPath>
 														<ReadOnly>true</ReadOnly>
 														<TitleLocation>None</TitleLocation>
 														<EditMode>EnterOnInput</EditMode>
@@ -4755,7 +4715,6 @@
 														<ExtendedTooltip name="ИсполнителиКартинкаСостоянияExtendedTooltip" id="376"/>
 													</PictureField>
 													<PictureField name="ИсполнителиКартинкаОтветственный" id="189">
-														<DataPath>36/24</DataPath>
 														<Visible>false</Visible>
 														<ReadOnly>true</ReadOnly>
 														<TitleLocation>None</TitleLocation>
@@ -4769,7 +4728,6 @@
 														<ExtendedTooltip name="ИсполнителиКартинкаОтветственныйExtendedTooltip" id="377"/>
 													</PictureField>
 													<InputField name="ИсполнителиИсполнитель" id="118">
-														<DataPath>36/6</DataPath>
 														<ReadOnly>true</ReadOnly>
 														<Title>
 															<v8:item>
@@ -4788,7 +4746,6 @@
 														<ExtendedTooltip name="ИсполнителиИсполнительExtendedTooltip" id="378"/>
 													</InputField>
 													<InputField name="ИсполнителиОсновнойОбъектАдресации" id="175">
-														<DataPath>36/13</DataPath>
 														<ReadOnly>true</ReadOnly>
 														<TitleLocation>None</TitleLocation>
 														<EditMode>EnterOnInput</EditMode>
@@ -4798,7 +4755,6 @@
 														<ExtendedTooltip name="ИсполнителиОсновнойОбъектАдресацииExtendedTooltip" id="379"/>
 													</InputField>
 													<InputField name="ИсполнителиДополнительныйОбъектАдресации" id="177">
-														<DataPath>36/16</DataPath>
 														<ReadOnly>true</ReadOnly>
 														<TitleLocation>None</TitleLocation>
 														<EditMode>EnterOnInput</EditMode>
@@ -4810,7 +4766,6 @@
 												</ChildItems>
 											</ColumnGroup>
 											<InputField name="ИсполнителиСрокИсполнения" id="126">
-												<DataPath>36/10</DataPath>
 												<Visible>false</Visible>
 												<ReadOnly>true</ReadOnly>
 												<Title>
@@ -4850,7 +4805,6 @@
 												<ExtendedTooltip name="ИсполнителиСрокИсполненияExtendedTooltip" id="381"/>
 											</InputField>
 											<PictureField name="ИсполнителиВыполнена" id="108">
-												<DataPath>36/1</DataPath>
 												<Visible>false</Visible>
 												<ReadOnly>true</ReadOnly>
 												<EditMode>EnterOnInput</EditMode>
@@ -4864,7 +4818,6 @@
 												<ExtendedTooltip name="ИсполнителиВыполненаExtendedTooltip" id="382"/>
 											</PictureField>
 											<InputField name="ИсполнителиРезультат" id="268">
-												<DataPath>36/21</DataPath>
 												<Visible>false</Visible>
 												<ReadOnly>true</ReadOnly>
 												<EditMode>EnterOnInput</EditMode>
@@ -4873,7 +4826,6 @@
 												<ExtendedTooltip name="ИсполнителиРезультатExtendedTooltip" id="383"/>
 											</InputField>
 											<InputField name="ИсполнителиДатаИсполнения" id="116">
-												<DataPath>36/5</DataPath>
 												<ReadOnly>true</ReadOnly>
 												<Title>
 													<v8:item>
@@ -4912,7 +4864,6 @@
 												<ExtendedTooltip name="ИсполнителиДатаИсполненияExtendedTooltip" id="384"/>
 											</InputField>
 											<InputField name="ИсполнителиКомментарий" id="124">
-												<DataPath>36/9</DataPath>
 												<ReadOnly>true</ReadOnly>
 												<Title>
 													<v8:item>
@@ -4930,7 +4881,6 @@
 												<ExtendedTooltip name="ИсполнителиКомментарийExtendedTooltip" id="385"/>
 											</InputField>
 											<InputField name="ИсполнителиДатаОтвета" id="272">
-												<DataPath>36/30</DataPath>
 												<Visible>false</Visible>
 												<ReadOnly>true</ReadOnly>
 												<EditMode>EnterOnInput</EditMode>
@@ -4959,7 +4909,6 @@
 												<ExtendedTooltip name="ИсполнителиДатаОтветаExtendedTooltip" id="386"/>
 											</InputField>
 											<InputField name="ИсполнителиДатаСогласования" id="187">
-												<DataPath>36/5</DataPath>
 												<Visible>false</Visible>
 												<ReadOnly>true</ReadOnly>
 												<Title>
@@ -4998,7 +4947,6 @@
 												<ExtendedTooltip name="ИсполнителиДатаСогласованияExtendedTooltip" id="387"/>
 											</InputField>
 											<CheckBoxField name="ИсполнителиОтправленоНаДоработку" id="141">
-												<DataPath>36/11</DataPath>
 												<Visible>false</Visible>
 												<EditMode>Directly</EditMode>
 												<CheckBoxType>Auto</CheckBoxType>
@@ -5006,7 +4954,6 @@
 												<ExtendedTooltip name="ИсполнителиОтправленоНаДоработкуExtendedTooltip" id="388"/>
 											</CheckBoxField>
 											<InputField name="ИсполнителиКомментарийПроверяющего" id="143">
-												<DataPath>36/12</DataPath>
 												<Visible>false</Visible>
 												<EditMode>EnterOnInput</EditMode>
 												<HorizontalStretch>true</HorizontalStretch>
@@ -5014,7 +4961,6 @@
 												<ExtendedTooltip name="ИсполнителиКомментарийПроверяющегоExtendedTooltip" id="389"/>
 											</InputField>
 											<CheckBoxField name="ИсполнителиЯвкаОбязательна" id="270">
-												<DataPath>36/29</DataPath>
 												<Visible>false</Visible>
 												<ReadOnly>true</ReadOnly>
 												<EditMode>EnterOnInput</EditMode>
@@ -5113,7 +5059,6 @@
 										</SearchControlAddition>
 										<ChildItems>
 											<InputField name="ЭтапыНомерСтроки" id="219">
-												<DataPath>61/3</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<Width>3</Width>
 												<ContextMenu name="ЭтапыНомерСтрокиКонтекстноеМеню" id="220"/>
@@ -5144,7 +5089,6 @@
 												<ExtendedTooltip name="ЭтапыГруппаЗадачаExtendedTooltip" id="395"/>
 												<ChildItems>
 													<PictureField name="ЭтапыЗадачаВыполнена" id="229">
-														<DataPath>61/24</DataPath>
 														<TitleLocation>None</TitleLocation>
 														<EditMode>EnterOnInput</EditMode>
 														<ValuesPicture>
@@ -5156,7 +5100,6 @@
 														<ExtendedTooltip name="ЭтапыЗадачаВыполненаExtendedTooltip" id="396"/>
 													</PictureField>
 													<InputField name="ЭтапыШаблонБизнесПроцесса" id="221">
-														<DataPath>61/13</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -5175,21 +5118,18 @@
 												</ChildItems>
 											</ColumnGroup>
 											<InputField name="ЭтапыСрок" id="223">
-												<DataPath>61/2</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<Width>10</Width>
 												<ContextMenu name="ЭтапыСрокКонтекстноеМеню" id="224"/>
 												<ExtendedTooltip name="ЭтапыСрокExtendedTooltip" id="398"/>
 											</InputField>
 											<InputField name="ЭтапыИсполнителиЭтапаСтрокой" id="227">
-												<DataPath>61/1</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<Width>15</Width>
 												<ContextMenu name="ЭтапыИсполнителиЭтапаСтрокойКонтекстноеМеню" id="228"/>
 												<ExtendedTooltip name="ЭтапыИсполнителиЭтапаСтрокойExtendedTooltip" id="399"/>
 											</InputField>
 											<InputField name="ЭтапыПредшественникиЭтапаСтрокой" id="225">
-												<DataPath>61/17</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>

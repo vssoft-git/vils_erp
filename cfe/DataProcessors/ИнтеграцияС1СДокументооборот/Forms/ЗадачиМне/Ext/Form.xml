@@ -239,7 +239,7 @@
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>Command bar </v8:content>
+															<v8:content>Command bar</v8:content>
 														</v8:item>
 													</Title>
 													<ToolTip>
@@ -249,7 +249,7 @@
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>Command bar </v8:content>
+															<v8:content>Command bar</v8:content>
 														</v8:item>
 													</ToolTip>
 													<ExtendedTooltip name="КоманднаяПанельExtendedTooltip" id="82"/>
@@ -302,6 +302,12 @@
 																	<Type>CommandBarButton</Type>
 																	<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 																	<ExtendedTooltip name="ПринятьКИсполнениюExtendedTooltip" id="96"/>
+																</Button>
+																<Button name="ОтменитьПринятиеКИсполнению" id="423">
+																	<Type>CommandBarButton</Type>
+																	<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																	<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+																	<ExtendedTooltip name="ОтменитьПринятиеКИсполнениюРасширеннаяПодсказка" id="424"/>
 																</Button>
 															</ChildItems>
 														</ButtonGroup>
@@ -483,6 +489,11 @@
 														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 														<ExtendedTooltip name="ЗадачиКонтекстноеМенюПринятьКИсполнениюРасширеннаяПодсказка" id="395"/>
 													</Button>
+													<Button name="ЗадачиКонтекстноеМенюОтменитьПринятиеКИсполнению" id="421">
+														<Type>CommandBarButton</Type>
+														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<ExtendedTooltip name="ЗадачиКонтекстноеМенюОтменитьПринятиеКИсполнениюРасширеннаяПодсказка" id="422"/>
+													</Button>
 													<Button name="ЗадачиКонтекстноеМенюВывестиСписок" id="52">
 														<Type>CommandBarButton</Type>
 														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
@@ -534,7 +545,6 @@
 													<ExtendedTooltip name="ЗадачиГруппаЗадачаExtendedTooltip" id="115"/>
 													<ChildItems>
 														<InputField name="ЗадачиЗадача" id="11">
-															<DataPath>2/2</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
 															<Width>30</Width>
@@ -544,7 +554,6 @@
 													</ChildItems>
 												</ColumnGroup>
 												<InputField name="ЗадачиСрокИсполнения" id="17">
-													<DataPath>2/5</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<Title>
 														<v8:item>
@@ -605,7 +614,6 @@
 													<ExtendedTooltip name="ЗадачиГруппаАвторСрокРасширеннаяПодсказка" id="368"/>
 													<ChildItems>
 														<InputField name="ЗадачиАвтор" id="21">
-															<DataPath>2/7</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
 															<Width>14</Width>
@@ -613,7 +621,6 @@
 															<ExtendedTooltip name="ЗадачиАвторExtendedTooltip" id="120"/>
 														</InputField>
 														<InputField name="ЗадачиЗаписана" id="19">
-															<DataPath>2/6</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<EditMode>EnterOnInput</EditMode>
 															<Width>10</Width>
@@ -644,7 +651,6 @@
 													</ChildItems>
 												</ColumnGroup>
 												<PictureField name="ЗадачиВажность" id="23">
-													<DataPath>2/8</DataPath>
 													<TitleLocation>None</TitleLocation>
 													<EditMode>EnterOnInput</EditMode>
 													<HeaderPicture>
@@ -691,557 +697,817 @@
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаПросмотрЗадачиРасширеннаяПодсказка" id="279"/>
 									<ChildItems>
-										<PictureDecoration name="ДекорацияРазделительОбластиПросмотра" id="291">
-											<Width>1</Width>
-											<VerticalStretch>true</VerticalStretch>
-											<Title formatted="false">
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Декорация-разделитель области просмотра</v8:content>
-												</v8:item>
-												<v8:item>
-													<v8:lang>en</v8:lang>
-													<v8:content>Decoration separator of preview pane</v8:content>
-												</v8:item>
-											</Title>
-											<PictureSize>Tile</PictureSize>
-											<FileDragMode>AsFile</FileDragMode>
-											<ContextMenu name="ДекорацияРазделительОбластиПросмотраКонтекстноеМеню" id="292"/>
-											<ExtendedTooltip name="ДекорацияРазделительОбластиПросмотраExtendedTooltip" id="293"/>
-										</PictureDecoration>
-										<UsualGroup name="ГруппаЗадача" id="294">
+										<Pages name="СтраницыПросмотрЗадачи" id="461">
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Задача</v8:content>
+													<v8:content>Страницы просмотр задачи</v8:content>
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Task</v8:content>
+													<v8:content>Pages view task</v8:content>
 												</v8:item>
 											</Title>
-											<Group>Vertical</Group>
-											<Representation>None</Representation>
-											<ShowTitle>false</ShowTitle>
-											<ExtendedTooltip name="ГруппаЗадачаРасширеннаяПодсказка" id="295"/>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Страницы просмотр задачи</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Pages view task</v8:content>
+												</v8:item>
+											</ToolTip>
+											<PagesRepresentation>None</PagesRepresentation>
+											<ExtendedTooltip name="СтраницыПросмотрЗадачиРасширеннаяПодсказка" id="462"/>
 											<ChildItems>
-												<UsualGroup name="ГруппаЗадачаОписание" id="296">
+												<Page name="СтраницаПросмотрЗадачи" id="468">
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Описание задачи</v8:content>
+															<v8:content>Задача</v8:content>
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>Task description</v8:content>
+															<v8:content>Task</v8:content>
 														</v8:item>
 													</Title>
 													<ToolTip>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Группа задача описание</v8:content>
+															<v8:content>Страница просмотр задачи</v8:content>
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>Group task description</v8:content>
+															<v8:content>Page view task</v8:content>
 														</v8:item>
 													</ToolTip>
-													<Group>Vertical</Group>
-													<Representation>None</Representation>
-													<ShowTitle>false</ShowTitle>
-													<ExtendedTooltip name="ГруппаЗадачаОписаниеРасширеннаяПодсказка" id="297"/>
+													<ExtendedTooltip name="СтраницаПросмотрЗадачиРасширеннаяПодсказка" id="470"/>
 													<ChildItems>
-														<Pages name="ГруппаСтраницыКоманд" id="388">
+														<UsualGroup name="ГруппаЗадачаОписание" id="296">
 															<Title>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>Группа страницы команд</v8:content>
+																	<v8:content>Описание задачи</v8:content>
 																</v8:item>
 																<v8:item>
 																	<v8:lang>en</v8:lang>
-																	<v8:content>Group command pages</v8:content>
+																	<v8:content>Task description</v8:content>
 																</v8:item>
 															</Title>
 															<ToolTip>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>Группа страницы команд</v8:content>
+																	<v8:content>Группа задача описание</v8:content>
 																</v8:item>
 																<v8:item>
 																	<v8:lang>en</v8:lang>
-																	<v8:content>Group command pages</v8:content>
+																	<v8:content>Group task description</v8:content>
 																</v8:item>
 															</ToolTip>
-															<PagesRepresentation>None</PagesRepresentation>
-															<ExtendedTooltip name="ГруппаСтраницыКомандРасширеннаяПодсказка" id="389"/>
+															<Group>Vertical</Group>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<ExtendedTooltip name="ГруппаЗадачаОписаниеРасширеннаяПодсказка" id="297"/>
 															<ChildItems>
-																<Page name="ГруппаСтраницаКоманд" id="390">
+																<Pages name="ГруппаСтраницыКоманд" id="388">
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
-																			<v8:content>Группа страница команд</v8:content>
+																			<v8:content>Группа страницы команд</v8:content>
 																		</v8:item>
 																		<v8:item>
 																			<v8:lang>en</v8:lang>
-																			<v8:content>Group command page</v8:content>
+																			<v8:content>Group command pages</v8:content>
 																		</v8:item>
 																	</Title>
 																	<ToolTip>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
-																			<v8:content>Группа страница команд</v8:content>
+																			<v8:content>Группа страницы команд</v8:content>
 																		</v8:item>
 																		<v8:item>
 																			<v8:lang>en</v8:lang>
-																			<v8:content>Group command page</v8:content>
+																			<v8:content>Group command pages</v8:content>
 																		</v8:item>
 																	</ToolTip>
-																	<ShowTitle>false</ShowTitle>
-																	<ExtendedTooltip name="ГруппаСтраницаКомандРасширеннаяПодсказка" id="391"/>
+																	<PagesRepresentation>None</PagesRepresentation>
+																	<ExtendedTooltip name="ГруппаСтраницыКомандРасширеннаяПодсказка" id="389"/>
 																	<ChildItems>
-																		<CommandBar name="ГруппаКоманды" id="306">
+																		<Page name="ГруппаСтраницаКоманд" id="390">
 																			<Title>
 																				<v8:item>
 																					<v8:lang>ru</v8:lang>
-																					<v8:content>Команды задачи</v8:content>
+																					<v8:content>Группа страница команд</v8:content>
 																				</v8:item>
 																				<v8:item>
 																					<v8:lang>en</v8:lang>
-																					<v8:content>Task commands</v8:content>
+																					<v8:content>Group command page</v8:content>
 																				</v8:item>
 																			</Title>
-																			<ExtendedTooltip name="ГруппаКомандыРасширеннаяПодсказка" id="307"/>
+																			<ToolTip>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Группа страница команд</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Group command page</v8:content>
+																				</v8:item>
+																			</ToolTip>
+																			<ShowTitle>false</ShowTitle>
+																			<ExtendedTooltip name="ГруппаСтраницаКомандРасширеннаяПодсказка" id="391"/>
 																			<ChildItems>
-																				<ButtonGroup name="ГруппаХронометраж" id="417">
+																				<CommandBar name="ГруппаКоманды" id="306">
 																					<Title>
 																						<v8:item>
 																							<v8:lang>ru</v8:lang>
-																							<v8:content>Хронометраж</v8:content>
+																							<v8:content>Команды задачи</v8:content>
 																						</v8:item>
 																						<v8:item>
 																							<v8:lang>en</v8:lang>
-																							<v8:content>Timing</v8:content>
+																							<v8:content>Task commands</v8:content>
 																						</v8:item>
 																					</Title>
-																					<Representation>Compact</Representation>
-																					<ExtendedTooltip name="ГруппаХронометражРасширеннаяПодсказка" id="418"/>
+																					<ExtendedTooltip name="ГруппаКомандыРасширеннаяПодсказка" id="307"/>
 																					<ChildItems>
-																						<Button name="ПереключитьХронометраж" id="378">
-																							<Type>CommandBarButton</Type>
-																							<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-																							<ExtendedTooltip name="ПереключитьХронометражРасширеннаяПодсказка" id="379"/>
-																						</Button>
-																						<Button name="УказатьТрудозатраты" id="380">
-																							<Type>CommandBarButton</Type>
-																							<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-																							<ExtendedTooltip name="УказатьТрудозатратыРасширеннаяПодсказка" id="381"/>
-																						</Button>
+																						<ButtonGroup name="ГруппаХронометраж" id="417">
+																							<Title>
+																								<v8:item>
+																									<v8:lang>ru</v8:lang>
+																									<v8:content>Хронометраж</v8:content>
+																								</v8:item>
+																								<v8:item>
+																									<v8:lang>en</v8:lang>
+																									<v8:content>Timing</v8:content>
+																								</v8:item>
+																							</Title>
+																							<Representation>Compact</Representation>
+																							<ExtendedTooltip name="ГруппаХронометражРасширеннаяПодсказка" id="418"/>
+																							<ChildItems>
+																								<Button name="ПереключитьХронометраж" id="378">
+																									<Type>CommandBarButton</Type>
+																									<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																									<ExtendedTooltip name="ПереключитьХронометражРасширеннаяПодсказка" id="379"/>
+																								</Button>
+																								<Button name="УказатьТрудозатраты" id="380">
+																									<Type>CommandBarButton</Type>
+																									<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																									<ExtendedTooltip name="УказатьТрудозатратыРасширеннаяПодсказка" id="381"/>
+																								</Button>
+																							</ChildItems>
+																						</ButtonGroup>
+																						<Popup name="ГруппаСоздатьНаОсновании" id="382">
+																							<Title>
+																								<v8:item>
+																									<v8:lang>ru</v8:lang>
+																									<v8:content>Создать на основании</v8:content>
+																								</v8:item>
+																								<v8:item>
+																									<v8:lang>en</v8:lang>
+																									<v8:content>Generate</v8:content>
+																								</v8:item>
+																							</Title>
+																							<ToolTip>
+																								<v8:item>
+																									<v8:lang>ru</v8:lang>
+																									<v8:content>Создать на основании</v8:content>
+																								</v8:item>
+																								<v8:item>
+																									<v8:lang>en</v8:lang>
+																									<v8:content>Generate</v8:content>
+																								</v8:item>
+																							</ToolTip>
+																							<HorizontalStretch>true</HorizontalStretch>
+																							<ExtendedTooltip name="ГруппаСоздатьНаОснованииРасширеннаяПодсказка" id="383"/>
+																							<ChildItems>
+																								<Button name="СоздатьПисьмо" id="384">
+																									<Type>CommandBarButton</Type>
+																									<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																									<ExtendedTooltip name="СоздатьПисьмоРасширеннаяПодсказка" id="385"/>
+																								</Button>
+																								<Button name="СоздатьПроцесс" id="386">
+																									<Type>CommandBarButton</Type>
+																									<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																									<ExtendedTooltip name="СоздатьПроцессРасширеннаяПодсказка" id="387"/>
+																								</Button>
+																							</ChildItems>
+																						</Popup>
 																					</ChildItems>
-																				</ButtonGroup>
-																				<Popup name="ГруппаСоздатьНаОсновании" id="382">
-																					<Title>
-																						<v8:item>
-																							<v8:lang>ru</v8:lang>
-																							<v8:content>Создать на основании</v8:content>
-																						</v8:item>
-																						<v8:item>
-																							<v8:lang>en</v8:lang>
-																							<v8:content>Create on the basis</v8:content>
-																						</v8:item>
-																					</Title>
-																					<ToolTip>
-																						<v8:item>
-																							<v8:lang>ru</v8:lang>
-																							<v8:content>Создать на основании</v8:content>
-																						</v8:item>
-																						<v8:item>
-																							<v8:lang>en</v8:lang>
-																							<v8:content>Create on the basis</v8:content>
-																						</v8:item>
-																					</ToolTip>
-																					<HorizontalStretch>true</HorizontalStretch>
-																					<ExtendedTooltip name="ГруппаСоздатьНаОснованииРасширеннаяПодсказка" id="383"/>
-																					<ChildItems>
-																						<Button name="СоздатьПисьмо" id="384">
-																							<Type>CommandBarButton</Type>
-																							<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-																							<ExtendedTooltip name="СоздатьПисьмоРасширеннаяПодсказка" id="385"/>
-																						</Button>
-																						<Button name="СоздатьПроцесс" id="386">
-																							<Type>CommandBarButton</Type>
-																							<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-																							<ExtendedTooltip name="СоздатьПроцессРасширеннаяПодсказка" id="387"/>
-																						</Button>
-																					</ChildItems>
-																				</Popup>
+																				</CommandBar>
 																			</ChildItems>
-																		</CommandBar>
+																		</Page>
+																	</ChildItems>
+																</Pages>
+																<HTMLDocumentField name="ЗадачаHTMLПредставление" id="310">
+																	<DataPath>19</DataPath>
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Представление задачи</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Task presentation</v8:content>
+																		</v8:item>
+																	</Title>
+																	<TitleLocation>None</TitleLocation>
+																	<Width>16</Width>
+																	<Height>6</Height>
+																	<ContextMenu name="ЗадачаHTMLПредставлениеКонтекстноеМеню" id="311"/>
+																	<ExtendedTooltip name="ЗадачаHTMLПредставлениеРасширеннаяПодсказка" id="312"/>
+																</HTMLDocumentField>
+															</ChildItems>
+														</UsualGroup>
+														<Pages name="ГруппаПриложения" id="371">
+															<PagesRepresentation>None</PagesRepresentation>
+															<ExtendedTooltip name="ГруппаПриложенияРасширеннаяПодсказка" id="372"/>
+															<ChildItems>
+																<Page name="СтраницаЕстьПредметы" id="369">
+																	<ExtendedTooltip name="СтраницаЕстьПредметыРасширеннаяПодсказка" id="370"/>
+																	<ChildItems>
+																		<Table name="ДеревоПриложений" id="315">
+																			<Representation>Tree</Representation>
+																			<CommandBarLocation>None</CommandBarLocation>
+																			<ReadOnly>true</ReadOnly>
+																			<ChangeRowSet>false</ChangeRowSet>
+																			<ChangeRowOrder>false</ChangeRowOrder>
+																			<MaxWidth>44</MaxWidth>
+																			<HeightInTableRows>3</HeightInTableRows>
+																			<SelectionMode>SingleRow</SelectionMode>
+																			<Header>false</Header>
+																			<HorizontalLines>false</HorizontalLines>
+																			<AutoInsertNewRow>true</AutoInsertNewRow>
+																			<AutoAddIncomplete>false</AutoAddIncomplete>
+																			<AutoMarkIncomplete>false</AutoMarkIncomplete>
+																			<SearchOnInput>DontUse</SearchOnInput>
+																			<InitialListView>Beginning</InitialListView>
+																			<InitialTreeView>ExpandAllLevels</InitialTreeView>
+																			<Output>Enable</Output>
+																			<EnableStartDrag>true</EnableStartDrag>
+																			<EnableDrag>true</EnableDrag>
+																			<FileDragMode>AsFile</FileDragMode>
+																			<DataPath>20</DataPath>
+																			<RowsPicture>
+																				<xr:Ref>CommonPicture.КоллекцияПиктограммФайлов</xr:Ref>
+																				<xr:LoadTransparent>false</xr:LoadTransparent>
+																			</RowsPicture>
+																			<ToolTipRepresentation>None</ToolTipRepresentation>
+																			<SearchStringLocation>None</SearchStringLocation>
+																			<ViewStatusLocation>None</ViewStatusLocation>
+																			<SearchControlLocation>None</SearchControlLocation>
+																			<ContextMenu name="ДеревоПриложенийКонтекстноеМеню" id="316">
+																				<Autofill>false</Autofill>
+																				<ChildItems>
+																					<Button name="КонтекстОткрытьПредмет" id="407">
+																						<Type>CommandBarButton</Type>
+																						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																						<ExtendedTooltip name="КонтекстОткрытьПредметРасширеннаяПодсказка" id="408"/>
+																					</Button>
+																					<Button name="КонтекстОткрытьИсходныйДокумент" id="411">
+																						<Type>CommandBarButton</Type>
+																						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																						<ExtendedTooltip name="КонтекстОткрытьИсходныйДокументРасширеннаяПодсказка" id="412"/>
+																					</Button>
+																				</ChildItems>
+																			</ContextMenu>
+																			<AutoCommandBar name="ДеревоПриложенийКоманднаяПанель" id="317"/>
+																			<ExtendedTooltip name="ДеревоПриложенийРасширеннаяПодсказка" id="318"/>
+																			<SearchStringAddition name="ДеревоПриложенийСтрокаПоиска" id="319">
+																				<AdditionSource>
+																					<Item>ДеревоПриложений</Item>
+																					<Type>SearchStringRepresentation</Type>
+																				</AdditionSource>
+																				<ContextMenu name="ДеревоПриложенийСтрокаПоискаКонтекстноеМеню" id="322"/>
+																				<ExtendedTooltip name="ДеревоПриложенийСтрокаПоискаРасширеннаяПодсказка" id="323"/>
+																			</SearchStringAddition>
+																			<ViewStatusAddition name="ДеревоПриложенийСостояниеПросмотра" id="324">
+																				<AdditionSource>
+																					<Item>ДеревоПриложений</Item>
+																					<Type>ViewStatusRepresentation</Type>
+																				</AdditionSource>
+																				<ContextMenu name="ДеревоПриложенийСостояниеПросмотраКонтекстноеМеню" id="327"/>
+																				<ExtendedTooltip name="ДеревоПриложенийСостояниеПросмотраРасширеннаяПодсказка" id="328"/>
+																			</ViewStatusAddition>
+																			<SearchControlAddition name="ДеревоПриложенийУправлениеПоиском" id="329">
+																				<AdditionSource>
+																					<Item>ДеревоПриложений</Item>
+																					<Type>SearchControl</Type>
+																				</AdditionSource>
+																				<ContextMenu name="ДеревоПриложенийУправлениеПоискомКонтекстноеМеню" id="332"/>
+																				<ExtendedTooltip name="ДеревоПриложенийУправлениеПоискомРасширеннаяПодсказка" id="333"/>
+																			</SearchControlAddition>
+																			<ChildItems>
+																				<InputField name="ДеревоПриложенийПредставление" id="334">
+																					<EditMode>EnterOnInput</EditMode>
+																					<Height>1</Height>
+																					<HorizontalStretch>true</HorizontalStretch>
+																					<Wrap>false</Wrap>
+																					<ContextMenu name="ДеревоПриложенийПредставлениеКонтекстноеМеню" id="335"/>
+																					<ExtendedTooltip name="ДеревоПриложенийПредставлениеРасширеннаяПодсказка" id="336"/>
+																				</InputField>
+																			</ChildItems>
+																		</Table>
+																	</ChildItems>
+																</Page>
+																<Page name="СтраницаНетПредметов" id="373">
+																	<ExtendedTooltip name="СтраницаНетПредметовРасширеннаяПодсказка" id="374"/>
+																	<ChildItems>
+																		<LabelDecoration name="ДекорацияНетПредметов" id="375">
+																			<AutoMaxWidth>false</AutoMaxWidth>
+																			<MaxWidth>44</MaxWidth>
+																			<HorizontalStretch>true</HorizontalStretch>
+																			<VerticalStretch>true</VerticalStretch>
+																			<TextColor>style:BorderColor</TextColor>
+																			<Title formatted="false">
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>У задачи нет предметов.</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>The task has no subjects.</v8:content>
+																				</v8:item>
+																			</Title>
+																			<HorizontalAlign>Center</HorizontalAlign>
+																			<VerticalAlign>Center</VerticalAlign>
+																			<ContextMenu name="ДекорацияНетПредметовКонтекстноеМеню" id="376"/>
+																			<ExtendedTooltip name="ДекорацияНетПредметовРасширеннаяПодсказка" id="377"/>
+																		</LabelDecoration>
 																	</ChildItems>
 																</Page>
 															</ChildItems>
 														</Pages>
-														<HTMLDocumentField name="ЗадачаHTMLПредставление" id="310">
-															<DataPath>19</DataPath>
+														<UsualGroup name="ГруппаЗадачаИсполнение" id="300">
 															<Title>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>Представление задачи</v8:content>
+																	<v8:content>Исполнение задачи</v8:content>
 																</v8:item>
 																<v8:item>
 																	<v8:lang>en</v8:lang>
-																	<v8:content>Task presentation</v8:content>
-																</v8:item>
-															</Title>
-															<TitleLocation>None</TitleLocation>
-															<Width>16</Width>
-															<Height>6</Height>
-															<ContextMenu name="ЗадачаHTMLПредставлениеКонтекстноеМеню" id="311"/>
-															<ExtendedTooltip name="ЗадачаHTMLПредставлениеРасширеннаяПодсказка" id="312"/>
-														</HTMLDocumentField>
-													</ChildItems>
-												</UsualGroup>
-												<Pages name="ГруппаПриложения" id="371">
-													<PagesRepresentation>None</PagesRepresentation>
-													<ExtendedTooltip name="ГруппаПриложенияРасширеннаяПодсказка" id="372"/>
-													<ChildItems>
-														<Page name="СтраницаЕстьПредметы" id="369">
-															<ExtendedTooltip name="СтраницаЕстьПредметыРасширеннаяПодсказка" id="370"/>
-															<ChildItems>
-																<Table name="ДеревоПриложений" id="315">
-																	<Representation>Tree</Representation>
-																	<CommandBarLocation>None</CommandBarLocation>
-																	<ReadOnly>true</ReadOnly>
-																	<ChangeRowSet>false</ChangeRowSet>
-																	<ChangeRowOrder>false</ChangeRowOrder>
-																	<MaxWidth>44</MaxWidth>
-																	<HeightInTableRows>3</HeightInTableRows>
-																	<SelectionMode>SingleRow</SelectionMode>
-																	<Header>false</Header>
-																	<HorizontalLines>false</HorizontalLines>
-																	<AutoInsertNewRow>true</AutoInsertNewRow>
-																	<AutoAddIncomplete>false</AutoAddIncomplete>
-																	<AutoMarkIncomplete>false</AutoMarkIncomplete>
-																	<SearchOnInput>DontUse</SearchOnInput>
-																	<InitialListView>Beginning</InitialListView>
-																	<InitialTreeView>ExpandAllLevels</InitialTreeView>
-																	<Output>Enable</Output>
-																	<EnableStartDrag>true</EnableStartDrag>
-																	<EnableDrag>true</EnableDrag>
-																	<FileDragMode>AsFile</FileDragMode>
-																	<DataPath>20</DataPath>
-																	<RowPictureDataPath>20/4</RowPictureDataPath>
-																	<RowsPicture>
-																		<xr:Ref>CommonPicture.КоллекцияПиктограммФайлов</xr:Ref>
-																		<xr:LoadTransparent>false</xr:LoadTransparent>
-																	</RowsPicture>
-																	<ToolTipRepresentation>None</ToolTipRepresentation>
-																	<SearchStringLocation>None</SearchStringLocation>
-																	<ViewStatusLocation>None</ViewStatusLocation>
-																	<SearchControlLocation>None</SearchControlLocation>
-																	<ContextMenu name="ДеревоПриложенийКонтекстноеМеню" id="316">
-																		<Autofill>false</Autofill>
-																		<ChildItems>
-																			<Button name="КонтекстОткрытьПредмет" id="407">
-																				<Type>CommandBarButton</Type>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-																				<ExtendedTooltip name="КонтекстОткрытьПредметРасширеннаяПодсказка" id="408"/>
-																			</Button>
-																			<Button name="КонтекстОткрытьИсходныйДокумент" id="411">
-																				<Type>CommandBarButton</Type>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-																				<ExtendedTooltip name="КонтекстОткрытьИсходныйДокументРасширеннаяПодсказка" id="412"/>
-																			</Button>
-																		</ChildItems>
-																	</ContextMenu>
-																	<AutoCommandBar name="ДеревоПриложенийКоманднаяПанель" id="317"/>
-																	<ExtendedTooltip name="ДеревоПриложенийРасширеннаяПодсказка" id="318"/>
-																	<SearchStringAddition name="ДеревоПриложенийСтрокаПоиска" id="319">
-																		<AdditionSource>
-																			<Item>ДеревоПриложений</Item>
-																			<Type>SearchStringRepresentation</Type>
-																		</AdditionSource>
-																		<ContextMenu name="ДеревоПриложенийСтрокаПоискаКонтекстноеМеню" id="322"/>
-																		<ExtendedTooltip name="ДеревоПриложенийСтрокаПоискаРасширеннаяПодсказка" id="323"/>
-																	</SearchStringAddition>
-																	<ViewStatusAddition name="ДеревоПриложенийСостояниеПросмотра" id="324">
-																		<AdditionSource>
-																			<Item>ДеревоПриложений</Item>
-																			<Type>ViewStatusRepresentation</Type>
-																		</AdditionSource>
-																		<ContextMenu name="ДеревоПриложенийСостояниеПросмотраКонтекстноеМеню" id="327"/>
-																		<ExtendedTooltip name="ДеревоПриложенийСостояниеПросмотраРасширеннаяПодсказка" id="328"/>
-																	</ViewStatusAddition>
-																	<SearchControlAddition name="ДеревоПриложенийУправлениеПоиском" id="329">
-																		<AdditionSource>
-																			<Item>ДеревоПриложений</Item>
-																			<Type>SearchControl</Type>
-																		</AdditionSource>
-																		<ContextMenu name="ДеревоПриложенийУправлениеПоискомКонтекстноеМеню" id="332"/>
-																		<ExtendedTooltip name="ДеревоПриложенийУправлениеПоискомРасширеннаяПодсказка" id="333"/>
-																	</SearchControlAddition>
-																	<ChildItems>
-																		<InputField name="ДеревоПриложенийПредставление" id="334">
-																			<DataPath>20/10</DataPath>
-																			<EditMode>EnterOnInput</EditMode>
-																			<Height>1</Height>
-																			<HorizontalStretch>true</HorizontalStretch>
-																			<Wrap>false</Wrap>
-																			<ContextMenu name="ДеревоПриложенийПредставлениеКонтекстноеМеню" id="335"/>
-																			<ExtendedTooltip name="ДеревоПриложенийПредставлениеРасширеннаяПодсказка" id="336"/>
-																		</InputField>
-																	</ChildItems>
-																</Table>
-															</ChildItems>
-														</Page>
-														<Page name="СтраницаНетПредметов" id="373">
-															<ExtendedTooltip name="СтраницаНетПредметовРасширеннаяПодсказка" id="374"/>
-															<ChildItems>
-																<LabelDecoration name="ДекорацияНетПредметов" id="375">
-																	<AutoMaxWidth>false</AutoMaxWidth>
-																	<MaxWidth>44</MaxWidth>
-																	<HorizontalStretch>true</HorizontalStretch>
-																	<VerticalStretch>true</VerticalStretch>
-																	<TextColor>style:BorderColor</TextColor>
-																	<Title formatted="false">
-																		<v8:item>
-																			<v8:lang>ru</v8:lang>
-																			<v8:content>У задачи нет предметов.</v8:content>
-																		</v8:item>
-																		<v8:item>
-																			<v8:lang>en</v8:lang>
-																			<v8:content>The task has no subjects.</v8:content>
-																		</v8:item>
-																	</Title>
-																	<HorizontalAlign>Center</HorizontalAlign>
-																	<VerticalAlign>Center</VerticalAlign>
-																	<ContextMenu name="ДекорацияНетПредметовКонтекстноеМеню" id="376"/>
-																	<ExtendedTooltip name="ДекорацияНетПредметовРасширеннаяПодсказка" id="377"/>
-																</LabelDecoration>
-															</ChildItems>
-														</Page>
-													</ChildItems>
-												</Pages>
-												<UsualGroup name="ГруппаЗадачаИсполнение" id="300">
-													<Title>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Исполнение задачи</v8:content>
-														</v8:item>
-														<v8:item>
-															<v8:lang>en</v8:lang>
-															<v8:content>Task execution</v8:content>
-														</v8:item>
-													</Title>
-													<ToolTip>
-														<v8:item>
-															<v8:lang>ru</v8:lang>
-															<v8:content>Группа задача исполнение</v8:content>
-														</v8:item>
-														<v8:item>
-															<v8:lang>en</v8:lang>
-															<v8:content>Group task execution</v8:content>
-														</v8:item>
-													</ToolTip>
-													<HorizontalStretch>true</HorizontalStretch>
-													<Group>Vertical</Group>
-													<Representation>None</Representation>
-													<ChildItemsWidth>Equal</ChildItemsWidth>
-													<ShowTitle>false</ShowTitle>
-													<ExtendedTooltip name="ГруппаЗадачаИсполнениеРасширеннаяПодсказка" id="301"/>
-													<ChildItems>
-														<InputField name="Комментарий" id="337">
-															<DataPath>21</DataPath>
-															<TitleLocation>None</TitleLocation>
-															<AutoMaxWidth>false</AutoMaxWidth>
-															<Height>3</Height>
-															<HorizontalStretch>true</HorizontalStretch>
-															<VerticalStretch>false</VerticalStretch>
-															<MultiLine>true</MultiLine>
-															<AutoMarkIncomplete>false</AutoMarkIncomplete>
-															<EditTextUpdate>OnValueChange</EditTextUpdate>
-															<InputHint>
-																<v8:item>
-																	<v8:lang>ru</v8:lang>
-																	<v8:content>Ваш комментарий</v8:content>
-																</v8:item>
-																<v8:item>
-																	<v8:lang>en</v8:lang>
-																	<v8:content>Your comment</v8:content>
-																</v8:item>
-															</InputHint>
-															<ContextMenu name="КомментарийКонтекстноеМеню" id="338"/>
-															<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="339"/>
-														</InputField>
-														<Pages name="ГруппаИсполнениеСтраницыКнопок" id="340">
-															<Title>
-																<v8:item>
-																	<v8:lang>ru</v8:lang>
-																	<v8:content>Группа исполнение страницы кнопок</v8:content>
-																</v8:item>
-																<v8:item>
-																	<v8:lang>en</v8:lang>
-																	<v8:content>Group button page execution</v8:content>
+																	<v8:content>Task execution</v8:content>
 																</v8:item>
 															</Title>
 															<ToolTip>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
-																	<v8:content>Группа исполнение страницы кнопок</v8:content>
+																	<v8:content>Группа задача исполнение</v8:content>
 																</v8:item>
 																<v8:item>
 																	<v8:lang>en</v8:lang>
-																	<v8:content>Group button page execution</v8:content>
+																	<v8:content>Group task execution</v8:content>
 																</v8:item>
 															</ToolTip>
-															<Height>3</Height>
-															<PagesRepresentation>None</PagesRepresentation>
-															<ExtendedTooltip name="ГруппаИсполнениеСтраницыКнопокРасширеннаяПодсказка" id="341"/>
+															<HorizontalStretch>true</HorizontalStretch>
+															<Group>Vertical</Group>
+															<Representation>None</Representation>
+															<ChildItemsWidth>Equal</ChildItemsWidth>
+															<ShowTitle>false</ShowTitle>
+															<ExtendedTooltip name="ГруппаЗадачаИсполнениеРасширеннаяПодсказка" id="301"/>
 															<ChildItems>
-																<Page name="ГруппаИсполнениеНоль" id="342">
-																	<EnableContentChange>true</EnableContentChange>
+																<UsualGroup name="ГруппаРеквизитыРассмотрения" id="431">
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
-																			<v8:content>Группа исполнение ноль</v8:content>
+																			<v8:content>Группа реквизиты рассмотрения</v8:content>
 																		</v8:item>
 																		<v8:item>
 																			<v8:lang>en</v8:lang>
-																			<v8:content>Group execution zero</v8:content>
+																			<v8:content>Group review attributes</v8:content>
 																		</v8:item>
 																	</Title>
-																	<Height>3</Height>
-																	<Group>Horizontal</Group>
-																	<ChildItemsWidth>Equal</ChildItemsWidth>
-																	<ExtendedTooltip name="ГруппаИсполнениеНольРасширеннаяПодсказка" id="343"/>
+																	<ToolTip>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Группа реквизиты рассмотрения</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Group review attributes</v8:content>
+																		</v8:item>
+																	</ToolTip>
+																	<Group>AlwaysHorizontal</Group>
+																	<Representation>None</Representation>
+																	<ShowTitle>false</ShowTitle>
+																	<ExtendedTooltip name="ГруппаРеквизитыРассмотренияРасширеннаяПодсказка" id="432"/>
 																	<ChildItems>
-																		<LabelDecoration name="ДекорацияНетКнопок" id="344">
-																			<HorizontalStretch>false</HorizontalStretch>
-																			<ContextMenu name="ДекорацияНетКнопокКонтекстноеМеню" id="345"/>
-																			<ExtendedTooltip name="ДекорацияНетКнопокРасширеннаяПодсказка" id="346"/>
+																		<UsualGroup name="ГруппаСрок" id="433">
+																			<Title>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Группа срок</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Group term</v8:content>
+																				</v8:item>
+																			</Title>
+																			<ToolTip>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Группа срок</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Group term</v8:content>
+																				</v8:item>
+																			</ToolTip>
+																			<Group>Vertical</Group>
+																			<Representation>None</Representation>
+																			<ShowTitle>false</ShowTitle>
+																			<ExtendedTooltip name="ГруппаСрокРасширеннаяПодсказка" id="434"/>
+																			<ChildItems>
+																				<LabelField name="СтарыйСрок" id="435">
+																					<DataPath>10</DataPath>
+																					<Height>1</Height>
+																					<ContextMenu name="СтарыйСрокКонтекстноеМеню" id="436"/>
+																					<ExtendedTooltip name="СтарыйСрокРасширеннаяПодсказка" id="437"/>
+																				</LabelField>
+																				<InputField name="НовыйСрок" id="438">
+																					<DataPath>11</DataPath>
+																					<Height>1</Height>
+																					<ContextMenu name="НовыйСрокКонтекстноеМеню" id="439"/>
+																					<ExtendedTooltip name="НовыйСрокРасширеннаяПодсказка" id="440"/>
+																				</InputField>
+																			</ChildItems>
+																		</UsualGroup>
+																		<LabelDecoration name="Декорация1" id="449">
+																			<AutoMaxWidth>false</AutoMaxWidth>
+																			<HorizontalStretch>true</HorizontalStretch>
+																			<ContextMenu name="Декорация1КонтекстноеМеню" id="450"/>
+																			<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="451"/>
 																		</LabelDecoration>
+																		<UsualGroup name="ГруппаПредметРассмотрения" id="441">
+																			<Title>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Группа предмет рассмотрения</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Group review subject</v8:content>
+																				</v8:item>
+																			</Title>
+																			<ToolTip>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Группа предмет рассмотрения</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Group review subject</v8:content>
+																				</v8:item>
+																			</ToolTip>
+																			<Group>AlwaysHorizontal</Group>
+																			<Representation>None</Representation>
+																			<ShowTitle>false</ShowTitle>
+																			<ExtendedTooltip name="ГруппаПредметРассмотренияРасширеннаяПодсказка" id="442"/>
+																			<ChildItems>
+																				<LabelDecoration name="ДекорацияЗадача" id="443">
+																					<Title formatted="false">
+																						<v8:item>
+																							<v8:lang>ru</v8:lang>
+																							<v8:content>Задача</v8:content>
+																						</v8:item>
+																						<v8:item>
+																							<v8:lang>en</v8:lang>
+																							<v8:content>Task</v8:content>
+																						</v8:item>
+																					</Title>
+																					<Hyperlink>true</Hyperlink>
+																					<ContextMenu name="ДекорацияЗадачаКонтекстноеМеню" id="444"/>
+																					<ExtendedTooltip name="ДекорацияЗадачаРасширеннаяПодсказка" id="445"/>
+																				</LabelDecoration>
+																				<LabelDecoration name="ДекорацияПроцесс" id="446">
+																					<Title formatted="false">
+																						<v8:item>
+																							<v8:lang>ru</v8:lang>
+																							<v8:content>Процесс</v8:content>
+																						</v8:item>
+																						<v8:item>
+																							<v8:lang>en</v8:lang>
+																							<v8:content>Process</v8:content>
+																						</v8:item>
+																					</Title>
+																					<Hyperlink>true</Hyperlink>
+																					<ContextMenu name="ДекорацияПроцессКонтекстноеМеню" id="447"/>
+																					<ExtendedTooltip name="ДекорацияПроцессРасширеннаяПодсказка" id="448"/>
+																				</LabelDecoration>
+																			</ChildItems>
+																		</UsualGroup>
 																	</ChildItems>
-																</Page>
-																<Page name="ГруппаИсполнениеОдна" id="347">
-																	<EnableContentChange>true</EnableContentChange>
+																</UsualGroup>
+																<InputField name="ДатаНачалаПриглашения" id="455">
+																	<DataPath>37</DataPath>
+																	<ReadOnly>true</ReadOnly>
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
-																			<v8:content>Группа исполнение одна</v8:content>
+																			<v8:content>Начало</v8:content>
 																		</v8:item>
 																		<v8:item>
 																			<v8:lang>en</v8:lang>
-																			<v8:content>Group execution one</v8:content>
+																			<v8:content>Start</v8:content>
 																		</v8:item>
 																	</Title>
-																	<Height>3</Height>
-																	<Group>Horizontal</Group>
-																	<ChildItemsWidth>Equal</ChildItemsWidth>
-																	<ShowTitle>false</ShowTitle>
-																	<ExtendedTooltip name="ГруппаИсполнениеОднаРасширеннаяПодсказка" id="348"/>
-																	<ChildItems>
-																		<Button name="ОднаВыполнитьЗадачуПервая" id="349">
-																			<Type>UsualButton</Type>
-																			<TitleHeight>1</TitleHeight>
-																			<Height>2</Height>
-																			<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-																			<TextColor>style:ОтметкаПоложительногоВыполненияЗадачи</TextColor>
-																			<Font ref="style:NormalTextFont" kind="StyleItem"/>
-																			<ExtendedTooltip name="ОднаВыполнитьЗадачуПерваяРасширеннаяПодсказка" id="350"/>
-																		</Button>
-																	</ChildItems>
-																</Page>
-																<Page name="ГруппаИсполнениеДве" id="351">
-																	<EnableContentChange>true</EnableContentChange>
+																	<ContextMenu name="ДатаНачалаПриглашенияКонтекстноеМеню" id="456"/>
+																	<ExtendedTooltip name="ДатаНачалаПриглашенияРасширеннаяПодсказка" id="457"/>
+																</InputField>
+																<InputField name="МестоПроведенияПриглашения" id="458">
+																	<DataPath>36</DataPath>
+																	<ReadOnly>true</ReadOnly>
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
-																			<v8:content>Группа исполнение две</v8:content>
+																			<v8:content>Место проведения</v8:content>
 																		</v8:item>
 																		<v8:item>
 																			<v8:lang>en</v8:lang>
-																			<v8:content>Group execution two</v8:content>
+																			<v8:content>Location</v8:content>
 																		</v8:item>
 																	</Title>
-																	<Height>3</Height>
-																	<Group>Horizontal</Group>
-																	<ChildItemsWidth>Equal</ChildItemsWidth>
-																	<ShowTitle>false</ShowTitle>
-																	<ExtendedTooltip name="ГруппаИсполнениеДвеРасширеннаяПодсказка" id="352"/>
-																	<ChildItems>
-																		<Button name="ДвеВыполнитьЗадачуПервая" id="353">
-																			<Type>UsualButton</Type>
-																			<TitleHeight>1</TitleHeight>
-																			<Height>2</Height>
-																			<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-																			<TextColor>style:ОтметкаПоложительногоВыполненияЗадачи</TextColor>
-																			<Font ref="style:NormalTextFont" kind="StyleItem"/>
-																			<ExtendedTooltip name="ДвеВыполнитьЗадачуПерваяРасширеннаяПодсказка" id="354"/>
-																		</Button>
-																		<Button name="ДвеВыполнитьЗадачуВторая" id="355">
-																			<Type>UsualButton</Type>
-																			<TitleHeight>2</TitleHeight>
-																			<Height>2</Height>
-																			<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-																			<Font ref="style:NormalTextFont" kind="StyleItem"/>
-																			<ExtendedTooltip name="ДвеВыполнитьЗадачуВтораяРасширеннаяПодсказка" id="356"/>
-																		</Button>
-																	</ChildItems>
-																</Page>
-																<Page name="ГруппаИсполнениеТри" id="357">
-																	<EnableContentChange>true</EnableContentChange>
+																	<AutoMaxWidth>false</AutoMaxWidth>
+																	<ContextMenu name="МестоПроведенияПриглашенияКонтекстноеМеню" id="459"/>
+																	<ExtendedTooltip name="МестоПроведенияПриглашенияРасширеннаяПодсказка" id="460"/>
+																</InputField>
+																<InputField name="РезультатВыполнения" id="452">
+																	<DataPath>33</DataPath>
+																	<ReadOnly>true</ReadOnly>
 																	<Title>
 																		<v8:item>
 																			<v8:lang>ru</v8:lang>
-																			<v8:content>Группа исполнение три</v8:content>
+																			<v8:content>Результат</v8:content>
 																		</v8:item>
 																		<v8:item>
 																			<v8:lang>en</v8:lang>
-																			<v8:content>Group execution three</v8:content>
+																			<v8:content>Result</v8:content>
 																		</v8:item>
 																	</Title>
+																	<AutoMaxWidth>false</AutoMaxWidth>
+																	<ContextMenu name="РезультатВыполненияКонтекстноеМеню" id="453"/>
+																	<ExtendedTooltip name="РезультатВыполненияРасширеннаяПодсказка" id="454"/>
+																</InputField>
+																<InputField name="Комментарий" id="337">
+																	<DataPath>21</DataPath>
+																	<TitleLocation>None</TitleLocation>
+																	<AutoMaxWidth>false</AutoMaxWidth>
 																	<Height>3</Height>
-																	<Group>Horizontal</Group>
-																	<ChildItemsWidth>Equal</ChildItemsWidth>
-																	<ShowTitle>false</ShowTitle>
-																	<ExtendedTooltip name="ГруппаИсполнениеТриРасширеннаяПодсказка" id="358"/>
+																	<HorizontalStretch>true</HorizontalStretch>
+																	<VerticalStretch>false</VerticalStretch>
+																	<MultiLine>true</MultiLine>
+																	<AutoMarkIncomplete>false</AutoMarkIncomplete>
+																	<EditTextUpdate>OnValueChange</EditTextUpdate>
+																	<InputHint>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Ваш комментарий</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Your comment</v8:content>
+																		</v8:item>
+																	</InputHint>
+																	<ContextMenu name="КомментарийКонтекстноеМеню" id="338"/>
+																	<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="339"/>
+																</InputField>
+																<Pages name="ГруппаИсполнениеСтраницыКнопок" id="340">
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Группа исполнение страницы кнопок</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Group button page execution</v8:content>
+																		</v8:item>
+																	</Title>
+																	<ToolTip>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Группа исполнение страницы кнопок</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Group button page execution</v8:content>
+																		</v8:item>
+																	</ToolTip>
+																	<Height>3</Height>
+																	<PagesRepresentation>None</PagesRepresentation>
+																	<ExtendedTooltip name="ГруппаИсполнениеСтраницыКнопокРасширеннаяПодсказка" id="341"/>
 																	<ChildItems>
-																		<Button name="ТриВыполнитьЗадачуПервая" id="359">
-																			<Type>UsualButton</Type>
-																			<TitleHeight>1</TitleHeight>
-																			<AutoMaxWidth>false</AutoMaxWidth>
-																			<Height>2</Height>
-																			<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-																			<TextColor>style:ОтметкаПоложительногоВыполненияЗадачи</TextColor>
-																			<Font ref="style:NormalTextFont" kind="StyleItem"/>
-																			<ExtendedTooltip name="ТриВыполнитьЗадачуПерваяРасширеннаяПодсказка" id="360"/>
-																		</Button>
-																		<Button name="ТриВыполнитьЗадачуВторая" id="361">
-																			<Type>UsualButton</Type>
-																			<TitleHeight>2</TitleHeight>
-																			<AutoMaxWidth>false</AutoMaxWidth>
-																			<Height>2</Height>
-																			<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-																			<Font ref="style:NormalTextFont" kind="StyleItem"/>
-																			<ExtendedTooltip name="ТриВыполнитьЗадачуВтораяРасширеннаяПодсказка" id="362"/>
-																		</Button>
-																		<Button name="ТриВыполнитьЗадачуТретья" id="363">
-																			<Type>UsualButton</Type>
-																			<TitleHeight>1</TitleHeight>
-																			<AutoMaxWidth>false</AutoMaxWidth>
-																			<Height>2</Height>
-																			<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-																			<TextColor>style:ОтметкаОтрицательногоВыполненияЗадачи</TextColor>
-																			<Font ref="style:NormalTextFont" kind="StyleItem"/>
-																			<ExtendedTooltip name="ТриВыполнитьЗадачуТретьяРасширеннаяПодсказка" id="364"/>
-																		</Button>
+																		<Page name="ГруппаИсполнениеНоль" id="342">
+																			<EnableContentChange>true</EnableContentChange>
+																			<Title>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Группа исполнение ноль</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Group execution zero</v8:content>
+																				</v8:item>
+																			</Title>
+																			<Height>3</Height>
+																			<Group>Horizontal</Group>
+																			<ChildItemsWidth>Equal</ChildItemsWidth>
+																			<ExtendedTooltip name="ГруппаИсполнениеНольРасширеннаяПодсказка" id="343"/>
+																			<ChildItems>
+																				<LabelDecoration name="ДекорацияНетКнопок" id="344">
+																					<HorizontalStretch>false</HorizontalStretch>
+																					<ContextMenu name="ДекорацияНетКнопокКонтекстноеМеню" id="345"/>
+																					<ExtendedTooltip name="ДекорацияНетКнопокРасширеннаяПодсказка" id="346"/>
+																				</LabelDecoration>
+																				<PictureDecoration name="ДекорацияВнимание2" id="425">
+																					<Visible>false</Visible>
+																					<Width>2</Width>
+																					<Height>1</Height>
+																					<Title formatted="false">
+																						<v8:item>
+																							<v8:lang>ru</v8:lang>
+																							<v8:content>Декорация внимание</v8:content>
+																						</v8:item>
+																						<v8:item>
+																							<v8:lang>en</v8:lang>
+																							<v8:content>Decoration warning</v8:content>
+																						</v8:item>
+																					</Title>
+																					<FileDragMode>AsFile</FileDragMode>
+																					<ContextMenu name="ДекорацияВнимание2КонтекстноеМеню" id="426"/>
+																					<ExtendedTooltip name="ДекорацияВнимание2РасширеннаяПодсказка" id="427"/>
+																				</PictureDecoration>
+																				<LabelDecoration name="ТекстРезультатаВыполнения" id="428">
+																					<Visible>false</Visible>
+																					<SkipOnInput>false</SkipOnInput>
+																					<ContextMenu name="ТекстРезультатаВыполненияКонтекстноеМеню" id="429"/>
+																					<ExtendedTooltip name="ТекстРезультатаВыполненияExtendedTooltip" id="430"/>
+																				</LabelDecoration>
+																			</ChildItems>
+																		</Page>
+																		<Page name="ГруппаИсполнениеОдна" id="347">
+																			<EnableContentChange>true</EnableContentChange>
+																			<Title>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Группа исполнение одна</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Group execution one</v8:content>
+																				</v8:item>
+																			</Title>
+																			<Height>3</Height>
+																			<Group>Horizontal</Group>
+																			<ChildItemsWidth>Equal</ChildItemsWidth>
+																			<ShowTitle>false</ShowTitle>
+																			<ExtendedTooltip name="ГруппаИсполнениеОднаРасширеннаяПодсказка" id="348"/>
+																			<ChildItems>
+																				<Button name="ОднаВыполнитьЗадачуПервая" id="349">
+																					<Type>UsualButton</Type>
+																					<Height>2</Height>
+																					<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																					<TextColor>style:ОтметкаПоложительногоВыполненияЗадачи</TextColor>
+																					<Font ref="style:NormalTextFont" kind="StyleItem"/>
+																					<ExtendedTooltip name="ОднаВыполнитьЗадачуПерваяРасширеннаяПодсказка" id="350"/>
+																				</Button>
+																			</ChildItems>
+																		</Page>
+																		<Page name="ГруппаИсполнениеДве" id="351">
+																			<EnableContentChange>true</EnableContentChange>
+																			<Title>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Группа исполнение две</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Group execution two</v8:content>
+																				</v8:item>
+																			</Title>
+																			<Height>3</Height>
+																			<Group>Horizontal</Group>
+																			<ChildItemsWidth>Equal</ChildItemsWidth>
+																			<ShowTitle>false</ShowTitle>
+																			<ExtendedTooltip name="ГруппаИсполнениеДвеРасширеннаяПодсказка" id="352"/>
+																			<ChildItems>
+																				<Button name="ДвеВыполнитьЗадачуПервая" id="353">
+																					<Type>UsualButton</Type>
+																					<Height>2</Height>
+																					<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																					<TextColor>style:ОтметкаПоложительногоВыполненияЗадачи</TextColor>
+																					<Font ref="style:NormalTextFont" kind="StyleItem"/>
+																					<ExtendedTooltip name="ДвеВыполнитьЗадачуПерваяРасширеннаяПодсказка" id="354"/>
+																				</Button>
+																				<Button name="ДвеВыполнитьЗадачуВторая" id="355">
+																					<Type>UsualButton</Type>
+																					<Height>2</Height>
+																					<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																					<Font ref="style:NormalTextFont" kind="StyleItem"/>
+																					<ExtendedTooltip name="ДвеВыполнитьЗадачуВтораяРасширеннаяПодсказка" id="356"/>
+																				</Button>
+																			</ChildItems>
+																		</Page>
+																		<Page name="ГруппаИсполнениеТри" id="357">
+																			<EnableContentChange>true</EnableContentChange>
+																			<Title>
+																				<v8:item>
+																					<v8:lang>ru</v8:lang>
+																					<v8:content>Группа исполнение три</v8:content>
+																				</v8:item>
+																				<v8:item>
+																					<v8:lang>en</v8:lang>
+																					<v8:content>Group execution three</v8:content>
+																				</v8:item>
+																			</Title>
+																			<Height>3</Height>
+																			<Group>Horizontal</Group>
+																			<ChildItemsWidth>Equal</ChildItemsWidth>
+																			<ShowTitle>false</ShowTitle>
+																			<ExtendedTooltip name="ГруппаИсполнениеТриРасширеннаяПодсказка" id="358"/>
+																			<ChildItems>
+																				<Button name="ТриВыполнитьЗадачуПервая" id="359">
+																					<Type>UsualButton</Type>
+																					<AutoMaxWidth>false</AutoMaxWidth>
+																					<Height>2</Height>
+																					<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																					<TextColor>style:ОтметкаПоложительногоВыполненияЗадачи</TextColor>
+																					<Font ref="style:NormalTextFont" kind="StyleItem"/>
+																					<ExtendedTooltip name="ТриВыполнитьЗадачуПерваяРасширеннаяПодсказка" id="360"/>
+																				</Button>
+																				<Button name="ТриВыполнитьЗадачуВторая" id="361">
+																					<Type>UsualButton</Type>
+																					<AutoMaxWidth>false</AutoMaxWidth>
+																					<Height>2</Height>
+																					<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																					<Font ref="style:NormalTextFont" kind="StyleItem"/>
+																					<ExtendedTooltip name="ТриВыполнитьЗадачуВтораяРасширеннаяПодсказка" id="362"/>
+																				</Button>
+																				<Button name="ТриВыполнитьЗадачуТретья" id="363">
+																					<Type>UsualButton</Type>
+																					<AutoMaxWidth>false</AutoMaxWidth>
+																					<Height>2</Height>
+																					<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																					<TextColor>style:ОтметкаОтрицательногоВыполненияЗадачи</TextColor>
+																					<Font ref="style:NormalTextFont" kind="StyleItem"/>
+																					<ExtendedTooltip name="ТриВыполнитьЗадачуТретьяРасширеннаяПодсказка" id="364"/>
+																				</Button>
+																			</ChildItems>
+																		</Page>
 																	</ChildItems>
-																</Page>
+																</Pages>
 															</ChildItems>
-														</Pages>
+														</UsualGroup>
 													</ChildItems>
-												</UsualGroup>
+												</Page>
+												<Page name="СтраницаНетЗадачи" id="463">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Страница нет задачи</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Page no task</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Страница нет задачи</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Page no task</v8:content>
+														</v8:item>
+													</ToolTip>
+													<ExtendedTooltip name="СтраницаНетЗадачиExtendedTooltip" id="464"/>
+													<ChildItems>
+														<LabelDecoration name="ДекорацияНетЗадачи" id="465">
+															<Width>1</Width>
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<Height>1</Height>
+															<HorizontalStretch>true</HorizontalStretch>
+															<VerticalStretch>true</VerticalStretch>
+															<TextColor>style:НедоступныеДанныеЦвет</TextColor>
+															<Title formatted="false">
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Нет описания задачи.</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>No task description.</v8:content>
+																</v8:item>
+															</Title>
+															<HorizontalAlign>Center</HorizontalAlign>
+															<VerticalAlign>Center</VerticalAlign>
+															<ContextMenu name="ДекорацияНетЗадачиКонтекстноеМеню" id="466"/>
+															<ExtendedTooltip name="ДекорацияНетЗадачиExtendedTooltip" id="467"/>
+														</LabelDecoration>
+													</ChildItems>
+												</Page>
 											</ChildItems>
-										</UsualGroup>
+										</Pages>
 									</ChildItems>
 								</UsualGroup>
 							</ChildItems>
@@ -1492,7 +1758,7 @@
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>Command bar </v8:content>
+																<v8:content>Command bar</v8:content>
 															</v8:item>
 														</Title>
 														<ToolTip>
@@ -1502,7 +1768,7 @@
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>Command bar </v8:content>
+																<v8:content>Command bar</v8:content>
 															</v8:item>
 														</ToolTip>
 														<ExtendedTooltip name="КоманднаяПанельExtendedTooltip" id="82"/>
@@ -1555,6 +1821,12 @@
 																		<Type>CommandBarButton</Type>
 																		<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 																		<ExtendedTooltip name="ПринятьКИсполнениюExtendedTooltip" id="96"/>
+																	</Button>
+																	<Button name="ОтменитьПринятиеКИсполнению" id="423">
+																		<Type>CommandBarButton</Type>
+																		<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																		<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+																		<ExtendedTooltip name="ОтменитьПринятиеКИсполнениюРасширеннаяПодсказка" id="424"/>
 																	</Button>
 																</ChildItems>
 															</ButtonGroup>
@@ -1693,7 +1965,7 @@
 															</Button>
 															<Button name="ИзменитьФорму" id="419">
 																<Type>CommandBarButton</Type>
-																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<CommandName>Form.StandardCommand.CustomizeForm</CommandName>
 																<ExtendedTooltip name="ИзменитьФормуРасширеннаяПодсказка" id="420"/>
 															</Button>
 														</ChildItems>
@@ -1736,9 +2008,14 @@
 															<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 															<ExtendedTooltip name="ЗадачиКонтекстноеМенюПринятьКИсполнениюРасширеннаяПодсказка" id="395"/>
 														</Button>
-														<Button name="ЗадачиКонтекстноеМенюВывестиСписок" id="52">
+														<Button name="ЗадачиКонтекстноеМенюОтменитьПринятиеКИсполнению" id="421">
 															<Type>CommandBarButton</Type>
 															<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+															<ExtendedTooltip name="ЗадачиКонтекстноеМенюОтменитьПринятиеКИсполнениюРасширеннаяПодсказка" id="422"/>
+														</Button>
+														<Button name="ЗадачиКонтекстноеМенюВывестиСписок" id="52">
+															<Type>CommandBarButton</Type>
+															<CommandName>0:49602716-fea6-497f-8047-726404038857</CommandName>
 															<ExtendedTooltip name="ЗадачиКонтекстноеМенюВывестиСписокРасширеннаяПодсказка" id="111"/>
 														</Button>
 													</ChildItems>
@@ -1787,7 +2064,6 @@
 														<ExtendedTooltip name="ЗадачиГруппаЗадачаExtendedTooltip" id="115"/>
 														<ChildItems>
 															<InputField name="ЗадачиЗадача" id="11">
-																<DataPath>2/2</DataPath>
 																<ReadOnly>true</ReadOnly>
 																<EditMode>EnterOnInput</EditMode>
 																<Width>30</Width>
@@ -1797,7 +2073,6 @@
 														</ChildItems>
 													</ColumnGroup>
 													<InputField name="ЗадачиСрокИсполнения" id="17">
-														<DataPath>2/5</DataPath>
 														<ReadOnly>true</ReadOnly>
 														<Title>
 															<v8:item>
@@ -1858,7 +2133,6 @@
 														<ExtendedTooltip name="ЗадачиГруппаАвторСрокРасширеннаяПодсказка" id="368"/>
 														<ChildItems>
 															<InputField name="ЗадачиАвтор" id="21">
-																<DataPath>2/7</DataPath>
 																<ReadOnly>true</ReadOnly>
 																<EditMode>EnterOnInput</EditMode>
 																<Width>14</Width>
@@ -1866,7 +2140,6 @@
 																<ExtendedTooltip name="ЗадачиАвторExtendedTooltip" id="120"/>
 															</InputField>
 															<InputField name="ЗадачиЗаписана" id="19">
-																<DataPath>2/6</DataPath>
 																<ReadOnly>true</ReadOnly>
 																<EditMode>EnterOnInput</EditMode>
 																<Width>10</Width>
@@ -1897,7 +2170,6 @@
 														</ChildItems>
 													</ColumnGroup>
 													<PictureField name="ЗадачиВажность" id="23">
-														<DataPath>2/8</DataPath>
 														<TitleLocation>None</TitleLocation>
 														<EditMode>EnterOnInput</EditMode>
 														<HeaderPicture>
@@ -1944,557 +2216,814 @@
 										<ShowTitle>false</ShowTitle>
 										<ExtendedTooltip name="ГруппаПросмотрЗадачиРасширеннаяПодсказка" id="279"/>
 										<ChildItems>
-											<PictureDecoration name="ДекорацияРазделительОбластиПросмотра" id="291">
-												<Width>1</Width>
-												<VerticalStretch>true</VerticalStretch>
-												<Title formatted="false">
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Декорация-разделитель области просмотра</v8:content>
-													</v8:item>
-													<v8:item>
-														<v8:lang>en</v8:lang>
-														<v8:content>Decoration separator of preview pane</v8:content>
-													</v8:item>
-												</Title>
-												<PictureSize>Tile</PictureSize>
-												<FileDragMode>AsFile</FileDragMode>
-												<ContextMenu name="ДекорацияРазделительОбластиПросмотраКонтекстноеМеню" id="292"/>
-												<ExtendedTooltip name="ДекорацияРазделительОбластиПросмотраExtendedTooltip" id="293"/>
-											</PictureDecoration>
-											<UsualGroup name="ГруппаЗадача" id="294">
+											<Pages name="СтраницыПросмотрЗадачи" id="461">
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Задача</v8:content>
+														<v8:content>Страницы просмотр задачи</v8:content>
 													</v8:item>
 													<v8:item>
 														<v8:lang>en</v8:lang>
-														<v8:content>Task</v8:content>
+														<v8:content>Pages view task</v8:content>
 													</v8:item>
 												</Title>
-												<Group>Vertical</Group>
-												<Representation>None</Representation>
-												<ShowTitle>false</ShowTitle>
-												<ExtendedTooltip name="ГруппаЗадачаРасширеннаяПодсказка" id="295"/>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Страницы просмотр задачи</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Pages view task</v8:content>
+													</v8:item>
+												</ToolTip>
+												<PagesRepresentation>None</PagesRepresentation>
+												<ExtendedTooltip name="СтраницыПросмотрЗадачиРасширеннаяПодсказка" id="462"/>
 												<ChildItems>
-													<UsualGroup name="ГруппаЗадачаОписание" id="296">
+													<Page name="СтраницаПросмотрЗадачи" id="294">
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Описание задачи</v8:content>
+																<v8:content>Задача</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>Task description</v8:content>
+																<v8:content>Task</v8:content>
 															</v8:item>
 														</Title>
 														<ToolTip>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Группа задача описание</v8:content>
+																<v8:content>Страница просмотр задачи</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>Group task description</v8:content>
+																<v8:content>Page view task</v8:content>
 															</v8:item>
 														</ToolTip>
-														<Group>Vertical</Group>
-														<Representation>None</Representation>
-														<ShowTitle>false</ShowTitle>
-														<ExtendedTooltip name="ГруппаЗадачаОписаниеРасширеннаяПодсказка" id="297"/>
+														<ExtendedTooltip name="СтраницаПросмотрЗадачиРасширеннаяПодсказка" id="295"/>
 														<ChildItems>
-															<Pages name="ГруппаСтраницыКоманд" id="388">
+															<UsualGroup name="ГруппаЗадачаОписание" id="296">
 																<Title>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
-																		<v8:content>Группа страницы команд</v8:content>
+																		<v8:content>Описание задачи</v8:content>
 																	</v8:item>
 																	<v8:item>
 																		<v8:lang>en</v8:lang>
-																		<v8:content>Group command pages</v8:content>
+																		<v8:content>Task description</v8:content>
 																	</v8:item>
 																</Title>
 																<ToolTip>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
-																		<v8:content>Группа страницы команд</v8:content>
+																		<v8:content>Группа задача описание</v8:content>
 																	</v8:item>
 																	<v8:item>
 																		<v8:lang>en</v8:lang>
-																		<v8:content>Group command pages</v8:content>
+																		<v8:content>Group task description</v8:content>
 																	</v8:item>
 																</ToolTip>
-																<PagesRepresentation>None</PagesRepresentation>
-																<ExtendedTooltip name="ГруппаСтраницыКомандРасширеннаяПодсказка" id="389"/>
+																<Group>Vertical</Group>
+																<Representation>None</Representation>
+																<ShowTitle>false</ShowTitle>
+																<ExtendedTooltip name="ГруппаЗадачаОписаниеРасширеннаяПодсказка" id="297"/>
 																<ChildItems>
-																	<Page name="ГруппаСтраницаКоманд" id="390">
+																	<Pages name="ГруппаСтраницыКоманд" id="388">
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
-																				<v8:content>Группа страница команд</v8:content>
+																				<v8:content>Группа страницы команд</v8:content>
 																			</v8:item>
 																			<v8:item>
 																				<v8:lang>en</v8:lang>
-																				<v8:content>Group command page</v8:content>
+																				<v8:content>Group command pages</v8:content>
 																			</v8:item>
 																		</Title>
 																		<ToolTip>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
-																				<v8:content>Группа страница команд</v8:content>
+																				<v8:content>Группа страницы команд</v8:content>
 																			</v8:item>
 																			<v8:item>
 																				<v8:lang>en</v8:lang>
-																				<v8:content>Group command page</v8:content>
+																				<v8:content>Group command pages</v8:content>
 																			</v8:item>
 																		</ToolTip>
-																		<ShowTitle>false</ShowTitle>
-																		<ExtendedTooltip name="ГруппаСтраницаКомандРасширеннаяПодсказка" id="391"/>
+																		<PagesRepresentation>None</PagesRepresentation>
+																		<ExtendedTooltip name="ГруппаСтраницыКомандРасширеннаяПодсказка" id="389"/>
 																		<ChildItems>
-																			<CommandBar name="ГруппаКоманды" id="306">
+																			<Page name="ГруппаСтраницаКоманд" id="390">
 																				<Title>
 																					<v8:item>
 																						<v8:lang>ru</v8:lang>
-																						<v8:content>Команды задачи</v8:content>
+																						<v8:content>Группа страница команд</v8:content>
 																					</v8:item>
 																					<v8:item>
 																						<v8:lang>en</v8:lang>
-																						<v8:content>Task commands</v8:content>
+																						<v8:content>Group command page</v8:content>
 																					</v8:item>
 																				</Title>
-																				<ExtendedTooltip name="ГруппаКомандыРасширеннаяПодсказка" id="307"/>
+																				<ToolTip>
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>Группа страница команд</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Group command page</v8:content>
+																					</v8:item>
+																				</ToolTip>
+																				<ShowTitle>false</ShowTitle>
+																				<ExtendedTooltip name="ГруппаСтраницаКомандРасширеннаяПодсказка" id="391"/>
 																				<ChildItems>
-																					<ButtonGroup name="ГруппаХронометраж" id="417">
+																					<CommandBar name="ГруппаКоманды" id="306">
 																						<Title>
 																							<v8:item>
 																								<v8:lang>ru</v8:lang>
-																								<v8:content>Хронометраж</v8:content>
+																								<v8:content>Команды задачи</v8:content>
 																							</v8:item>
 																							<v8:item>
 																								<v8:lang>en</v8:lang>
-																								<v8:content>Timing</v8:content>
+																								<v8:content>Task commands</v8:content>
 																							</v8:item>
 																						</Title>
-																						<Representation>Compact</Representation>
-																						<ExtendedTooltip name="ГруппаХронометражРасширеннаяПодсказка" id="418"/>
+																						<ExtendedTooltip name="ГруппаКомандыРасширеннаяПодсказка" id="307"/>
 																						<ChildItems>
-																							<Button name="ПереключитьХронометраж" id="378">
-																								<Type>CommandBarButton</Type>
-																								<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-																								<ExtendedTooltip name="ПереключитьХронометражРасширеннаяПодсказка" id="379"/>
-																							</Button>
-																							<Button name="УказатьТрудозатраты" id="380">
-																								<Type>CommandBarButton</Type>
-																								<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-																								<ExtendedTooltip name="УказатьТрудозатратыРасширеннаяПодсказка" id="381"/>
-																							</Button>
+																							<ButtonGroup name="ГруппаХронометраж" id="417">
+																								<Title>
+																									<v8:item>
+																										<v8:lang>ru</v8:lang>
+																										<v8:content>Хронометраж</v8:content>
+																									</v8:item>
+																									<v8:item>
+																										<v8:lang>en</v8:lang>
+																										<v8:content>Timing</v8:content>
+																									</v8:item>
+																								</Title>
+																								<Representation>Compact</Representation>
+																								<ExtendedTooltip name="ГруппаХронометражРасширеннаяПодсказка" id="418"/>
+																								<ChildItems>
+																									<Button name="ПереключитьХронометраж" id="378">
+																										<Type>CommandBarButton</Type>
+																										<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																										<ExtendedTooltip name="ПереключитьХронометражРасширеннаяПодсказка" id="379"/>
+																									</Button>
+																									<Button name="УказатьТрудозатраты" id="380">
+																										<Type>CommandBarButton</Type>
+																										<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																										<ExtendedTooltip name="УказатьТрудозатратыРасширеннаяПодсказка" id="381"/>
+																									</Button>
+																								</ChildItems>
+																							</ButtonGroup>
+																							<Popup name="ГруппаСоздатьНаОсновании" id="382">
+																								<Title>
+																									<v8:item>
+																										<v8:lang>ru</v8:lang>
+																										<v8:content>Создать на основании</v8:content>
+																									</v8:item>
+																									<v8:item>
+																										<v8:lang>en</v8:lang>
+																										<v8:content>Generate</v8:content>
+																									</v8:item>
+																								</Title>
+																								<ToolTip>
+																									<v8:item>
+																										<v8:lang>ru</v8:lang>
+																										<v8:content>Создать на основании</v8:content>
+																									</v8:item>
+																									<v8:item>
+																										<v8:lang>en</v8:lang>
+																										<v8:content>Generate</v8:content>
+																									</v8:item>
+																								</ToolTip>
+																								<HorizontalStretch>true</HorizontalStretch>
+																								<ExtendedTooltip name="ГруппаСоздатьНаОснованииРасширеннаяПодсказка" id="383"/>
+																								<ChildItems>
+																									<Button name="СоздатьПисьмо" id="384">
+																										<Type>CommandBarButton</Type>
+																										<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																										<ExtendedTooltip name="СоздатьПисьмоРасширеннаяПодсказка" id="385"/>
+																									</Button>
+																									<Button name="СоздатьПроцесс" id="386">
+																										<Type>CommandBarButton</Type>
+																										<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																										<ExtendedTooltip name="СоздатьПроцессРасширеннаяПодсказка" id="387"/>
+																									</Button>
+																								</ChildItems>
+																							</Popup>
 																						</ChildItems>
-																					</ButtonGroup>
-																					<Popup name="ГруппаСоздатьНаОсновании" id="382">
-																						<Title>
-																							<v8:item>
-																								<v8:lang>ru</v8:lang>
-																								<v8:content>Создать на основании</v8:content>
-																							</v8:item>
-																							<v8:item>
-																								<v8:lang>en</v8:lang>
-																								<v8:content>Create on the basis</v8:content>
-																							</v8:item>
-																						</Title>
-																						<ToolTip>
-																							<v8:item>
-																								<v8:lang>ru</v8:lang>
-																								<v8:content>Создать на основании</v8:content>
-																							</v8:item>
-																							<v8:item>
-																								<v8:lang>en</v8:lang>
-																								<v8:content>Create on the basis</v8:content>
-																							</v8:item>
-																						</ToolTip>
-																						<HorizontalStretch>true</HorizontalStretch>
-																						<ExtendedTooltip name="ГруппаСоздатьНаОснованииРасширеннаяПодсказка" id="383"/>
-																						<ChildItems>
-																							<Button name="СоздатьПисьмо" id="384">
-																								<Type>CommandBarButton</Type>
-																								<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-																								<ExtendedTooltip name="СоздатьПисьмоРасширеннаяПодсказка" id="385"/>
-																							</Button>
-																							<Button name="СоздатьПроцесс" id="386">
-																								<Type>CommandBarButton</Type>
-																								<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-																								<ExtendedTooltip name="СоздатьПроцессРасширеннаяПодсказка" id="387"/>
-																							</Button>
-																						</ChildItems>
-																					</Popup>
+																					</CommandBar>
 																				</ChildItems>
-																			</CommandBar>
+																			</Page>
+																		</ChildItems>
+																	</Pages>
+																	<HTMLDocumentField name="ЗадачаHTMLПредставление" id="310">
+																		<DataPath>19</DataPath>
+																		<Title>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>Представление задачи</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Task presentation</v8:content>
+																			</v8:item>
+																		</Title>
+																		<TitleLocation>None</TitleLocation>
+																		<Width>16</Width>
+																		<Height>6</Height>
+																		<ContextMenu name="ЗадачаHTMLПредставлениеКонтекстноеМеню" id="311"/>
+																		<ExtendedTooltip name="ЗадачаHTMLПредставлениеРасширеннаяПодсказка" id="312"/>
+																	</HTMLDocumentField>
+																</ChildItems>
+															</UsualGroup>
+															<Pages name="ГруппаПриложения" id="371">
+																<PagesRepresentation>None</PagesRepresentation>
+																<ExtendedTooltip name="ГруппаПриложенияРасширеннаяПодсказка" id="372"/>
+																<ChildItems>
+																	<Page name="СтраницаЕстьПредметы" id="369">
+																		<ExtendedTooltip name="СтраницаЕстьПредметыРасширеннаяПодсказка" id="370"/>
+																		<ChildItems>
+																			<Table name="ДеревоПриложений" id="315">
+																				<Representation>Tree</Representation>
+																				<CommandBarLocation>None</CommandBarLocation>
+																				<ReadOnly>true</ReadOnly>
+																				<ChangeRowSet>false</ChangeRowSet>
+																				<ChangeRowOrder>false</ChangeRowOrder>
+																				<MaxWidth>44</MaxWidth>
+																				<HeightInTableRows>3</HeightInTableRows>
+																				<SelectionMode>SingleRow</SelectionMode>
+																				<Header>false</Header>
+																				<HorizontalLines>false</HorizontalLines>
+																				<AutoInsertNewRow>true</AutoInsertNewRow>
+																				<AutoAddIncomplete>false</AutoAddIncomplete>
+																				<AutoMarkIncomplete>false</AutoMarkIncomplete>
+																				<SearchOnInput>DontUse</SearchOnInput>
+																				<InitialListView>Beginning</InitialListView>
+																				<InitialTreeView>ExpandAllLevels</InitialTreeView>
+																				<Output>Enable</Output>
+																				<EnableStartDrag>true</EnableStartDrag>
+																				<EnableDrag>true</EnableDrag>
+																				<FileDragMode>AsFile</FileDragMode>
+																				<DataPath>20</DataPath>
+																				<RowsPicture>
+																					<xr:Ref>CommonPicture.КоллекцияПиктограммФайлов</xr:Ref>
+																					<xr:LoadTransparent>false</xr:LoadTransparent>
+																				</RowsPicture>
+																				<ToolTipRepresentation>None</ToolTipRepresentation>
+																				<SearchStringLocation>None</SearchStringLocation>
+																				<ViewStatusLocation>None</ViewStatusLocation>
+																				<SearchControlLocation>None</SearchControlLocation>
+																				<ContextMenu name="ДеревоПриложенийКонтекстноеМеню" id="316">
+																					<Autofill>false</Autofill>
+																					<ChildItems>
+																						<Button name="КонтекстОткрытьПредмет" id="407">
+																							<Type>CommandBarButton</Type>
+																							<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																							<ExtendedTooltip name="КонтекстОткрытьПредметРасширеннаяПодсказка" id="408"/>
+																						</Button>
+																						<Button name="КонтекстОткрытьИсходныйДокумент" id="411">
+																							<Type>CommandBarButton</Type>
+																							<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																							<ExtendedTooltip name="КонтекстОткрытьИсходныйДокументРасширеннаяПодсказка" id="412"/>
+																						</Button>
+																					</ChildItems>
+																				</ContextMenu>
+																				<AutoCommandBar name="ДеревоПриложенийКоманднаяПанель" id="317"/>
+																				<ExtendedTooltip name="ДеревоПриложенийРасширеннаяПодсказка" id="318"/>
+																				<SearchStringAddition name="ДеревоПриложенийСтрокаПоиска" id="319">
+																					<AdditionSource>
+																						<Item>ДеревоПриложений</Item>
+																						<Type>SearchStringRepresentation</Type>
+																					</AdditionSource>
+																					<ContextMenu name="ДеревоПриложенийСтрокаПоискаКонтекстноеМеню" id="322"/>
+																					<ExtendedTooltip name="ДеревоПриложенийСтрокаПоискаРасширеннаяПодсказка" id="323"/>
+																				</SearchStringAddition>
+																				<ViewStatusAddition name="ДеревоПриложенийСостояниеПросмотра" id="324">
+																					<AdditionSource>
+																						<Item>ДеревоПриложений</Item>
+																						<Type>ViewStatusRepresentation</Type>
+																					</AdditionSource>
+																					<ContextMenu name="ДеревоПриложенийСостояниеПросмотраКонтекстноеМеню" id="327"/>
+																					<ExtendedTooltip name="ДеревоПриложенийСостояниеПросмотраРасширеннаяПодсказка" id="328"/>
+																				</ViewStatusAddition>
+																				<SearchControlAddition name="ДеревоПриложенийУправлениеПоиском" id="329">
+																					<AdditionSource>
+																						<Item>ДеревоПриложений</Item>
+																						<Type>SearchControl</Type>
+																					</AdditionSource>
+																					<ContextMenu name="ДеревоПриложенийУправлениеПоискомКонтекстноеМеню" id="332"/>
+																					<ExtendedTooltip name="ДеревоПриложенийУправлениеПоискомРасширеннаяПодсказка" id="333"/>
+																				</SearchControlAddition>
+																				<ChildItems>
+																					<InputField name="ДеревоПриложенийПредставление" id="334">
+																						<EditMode>EnterOnInput</EditMode>
+																						<Height>1</Height>
+																						<HorizontalStretch>true</HorizontalStretch>
+																						<Wrap>false</Wrap>
+																						<ContextMenu name="ДеревоПриложенийПредставлениеКонтекстноеМеню" id="335"/>
+																						<ExtendedTooltip name="ДеревоПриложенийПредставлениеРасширеннаяПодсказка" id="336"/>
+																					</InputField>
+																				</ChildItems>
+																			</Table>
+																		</ChildItems>
+																	</Page>
+																	<Page name="СтраницаНетПредметов" id="373">
+																		<ExtendedTooltip name="СтраницаНетПредметовРасширеннаяПодсказка" id="374"/>
+																		<ChildItems>
+																			<LabelDecoration name="ДекорацияНетПредметов" id="375">
+																				<AutoMaxWidth>false</AutoMaxWidth>
+																				<MaxWidth>44</MaxWidth>
+																				<HorizontalStretch>true</HorizontalStretch>
+																				<VerticalStretch>true</VerticalStretch>
+																				<TextColor>style:BorderColor</TextColor>
+																				<Title formatted="false">
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>У задачи нет предметов.</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>The task has no subjects.</v8:content>
+																					</v8:item>
+																				</Title>
+																				<HorizontalAlign>Center</HorizontalAlign>
+																				<VerticalAlign>Center</VerticalAlign>
+																				<ContextMenu name="ДекорацияНетПредметовКонтекстноеМеню" id="376"/>
+																				<ExtendedTooltip name="ДекорацияНетПредметовРасширеннаяПодсказка" id="377"/>
+																			</LabelDecoration>
 																		</ChildItems>
 																	</Page>
 																</ChildItems>
 															</Pages>
-															<HTMLDocumentField name="ЗадачаHTMLПредставление" id="310">
-																<DataPath>19</DataPath>
+															<UsualGroup name="ГруппаЗадачаИсполнение" id="300">
 																<Title>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
-																		<v8:content>Представление задачи</v8:content>
+																		<v8:content>Исполнение задачи</v8:content>
 																	</v8:item>
 																	<v8:item>
 																		<v8:lang>en</v8:lang>
-																		<v8:content>Task presentation</v8:content>
-																	</v8:item>
-																</Title>
-																<TitleLocation>None</TitleLocation>
-																<Width>16</Width>
-																<Height>6</Height>
-																<ContextMenu name="ЗадачаHTMLПредставлениеКонтекстноеМеню" id="311"/>
-																<ExtendedTooltip name="ЗадачаHTMLПредставлениеРасширеннаяПодсказка" id="312"/>
-															</HTMLDocumentField>
-														</ChildItems>
-													</UsualGroup>
-													<Pages name="ГруппаПриложения" id="371">
-														<PagesRepresentation>None</PagesRepresentation>
-														<ExtendedTooltip name="ГруппаПриложенияРасширеннаяПодсказка" id="372"/>
-														<ChildItems>
-															<Page name="СтраницаЕстьПредметы" id="369">
-																<ExtendedTooltip name="СтраницаЕстьПредметыРасширеннаяПодсказка" id="370"/>
-																<ChildItems>
-																	<Table name="ДеревоПриложений" id="315">
-																		<Representation>Tree</Representation>
-																		<CommandBarLocation>None</CommandBarLocation>
-																		<ReadOnly>true</ReadOnly>
-																		<ChangeRowSet>false</ChangeRowSet>
-																		<ChangeRowOrder>false</ChangeRowOrder>
-																		<MaxWidth>44</MaxWidth>
-																		<HeightInTableRows>3</HeightInTableRows>
-																		<SelectionMode>SingleRow</SelectionMode>
-																		<Header>false</Header>
-																		<HorizontalLines>false</HorizontalLines>
-																		<AutoInsertNewRow>true</AutoInsertNewRow>
-																		<AutoAddIncomplete>false</AutoAddIncomplete>
-																		<AutoMarkIncomplete>false</AutoMarkIncomplete>
-																		<SearchOnInput>DontUse</SearchOnInput>
-																		<InitialListView>Beginning</InitialListView>
-																		<InitialTreeView>ExpandAllLevels</InitialTreeView>
-																		<Output>Enable</Output>
-																		<EnableStartDrag>true</EnableStartDrag>
-																		<EnableDrag>true</EnableDrag>
-																		<FileDragMode>AsFile</FileDragMode>
-																		<DataPath>20</DataPath>
-																		<RowPictureDataPath>20/4</RowPictureDataPath>
-																		<RowsPicture>
-																			<xr:Ref>CommonPicture.КоллекцияПиктограммФайлов</xr:Ref>
-																			<xr:LoadTransparent>false</xr:LoadTransparent>
-																		</RowsPicture>
-																		<ToolTipRepresentation>None</ToolTipRepresentation>
-																		<SearchStringLocation>None</SearchStringLocation>
-																		<ViewStatusLocation>None</ViewStatusLocation>
-																		<SearchControlLocation>None</SearchControlLocation>
-																		<ContextMenu name="ДеревоПриложенийКонтекстноеМеню" id="316">
-																			<Autofill>false</Autofill>
-																			<ChildItems>
-																				<Button name="КонтекстОткрытьПредмет" id="407">
-																					<Type>CommandBarButton</Type>
-																					<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-																					<ExtendedTooltip name="КонтекстОткрытьПредметРасширеннаяПодсказка" id="408"/>
-																				</Button>
-																				<Button name="КонтекстОткрытьИсходныйДокумент" id="411">
-																					<Type>CommandBarButton</Type>
-																					<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-																					<ExtendedTooltip name="КонтекстОткрытьИсходныйДокументРасширеннаяПодсказка" id="412"/>
-																				</Button>
-																			</ChildItems>
-																		</ContextMenu>
-																		<AutoCommandBar name="ДеревоПриложенийКоманднаяПанель" id="317"/>
-																		<ExtendedTooltip name="ДеревоПриложенийРасширеннаяПодсказка" id="318"/>
-																		<SearchStringAddition name="ДеревоПриложенийСтрокаПоиска" id="319">
-																			<AdditionSource>
-																				<Item>ДеревоПриложений</Item>
-																				<Type>SearchStringRepresentation</Type>
-																			</AdditionSource>
-																			<ContextMenu name="ДеревоПриложенийСтрокаПоискаКонтекстноеМеню" id="322"/>
-																			<ExtendedTooltip name="ДеревоПриложенийСтрокаПоискаРасширеннаяПодсказка" id="323"/>
-																		</SearchStringAddition>
-																		<ViewStatusAddition name="ДеревоПриложенийСостояниеПросмотра" id="324">
-																			<AdditionSource>
-																				<Item>ДеревоПриложений</Item>
-																				<Type>ViewStatusRepresentation</Type>
-																			</AdditionSource>
-																			<ContextMenu name="ДеревоПриложенийСостояниеПросмотраКонтекстноеМеню" id="327"/>
-																			<ExtendedTooltip name="ДеревоПриложенийСостояниеПросмотраРасширеннаяПодсказка" id="328"/>
-																		</ViewStatusAddition>
-																		<SearchControlAddition name="ДеревоПриложенийУправлениеПоиском" id="329">
-																			<AdditionSource>
-																				<Item>ДеревоПриложений</Item>
-																				<Type>SearchControl</Type>
-																			</AdditionSource>
-																			<ContextMenu name="ДеревоПриложенийУправлениеПоискомКонтекстноеМеню" id="332"/>
-																			<ExtendedTooltip name="ДеревоПриложенийУправлениеПоискомРасширеннаяПодсказка" id="333"/>
-																		</SearchControlAddition>
-																		<ChildItems>
-																			<InputField name="ДеревоПриложенийПредставление" id="334">
-																				<DataPath>20/10</DataPath>
-																				<EditMode>EnterOnInput</EditMode>
-																				<Height>1</Height>
-																				<HorizontalStretch>true</HorizontalStretch>
-																				<Wrap>false</Wrap>
-																				<ContextMenu name="ДеревоПриложенийПредставлениеКонтекстноеМеню" id="335"/>
-																				<ExtendedTooltip name="ДеревоПриложенийПредставлениеРасширеннаяПодсказка" id="336"/>
-																			</InputField>
-																		</ChildItems>
-																	</Table>
-																</ChildItems>
-															</Page>
-															<Page name="СтраницаНетПредметов" id="373">
-																<ExtendedTooltip name="СтраницаНетПредметовРасширеннаяПодсказка" id="374"/>
-																<ChildItems>
-																	<LabelDecoration name="ДекорацияНетПредметов" id="375">
-																		<AutoMaxWidth>false</AutoMaxWidth>
-																		<MaxWidth>44</MaxWidth>
-																		<HorizontalStretch>true</HorizontalStretch>
-																		<VerticalStretch>true</VerticalStretch>
-																		<TextColor>style:BorderColor</TextColor>
-																		<Title formatted="false">
-																			<v8:item>
-																				<v8:lang>ru</v8:lang>
-																				<v8:content>У задачи нет предметов.</v8:content>
-																			</v8:item>
-																			<v8:item>
-																				<v8:lang>en</v8:lang>
-																				<v8:content>The task has no subjects.</v8:content>
-																			</v8:item>
-																		</Title>
-																		<HorizontalAlign>Center</HorizontalAlign>
-																		<VerticalAlign>Center</VerticalAlign>
-																		<ContextMenu name="ДекорацияНетПредметовКонтекстноеМеню" id="376"/>
-																		<ExtendedTooltip name="ДекорацияНетПредметовРасширеннаяПодсказка" id="377"/>
-																	</LabelDecoration>
-																</ChildItems>
-															</Page>
-														</ChildItems>
-													</Pages>
-													<UsualGroup name="ГруппаЗадачаИсполнение" id="300">
-														<Title>
-															<v8:item>
-																<v8:lang>ru</v8:lang>
-																<v8:content>Исполнение задачи</v8:content>
-															</v8:item>
-															<v8:item>
-																<v8:lang>en</v8:lang>
-																<v8:content>Task execution</v8:content>
-															</v8:item>
-														</Title>
-														<ToolTip>
-															<v8:item>
-																<v8:lang>ru</v8:lang>
-																<v8:content>Группа задача исполнение</v8:content>
-															</v8:item>
-															<v8:item>
-																<v8:lang>en</v8:lang>
-																<v8:content>Group task execution</v8:content>
-															</v8:item>
-														</ToolTip>
-														<HorizontalStretch>true</HorizontalStretch>
-														<Group>Vertical</Group>
-														<Representation>None</Representation>
-														<ChildItemsWidth>Equal</ChildItemsWidth>
-														<ShowTitle>false</ShowTitle>
-														<ExtendedTooltip name="ГруппаЗадачаИсполнениеРасширеннаяПодсказка" id="301"/>
-														<ChildItems>
-															<InputField name="Комментарий" id="337">
-																<DataPath>21</DataPath>
-																<TitleLocation>None</TitleLocation>
-																<AutoMaxWidth>false</AutoMaxWidth>
-																<Height>3</Height>
-																<HorizontalStretch>true</HorizontalStretch>
-																<VerticalStretch>false</VerticalStretch>
-																<MultiLine>true</MultiLine>
-																<AutoMarkIncomplete>false</AutoMarkIncomplete>
-																<EditTextUpdate>OnValueChange</EditTextUpdate>
-																<InputHint>
-																	<v8:item>
-																		<v8:lang>ru</v8:lang>
-																		<v8:content>Ваш комментарий</v8:content>
-																	</v8:item>
-																	<v8:item>
-																		<v8:lang>en</v8:lang>
-																		<v8:content>Your comment</v8:content>
-																	</v8:item>
-																</InputHint>
-																<ContextMenu name="КомментарийКонтекстноеМеню" id="338"/>
-																<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="339"/>
-															</InputField>
-															<Pages name="ГруппаИсполнениеСтраницыКнопок" id="340">
-																<Title>
-																	<v8:item>
-																		<v8:lang>ru</v8:lang>
-																		<v8:content>Группа исполнение страницы кнопок</v8:content>
-																	</v8:item>
-																	<v8:item>
-																		<v8:lang>en</v8:lang>
-																		<v8:content>Group button page execution</v8:content>
+																		<v8:content>Task execution</v8:content>
 																	</v8:item>
 																</Title>
 																<ToolTip>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
-																		<v8:content>Группа исполнение страницы кнопок</v8:content>
+																		<v8:content>Группа задача исполнение</v8:content>
 																	</v8:item>
 																	<v8:item>
 																		<v8:lang>en</v8:lang>
-																		<v8:content>Group button page execution</v8:content>
+																		<v8:content>Group task execution</v8:content>
 																	</v8:item>
 																</ToolTip>
-																<Height>3</Height>
-																<PagesRepresentation>None</PagesRepresentation>
-																<ExtendedTooltip name="ГруппаИсполнениеСтраницыКнопокРасширеннаяПодсказка" id="341"/>
+																<HorizontalStretch>true</HorizontalStretch>
+																<Group>Vertical</Group>
+																<Representation>None</Representation>
+																<ChildItemsWidth>Equal</ChildItemsWidth>
+																<ShowTitle>false</ShowTitle>
+																<ExtendedTooltip name="ГруппаЗадачаИсполнениеРасширеннаяПодсказка" id="301"/>
 																<ChildItems>
-																	<Page name="ГруппаИсполнениеНоль" id="342">
-																		<EnableContentChange>true</EnableContentChange>
+																	<UsualGroup name="ГруппаРеквизитыРассмотрения" id="431">
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
-																				<v8:content>Группа исполнение ноль</v8:content>
+																				<v8:content>Группа реквизиты рассмотрения</v8:content>
 																			</v8:item>
 																			<v8:item>
 																				<v8:lang>en</v8:lang>
-																				<v8:content>Group execution zero</v8:content>
+																				<v8:content>Group review attributes</v8:content>
 																			</v8:item>
 																		</Title>
-																		<Height>3</Height>
-																		<Group>Horizontal</Group>
-																		<ChildItemsWidth>Equal</ChildItemsWidth>
-																		<ExtendedTooltip name="ГруппаИсполнениеНольРасширеннаяПодсказка" id="343"/>
+																		<ToolTip>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>Группа реквизиты рассмотрения</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Group review attributes</v8:content>
+																			</v8:item>
+																		</ToolTip>
+																		<Group>AlwaysHorizontal</Group>
+																		<Representation>None</Representation>
+																		<ShowTitle>false</ShowTitle>
+																		<ExtendedTooltip name="ГруппаРеквизитыРассмотренияРасширеннаяПодсказка" id="432"/>
 																		<ChildItems>
-																			<LabelDecoration name="ДекорацияНетКнопок" id="344">
-																				<HorizontalStretch>false</HorizontalStretch>
-																				<ContextMenu name="ДекорацияНетКнопокКонтекстноеМеню" id="345"/>
-																				<ExtendedTooltip name="ДекорацияНетКнопокРасширеннаяПодсказка" id="346"/>
+																			<UsualGroup name="ГруппаСрок" id="433">
+																				<Title>
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>Группа срок</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Group term</v8:content>
+																					</v8:item>
+																				</Title>
+																				<ToolTip>
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>Группа срок</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Group term</v8:content>
+																					</v8:item>
+																				</ToolTip>
+																				<Group>Vertical</Group>
+																				<Representation>None</Representation>
+																				<ShowTitle>false</ShowTitle>
+																				<ExtendedTooltip name="ГруппаСрокРасширеннаяПодсказка" id="434"/>
+																				<ChildItems>
+																					<LabelField name="СтарыйСрок" id="435">
+																						<DataPath>10</DataPath>
+																						<Height>1</Height>
+																						<ContextMenu name="СтарыйСрокКонтекстноеМеню" id="436"/>
+																						<ExtendedTooltip name="СтарыйСрокРасширеннаяПодсказка" id="437"/>
+																					</LabelField>
+																					<InputField name="НовыйСрок" id="438">
+																						<DataPath>11</DataPath>
+																						<Height>1</Height>
+																						<ContextMenu name="НовыйСрокКонтекстноеМеню" id="439"/>
+																						<ExtendedTooltip name="НовыйСрокРасширеннаяПодсказка" id="440"/>
+																					</InputField>
+																				</ChildItems>
+																			</UsualGroup>
+																			<LabelDecoration name="Декорация1" id="449">
+																				<AutoMaxWidth>false</AutoMaxWidth>
+																				<HorizontalStretch>true</HorizontalStretch>
+																				<ContextMenu name="Декорация1КонтекстноеМеню" id="450"/>
+																				<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="451"/>
 																			</LabelDecoration>
+																			<UsualGroup name="ГруппаПредметРассмотрения" id="441">
+																				<Title>
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>Группа предмет рассмотрения</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Group review subject</v8:content>
+																					</v8:item>
+																				</Title>
+																				<ToolTip>
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>Группа предмет рассмотрения</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Group review subject</v8:content>
+																					</v8:item>
+																				</ToolTip>
+																				<Group>AlwaysHorizontal</Group>
+																				<Representation>None</Representation>
+																				<ShowTitle>false</ShowTitle>
+																				<ExtendedTooltip name="ГруппаПредметРассмотренияРасширеннаяПодсказка" id="442"/>
+																				<ChildItems>
+																					<LabelDecoration name="ДекорацияЗадача" id="443">
+																						<Title formatted="false">
+																							<v8:item>
+																								<v8:lang>ru</v8:lang>
+																								<v8:content>Задача</v8:content>
+																							</v8:item>
+																							<v8:item>
+																								<v8:lang>en</v8:lang>
+																								<v8:content>Task</v8:content>
+																							</v8:item>
+																						</Title>
+																						<Hyperlink>true</Hyperlink>
+																						<ContextMenu name="ДекорацияЗадачаКонтекстноеМеню" id="444"/>
+																						<ExtendedTooltip name="ДекорацияЗадачаРасширеннаяПодсказка" id="445"/>
+																					</LabelDecoration>
+																					<LabelDecoration name="ДекорацияПроцесс" id="446">
+																						<Title formatted="false">
+																							<v8:item>
+																								<v8:lang>ru</v8:lang>
+																								<v8:content>Процесс</v8:content>
+																							</v8:item>
+																							<v8:item>
+																								<v8:lang>en</v8:lang>
+																								<v8:content>Process</v8:content>
+																							</v8:item>
+																						</Title>
+																						<Hyperlink>true</Hyperlink>
+																						<ContextMenu name="ДекорацияПроцессКонтекстноеМеню" id="447"/>
+																						<ExtendedTooltip name="ДекорацияПроцессРасширеннаяПодсказка" id="448"/>
+																					</LabelDecoration>
+																				</ChildItems>
+																			</UsualGroup>
 																		</ChildItems>
-																	</Page>
-																	<Page name="ГруппаИсполнениеОдна" id="347">
-																		<EnableContentChange>true</EnableContentChange>
+																	</UsualGroup>
+																	<InputField name="ДатаНачалаПриглашения" id="455">
+																		<DataPath>37</DataPath>
+																		<ReadOnly>true</ReadOnly>
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
-																				<v8:content>Группа исполнение одна</v8:content>
+																				<v8:content>Начало</v8:content>
 																			</v8:item>
 																			<v8:item>
 																				<v8:lang>en</v8:lang>
-																				<v8:content>Group execution one</v8:content>
+																				<v8:content>Start</v8:content>
 																			</v8:item>
 																		</Title>
-																		<Height>3</Height>
-																		<Group>Horizontal</Group>
-																		<ChildItemsWidth>Equal</ChildItemsWidth>
-																		<ShowTitle>false</ShowTitle>
-																		<ExtendedTooltip name="ГруппаИсполнениеОднаРасширеннаяПодсказка" id="348"/>
-																		<ChildItems>
-																			<Button name="ОднаВыполнитьЗадачуПервая" id="349">
-																				<Type>UsualButton</Type>
-																				<TitleHeight>1</TitleHeight>
-																				<Height>2</Height>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-																				<TextColor>style:ОтметкаПоложительногоВыполненияЗадачи</TextColor>
-																				<Font ref="style:NormalTextFont" kind="StyleItem"/>
-																				<ExtendedTooltip name="ОднаВыполнитьЗадачуПерваяРасширеннаяПодсказка" id="350"/>
-																			</Button>
-																		</ChildItems>
-																	</Page>
-																	<Page name="ГруппаИсполнениеДве" id="351">
-																		<EnableContentChange>true</EnableContentChange>
+																		<ContextMenu name="ДатаНачалаПриглашенияКонтекстноеМеню" id="456"/>
+																		<ExtendedTooltip name="ДатаНачалаПриглашенияРасширеннаяПодсказка" id="457"/>
+																	</InputField>
+																	<InputField name="МестоПроведенияПриглашения" id="458">
+																		<DataPath>36</DataPath>
+																		<ReadOnly>true</ReadOnly>
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
-																				<v8:content>Группа исполнение две</v8:content>
+																				<v8:content>Место проведения</v8:content>
 																			</v8:item>
 																			<v8:item>
 																				<v8:lang>en</v8:lang>
-																				<v8:content>Group execution two</v8:content>
+																				<v8:content>Location</v8:content>
 																			</v8:item>
 																		</Title>
-																		<Height>3</Height>
-																		<Group>Horizontal</Group>
-																		<ChildItemsWidth>Equal</ChildItemsWidth>
-																		<ShowTitle>false</ShowTitle>
-																		<ExtendedTooltip name="ГруппаИсполнениеДвеРасширеннаяПодсказка" id="352"/>
-																		<ChildItems>
-																			<Button name="ДвеВыполнитьЗадачуПервая" id="353">
-																				<Type>UsualButton</Type>
-																				<TitleHeight>1</TitleHeight>
-																				<Height>2</Height>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-																				<TextColor>style:ОтметкаПоложительногоВыполненияЗадачи</TextColor>
-																				<Font ref="style:NormalTextFont" kind="StyleItem"/>
-																				<ExtendedTooltip name="ДвеВыполнитьЗадачуПерваяРасширеннаяПодсказка" id="354"/>
-																			</Button>
-																			<Button name="ДвеВыполнитьЗадачуВторая" id="355">
-																				<Type>UsualButton</Type>
-																				<TitleHeight>2</TitleHeight>
-																				<Height>2</Height>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-																				<Font ref="style:NormalTextFont" kind="StyleItem"/>
-																				<ExtendedTooltip name="ДвеВыполнитьЗадачуВтораяРасширеннаяПодсказка" id="356"/>
-																			</Button>
-																		</ChildItems>
-																	</Page>
-																	<Page name="ГруппаИсполнениеТри" id="357">
-																		<EnableContentChange>true</EnableContentChange>
+																		<AutoMaxWidth>false</AutoMaxWidth>
+																		<ContextMenu name="МестоПроведенияПриглашенияКонтекстноеМеню" id="459"/>
+																		<ExtendedTooltip name="МестоПроведенияПриглашенияРасширеннаяПодсказка" id="460"/>
+																	</InputField>
+																	<InputField name="РезультатВыполнения" id="452">
+																		<DataPath>33</DataPath>
+																		<ReadOnly>true</ReadOnly>
 																		<Title>
 																			<v8:item>
 																				<v8:lang>ru</v8:lang>
-																				<v8:content>Группа исполнение три</v8:content>
+																				<v8:content>Результат</v8:content>
 																			</v8:item>
 																			<v8:item>
 																				<v8:lang>en</v8:lang>
-																				<v8:content>Group execution three</v8:content>
+																				<v8:content>Result</v8:content>
 																			</v8:item>
 																		</Title>
+																		<AutoMaxWidth>false</AutoMaxWidth>
+																		<ContextMenu name="РезультатВыполненияКонтекстноеМеню" id="453"/>
+																		<ExtendedTooltip name="РезультатВыполненияРасширеннаяПодсказка" id="454"/>
+																	</InputField>
+																	<InputField name="Комментарий" id="337">
+																		<DataPath>21</DataPath>
+																		<TitleLocation>None</TitleLocation>
+																		<AutoMaxWidth>false</AutoMaxWidth>
 																		<Height>3</Height>
-																		<Group>Horizontal</Group>
-																		<ChildItemsWidth>Equal</ChildItemsWidth>
-																		<ShowTitle>false</ShowTitle>
-																		<ExtendedTooltip name="ГруппаИсполнениеТриРасширеннаяПодсказка" id="358"/>
+																		<HorizontalStretch>true</HorizontalStretch>
+																		<VerticalStretch>false</VerticalStretch>
+																		<MultiLine>true</MultiLine>
+																		<AutoMarkIncomplete>false</AutoMarkIncomplete>
+																		<EditTextUpdate>OnValueChange</EditTextUpdate>
+																		<InputHint>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>Ваш комментарий</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Your comment</v8:content>
+																			</v8:item>
+																		</InputHint>
+																		<ContextMenu name="КомментарийКонтекстноеМеню" id="338"/>
+																		<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="339"/>
+																	</InputField>
+																	<Pages name="ГруппаИсполнениеСтраницыКнопок" id="340">
+																		<Title>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>Группа исполнение страницы кнопок</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Group button page execution</v8:content>
+																			</v8:item>
+																		</Title>
+																		<ToolTip>
+																			<v8:item>
+																				<v8:lang>ru</v8:lang>
+																				<v8:content>Группа исполнение страницы кнопок</v8:content>
+																			</v8:item>
+																			<v8:item>
+																				<v8:lang>en</v8:lang>
+																				<v8:content>Group button page execution</v8:content>
+																			</v8:item>
+																		</ToolTip>
+																		<Height>3</Height>
+																		<PagesRepresentation>None</PagesRepresentation>
+																		<ExtendedTooltip name="ГруппаИсполнениеСтраницыКнопокРасширеннаяПодсказка" id="341"/>
 																		<ChildItems>
-																			<Button name="ТриВыполнитьЗадачуПервая" id="359">
-																				<Type>UsualButton</Type>
-																				<TitleHeight>1</TitleHeight>
-																				<AutoMaxWidth>false</AutoMaxWidth>
-																				<Height>2</Height>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-																				<TextColor>style:ОтметкаПоложительногоВыполненияЗадачи</TextColor>
-																				<Font ref="style:NormalTextFont" kind="StyleItem"/>
-																				<ExtendedTooltip name="ТриВыполнитьЗадачуПерваяРасширеннаяПодсказка" id="360"/>
-																			</Button>
-																			<Button name="ТриВыполнитьЗадачуВторая" id="361">
-																				<Type>UsualButton</Type>
-																				<TitleHeight>2</TitleHeight>
-																				<AutoMaxWidth>false</AutoMaxWidth>
-																				<Height>2</Height>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-																				<Font ref="style:NormalTextFont" kind="StyleItem"/>
-																				<ExtendedTooltip name="ТриВыполнитьЗадачуВтораяРасширеннаяПодсказка" id="362"/>
-																			</Button>
-																			<Button name="ТриВыполнитьЗадачуТретья" id="363">
-																				<Type>UsualButton</Type>
-																				<TitleHeight>1</TitleHeight>
-																				<AutoMaxWidth>false</AutoMaxWidth>
-																				<Height>2</Height>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-																				<TextColor>style:ОтметкаОтрицательногоВыполненияЗадачи</TextColor>
-																				<Font ref="style:NormalTextFont" kind="StyleItem"/>
-																				<ExtendedTooltip name="ТриВыполнитьЗадачуТретьяРасширеннаяПодсказка" id="364"/>
-																			</Button>
+																			<Page name="ГруппаИсполнениеНоль" id="342">
+																				<EnableContentChange>true</EnableContentChange>
+																				<Title>
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>Группа исполнение ноль</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Group execution zero</v8:content>
+																					</v8:item>
+																				</Title>
+																				<Height>3</Height>
+																				<Group>Horizontal</Group>
+																				<ChildItemsWidth>Equal</ChildItemsWidth>
+																				<ExtendedTooltip name="ГруппаИсполнениеНольРасширеннаяПодсказка" id="343"/>
+																				<ChildItems>
+																					<LabelDecoration name="ДекорацияНетКнопок" id="344">
+																						<HorizontalStretch>false</HorizontalStretch>
+																						<ContextMenu name="ДекорацияНетКнопокКонтекстноеМеню" id="345"/>
+																						<ExtendedTooltip name="ДекорацияНетКнопокРасширеннаяПодсказка" id="346"/>
+																					</LabelDecoration>
+																					<PictureDecoration name="ДекорацияВнимание2" id="425">
+																						<Visible>false</Visible>
+																						<Width>2</Width>
+																						<Height>1</Height>
+																						<Title formatted="false">
+																							<v8:item>
+																								<v8:lang>ru</v8:lang>
+																								<v8:content>Декорация внимание</v8:content>
+																							</v8:item>
+																							<v8:item>
+																								<v8:lang>en</v8:lang>
+																								<v8:content>Decoration warning</v8:content>
+																							</v8:item>
+																						</Title>
+																						<FileDragMode>AsFile</FileDragMode>
+																						<ContextMenu name="ДекорацияВнимание2КонтекстноеМеню" id="426"/>
+																						<ExtendedTooltip name="ДекорацияВнимание2РасширеннаяПодсказка" id="427"/>
+																					</PictureDecoration>
+																					<LabelDecoration name="ТекстРезультатаВыполнения" id="428">
+																						<Visible>false</Visible>
+																						<SkipOnInput>false</SkipOnInput>
+																						<ContextMenu name="ТекстРезультатаВыполненияКонтекстноеМеню" id="429"/>
+																						<ExtendedTooltip name="ТекстРезультатаВыполненияExtendedTooltip" id="430"/>
+																					</LabelDecoration>
+																				</ChildItems>
+																			</Page>
+																			<Page name="ГруппаИсполнениеОдна" id="347">
+																				<EnableContentChange>true</EnableContentChange>
+																				<Title>
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>Группа исполнение одна</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Group execution one</v8:content>
+																					</v8:item>
+																				</Title>
+																				<Height>3</Height>
+																				<Group>Horizontal</Group>
+																				<ChildItemsWidth>Equal</ChildItemsWidth>
+																				<ShowTitle>false</ShowTitle>
+																				<ExtendedTooltip name="ГруппаИсполнениеОднаРасширеннаяПодсказка" id="348"/>
+																				<ChildItems>
+																					<Button name="ОднаВыполнитьЗадачуПервая" id="349">
+																						<Type>UsualButton</Type>
+																						<Height>2</Height>
+																						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																						<TextColor>style:ОтметкаПоложительногоВыполненияЗадачи</TextColor>
+																						<Font ref="style:NormalTextFont" kind="StyleItem"/>
+																						<ExtendedTooltip name="ОднаВыполнитьЗадачуПерваяРасширеннаяПодсказка" id="350"/>
+																					</Button>
+																				</ChildItems>
+																			</Page>
+																			<Page name="ГруппаИсполнениеДве" id="351">
+																				<EnableContentChange>true</EnableContentChange>
+																				<Title>
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>Группа исполнение две</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Group execution two</v8:content>
+																					</v8:item>
+																				</Title>
+																				<Height>3</Height>
+																				<Group>Horizontal</Group>
+																				<ChildItemsWidth>Equal</ChildItemsWidth>
+																				<ShowTitle>false</ShowTitle>
+																				<ExtendedTooltip name="ГруппаИсполнениеДвеРасширеннаяПодсказка" id="352"/>
+																				<ChildItems>
+																					<Button name="ДвеВыполнитьЗадачуПервая" id="353">
+																						<Type>UsualButton</Type>
+																						<Height>2</Height>
+																						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																						<TextColor>style:ОтметкаПоложительногоВыполненияЗадачи</TextColor>
+																						<Font ref="style:NormalTextFont" kind="StyleItem"/>
+																						<ExtendedTooltip name="ДвеВыполнитьЗадачуПерваяРасширеннаяПодсказка" id="354"/>
+																					</Button>
+																					<Button name="ДвеВыполнитьЗадачуВторая" id="355">
+																						<Type>UsualButton</Type>
+																						<Height>2</Height>
+																						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																						<Font ref="style:NormalTextFont" kind="StyleItem"/>
+																						<ExtendedTooltip name="ДвеВыполнитьЗадачуВтораяРасширеннаяПодсказка" id="356"/>
+																					</Button>
+																				</ChildItems>
+																			</Page>
+																			<Page name="ГруппаИсполнениеТри" id="357">
+																				<EnableContentChange>true</EnableContentChange>
+																				<Title>
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>Группа исполнение три</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Group execution three</v8:content>
+																					</v8:item>
+																				</Title>
+																				<Height>3</Height>
+																				<Group>Horizontal</Group>
+																				<ChildItemsWidth>Equal</ChildItemsWidth>
+																				<ShowTitle>false</ShowTitle>
+																				<ExtendedTooltip name="ГруппаИсполнениеТриРасширеннаяПодсказка" id="358"/>
+																				<ChildItems>
+																					<Button name="ТриВыполнитьЗадачуПервая" id="359">
+																						<Type>UsualButton</Type>
+																						<Height>2</Height>
+																						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																						<TextColor>style:ОтметкаПоложительногоВыполненияЗадачи</TextColor>
+																						<Font ref="style:NormalTextFont" kind="StyleItem"/>
+																						<ExtendedTooltip name="ТриВыполнитьЗадачуПерваяРасширеннаяПодсказка" id="360"/>
+																					</Button>
+																					<Button name="ТриВыполнитьЗадачуВторая" id="361">
+																						<Type>UsualButton</Type>
+																						<Height>2</Height>
+																						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																						<Font ref="style:NormalTextFont" kind="StyleItem"/>
+																						<ExtendedTooltip name="ТриВыполнитьЗадачуВтораяРасширеннаяПодсказка" id="362"/>
+																					</Button>
+																					<Button name="ТриВыполнитьЗадачуТретья" id="363">
+																						<Type>UsualButton</Type>
+																						<Height>2</Height>
+																						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																						<TextColor>style:ОтметкаОтрицательногоВыполненияЗадачи</TextColor>
+																						<Font ref="style:NormalTextFont" kind="StyleItem"/>
+																						<ExtendedTooltip name="ТриВыполнитьЗадачуТретьяРасширеннаяПодсказка" id="364"/>
+																					</Button>
+																				</ChildItems>
+																			</Page>
 																		</ChildItems>
-																	</Page>
+																	</Pages>
 																</ChildItems>
-															</Pages>
+															</UsualGroup>
 														</ChildItems>
-													</UsualGroup>
+													</Page>
+													<Page name="СтраницаНетЗадачи" id="463">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Страница нет задачи</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Page no task</v8:content>
+															</v8:item>
+														</Title>
+														<ToolTip>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Страница нет задачи</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Page no task</v8:content>
+															</v8:item>
+														</ToolTip>
+														<ExtendedTooltip name="СтраницаНетЗадачиExtendedTooltip" id="464"/>
+														<ChildItems>
+															<LabelDecoration name="ДекорацияНетЗадачи" id="465">
+																<Width>1</Width>
+																<AutoMaxWidth>false</AutoMaxWidth>
+																<Height>1</Height>
+																<HorizontalStretch>true</HorizontalStretch>
+																<VerticalStretch>true</VerticalStretch>
+																<TextColor>style:НедоступныеДанныеЦвет</TextColor>
+																<Title formatted="false">
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Нет описания задачи.</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>No task description.</v8:content>
+																	</v8:item>
+																</Title>
+																<HorizontalAlign>Center</HorizontalAlign>
+																<VerticalAlign>Center</VerticalAlign>
+																<ContextMenu name="ДекорацияНетЗадачиКонтекстноеМеню" id="466"/>
+																<ExtendedTooltip name="ДекорацияНетЗадачиExtendedTooltip" id="467"/>
+															</LabelDecoration>
+														</ChildItems>
+													</Page>
 												</ChildItems>
-											</UsualGroup>
+											</Pages>
 										</ChildItems>
 									</UsualGroup>
 								</ChildItems>

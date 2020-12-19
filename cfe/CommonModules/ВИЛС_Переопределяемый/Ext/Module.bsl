@@ -266,6 +266,92 @@
 	Возврат ПоследнийСогласовавший;
 КонецФункции
 
+Функция ВернутьТаблицуСогласований(СсылкаНаОбъект,Прокси) Экспорт	
+	
+	Если Прокси = Неопределено Тогда
+		Возврат Неопределено; // Если пользователь не авторизован в ДО, вернем Ложь.
+	КонецЕсли;
+	
+	ExternalObject = ИнтеграцияС1СДокументооборот.СоздатьОбъект(Прокси, "ExternalObject");
+	ExternalObject.id = Строка(СсылкаНаОбъект.УникальныйИдентификатор());
+	ExternalObject.type = СсылкаНаОбъект.Метаданные().ПолноеИмя();
+	ExternalObject.name = Строка(СсылкаНаОбъект);
+	
+	Запрос = ИнтеграцияС1СДокументооборот.СоздатьОбъект(Прокси, "DMGetDocumentListRequest");
+	Запрос.externalObjects.Добавить(ExternalObject);
+	
+	Запрос.columnSet.Добавить("deletionMark");  
+	Запрос.columnSet.Добавить("visas");
+	
+	Результат = Прокси.execute(Запрос);
+	
+	Если ИнтеграцияС1СДокументооборот.ПроверитьТип(Прокси, Результат, "DMError") Тогда 
+		Возврат Неопределено; // Произошла ошибка во время выполнения запроса
+	КонецЕсли;	
+	
+	Если Результат.documents.Количество() > 0 Тогда 
+		ОбъектВозврата = Результат.documents[0];
+	Иначе 
+		Возврат Неопределено; // Нужного документа не оказалось
+	КонецЕсли;
+	
+	////ПоследнийСогласовавший = Справочники.Пользователи.ПустаяСсылка();
+	////Сообщить(ОбъектВозврата.visas.Количество());
+	//Если ОбъектВозврата.visas.Количество() <> 0 Тогда
+	//	ПоследнийСогласовавший = ВернутьПоследнегоСогласовавшего(ОбъектВозврата.visas);
+	//КонецЕсли;
+	ТаблицаСогласований = Новый Таблицазначений();
+	КолонкиТЗ = ТаблицаСогласований.Колонки;
+	КолонкиТЗ.Добавить("i");
+	КолонкиТЗ.Добавить("result_navigationRef");
+	КолонкиТЗ.Добавить("result_presentation");
+	КолонкиТЗ.Добавить("result_type");
+	КолонкиТЗ.Добавить("reviewer_navigationRef");
+	КолонкиТЗ.Добавить("reviewer_presentation");
+	КолонкиТЗ.Добавить("reviewer_type");
+	КолонкиТЗ.Добавить("reviewer_users");
+	i=0;
+	For each visa in ОбъектВозврата.visas Do
+		users = New Array();
+		СтрТЗ = ТаблицаСогласований.Добавить();
+		СтрТЗ.i = i;
+		i = i + 1;
+		If Not visa.result = Неопределено Then
+			СтрТЗ.result_navigationRef = visa.result.objectID.navigationRef;
+			СтрТЗ.result_presentation = visa.result.objectID.presentation;
+			СтрТЗ.result_type = visa.result.objectID.type;
+		КонецЕсли; 
+		If Not visa.reviewer = Неопределено Then
+			СтрТЗ.reviewer_navigationRef = visa.reviewer.objectID.navigationRef;
+			СтрТЗ.reviewer_presentation = visa.reviewer.objectID.presentation;
+			СтрТЗ.reviewer_type = visa.reviewer.objectID.type;
+		   	СтрТЗ.reviewer_users = users;
+			
+			If СтрТЗ.reviewer_type = "DMUser" Then
+				user = Catalogs.Пользователи.FindByDescription(TrimAll(visa.reviewer.name)); //  presentation
+				if ЗначениеЗаполнено(user) Then 
+					users.Добавить(user);
+				EndIf;
+			ElsIf СтрТЗ.reviewer_type = "DMBusinessProcessExecutorRole" Then
+				Запрос1 = Новый Запрос( 
+				"ВЫБРАТЬ
+			    |	ИсполнителиЗадач.Исполнитель КАК Исполнитель
+			    |ИЗ
+			    |	РегистрСведений.ИсполнителиЗадач КАК ИсполнителиЗадач
+			    |ГДЕ
+			    |	ИсполнителиЗадач.РольИсполнителя.Наименование = &Наименование");
+				Запрос1.УстановитьПараметр("Наименование", TrimAll(visa.reviewer.name));
+				usersI = Запрос1.Выполнить().Выгрузить().ВыгрузитьКолонку("Исполнитель");
+				For each user in usersI Do
+					users.Добавить(user);	
+				EndDo;	
+			EndIf;
+		EndIf;
+	EndDo; 
+	
+	Return(ТаблицаСогласований);
+КонецФункции
+
 &Вместо("ВернутьПредыдущего")
 Функция ВИЛС_ВернутьПоследнегоСогласовавшего(ВизыXDTO)
 	
