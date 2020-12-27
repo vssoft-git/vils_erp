@@ -29,7 +29,7 @@
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Create on the basis</v8:content>
+						<v8:content>Generate</v8:content>
 					</v8:item>
 				</Title>
 				<Picture>
@@ -47,7 +47,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Create on the basis (Important)</v8:content>
+								<v8:content>Generate (Important)</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииВажноеРасширеннаяПодсказка" id="396"/>
@@ -60,7 +60,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Create on the basis (Standard)</v8:content>
+								<v8:content>Generate (Standard)</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииОбычноеРасширеннаяПодсказка" id="398"/>
@@ -73,7 +73,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Create on the basis (See also)</v8:content>
+								<v8:content>Generate (See also)</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииСмТакжеРасширеннаяПодсказка" id="400"/>
@@ -156,7 +156,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Submenu reports standard</v8:content>
+								<v8:content>Standard reports submenu</v8:content>
 							</v8:item>
 						</Title>
 						<ToolTip>
@@ -179,7 +179,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Submenu reports see also</v8:content>
+								<v8:content>Reports see also submenu</v8:content>
 							</v8:item>
 						</Title>
 						<ToolTip>
@@ -204,7 +204,7 @@
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>FIlling</v8:content>
+						<v8:content>Filling</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
@@ -214,7 +214,7 @@
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Additional completion commands</v8:content>
+						<v8:content>Additional filling commands</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Picture>
@@ -449,6 +449,9 @@
 													<Width>13</Width>
 													<ContextMenu name="ДатаПроведенияБанкомКонтекстноеМеню" id="200"/>
 													<ExtendedTooltip name="ДатаПроведенияБанкомРасширеннаяПодсказка" id="201"/>
+													<Events>
+														<Event name="OnChange" callType="After">ВИЛС_ДатаПроведенияБанкомПриИзмененииПосле</Event>
+													</Events>
 												</InputField>
 											</ChildItems>
 										</UsualGroup>
@@ -594,7 +597,7 @@
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Operation</v8:content>
+													<v8:content>Transaction</v8:content>
 												</v8:item>
 											</Title>
 											<TitleLocation>Left</TitleLocation>
@@ -1205,8 +1208,8 @@
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Item of assets
-and liabilities</v8:content>
+													<v8:content>Asset
+and liability item</v8:content>
 												</v8:item>
 											</Title>
 											<TitleLocation>Left</TitleLocation>
@@ -1227,8 +1230,8 @@ and liabilities</v8:content>
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Dimension of assets 
-and liabilities </v8:content>
+													<v8:content>Dimension of assets
+and liabilities</v8:content>
 												</v8:item>
 											</Title>
 											<TitleLocation>Left</TitleLocation>
@@ -1325,7 +1328,6 @@ and liabilities </v8:content>
 							</ChildItems>
 						</UsualGroup>
 						<LabelField name="НадписьЗеркальныйПлатеж" id="352">
-							<DataPath>16</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -1343,7 +1345,6 @@ and liabilities </v8:content>
 							<ExtendedTooltip name="НадписьЗеркальныйПлатежРасширеннаяПодсказка" id="354"/>
 						</LabelField>
 						<LabelField name="ФискальнаяОперацияСтатус" id="404">
-							<DataPath>26</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<ContextMenu name="ФискальнаяОперацияСтатусКонтекстноеМеню" id="405"/>
 							<ExtendedTooltip name="ФискальнаяОперацияСтатусРасширеннаяПодсказка" id="406"/>
@@ -1364,7 +1365,6 @@ and liabilities </v8:content>
 					<ExtendedTooltip name="СтраницаРасшифровкаРасширеннаяПодсказка" id="238"/>
 					<ChildItems>
 						<RadioButtonField name="ПереключательРасшифровки" id="290">
-							<DataPath>14</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<RadioButtonType>Tumbler</RadioButtonType>
 							<ChoiceList>
@@ -1525,28 +1525,50 @@ and liabilities </v8:content>
 													<v8:content>VAT</v8:content>
 												</v8:item>
 											</Title>
-											<Group>Horizontal</Group>
+											<Group>Vertical</Group>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
 											<ExtendedTooltip name="ГруппаНДСРасширеннаяПодсказка" id="356"/>
 											<ChildItems>
-												<InputField name="РасшифровкаБезРазбиенияСтавкаНДС" id="357">
-													<AutoMaxWidth>false</AutoMaxWidth>
-													<MaxWidth>14</MaxWidth>
-													<HorizontalStretch>false</HorizontalStretch>
-													<ContextMenu name="РасшифровкаБезРазбиенияСтавкаНДСКонтекстноеМеню" id="358"/>
-													<ExtendedTooltip name="РасшифровкаБезРазбиенияСтавкаНДСРасширеннаяПодсказка" id="359"/>
+												<InputField name="РасшифровкаБезРазбиенияНалогообложениеНДС" id="434">
+													<ListChoiceMode>true</ListChoiceMode>
+													<ContextMenu name="РасшифровкаБезРазбиенияНалогообложениеНДСКонтекстноеМеню" id="435"/>
+													<ExtendedTooltip name="РасшифровкаБезРазбиенияНалогообложениеНДСРасширеннаяПодсказка" id="436"/>
 												</InputField>
-												<InputField name="РасшифровкаБезРазбиенияСуммаНДС" id="360">
-													<ContextMenu name="РасшифровкаБезРазбиенияСуммаНДСКонтекстноеМеню" id="361"/>
-													<ExtendedTooltip name="РасшифровкаБезРазбиенияСуммаНДСРасширеннаяПодсказка" id="362"/>
-												</InputField>
-												<LabelField name="ВалютаНДС" id="363">
-													<TitleLocation>None</TitleLocation>
-													<HorizontalStretch>false</HorizontalStretch>
-													<ContextMenu name="ВалютаНДСКонтекстноеМеню" id="364"/>
-													<ExtendedTooltip name="ВалютаНДСРасширеннаяПодсказка" id="365"/>
-												</LabelField>
+												<UsualGroup name="ГруппаДанныхПоНДС" id="442">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа данных по НДС</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>VAT data group</v8:content>
+														</v8:item>
+													</Title>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ГруппаДанныхПоНДСРасширеннаяПодсказка" id="443"/>
+													<ChildItems>
+														<InputField name="РасшифровкаБезРазбиенияСтавкаНДС" id="357">
+															<AutoMaxWidth>false</AutoMaxWidth>
+															<MaxWidth>14</MaxWidth>
+															<HorizontalStretch>false</HorizontalStretch>
+															<ContextMenu name="РасшифровкаБезРазбиенияСтавкаНДСКонтекстноеМеню" id="358"/>
+															<ExtendedTooltip name="РасшифровкаБезРазбиенияСтавкаНДСРасширеннаяПодсказка" id="359"/>
+														</InputField>
+														<InputField name="РасшифровкаБезРазбиенияСуммаНДС" id="360">
+															<ContextMenu name="РасшифровкаБезРазбиенияСуммаНДСКонтекстноеМеню" id="361"/>
+															<ExtendedTooltip name="РасшифровкаБезРазбиенияСуммаНДСРасширеннаяПодсказка" id="362"/>
+														</InputField>
+														<LabelField name="ВалютаНДС" id="363">
+															<TitleLocation>None</TitleLocation>
+															<HorizontalStretch>false</HorizontalStretch>
+															<ContextMenu name="ВалютаНДСКонтекстноеМеню" id="364"/>
+															<ExtendedTooltip name="ВалютаНДСРасширеннаяПодсказка" id="365"/>
+														</LabelField>
+													</ChildItems>
+												</UsualGroup>
 											</ChildItems>
 										</UsualGroup>
 										<InputField name="РасшифровкаБезРазбиенияСтатьяДвиженияДенежныхСредств" id="317">
@@ -1630,7 +1652,7 @@ and liabilities </v8:content>
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Compliance accounting account</v8:content>
+													<v8:content>Compliance GL account</v8:content>
 												</v8:item>
 											</Title>
 											<Hiperlink>true</Hiperlink>
@@ -1675,7 +1697,7 @@ and liabilities </v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Explanation as a list</v8:content>
+											<v8:content>Amount allocation as a list</v8:content>
 										</v8:item>
 									</Title>
 									<ExtendedTooltip name="РасшифровкаСпискомРасширеннаяПодсказка" id="298"/>
@@ -1931,7 +1953,7 @@ and liabilities </v8:content>
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>Compliance accounting account</v8:content>
+															<v8:content>Compliance GL account</v8:content>
 														</v8:item>
 													</Title>
 													<ShowInHeader>true</ShowInHeader>
@@ -2107,19 +2129,19 @@ payment</v8:content>
 					<Type>CommandBarButton</Type>
 					<Representation>Text</Representation>
 					<DefaultButton>true</DefaultButton>
-					<CommandName>3:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаПровестиИЗакрытьРасширеннаяПодсказка" id="243"/>
 				</Button>
 				<Button name="ФормаЗаписать" id="244">
 					<Type>CommandBarButton</Type>
 					<Representation>Picture</Representation>
-					<CommandName>6:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="245"/>
 				</Button>
 				<Button name="ФормаПровести" id="246">
 					<Type>CommandBarButton</Type>
 					<Representation>Picture</Representation>
-					<CommandName>7:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаПровестиРасширеннаяПодсказка" id="247"/>
 				</Button>
 				<Popup name="ПодменюСоздатьНаОсновании" id="248">
@@ -2130,7 +2152,7 @@ payment</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Create on the basis</v8:content>
+							<v8:content>Generate</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -2148,7 +2170,7 @@ payment</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Create on the basis (Important)</v8:content>
+									<v8:content>Generate (Important)</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииВажноеРасширеннаяПодсказка" id="396"/>
@@ -2161,7 +2183,7 @@ payment</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Create on the basis (Standard)</v8:content>
+									<v8:content>Generate (Standard)</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииОбычноеРасширеннаяПодсказка" id="398"/>
@@ -2174,7 +2196,7 @@ payment</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Create on the basis (See also)</v8:content>
+									<v8:content>Generate (See also)</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииСмТакжеРасширеннаяПодсказка" id="400"/>
@@ -2257,7 +2279,7 @@ payment</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Submenu reports standard</v8:content>
+									<v8:content>Standard reports submenu</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTip>
@@ -2280,7 +2302,7 @@ payment</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Submenu reports see also</v8:content>
+									<v8:content>Reports see also submenu</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTip>
@@ -2305,7 +2327,7 @@ payment</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>FIlling</v8:content>
+							<v8:content>Filling</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
@@ -2315,7 +2337,7 @@ payment</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Additional completion commands</v8:content>
+							<v8:content>Additional filling commands</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Picture>
@@ -2353,7 +2375,7 @@ payment</v8:content>
 				</Popup>
 				<Button name="ФормаПроверитьКонтрагентов" id="350">
 					<Type>CommandBarButton</Type>
-					<CommandName>5:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 					<ExtendedTooltip name="ФормаПроверитьКонтрагентовРасширеннаяПодсказка" id="351"/>
 				</Button>
@@ -2604,7 +2626,7 @@ payment</v8:content>
 													<Button name="ПодборПоУИП" id="187">
 														<Type>UsualButton</Type>
 														<Representation>Picture</Representation>
-														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<CommandName>0</CommandName>
 														<ExtendedTooltip name="ПодборПоУИПРасширеннаяПодсказка" id="188"/>
 													</Button>
 												</ChildItems>
@@ -2692,7 +2714,7 @@ payment</v8:content>
 													</v8:item>
 													<v8:item>
 														<v8:lang>en</v8:lang>
-														<v8:content>Operation</v8:content>
+														<v8:content>Transaction</v8:content>
 													</v8:item>
 												</Title>
 												<TitleLocation>Left</TitleLocation>
@@ -3303,8 +3325,8 @@ payment</v8:content>
 													</v8:item>
 													<v8:item>
 														<v8:lang>en</v8:lang>
-														<v8:content>Item of assets
-and liabilities</v8:content>
+														<v8:content>Asset
+and liability item</v8:content>
 													</v8:item>
 												</Title>
 												<TitleLocation>Left</TitleLocation>
@@ -3325,8 +3347,8 @@ and liabilities</v8:content>
 													</v8:item>
 													<v8:item>
 														<v8:lang>en</v8:lang>
-														<v8:content>Dimension of assets 
-and liabilities </v8:content>
+														<v8:content>Dimension of assets
+and liabilities</v8:content>
 													</v8:item>
 												</Title>
 												<TitleLocation>Left</TitleLocation>
@@ -3423,7 +3445,6 @@ and liabilities </v8:content>
 								</ChildItems>
 							</UsualGroup>
 							<LabelField name="НадписьЗеркальныйПлатеж" id="352">
-								<DataPath>16</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -3441,7 +3462,6 @@ and liabilities </v8:content>
 								<ExtendedTooltip name="НадписьЗеркальныйПлатежРасширеннаяПодсказка" id="354"/>
 							</LabelField>
 							<LabelField name="ФискальнаяОперацияСтатус" id="404">
-								<DataPath>26</DataPath>
 								<TitleLocation>None</TitleLocation>
 								<ContextMenu name="ФискальнаяОперацияСтатусКонтекстноеМеню" id="405"/>
 								<ExtendedTooltip name="ФискальнаяОперацияСтатусРасширеннаяПодсказка" id="406"/>
@@ -3462,7 +3482,6 @@ and liabilities </v8:content>
 						<ExtendedTooltip name="СтраницаРасшифровкаРасширеннаяПодсказка" id="238"/>
 						<ChildItems>
 							<RadioButtonField name="ПереключательРасшифровки" id="290">
-								<DataPath>14</DataPath>
 								<TitleLocation>None</TitleLocation>
 								<RadioButtonType>Tumbler</RadioButtonType>
 								<ChoiceList>
@@ -3623,28 +3642,50 @@ and liabilities </v8:content>
 														<v8:content>VAT</v8:content>
 													</v8:item>
 												</Title>
-												<Group>Horizontal</Group>
+												<Group>Vertical</Group>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
 												<ExtendedTooltip name="ГруппаНДСРасширеннаяПодсказка" id="356"/>
 												<ChildItems>
-													<InputField name="РасшифровкаБезРазбиенияСтавкаНДС" id="357">
-														<AutoMaxWidth>false</AutoMaxWidth>
-														<MaxWidth>14</MaxWidth>
-														<HorizontalStretch>false</HorizontalStretch>
-														<ContextMenu name="РасшифровкаБезРазбиенияСтавкаНДСКонтекстноеМеню" id="358"/>
-														<ExtendedTooltip name="РасшифровкаБезРазбиенияСтавкаНДСРасширеннаяПодсказка" id="359"/>
+													<InputField name="РасшифровкаБезРазбиенияНалогообложениеНДС" id="434">
+														<ListChoiceMode>true</ListChoiceMode>
+														<ContextMenu name="РасшифровкаБезРазбиенияНалогообложениеНДСКонтекстноеМеню" id="435"/>
+														<ExtendedTooltip name="РасшифровкаБезРазбиенияНалогообложениеНДСРасширеннаяПодсказка" id="436"/>
 													</InputField>
-													<InputField name="РасшифровкаБезРазбиенияСуммаНДС" id="360">
-														<ContextMenu name="РасшифровкаБезРазбиенияСуммаНДСКонтекстноеМеню" id="361"/>
-														<ExtendedTooltip name="РасшифровкаБезРазбиенияСуммаНДСРасширеннаяПодсказка" id="362"/>
-													</InputField>
-													<LabelField name="ВалютаНДС" id="363">
-														<TitleLocation>None</TitleLocation>
-														<HorizontalStretch>false</HorizontalStretch>
-														<ContextMenu name="ВалютаНДСКонтекстноеМеню" id="364"/>
-														<ExtendedTooltip name="ВалютаНДСРасширеннаяПодсказка" id="365"/>
-													</LabelField>
+													<UsualGroup name="ГруппаДанныхПоНДС" id="442">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Группа данных по НДС</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>VAT data group</v8:content>
+															</v8:item>
+														</Title>
+														<Representation>None</Representation>
+														<ShowTitle>false</ShowTitle>
+														<ExtendedTooltip name="ГруппаДанныхПоНДСРасширеннаяПодсказка" id="443"/>
+														<ChildItems>
+															<InputField name="РасшифровкаБезРазбиенияСтавкаНДС" id="357">
+																<AutoMaxWidth>false</AutoMaxWidth>
+																<MaxWidth>14</MaxWidth>
+																<HorizontalStretch>false</HorizontalStretch>
+																<ContextMenu name="РасшифровкаБезРазбиенияСтавкаНДСКонтекстноеМеню" id="358"/>
+																<ExtendedTooltip name="РасшифровкаБезРазбиенияСтавкаНДСРасширеннаяПодсказка" id="359"/>
+															</InputField>
+															<InputField name="РасшифровкаБезРазбиенияСуммаНДС" id="360">
+																<ContextMenu name="РасшифровкаБезРазбиенияСуммаНДСКонтекстноеМеню" id="361"/>
+																<ExtendedTooltip name="РасшифровкаБезРазбиенияСуммаНДСРасширеннаяПодсказка" id="362"/>
+															</InputField>
+															<LabelField name="ВалютаНДС" id="363">
+																<TitleLocation>None</TitleLocation>
+																<HorizontalStretch>false</HorizontalStretch>
+																<ContextMenu name="ВалютаНДСКонтекстноеМеню" id="364"/>
+																<ExtendedTooltip name="ВалютаНДСРасширеннаяПодсказка" id="365"/>
+															</LabelField>
+														</ChildItems>
+													</UsualGroup>
 												</ChildItems>
 											</UsualGroup>
 											<InputField name="РасшифровкаБезРазбиенияСтатьяДвиженияДенежныхСредств" id="317">
@@ -3728,7 +3769,7 @@ and liabilities </v8:content>
 													</v8:item>
 													<v8:item>
 														<v8:lang>en</v8:lang>
-														<v8:content>Compliance accounting account</v8:content>
+														<v8:content>Compliance GL account</v8:content>
 													</v8:item>
 												</Title>
 												<Hiperlink>true</Hiperlink>
@@ -3773,7 +3814,7 @@ and liabilities </v8:content>
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Explanation as a list</v8:content>
+												<v8:content>Amount allocation as a list</v8:content>
 											</v8:item>
 										</Title>
 										<ExtendedTooltip name="РасшифровкаСпискомРасширеннаяПодсказка" id="298"/>
@@ -3800,13 +3841,13 @@ and liabilities </v8:content>
 													<ChildItems>
 														<Button name="РасшифровкаПлатежаЗаполнитьРасшифровкуПлатежа" id="280">
 															<Type>CommandBarButton</Type>
-															<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="РасшифровкаПлатежаЗаполнитьРасшифровкуПлатежаРасширеннаяПодсказка" id="281"/>
 														</Button>
 														<Button name="РасшифровкаПлатежаПодборПоОстаткам" id="95">
 															<Type>CommandBarButton</Type>
 															<SkipOnInput>false</SkipOnInput>
-															<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="РасшифровкаПлатежаПодборПоОстаткамExtendedTooltip" id="154"/>
 														</Button>
 													</ChildItems>
@@ -4029,7 +4070,7 @@ and liabilities </v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>Compliance accounting account</v8:content>
+																<v8:content>Compliance GL account</v8:content>
 															</v8:item>
 														</Title>
 														<ShowInHeader>true</ShowInHeader>

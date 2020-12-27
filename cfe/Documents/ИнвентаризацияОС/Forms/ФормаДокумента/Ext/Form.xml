@@ -29,7 +29,7 @@
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Create on the basis</v8:content>
+						<v8:content>Generate</v8:content>
 					</v8:item>
 				</Title>
 				<Picture>
@@ -47,7 +47,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Create on the basis (Important)</v8:content>
+								<v8:content>Generate (Important)</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииВажноеРасширеннаяПодсказка" id="215"/>
@@ -60,7 +60,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Create on the basis (Standard)</v8:content>
+								<v8:content>Generate (Standard)</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииОбычноеРасширеннаяПодсказка" id="217"/>
@@ -73,12 +73,35 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Create on the basis (See also)</v8:content>
+								<v8:content>Generate (See also)</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииСмТакжеРасширеннаяПодсказка" id="219"/>
 					</ButtonGroup>
 				</ChildItems>
+			</Popup>
+			<Popup name="ПодменюЭДО" id="243">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ЭДО</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>EDI</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Команды электронного документооборота</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Data interchange commands</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ExtendedTooltip name="ПодменюЭДОРасширеннаяПодсказка" id="244"/>
 			</Popup>
 			<Popup name="ПодменюПечать" id="161">
 				<Title>
@@ -88,7 +111,7 @@
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Print </v8:content>
+						<v8:content>Print</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
@@ -174,7 +197,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Submenu reports standard</v8:content>
+								<v8:content>Standard reports submenu</v8:content>
 							</v8:item>
 						</Title>
 						<ToolTip>
@@ -197,7 +220,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Submenu reports see also</v8:content>
+								<v8:content>Reports see also submenu</v8:content>
 							</v8:item>
 						</Title>
 						<ToolTip>
@@ -232,7 +255,7 @@
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Additional completion commands</v8:content>
+						<v8:content>Additional filling commands</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Picture>
@@ -329,7 +352,6 @@
 											<ExtendedTooltip name="ГруппаНомерДатаExtendedTooltip" id="89"/>
 											<ChildItems>
 												<InputField name="Номер" id="1">
-													<DataPath>1/-2</DataPath>
 													<EditMode>EnterOnInput</EditMode>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>9</MaxWidth>
@@ -337,7 +359,6 @@
 													<ExtendedTooltip name="НомерExtendedTooltip" id="90"/>
 												</InputField>
 												<InputField name="Дата" id="3">
-													<DataPath>1/-3</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -345,7 +366,7 @@
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>as of</v8:content>
+															<v8:content>dated</v8:content>
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
@@ -564,7 +585,7 @@
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>as of</v8:content>
+															<v8:content>dated</v8:content>
 														</v8:item>
 													</Title>
 													<Width>14</Width>
@@ -1120,6 +1141,50 @@
 			<ShowTitle>false</ShowTitle>
 			<ExtendedTooltip name="ГруппаИтогиРасширеннаяПодсказка" id="226"/>
 			<ChildItems>
+				<UsualGroup name="ГруппаСостояниеЭДО" id="245">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Состояние ЭДО</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>EDI status</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаСостояниеЭДОРасширеннаяПодсказка" id="246"/>
+					<ChildItems>
+						<LabelDecoration name="ДекорацияСостояниеЭДО" id="247">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Состояние ЭДО</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>EDI status</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Состояние ЭДО</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>EDI status</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияСостояниеЭДОКонтекстноеМеню" id="248"/>
+							<ExtendedTooltip name="ДекорацияСостояниеЭДОРасширеннаяПодсказка" id="249"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
 				<UsualGroup name="ГруппаИтогиСуммы" id="227">
 					<Title>
 						<v8:item>
@@ -1174,7 +1239,6 @@
 							<ExtendedTooltip name="ИтогиСуммаФактическаяРасширеннаяПодсказка" id="234"/>
 						</InputField>
 						<LabelField name="ВалютаДокумента" id="235">
-							<DataPath>11</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<Width>5</Width>
 							<HorizontalStretch>false</HorizontalStretch>
@@ -1194,19 +1258,19 @@
 					<Type>CommandBarButton</Type>
 					<Representation>Text</Representation>
 					<DefaultButton>true</DefaultButton>
-					<CommandName>6:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаПровестиИЗакрытьРасширеннаяПодсказка" id="164"/>
 				</Button>
 				<Button name="ФормаЗаписать" id="165">
 					<Type>CommandBarButton</Type>
 					<Representation>Picture</Representation>
-					<CommandName>7:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="166"/>
 				</Button>
 				<Button name="ФормаПровести" id="199">
 					<Type>CommandBarButton</Type>
 					<Representation>Picture</Representation>
-					<CommandName>8:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаПровестиРасширеннаяПодсказка" id="200"/>
 				</Button>
 				<Popup name="ПодменюСоздатьНаОсновании" id="169">
@@ -1217,7 +1281,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Create on the basis</v8:content>
+							<v8:content>Generate</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -1235,7 +1299,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Create on the basis (Important)</v8:content>
+									<v8:content>Generate (Important)</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииВажноеРасширеннаяПодсказка" id="215"/>
@@ -1248,7 +1312,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Create on the basis (Standard)</v8:content>
+									<v8:content>Generate (Standard)</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииОбычноеРасширеннаяПодсказка" id="217"/>
@@ -1261,12 +1325,35 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Create on the basis (See also)</v8:content>
+									<v8:content>Generate (See also)</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииСмТакжеРасширеннаяПодсказка" id="219"/>
 						</ButtonGroup>
 					</ChildItems>
+				</Popup>
+				<Popup name="ПодменюЭДО" id="243">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЭДО</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>EDI</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Команды электронного документооборота</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Data interchange commands</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ПодменюЭДОРасширеннаяПодсказка" id="244"/>
 				</Popup>
 				<Popup name="ПодменюПечать" id="161">
 					<Title>
@@ -1276,7 +1363,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Print </v8:content>
+							<v8:content>Print</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
@@ -1362,7 +1449,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Submenu reports standard</v8:content>
+									<v8:content>Standard reports submenu</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTip>
@@ -1385,7 +1472,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Submenu reports see also</v8:content>
+									<v8:content>Reports see also submenu</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTip>
@@ -1420,7 +1507,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Additional completion commands</v8:content>
+							<v8:content>Additional filling commands</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Picture>
@@ -1431,12 +1518,12 @@
 				</Popup>
 				<Button name="ФормаИзменитьФорму" id="210">
 					<Type>CommandBarButton</Type>
-					<CommandName>Form.StandardCommand.CustomizeForm</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаИзменитьФормуРасширеннаяПодсказка" id="211"/>
 				</Button>
 				<Button name="ФормаСправка" id="212">
 					<Type>CommandBarButton</Type>
-					<CommandName>Form.StandardCommand.Help</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаСправкаРасширеннаяПодсказка" id="213"/>
 				</Button>
 			</ChildItems>
@@ -1517,7 +1604,6 @@
 												<ExtendedTooltip name="ГруппаНомерДатаExtendedTooltip" id="89"/>
 												<ChildItems>
 													<InputField name="Номер" id="1">
-														<DataPath>1/-2</DataPath>
 														<EditMode>EnterOnInput</EditMode>
 														<AutoMaxWidth>false</AutoMaxWidth>
 														<MaxWidth>9</MaxWidth>
@@ -1525,7 +1611,6 @@
 														<ExtendedTooltip name="НомерExtendedTooltip" id="90"/>
 													</InputField>
 													<InputField name="Дата" id="3">
-														<DataPath>1/-3</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -1533,7 +1618,7 @@
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>as of</v8:content>
+																<v8:content>dated</v8:content>
 															</v8:item>
 														</Title>
 														<EditMode>EnterOnInput</EditMode>
@@ -1752,7 +1837,7 @@
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>as of</v8:content>
+																<v8:content>dated</v8:content>
 															</v8:item>
 														</Title>
 														<Width>14</Width>
@@ -1875,7 +1960,7 @@
 											<ChildItems>
 												<Button name="ОСЗаполнитьПоОстаткам" id="82">
 													<Type>CommandBarButton</Type>
-													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<CommandName>0</CommandName>
 													<ExtendedTooltip name="ОСЗаполнитьПоОстаткамExtendedTooltip" id="98"/>
 												</Button>
 												<ButtonGroup name="ОСГруппа1" id="223">
@@ -1893,12 +1978,12 @@
 													<ChildItems>
 														<Button name="ОСЗаполнитьДанныеУчета" id="81">
 															<Type>CommandBarButton</Type>
-															<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ОСЗаполнитьДанныеУчетаExtendedTooltip" id="99"/>
 														</Button>
 														<Button name="ОСЗаполнитьФактическиеДанные" id="80">
 															<Type>CommandBarButton</Type>
-															<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ОСЗаполнитьФактическиеДанныеExtendedTooltip" id="100"/>
 														</Button>
 													</ChildItems>
@@ -1907,12 +1992,12 @@
 										</Popup>
 										<Button name="ОСЗагрузитьДанныеИзТСД" id="241">
 											<Type>CommandBarButton</Type>
-											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<CommandName>0</CommandName>
 											<ExtendedTooltip name="ОСЗагрузитьДанныеИзТСДРасширеннаяПодсказка" id="242"/>
 										</Button>
 										<Button name="ОСПодобрать" id="78">
 											<Type>CommandBarButton</Type>
-											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<CommandName>0</CommandName>
 											<ExtendedTooltip name="ОСПодобратьРасширеннаяПодсказка" id="101"/>
 										</Button>
 									</ChildItems>
@@ -2233,7 +2318,7 @@
 									<ChildItems>
 										<Button name="ИнвентаризационнаяКомиссияПодборФизическихЛиц" id="83">
 											<Type>CommandBarButton</Type>
-											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<CommandName>0</CommandName>
 											<ExtendedTooltip name="ИнвентаризационнаяКомиссияПодборФизическихЛицExtendedTooltip" id="134"/>
 										</Button>
 									</ChildItems>
@@ -2303,11 +2388,54 @@
 				</Title>
 				<HorizontalStretch>true</HorizontalStretch>
 				<Group>Horizontal</Group>
-				<HorizontalAlign>Right</HorizontalAlign>
 				<Representation>None</Representation>
 				<ShowTitle>false</ShowTitle>
 				<ExtendedTooltip name="ГруппаИтогиРасширеннаяПодсказка" id="226"/>
 				<ChildItems>
+					<UsualGroup name="ГруппаСостояниеЭДО" id="245">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Состояние ЭДО</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>EDI status</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ГруппаСостояниеЭДОРасширеннаяПодсказка" id="246"/>
+						<ChildItems>
+							<LabelDecoration name="ДекорацияСостояниеЭДО" id="247">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Состояние ЭДО</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>EDI status</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Состояние ЭДО</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>EDI status</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Hyperlink>true</Hyperlink>
+								<ContextMenu name="ДекорацияСостояниеЭДОКонтекстноеМеню" id="248"/>
+								<ExtendedTooltip name="ДекорацияСостояниеЭДОРасширеннаяПодсказка" id="249"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
 					<UsualGroup name="ГруппаИтогиСуммы" id="227">
 						<Title>
 							<v8:item>
@@ -2319,6 +2447,7 @@
 								<v8:content>Amount totals</v8:content>
 							</v8:item>
 						</Title>
+						<GroupHorizontalAlign>Right</GroupHorizontalAlign>
 						<Group>Horizontal</Group>
 						<Representation>None</Representation>
 						<ShowTitle>false</ShowTitle>
@@ -2362,7 +2491,6 @@
 								<ExtendedTooltip name="ИтогиСуммаФактическаяРасширеннаяПодсказка" id="234"/>
 							</InputField>
 							<LabelField name="ВалютаДокумента" id="235">
-								<DataPath>11</DataPath>
 								<TitleLocation>None</TitleLocation>
 								<Width>5</Width>
 								<HorizontalStretch>false</HorizontalStretch>

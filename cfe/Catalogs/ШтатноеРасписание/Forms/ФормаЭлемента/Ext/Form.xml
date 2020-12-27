@@ -87,7 +87,6 @@
 					<ExtendedTooltip name="ЛеваяКолонкаРасширеннаяПодсказка" id="402"/>
 					<ChildItems>
 						<InputField name="Владелец" id="69">
-							<DataPath>13</DataPath>
 							<ChoiceParameters>
 								<app:item name="ПоказыватьУправленческуюОрганизацию">
 									<app:value xsi:type="FormChoiceListDesTimeValue">
@@ -152,7 +151,6 @@
 					<ExtendedTooltip name="ПраваяКолонкаРасширеннаяПодсказка" id="404"/>
 					<ChildItems>
 						<LabelField name="УтвердившийРегистраторНадпись" id="638">
-							<DataPath>36</DataPath>
 							<Visible>false</Visible>
 							<TitleLocation>None</TitleLocation>
 							<AutoMaxWidth>false</AutoMaxWidth>
@@ -160,7 +158,6 @@
 							<ExtendedTooltip name="УтвердившийРегистраторНадписьРасширеннаяПодсказка" id="640"/>
 						</LabelField>
 						<LabelField name="ЗакрывшийРегистраторНадпись" id="641">
-							<DataPath>37</DataPath>
 							<Visible>false</Visible>
 							<TitleLocation>None</TitleLocation>
 							<AutoMaxWidth>false</AutoMaxWidth>
@@ -251,7 +248,6 @@
 											<ExtendedTooltip name="ВыборГрафикаГруппаРасширеннаяПодсказка" id="1242"/>
 											<ChildItems>
 												<RadioButtonField name="ГрафикРаботыРежимРаботыВыбор" id="1243">
-													<DataPath>66</DataPath>
 													<TitleLocation>None</TitleLocation>
 													<RadioButtonType>Tumbler</RadioButtonType>
 													<ChoiceList>
@@ -283,7 +279,7 @@
 																	</v8:item>
 																	<v8:item>
 																		<v8:lang>en</v8:lang>
-																		<v8:content>Operation mode</v8:content>
+																		<v8:content>Mode</v8:content>
 																	</v8:item>
 																</Presentation>
 																<Value xsi:type="xs:decimal">1</Value>
@@ -448,7 +444,7 @@ is removed from the staff list</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Description</v8:content>
+							<v8:content>Name</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Horizontal</Group>
@@ -457,7 +453,6 @@ is removed from the staff list</v8:content>
 					<ExtendedTooltip name="ГруппаНаименованиеРасширеннаяПодсказка" id="819"/>
 					<ChildItems>
 						<InputField name="Наименование" id="3">
-							<DataPath>1/-3</DataPath>
 							<EditMode>EnterOnInput</EditMode>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<MaxWidth>75</MaxWidth>
@@ -481,7 +476,7 @@ is removed from the staff list</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Form page</v8:content>
+					<v8:content>Form pages</v8:content>
 				</v8:item>
 			</Title>
 			<ExtendedTooltip name="СтраницыФормыРасширеннаяПодсказка" id="409"/>
@@ -873,14 +868,12 @@ is removed from the staff list</v8:content>
 													<ExtendedTooltip name="ФОТУправленческийГруппаРасширеннаяПодсказка" id="920"/>
 													<ChildItems>
 														<LabelField name="ОкладУправленческий" id="990">
-															<DataPath>11</DataPath>
 															<Width>15</Width>
 															<HorizontalStretch>true</HorizontalStretch>
 															<ContextMenu name="ОкладУправленческийКонтекстноеМеню" id="991"/>
 															<ExtendedTooltip name="ОкладУправленческийРасширеннаяПодсказка" id="992"/>
 														</LabelField>
 														<LabelField name="ФОТУправленческий" id="921">
-															<DataPath>61</DataPath>
 															<Width>19</Width>
 															<HorizontalStretch>true</HorizontalStretch>
 															<ContextMenu name="ФОТУправленческийКонтекстноеМеню" id="922"/>
@@ -1173,12 +1166,10 @@ is removed from the staff list</v8:content>
 															<ExtendedTooltip name="ОкладТарифГруппаРасширеннаяПодсказка" id="604"/>
 															<ChildItems>
 																<LabelField name="Оклад" id="597">
-																	<DataPath>11</DataPath>
 																	<ContextMenu name="ОкладКонтекстноеМеню" id="598"/>
 																	<ExtendedTooltip name="ОкладРасширеннаяПодсказка" id="599"/>
 																</LabelField>
 																<LabelField name="ФОТ" id="600">
-																	<DataPath>21</DataPath>
 																	<ContextMenu name="ФОТКонтекстноеМеню" id="601"/>
 																	<ExtendedTooltip name="ФОТРасширеннаяПодсказка" id="602"/>
 																</LabelField>
@@ -1759,7 +1750,6 @@ is removed from the staff list</v8:content>
 															<ExtendedTooltip name="ГруппаРайонныйКоэффициентРасширеннаяПодсказка" id="996"/>
 															<ChildItems>
 																<LabelField name="НачислениеРайонныйКоэффициент" id="190">
-																	<DataPath>17</DataPath>
 																	<TitleLocation>None</TitleLocation>
 																	<Height>1</Height>
 																	<ContextMenu name="НачислениеРайонныйКоэффициентКонтекстноеМеню" id="191"/>
@@ -1822,7 +1812,6 @@ is removed from the staff list</v8:content>
 															<ExtendedTooltip name="ГруппаНачислениеСевернаяНадбавкаРасширеннаяПодсказка" id="998"/>
 															<ChildItems>
 																<LabelField name="НачислениеСевернаяНадбавка" id="188">
-																	<DataPath>28</DataPath>
 																	<TitleLocation>None</TitleLocation>
 																	<Height>1</Height>
 																	<ContextMenu name="НачислениеСевернаяНадбавкаКонтекстноеМеню" id="189"/>
@@ -2111,6 +2100,7 @@ is removed from the staff list</v8:content>
 													<ExtendedTooltip name="СпособОтраженияЗарплатыВБухучетеРасширеннаяПодсказка" id="585"/>
 												</InputField>
 												<InputField name="ОтношениеКЕНВД" id="586">
+													<HorizontalStretch>false</HorizontalStretch>
 													<InputHint>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -2189,12 +2179,47 @@ is removed from the staff list</v8:content>
 											</ChildItems>
 										</UsualGroup>
 										<CheckBoxField name="РаботаВСельскомХозяйстве" id="1303">
-											<DataPath>67</DataPath>
 											<TitleLocation>Right</TitleLocation>
 											<CheckBoxType>Auto</CheckBoxType>
 											<ContextMenu name="РаботаВСельскомХозяйствеКонтекстноеМеню" id="1304"/>
 											<ExtendedTooltip name="РаботаВСельскомХозяйствеРасширеннаяПодсказка" id="1305"/>
 										</CheckBoxField>
+										<CheckBoxField name="РаботаСКоронавирусом" id="1309">
+											<TitleLocation>Right</TitleLocation>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="РаботаСКоронавирусомКонтекстноеМеню" id="1310"/>
+											<ExtendedTooltip name="РаботаСКоронавирусомРасширеннаяПодсказка" id="1311"/>
+										</CheckBoxField>
+										<UsualGroup name="ГруппаСтимулирующиеВыплатыФСС" id="1312">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Стимулирующие выплаты ФСС</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Стимулирующие выплаты ФСС</v8:content>
+												</v8:item>
+											</Title>
+											<Group>Vertical</Group>
+											<ExtendedTooltip name="ГруппаСтимулирующиеВыплатыФССРасширеннаяПодсказка" id="1313"/>
+											<ChildItems>
+												<InputField name="КатегорияПолучателяСтимулирующихВыплатФСС" id="1314">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Категория получателей</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Категория получателей</v8:content>
+														</v8:item>
+													</Title>
+													<ContextMenu name="КатегорияПолучателяСтимулирующихВыплатФССКонтекстноеМеню" id="1315"/>
+													<ExtendedTooltip name="КатегорияПолучателяСтимулирующихВыплатФССРасширеннаяПодсказка" id="1316"/>
+												</InputField>
+											</ChildItems>
+										</UsualGroup>
 										<UsualGroup name="ГруппаСпецоценкаУсловийТруда" id="693">
 											<Title>
 												<v8:item>
@@ -2275,7 +2300,6 @@ is removed from the staff list</v8:content>
 															<ExtendedTooltip name="КлассыУсловийТрудаПоДолжностямПериодРасширеннаяПодсказка" id="709"/>
 														</InputField>
 														<InputField name="КлассыУсловийТрудаПоДолжностямДатаРегистрацииИзменений" id="710">
-															<DataPath>47</DataPath>
 															<Title>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
@@ -2339,7 +2363,6 @@ is removed from the staff list</v8:content>
 											<ExtendedTooltip name="ДосрочнаяПенсияРасширеннаяПодсказка" id="800"/>
 											<ChildItems>
 												<CheckBoxField name="ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсиейФлажок" id="801">
-													<DataPath>56</DataPath>
 													<TitleLocation>Right</TitleLocation>
 													<TitleHeight>1</TitleHeight>
 													<CheckBoxType>Auto</CheckBoxType>
@@ -2982,7 +3005,6 @@ observation ZP-xxx, specify a line number of this report</v8:content>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
 									<FileDragMode>AsFile</FileDragMode>
-									<DataPath>30</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -3036,7 +3058,6 @@ observation ZP-xxx, specify a line number of this report</v8:content>
 									</SearchControlAddition>
 									<ChildItems>
 										<InputField name="ЛьготыЛьгота" id="626">
-											<DataPath>30/1</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ChoiceParameters>
 												<app:item name="Отбор.КатегорияНачисленияИлиНеоплаченногоВремени">
@@ -3069,7 +3090,6 @@ observation ZP-xxx, specify a line number of this report</v8:content>
 							<ExtendedTooltip name="ГруппаСамообслуживаниеРасширеннаяПодсказка" id="653"/>
 							<ChildItems>
 								<RadioButtonField name="ДоступныВсеЛьготы" id="690">
-									<DataPath>45</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<RadioButtonType>Auto</RadioButtonType>
 									<ColumnsCount>1</ColumnsCount>
@@ -3117,7 +3137,6 @@ observation ZP-xxx, specify a line number of this report</v8:content>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
 									<FileDragMode>AsFile</FileDragMode>
-									<DataPath>40</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -3171,7 +3190,6 @@ observation ZP-xxx, specify a line number of this report</v8:content>
 									</SearchControlAddition>
 									<ChildItems>
 										<InputField name="ИндивидуальныеЛьготыЛьгота" id="673">
-											<DataPath>40/1</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ChoiceParameters>
 												<app:item name="Отбор.КатегорияНачисленияИлиНеоплаченногоВремени">
@@ -3203,7 +3221,6 @@ observation ZP-xxx, specify a line number of this report</v8:content>
 									<ExtendedTooltip name="ГруппаЛимитПозицииРасширеннаяПодсказка" id="645"/>
 									<ChildItems>
 										<CheckBoxField name="ИспользоватьЛимит" id="646">
-											<DataPath>38</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -3220,7 +3237,6 @@ observation ZP-xxx, specify a line number of this report</v8:content>
 											<ExtendedTooltip name="ИспользоватьЛимитРасширеннаяПодсказка" id="648"/>
 										</CheckBoxField>
 										<InputField name="КоличествоБаллов" id="649">
-											<DataPath>39</DataPath>
 											<TitleLocation>None</TitleLocation>
 											<ContextMenu name="КоличествоБалловКонтекстноеМеню" id="650"/>
 											<ExtendedTooltip name="КоличествоБалловРасширеннаяПодсказка" id="651"/>
@@ -3551,24 +3567,24 @@ observation ZP-xxx, specify a line number of this report</v8:content>
 				<Button name="КомандаЗаписатьИЗакрыть" id="715">
 					<Type>CommandBarButton</Type>
 					<DefaultButton>true</DefaultButton>
-					<CommandName>7:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="КомандаЗаписатьИЗакрытьРасширеннаяПодсказка" id="716"/>
 				</Button>
 				<Button name="ФормаЗаписатьИЗакрыть" id="717">
 					<Type>CommandBarButton</Type>
 					<Visible>false</Visible>
-					<CommandName>0:32df4349-2607-4c2b-a4b9-bca4a1a28bd7</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаЗаписатьИЗакрытьРасширеннаяПодсказка" id="718"/>
 				</Button>
 				<Button name="КомандаЗаписать" id="719">
 					<Type>CommandBarButton</Type>
-					<CommandName>6:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="КомандаЗаписатьРасширеннаяПодсказка" id="720"/>
 				</Button>
 				<Button name="ФормаЗаписать" id="721">
 					<Type>CommandBarButton</Type>
 					<Visible>false</Visible>
-					<CommandName>0:fe558fde-99b3-45d0-a060-9fc2905309f6</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="722"/>
 				</Button>
 				<ButtonGroup name="ФормаГруппаКомандФормы" id="723">
@@ -3587,7 +3603,7 @@ observation ZP-xxx, specify a line number of this report</v8:content>
 				</ButtonGroup>
 				<Button name="ФормаСправка" id="725">
 					<Type>CommandBarButton</Type>
-					<CommandName>Form.StandardCommand.Help</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаСправкаРасширеннаяПодсказка" id="726"/>
 				</Button>
 			</ChildItems>
@@ -3627,7 +3643,6 @@ observation ZP-xxx, specify a line number of this report</v8:content>
 						<ExtendedTooltip name="ЛеваяКолонкаРасширеннаяПодсказка" id="402"/>
 						<ChildItems>
 							<InputField name="Владелец" id="69">
-								<DataPath>13</DataPath>
 								<ChoiceParameters>
 									<app:item name="ПоказыватьУправленческуюОрганизацию">
 										<app:value xsi:type="FormChoiceListDesTimeValue">
@@ -3692,7 +3707,6 @@ observation ZP-xxx, specify a line number of this report</v8:content>
 						<ExtendedTooltip name="ПраваяКолонкаРасширеннаяПодсказка" id="404"/>
 						<ChildItems>
 							<LabelField name="УтвердившийРегистраторНадпись" id="638">
-								<DataPath>36</DataPath>
 								<Visible>false</Visible>
 								<TitleLocation>None</TitleLocation>
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -3700,7 +3714,6 @@ observation ZP-xxx, specify a line number of this report</v8:content>
 								<ExtendedTooltip name="УтвердившийРегистраторНадписьРасширеннаяПодсказка" id="640"/>
 							</LabelField>
 							<LabelField name="ЗакрывшийРегистраторНадпись" id="641">
-								<DataPath>37</DataPath>
 								<Visible>false</Visible>
 								<TitleLocation>None</TitleLocation>
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -3791,7 +3804,6 @@ observation ZP-xxx, specify a line number of this report</v8:content>
 												<ExtendedTooltip name="ВыборГрафикаГруппаРасширеннаяПодсказка" id="1242"/>
 												<ChildItems>
 													<RadioButtonField name="ГрафикРаботыРежимРаботыВыбор" id="1243">
-														<DataPath>66</DataPath>
 														<TitleLocation>None</TitleLocation>
 														<RadioButtonType>Tumbler</RadioButtonType>
 														<ChoiceList>
@@ -3823,7 +3835,7 @@ observation ZP-xxx, specify a line number of this report</v8:content>
 																		</v8:item>
 																		<v8:item>
 																			<v8:lang>en</v8:lang>
-																			<v8:content>Operation mode</v8:content>
+																			<v8:content>Mode</v8:content>
 																		</v8:item>
 																	</Presentation>
 																	<Value xsi:type="xs:decimal">1</Value>
@@ -3988,7 +4000,7 @@ is removed from the staff list</v8:content>
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Description</v8:content>
+								<v8:content>Name</v8:content>
 							</v8:item>
 						</Title>
 						<Group>Horizontal</Group>
@@ -3997,7 +4009,6 @@ is removed from the staff list</v8:content>
 						<ExtendedTooltip name="ГруппаНаименованиеРасширеннаяПодсказка" id="819"/>
 						<ChildItems>
 							<InputField name="Наименование" id="3">
-								<DataPath>1/-3</DataPath>
 								<EditMode>EnterOnInput</EditMode>
 								<AutoMaxWidth>false</AutoMaxWidth>
 								<MaxWidth>75</MaxWidth>
@@ -4006,7 +4017,7 @@ is removed from the staff list</v8:content>
 							</InputField>
 							<Button name="Склонения" id="820">
 								<Type>Hyperlink</Type>
-								<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+								<CommandName>0</CommandName>
 								<ExtendedTooltip name="СклоненияРасширеннаяПодсказка" id="821"/>
 							</Button>
 						</ChildItems>
@@ -4021,7 +4032,7 @@ is removed from the staff list</v8:content>
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Form page</v8:content>
+						<v8:content>Form pages</v8:content>
 					</v8:item>
 				</Title>
 				<ExtendedTooltip name="СтраницыФормыРасширеннаяПодсказка" id="409"/>
@@ -4182,7 +4193,7 @@ is removed from the staff list</v8:content>
 																			<Button name="ДобавитьУправленческие" id="958">
 																				<Type>CommandBarButton</Type>
 																				<Representation>PictureAndText</Representation>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																				<CommandName>0</CommandName>
 																				<ExtendedTooltip name="ДобавитьУправленческиеРасширеннаяПодсказка" id="959"/>
 																			</Button>
 																		</ChildItems>
@@ -4219,7 +4230,7 @@ is removed from the staff list</v8:content>
 																			<Button name="ДобавитьВГруппеДобавитьОтменитьУправленческие" id="964">
 																				<Type>CommandBarButton</Type>
 																				<Representation>PictureAndText</Representation>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																				<CommandName>0</CommandName>
 																				<Title>
 																					<v8:item>
 																						<v8:lang>ru</v8:lang>
@@ -4236,7 +4247,7 @@ is removed from the staff list</v8:content>
 																			<Button name="УдалитьВГруппеДобавитьОтменитьУправленческие" id="966">
 																				<Type>CommandBarButton</Type>
 																				<Representation>PictureAndText</Representation>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																				<CommandName>0</CommandName>
 																				<Picture>
 																					<xr:Ref>CommonPicture.ПротоколСОшибкой</xr:Ref>
 																					<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -4288,7 +4299,7 @@ is removed from the staff list</v8:content>
 																			<Button name="ДобавитьВГруппеКнопокДобавитьПродолжитьУправленческие" id="972">
 																				<Type>CommandBarButton</Type>
 																				<Representation>PictureAndText</Representation>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																				<CommandName>0</CommandName>
 																				<Title>
 																					<v8:item>
 																						<v8:lang>ru</v8:lang>
@@ -4305,7 +4316,7 @@ is removed from the staff list</v8:content>
 																			<Button name="УдалитьВГруппеКнопокДобавитьПродолжитьУправленческие" id="974">
 																				<Type>CommandBarButton</Type>
 																				<Representation>PictureAndText</Representation>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																				<CommandName>0</CommandName>
 																				<Picture>
 																					<xr:Ref>CommonPicture.ОперацияВыполненаУспешно</xr:Ref>
 																					<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -4356,7 +4367,7 @@ is removed from the staff list</v8:content>
 																			<Button name="ДобавитьВГруппеКнопокДобавитьУдалитьУправленческие" id="980">
 																				<Type>CommandBarButton</Type>
 																				<Representation>PictureAndText</Representation>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																				<CommandName>0</CommandName>
 																				<Title>
 																					<v8:item>
 																						<v8:lang>ru</v8:lang>
@@ -4372,7 +4383,7 @@ is removed from the staff list</v8:content>
 																			<Button name="УдалитьВГруппеКнопокДобавитьУдалитьУправленческие" id="982">
 																				<Type>CommandBarButton</Type>
 																				<Representation>PictureAndText</Representation>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																				<CommandName>0</CommandName>
 																				<Picture>
 																					<xr:Ref>StdPicture.Delete</xr:Ref>
 																					<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -4413,14 +4424,12 @@ is removed from the staff list</v8:content>
 														<ExtendedTooltip name="ФОТУправленческийГруппаРасширеннаяПодсказка" id="920"/>
 														<ChildItems>
 															<LabelField name="ОкладУправленческий" id="990">
-																<DataPath>11</DataPath>
 																<Width>15</Width>
 																<HorizontalStretch>true</HorizontalStretch>
 																<ContextMenu name="ОкладУправленческийКонтекстноеМеню" id="991"/>
 																<ExtendedTooltip name="ОкладУправленческийРасширеннаяПодсказка" id="992"/>
 															</LabelField>
 															<LabelField name="ФОТУправленческий" id="921">
-																<DataPath>61</DataPath>
 																<Width>19</Width>
 																<HorizontalStretch>true</HorizontalStretch>
 																<ContextMenu name="ФОТУправленческийКонтекстноеМеню" id="922"/>
@@ -4444,12 +4453,12 @@ is removed from the staff list</v8:content>
 																<ChildItems>
 																	<Button name="РассчитатьУправленческие" id="986">
 																		<Type>UsualButton</Type>
-																		<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																		<CommandName>0</CommandName>
 																		<ExtendedTooltip name="РассчитатьУправленческиеРасширеннаяПодсказка" id="987"/>
 																	</Button>
 																	<Button name="РедактироватьФОТУправленческие" id="988">
 																		<Type>UsualButton</Type>
-																		<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																		<CommandName>0</CommandName>
 																		<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 																		<ExtendedTooltip name="РедактироватьФОТУправленческиеРасширеннаяПодсказка" id="989"/>
 																	</Button>
@@ -4713,12 +4722,10 @@ is removed from the staff list</v8:content>
 																<ExtendedTooltip name="ОкладТарифГруппаРасширеннаяПодсказка" id="604"/>
 																<ChildItems>
 																	<LabelField name="Оклад" id="597">
-																		<DataPath>11</DataPath>
 																		<ContextMenu name="ОкладКонтекстноеМеню" id="598"/>
 																		<ExtendedTooltip name="ОкладРасширеннаяПодсказка" id="599"/>
 																	</LabelField>
 																	<LabelField name="ФОТ" id="600">
-																		<DataPath>21</DataPath>
 																		<ContextMenu name="ФОТКонтекстноеМеню" id="601"/>
 																		<ExtendedTooltip name="ФОТРасширеннаяПодсказка" id="602"/>
 																	</LabelField>
@@ -4744,12 +4751,12 @@ is removed from the staff list</v8:content>
 																<ChildItems>
 																	<Button name="Рассчитать" id="525">
 																		<Type>UsualButton</Type>
-																		<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																		<CommandName>0</CommandName>
 																		<ExtendedTooltip name="РассчитатьРасширеннаяПодсказка" id="526"/>
 																	</Button>
 																	<Button name="РедактироватьФОТ" id="153">
 																		<Type>UsualButton</Type>
-																		<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																		<CommandName>0</CommandName>
 																		<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 																		<ExtendedTooltip name="РедактироватьФОТExtendedTooltip" id="291"/>
 																	</Button>
@@ -4817,7 +4824,7 @@ is removed from the staff list</v8:content>
 																					<Button name="Добавить" id="147">
 																						<Type>CommandBarButton</Type>
 																						<Representation>PictureAndText</Representation>
-																						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																						<CommandName>0</CommandName>
 																						<ExtendedTooltip name="ДобавитьExtendedTooltip" id="282"/>
 																					</Button>
 																				</ChildItems>
@@ -4854,7 +4861,7 @@ is removed from the staff list</v8:content>
 																					<Button name="ДобавитьВГруппеДобавитьОтменить" id="456">
 																						<Type>CommandBarButton</Type>
 																						<Representation>PictureAndText</Representation>
-																						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																						<CommandName>0</CommandName>
 																						<Title>
 																							<v8:item>
 																								<v8:lang>ru</v8:lang>
@@ -4871,7 +4878,7 @@ is removed from the staff list</v8:content>
 																					<Button name="УдалитьВГруппеДобавитьОтменить" id="458">
 																						<Type>CommandBarButton</Type>
 																						<Representation>PictureAndText</Representation>
-																						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																						<CommandName>0</CommandName>
 																						<Picture>
 																							<xr:Ref>CommonPicture.ПротоколСОшибкой</xr:Ref>
 																							<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -4923,7 +4930,7 @@ is removed from the staff list</v8:content>
 																					<Button name="ДобавитьВГруппеКнопокДобавитьПродолжить" id="464">
 																						<Type>CommandBarButton</Type>
 																						<Representation>PictureAndText</Representation>
-																						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																						<CommandName>0</CommandName>
 																						<Title>
 																							<v8:item>
 																								<v8:lang>ru</v8:lang>
@@ -4940,7 +4947,7 @@ is removed from the staff list</v8:content>
 																					<Button name="УдалитьВГруппеКнопокДобавитьПродолжить" id="466">
 																						<Type>CommandBarButton</Type>
 																						<Representation>PictureAndText</Representation>
-																						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																						<CommandName>0</CommandName>
 																						<Picture>
 																							<xr:Ref>CommonPicture.ОперацияВыполненаУспешно</xr:Ref>
 																							<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -4991,7 +4998,7 @@ is removed from the staff list</v8:content>
 																					<Button name="ДобавитьВГруппеКнопокДобавитьУдалить" id="472">
 																						<Type>CommandBarButton</Type>
 																						<Representation>PictureAndText</Representation>
-																						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																						<CommandName>0</CommandName>
 																						<Title>
 																							<v8:item>
 																								<v8:lang>ru</v8:lang>
@@ -5007,7 +5014,7 @@ is removed from the staff list</v8:content>
 																					<Button name="УдалитьВГруппеКнопокДобавитьУдалить" id="474">
 																						<Type>CommandBarButton</Type>
 																						<Representation>PictureAndText</Representation>
-																						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																						<CommandName>0</CommandName>
 																						<Picture>
 																							<xr:Ref>StdPicture.Delete</xr:Ref>
 																							<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -5046,19 +5053,19 @@ is removed from the staff list</v8:content>
 																<ChildItems>
 																	<Button name="ПереместитьВверх" id="150">
 																		<Type>CommandBarButton</Type>
-																		<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																		<CommandName>0</CommandName>
 																		<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 																		<ExtendedTooltip name="ПереместитьВверхExtendedTooltip" id="285"/>
 																	</Button>
 																	<Button name="ПереместитьВниз" id="151">
 																		<Type>CommandBarButton</Type>
-																		<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																		<CommandName>0</CommandName>
 																		<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 																		<ExtendedTooltip name="ПереместитьВнизExtendedTooltip" id="286"/>
 																	</Button>
 																	<Button name="ВывестиСписок" id="158">
 																		<Type>CommandBarButton</Type>
-																		<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																		<CommandName>0</CommandName>
 																		<ExtendedTooltip name="ВывестиСписокExtendedTooltip" id="296"/>
 																	</Button>
 																</ChildItems>
@@ -5299,7 +5306,6 @@ is removed from the staff list</v8:content>
 																<ExtendedTooltip name="ГруппаРайонныйКоэффициентРасширеннаяПодсказка" id="996"/>
 																<ChildItems>
 																	<LabelField name="НачислениеРайонныйКоэффициент" id="190">
-																		<DataPath>17</DataPath>
 																		<TitleLocation>None</TitleLocation>
 																		<Height>1</Height>
 																		<ContextMenu name="НачислениеРайонныйКоэффициентКонтекстноеМеню" id="191"/>
@@ -5362,7 +5368,6 @@ is removed from the staff list</v8:content>
 																<ExtendedTooltip name="ГруппаНачислениеСевернаяНадбавкаРасширеннаяПодсказка" id="998"/>
 																<ChildItems>
 																	<LabelField name="НачислениеСевернаяНадбавка" id="188">
-																		<DataPath>28</DataPath>
 																		<TitleLocation>None</TitleLocation>
 																		<Height>1</Height>
 																		<ContextMenu name="НачислениеСевернаяНадбавкаКонтекстноеМеню" id="189"/>
@@ -5556,7 +5561,7 @@ is removed from the staff list</v8:content>
 							<Button name="ФормаОтразитьВКадровомУчете" id="128">
 								<Type>Hyperlink</Type>
 								<Visible>false</Visible>
-								<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+								<CommandName>0</CommandName>
 								<ExtendedTooltip name="ФормаОтразитьВКадровомУчетеExtendedTooltip" id="334"/>
 							</Button>
 						</ChildItems>
@@ -5651,6 +5656,7 @@ is removed from the staff list</v8:content>
 														<ExtendedTooltip name="СпособОтраженияЗарплатыВБухучетеРасширеннаяПодсказка" id="585"/>
 													</InputField>
 													<InputField name="ОтношениеКЕНВД" id="586">
+														<HorizontalStretch>false</HorizontalStretch>
 														<InputHint>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -5729,12 +5735,47 @@ is removed from the staff list</v8:content>
 												</ChildItems>
 											</UsualGroup>
 											<CheckBoxField name="РаботаВСельскомХозяйстве" id="1303">
-												<DataPath>67</DataPath>
 												<TitleLocation>Right</TitleLocation>
 												<CheckBoxType>Auto</CheckBoxType>
 												<ContextMenu name="РаботаВСельскомХозяйствеКонтекстноеМеню" id="1304"/>
 												<ExtendedTooltip name="РаботаВСельскомХозяйствеРасширеннаяПодсказка" id="1305"/>
 											</CheckBoxField>
+											<CheckBoxField name="РаботаСКоронавирусом" id="1309">
+												<TitleLocation>Right</TitleLocation>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="РаботаСКоронавирусомКонтекстноеМеню" id="1310"/>
+												<ExtendedTooltip name="РаботаСКоронавирусомРасширеннаяПодсказка" id="1311"/>
+											</CheckBoxField>
+											<UsualGroup name="ГруппаСтимулирующиеВыплатыФСС" id="1312">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Стимулирующие выплаты ФСС</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Стимулирующие выплаты ФСС</v8:content>
+													</v8:item>
+												</Title>
+												<Group>Vertical</Group>
+												<ExtendedTooltip name="ГруппаСтимулирующиеВыплатыФССРасширеннаяПодсказка" id="1313"/>
+												<ChildItems>
+													<InputField name="КатегорияПолучателяСтимулирующихВыплатФСС" id="1314">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Категория получателей</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Категория получателей</v8:content>
+															</v8:item>
+														</Title>
+														<ContextMenu name="КатегорияПолучателяСтимулирующихВыплатФССКонтекстноеМеню" id="1315"/>
+														<ExtendedTooltip name="КатегорияПолучателяСтимулирующихВыплатФССРасширеннаяПодсказка" id="1316"/>
+													</InputField>
+												</ChildItems>
+											</UsualGroup>
 											<UsualGroup name="ГруппаСпецоценкаУсловийТруда" id="693">
 												<Title>
 													<v8:item>
@@ -5815,7 +5856,6 @@ is removed from the staff list</v8:content>
 																<ExtendedTooltip name="КлассыУсловийТрудаПоДолжностямПериодРасширеннаяПодсказка" id="709"/>
 															</InputField>
 															<InputField name="КлассыУсловийТрудаПоДолжностямДатаРегистрацииИзменений" id="710">
-																<DataPath>47</DataPath>
 																<Title>
 																	<v8:item>
 																		<v8:lang>ru</v8:lang>
@@ -5840,7 +5880,7 @@ is removed from the staff list</v8:content>
 															</InputField>
 															<Button name="КлассУсловийТрудаИстория" id="713">
 																<Type>Hyperlink</Type>
-																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<CommandName>0</CommandName>
 																<ExtendedTooltip name="КлассУсловийТрудаИсторияРасширеннаяПодсказка" id="714"/>
 															</Button>
 														</ChildItems>
@@ -5879,7 +5919,6 @@ is removed from the staff list</v8:content>
 												<ExtendedTooltip name="ДосрочнаяПенсияРасширеннаяПодсказка" id="800"/>
 												<ChildItems>
 													<CheckBoxField name="ВзимаютсяВзносыЗаЗанятыхНаРаботахСДосрочнойПенсиейФлажок" id="801">
-														<DataPath>56</DataPath>
 														<TitleLocation>Right</TitleLocation>
 														<TitleHeight>1</TitleHeight>
 														<CheckBoxType>Auto</CheckBoxType>
@@ -6055,7 +6094,7 @@ is removed from the staff list</v8:content>
 																			<Button name="ДобавитьВГруппеДобавитьОтменитьЕО" id="486">
 																				<Type>CommandBarButton</Type>
 																				<Representation>PictureAndText</Representation>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																				<CommandName>0</CommandName>
 																				<Title>
 																					<v8:item>
 																						<v8:lang>ru</v8:lang>
@@ -6072,7 +6111,7 @@ is removed from the staff list</v8:content>
 																			<Button name="УдалитьВГруппеДобавитьОтменитьЕО" id="488">
 																				<Type>CommandBarButton</Type>
 																				<Representation>PictureAndText</Representation>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																				<CommandName>0</CommandName>
 																				<Picture>
 																					<xr:Ref>CommonPicture.ПротоколСОшибкой</xr:Ref>
 																					<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -6124,7 +6163,7 @@ is removed from the staff list</v8:content>
 																			<Button name="ДобавитьВГруппеКнопокДобавитьПродолжитьЕО" id="494">
 																				<Type>CommandBarButton</Type>
 																				<Representation>PictureAndText</Representation>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																				<CommandName>0</CommandName>
 																				<Title>
 																					<v8:item>
 																						<v8:lang>ru</v8:lang>
@@ -6141,7 +6180,7 @@ is removed from the staff list</v8:content>
 																			<Button name="УдалитьВГруппеКнопокДобавитьПродолжитьЕО" id="496">
 																				<Type>CommandBarButton</Type>
 																				<Representation>PictureAndText</Representation>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																				<CommandName>0</CommandName>
 																				<Picture>
 																					<xr:Ref>CommonPicture.ОперацияВыполненаУспешно</xr:Ref>
 																					<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -6192,7 +6231,7 @@ is removed from the staff list</v8:content>
 																			<Button name="ДобавитьВГруппеКнопокДобавитьУдалитьЕО" id="502">
 																				<Type>CommandBarButton</Type>
 																				<Representation>PictureAndText</Representation>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																				<CommandName>0</CommandName>
 																				<Title>
 																					<v8:item>
 																						<v8:lang>ru</v8:lang>
@@ -6209,7 +6248,7 @@ is removed from the staff list</v8:content>
 																			<Button name="УдалитьВГруппеКнопокДобавитьУдалитьЕО" id="504">
 																				<Type>CommandBarButton</Type>
 																				<Representation>PictureAndText</Representation>
-																				<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																				<CommandName>0</CommandName>
 																				<Picture>
 																					<xr:Ref>StdPicture.Delete</xr:Ref>
 																					<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -6522,7 +6561,6 @@ observation ZP-xxx, specify a line number of this report</v8:content>
 										<EnableStartDrag>true</EnableStartDrag>
 										<EnableDrag>true</EnableDrag>
 										<FileDragMode>AsFile</FileDragMode>
-										<DataPath>30</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -6576,7 +6614,6 @@ observation ZP-xxx, specify a line number of this report</v8:content>
 										</SearchControlAddition>
 										<ChildItems>
 											<InputField name="ЛьготыЛьгота" id="626">
-												<DataPath>30/1</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<ChoiceParameters>
 													<app:item name="Отбор.КатегорияНачисленияИлиНеоплаченногоВремени">
@@ -6609,7 +6646,6 @@ observation ZP-xxx, specify a line number of this report</v8:content>
 								<ExtendedTooltip name="ГруппаСамообслуживаниеРасширеннаяПодсказка" id="653"/>
 								<ChildItems>
 									<RadioButtonField name="ДоступныВсеЛьготы" id="690">
-										<DataPath>45</DataPath>
 										<TitleLocation>None</TitleLocation>
 										<RadioButtonType>Auto</RadioButtonType>
 										<ColumnsCount>1</ColumnsCount>
@@ -6657,7 +6693,6 @@ observation ZP-xxx, specify a line number of this report</v8:content>
 										<EnableStartDrag>true</EnableStartDrag>
 										<EnableDrag>true</EnableDrag>
 										<FileDragMode>AsFile</FileDragMode>
-										<DataPath>40</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -6711,7 +6746,6 @@ observation ZP-xxx, specify a line number of this report</v8:content>
 										</SearchControlAddition>
 										<ChildItems>
 											<InputField name="ИндивидуальныеЛьготыЛьгота" id="673">
-												<DataPath>40/1</DataPath>
 												<EditMode>EnterOnInput</EditMode>
 												<ChoiceParameters>
 													<app:item name="Отбор.КатегорияНачисленияИлиНеоплаченногоВремени">
@@ -6743,7 +6777,6 @@ observation ZP-xxx, specify a line number of this report</v8:content>
 										<ExtendedTooltip name="ГруппаЛимитПозицииРасширеннаяПодсказка" id="645"/>
 										<ChildItems>
 											<CheckBoxField name="ИспользоватьЛимит" id="646">
-												<DataPath>38</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -6760,7 +6793,6 @@ observation ZP-xxx, specify a line number of this report</v8:content>
 												<ExtendedTooltip name="ИспользоватьЛимитРасширеннаяПодсказка" id="648"/>
 											</CheckBoxField>
 											<InputField name="КоличествоБаллов" id="649">
-												<DataPath>39</DataPath>
 												<TitleLocation>None</TitleLocation>
 												<ContextMenu name="КоличествоБалловКонтекстноеМеню" id="650"/>
 												<ExtendedTooltip name="КоличествоБалловРасширеннаяПодсказка" id="651"/>
@@ -7022,13 +7054,13 @@ observation ZP-xxx, specify a line number of this report</v8:content>
 				<ChildItems>
 					<Button name="КомандаОК" id="446">
 						<Type>CommandBarButton</Type>
-						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+						<CommandName>0</CommandName>
 						<ExtendedTooltip name="КомандаОКРасширеннаяПодсказка" id="447"/>
 					</Button>
 					<Button name="КомандаЗакрыть" id="448">
 						<Type>CommandBarButton</Type>
 						<Representation>Text</Representation>
-						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+						<CommandName>0</CommandName>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>

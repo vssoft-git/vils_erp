@@ -15,6 +15,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Кнопки командной панели</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Command bar buttons</v8:content>
+					</v8:item>
 				</Title>
 				<CommandSource>Form</CommandSource>
 				<ExtendedTooltip name="ГруппаКнопкиКоманднойПанелиРасширеннаяПодсказка" id="113"/>
@@ -25,6 +29,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Важные команды</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Important commands</v8:content>
+							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ГруппаВажныеКомандыРасширеннаяПодсказка" id="115"/>
 					</ButtonGroup>
@@ -33,6 +41,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Глобальные команды</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Global commands</v8:content>
 							</v8:item>
 						</Title>
 						<CommandSource>FormCommandPanelGlobalCommands</CommandSource>
@@ -57,6 +69,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Документ</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Document</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
 			<Representation>None</Representation>
@@ -68,6 +84,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Шапка</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Header</v8:content>
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
@@ -81,6 +101,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Шапка лево</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Header left</v8:content>
+						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
 					<Representation>None</Representation>
@@ -92,6 +116,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Тип документа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Document type</v8:content>
 								</v8:item>
 							</Title>
 							<Width>26</Width>
@@ -163,6 +191,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Шапка право</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Header right</v8:content>
+						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
 					<Representation>None</Representation>
@@ -175,6 +207,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Номер</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Number</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
 							<Representation>None</Representation>
@@ -182,11 +218,14 @@
 							<ExtendedTooltip name="ГруппаНомерДатаExtendedTooltip" id="28"/>
 							<ChildItems>
 								<InputField name="Номер" id="1">
-									<DataPath>1/-2</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Номер</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Number</v8:content>
 										</v8:item>
 									</Title>
 									<WarningOnEditRepresentation>DontShow</WarningOnEditRepresentation>
@@ -197,11 +236,14 @@
 									<ExtendedTooltip name="НомерExtendedTooltip" id="29"/>
 								</InputField>
 								<InputField name="Дата" id="3">
-									<DataPath>1/-3</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>от</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>from</v8:content>
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
@@ -217,6 +259,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Входящий документ</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Incoming document</v8:content>
+								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
 							<Representation>None</Representation>
@@ -229,6 +275,11 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Номер входящего
 документа</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Incoming document
+number</v8:content>
 										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
@@ -244,6 +295,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>от</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>from</v8:content>
+										</v8:item>
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>12</Width>
@@ -257,6 +312,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Сумма документа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Document amount</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
@@ -274,6 +333,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Валюта</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Currency</v8:content>
 										</v8:item>
 									</Title>
 									<Width>7</Width>
@@ -295,11 +358,20 @@
 				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
+		<Button name="СостояниеОплатыПоСчетуФактуре" id="127">
+			<Type>Hyperlink</Type>
+			<CommandName>0</CommandName>
+			<ExtendedTooltip name="СостояниеОплатыПоСчетуФактуреРасширеннаяПодсказка" id="128"/>
+		</Button>
 		<UsualGroup name="ДанныеДокумента" id="83">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Порядок расчетов и аналитика</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Settlements procedure and analytics</v8:content>
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
@@ -312,6 +384,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Расчеты по документу и аналитика</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Settlements for document and dimension</v8:content>
+						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
 					<Representation>None</Representation>
@@ -323,6 +399,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Сумма документа и валюта</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Document amount and currency</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
@@ -346,6 +426,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>По договору</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>By contract</v8:content>
+											</v8:item>
 										</Presentation>
 										<Value xsi:type="xr:DesignTimeRef">Enum.ПорядокРасчетов.EnumValue.ПоДоговорамКонтрагентов</Value>
 									</xr:Value>
@@ -359,6 +443,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>По накладной</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>By invoice</v8:content>
+											</v8:item>
 										</Presentation>
 										<Value xsi:type="xr:DesignTimeRef">Enum.ПорядокРасчетов.EnumValue.ПоНакладным</Value>
 									</xr:Value>
@@ -371,6 +459,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>По заказам</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>By orders</v8:content>
 											</v8:item>
 										</Presentation>
 										<Value xsi:type="xr:DesignTimeRef">Enum.ПорядокРасчетов.EnumValue.ПоЗаказамНакладным</Value>
@@ -395,6 +487,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Дополнительные сведения</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Additional information</v8:content>
 						</v8:item>
 					</Title>
 					<Group>Vertical</Group>
@@ -428,6 +524,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Счет-фактура</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Tax invoice</v8:content>
+				</v8:item>
 			</Title>
 			<HorizontalStretch>true</HorizontalStretch>
 			<Representation>None</Representation>
@@ -441,21 +541,24 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Проблема проверка контрагента</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Counterparty check issue</v8:content>
+						</v8:item>
 					</Title>
-					<Picture>
-						<xr:Ref>CommonPicture.ВниманиеКрасный</xr:Ref>
-						<xr:LoadTransparent>true</xr:LoadTransparent>
-					</Picture>
 					<FileDragMode>AsFile</FileDragMode>
 					<ContextMenu name="ПроблемаПроверкаКонтрагентаСчетФактураКонтекстноеМеню" id="123"/>
 					<ExtendedTooltip name="ПроблемаПроверкаКонтрагентаСчетФактураРасширеннаяПодсказка" id="124"/>
 				</PictureDecoration>
 				<LabelField name="ТекстСчетФактура" id="80">
-					<DataPath>3</DataPath>
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Счет-фактура</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Tax invoice</v8:content>
 						</v8:item>
 					</Title>
 					<TitleLocation>None</TitleLocation>
@@ -483,7 +586,7 @@
 				<Button name="ФормаПровестиИЗакрыть" id="110">
 					<Type>CommandBarButton</Type>
 					<DefaultButton>true</DefaultButton>
-					<CommandName>1:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаПровестиИЗакрытьРасширеннаяПодсказка" id="111"/>
 				</Button>
 				<ButtonGroup name="ГруппаКнопкиКоманднойПанели" id="112">
@@ -491,6 +594,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Кнопки командной панели</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Command bar buttons</v8:content>
 						</v8:item>
 					</Title>
 					<CommandSource>Form</CommandSource>
@@ -502,6 +609,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Важные команды</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Important commands</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ГруппаВажныеКомандыРасширеннаяПодсказка" id="115"/>
 						</ButtonGroup>
@@ -511,6 +622,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Глобальные команды</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Global commands</v8:content>
+								</v8:item>
 							</Title>
 							<CommandSource>FormCommandPanelGlobalCommands</CommandSource>
 							<ExtendedTooltip name="ГруппаГлобальныеКомандыРасширеннаяПодсказка" id="117"/>
@@ -519,7 +634,7 @@
 				</ButtonGroup>
 				<Button name="ФормаСправка" id="118">
 					<Type>CommandBarButton</Type>
-					<CommandName>Form.StandardCommand.Help</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаСправкаРасширеннаяПодсказка" id="119"/>
 				</Button>
 			</ChildItems>
@@ -530,6 +645,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Документ</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Document</v8:content>
 					</v8:item>
 				</Title>
 				<Group>Horizontal</Group>
@@ -543,6 +662,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Шапка</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Header</v8:content>
+					</v8:item>
 				</Title>
 				<Group>Horizontal</Group>
 				<Representation>None</Representation>
@@ -555,6 +678,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Шапка лево</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Header left</v8:content>
+							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
 						<Representation>None</Representation>
@@ -566,6 +693,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Тип документа</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Document type</v8:content>
 									</v8:item>
 								</Title>
 								<Width>26</Width>
@@ -637,6 +768,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Шапка право</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Header right</v8:content>
+							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
 						<Representation>None</Representation>
@@ -649,6 +784,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Номер</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Number</v8:content>
+									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
 								<Representation>None</Representation>
@@ -656,11 +795,14 @@
 								<ExtendedTooltip name="ГруппаНомерДатаExtendedTooltip" id="28"/>
 								<ChildItems>
 									<InputField name="Номер" id="1">
-										<DataPath>1/-2</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Номер</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Number</v8:content>
 											</v8:item>
 										</Title>
 										<WarningOnEditRepresentation>DontShow</WarningOnEditRepresentation>
@@ -671,11 +813,14 @@
 										<ExtendedTooltip name="НомерExtendedTooltip" id="29"/>
 									</InputField>
 									<InputField name="Дата" id="3">
-										<DataPath>1/-3</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>от</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>from</v8:content>
 											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
@@ -691,6 +836,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Входящий документ</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Incoming document</v8:content>
+									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
 								<Representation>None</Representation>
@@ -703,6 +852,11 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Номер входящего
 документа</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Incoming document
+number</v8:content>
 											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
@@ -718,6 +872,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>от</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>from</v8:content>
+											</v8:item>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>12</Width>
@@ -731,6 +889,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Сумма документа</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Document amount</v8:content>
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
@@ -748,6 +910,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Валюта</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Currency</v8:content>
 											</v8:item>
 										</Title>
 										<Width>7</Width>
@@ -769,11 +935,20 @@
 					</UsualGroup>
 				</ChildItems>
 			</UsualGroup>
+			<Button name="СостояниеОплатыПоСчетуФактуре" id="127">
+				<Type>Hyperlink</Type>
+				<CommandName>0</CommandName>
+				<ExtendedTooltip name="СостояниеОплатыПоСчетуФактуреРасширеннаяПодсказка" id="128"/>
+			</Button>
 			<UsualGroup name="ДанныеДокумента" id="83">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Порядок расчетов и аналитика</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Settlements procedure and analytics</v8:content>
 					</v8:item>
 				</Title>
 				<Group>Horizontal</Group>
@@ -786,6 +961,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Расчеты по документу и аналитика</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Settlements for document and dimension</v8:content>
+							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
 						<Representation>None</Representation>
@@ -797,6 +976,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Сумма документа и валюта</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Document amount and currency</v8:content>
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
@@ -820,6 +1003,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>По договору</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>By contract</v8:content>
+												</v8:item>
 											</Presentation>
 											<Value xsi:type="xr:DesignTimeRef">Enum.ПорядокРасчетов.EnumValue.ПоДоговорамКонтрагентов</Value>
 										</xr:Value>
@@ -833,6 +1020,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>По накладной</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>By invoice</v8:content>
+												</v8:item>
 											</Presentation>
 											<Value xsi:type="xr:DesignTimeRef">Enum.ПорядокРасчетов.EnumValue.ПоНакладным</Value>
 										</xr:Value>
@@ -845,6 +1036,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>По заказам</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>By orders</v8:content>
 												</v8:item>
 											</Presentation>
 											<Value xsi:type="xr:DesignTimeRef">Enum.ПорядокРасчетов.EnumValue.ПоЗаказамНакладным</Value>
@@ -869,6 +1064,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Дополнительные сведения</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Additional information</v8:content>
 							</v8:item>
 						</Title>
 						<Group>Vertical</Group>
@@ -902,6 +1101,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Счет-фактура</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Tax invoice</v8:content>
+					</v8:item>
 				</Title>
 				<HorizontalStretch>true</HorizontalStretch>
 				<Representation>None</Representation>
@@ -915,21 +1118,24 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Проблема проверка контрагента</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Counterparty check issue</v8:content>
+							</v8:item>
 						</Title>
-						<Picture>
-							<xr:Ref>CommonPicture.ВниманиеКрасный</xr:Ref>
-							<xr:LoadTransparent>true</xr:LoadTransparent>
-						</Picture>
 						<FileDragMode>AsFile</FileDragMode>
 						<ContextMenu name="ПроблемаПроверкаКонтрагентаСчетФактураКонтекстноеМеню" id="123"/>
 						<ExtendedTooltip name="ПроблемаПроверкаКонтрагентаСчетФактураРасширеннаяПодсказка" id="124"/>
 					</PictureDecoration>
 					<LabelField name="ТекстСчетФактура" id="80">
-						<DataPath>3</DataPath>
 						<Title>
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Счет-фактура</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Tax invoice</v8:content>
 							</v8:item>
 						</Title>
 						<TitleLocation>None</TitleLocation>

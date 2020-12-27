@@ -29,7 +29,7 @@
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Create on the basis</v8:content>
+						<v8:content>Generate</v8:content>
 					</v8:item>
 				</Title>
 				<Picture>
@@ -61,7 +61,7 @@
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>EDW</v8:content>
+						<v8:content>EDI</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
@@ -115,7 +115,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Submenu reports standard</v8:content>
+								<v8:content>Standard reports submenu</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюОтчетыОбычноеРасширеннаяПодсказка" id="431"/>
@@ -128,7 +128,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Submenu reports see also</v8:content>
+								<v8:content>Reports see also submenu</v8:content>
 							</v8:item>
 						</Title>
 						<ToolTip>
@@ -163,7 +163,7 @@
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Additional completion commands</v8:content>
+						<v8:content>Additional filling commands</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Picture>
@@ -226,7 +226,6 @@
 							<ExtendedTooltip name="СтраницаДокументОснованиеExtendedTooltip" id="302"/>
 							<ChildItems>
 								<LabelField name="ДокументыОснованияПредставление" id="463">
-									<DataPath>28</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -338,7 +337,6 @@
 											<ExtendedTooltip name="РеквизитыТекущийСФРасширеннаяПодсказка" id="626"/>
 											<ChildItems>
 												<InputField name="Номер" id="627">
-													<DataPath>1/-2</DataPath>
 													<Width>15</Width>
 													<MaxWidth>15</MaxWidth>
 													<HorizontalStretch>false</HorizontalStretch>
@@ -353,7 +351,7 @@
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>as of</v8:content>
+															<v8:content>from</v8:content>
 														</v8:item>
 													</Title>
 													<ContextMenu name="ДатаСоставленияКонтекстноеМеню" id="631"/>
@@ -362,7 +360,6 @@
 											</ChildItems>
 										</UsualGroup>
 										<LabelField name="РеквизитыИсправляемыйСФНадпись" id="633">
-											<DataPath>46</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -426,7 +423,7 @@
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>as of</v8:content>
+															<v8:content>from</v8:content>
 														</v8:item>
 													</Title>
 													<ContextMenu name="ДатаИсправленияКонтекстноеМеню" id="642"/>
@@ -435,7 +432,6 @@
 											</ChildItems>
 										</UsualGroup>
 										<LabelField name="РеквизитыКорректируемыеСФНадпись" id="644">
-											<DataPath>47</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -479,7 +475,6 @@
 											<ExtendedTooltip name="РеквизитыСистемныеРасширеннаяПодсказка" id="648"/>
 											<ChildItems>
 												<InputField name="НомерСистемный" id="649">
-													<DataPath>1/-2</DataPath>
 													<Width>12</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ContextMenu name="НомерСистемныйКонтекстноеМеню" id="650"/>
@@ -534,7 +529,7 @@
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Receipt date</v8:content>
+													<v8:content>Received on</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
@@ -543,7 +538,6 @@
 											<ExtendedTooltip name="ГруппаДатаПолученияРасширеннаяПодсказка" id="415"/>
 											<ChildItems>
 												<InputField name="Дата" id="224">
-													<DataPath>1/-3</DataPath>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -771,10 +765,6 @@
 																			<v8:content>Counterparty check issue</v8:content>
 																		</v8:item>
 																	</Title>
-																	<Picture>
-																		<xr:Ref>CommonPicture.ВниманиеКрасный</xr:Ref>
-																		<xr:LoadTransparent>false</xr:LoadTransparent>
-																	</Picture>
 																	<FileDragMode>AsFile</FileDragMode>
 																	<ContextMenu name="ПроблемаПроверкаКонтрагентаКонтекстноеМеню" id="377"/>
 																	<ExtendedTooltip name="ПроблемаПроверкаКонтрагентаРасширеннаяПодсказка" id="378"/>
@@ -945,8 +935,6 @@
 									<v8:content>Change document amounts</v8:content>
 								</v8:item>
 							</Title>
-							<TitleTextColor>style:ЦветГиперссылки</TitleTextColor>
-							<TitleFont ref="style:NormalTextFont" height="10" kind="StyleItem"/>
 							<ToolTip>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -957,14 +945,17 @@
 									<v8:content>Group amount total</v8:content>
 								</v8:item>
 							</ToolTip>
-							<Width>70</Width>
+							<Width>77</Width>
+							<HorizontalStretch>false</HorizontalStretch>
 							<Behavior>PopUp</Behavior>
 							<Representation>None</Representation>
 							<ExtendedTooltip name="ГруппаСуммыИтогоРасширеннаяПодсказка" id="558"/>
 							<ChildItems>
 								<Table name="ДокументыОснования" id="562">
-									<ChangeRowSet>false</ChangeRowSet>
+									<Width>71</Width>
 									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<HorizontalStretch>false</HorizontalStretch>
+									<VerticalStretch>false</VerticalStretch>
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
 									<FileDragMode>AsFile</FileDragMode>
@@ -1015,17 +1006,33 @@
 										<ExtendedTooltip name="ДокументыОснованияУправлениеПоискомРасширеннаяПодсказка" id="574"/>
 									</SearchControlAddition>
 									<ChildItems>
-										<InputField name="ДокументыОснованияДокументОснование" id="661">
-											<ReadOnly>true</ReadOnly>
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="ДокументыОснованияДокументОснованиеКонтекстноеМеню" id="662"/>
-											<ExtendedTooltip name="ДокументыОснованияДокументОснованиеРасширеннаяПодсказка" id="663"/>
-										</InputField>
-										<InputField name="ДокументыОснованияИсходныйДокумент" id="597">
-											<EditMode>EnterOnInput</EditMode>
-											<ContextMenu name="ДокументыОснованияИсходныйДокументКонтекстноеМеню" id="598"/>
-											<ExtendedTooltip name="ДокументыОснованияИсходныйДокументРасширеннаяПодсказка" id="599"/>
-										</InputField>
+										<ColumnGroup name="ДокументыОснованияГруппаДокументов" id="675">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Документы основания группа документов</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Base documents documents group</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="ДокументыОснованияГруппаДокументовРасширеннаяПодсказка" id="676"/>
+											<ChildItems>
+												<InputField name="ДокументыОснованияДокументОснование" id="661">
+													<ReadOnly>true</ReadOnly>
+													<EditMode>EnterOnInput</EditMode>
+													<Width>25</Width>
+													<ContextMenu name="ДокументыОснованияДокументОснованиеКонтекстноеМеню" id="662"/>
+													<ExtendedTooltip name="ДокументыОснованияДокументОснованиеРасширеннаяПодсказка" id="663"/>
+												</InputField>
+												<InputField name="ДокументыОснованияИсходныйДокумент" id="597">
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ДокументыОснованияИсходныйДокументКонтекстноеМеню" id="598"/>
+													<ExtendedTooltip name="ДокументыОснованияИсходныйДокументРасширеннаяПодсказка" id="599"/>
+												</InputField>
+											</ChildItems>
+										</ColumnGroup>
 										<ColumnGroup name="ДокументыОснованияГруппаСумма" id="575">
 											<Title>
 												<v8:item>
@@ -1053,11 +1060,11 @@
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Сумма</v8:content>
+															<v8:content>Сумма с НДС</v8:content>
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>Amount</v8:content>
+															<v8:content>Amount including VAT</v8:content>
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
@@ -1068,11 +1075,11 @@
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Увеличение</v8:content>
+															<v8:content>Сумма с НДС увеличение</v8:content>
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>Increase</v8:content>
+															<v8:content>Amount including VAT increase</v8:content>
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
@@ -1083,11 +1090,11 @@
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Уменьшение</v8:content>
+															<v8:content>Сумма с НДС уменьшение</v8:content>
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>Decrease</v8:content>
+															<v8:content>Amount including VAT decrease</v8:content>
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
@@ -1099,6 +1106,7 @@
 										<InputField name="ДокументыОснованияСтавкаНДС" id="658">
 											<EditMode>EnterOnInput</EditMode>
 											<Width>8</Width>
+											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="ДокументыОснованияСтавкаНДСКонтекстноеМеню" id="659"/>
 											<ExtendedTooltip name="ДокументыОснованияСтавкаНДСРасширеннаяПодсказка" id="660"/>
 										</InputField>
@@ -1144,11 +1152,11 @@
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Увеличение</v8:content>
+															<v8:content>НДС увеличение</v8:content>
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>Increase</v8:content>
+															<v8:content>VAT increase</v8:content>
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
@@ -1159,11 +1167,11 @@
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>Уменьшение</v8:content>
+															<v8:content>НДС уменьшение</v8:content>
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>Decrease</v8:content>
+															<v8:content>VAT decrease</v8:content>
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
@@ -1323,10 +1331,6 @@
 									<Width>2</Width>
 									<Height>1</Height>
 									<GroupVerticalAlign>Center</GroupVerticalAlign>
-									<Picture>
-										<xr:Ref>CommonPicture.Внимание16</xr:Ref>
-										<xr:LoadTransparent>false</xr:LoadTransparent>
-									</Picture>
 									<FileDragMode>AsFile</FileDragMode>
 									<ContextMenu name="КартинкаРучнаяКорректировкаСуммДокументовКонтекстноеМеню" id="667"/>
 									<ExtendedTooltip name="КартинкаРучнаяКорректировкаСуммДокументовРасширеннаяПодсказка" id="668"/>
@@ -1334,14 +1338,10 @@
 								<LabelDecoration name="ДекорацияРучнаяКорректировкаСуммДокументов" id="620">
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<HorizontalStretch>true</HorizontalStretch>
-									<Title formatted="false">
+									<Title formatted="true">
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Суммы документа отредактированы вручную. Вы можете перезаполнить суммы документа перейдя по ссылке Изменить суммы документа.</v8:content>
-										</v8:item>
-										<v8:item>
-											<v8:lang>en</v8:lang>
-											<v8:content>Document amounts are edited manually. You can refill document amounts by clicking the link Change document amounts.</v8:content>
+											<v8:content>Суммы документа отредактированы вручную.</v8:content>
 										</v8:item>
 									</Title>
 									<GroupVerticalAlign>Center</GroupVerticalAlign>
@@ -1392,7 +1392,6 @@
 							<ExtendedTooltip name="КодВидаОперацииExtendedTooltip" id="517"/>
 						</InputField>
 						<LabelField name="ПредставлениеВидаОперации" id="518">
-							<DataPath>31</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<ContextMenu name="ПредставлениеВидаОперацииКонтекстноеМеню" id="519"/>
@@ -1441,7 +1440,6 @@
 							<ExtendedTooltip name="КодВидаОперацииНаУвеличениеРасширеннаяПодсказка" id="528"/>
 						</InputField>
 						<LabelField name="ПредставлениеВидаОперацииНаУвеличение" id="529">
-							<DataPath>31</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<ContextMenu name="ПредставлениеВидаОперацииНаУвеличениеКонтекстноеМеню" id="530"/>
@@ -1490,7 +1488,6 @@
 							<ExtendedTooltip name="КодВидаОперацииНаУменьшениеРасширеннаяПодсказка" id="539"/>
 						</InputField>
 						<LabelField name="ПредставлениеВидаОперацииНаУменьшение" id="540">
-							<DataPath>32</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<ContextMenu name="ПредставлениеВидаОперацииНаУменьшениеКонтекстноеМеню" id="541"/>
@@ -1561,7 +1558,6 @@
 							<ExtendedTooltip name="СоставленКомиссионеромОтИмениПродавцаРасширеннаяПодсказка" id="500"/>
 						</CheckBoxField>
 						<LabelField name="ТекстПродавцы" id="501">
-							<DataPath>29</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<ContextMenu name="ТекстПродавцыКонтекстноеМеню" id="502"/>
 							<ExtendedTooltip name="ТекстПродавцыРасширеннаяПодсказка" id="503"/>
@@ -1578,7 +1574,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>EDI state</v8:content>
+					<v8:content>EDI status</v8:content>
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
@@ -1595,7 +1591,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>EDI state</v8:content>
+							<v8:content>EDI status</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
@@ -1605,7 +1601,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>EDI state</v8:content>
+							<v8:content>EDI status</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Hyperlink>true</Hyperlink>
@@ -1623,19 +1619,19 @@
 					<Type>CommandBarButton</Type>
 					<Representation>Text</Representation>
 					<DefaultButton>true</DefaultButton>
-					<CommandName>2:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаПровестиИЗакрытьРасширеннаяПодсказка" id="417"/>
 				</Button>
 				<Button name="ФормаЗаписать" id="418">
 					<Type>CommandBarButton</Type>
 					<Representation>Picture</Representation>
-					<CommandName>3:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="419"/>
 				</Button>
 				<Button name="ФормаПровести" id="420">
 					<Type>CommandBarButton</Type>
 					<Representation>Picture</Representation>
-					<CommandName>4:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаПровестиРасширеннаяПодсказка" id="421"/>
 				</Button>
 				<Popup name="ПодменюСоздатьНаОсновании" id="422">
@@ -1646,7 +1642,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Create on the basis</v8:content>
+							<v8:content>Generate</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -1678,7 +1674,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>EDW</v8:content>
+							<v8:content>EDI</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
@@ -1732,7 +1728,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Submenu reports standard</v8:content>
+									<v8:content>Standard reports submenu</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюОтчетыОбычноеРасширеннаяПодсказка" id="431"/>
@@ -1745,7 +1741,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Submenu reports see also</v8:content>
+									<v8:content>Reports see also submenu</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTip>
@@ -1780,7 +1776,7 @@
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Additional completion commands</v8:content>
+							<v8:content>Additional filling commands</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Picture>
@@ -1791,7 +1787,7 @@
 				</Popup>
 				<Button name="ФормаПроверитьКонтрагентов" id="487">
 					<Type>CommandBarButton</Type>
-					<CommandName>1:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 					<ExtendedTooltip name="ФормаПроверитьКонтрагентовРасширеннаяПодсказка" id="488"/>
 				</Button>
@@ -1843,7 +1839,6 @@
 								<ExtendedTooltip name="СтраницаДокументОснованиеExtendedTooltip" id="302"/>
 								<ChildItems>
 									<LabelField name="ДокументыОснованияПредставление" id="463">
-										<DataPath>28</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -1955,7 +1950,6 @@
 												<ExtendedTooltip name="РеквизитыТекущийСФРасширеннаяПодсказка" id="626"/>
 												<ChildItems>
 													<InputField name="Номер" id="627">
-														<DataPath>1/-2</DataPath>
 														<Width>15</Width>
 														<MaxWidth>15</MaxWidth>
 														<HorizontalStretch>false</HorizontalStretch>
@@ -1970,7 +1964,7 @@
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>as of</v8:content>
+																<v8:content>from</v8:content>
 															</v8:item>
 														</Title>
 														<ContextMenu name="ДатаСоставленияКонтекстноеМеню" id="631"/>
@@ -1979,7 +1973,6 @@
 												</ChildItems>
 											</UsualGroup>
 											<LabelField name="РеквизитыИсправляемыйСФНадпись" id="633">
-												<DataPath>46</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2043,7 +2036,7 @@
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>as of</v8:content>
+																<v8:content>from</v8:content>
 															</v8:item>
 														</Title>
 														<ContextMenu name="ДатаИсправленияКонтекстноеМеню" id="642"/>
@@ -2052,7 +2045,6 @@
 												</ChildItems>
 											</UsualGroup>
 											<LabelField name="РеквизитыКорректируемыеСФНадпись" id="644">
-												<DataPath>47</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -2096,7 +2088,6 @@
 												<ExtendedTooltip name="РеквизитыСистемныеРасширеннаяПодсказка" id="648"/>
 												<ChildItems>
 													<InputField name="НомерСистемный" id="649">
-														<DataPath>1/-2</DataPath>
 														<Width>12</Width>
 														<HorizontalStretch>false</HorizontalStretch>
 														<ContextMenu name="НомерСистемныйКонтекстноеМеню" id="650"/>
@@ -2151,7 +2142,7 @@
 													</v8:item>
 													<v8:item>
 														<v8:lang>en</v8:lang>
-														<v8:content>Receipt date</v8:content>
+														<v8:content>Received on</v8:content>
 													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
@@ -2160,7 +2151,6 @@
 												<ExtendedTooltip name="ГруппаДатаПолученияРасширеннаяПодсказка" id="415"/>
 												<ChildItems>
 													<InputField name="Дата" id="224">
-														<DataPath>1/-3</DataPath>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -2388,10 +2378,6 @@
 																				<v8:content>Counterparty check issue</v8:content>
 																			</v8:item>
 																		</Title>
-																		<Picture>
-																			<xr:Ref>CommonPicture.ВниманиеКрасный</xr:Ref>
-																			<xr:LoadTransparent>false</xr:LoadTransparent>
-																		</Picture>
 																		<FileDragMode>AsFile</FileDragMode>
 																		<ContextMenu name="ПроблемаПроверкаКонтрагентаКонтекстноеМеню" id="377"/>
 																		<ExtendedTooltip name="ПроблемаПроверкаКонтрагентаРасширеннаяПодсказка" id="378"/>
@@ -2562,8 +2548,6 @@
 										<v8:content>Change document amounts</v8:content>
 									</v8:item>
 								</Title>
-								<TitleTextColor>style:ЦветГиперссылки</TitleTextColor>
-								<TitleFont ref="style:NormalTextFont" height="10" kind="StyleItem"/>
 								<ToolTip>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -2574,14 +2558,19 @@
 										<v8:content>Group amount total</v8:content>
 									</v8:item>
 								</ToolTip>
-								<Width>70</Width>
+								<Width>77</Width>
+								<HorizontalStretch>false</HorizontalStretch>
 								<Behavior>PopUp</Behavior>
 								<Representation>None</Representation>
 								<ExtendedTooltip name="ГруппаСуммыИтогоРасширеннаяПодсказка" id="558"/>
 								<ChildItems>
 									<Table name="ДокументыОснования" id="562">
-										<ChangeRowSet>false</ChangeRowSet>
+										<Width>71</Width>
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<MaxWidth>52</MaxWidth>
 										<AutoInsertNewRow>true</AutoInsertNewRow>
+										<HorizontalStretch>false</HorizontalStretch>
+										<VerticalStretch>false</VerticalStretch>
 										<EnableStartDrag>true</EnableStartDrag>
 										<EnableDrag>true</EnableDrag>
 										<FileDragMode>AsFile</FileDragMode>
@@ -2601,7 +2590,7 @@
 											<ChildItems>
 												<Button name="ОбновитьТаблицуСумм" id="623">
 													<Type>CommandBarButton</Type>
-													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<CommandName>0</CommandName>
 													<ExtendedTooltip name="ОбновитьТаблицуСуммРасширеннаяПодсказка" id="624"/>
 												</Button>
 											</ChildItems>
@@ -2632,17 +2621,33 @@
 											<ExtendedTooltip name="ДокументыОснованияУправлениеПоискомРасширеннаяПодсказка" id="574"/>
 										</SearchControlAddition>
 										<ChildItems>
-											<InputField name="ДокументыОснованияДокументОснование" id="661">
-												<ReadOnly>true</ReadOnly>
-												<EditMode>EnterOnInput</EditMode>
-												<ContextMenu name="ДокументыОснованияДокументОснованиеКонтекстноеМеню" id="662"/>
-												<ExtendedTooltip name="ДокументыОснованияДокументОснованиеРасширеннаяПодсказка" id="663"/>
-											</InputField>
-											<InputField name="ДокументыОснованияИсходныйДокумент" id="597">
-												<EditMode>EnterOnInput</EditMode>
-												<ContextMenu name="ДокументыОснованияИсходныйДокументКонтекстноеМеню" id="598"/>
-												<ExtendedTooltip name="ДокументыОснованияИсходныйДокументРасширеннаяПодсказка" id="599"/>
-											</InputField>
+											<ColumnGroup name="ДокументыОснованияГруппаДокументов" id="675">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Документы основания группа документов</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Base documents documents group</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="ДокументыОснованияГруппаДокументовРасширеннаяПодсказка" id="676"/>
+												<ChildItems>
+													<InputField name="ДокументыОснованияДокументОснование" id="669">
+														<ReadOnly>true</ReadOnly>
+														<EditMode>EnterOnInput</EditMode>
+														<Width>25</Width>
+														<ContextMenu name="ДокументыОснованияДокументОснованиеКонтекстноеМеню" id="670"/>
+														<ExtendedTooltip name="ДокументыОснованияДокументОснованиеРасширеннаяПодсказка" id="671"/>
+													</InputField>
+													<InputField name="ДокументыОснованияИсходныйДокумент" id="672">
+														<EditMode>EnterOnInput</EditMode>
+														<ContextMenu name="ДокументыОснованияИсходныйДокументКонтекстноеМеню" id="673"/>
+														<ExtendedTooltip name="ДокументыОснованияИсходныйДокументРасширеннаяПодсказка" id="674"/>
+													</InputField>
+												</ChildItems>
+											</ColumnGroup>
 											<ColumnGroup name="ДокументыОснованияГруппаСумма" id="575">
 												<Title>
 													<v8:item>
@@ -2670,11 +2675,11 @@
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Сумма</v8:content>
+																<v8:content>Сумма с НДС</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>Amount</v8:content>
+																<v8:content>Amount including VAT</v8:content>
 															</v8:item>
 														</Title>
 														<EditMode>EnterOnInput</EditMode>
@@ -2685,11 +2690,11 @@
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Увеличение</v8:content>
+																<v8:content>Сумма с НДС увеличение</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>Increase</v8:content>
+																<v8:content>Amount including VAT increase</v8:content>
 															</v8:item>
 														</Title>
 														<EditMode>EnterOnInput</EditMode>
@@ -2700,11 +2705,11 @@
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Уменьшение</v8:content>
+																<v8:content>Сумма с НДС уменьшение</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>Decrease</v8:content>
+																<v8:content>Amount including VAT decrease</v8:content>
 															</v8:item>
 														</Title>
 														<EditMode>EnterOnInput</EditMode>
@@ -2716,6 +2721,8 @@
 											<InputField name="ДокументыОснованияСтавкаНДС" id="658">
 												<EditMode>EnterOnInput</EditMode>
 												<Width>8</Width>
+												<MaxWidth>8</MaxWidth>
+												<HorizontalStretch>false</HorizontalStretch>
 												<ContextMenu name="ДокументыОснованияСтавкаНДСКонтекстноеМеню" id="659"/>
 												<ExtendedTooltip name="ДокументыОснованияСтавкаНДСРасширеннаяПодсказка" id="660"/>
 											</InputField>
@@ -2761,11 +2768,11 @@
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Увеличение</v8:content>
+																<v8:content>НДС увеличение</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>Increase</v8:content>
+																<v8:content>VAT increase</v8:content>
 															</v8:item>
 														</Title>
 														<EditMode>EnterOnInput</EditMode>
@@ -2776,11 +2783,11 @@
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>Уменьшение</v8:content>
+																<v8:content>НДС уменьшение</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>Decrease</v8:content>
+																<v8:content>VAT decrease</v8:content>
 															</v8:item>
 														</Title>
 														<EditMode>EnterOnInput</EditMode>
@@ -2940,10 +2947,6 @@
 										<Width>2</Width>
 										<Height>1</Height>
 										<GroupVerticalAlign>Center</GroupVerticalAlign>
-										<Picture>
-											<xr:Ref>CommonPicture.Внимание16</xr:Ref>
-											<xr:LoadTransparent>false</xr:LoadTransparent>
-										</Picture>
 										<FileDragMode>AsFile</FileDragMode>
 										<ContextMenu name="КартинкаРучнаяКорректировкаСуммДокументовКонтекстноеМеню" id="667"/>
 										<ExtendedTooltip name="КартинкаРучнаяКорректировкаСуммДокументовРасширеннаяПодсказка" id="668"/>
@@ -2951,14 +2954,10 @@
 									<LabelDecoration name="ДекорацияРучнаяКорректировкаСуммДокументов" id="620">
 										<AutoMaxWidth>false</AutoMaxWidth>
 										<HorizontalStretch>true</HorizontalStretch>
-										<Title formatted="false">
+										<Title formatted="true">
 											<v8:item>
 												<v8:lang>ru</v8:lang>
-												<v8:content>Суммы документа отредактированы вручную. Вы можете перезаполнить суммы документа перейдя по ссылке Изменить суммы документа.</v8:content>
-											</v8:item>
-											<v8:item>
-												<v8:lang>en</v8:lang>
-												<v8:content>Document amounts are edited manually. You can refill document amounts by clicking the link Change document amounts.</v8:content>
+												<v8:content>Суммы документа отредактированы вручную.</v8:content>
 											</v8:item>
 										</Title>
 										<GroupVerticalAlign>Center</GroupVerticalAlign>
@@ -3009,7 +3008,6 @@
 								<ExtendedTooltip name="КодВидаОперацииExtendedTooltip" id="517"/>
 							</InputField>
 							<LabelField name="ПредставлениеВидаОперации" id="518">
-								<DataPath>31</DataPath>
 								<TitleLocation>None</TitleLocation>
 								<AutoMaxWidth>false</AutoMaxWidth>
 								<ContextMenu name="ПредставлениеВидаОперацииКонтекстноеМеню" id="519"/>
@@ -3058,7 +3056,6 @@
 								<ExtendedTooltip name="КодВидаОперацииНаУвеличениеРасширеннаяПодсказка" id="528"/>
 							</InputField>
 							<LabelField name="ПредставлениеВидаОперацииНаУвеличение" id="529">
-								<DataPath>31</DataPath>
 								<TitleLocation>None</TitleLocation>
 								<AutoMaxWidth>false</AutoMaxWidth>
 								<ContextMenu name="ПредставлениеВидаОперацииНаУвеличениеКонтекстноеМеню" id="530"/>
@@ -3107,7 +3104,6 @@
 								<ExtendedTooltip name="КодВидаОперацииНаУменьшениеРасширеннаяПодсказка" id="539"/>
 							</InputField>
 							<LabelField name="ПредставлениеВидаОперацииНаУменьшение" id="540">
-								<DataPath>32</DataPath>
 								<TitleLocation>None</TitleLocation>
 								<AutoMaxWidth>false</AutoMaxWidth>
 								<ContextMenu name="ПредставлениеВидаОперацииНаУменьшениеКонтекстноеМеню" id="541"/>
@@ -3178,7 +3174,6 @@
 								<ExtendedTooltip name="СоставленКомиссионеромОтИмениПродавцаРасширеннаяПодсказка" id="500"/>
 							</CheckBoxField>
 							<LabelField name="ТекстПродавцы" id="501">
-								<DataPath>29</DataPath>
 								<TitleLocation>None</TitleLocation>
 								<ContextMenu name="ТекстПродавцыКонтекстноеМеню" id="502"/>
 								<ExtendedTooltip name="ТекстПродавцыРасширеннаяПодсказка" id="503"/>
@@ -3195,7 +3190,7 @@
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>EDI state</v8:content>
+						<v8:content>EDI status</v8:content>
 					</v8:item>
 				</Title>
 				<Group>Vertical</Group>
@@ -3212,7 +3207,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>EDI state</v8:content>
+								<v8:content>EDI status</v8:content>
 							</v8:item>
 						</Title>
 						<ToolTip>
@@ -3222,7 +3217,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>EDI state</v8:content>
+								<v8:content>EDI status</v8:content>
 							</v8:item>
 						</ToolTip>
 						<Hyperlink>true</Hyperlink>

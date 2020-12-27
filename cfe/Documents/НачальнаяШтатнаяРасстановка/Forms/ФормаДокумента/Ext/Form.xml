@@ -176,7 +176,6 @@
 							<ExtendedTooltip name="МесяцОрганизацияРасширеннаяПодсказка" id="201"/>
 							<ChildItems>
 								<InputField name="МесяцСтрокой" id="88">
-									<DataPath>2</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -271,8 +270,8 @@
 		</RadioButtonField>
 		<Table name="Сотрудники" id="17">
 			<Representation>List</Representation>
-			<Height>2</Height>
-			<HeightInTableRows>2</HeightInTableRows>
+			<Height>4</Height>
+			<HeightInTableRows>4</HeightInTableRows>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
@@ -434,11 +433,11 @@
 							<ContextMenu name="СотрудникиДолжностьПоШтатномуРасписаниюКонтекстноеМеню" id="29"/>
 							<ExtendedTooltip name="СотрудникиДолжностьПоШтатномуРасписаниюExtendedTooltip" id="123"/>
 						</InputField>
-						<ColumnGroup name="СотрудникиОвобождатьСтавкуГруппа" id="226">
+						<ColumnGroup name="СотрудникиОсвобождатьСтавкуГруппа" id="234">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Сотрудники овобождать ставку группа</v8:content>
+									<v8:content>Сотрудники освобождать ставку группа</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
@@ -446,7 +445,7 @@
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
-							<ExtendedTooltip name="СотрудникиОвобождатьСтавкуГруппаРасширеннаяПодсказка" id="227"/>
+							<ExtendedTooltip name="СотрудникиОсвобождатьСтавкуГруппаРасширеннаяПодсказка" id="236"/>
 							<ChildItems>
 								<CheckBoxField name="СотрудникиОсвобождатьСтавку" id="228">
 									<Title>
@@ -622,7 +621,7 @@ child care leave</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Entered on data documents group </v8:content>
+					<v8:content>Entered on data documents group</v8:content>
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
@@ -865,24 +864,24 @@ child care leave</v8:content>
 				<Button name="КомандаПровестиИЗакрыть" id="173">
 					<Type>CommandBarButton</Type>
 					<DefaultButton>true</DefaultButton>
-					<CommandName>4:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="КомандаПровестиИЗакрытьРасширеннаяПодсказка" id="174"/>
 				</Button>
 				<Button name="ФормаПровестиИЗакрыть" id="169">
 					<Type>CommandBarButton</Type>
 					<Visible>false</Visible>
-					<CommandName>0:87317f86-057f-477e-9045-2da4e4980199</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаПровестиИЗакрытьРасширеннаяПодсказка" id="170"/>
 				</Button>
 				<Button name="КомандаЗаписать" id="171">
 					<Type>CommandBarButton</Type>
-					<CommandName>2:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="КомандаЗаписатьРасширеннаяПодсказка" id="172"/>
 				</Button>
 				<Button name="ФормаЗаписать" id="167">
 					<Type>CommandBarButton</Type>
 					<Visible>false</Visible>
-					<CommandName>0:fe558fde-99b3-45d0-a060-9fc2905309f6</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="168"/>
 				</Button>
 				<ButtonGroup name="ГруппаКнопкиКоманднойПанели" id="149">
@@ -914,18 +913,18 @@ child care leave</v8:content>
 							<ChildItems>
 								<Button name="ФормаОтменаПроведения" id="153">
 									<Type>CommandBarButton</Type>
-									<CommandName>0:389ef1f1-97ce-4326-adf5-886b2dead75c</CommandName>
+									<CommandName>0</CommandName>
 									<ExtendedTooltip name="ФормаОтменаПроведенияРасширеннаяПодсказка" id="154"/>
 								</Button>
 								<Button name="КомандаПровести" id="175">
 									<Type>CommandBarButton</Type>
-									<CommandName>3:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+									<CommandName>0</CommandName>
 									<ExtendedTooltip name="КомандаПровестиРасширеннаяПодсказка" id="176"/>
 								</Button>
 								<Button name="ФормаПровести" id="155">
 									<Type>CommandBarButton</Type>
 									<Visible>false</Visible>
-									<CommandName>0:3b8cedbc-8e74-4017-b901-d14b09f32f7a</CommandName>
+									<CommandName>0</CommandName>
 									<ExtendedTooltip name="ФормаПровестиРасширеннаяПодсказка" id="156"/>
 								</Button>
 							</ChildItems>
@@ -945,12 +944,12 @@ child care leave</v8:content>
 							<ChildItems>
 								<Button name="ФормаПроверитьНаСоответствиеШтатномуРасписанию" id="159">
 									<Type>CommandBarButton</Type>
-									<CommandName>1:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+									<CommandName>0</CommandName>
 									<ExtendedTooltip name="ФормаПроверитьНаСоответствиеШтатномуРасписаниюРасширеннаяПодсказка" id="160"/>
 								</Button>
 								<Button name="ФормаОбновитьПоШтатномуРасписанию" id="191">
 									<Type>CommandBarButton</Type>
-									<CommandName>5:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+									<CommandName>0</CommandName>
 									<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 									<ExtendedTooltip name="ФормаОбновитьПоШтатномуРасписаниюРасширеннаяПодсказка" id="192"/>
 								</Button>
@@ -974,7 +973,7 @@ child care leave</v8:content>
 				</ButtonGroup>
 				<Button name="ФормаСправка" id="163">
 					<Type>CommandBarButton</Type>
-					<CommandName>Form.StandardCommand.Help</CommandName>
+					<CommandName>0</CommandName>
 					<LocationInCommandBar>InCommandBarAndInAdditionalSubmenu</LocationInCommandBar>
 					<ExtendedTooltip name="ФормаСправкаРасширеннаяПодсказка" id="164"/>
 				</Button>
@@ -1031,7 +1030,6 @@ child care leave</v8:content>
 								<ExtendedTooltip name="МесяцОрганизацияРасширеннаяПодсказка" id="201"/>
 								<ChildItems>
 									<InputField name="МесяцСтрокой" id="88">
-										<DataPath>2</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -1126,8 +1124,8 @@ child care leave</v8:content>
 			</RadioButtonField>
 			<Table name="Сотрудники" id="17">
 				<Representation>List</Representation>
-				<Height>2</Height>
-				<HeightInTableRows>2</HeightInTableRows>
+				<Height>4</Height>
+				<HeightInTableRows>4</HeightInTableRows>
 				<AutoInsertNewRow>true</AutoInsertNewRow>
 				<EnableStartDrag>true</EnableStartDrag>
 				<EnableDrag>true</EnableDrag>
@@ -1152,7 +1150,7 @@ child care leave</v8:content>
 					<ChildItems>
 						<Button name="СотрудникиПодбор" id="193">
 							<Type>CommandBarButton</Type>
-							<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+							<CommandName>0</CommandName>
 							<ExtendedTooltip name="СотрудникиПодборРасширеннаяПодсказка" id="194"/>
 						</Button>
 						<ButtonGroup name="КоманднаяПанельСотрудники" id="195">
@@ -1289,11 +1287,11 @@ child care leave</v8:content>
 								<ContextMenu name="СотрудникиДолжностьПоШтатномуРасписаниюКонтекстноеМеню" id="29"/>
 								<ExtendedTooltip name="СотрудникиДолжностьПоШтатномуРасписаниюExtendedTooltip" id="123"/>
 							</InputField>
-							<ColumnGroup name="СотрудникиОвобождатьСтавкуГруппа" id="226">
+							<ColumnGroup name="СотрудникиОсвобождатьСтавкуГруппа" id="226">
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>Сотрудники овобождать ставку группа</v8:content>
+										<v8:content>Сотрудники освобождать ставку группа</v8:content>
 									</v8:item>
 									<v8:item>
 										<v8:lang>en</v8:lang>
@@ -1301,7 +1299,7 @@ child care leave</v8:content>
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
-								<ExtendedTooltip name="СотрудникиОвобождатьСтавкуГруппаРасширеннаяПодсказка" id="227"/>
+								<ExtendedTooltip name="СотрудникиОсвобождатьСтавкуГруппаРасширеннаяПодсказка" id="227"/>
 								<ChildItems>
 									<CheckBoxField name="СотрудникиОсвобождатьСтавку" id="228">
 										<Title>
@@ -1477,7 +1475,7 @@ child care leave</v8:content>
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Entered on data documents group </v8:content>
+						<v8:content>Entered on data documents group</v8:content>
 					</v8:item>
 				</Title>
 				<Group>Vertical</Group>

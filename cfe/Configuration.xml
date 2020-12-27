@@ -99,6 +99,8 @@
 			<StyleItem>БыстрыеОтборыФонГруппы</StyleItem>
 			<StyleItem>ОбъединенныеЭлементыФормыФон</StyleItem>
 			<StyleItem>НедоступныеДанныеЦвет</StyleItem>
+			<StyleItem>ЦветТекстаПредупреждение</StyleItem>
+			<StyleItem>ЦветФонаСлабогоПредупрежденияБЗК</StyleItem>
 			<CommonPicture>ПодключаемоеОборудованиеТерминалСбораДанных16</CommonPicture>
 			<CommonPicture>СерииНоменклатурыУказаныFEFO</CommonPicture>
 			<CommonPicture>НовыйПоШтрихкоду</CommonPicture>
@@ -364,6 +366,7 @@
 			<FunctionalOption>ИспользоватьПроизводство</FunctionalOption>
 			<FunctionalOption>ИспользоватьСегментыНоменклатуры</FunctionalOption>
 			<FunctionalOption>ИспользоватьУчетСебестоимости</FunctionalOption>
+			<FunctionalOption>ИспользоватьНоменклатуруПартнеров</FunctionalOption>
 			<DefinedType>НомерКиЗГИСМ</DefinedType>
 			<DefinedType>RFIDTID</DefinedType>
 			<DefinedType>GTIN</DefinedType>
@@ -630,6 +633,7 @@
 			<Document>СчетФактураНалоговыйАгент</Document>
 			<Document>СверкаВзаиморасчетов</Document>
 			<Document>ИнвентаризацияНМА</Document>
+			<Document>СверкаНачальныхОстатковПоСкладу</Document>
 			<Enum>ЕдиницыИзмеренияВремени</Enum>
 			<Enum>ПорядокОплатыПоСоглашениям</Enum>
 			<Enum>ХозяйственныеОперации</Enum>

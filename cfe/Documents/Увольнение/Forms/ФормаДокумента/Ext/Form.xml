@@ -115,7 +115,6 @@
 							<ExtendedTooltip name="МесяцОрганизацияРасширеннаяПодсказка" id="1152"/>
 							<ChildItems>
 								<InputField name="ПериодРегистрации" id="454">
-									<DataPath>7</DataPath>
 									<Width>13</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ChoiceButton>true</ChoiceButton>
@@ -390,7 +389,6 @@
 									<ExtendedTooltip name="ОснованиеУвольненияРасширеннаяПодсказка" id="896"/>
 								</InputField>
 								<InputField name="ПричинаУвольнения" id="1764">
-									<DataPath>95</DataPath>
 									<Width>10</Width>
 									<ChoiceButton>true</ChoiceButton>
 									<TextEdit>false</TextEdit>
@@ -409,20 +407,37 @@
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
-						<UsualGroup name="СведенияТрудовойКнижкиГруппа" id="1929">
+						<UsualGroup name="ГруппаНапоминаниеОбОтключенииПодпискиНаЭЛН" id="1941">
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Сведения трудовой книжки</v8:content>
+									<v8:content>Напоминание об отключении подписки на ЭЛН</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Employment record book information</v8:content>
+									<v8:content>Reminder of disabling subscription to ESLR</v8:content>
 								</v8:item>
 							</Title>
+							<HorizontalSpacing>Half</HorizontalSpacing>
+							<Representation>NormalSeparation</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаНапоминаниеОбОтключенииПодпискиНаЭЛНРасширеннаяПодсказка" id="1942"/>
+						</UsualGroup>
+						<UsualGroup name="СведенияТрудовойКнижкиСФлажкомГруппа" id="1954">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сведения трудовой книжки с флажком</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Service record card details with checkbox</v8:content>
+								</v8:item>
+							</Title>
+							<Group>AlwaysHorizontal</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="СведенияТрудовойКнижкиГруппаРасширеннаяПодсказка" id="1930"/>
+							<ExtendedTooltip name="СведенияТрудовойКнижкиСФлажкомГруппаРасширеннаяПодсказка" id="1955"/>
 							<ChildItems>
 								<CheckBoxField name="ОтразитьВТрудовойКнижке" id="1926">
 									<TitleLocation>Right</TitleLocation>
@@ -430,11 +445,133 @@
 									<ContextMenu name="ОтразитьВТрудовойКнижкеКонтекстноеМеню" id="1927"/>
 									<ExtendedTooltip name="ОтразитьВТрудовойКнижкеРасширеннаяПодсказка" id="1928"/>
 								</CheckBoxField>
-								<InputField name="НаименованиеДокумента" id="1931">
-									<ChoiceButton>true</ChoiceButton>
-									<ContextMenu name="НаименованиеДокументаКонтекстноеМеню" id="1932"/>
-									<ExtendedTooltip name="НаименованиеДокументаРасширеннаяПодсказка" id="1933"/>
-								</InputField>
+								<UsualGroup name="СведенияТрудовойКнижкиГруппа" id="1929">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сведения трудовой книжки</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Employment record book information</v8:content>
+										</v8:item>
+									</Title>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="СведенияТрудовойКнижкиГруппаРасширеннаяПодсказка" id="1930"/>
+									<ChildItems>
+										<InputField name="НаименованиеДокумента" id="1931">
+											<ChoiceButton>true</ChoiceButton>
+											<ContextMenu name="НаименованиеДокументаКонтекстноеМеню" id="1932"/>
+											<ExtendedTooltip name="НаименованиеДокументаРасширеннаяПодсказка" id="1933"/>
+										</InputField>
+										<UsualGroup name="ВторойДокументОснованиеГруппа" id="1956">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Второй документ основание</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Second base document</v8:content>
+												</v8:item>
+											</Title>
+											<Width>55</Width>
+											<Group>Vertical</Group>
+											<Behavior>Collapsible</Behavior>
+											<Collapsed>true</Collapsed>
+											<Representation>None</Representation>
+											<ThroughAlign>Use</ThroughAlign>
+											<ExtendedTooltip name="ВторойДокументОснованиеГруппаРасширеннаяПодсказка" id="1957"/>
+											<ChildItems>
+												<InputField name="НаименованиеВторогоДокументаОснования" id="1958">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Наименование</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Name</v8:content>
+														</v8:item>
+													</Title>
+													<ChoiceButton>true</ChoiceButton>
+													<ContextMenu name="НаименованиеВторогоДокументаОснованияКонтекстноеМеню" id="1959"/>
+													<ExtendedTooltip name="НаименованиеВторогоДокументаОснованияРасширеннаяПодсказка" id="1960"/>
+												</InputField>
+												<UsualGroup name="ВторойДокументОснованиеДатаНомерГруппа" id="1961">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Второй документ основание дата номер группа</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Second base document date number group</v8:content>
+														</v8:item>
+													</Title>
+													<Group>AlwaysHorizontal</Group>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ВторойДокументОснованиеДатаНомерГруппаРасширеннаяПодсказка" id="1962"/>
+													<ChildItems>
+														<InputField name="ДатаВторогоДокументаОснования" id="1963">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Дата</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Date</v8:content>
+																</v8:item>
+															</Title>
+															<Width>9</Width>
+															<ContextMenu name="ДатаВторогоДокументаОснованияКонтекстноеМеню" id="1964"/>
+															<ExtendedTooltip name="ДатаВторогоДокументаОснованияРасширеннаяПодсказка" id="1965"/>
+														</InputField>
+														<InputField name="СерияВторогоДокументаОснования" id="1966">
+															<UserVisible>
+																<xr:Common>false</xr:Common>
+															</UserVisible>
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Серия</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Series</v8:content>
+																</v8:item>
+															</Title>
+															<Width>10</Width>
+															<HorizontalStretch>false</HorizontalStretch>
+															<ContextMenu name="СерияВторогоДокументаОснованияКонтекстноеМеню" id="1967"/>
+															<ExtendedTooltip name="СерияВторогоДокументаОснованияРасширеннаяПодсказка" id="1968"/>
+														</InputField>
+														<InputField name="НомерВторогоДокументаОснования" id="1969">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Номер</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Number</v8:content>
+																</v8:item>
+															</Title>
+															<Width>10</Width>
+															<HorizontalStretch>false</HorizontalStretch>
+															<ContextMenu name="НомерВторогоДокументаОснованияКонтекстноеМеню" id="1970"/>
+															<ExtendedTooltip name="НомерВторогоДокументаОснованияРасширеннаяПодсказка" id="1971"/>
+														</InputField>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+									</ChildItems>
+								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
 						<UsualGroup name="ГруппаСостояниеСотрудника" id="1890">
@@ -541,7 +678,6 @@
 															<ExtendedTooltip name="КоличествоМесяцевВыплатыДенежногоСодержанияРасширеннаяПодсказка" id="1414"/>
 														</InputField>
 														<LabelField name="НадписьМесяцевВыплатыДенежногоСодержания" id="1511">
-															<DataPath>36</DataPath>
 															<TitleLocation>None</TitleLocation>
 															<Width>4</Width>
 															<Height>1</Height>
@@ -594,20 +730,22 @@
 															<v8:content>Severance pay for</v8:content>
 														</v8:item>
 													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>days</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>дн.</v8:content>
+														</v8:item>
+													</ToolTip>
+													<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
 													<EditMode>EnterOnInput</EditMode>
 													<SpinButton>true</SpinButton>
 													<ContextMenu name="ДнейЧасовВыходногоПособияКонтекстноеМеню" id="16"/>
 													<ExtendedTooltip name="ДнейЧасовВыходногоПособияExtendedTooltip" id="921"/>
 												</InputField>
-												<LabelField name="НадписьДнейЧасовВыходногоПособия" id="458">
-													<DataPath>19</DataPath>
-													<TitleLocation>None</TitleLocation>
-													<Width>4</Width>
-													<HorizontalStretch>false</HorizontalStretch>
-													<VerticalStretch>false</VerticalStretch>
-													<ContextMenu name="НадписьДнейЧасовВыходногоПособияКонтекстноеМеню" id="459"/>
-													<ExtendedTooltip name="НадписьДнейЧасовВыходногоПособияРасширеннаяПодсказка" id="922"/>
-												</LabelField>
 												<InputField name="ВыходноеПособие" id="815">
 													<TitleLocation>None</TitleLocation>
 													<HorizontalStretch>false</HorizontalStretch>
@@ -685,7 +823,6 @@ salary of the previous period will be paid if necessary
 									<ExtendedTooltip name="ДоначислитьЗарплатуПриНеобходимостиРасширеннаяПодсказка" id="1873"/>
 								</CheckBoxField>
 								<LabelField name="НадписьОстаткиОтгулов" id="1536">
-									<DataPath>86</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<ContextMenu name="НадписьОстаткиОтгуловКонтекстноеМеню" id="1537"/>
 									<ExtendedTooltip name="НадписьОстаткиОтгуловРасширеннаяПодсказка" id="1538"/>
@@ -729,7 +866,6 @@ salary of the previous period will be paid if necessary
 													<ExtendedTooltip name="НачислитьЗарплатуРасширеннаяПодсказка" id="1889"/>
 												</CheckBoxField>
 												<InputField name="МесяцНачалаРасчетовСтрокой" id="1884">
-													<DataPath>97</DataPath>
 													<Width>13</Width>
 													<HorizontalStretch>false</HorizontalStretch>
 													<ChoiceButton>true</ChoiceButton>
@@ -827,7 +963,6 @@ salary of the previous period will be paid if necessary
 									<ExtendedTooltip name="НачисленоГруппаExtendedTooltip" id="925"/>
 									<ChildItems>
 										<InputField name="НачисленоИтог" id="187">
-											<DataPath>5</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<Title>
 												<v8:item>
@@ -847,7 +982,6 @@ salary of the previous period will be paid if necessary
 											<ExtendedTooltip name="НачисленоИтогExtendedTooltip" id="926"/>
 										</InputField>
 										<InputField name="НачисленоКомпенсаций" id="785">
-											<DataPath>11</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<TitleLocation>Left</TitleLocation>
 											<GroupHorizontalAlign>Right</GroupHorizontalAlign>
@@ -857,7 +991,6 @@ salary of the previous period will be paid if necessary
 											<ExtendedTooltip name="НачисленоКомпенсацийExtendedTooltip" id="927"/>
 										</InputField>
 										<InputField name="НачисленоВыходноеПособие" id="787">
-											<DataPath>14</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<TitleLocation>Left</TitleLocation>
 											<GroupHorizontalAlign>Right</GroupHorizontalAlign>
@@ -867,7 +1000,6 @@ salary of the previous period will be paid if necessary
 											<ExtendedTooltip name="НачисленоВыходноеПособиеExtendedTooltip" id="928"/>
 										</InputField>
 										<InputField name="НачисленоПрочее" id="789">
-											<DataPath>12</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<Title>
 												<v8:item>
@@ -905,7 +1037,6 @@ salary of the previous period will be paid if necessary
 									<ExtendedTooltip name="УдержаноГруппаExtendedTooltip" id="930"/>
 									<ChildItems>
 										<InputField name="УдержаноИтог" id="43">
-											<DataPath>17</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<Title>
 												<v8:item>
@@ -926,7 +1057,6 @@ salary of the previous period will be paid if necessary
 											<ExtendedTooltip name="УдержаноИтогExtendedTooltip" id="931"/>
 										</InputField>
 										<InputField name="УдержанНДФЛ" id="791">
-											<DataPath>15</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<TitleLocation>Left</TitleLocation>
 											<GroupHorizontalAlign>Right</GroupHorizontalAlign>
@@ -936,7 +1066,6 @@ salary of the previous period will be paid if necessary
 											<ExtendedTooltip name="УдержанНДФЛExtendedTooltip" id="932"/>
 										</InputField>
 										<InputField name="УдержаноЗаймы" id="1093">
-											<DataPath>22</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<TitleLocation>Left</TitleLocation>
 											<AutoMaxWidth>false</AutoMaxWidth>
@@ -946,7 +1075,6 @@ salary of the previous period will be paid if necessary
 											<ExtendedTooltip name="УдержаноЗаймыРасширеннаяПодсказка" id="1095"/>
 										</InputField>
 										<InputField name="УдержаноПрочие" id="793">
-											<DataPath>16</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<Title>
 												<v8:item>
@@ -983,7 +1111,6 @@ salary of the previous period will be paid if necessary
 									<ExtendedTooltip name="ПерерасчетГруппаExtendedTooltip" id="1162"/>
 									<ChildItems>
 										<InputField name="ПерерасчетИтог" id="1163">
-											<DataPath>4</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<Title>
 												<v8:item>
@@ -1003,7 +1130,6 @@ salary of the previous period will be paid if necessary
 											<ExtendedTooltip name="ПерерасчетИтогExtendedTooltip" id="1165"/>
 										</InputField>
 										<InputField name="ПерерасчетПособийИтог" id="1242">
-											<DataPath>27</DataPath>
 											<ReadOnly>true</ReadOnly>
 											<Title>
 												<v8:item>
@@ -1210,7 +1336,6 @@ salary of the previous period will be paid if necessary
 											<ExtendedTooltip name="ЗаполненностьДанныхИнфоExtendedTooltip" id="938"/>
 											<ChildItems>
 												<PictureField name="ЗаполненностьДанныхКартинка" id="464">
-													<DataPath>10</DataPath>
 													<TitleLocation>None</TitleLocation>
 													<Width>2</Width>
 													<Height>1</Height>
@@ -1224,7 +1349,6 @@ salary of the previous period will be paid if necessary
 													<ExtendedTooltip name="ЗаполненностьДанныхКартинкаExtendedTooltip" id="939"/>
 												</PictureField>
 												<LabelField name="ЗаполненностьДанныхИнформационныйТекст" id="202">
-													<DataPath>8</DataPath>
 													<TitleLocation>None</TitleLocation>
 													<AutoMaxWidth>false</AutoMaxWidth>
 													<MaxWidth>30</MaxWidth>
@@ -1427,162 +1551,196 @@ salary of the previous period will be paid if necessary
 									<v8:content>Basic leave compensation</v8:content>
 								</v8:item>
 							</Title>
-							<Group>Vertical</Group>
+							<Group>AlwaysHorizontal</Group>
 							<Representation>None</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="КомпенсацияОсновногоОтпускаExtendedTooltip" id="901"/>
 							<ChildItems>
-								<UsualGroup name="ГруппаПризнакДнейКомпенсацииОсновногоОтпуска" id="1080">
+								<UsualGroup name="Основное" id="1972">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Признак дней компенсации основного отпуска</v8:content>
+											<v8:content>Основное</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Shows days of basic leave compensation</v8:content>
+											<v8:content>Main</v8:content>
 										</v8:item>
 									</Title>
-									<Group>Horizontal</Group>
+									<Group>Vertical</Group>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="ГруппаПризнакДнейКомпенсацииОсновногоОтпускаРасширеннаяПодсказка" id="1081"/>
+									<ExtendedTooltip name="ОсновноеРасширеннаяПодсказка" id="1976"/>
 									<ChildItems>
-										<InputField name="ПризнакКомпенсацииОтпуска" id="21">
+										<UsualGroup name="ГруппаПризнакДнейКомпенсацииОсновногоОтпуска" id="1080">
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>Компенсировать / удержать</v8:content>
+													<v8:content>Признак дней компенсации основного отпуска</v8:content>
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Compensate / keep</v8:content>
-												</v8:item>
-											</Title>
-											<TitleLocation>None</TitleLocation>
-											<EditMode>EnterOnInput</EditMode>
-											<HorizontalStretch>false</HorizontalStretch>
-											<ContextMenu name="ПризнакКомпенсацииОтпускаКонтекстноеМеню" id="22"/>
-											<ExtendedTooltip name="ПризнакКомпенсацииОтпускаExtendedTooltip" id="902"/>
-										</InputField>
-										<UsualGroup name="ДнейКомпенсации" id="216">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Дней компенсации</v8:content>
-												</v8:item>
-												<v8:item>
-													<v8:lang>en</v8:lang>
-													<v8:content>Days of compensation</v8:content>
+													<v8:content>Shows days of basic leave compensation</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
 											<Representation>None</Representation>
 											<ShowTitle>false</ShowTitle>
-											<ExtendedTooltip name="ДнейКомпенсацииРасширеннаяПодсказка" id="903"/>
+											<ExtendedTooltip name="ГруппаПризнакДнейКомпенсацииОсновногоОтпускаРасширеннаяПодсказка" id="1081"/>
 											<ChildItems>
-												<InputField name="ДнейКомпенсацииУдержанияОтпуска" id="17">
+												<InputField name="ПризнакКомпенсацииОтпуска" id="21">
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
-															<v8:content>за</v8:content>
+															<v8:content>Компенсировать / удержать</v8:content>
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>for</v8:content>
+															<v8:content>Compensate / keep</v8:content>
+														</v8:item>
+													</Title>
+													<TitleLocation>None</TitleLocation>
+													<EditMode>EnterOnInput</EditMode>
+													<ContextMenu name="ПризнакКомпенсацииОтпускаКонтекстноеМеню" id="22"/>
+													<ExtendedTooltip name="ПризнакКомпенсацииОтпускаExtendedTooltip" id="902"/>
+												</InputField>
+												<UsualGroup name="ДнейКомпенсации" id="216">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Дней компенсации</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Days of compensation</v8:content>
+														</v8:item>
+													</Title>
+													<Group>Horizontal</Group>
+													<Representation>None</Representation>
+													<ShowTitle>false</ShowTitle>
+													<ExtendedTooltip name="ДнейКомпенсацииРасширеннаяПодсказка" id="903"/>
+													<ChildItems>
+														<InputField name="ДнейКомпенсацииУдержанияОтпуска" id="17">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>за</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>for</v8:content>
+																</v8:item>
+															</Title>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>days</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>дн.</v8:content>
+																</v8:item>
+															</ToolTip>
+															<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+															<EditMode>EnterOnInput</EditMode>
+															<Width>6</Width>
+															<ChoiceButton>false</ChoiceButton>
+															<SpinButton>true</SpinButton>
+															<ContextMenu name="ДнейКомпенсацииУдержанияОтпускаКонтекстноеМеню" id="18"/>
+															<ExtendedTooltip name="ДнейКомпенсацииУдержанияОтпускаРасширеннаяПодсказка" id="904"/>
+														</InputField>
+													</ChildItems>
+												</UsualGroup>
+											</ChildItems>
+										</UsualGroup>
+										<InputField name="ВидРасчетаКомпенсацииУдержанияОтпуска" id="211">
+											<HorizontalStretch>false</HorizontalStretch>
+											<ChooseType>false</ChooseType>
+											<ContextMenu name="ВидРасчетаКомпенсацииУдержанияОтпускаКонтекстноеМеню" id="212"/>
+											<ExtendedTooltip name="ВидРасчетаКомпенсацииУдержанияОтпускаРасширеннаяПодсказка" id="906"/>
+										</InputField>
+										<UsualGroup name="ПериодЗаКоторыйПредоставляетсяОтпуск" id="180">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Компенсация предоставляется за период работы</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Compensation is provided for the work period</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTipRepresentation>Button</ToolTipRepresentation>
+											<Group>Horizontal</Group>
+											<Representation>None</Representation>
+											<ShowTitle>false</ShowTitle>
+											<ExtendedTooltip name="ПериодЗаКоторыйПредоставляетсяОтпускExtendedTooltip" id="916">
+												<Title formatted="false">
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Как сотрудник использовал отпуск?</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>How did the employee use the leave?</v8:content>
+													</v8:item>
+												</Title>
+												<Hyperlink>true</Hyperlink>
+												<Events>
+													<Event name="Click" callType="Before">ПериодЗаКоторыйПредоставляетсяОтпускExtendedTooltipНажатие</Event>
+												</Events>
+											</ExtendedTooltip>
+											<ChildItems>
+												<InputField name="НачалоПериодаЗаКоторыйПредоставляетсяОтпуск" id="181">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>За период работы с</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>For work period from</v8:content>
 														</v8:item>
 													</Title>
 													<EditMode>EnterOnInput</EditMode>
-													<Width>6</Width>
-													<ChoiceButton>false</ChoiceButton>
-													<SpinButton>true</SpinButton>
-													<ContextMenu name="ДнейКомпенсацииУдержанияОтпускаКонтекстноеМеню" id="18"/>
-													<ExtendedTooltip name="ДнейКомпенсацииУдержанияОтпускаРасширеннаяПодсказка" id="904"/>
+													<Width>10</Width>
+													<ContextMenu name="НачалоПериодаЗаКоторыйПредоставляетсяОтпускКонтекстноеМеню" id="182"/>
+													<ExtendedTooltip name="НачалоПериодаЗаКоторыйПредоставляетсяОтпускExtendedTooltip" id="917"/>
 												</InputField>
-												<LabelField name="НадписьДнейЧасов" id="462">
-													<DataPath>9</DataPath>
-													<TitleLocation>None</TitleLocation>
-													<Width>3</Width>
-													<HorizontalStretch>false</HorizontalStretch>
-													<VerticalStretch>false</VerticalStretch>
-													<ContextMenu name="НадписьДнейЧасовКонтекстноеМеню" id="463"/>
-													<ExtendedTooltip name="НадписьДнейЧасовExtendedTooltip" id="905"/>
-												</LabelField>
+												<InputField name="КонецПериодаЗаКоторыйПредоставляетсяОтпуск" id="183">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>по</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>to</v8:content>
+														</v8:item>
+													</Title>
+													<EditMode>EnterOnInput</EditMode>
+													<Width>10</Width>
+													<ContextMenu name="КонецПериодаЗаКоторыйПредоставляетсяОтпускКонтекстноеМеню" id="184"/>
+													<ExtendedTooltip name="КонецПериодаЗаКоторыйПредоставляетсяОтпускExtendedTooltip" id="918"/>
+												</InputField>
 											</ChildItems>
 										</UsualGroup>
 									</ChildItems>
 								</UsualGroup>
-								<InputField name="ВидРасчетаКомпенсацииУдержанияОтпуска" id="211">
-									<HorizontalStretch>false</HorizontalStretch>
-									<ChooseType>false</ChooseType>
-									<ContextMenu name="ВидРасчетаКомпенсацииУдержанияОтпускаКонтекстноеМеню" id="212"/>
-									<ExtendedTooltip name="ВидРасчетаКомпенсацииУдержанияОтпускаРасширеннаяПодсказка" id="906"/>
-								</InputField>
-								<UsualGroup name="ПериодЗаКоторыйПредоставляетсяОтпуск" id="180">
+								<UsualGroup name="ОсобенностиКомпенсации" id="1974">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Компенсация предоставляется за период работы</v8:content>
+											<v8:content>Особенности компенсации</v8:content>
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Compensation is provided for the work period</v8:content>
+											<v8:content>Compensation features</v8:content>
 										</v8:item>
 									</Title>
-									<ToolTipRepresentation>Button</ToolTipRepresentation>
-									<Group>Horizontal</Group>
+									<Group>Vertical</Group>
 									<Representation>None</Representation>
-									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="ПериодЗаКоторыйПредоставляетсяОтпускExtendedTooltip" id="916">
-										<Title formatted="false">
-											<v8:item>
-												<v8:lang>ru</v8:lang>
-												<v8:content>Как сотрудник использовал отпуск?</v8:content>
-											</v8:item>
-											<v8:item>
-												<v8:lang>en</v8:lang>
-												<v8:content>How did the employee use the leave?</v8:content>
-											</v8:item>
-										</Title>
-										<Hyperlink>true</Hyperlink>
-										<Events>
-											<Event name="Click" callType="Before">ПериодЗаКоторыйПредоставляетсяОтпускExtendedTooltipНажатие</Event>
-										</Events>
-									</ExtendedTooltip>
-									<ChildItems>
-										<InputField name="НачалоПериодаЗаКоторыйПредоставляетсяОтпуск" id="181">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>За период работы с</v8:content>
-												</v8:item>
-												<v8:item>
-													<v8:lang>en</v8:lang>
-													<v8:content>For work period from</v8:content>
-												</v8:item>
-											</Title>
-											<EditMode>EnterOnInput</EditMode>
-											<Width>10</Width>
-											<ContextMenu name="НачалоПериодаЗаКоторыйПредоставляетсяОтпускКонтекстноеМеню" id="182"/>
-											<ExtendedTooltip name="НачалоПериодаЗаКоторыйПредоставляетсяОтпускExtendedTooltip" id="917"/>
-										</InputField>
-										<InputField name="КонецПериодаЗаКоторыйПредоставляетсяОтпуск" id="183">
-											<Title>
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>по</v8:content>
-												</v8:item>
-												<v8:item>
-													<v8:lang>en</v8:lang>
-													<v8:content>to</v8:content>
-												</v8:item>
-											</Title>
-											<EditMode>EnterOnInput</EditMode>
-											<Width>10</Width>
-											<ContextMenu name="КонецПериодаЗаКоторыйПредоставляетсяОтпускКонтекстноеМеню" id="184"/>
-											<ExtendedTooltip name="КонецПериодаЗаКоторыйПредоставляетсяОтпускExtendedTooltip" id="918"/>
-										</InputField>
-									</ChildItems>
+									<ExtendedTooltip name="ОсобенностиКомпенсацииРасширеннаяПодсказка" id="1977"/>
 								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
@@ -1852,7 +2010,7 @@ salary of the previous period will be paid if necessary
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Main commands</v8:content>
+											<v8:content>Basic commands</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
@@ -2944,7 +3102,7 @@ salary of the previous period will be paid if necessary
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>PIT (personal income tax)</v8:content>
+											<v8:content>PIT</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
@@ -2981,7 +3139,7 @@ salary of the previous period will be paid if necessary
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>PIT (personal income tax)</v8:content>
+															<v8:content>PIT</v8:content>
 														</v8:item>
 													</Title>
 													<SearchStringLocation>None</SearchStringLocation>
@@ -4412,7 +4570,6 @@ number, date)</v8:content>
 					<ExtendedTooltip name="СтраницаПилотныйПроектФССРасширеннаяПодсказка" id="1893"/>
 					<ChildItems>
 						<LabelField name="ГиперссылкаУведомленияОПрекращенииОтпускаПоУходу" id="1894">
-							<DataPath>100</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<ToolTipRepresentation>ShowTop</ToolTipRepresentation>
 							<AutoMaxWidth>false</AutoMaxWidth>
@@ -4451,7 +4608,6 @@ number, date)</v8:content>
 					<ExtendedTooltip name="СправкиПриУвольненииРасширеннаяПодсказка" id="1916"/>
 					<ChildItems>
 						<LabelField name="СправкаНДФЛПредставление" id="1917">
-							<DataPath>104</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<Hiperlink>true</Hiperlink>
@@ -4459,7 +4615,6 @@ number, date)</v8:content>
 							<ExtendedTooltip name="СправкаНДФЛПредставлениеРасширеннаяПодсказка" id="1919"/>
 						</LabelField>
 						<LabelField name="ИсходящаяСправкаОЗаработкеДляРасчетаПособийПредставление" id="1920">
-							<DataPath>106</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<Hiperlink>true</Hiperlink>
@@ -4467,7 +4622,6 @@ number, date)</v8:content>
 							<ExtendedTooltip name="ИсходящаяСправкаОЗаработкеДляРасчетаПособийПредставлениеРасширеннаяПодсказка" id="1922"/>
 						</LabelField>
 						<LabelField name="СведенияОТрудовойДеятельностиРаботникаСТД_РПредставление" id="1923">
-							<DataPath>108</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<Hiperlink>true</Hiperlink>
@@ -4614,12 +4768,12 @@ number, date)</v8:content>
 				<Button name="ФормаПровестиИЗакрыть" id="1747">
 					<Type>CommandBarButton</Type>
 					<DefaultButton>true</DefaultButton>
-					<CommandName>18:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаПровестиИЗакрытьРасширеннаяПодсказка" id="1748"/>
 				</Button>
 				<Button name="ФормаЗаписать" id="1749">
 					<Type>CommandBarButton</Type>
-					<CommandName>16:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="1750"/>
 				</Button>
 				<ButtonGroup name="ГруппаПроведение" id="1751">
@@ -4637,12 +4791,12 @@ number, date)</v8:content>
 					<ChildItems>
 						<Button name="ФормаПровести" id="1753">
 							<Type>CommandBarButton</Type>
-							<CommandName>17:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+							<CommandName>0</CommandName>
 							<ExtendedTooltip name="ФормаПровестиРасширеннаяПодсказка" id="1754"/>
 						</Button>
 						<Button name="ФормаОтменаПроведения" id="1755">
 							<Type>CommandBarButton</Type>
-							<CommandName>0:389ef1f1-97ce-4326-adf5-886b2dead75c</CommandName>
+							<CommandName>0</CommandName>
 							<ExtendedTooltip name="ФормаОтменаПроведенияРасширеннаяПодсказка" id="1756"/>
 						</Button>
 					</ChildItems>
@@ -4663,7 +4817,7 @@ number, date)</v8:content>
 				</ButtonGroup>
 				<Button name="ФормаСправка" id="1759">
 					<Type>CommandBarButton</Type>
-					<CommandName>Form.StandardCommand.Help</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаСправкаРасширеннаяПодсказка" id="1760"/>
 				</Button>
 			</ChildItems>
@@ -4720,7 +4874,6 @@ number, date)</v8:content>
 								<ExtendedTooltip name="МесяцОрганизацияРасширеннаяПодсказка" id="1152"/>
 								<ChildItems>
 									<InputField name="ПериодРегистрации" id="454">
-										<DataPath>7</DataPath>
 										<Width>13</Width>
 										<HorizontalStretch>false</HorizontalStretch>
 										<ChoiceButton>true</ChoiceButton>
@@ -4795,7 +4948,7 @@ number, date)</v8:content>
 										<ContextMenu name="ДатаКонтекстноеМеню" id="4"/>
 										<ExtendedTooltip name="ДатаExtendedTooltip" id="886"/>
 									</InputField>
-									<UsualGroup name="НомераГруппа" id="1937">
+									<UsualGroup name="НомераГруппа" id="1949">
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -4811,7 +4964,7 @@ number, date)</v8:content>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
 										<BackColor>style:ОбъединенныеЭлементыФормыФон</BackColor>
-										<ExtendedTooltip name="НомераГруппаРасширеннаяПодсказка" id="1938"/>
+										<ExtendedTooltip name="НомераГруппаРасширеннаяПодсказка" id="1950"/>
 										<ChildItems>
 											<InputField name="Номер" id="1">
 												<TitleLocation>Left</TitleLocation>
@@ -4820,7 +4973,7 @@ number, date)</v8:content>
 												<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
 												<ExtendedTooltip name="НомерExtendedTooltip" id="887"/>
 											</InputField>
-											<InputField name="НомерПриказа" id="1934">
+											<InputField name="НомерПриказа" id="1951">
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -4835,8 +4988,8 @@ number, date)</v8:content>
 												<ToolTipRepresentation>Button</ToolTipRepresentation>
 												<Width>10</Width>
 												<HorizontalStretch>false</HorizontalStretch>
-												<ContextMenu name="НомерПриказаКонтекстноеМеню" id="1935"/>
-												<ExtendedTooltip name="НомерПриказаРасширеннаяПодсказка" id="1936"/>
+												<ContextMenu name="НомерПриказаКонтекстноеМеню" id="1952"/>
+												<ExtendedTooltip name="НомерПриказаРасширеннаяПодсказка" id="1953"/>
 											</InputField>
 										</ChildItems>
 									</UsualGroup>
@@ -4995,7 +5148,6 @@ number, date)</v8:content>
 										<ExtendedTooltip name="ОснованиеУвольненияРасширеннаяПодсказка" id="896"/>
 									</InputField>
 									<InputField name="ПричинаУвольнения" id="1764">
-										<DataPath>95</DataPath>
 										<Width>10</Width>
 										<ChoiceButton>true</ChoiceButton>
 										<TextEdit>false</TextEdit>
@@ -5014,32 +5166,171 @@ number, date)</v8:content>
 									</InputField>
 								</ChildItems>
 							</UsualGroup>
-							<UsualGroup name="СведенияТрудовойКнижкиГруппа" id="1929">
+							<UsualGroup name="ГруппаНапоминаниеОбОтключенииПодпискиНаЭЛН" id="1941">
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
-										<v8:content>Сведения трудовой книжки</v8:content>
+										<v8:content>Напоминание об отключении подписки на ЭЛН</v8:content>
 									</v8:item>
 									<v8:item>
 										<v8:lang>en</v8:lang>
-										<v8:content>Employment record book information</v8:content>
+										<v8:content>Reminder of disabling subscription to ESLR</v8:content>
 									</v8:item>
 								</Title>
+								<HorizontalSpacing>Half</HorizontalSpacing>
+								<Representation>NormalSeparation</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаНапоминаниеОбОтключенииПодпискиНаЭЛНРасширеннаяПодсказка" id="1942"/>
+							</UsualGroup>
+							<UsualGroup name="СведенияТрудовойКнижкиСФлажкомГруппа" id="1954">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Сведения трудовой книжки с флажком</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Service record card details with checkbox</v8:content>
+									</v8:item>
+								</Title>
+								<Group>AlwaysHorizontal</Group>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
-								<ExtendedTooltip name="СведенияТрудовойКнижкиГруппаРасширеннаяПодсказка" id="1930"/>
+								<ExtendedTooltip name="СведенияТрудовойКнижкиСФлажкомГруппаРасширеннаяПодсказка" id="1955"/>
 								<ChildItems>
-									<CheckBoxField name="ОтразитьВТрудовойКнижке" id="1926">
+									<CheckBoxField name="ОтразитьВТрудовойКнижке" id="1927">
 										<TitleLocation>Right</TitleLocation>
 										<CheckBoxType>Auto</CheckBoxType>
-										<ContextMenu name="ОтразитьВТрудовойКнижкеКонтекстноеМеню" id="1927"/>
-										<ExtendedTooltip name="ОтразитьВТрудовойКнижкеРасширеннаяПодсказка" id="1928"/>
+										<ContextMenu name="ОтразитьВТрудовойКнижкеКонтекстноеМеню" id="1928"/>
+										<ExtendedTooltip name="ОтразитьВТрудовойКнижкеРасширеннаяПодсказка" id="1929"/>
 									</CheckBoxField>
-									<InputField name="НаименованиеДокумента" id="1931">
-										<ChoiceButton>true</ChoiceButton>
-										<ContextMenu name="НаименованиеДокументаКонтекстноеМеню" id="1932"/>
-										<ExtendedTooltip name="НаименованиеДокументаРасширеннаяПодсказка" id="1933"/>
-									</InputField>
+									<UsualGroup name="СведенияТрудовойКнижкиГруппа" id="1933">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Сведения трудовой книжки</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Employment record book information</v8:content>
+											</v8:item>
+										</Title>
+										<Group>AlwaysHorizontal</Group>
+										<Representation>None</Representation>
+										<ShowTitle>false</ShowTitle>
+										<ExtendedTooltip name="СведенияТрудовойКнижкиГруппаРасширеннаяПодсказка" id="1934"/>
+										<ChildItems>
+											<InputField name="НаименованиеДокумента" id="1938">
+												<ChoiceButton>true</ChoiceButton>
+												<ContextMenu name="НаименованиеДокументаКонтекстноеМеню" id="1939"/>
+												<ExtendedTooltip name="НаименованиеДокументаРасширеннаяПодсказка" id="1940"/>
+											</InputField>
+											<UsualGroup name="ВторойДокументОснованиеГруппа" id="1956">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Второй документ основание</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Second base document</v8:content>
+													</v8:item>
+												</Title>
+												<Width>55</Width>
+												<Group>Vertical</Group>
+												<Behavior>Collapsible</Behavior>
+												<Collapsed>true</Collapsed>
+												<Representation>None</Representation>
+												<ThroughAlign>Use</ThroughAlign>
+												<ExtendedTooltip name="ВторойДокументОснованиеГруппаРасширеннаяПодсказка" id="1957"/>
+												<ChildItems>
+													<InputField name="НаименованиеВторогоДокументаОснования" id="1958">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Наименование</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Name</v8:content>
+															</v8:item>
+														</Title>
+														<ChoiceButton>true</ChoiceButton>
+														<ContextMenu name="НаименованиеВторогоДокументаОснованияКонтекстноеМеню" id="1959"/>
+														<ExtendedTooltip name="НаименованиеВторогоДокументаОснованияРасширеннаяПодсказка" id="1960"/>
+													</InputField>
+													<UsualGroup name="ВторойДокументОснованиеДатаНомерГруппа" id="1961">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Второй документ основание дата номер группа</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Second base document date number group</v8:content>
+															</v8:item>
+														</Title>
+														<Group>AlwaysHorizontal</Group>
+														<Representation>None</Representation>
+														<ShowTitle>false</ShowTitle>
+														<ExtendedTooltip name="ВторойДокументОснованиеДатаНомерГруппаРасширеннаяПодсказка" id="1962"/>
+														<ChildItems>
+															<InputField name="ДатаВторогоДокументаОснования" id="1963">
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Дата</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Date</v8:content>
+																	</v8:item>
+																</Title>
+																<Width>9</Width>
+																<ContextMenu name="ДатаВторогоДокументаОснованияКонтекстноеМеню" id="1964"/>
+																<ExtendedTooltip name="ДатаВторогоДокументаОснованияРасширеннаяПодсказка" id="1965"/>
+															</InputField>
+															<InputField name="СерияВторогоДокументаОснования" id="1966">
+																<UserVisible>
+																	<xr:Common>false</xr:Common>
+																</UserVisible>
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Серия</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Series</v8:content>
+																	</v8:item>
+																</Title>
+																<Width>10</Width>
+																<HorizontalStretch>false</HorizontalStretch>
+																<ContextMenu name="СерияВторогоДокументаОснованияКонтекстноеМеню" id="1967"/>
+																<ExtendedTooltip name="СерияВторогоДокументаОснованияРасширеннаяПодсказка" id="1968"/>
+															</InputField>
+															<InputField name="НомерВторогоДокументаОснования" id="1969">
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>Номер</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>Number</v8:content>
+																	</v8:item>
+																</Title>
+																<Width>10</Width>
+																<HorizontalStretch>false</HorizontalStretch>
+																<ContextMenu name="НомерВторогоДокументаОснованияКонтекстноеМеню" id="1970"/>
+																<ExtendedTooltip name="НомерВторогоДокументаОснованияРасширеннаяПодсказка" id="1971"/>
+															</InputField>
+														</ChildItems>
+													</UsualGroup>
+												</ChildItems>
+											</UsualGroup>
+										</ChildItems>
+									</UsualGroup>
 								</ChildItems>
 							</UsualGroup>
 							<UsualGroup name="ГруппаСостояниеСотрудника" id="1890">
@@ -5146,7 +5437,6 @@ number, date)</v8:content>
 																<ExtendedTooltip name="КоличествоМесяцевВыплатыДенежногоСодержанияРасширеннаяПодсказка" id="1414"/>
 															</InputField>
 															<LabelField name="НадписьМесяцевВыплатыДенежногоСодержания" id="1511">
-																<DataPath>36</DataPath>
 																<TitleLocation>None</TitleLocation>
 																<Width>4</Width>
 																<Height>1</Height>
@@ -5199,20 +5489,22 @@ number, date)</v8:content>
 																<v8:content>Severance pay for</v8:content>
 															</v8:item>
 														</Title>
+														<ToolTip>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>дн.</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>days</v8:content>
+															</v8:item>
+														</ToolTip>
+														<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
 														<EditMode>EnterOnInput</EditMode>
 														<SpinButton>true</SpinButton>
 														<ContextMenu name="ДнейЧасовВыходногоПособияКонтекстноеМеню" id="16"/>
 														<ExtendedTooltip name="ДнейЧасовВыходногоПособияExtendedTooltip" id="921"/>
 													</InputField>
-													<LabelField name="НадписьДнейЧасовВыходногоПособия" id="458">
-														<DataPath>19</DataPath>
-														<TitleLocation>None</TitleLocation>
-														<Width>4</Width>
-														<HorizontalStretch>false</HorizontalStretch>
-														<VerticalStretch>false</VerticalStretch>
-														<ContextMenu name="НадписьДнейЧасовВыходногоПособияКонтекстноеМеню" id="459"/>
-														<ExtendedTooltip name="НадписьДнейЧасовВыходногоПособияРасширеннаяПодсказка" id="922"/>
-													</LabelField>
 													<InputField name="ВыходноеПособие" id="815">
 														<TitleLocation>None</TitleLocation>
 														<HorizontalStretch>false</HorizontalStretch>
@@ -5290,7 +5582,6 @@ salary of the previous period will be paid if necessary
 										<ExtendedTooltip name="ДоначислитьЗарплатуПриНеобходимостиРасширеннаяПодсказка" id="1873"/>
 									</CheckBoxField>
 									<LabelField name="НадписьОстаткиОтгулов" id="1536">
-										<DataPath>86</DataPath>
 										<TitleLocation>None</TitleLocation>
 										<ContextMenu name="НадписьОстаткиОтгуловКонтекстноеМеню" id="1537"/>
 										<ExtendedTooltip name="НадписьОстаткиОтгуловРасширеннаяПодсказка" id="1538"/>
@@ -5334,7 +5625,6 @@ salary of the previous period will be paid if necessary
 														<ExtendedTooltip name="НачислитьЗарплатуРасширеннаяПодсказка" id="1889"/>
 													</CheckBoxField>
 													<InputField name="МесяцНачалаРасчетовСтрокой" id="1884">
-														<DataPath>97</DataPath>
 														<Width>13</Width>
 														<HorizontalStretch>false</HorizontalStretch>
 														<ChoiceButton>true</ChoiceButton>
@@ -5432,7 +5722,6 @@ salary of the previous period will be paid if necessary
 										<ExtendedTooltip name="НачисленоГруппаExtendedTooltip" id="925"/>
 										<ChildItems>
 											<InputField name="НачисленоИтог" id="187">
-												<DataPath>5</DataPath>
 												<ReadOnly>true</ReadOnly>
 												<Title>
 													<v8:item>
@@ -5452,7 +5741,6 @@ salary of the previous period will be paid if necessary
 												<ExtendedTooltip name="НачисленоИтогExtendedTooltip" id="926"/>
 											</InputField>
 											<InputField name="НачисленоКомпенсаций" id="785">
-												<DataPath>11</DataPath>
 												<ReadOnly>true</ReadOnly>
 												<TitleLocation>Left</TitleLocation>
 												<GroupHorizontalAlign>Right</GroupHorizontalAlign>
@@ -5462,7 +5750,6 @@ salary of the previous period will be paid if necessary
 												<ExtendedTooltip name="НачисленоКомпенсацийExtendedTooltip" id="927"/>
 											</InputField>
 											<InputField name="НачисленоВыходноеПособие" id="787">
-												<DataPath>14</DataPath>
 												<ReadOnly>true</ReadOnly>
 												<TitleLocation>Left</TitleLocation>
 												<GroupHorizontalAlign>Right</GroupHorizontalAlign>
@@ -5472,7 +5759,6 @@ salary of the previous period will be paid if necessary
 												<ExtendedTooltip name="НачисленоВыходноеПособиеExtendedTooltip" id="928"/>
 											</InputField>
 											<InputField name="НачисленоПрочее" id="789">
-												<DataPath>12</DataPath>
 												<ReadOnly>true</ReadOnly>
 												<Title>
 													<v8:item>
@@ -5510,7 +5796,6 @@ salary of the previous period will be paid if necessary
 										<ExtendedTooltip name="УдержаноГруппаExtendedTooltip" id="930"/>
 										<ChildItems>
 											<InputField name="УдержаноИтог" id="43">
-												<DataPath>17</DataPath>
 												<ReadOnly>true</ReadOnly>
 												<Title>
 													<v8:item>
@@ -5531,7 +5816,6 @@ salary of the previous period will be paid if necessary
 												<ExtendedTooltip name="УдержаноИтогExtendedTooltip" id="931"/>
 											</InputField>
 											<InputField name="УдержанНДФЛ" id="791">
-												<DataPath>15</DataPath>
 												<ReadOnly>true</ReadOnly>
 												<TitleLocation>Left</TitleLocation>
 												<GroupHorizontalAlign>Right</GroupHorizontalAlign>
@@ -5541,7 +5825,6 @@ salary of the previous period will be paid if necessary
 												<ExtendedTooltip name="УдержанНДФЛExtendedTooltip" id="932"/>
 											</InputField>
 											<InputField name="УдержаноЗаймы" id="1093">
-												<DataPath>22</DataPath>
 												<ReadOnly>true</ReadOnly>
 												<TitleLocation>Left</TitleLocation>
 												<AutoMaxWidth>false</AutoMaxWidth>
@@ -5551,7 +5834,6 @@ salary of the previous period will be paid if necessary
 												<ExtendedTooltip name="УдержаноЗаймыРасширеннаяПодсказка" id="1095"/>
 											</InputField>
 											<InputField name="УдержаноПрочие" id="793">
-												<DataPath>16</DataPath>
 												<ReadOnly>true</ReadOnly>
 												<Title>
 													<v8:item>
@@ -5588,7 +5870,6 @@ salary of the previous period will be paid if necessary
 										<ExtendedTooltip name="ПерерасчетГруппаExtendedTooltip" id="1162"/>
 										<ChildItems>
 											<InputField name="ПерерасчетИтог" id="1163">
-												<DataPath>4</DataPath>
 												<ReadOnly>true</ReadOnly>
 												<Title>
 													<v8:item>
@@ -5608,7 +5889,6 @@ salary of the previous period will be paid if necessary
 												<ExtendedTooltip name="ПерерасчетИтогExtendedTooltip" id="1165"/>
 											</InputField>
 											<InputField name="ПерерасчетПособийИтог" id="1242">
-												<DataPath>27</DataPath>
 												<ReadOnly>true</ReadOnly>
 												<Title>
 													<v8:item>
@@ -5741,7 +6021,7 @@ salary of the previous period will be paid if necessary
 													</InputField>
 													<Button name="ОткрытьСреднийЗаработок" id="210">
 														<Type>Hyperlink</Type>
-														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<CommandName>0</CommandName>
 														<ExtendedTooltip name="ОткрытьСреднийЗаработокExtendedTooltip" id="943"/>
 													</Button>
 												</ChildItems>
@@ -5793,7 +6073,7 @@ salary of the previous period will be paid if necessary
 													</InputField>
 													<Button name="ОткрытьСреднийЗаработокВыходногоПособия" id="1106">
 														<Type>Hyperlink</Type>
-														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<CommandName>0</CommandName>
 														<ExtendedTooltip name="ОткрытьСреднийЗаработокВыходногоПособияРасширеннаяПодсказка" id="1107"/>
 													</Button>
 												</ChildItems>
@@ -5815,7 +6095,6 @@ salary of the previous period will be paid if necessary
 												<ExtendedTooltip name="ЗаполненностьДанныхИнфоExtendedTooltip" id="938"/>
 												<ChildItems>
 													<PictureField name="ЗаполненностьДанныхКартинка" id="464">
-														<DataPath>10</DataPath>
 														<TitleLocation>None</TitleLocation>
 														<Width>2</Width>
 														<Height>1</Height>
@@ -5829,7 +6108,6 @@ salary of the previous period will be paid if necessary
 														<ExtendedTooltip name="ЗаполненностьДанныхКартинкаExtendedTooltip" id="939"/>
 													</PictureField>
 													<LabelField name="ЗаполненностьДанныхИнформационныйТекст" id="202">
-														<DataPath>8</DataPath>
 														<TitleLocation>None</TitleLocation>
 														<AutoMaxWidth>false</AutoMaxWidth>
 														<MaxWidth>30</MaxWidth>
@@ -5898,7 +6176,7 @@ salary of the previous period will be paid if necessary
 													</InputField>
 													<Button name="ОткрытьДенежноеСодержание" id="1435">
 														<Type>Hyperlink</Type>
-														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<CommandName>0</CommandName>
 														<ExtendedTooltip name="ОткрытьДенежноеСодержаниеРасширеннаяПодсказка" id="1436"/>
 													</Button>
 												</ChildItems>
@@ -5941,7 +6219,7 @@ salary of the previous period will be paid if necessary
 													</InputField>
 													<Button name="ОткрытьДенежноеСодержаниеВыходногоПособия" id="1439">
 														<Type>Hyperlink</Type>
-														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<CommandName>0</CommandName>
 														<ExtendedTooltip name="ОткрытьДенежноеСодержаниеВыходногоПособияРасширеннаяПодсказка" id="1440"/>
 													</Button>
 												</ChildItems>
@@ -5950,7 +6228,7 @@ salary of the previous period will be paid if necessary
 									</UsualGroup>
 									<Button name="Рассчитать" id="189">
 										<Type>UsualButton</Type>
-										<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+										<CommandName>0</CommandName>
 										<ExtendedTooltip name="РассчитатьРасширеннаяПодсказка" id="944"/>
 									</Button>
 								</ChildItems>
@@ -6032,162 +6310,199 @@ salary of the previous period will be paid if necessary
 										<v8:content>Basic leave compensation</v8:content>
 									</v8:item>
 								</Title>
-								<Group>Vertical</Group>
+								<Group>AlwaysHorizontal</Group>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
 								<ExtendedTooltip name="КомпенсацияОсновногоОтпускаExtendedTooltip" id="901"/>
 								<ChildItems>
-									<UsualGroup name="ГруппаПризнакДнейКомпенсацииОсновногоОтпуска" id="1080">
+									<UsualGroup name="Основное" id="1923">
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
-												<v8:content>Признак дней компенсации основного отпуска</v8:content>
+												<v8:content>Основное</v8:content>
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Shows days of basic leave compensation</v8:content>
+												<v8:content>Main</v8:content>
 											</v8:item>
 										</Title>
-										<Group>Horizontal</Group>
+										<Group>Vertical</Group>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
-										<ExtendedTooltip name="ГруппаПризнакДнейКомпенсацииОсновногоОтпускаРасширеннаяПодсказка" id="1081"/>
+										<ExtendedTooltip name="ОсновноеРасширеннаяПодсказка" id="1924"/>
 										<ChildItems>
-											<InputField name="ПризнакКомпенсацииОтпуска" id="21">
+											<UsualGroup name="ГруппаПризнакДнейКомпенсацииОсновногоОтпуска" id="1080">
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
-														<v8:content>Компенсировать / удержать</v8:content>
+														<v8:content>Признак дней компенсации основного отпуска</v8:content>
 													</v8:item>
 													<v8:item>
 														<v8:lang>en</v8:lang>
-														<v8:content>Compensate / keep</v8:content>
-													</v8:item>
-												</Title>
-												<TitleLocation>None</TitleLocation>
-												<EditMode>EnterOnInput</EditMode>
-												<HorizontalStretch>false</HorizontalStretch>
-												<ContextMenu name="ПризнакКомпенсацииОтпускаКонтекстноеМеню" id="22"/>
-												<ExtendedTooltip name="ПризнакКомпенсацииОтпускаExtendedTooltip" id="902"/>
-											</InputField>
-											<UsualGroup name="ДнейКомпенсации" id="216">
-												<Title>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>Дней компенсации</v8:content>
-													</v8:item>
-													<v8:item>
-														<v8:lang>en</v8:lang>
-														<v8:content>Days of compensation</v8:content>
+														<v8:content>Shows days of basic leave compensation</v8:content>
 													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
 												<Representation>None</Representation>
 												<ShowTitle>false</ShowTitle>
-												<ExtendedTooltip name="ДнейКомпенсацииРасширеннаяПодсказка" id="903"/>
+												<ExtendedTooltip name="ГруппаПризнакДнейКомпенсацииОсновногоОтпускаРасширеннаяПодсказка" id="1081"/>
 												<ChildItems>
-													<InputField name="ДнейКомпенсацииУдержанияОтпуска" id="17">
+													<InputField name="ПризнакКомпенсацииОтпуска" id="21">
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
-																<v8:content>за</v8:content>
+																<v8:content>Компенсировать / удержать</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>for</v8:content>
+																<v8:content>Compensate / keep</v8:content>
+															</v8:item>
+														</Title>
+														<TitleLocation>None</TitleLocation>
+														<EditMode>EnterOnInput</EditMode>
+														<AutoMaxWidth>false</AutoMaxWidth>
+														<MaxWidth>32</MaxWidth>
+														<ContextMenu name="ПризнакКомпенсацииОтпускаКонтекстноеМеню" id="22"/>
+														<ExtendedTooltip name="ПризнакКомпенсацииОтпускаExtendedTooltip" id="902"/>
+													</InputField>
+													<UsualGroup name="ДнейКомпенсации" id="216">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Дней компенсации</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Days of compensation</v8:content>
+															</v8:item>
+														</Title>
+														<Group>Horizontal</Group>
+														<Representation>None</Representation>
+														<ShowTitle>false</ShowTitle>
+														<ExtendedTooltip name="ДнейКомпенсацииРасширеннаяПодсказка" id="903"/>
+														<ChildItems>
+															<InputField name="ДнейКомпенсацииУдержанияОтпуска" id="17">
+																<Title>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>за</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>for</v8:content>
+																	</v8:item>
+																</Title>
+																<ToolTip>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>дн.</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>days</v8:content>
+																	</v8:item>
+																</ToolTip>
+																<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
+																<EditMode>EnterOnInput</EditMode>
+																<Width>6</Width>
+																<ChoiceButton>false</ChoiceButton>
+																<SpinButton>true</SpinButton>
+																<ContextMenu name="ДнейКомпенсацииУдержанияОтпускаКонтекстноеМеню" id="18"/>
+																<ExtendedTooltip name="ДнейКомпенсацииУдержанияОтпускаРасширеннаяПодсказка" id="904"/>
+															</InputField>
+														</ChildItems>
+													</UsualGroup>
+												</ChildItems>
+											</UsualGroup>
+											<InputField name="ВидРасчетаКомпенсацииУдержанияОтпуска" id="211">
+												<HorizontalStretch>false</HorizontalStretch>
+												<ChooseType>false</ChooseType>
+												<ContextMenu name="ВидРасчетаКомпенсацииУдержанияОтпускаКонтекстноеМеню" id="212"/>
+												<ExtendedTooltip name="ВидРасчетаКомпенсацииУдержанияОтпускаРасширеннаяПодсказка" id="906"/>
+											</InputField>
+											<UsualGroup name="ПериодЗаКоторыйПредоставляетсяОтпуск" id="180">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Компенсация предоставляется за период работы</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Compensation is provided for the work period</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTipRepresentation>Button</ToolTipRepresentation>
+												<Group>Horizontal</Group>
+												<Representation>None</Representation>
+												<ShowTitle>false</ShowTitle>
+												<ThroughAlign>DontUse</ThroughAlign>
+												<ExtendedTooltip name="ПериодЗаКоторыйПредоставляетсяОтпускExtendedTooltip" id="916">
+													<Title formatted="false">
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Как сотрудник использовал отпуск?</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>How did the employee use the leave?</v8:content>
+														</v8:item>
+													</Title>
+													<Hyperlink>true</Hyperlink>
+													<Events>
+														<Event name="Click" callType="Before">ПериодЗаКоторыйПредоставляетсяОтпускExtendedTooltipНажатие</Event>
+													</Events>
+												</ExtendedTooltip>
+												<ChildItems>
+													<InputField name="НачалоПериодаЗаКоторыйПредоставляетсяОтпуск" id="181">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>За период работы с</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>For work period from</v8:content>
 															</v8:item>
 														</Title>
 														<EditMode>EnterOnInput</EditMode>
-														<Width>6</Width>
-														<ChoiceButton>false</ChoiceButton>
-														<SpinButton>true</SpinButton>
-														<ContextMenu name="ДнейКомпенсацииУдержанияОтпускаКонтекстноеМеню" id="18"/>
-														<ExtendedTooltip name="ДнейКомпенсацииУдержанияОтпускаРасширеннаяПодсказка" id="904"/>
+														<Width>10</Width>
+														<ContextMenu name="НачалоПериодаЗаКоторыйПредоставляетсяОтпускКонтекстноеМеню" id="182"/>
+														<ExtendedTooltip name="НачалоПериодаЗаКоторыйПредоставляетсяОтпускExtendedTooltip" id="917"/>
 													</InputField>
-													<LabelField name="НадписьДнейЧасов" id="462">
-														<DataPath>9</DataPath>
-														<TitleLocation>None</TitleLocation>
-														<Width>3</Width>
-														<HorizontalStretch>false</HorizontalStretch>
-														<VerticalStretch>false</VerticalStretch>
-														<ContextMenu name="НадписьДнейЧасовКонтекстноеМеню" id="463"/>
-														<ExtendedTooltip name="НадписьДнейЧасовExtendedTooltip" id="905"/>
-													</LabelField>
+													<InputField name="КонецПериодаЗаКоторыйПредоставляетсяОтпуск" id="183">
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>по</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>to</v8:content>
+															</v8:item>
+														</Title>
+														<EditMode>EnterOnInput</EditMode>
+														<Width>10</Width>
+														<ContextMenu name="КонецПериодаЗаКоторыйПредоставляетсяОтпускКонтекстноеМеню" id="184"/>
+														<ExtendedTooltip name="КонецПериодаЗаКоторыйПредоставляетсяОтпускExtendedTooltip" id="918"/>
+													</InputField>
 												</ChildItems>
 											</UsualGroup>
 										</ChildItems>
 									</UsualGroup>
-									<InputField name="ВидРасчетаКомпенсацииУдержанияОтпуска" id="211">
-										<HorizontalStretch>false</HorizontalStretch>
-										<ChooseType>false</ChooseType>
-										<ContextMenu name="ВидРасчетаКомпенсацииУдержанияОтпускаКонтекстноеМеню" id="212"/>
-										<ExtendedTooltip name="ВидРасчетаКомпенсацииУдержанияОтпускаРасширеннаяПодсказка" id="906"/>
-									</InputField>
-									<UsualGroup name="ПериодЗаКоторыйПредоставляетсяОтпуск" id="180">
+									<UsualGroup name="ОсобенностиКомпенсации" id="1925">
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
-												<v8:content>Компенсация предоставляется за период работы</v8:content>
+												<v8:content>Особенности компенсации</v8:content>
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Compensation is provided for the work period</v8:content>
+												<v8:content>Compensation features</v8:content>
 											</v8:item>
 										</Title>
-										<ToolTipRepresentation>Button</ToolTipRepresentation>
-										<Group>Horizontal</Group>
+										<Group>Vertical</Group>
 										<Representation>None</Representation>
-										<ShowTitle>false</ShowTitle>
-										<ExtendedTooltip name="ПериодЗаКоторыйПредоставляетсяОтпускExtendedTooltip" id="916">
-											<Title formatted="false">
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Как сотрудник использовал отпуск?</v8:content>
-												</v8:item>
-												<v8:item>
-													<v8:lang>en</v8:lang>
-													<v8:content>How did the employee use the leave?</v8:content>
-												</v8:item>
-											</Title>
-											<Hyperlink>true</Hyperlink>
-											<Events>
-												<Event name="Click" callType="Before">ПериодЗаКоторыйПредоставляетсяОтпускExtendedTooltipНажатие</Event>
-											</Events>
-										</ExtendedTooltip>
-										<ChildItems>
-											<InputField name="НачалоПериодаЗаКоторыйПредоставляетсяОтпуск" id="181">
-												<Title>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>За период работы с</v8:content>
-													</v8:item>
-													<v8:item>
-														<v8:lang>en</v8:lang>
-														<v8:content>For work period from</v8:content>
-													</v8:item>
-												</Title>
-												<EditMode>EnterOnInput</EditMode>
-												<Width>10</Width>
-												<ContextMenu name="НачалоПериодаЗаКоторыйПредоставляетсяОтпускКонтекстноеМеню" id="182"/>
-												<ExtendedTooltip name="НачалоПериодаЗаКоторыйПредоставляетсяОтпускExtendedTooltip" id="917"/>
-											</InputField>
-											<InputField name="КонецПериодаЗаКоторыйПредоставляетсяОтпуск" id="183">
-												<Title>
-													<v8:item>
-														<v8:lang>ru</v8:lang>
-														<v8:content>по</v8:content>
-													</v8:item>
-													<v8:item>
-														<v8:lang>en</v8:lang>
-														<v8:content>to</v8:content>
-													</v8:item>
-												</Title>
-												<EditMode>EnterOnInput</EditMode>
-												<Width>10</Width>
-												<ContextMenu name="КонецПериодаЗаКоторыйПредоставляетсяОтпускКонтекстноеМеню" id="184"/>
-												<ExtendedTooltip name="КонецПериодаЗаКоторыйПредоставляетсяОтпускExtendedTooltip" id="918"/>
-											</InputField>
-										</ChildItems>
+										<ExtendedTooltip name="ОсобенностиКомпенсацииРасширеннаяПодсказка" id="1926"/>
 									</UsualGroup>
 								</ChildItems>
 							</UsualGroup>
@@ -6457,7 +6772,7 @@ salary of the previous period will be paid if necessary
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Main commands</v8:content>
+												<v8:content>Basic commands</v8:content>
 											</v8:item>
 										</Title>
 										<Group>Horizontal</Group>
@@ -6537,7 +6852,7 @@ salary of the previous period will be paid if necessary
 													<ChildItems>
 														<Button name="НачисленияПодробно" id="290">
 															<Type>CommandBarButton</Type>
-															<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="НачисленияПодробноExtendedTooltip" id="951"/>
 														</Button>
 													</ChildItems>
@@ -6719,7 +7034,7 @@ salary of the previous period will be paid if necessary
 													<ChildItems>
 														<Button name="ПособияПодробно" id="852">
 															<Type>CommandBarButton</Type>
-															<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ПособияПодробноExtendedTooltip" id="977"/>
 														</Button>
 													</ChildItems>
@@ -7084,12 +7399,12 @@ salary of the previous period will be paid if necessary
 													<ChildItems>
 														<Button name="УправленческиеНачисленияНайти" id="1618">
 															<Type>CommandBarButton</Type>
-															<CommandName>0:c0519548-2a9a-44de-a25e-faf01e089d4d</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="УправленческиеНачисленияНайтиРасширеннаяПодсказка" id="1619"/>
 														</Button>
 														<Button name="УправленческиеНачисленияОтменитьПоиск" id="1620">
 															<Type>CommandBarButton</Type>
-															<CommandName>0:44ad3ec9-f3c2-4913-9224-5f9fb6418743</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="УправленческиеНачисленияОтменитьПоискРасширеннаяПодсказка" id="1621"/>
 														</Button>
 														<ButtonGroup name="УправленческиеНачисленияАвтоКоманды" id="1622">
@@ -7107,7 +7422,7 @@ salary of the previous period will be paid if necessary
 														</ButtonGroup>
 														<Button name="УправленческиеНачисленияПодробно" id="1624">
 															<Type>CommandBarButton</Type>
-															<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="УправленческиеНачисленияПодробноРасширеннаяПодсказка" id="1625"/>
 														</Button>
 													</ChildItems>
@@ -7276,7 +7591,7 @@ salary of the previous period will be paid if necessary
 													<ChildItems>
 														<Button name="ЛьготыПодробно" id="1501">
 															<Type>CommandBarButton</Type>
-															<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ЛьготыПодробноРасширеннаяПодсказка" id="1502"/>
 														</Button>
 													</ChildItems>
@@ -7413,7 +7728,7 @@ salary of the previous period will be paid if necessary
 													<ChildItems>
 														<Button name="УдержанияПодробно" id="798">
 															<Type>CommandBarButton</Type>
-															<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="УдержанияПодробноExtendedTooltip" id="995"/>
 														</Button>
 													</ChildItems>
@@ -7549,7 +7864,7 @@ salary of the previous period will be paid if necessary
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>PIT (personal income tax)</v8:content>
+												<v8:content>PIT</v8:content>
 											</v8:item>
 										</Title>
 										<Group>Horizontal</Group>
@@ -7586,7 +7901,7 @@ salary of the previous period will be paid if necessary
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>PIT (personal income tax)</v8:content>
+																<v8:content>PIT</v8:content>
 															</v8:item>
 														</Title>
 														<SearchStringLocation>None</SearchStringLocation>
@@ -7671,7 +7986,7 @@ salary of the previous period will be paid if necessary
 													</Table>
 													<Button name="РегистрНалоговогоУчетаПоНДФЛ" id="1305">
 														<Type>Hyperlink</Type>
-														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<CommandName>0</CommandName>
 														<ExtendedTooltip name="РегистрНалоговогоУчетаПоНДФЛРасширеннаяПодсказка" id="1306"/>
 													</Button>
 												</ChildItems>
@@ -8289,7 +8604,7 @@ salary of the previous period will be paid if necessary
 											</Table>
 											<Button name="КарточкаУчетаПоСтраховымВзносам" id="1153">
 												<Type>Hyperlink</Type>
-												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+												<CommandName>0</CommandName>
 												<ExtendedTooltip name="КарточкаУчетаПоСтраховымВзносамРасширеннаяПодсказка" id="1154"/>
 											</Button>
 										</ChildItems>
@@ -8333,7 +8648,7 @@ salary of the previous period will be paid if necessary
 													<ChildItems>
 														<Button name="НачисленияПерерасчетПодробно" id="758">
 															<Type>CommandBarButton</Type>
-															<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="НачисленияПерерасчетПодробноExtendedTooltip" id="1048"/>
 														</Button>
 													</ChildItems>
@@ -8516,7 +8831,7 @@ salary of the previous period will be paid if necessary
 													<ChildItems>
 														<Button name="ПособияПерерасчетПодробно" id="1240">
 															<Type>CommandBarButton</Type>
-															<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ПособияПерерасчетПодробноРасширеннаяПодсказка" id="1241"/>
 														</Button>
 													</ChildItems>
@@ -8870,12 +9185,12 @@ salary of the previous period will be paid if necessary
 													<ChildItems>
 														<Button name="КорректировкиВыплатыНайти" id="1743">
 															<Type>CommandBarButton</Type>
-															<CommandName>0:c0519548-2a9a-44de-a25e-faf01e089d4d</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="КорректировкиВыплатыНайтиРасширеннаяПодсказка" id="1744"/>
 														</Button>
 														<Button name="КорректировкиВыплатыОтменитьПоиск" id="1745">
 															<Type>CommandBarButton</Type>
-															<CommandName>0:44ad3ec9-f3c2-4913-9224-5f9fb6418743</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="КорректировкиВыплатыОтменитьПоискРасширеннаяПодсказка" id="1746"/>
 														</Button>
 													</ChildItems>
@@ -9017,7 +9332,6 @@ number, date)</v8:content>
 						<ExtendedTooltip name="СтраницаПилотныйПроектФССРасширеннаяПодсказка" id="1893"/>
 						<ChildItems>
 							<LabelField name="ГиперссылкаУведомленияОПрекращенииОтпускаПоУходу" id="1894">
-								<DataPath>100</DataPath>
 								<TitleLocation>None</TitleLocation>
 								<ToolTipRepresentation>ShowTop</ToolTipRepresentation>
 								<AutoMaxWidth>false</AutoMaxWidth>
@@ -9056,7 +9370,6 @@ number, date)</v8:content>
 						<ExtendedTooltip name="СправкиПриУвольненииРасширеннаяПодсказка" id="1916"/>
 						<ChildItems>
 							<LabelField name="СправкаНДФЛПредставление" id="1917">
-								<DataPath>104</DataPath>
 								<TitleLocation>None</TitleLocation>
 								<AutoMaxWidth>false</AutoMaxWidth>
 								<Hiperlink>true</Hiperlink>
@@ -9064,20 +9377,18 @@ number, date)</v8:content>
 								<ExtendedTooltip name="СправкаНДФЛПредставлениеРасширеннаяПодсказка" id="1919"/>
 							</LabelField>
 							<LabelField name="ИсходящаяСправкаОЗаработкеДляРасчетаПособийПредставление" id="1920">
-								<DataPath>106</DataPath>
 								<TitleLocation>None</TitleLocation>
 								<AutoMaxWidth>false</AutoMaxWidth>
 								<Hiperlink>true</Hiperlink>
 								<ContextMenu name="ИсходящаяСправкаОЗаработкеДляРасчетаПособийПредставлениеКонтекстноеМеню" id="1921"/>
 								<ExtendedTooltip name="ИсходящаяСправкаОЗаработкеДляРасчетаПособийПредставлениеРасширеннаяПодсказка" id="1922"/>
 							</LabelField>
-							<LabelField name="СведенияОТрудовойДеятельностиРаботникаСТД_РПредставление" id="1923">
-								<DataPath>108</DataPath>
+							<LabelField name="СведенияОТрудовойДеятельностиРаботникаСТД_РПредставление" id="1930">
 								<TitleLocation>None</TitleLocation>
 								<AutoMaxWidth>false</AutoMaxWidth>
 								<Hiperlink>true</Hiperlink>
-								<ContextMenu name="СведенияОТрудовойДеятельностиРаботникаСТД_РПредставлениеКонтекстноеМеню" id="1924"/>
-								<ExtendedTooltip name="СведенияОТрудовойДеятельностиРаботникаСТД_РПредставлениеРасширеннаяПодсказка" id="1925"/>
+								<ContextMenu name="СведенияОТрудовойДеятельностиРаботникаСТД_РПредставлениеКонтекстноеМеню" id="1931"/>
+								<ExtendedTooltip name="СведенияОТрудовойДеятельностиРаботникаСТД_РПредставлениеРасширеннаяПодсказка" id="1932"/>
 							</LabelField>
 						</ChildItems>
 					</Page>
@@ -9199,13 +9510,13 @@ number, date)</v8:content>
 				<ChildItems>
 					<Button name="ОК" id="1451">
 						<Type>CommandBarButton</Type>
-						<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+						<CommandName>0</CommandName>
 						<ExtendedTooltip name="ОКРасширеннаяПодсказка" id="1452"/>
 					</Button>
 					<Button name="Закрыть" id="1453">
 						<Type>CommandBarButton</Type>
 						<Representation>Text</Representation>
-						<CommandName>Form.StandardCommand.Close</CommandName>
+						<CommandName>0</CommandName>
 						<ExtendedTooltip name="ЗакрытьРасширеннаяПодсказка" id="1454"/>
 					</Button>
 				</ChildItems>

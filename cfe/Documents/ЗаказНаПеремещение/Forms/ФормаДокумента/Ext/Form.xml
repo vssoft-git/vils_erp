@@ -30,7 +30,7 @@
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Create on the basis</v8:content>
+						<v8:content>Generate</v8:content>
 					</v8:item>
 				</Title>
 				<Picture>
@@ -48,7 +48,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Create on the basis (Important)</v8:content>
+								<v8:content>Generate (Important)</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииВажноеРасширеннаяПодсказка" id="487"/>
@@ -61,7 +61,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Create on the basis (Standard)</v8:content>
+								<v8:content>Generate (Standard)</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииОбычноеРасширеннаяПодсказка" id="489"/>
@@ -74,7 +74,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Create on the basis (See also)</v8:content>
+								<v8:content>Generate (See also)</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииСмТакжеРасширеннаяПодсказка" id="491"/>
@@ -89,7 +89,7 @@
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Print </v8:content>
+						<v8:content>Print</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
@@ -130,7 +130,7 @@
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>FIlling</v8:content>
+						<v8:content>Filling</v8:content>
 					</v8:item>
 				</Title>
 				<ToolTip>
@@ -140,7 +140,7 @@
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Additional completion commands</v8:content>
+						<v8:content>Additional filling commands</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Picture>
@@ -188,7 +188,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Submenu reports standard</v8:content>
+								<v8:content>Standard reports submenu</v8:content>
 							</v8:item>
 						</Title>
 						<ToolTip>
@@ -211,7 +211,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Submenu reports see also</v8:content>
+								<v8:content>Reports see also submenu</v8:content>
 							</v8:item>
 						</Title>
 						<ToolTip>
@@ -244,7 +244,7 @@
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Base</v8:content>
+					<v8:content>Basis</v8:content>
 				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
@@ -311,7 +311,6 @@
 							<ExtendedTooltip name="ДатаНомерExtendedTooltip" id="148"/>
 							<ChildItems>
 								<InputField name="Номер" id="1">
-									<DataPath>1/-2</DataPath>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>9</MaxWidth>
 									<HorizontalStretch>false</HorizontalStretch>
@@ -320,7 +319,6 @@
 									<ExtendedTooltip name="НомерExtendedTooltip" id="149"/>
 								</InputField>
 								<InputField name="Дата" id="3">
-									<DataPath>1/-3</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -917,7 +915,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Packaging, unit of measure</v8:content>
+											<v8:content>Package, unit of measure</v8:content>
 										</v8:item>
 									</Title>
 									<Group>InCell</Group>
@@ -1042,6 +1040,93 @@
 					</Title>
 					<ExtendedTooltip name="СтраницаДоставкаExtendedTooltip" id="238"/>
 					<ChildItems>
+						<UsualGroup name="ГруппаСервисДоставки" id="502">
+							<Visible>false</Visible>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Сервис 1С:Доставка</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>1C:Delivery service</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа сервис доставки</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Delivery service group</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>AlwaysHorizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаСервисДоставкиРасширеннаяПодсказка" id="503"/>
+							<ChildItems>
+								<PictureDecoration name="ДекорацияСервисДоставкиЛоготип" id="504">
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<MaxWidth>9</MaxWidth>
+									<AutoMaxHeight>false</AutoMaxHeight>
+									<MaxHeight>9</MaxHeight>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>1С:Доставка</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>1C:Delivery</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>1С:Доставка</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>1C:Delivery</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ContextMenu name="ДекорацияСервисДоставкиЛоготипКонтекстноеМеню" id="505"/>
+									<ExtendedTooltip name="ДекорацияСервисДоставкиЛоготипРасширеннаяПодсказка" id="506"/>
+								</PictureDecoration>
+								<LabelDecoration name="ДекорацияСервисДоставкиСписокЗаказов" id="507">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Заказы на доставку</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Delivery orders</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="ДекорацияСервисДоставкиСписокЗаказовКонтекстноеМеню" id="508"/>
+									<ExtendedTooltip name="ДекорацияСервисДоставкиСписокЗаказовРасширеннаяПодсказка" id="509"/>
+								</LabelDecoration>
+								<LabelDecoration name="ДекорацияСервисДоставкиСоздать" id="510">
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Создать</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Create</v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="ДекорацияСервисДоставкиСоздатьКонтекстноеМеню" id="511"/>
+									<ExtendedTooltip name="ДекорацияСервисДоставкиСоздатьРасширеннаяПодсказка" id="512"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
 						<UsualGroup name="ГруппаСпособДоставкиПеревозчик" id="357">
 							<Title>
 								<v8:item>
@@ -1383,7 +1468,7 @@
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>to</v8:content>
+															<v8:content>by</v8:content>
 														</v8:item>
 													</Title>
 													<AutoMaxWidth>false</AutoMaxWidth>
@@ -2026,7 +2111,7 @@ for activity</v8:content>
 				</v8:item>
 				<v8:item>
 					<v8:lang>en</v8:lang>
-					<v8:content>Responsible person</v8:content>
+					<v8:content>Person responsible</v8:content>
 				</v8:item>
 			</Title>
 			<Group>Vertical</Group>
@@ -2054,19 +2139,19 @@ for activity</v8:content>
 					<Type>CommandBarButton</Type>
 					<Representation>Text</Representation>
 					<DefaultButton>true</DefaultButton>
-					<CommandName>7:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаПровестиИЗакрытьРасширеннаяПодсказка" id="326"/>
 				</Button>
 				<Button name="ФормаЗаписать" id="339">
 					<Type>CommandBarButton</Type>
 					<Representation>Picture</Representation>
-					<CommandName>19:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="340"/>
 				</Button>
 				<Button name="ФормаПровести" id="341">
 					<Type>CommandBarButton</Type>
 					<Representation>Picture</Representation>
-					<CommandName>20:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаПровестиРасширеннаяПодсказка" id="342"/>
 				</Button>
 				<Popup name="ПодменюСоздатьНаОсновании" id="337">
@@ -2077,7 +2162,7 @@ for activity</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Create on the basis</v8:content>
+							<v8:content>Generate</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -2095,7 +2180,7 @@ for activity</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Create on the basis (Important)</v8:content>
+									<v8:content>Generate (Important)</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииВажноеРасширеннаяПодсказка" id="487"/>
@@ -2108,7 +2193,7 @@ for activity</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Create on the basis (Standard)</v8:content>
+									<v8:content>Generate (Standard)</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииОбычноеРасширеннаяПодсказка" id="489"/>
@@ -2121,7 +2206,7 @@ for activity</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Create on the basis (See also)</v8:content>
+									<v8:content>Generate (See also)</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииСмТакжеРасширеннаяПодсказка" id="491"/>
@@ -2136,7 +2221,7 @@ for activity</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Print </v8:content>
+							<v8:content>Print</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
@@ -2177,7 +2262,7 @@ for activity</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>FIlling</v8:content>
+							<v8:content>Filling</v8:content>
 						</v8:item>
 					</Title>
 					<ToolTip>
@@ -2187,7 +2272,7 @@ for activity</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Additional completion commands</v8:content>
+							<v8:content>Additional filling commands</v8:content>
 						</v8:item>
 					</ToolTip>
 					<Picture>
@@ -2235,7 +2320,7 @@ for activity</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Submenu reports standard</v8:content>
+									<v8:content>Standard reports submenu</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTip>
@@ -2258,7 +2343,7 @@ for activity</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Submenu reports see also</v8:content>
+									<v8:content>Reports see also submenu</v8:content>
 								</v8:item>
 							</Title>
 							<ToolTip>
@@ -2277,7 +2362,7 @@ for activity</v8:content>
 				</Popup>
 				<Button name="ФормаСправка" id="329">
 					<Type>CommandBarButton</Type>
-					<CommandName>Form.StandardCommand.Help</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаСправкаРасширеннаяПодсказка" id="330"/>
 				</Button>
 			</ChildItems>
@@ -2291,7 +2376,7 @@ for activity</v8:content>
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Base</v8:content>
+						<v8:content>Basis</v8:content>
 					</v8:item>
 				</Title>
 				<Group>Horizontal</Group>
@@ -2358,7 +2443,6 @@ for activity</v8:content>
 								<ExtendedTooltip name="ДатаНомерExtendedTooltip" id="148"/>
 								<ChildItems>
 									<InputField name="Номер" id="1">
-										<DataPath>1/-2</DataPath>
 										<AutoMaxWidth>false</AutoMaxWidth>
 										<MaxWidth>9</MaxWidth>
 										<HorizontalStretch>false</HorizontalStretch>
@@ -2367,7 +2451,6 @@ for activity</v8:content>
 										<ExtendedTooltip name="НомерExtendedTooltip" id="149"/>
 									</InputField>
 									<InputField name="Дата" id="3">
-										<DataPath>1/-3</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -2469,7 +2552,7 @@ for activity</v8:content>
 									</InputField>
 									<Button name="ЗакрытьЗаказ" id="481">
 										<Type>Hyperlink</Type>
-										<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+										<CommandName>0</CommandName>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -2588,17 +2671,17 @@ for activity</v8:content>
 									<ChildItems>
 										<Button name="ТоварыКонтекстноеМенюСкопироватьСтроки" id="138">
 											<Type>CommandBarButton</Type>
-											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<CommandName>0</CommandName>
 											<ExtendedTooltip name="ТоварыКонтекстноеМенюСкопироватьСтрокиExtendedTooltip" id="161"/>
 										</Button>
 										<Button name="ТоварыКонтекстноеМенюВставитьСтроки" id="139">
 											<Type>CommandBarButton</Type>
-											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<CommandName>0</CommandName>
 											<ExtendedTooltip name="ТоварыКонтекстноеМенюВставитьСтрокиExtendedTooltip" id="162"/>
 										</Button>
 										<Button name="ТоварыКонтекстноеМенюРазбитьСтроку" id="110">
 											<Type>CommandBarButton</Type>
-											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<CommandName>0</CommandName>
 											<ExtendedTooltip name="ТоварыКонтекстноеМенюРазбитьСтрокуExtendedTooltip" id="163"/>
 										</Button>
 									</ChildItems>
@@ -2607,17 +2690,17 @@ for activity</v8:content>
 									<ChildItems>
 										<Button name="ТоварыСкопироватьСтроки" id="137">
 											<Type>CommandBarButton</Type>
-											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<CommandName>0</CommandName>
 											<ExtendedTooltip name="ТоварыСкопироватьСтрокиExtendedTooltip" id="166"/>
 										</Button>
 										<Button name="ТоварыВставитьСтроки" id="136">
 											<Type>CommandBarButton</Type>
-											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<CommandName>0</CommandName>
 											<ExtendedTooltip name="ТоварыВставитьСтрокиExtendedTooltip" id="167"/>
 										</Button>
 										<Button name="ТоварыРазбитьСтроку" id="105">
 											<Type>CommandBarButton</Type>
-											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<CommandName>0</CommandName>
 											<ExtendedTooltip name="ТоварыРазбитьСтрокуExtendedTooltip" id="168"/>
 										</Button>
 										<ButtonGroup name="ГруппаДобавитьСтроки" id="93">
@@ -2637,7 +2720,7 @@ for activity</v8:content>
 													<Type>CommandBarButton</Type>
 													<Representation>Picture</Representation>
 													<SkipOnInput>false</SkipOnInput>
-													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<CommandName>0</CommandName>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -2654,7 +2737,7 @@ for activity</v8:content>
 													<Type>CommandBarButton</Type>
 													<Representation>Picture</Representation>
 													<SkipOnInput>false</SkipOnInput>
-													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<CommandName>0</CommandName>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -2684,12 +2767,12 @@ for activity</v8:content>
 											<ChildItems>
 												<Button name="ТоварыПодобратьТовары" id="85">
 													<Type>CommandBarButton</Type>
-													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<CommandName>0</CommandName>
 													<ExtendedTooltip name="ТоварыПодобратьТоварыExtendedTooltip" id="172"/>
 												</Button>
 												<Button name="ТоварыДополнитьМногооборотнойТарой" id="142">
 													<Type>CommandBarButton</Type>
-													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<CommandName>0</CommandName>
 													<ExtendedTooltip name="ТоварыДополнитьМногооборотнойТаройExtendedTooltip" id="173"/>
 												</Button>
 												<ButtonGroup name="КоманднаяПанельГруппаТоварыФункции" id="72">
@@ -2708,13 +2791,13 @@ for activity</v8:content>
 														<Button name="ЗаполнитьОкончаниеПоступленияДляВсехСтрок" id="76">
 															<Type>CommandBarButton</Type>
 															<SkipOnInput>false</SkipOnInput>
-															<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ЗаполнитьОкончаниеПоступленияДляВсехСтрокExtendedTooltip" id="178"/>
 														</Button>
 														<Button name="ЗаполнитьОкончаниеПоступленияДляВыделенныхСтрок" id="77">
 															<Type>CommandBarButton</Type>
 															<SkipOnInput>false</SkipOnInput>
-															<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ЗаполнитьОкончаниеПоступленияДляВыделенныхСтрокExtendedTooltip" id="179"/>
 														</Button>
 													</ChildItems>
@@ -2734,12 +2817,12 @@ for activity</v8:content>
 													<ChildItems>
 														<Button name="ТоварыОтменитьВыделенныеСтроки" id="351">
 															<Type>CommandBarButton</Type>
-															<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ТоварыОтменитьВыделенныеСтрокиРасширеннаяПодсказка" id="352"/>
 														</Button>
 														<Button name="ТоварыОтменитьНеотработанные" id="331">
 															<Type>CommandBarButton</Type>
-															<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ТоварыОтменитьНеотработанныеРасширеннаяПодсказка" id="332"/>
 														</Button>
 													</ChildItems>
@@ -2761,17 +2844,17 @@ for activity</v8:content>
 											<ChildItems>
 												<Button name="ЗаполнитьОбеспечение" id="222">
 													<Type>CommandBarButton</Type>
-													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<CommandName>0</CommandName>
 													<ExtendedTooltip name="ЗаполнитьОбеспечениеРасширеннаяПодсказка" id="223"/>
 												</Button>
 												<Button name="ТоварыСостояниеОбеспечения" id="96">
 													<Type>CommandBarButton</Type>
-													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<CommandName>0</CommandName>
 													<ExtendedTooltip name="ТоварыСостояниеОбеспеченияExtendedTooltip" id="180"/>
 												</Button>
 												<Button name="ТоварыСоздатьКорректировкуНазначенияСнятиеРезерва" id="355">
 													<Type>CommandBarButton</Type>
-													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<CommandName>0</CommandName>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -2786,7 +2869,7 @@ for activity</v8:content>
 												</Button>
 												<Button name="ТоварыСоздатьКорректировкуНазначенияРезервирование" id="353">
 													<Type>CommandBarButton</Type>
-													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<CommandName>0</CommandName>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -2964,7 +3047,7 @@ for activity</v8:content>
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Packaging, unit of measure</v8:content>
+												<v8:content>Package, unit of measure</v8:content>
 											</v8:item>
 										</Title>
 										<Group>InCell</Group>
@@ -3089,6 +3172,93 @@ for activity</v8:content>
 						</Title>
 						<ExtendedTooltip name="СтраницаДоставкаExtendedTooltip" id="238"/>
 						<ChildItems>
+							<UsualGroup name="ГруппаСервисДоставки" id="502">
+								<Visible>false</Visible>
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Сервис 1С:Доставка</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>1C:Delivery service</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Группа сервис доставки</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Delivery service group</v8:content>
+									</v8:item>
+								</ToolTip>
+								<Group>AlwaysHorizontal</Group>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаСервисДоставкиРасширеннаяПодсказка" id="503"/>
+								<ChildItems>
+									<PictureDecoration name="ДекорацияСервисДоставкиЛоготип" id="504">
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<MaxWidth>9</MaxWidth>
+										<AutoMaxHeight>false</AutoMaxHeight>
+										<MaxHeight>9</MaxHeight>
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>1С:Доставка</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>1C:Delivery</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>1С:Доставка</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>1C:Delivery</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ContextMenu name="ДекорацияСервисДоставкиЛоготипКонтекстноеМеню" id="505"/>
+										<ExtendedTooltip name="ДекорацияСервисДоставкиЛоготипРасширеннаяПодсказка" id="506"/>
+									</PictureDecoration>
+									<LabelDecoration name="ДекорацияСервисДоставкиСписокЗаказов" id="507">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Заказы на доставку</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Delivery orders</v8:content>
+											</v8:item>
+										</Title>
+										<Hyperlink>true</Hyperlink>
+										<ContextMenu name="ДекорацияСервисДоставкиСписокЗаказовКонтекстноеМеню" id="508"/>
+										<ExtendedTooltip name="ДекорацияСервисДоставкиСписокЗаказовРасширеннаяПодсказка" id="509"/>
+									</LabelDecoration>
+									<LabelDecoration name="ДекорацияСервисДоставкиСоздать" id="510">
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Создать</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Create</v8:content>
+											</v8:item>
+										</Title>
+										<Hyperlink>true</Hyperlink>
+										<ContextMenu name="ДекорацияСервисДоставкиСоздатьКонтекстноеМеню" id="511"/>
+										<ExtendedTooltip name="ДекорацияСервисДоставкиСоздатьРасширеннаяПодсказка" id="512"/>
+									</LabelDecoration>
+								</ChildItems>
+							</UsualGroup>
 							<UsualGroup name="ГруппаСпособДоставкиПеревозчик" id="357">
 								<Title>
 									<v8:item>
@@ -3430,7 +3600,7 @@ for activity</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>to</v8:content>
+																<v8:content>by</v8:content>
 															</v8:item>
 														</Title>
 														<AutoMaxWidth>false</AutoMaxWidth>
@@ -3493,7 +3663,7 @@ for activity</v8:content>
 													</InputField>
 													<Button name="ДополнитьИнформациюПоДоставкеКонтактами" id="408">
 														<Type>UsualButton</Type>
-														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<CommandName>0</CommandName>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -3688,7 +3858,7 @@ to carrier</v8:content>
 													</InputField>
 													<Button name="ДополнитьИнформациюПоДоставкеКонтактами1" id="439">
 														<Type>UsualButton</Type>
-														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<CommandName>0</CommandName>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -3846,7 +4016,7 @@ delivery address</v8:content>
 													</InputField>
 													<Button name="ДополнитьИнформациюПоДоставкеКонтактами2" id="464">
 														<Type>UsualButton</Type>
-														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<CommandName>0</CommandName>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -4073,7 +4243,7 @@ for activity</v8:content>
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Responsible person</v8:content>
+						<v8:content>Person responsible</v8:content>
 					</v8:item>
 				</Title>
 				<Group>Vertical</Group>

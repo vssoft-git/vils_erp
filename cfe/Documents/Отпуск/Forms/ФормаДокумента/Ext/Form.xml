@@ -114,7 +114,6 @@
 							<ExtendedTooltip name="МесяцОрганизацияРасширеннаяПодсказка" id="487"/>
 							<ChildItems>
 								<InputField name="ПериодРегистрации" id="182">
-									<DataPath>2</DataPath>
 									<Width>13</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ChoiceButton>true</ChoiceButton>
@@ -406,22 +405,43 @@
 														</InputField>
 														<InputField name="КоличествоДнейОсновногоОтпуска" id="593">
 															<TitleLocation>None</TitleLocation>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>days</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>дн.</v8:content>
+																</v8:item>
+															</ToolTip>
+															<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
 															<Width>3</Width>
 															<AutoMarkIncomplete>true</AutoMarkIncomplete>
 															<ContextMenu name="КоличествоДнейОсновногоОтпускаКонтекстноеМеню" id="594"/>
 															<ExtendedTooltip name="КоличествоДнейОсновногоОтпускаРасширеннаяПодсказка" id="595"/>
 														</InputField>
-														<LabelField name="НадписьДней" id="293">
-															<DataPath>9</DataPath>
-															<TitleLocation>None</TitleLocation>
-															<Width>3</Width>
-															<HorizontalStretch>false</HorizontalStretch>
-															<ContextMenu name="НадписьДнейКонтекстноеМеню" id="294"/>
-															<ExtendedTooltip name="НадписьДнейExtendedTooltip" id="345"/>
-														</LabelField>
 													</ChildItems>
 												</UsualGroup>
 											</ChildItems>
+										</UsualGroup>
+										<UsualGroup name="УточнениеВидаВремени" id="1319">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Уточнение вида времени</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Time kind clarification</v8:content>
+												</v8:item>
+											</Title>
+											<Group>Vertical</Group>
+											<Behavior>Collapsible</Behavior>
+											<Collapsed>true</Collapsed>
+											<ControlRepresentation>Picture</ControlRepresentation>
+											<Representation>None</Representation>
+											<ExtendedTooltip name="УточнениеВидаВремениРасширеннаяПодсказка" id="1320"/>
 										</UsualGroup>
 										<InputField name="ВидРасчетаОсновногоОтпуска" id="276">
 											<Title>
@@ -434,7 +454,6 @@
 													<v8:content>Leave kind</v8:content>
 												</v8:item>
 											</Title>
-											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="ВидРасчетаОсновногоОтпускаКонтекстноеМеню" id="277"/>
 											<ExtendedTooltip name="ВидРасчетаОсновногоОтпускаExtendedTooltip" id="346"/>
 										</InputField>
@@ -498,20 +517,23 @@
 																</v8:item>
 															</Title>
 															<TitleLocation>None</TitleLocation>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>days</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>дн.</v8:content>
+																</v8:item>
+															</ToolTip>
+															<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
 															<EditMode>EnterOnInput</EditMode>
 															<Width>3</Width>
 															<ChoiceButton>false</ChoiceButton>
 															<ContextMenu name="ДнейЧасовКомпенсацииОтпускаКонтекстноеМеню" id="40"/>
 															<ExtendedTooltip name="ДнейЧасовКомпенсацииОтпускаExtendedTooltip" id="352"/>
 														</InputField>
-														<LabelField name="НадписьДнейКомпенсации" id="439">
-															<DataPath>15</DataPath>
-															<TitleLocation>None</TitleLocation>
-															<Width>3</Width>
-															<HorizontalStretch>false</HorizontalStretch>
-															<ContextMenu name="НадписьДнейКомпенсацииКонтекстноеМеню" id="440"/>
-															<ExtendedTooltip name="НадписьДнейКомпенсацииРасширеннаяПодсказка" id="441"/>
-														</LabelField>
 													</ChildItems>
 												</UsualGroup>
 											</ChildItems>
@@ -527,7 +549,6 @@
 													<v8:content>Compensation kind</v8:content>
 												</v8:item>
 											</Title>
-											<HorizontalStretch>false</HorizontalStretch>
 											<ContextMenu name="ВидРасчетаКомпенсацииОсновногоОтпускаКонтекстноеМеню" id="279"/>
 											<ExtendedTooltip name="ВидРасчетаКомпенсацииОсновногоОтпускаExtendedTooltip" id="354"/>
 										</InputField>
@@ -612,7 +633,7 @@ additional accruals of the previous period will be paid if necessary
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Absences in other workplaces </v8:content>
+											<v8:content>Absences in other workplaces</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -624,7 +645,7 @@ additional accruals of the previous period will be paid if necessary
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Absences in other workplaces </v8:content>
+											<v8:content>Absences in other workplaces</v8:content>
 										</v8:item>
 									</CollapsedRepresentationTitle>
 									<Collapsed>true</Collapsed>
@@ -641,7 +662,6 @@ additional accruals of the previous period will be paid if necessary
 											<InitialTreeView>ExpandTopLevel</InitialTreeView>
 											<EnableStartDrag>true</EnableStartDrag>
 											<FileDragMode>AsFile</FileDragMode>
-											<DataPath>36</DataPath>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -649,7 +669,7 @@ additional accruals of the previous period will be paid if necessary
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Absences in other workplaces </v8:content>
+													<v8:content>Absences in other workplaces</v8:content>
 												</v8:item>
 											</Title>
 											<RowFilter xsi:nil="true"/>
@@ -735,7 +755,7 @@ additional accruals of the previous period will be paid if necessary
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Additional information</v8:content>
+											<v8:content>Additional properties</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
@@ -874,7 +894,6 @@ additional accruals of the previous period will be paid if necessary
 									<ExtendedTooltip name="КонецПериодаЗаКоторыйПредоставляетсяОтпускExtendedTooltip" id="371"/>
 								</InputField>
 								<LabelField name="РасшифровкаОстаткаОтпуска" id="442">
-									<DataPath>16</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<Hiperlink>true</Hiperlink>
 									<ContextMenu name="РасшифровкаОстаткаОтпускаКонтекстноеМеню" id="443"/>
@@ -995,7 +1014,6 @@ additional accruals of the previous period will be paid if necessary
 													<ExtendedTooltip name="НачисленоГруппаExtendedTooltip" id="376"/>
 													<ChildItems>
 														<InputField name="НачисленоИтог" id="219">
-															<DataPath>5</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<TitleLocation>None</TitleLocation>
 															<Width>10</Width>
@@ -1031,7 +1049,6 @@ additional accruals of the previous period will be paid if necessary
 													<ExtendedTooltip name="ГруппаОтпускПострадавшимЧАЭСРасширеннаяПодсказка" id="498"/>
 													<ChildItems>
 														<InputField name="РассчитаноОтпускЧАЭС" id="499">
-															<DataPath>24</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<TitleLocation>None</TitleLocation>
 															<Width>10</Width>
@@ -1058,7 +1075,6 @@ additional accruals of the previous period will be paid if necessary
 											<ExtendedTooltip name="УдержаноГруппаExtendedTooltip" id="378"/>
 											<ChildItems>
 												<InputField name="Удержано" id="314">
-													<DataPath>11</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<Title>
 														<v8:item>
@@ -1091,7 +1107,6 @@ additional accruals of the previous period will be paid if necessary
 													<ExtendedTooltip name="НДФЛИзменитьExtendedTooltip" id="380"/>
 													<ChildItems>
 														<InputField name="НДФЛ" id="312">
-															<DataPath>10</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<Width>10</Width>
 															<ContextMenu name="НДФЛКонтекстноеМеню" id="313"/>
@@ -1122,7 +1137,6 @@ additional accruals of the previous period will be paid if necessary
 													<ExtendedTooltip name="УдержанияИзменитьExtendedTooltip" id="383"/>
 													<ChildItems>
 														<InputField name="ПрочиеУдержания" id="320">
-															<DataPath>12</DataPath>
 															<ReadOnly>true</ReadOnly>
 															<Width>10</Width>
 															<ContextMenu name="ПрочиеУдержанияКонтекстноеМеню" id="321"/>
@@ -1154,7 +1168,6 @@ additional accruals of the previous period will be paid if necessary
 											<ExtendedTooltip name="ПерерасчетГруппаExtendedTooltip" id="386"/>
 											<ChildItems>
 												<InputField name="ПерерасчетИтог" id="229">
-													<DataPath>3</DataPath>
 													<ReadOnly>true</ReadOnly>
 													<Title>
 														<v8:item>
@@ -1189,7 +1202,6 @@ additional accruals of the previous period will be paid if necessary
 									<Group>Vertical</Group>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
-									<TitleDataPath>31</TitleDataPath>
 									<ExtendedTooltip name="СреднийЗаработокГруппаРасширеннаяПодсказка" id="577"/>
 									<ChildItems>
 										<Pages name="СреднийЗаработокСтраницы" id="1292">
@@ -1318,7 +1330,6 @@ additional accruals of the previous period will be paid if necessary
 											<ExtendedTooltip name="ЗаполненностьДанныхИнфоExtendedTooltip" id="392"/>
 											<ChildItems>
 												<PictureField name="ЗаполненностьДанныхКартинка" id="289">
-													<DataPath>8</DataPath>
 													<TitleLocation>None</TitleLocation>
 													<Width>2</Width>
 													<Height>1</Height>
@@ -1332,7 +1343,6 @@ additional accruals of the previous period will be paid if necessary
 													<ExtendedTooltip name="ЗаполненностьДанныхКартинкаExtendedTooltip" id="393"/>
 												</PictureField>
 												<LabelField name="ЗаполненностьДанныхИнформационныйТекст" id="212">
-													<DataPath>6</DataPath>
 													<TitleLocation>None</TitleLocation>
 													<Height>2</Height>
 													<VerticalStretch>false</VerticalStretch>
@@ -1451,7 +1461,6 @@ additional accruals of the previous period will be paid if necessary
 							<ExtendedTooltip name="КорректировкаВыплатыГруппаРасширеннаяПодсказка" id="1276"/>
 							<ChildItems>
 								<InputField name="КорректировкаВыплаты" id="1279">
-									<DataPath>58</DataPath>
 									<Width>10</Width>
 									<ContextMenu name="КорректировкаВыплатыКонтекстноеМеню" id="1280"/>
 									<ExtendedTooltip name="КорректировкаВыплатыРасширеннаяПодсказка" id="1281"/>
@@ -2134,6 +2143,144 @@ additional accruals of the previous period will be paid if necessary
 						</Table>
 					</ChildItems>
 				</Page>
+				<Page name="ПродленияПереносыОтзывыСтраница" id="1321">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Продления, переносы, отзывы</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Extensions, rescheduling, revocations</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ПродленияПереносыОтзывыСтраницаРасширеннаяПодсказка" id="1322"/>
+					<ChildItems>
+						<UsualGroup name="ПродленияПереносыОтпускаГруппа" id="1323">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Периоды, в которые сотрудник болел или был отозван из отпуска</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>The periods, during which the employee was ill or was recalled from leave</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTipRepresentation>None</ToolTipRepresentation>
+							<Group>Vertical</Group>
+							<Representation>NormalSeparation</Representation>
+							<ExtendedTooltip name="ПродленияПереносыОтпускаГруппаРасширеннаяПодсказка" id="1324"/>
+							<ChildItems>
+								<LabelDecoration name="НадписьПродлитьОтпуск" id="1325">
+									<Visible>false</Visible>
+									<Title formatted="false">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Продлить отпуск... </v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Extend leave... </v8:content>
+										</v8:item>
+									</Title>
+									<Hyperlink>true</Hyperlink>
+									<ContextMenu name="НадписьПродлитьОтпускКонтекстноеМеню" id="1326"/>
+									<ExtendedTooltip name="НадписьПродлитьОтпускРасширеннаяПодсказка" id="1327"/>
+								</LabelDecoration>
+								<Table name="ПериодыПриостановкиОтпуска" id="1328">
+									<AutoInsertNewRow>true</AutoInsertNewRow>
+									<EnableStartDrag>true</EnableStartDrag>
+									<EnableDrag>true</EnableDrag>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Периоды приостановки отпуска</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Leave suspension periods</v8:content>
+										</v8:item>
+									</Title>
+									<RowFilter xsi:nil="true"/>
+									<ContextMenu name="ПериодыПриостановкиОтпускаКонтекстноеМеню" id="1329"/>
+									<AutoCommandBar name="ПериодыПриостановкиОтпускаКоманднаяПанель" id="1330"/>
+									<ExtendedTooltip name="ПериодыПриостановкиОтпускаРасширеннаяПодсказка" id="1331"/>
+									<SearchStringAddition name="ПериодыПриостановкиОтпускаСтрокаПоиска" id="1332">
+										<AdditionSource>
+											<Item>ПериодыПриостановкиОтпуска</Item>
+											<Type>SearchStringRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ПериодыПриостановкиОтпускаСтрокаПоискаКонтекстноеМеню" id="1333"/>
+										<ExtendedTooltip name="ПериодыПриостановкиОтпускаСтрокаПоискаРасширеннаяПодсказка" id="1334"/>
+									</SearchStringAddition>
+									<ViewStatusAddition name="ПериодыПриостановкиОтпускаСостояниеПросмотра" id="1335">
+										<AdditionSource>
+											<Item>ПериодыПриостановкиОтпуска</Item>
+											<Type>ViewStatusRepresentation</Type>
+										</AdditionSource>
+										<ContextMenu name="ПериодыПриостановкиОтпускаСостояниеПросмотраКонтекстноеМеню" id="1336"/>
+										<ExtendedTooltip name="ПериодыПриостановкиОтпускаСостояниеПросмотраРасширеннаяПодсказка" id="1337"/>
+									</ViewStatusAddition>
+									<SearchControlAddition name="ПериодыПриостановкиОтпускаУправлениеПоиском" id="1338">
+										<AdditionSource>
+											<Item>ПериодыПриостановкиОтпуска</Item>
+											<Type>SearchControl</Type>
+										</AdditionSource>
+										<ContextMenu name="ПериодыПриостановкиОтпускаУправлениеПоискомКонтекстноеМеню" id="1339"/>
+										<ExtendedTooltip name="ПериодыПриостановкиОтпускаУправлениеПоискомРасширеннаяПодсказка" id="1340"/>
+									</SearchControlAddition>
+									<ChildItems>
+										<LabelField name="ПериодыПриостановкиОтпускаНомерСтроки" id="1341">
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ПериодыПриостановкиОтпускаНомерСтрокиКонтекстноеМеню" id="1342"/>
+											<ExtendedTooltip name="ПериодыПриостановкиОтпускаНомерСтрокиРасширеннаяПодсказка" id="1343"/>
+										</LabelField>
+										<InputField name="ПериодыПриостановкиОтпускаДатаНачалаПериода" id="1344">
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ПериодыПриостановкиОтпускаДатаНачалаПериодаКонтекстноеМеню" id="1345"/>
+											<ExtendedTooltip name="ПериодыПриостановкиОтпускаДатаНачалаПериодаРасширеннаяПодсказка" id="1346"/>
+										</InputField>
+										<InputField name="ПериодыПриостановкиОтпускаДатаОкончанияПериода" id="1347">
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ПериодыПриостановкиОтпускаДатаОкончанияПериодаКонтекстноеМеню" id="1348"/>
+											<ExtendedTooltip name="ПериодыПриостановкиОтпускаДатаОкончанияПериодаРасширеннаяПодсказка" id="1349"/>
+										</InputField>
+										<InputField name="ПериодыПриостановкиОтпускаКоличествоДнейПриостановки" id="1350">
+											<ReadOnly>true</ReadOnly>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Дн.</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Days</v8:content>
+												</v8:item>
+											</Title>
+											<EditMode>EnterOnInput</EditMode>
+											<ContextMenu name="ПериодыПриостановкиОтпускаКоличествоДнейПриостановкиКонтекстноеМеню" id="1351"/>
+											<ExtendedTooltip name="ПериодыПриостановкиОтпускаКоличествоДнейПриостановкиРасширеннаяПодсказка" id="1352"/>
+										</InputField>
+										<InputField name="ПериодыПриостановкиОтпускаПричина" id="1353">
+											<EditMode>EnterOnInput</EditMode>
+											<ChoiceForm>Document.БольничныйЛист.Form.ФормаСписка</ChoiceForm>
+											<ChoiceParameterLinks>
+												<xr:Link>
+													<xr:Name>Отбор.ФизическоеЛицо</xr:Name>
+													<xr:DataPath xsi:type="xs:string">1/0:5415056f-2350-4eba-b54d-8c5d91356618</xr:DataPath>
+													<xr:ValueChange>Clear</xr:ValueChange>
+												</xr:Link>
+											</ChoiceParameterLinks>
+											<ContextMenu name="ПериодыПриостановкиОтпускаПричинаКонтекстноеМеню" id="1354"/>
+											<ExtendedTooltip name="ПериодыПриостановкиОтпускаПричинаРасширеннаяПодсказка" id="1355"/>
+										</InputField>
+									</ChildItems>
+								</Table>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
 				<Page name="НачисленияПерерасчетСтраница" id="124">
 					<Title>
 						<v8:item>
@@ -2161,7 +2308,7 @@ additional accruals of the previous period will be paid if necessary
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Accruals recalculation </v8:content>
+									<v8:content>Accruals recalculation</v8:content>
 								</v8:item>
 							</Title>
 							<SearchStringLocation>None</SearchStringLocation>
@@ -2512,6 +2659,55 @@ additional accruals of the previous period will be paid if necessary
 			<Group>Vertical</Group>
 			<Representation>None</Representation>
 			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="623"/>
+		</UsualGroup>
+		<UsualGroup name="ОтпускПересекаетсяСБольничнымГруппа" id="1359">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отпуск пересекается с больничным группа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Leave overlaps with sick leave group</v8:content>
+				</v8:item>
+			</Title>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<BackColor>style:ЦветФонаСлабогоПредупрежденияБЗК</BackColor>
+			<ExtendedTooltip name="ОтпускПересекаетсяСБольничнымГруппаРасширеннаяПодсказка" id="1360"/>
+			<ChildItems>
+				<PictureDecoration name="ОтпускПересекаетсяСБольничнымКартинка" id="1361">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отпуск пересекается с больничным картинка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Leave overlaps with sick leave picture</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ОтпускПересекаетсяСБольничнымКартинкаКонтекстноеМеню" id="1362"/>
+					<ExtendedTooltip name="ОтпускПересекаетсяСБольничнымКартинкаРасширеннаяПодсказка" id="1363"/>
+				</PictureDecoration>
+				<LabelDecoration name="ОтпускПересекаетсяСБольничным" id="1356">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отпуск пересекается с больничным</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Leave overlaps with sick leave</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTipRepresentation>Button</ToolTipRepresentation>
+					<ContextMenu name="ОтпускПересекаетсяСБольничнымКонтекстноеМеню" id="1357"/>
+					<ExtendedTooltip name="ОтпускПересекаетсяСБольничнымРасширеннаяПодсказка" id="1358"/>
+				</LabelDecoration>
+			</ChildItems>
 		</UsualGroup>
 		<UsualGroup name="ГруппаКомментарийОтветственный" id="472">
 			<Title>
@@ -2879,12 +3075,12 @@ additional accruals of the previous period will be paid if necessary
 				<Button name="ФормаПровестиИЗакрыть" id="1240">
 					<Type>CommandBarButton</Type>
 					<DefaultButton>true</DefaultButton>
-					<CommandName>13:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаПровестиИЗакрытьРасширеннаяПодсказка" id="1241"/>
 				</Button>
 				<Button name="ФормаЗаписать" id="1242">
 					<Type>CommandBarButton</Type>
-					<CommandName>11:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="1243"/>
 				</Button>
 				<ButtonGroup name="ГруппаПроведение" id="1246">
@@ -2902,12 +3098,12 @@ additional accruals of the previous period will be paid if necessary
 					<ChildItems>
 						<Button name="ФормаПровести" id="1244">
 							<Type>CommandBarButton</Type>
-							<CommandName>12:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+							<CommandName>0</CommandName>
 							<ExtendedTooltip name="ФормаПровестиРасширеннаяПодсказка" id="1245"/>
 						</Button>
 						<Button name="ФормаОтменаПроведения" id="1248">
 							<Type>CommandBarButton</Type>
-							<CommandName>0:389ef1f1-97ce-4326-adf5-886b2dead75c</CommandName>
+							<CommandName>0</CommandName>
 							<ExtendedTooltip name="ФормаОтменаПроведенияРасширеннаяПодсказка" id="1249"/>
 						</Button>
 					</ChildItems>
@@ -2928,7 +3124,7 @@ additional accruals of the previous period will be paid if necessary
 				</ButtonGroup>
 				<Button name="ФормаСправка" id="1250">
 					<Type>CommandBarButton</Type>
-					<CommandName>Form.StandardCommand.Help</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаСправкаРасширеннаяПодсказка" id="1251"/>
 				</Button>
 			</ChildItems>
@@ -2984,7 +3180,6 @@ additional accruals of the previous period will be paid if necessary
 								<ExtendedTooltip name="МесяцОрганизацияРасширеннаяПодсказка" id="487"/>
 								<ChildItems>
 									<InputField name="ПериодРегистрации" id="182">
-										<DataPath>2</DataPath>
 										<Width>13</Width>
 										<HorizontalStretch>false</HorizontalStretch>
 										<ChoiceButton>true</ChoiceButton>
@@ -3276,22 +3471,43 @@ additional accruals of the previous period will be paid if necessary
 															</InputField>
 															<InputField name="КоличествоДнейОсновногоОтпуска" id="593">
 																<TitleLocation>None</TitleLocation>
+																<ToolTip>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>дн.</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>days</v8:content>
+																	</v8:item>
+																</ToolTip>
+																<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
 																<Width>3</Width>
 																<AutoMarkIncomplete>true</AutoMarkIncomplete>
 																<ContextMenu name="КоличествоДнейОсновногоОтпускаКонтекстноеМеню" id="594"/>
 																<ExtendedTooltip name="КоличествоДнейОсновногоОтпускаРасширеннаяПодсказка" id="595"/>
 															</InputField>
-															<LabelField name="НадписьДней" id="293">
-																<DataPath>9</DataPath>
-																<TitleLocation>None</TitleLocation>
-																<Width>3</Width>
-																<HorizontalStretch>false</HorizontalStretch>
-																<ContextMenu name="НадписьДнейКонтекстноеМеню" id="294"/>
-																<ExtendedTooltip name="НадписьДнейExtendedTooltip" id="345"/>
-															</LabelField>
 														</ChildItems>
 													</UsualGroup>
 												</ChildItems>
+											</UsualGroup>
+											<UsualGroup name="УточнениеВидаВремени" id="1319">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Уточнение вида времени</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Time kind clarification</v8:content>
+													</v8:item>
+												</Title>
+												<Group>Vertical</Group>
+												<Behavior>Collapsible</Behavior>
+												<Collapsed>true</Collapsed>
+												<ControlRepresentation>Picture</ControlRepresentation>
+												<Representation>None</Representation>
+												<ExtendedTooltip name="УточнениеВидаВремениРасширеннаяПодсказка" id="1320"/>
 											</UsualGroup>
 											<InputField name="ВидРасчетаОсновногоОтпуска" id="276">
 												<Title>
@@ -3304,7 +3520,6 @@ additional accruals of the previous period will be paid if necessary
 														<v8:content>Leave kind</v8:content>
 													</v8:item>
 												</Title>
-												<HorizontalStretch>false</HorizontalStretch>
 												<ContextMenu name="ВидРасчетаОсновногоОтпускаКонтекстноеМеню" id="277"/>
 												<ExtendedTooltip name="ВидРасчетаОсновногоОтпускаExtendedTooltip" id="346"/>
 											</InputField>
@@ -3368,20 +3583,23 @@ additional accruals of the previous period will be paid if necessary
 																	</v8:item>
 																</Title>
 																<TitleLocation>None</TitleLocation>
+																<ToolTip>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>дн.</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>days</v8:content>
+																	</v8:item>
+																</ToolTip>
+																<ToolTipRepresentation>ShowRight</ToolTipRepresentation>
 																<EditMode>EnterOnInput</EditMode>
 																<Width>3</Width>
 																<ChoiceButton>false</ChoiceButton>
 																<ContextMenu name="ДнейЧасовКомпенсацииОтпускаКонтекстноеМеню" id="40"/>
 																<ExtendedTooltip name="ДнейЧасовКомпенсацииОтпускаExtendedTooltip" id="352"/>
 															</InputField>
-															<LabelField name="НадписьДнейКомпенсации" id="439">
-																<DataPath>15</DataPath>
-																<TitleLocation>None</TitleLocation>
-																<Width>3</Width>
-																<HorizontalStretch>false</HorizontalStretch>
-																<ContextMenu name="НадписьДнейКомпенсацииКонтекстноеМеню" id="440"/>
-																<ExtendedTooltip name="НадписьДнейКомпенсацииРасширеннаяПодсказка" id="441"/>
-															</LabelField>
 														</ChildItems>
 													</UsualGroup>
 												</ChildItems>
@@ -3397,7 +3615,6 @@ additional accruals of the previous period will be paid if necessary
 														<v8:content>Compensation kind</v8:content>
 													</v8:item>
 												</Title>
-												<HorizontalStretch>false</HorizontalStretch>
 												<ContextMenu name="ВидРасчетаКомпенсацииОсновногоОтпускаКонтекстноеМеню" id="279"/>
 												<ExtendedTooltip name="ВидРасчетаКомпенсацииОсновногоОтпускаExtendedTooltip" id="354"/>
 											</InputField>
@@ -3482,7 +3699,7 @@ additional accruals of the previous period will be paid if necessary
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Absences in other workplaces </v8:content>
+												<v8:content>Absences in other workplaces</v8:content>
 											</v8:item>
 										</Title>
 										<Group>Vertical</Group>
@@ -3494,7 +3711,7 @@ additional accruals of the previous period will be paid if necessary
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Absences in other workplaces </v8:content>
+												<v8:content>Absences in other workplaces</v8:content>
 											</v8:item>
 										</CollapsedRepresentationTitle>
 										<Collapsed>true</Collapsed>
@@ -3511,7 +3728,6 @@ additional accruals of the previous period will be paid if necessary
 												<InitialTreeView>ExpandTopLevel</InitialTreeView>
 												<EnableStartDrag>true</EnableStartDrag>
 												<FileDragMode>AsFile</FileDragMode>
-												<DataPath>36</DataPath>
 												<Title>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
@@ -3519,7 +3735,7 @@ additional accruals of the previous period will be paid if necessary
 													</v8:item>
 													<v8:item>
 														<v8:lang>en</v8:lang>
-														<v8:content>Absences in other workplaces </v8:content>
+														<v8:content>Absences in other workplaces</v8:content>
 													</v8:item>
 												</Title>
 												<RowFilter xsi:nil="true"/>
@@ -3529,12 +3745,12 @@ additional accruals of the previous period will be paid if necessary
 													<ChildItems>
 														<Button name="ОтсутствияПоДругимМестамРаботыОформитьОтпускСовместителю" id="686">
 															<Type>CommandBarButton</Type>
-															<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ОтсутствияПоДругимМестамРаботыОформитьОтпускСовместителюРасширеннаяПодсказка" id="687"/>
 														</Button>
 														<Button name="ОтсутствияПоДругимМестамРаботыОформитьОтпускБезОплатыСовместителю" id="688">
 															<Type>CommandBarButton</Type>
-															<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ОтсутствияПоДругимМестамРаботыОформитьОтпускБезОплатыСовместителюРасширеннаяПодсказка" id="689"/>
 														</Button>
 													</ChildItems>
@@ -3605,7 +3821,7 @@ additional accruals of the previous period will be paid if necessary
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Additional information</v8:content>
+												<v8:content>Additional properties</v8:content>
 											</v8:item>
 										</Title>
 										<Group>Vertical</Group>
@@ -3711,6 +3927,7 @@ additional accruals of the previous period will be paid if necessary
 								<Group>Horizontal</Group>
 								<Representation>None</Representation>
 								<ShowTitle>false</ShowTitle>
+								<ThroughAlign>DontUse</ThroughAlign>
 								<ExtendedTooltip name="ПериодЗаКоторыйПредоставляетсяОтпускExtendedTooltip" id="369"/>
 								<ChildItems>
 									<InputField name="НачалоПериодаЗаКоторыйПредоставляетсяОтпуск" id="43">
@@ -3744,7 +3961,6 @@ additional accruals of the previous period will be paid if necessary
 										<ExtendedTooltip name="КонецПериодаЗаКоторыйПредоставляетсяОтпускExtendedTooltip" id="371"/>
 									</InputField>
 									<LabelField name="РасшифровкаОстаткаОтпуска" id="442">
-										<DataPath>16</DataPath>
 										<TitleLocation>None</TitleLocation>
 										<Hiperlink>true</Hiperlink>
 										<ContextMenu name="РасшифровкаОстаткаОтпускаКонтекстноеМеню" id="443"/>
@@ -3865,7 +4081,6 @@ additional accruals of the previous period will be paid if necessary
 														<ExtendedTooltip name="НачисленоГруппаExtendedTooltip" id="376"/>
 														<ChildItems>
 															<InputField name="НачисленоИтог" id="219">
-																<DataPath>5</DataPath>
 																<ReadOnly>true</ReadOnly>
 																<TitleLocation>None</TitleLocation>
 																<Width>10</Width>
@@ -3901,7 +4116,6 @@ additional accruals of the previous period will be paid if necessary
 														<ExtendedTooltip name="ГруппаОтпускПострадавшимЧАЭСРасширеннаяПодсказка" id="498"/>
 														<ChildItems>
 															<InputField name="РассчитаноОтпускЧАЭС" id="499">
-																<DataPath>24</DataPath>
 																<ReadOnly>true</ReadOnly>
 																<TitleLocation>None</TitleLocation>
 																<Width>10</Width>
@@ -3928,7 +4142,6 @@ additional accruals of the previous period will be paid if necessary
 												<ExtendedTooltip name="УдержаноГруппаExtendedTooltip" id="378"/>
 												<ChildItems>
 													<InputField name="Удержано" id="314">
-														<DataPath>11</DataPath>
 														<ReadOnly>true</ReadOnly>
 														<Title>
 															<v8:item>
@@ -3961,7 +4174,6 @@ additional accruals of the previous period will be paid if necessary
 														<ExtendedTooltip name="НДФЛИзменитьExtendedTooltip" id="380"/>
 														<ChildItems>
 															<InputField name="НДФЛ" id="312">
-																<DataPath>10</DataPath>
 																<ReadOnly>true</ReadOnly>
 																<Width>10</Width>
 																<ContextMenu name="НДФЛКонтекстноеМеню" id="313"/>
@@ -3970,7 +4182,7 @@ additional accruals of the previous period will be paid if necessary
 															<Button name="ПодробнееОРасчетеНДФЛ" id="316">
 																<Type>Hyperlink</Type>
 																<GroupVerticalAlign>Center</GroupVerticalAlign>
-																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<CommandName>0</CommandName>
 																<ExtendedTooltip name="ПодробнееОРасчетеНДФЛExtendedTooltip" id="382"/>
 															</Button>
 														</ChildItems>
@@ -3992,7 +4204,6 @@ additional accruals of the previous period will be paid if necessary
 														<ExtendedTooltip name="УдержанияИзменитьExtendedTooltip" id="383"/>
 														<ChildItems>
 															<InputField name="ПрочиеУдержания" id="320">
-																<DataPath>12</DataPath>
 																<ReadOnly>true</ReadOnly>
 																<Width>10</Width>
 																<ContextMenu name="ПрочиеУдержанияКонтекстноеМеню" id="321"/>
@@ -4001,7 +4212,7 @@ additional accruals of the previous period will be paid if necessary
 															<Button name="ПодробнееОРасчетеУдержаний" id="317">
 																<Type>Hyperlink</Type>
 																<GroupVerticalAlign>Center</GroupVerticalAlign>
-																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<CommandName>0</CommandName>
 																<ExtendedTooltip name="ПодробнееОРасчетеУдержанийExtendedTooltip" id="385"/>
 															</Button>
 														</ChildItems>
@@ -4024,7 +4235,6 @@ additional accruals of the previous period will be paid if necessary
 												<ExtendedTooltip name="ПерерасчетГруппаExtendedTooltip" id="386"/>
 												<ChildItems>
 													<InputField name="ПерерасчетИтог" id="229">
-														<DataPath>3</DataPath>
 														<ReadOnly>true</ReadOnly>
 														<Title>
 															<v8:item>
@@ -4059,7 +4269,6 @@ additional accruals of the previous period will be paid if necessary
 										<Group>Vertical</Group>
 										<Representation>None</Representation>
 										<ShowTitle>false</ShowTitle>
-										<TitleDataPath>31</TitleDataPath>
 										<ExtendedTooltip name="СреднийЗаработокГруппаРасширеннаяПодсказка" id="577"/>
 										<ChildItems>
 											<Pages name="СреднийЗаработокСтраницы" id="1292">
@@ -4133,7 +4342,7 @@ additional accruals of the previous period will be paid if necessary
 															<Button name="ОткрытьСреднийЗаработок" id="217">
 																<Type>Hyperlink</Type>
 																<GroupVerticalAlign>Center</GroupVerticalAlign>
-																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<CommandName>0</CommandName>
 																<ExtendedTooltip name="ОткрытьСреднийЗаработокExtendedTooltip" id="397"/>
 															</Button>
 														</ChildItems>
@@ -4164,7 +4373,7 @@ additional accruals of the previous period will be paid if necessary
 															</InputField>
 															<Button name="ОткрытьДенежноеСодержание" id="583">
 																<Type>Hyperlink</Type>
-																<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+																<CommandName>0</CommandName>
 																<ExtendedTooltip name="ОткрытьДенежноеСодержаниеРасширеннаяПодсказка" id="584"/>
 															</Button>
 														</ChildItems>
@@ -4188,7 +4397,6 @@ additional accruals of the previous period will be paid if necessary
 												<ExtendedTooltip name="ЗаполненностьДанныхИнфоExtendedTooltip" id="392"/>
 												<ChildItems>
 													<PictureField name="ЗаполненностьДанныхКартинка" id="289">
-														<DataPath>8</DataPath>
 														<TitleLocation>None</TitleLocation>
 														<Width>2</Width>
 														<Height>1</Height>
@@ -4202,7 +4410,6 @@ additional accruals of the previous period will be paid if necessary
 														<ExtendedTooltip name="ЗаполненностьДанныхКартинкаExtendedTooltip" id="393"/>
 													</PictureField>
 													<LabelField name="ЗаполненностьДанныхИнформационныйТекст" id="212">
-														<DataPath>6</DataPath>
 														<TitleLocation>None</TitleLocation>
 														<Height>2</Height>
 														<VerticalStretch>false</VerticalStretch>
@@ -4233,7 +4440,7 @@ additional accruals of the previous period will be paid if necessary
 											<Button name="Рассчитать" id="206">
 												<Type>UsualButton</Type>
 												<Representation>Picture</Representation>
-												<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+												<CommandName>0</CommandName>
 												<ExtendedTooltip name="РассчитатьРасширеннаяПодсказка" id="398"/>
 											</Button>
 										</ChildItems>
@@ -4321,7 +4528,6 @@ additional accruals of the previous period will be paid if necessary
 								<ExtendedTooltip name="КорректировкаВыплатыГруппаРасширеннаяПодсказка" id="1276"/>
 								<ChildItems>
 									<InputField name="КорректировкаВыплаты" id="1279">
-										<DataPath>58</DataPath>
 										<Width>10</Width>
 										<ContextMenu name="КорректировкаВыплатыКонтекстноеМеню" id="1280"/>
 										<ExtendedTooltip name="КорректировкаВыплатыРасширеннаяПодсказка" id="1281"/>
@@ -4329,7 +4535,7 @@ additional accruals of the previous period will be paid if necessary
 									<Button name="КорректировкаВыплатыПодробно" id="1277">
 										<Type>Hyperlink</Type>
 										<GroupVerticalAlign>Center</GroupVerticalAlign>
-										<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+										<CommandName>0</CommandName>
 										<ExtendedTooltip name="КорректировкаВыплатыПодробноРасширеннаяПодсказка" id="1278"/>
 									</Button>
 								</ChildItems>
@@ -4675,7 +4881,7 @@ additional accruals of the previous period will be paid if necessary
 									<ChildItems>
 										<Button name="НачисленияПодробно" id="433">
 											<Type>CommandBarButton</Type>
-											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<CommandName>0</CommandName>
 											<ExtendedTooltip name="НачисленияПодробноРасширеннаяПодсказка" id="434"/>
 										</Button>
 									</ChildItems>
@@ -4875,7 +5081,7 @@ additional accruals of the previous period will be paid if necessary
 										</ButtonGroup>
 										<Button name="УправленческиеНачисленияПодробно" id="1137">
 											<Type>CommandBarButton</Type>
-											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<CommandName>0</CommandName>
 											<ExtendedTooltip name="УправленческиеНачисленияПодробноРасширеннаяПодсказка" id="1138"/>
 										</Button>
 									</ChildItems>
@@ -5004,6 +5210,144 @@ additional accruals of the previous period will be paid if necessary
 							</Table>
 						</ChildItems>
 					</Page>
+					<Page name="ПродленияПереносыОтзывыСтраница" id="1321">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Продления, переносы, отзывы</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Extensions, rescheduling, revocations</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ПродленияПереносыОтзывыСтраницаРасширеннаяПодсказка" id="1322"/>
+						<ChildItems>
+							<UsualGroup name="ПродленияПереносыОтпускаГруппа" id="1323">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Периоды, в которые сотрудник болел или был отозван из отпуска</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>The periods, during which the employee was ill or was recalled from leave</v8:content>
+									</v8:item>
+								</Title>
+								<ToolTipRepresentation>None</ToolTipRepresentation>
+								<Group>Vertical</Group>
+								<Representation>NormalSeparation</Representation>
+								<ExtendedTooltip name="ПродленияПереносыОтпускаГруппаРасширеннаяПодсказка" id="1324"/>
+								<ChildItems>
+									<LabelDecoration name="НадписьПродлитьОтпуск" id="1325">
+										<Visible>false</Visible>
+										<Title formatted="false">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Продлить отпуск... </v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Extend leave... </v8:content>
+											</v8:item>
+										</Title>
+										<Hyperlink>true</Hyperlink>
+										<ContextMenu name="НадписьПродлитьОтпускКонтекстноеМеню" id="1326"/>
+										<ExtendedTooltip name="НадписьПродлитьОтпускРасширеннаяПодсказка" id="1327"/>
+									</LabelDecoration>
+									<Table name="ПериодыПриостановкиОтпуска" id="1328">
+										<AutoInsertNewRow>true</AutoInsertNewRow>
+										<EnableStartDrag>true</EnableStartDrag>
+										<EnableDrag>true</EnableDrag>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Периоды приостановки отпуска</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Leave suspension periods</v8:content>
+											</v8:item>
+										</Title>
+										<RowFilter xsi:nil="true"/>
+										<ContextMenu name="ПериодыПриостановкиОтпускаКонтекстноеМеню" id="1329"/>
+										<AutoCommandBar name="ПериодыПриостановкиОтпускаКоманднаяПанель" id="1330"/>
+										<ExtendedTooltip name="ПериодыПриостановкиОтпускаРасширеннаяПодсказка" id="1331"/>
+										<SearchStringAddition name="ПериодыПриостановкиОтпускаСтрокаПоиска" id="1332">
+											<AdditionSource>
+												<Item>ПериодыПриостановкиОтпуска</Item>
+												<Type>SearchStringRepresentation</Type>
+											</AdditionSource>
+											<ContextMenu name="ПериодыПриостановкиОтпускаСтрокаПоискаКонтекстноеМеню" id="1333"/>
+											<ExtendedTooltip name="ПериодыПриостановкиОтпускаСтрокаПоискаРасширеннаяПодсказка" id="1334"/>
+										</SearchStringAddition>
+										<ViewStatusAddition name="ПериодыПриостановкиОтпускаСостояниеПросмотра" id="1335">
+											<AdditionSource>
+												<Item>ПериодыПриостановкиОтпуска</Item>
+												<Type>ViewStatusRepresentation</Type>
+											</AdditionSource>
+											<ContextMenu name="ПериодыПриостановкиОтпускаСостояниеПросмотраКонтекстноеМеню" id="1336"/>
+											<ExtendedTooltip name="ПериодыПриостановкиОтпускаСостояниеПросмотраРасширеннаяПодсказка" id="1337"/>
+										</ViewStatusAddition>
+										<SearchControlAddition name="ПериодыПриостановкиОтпускаУправлениеПоиском" id="1338">
+											<AdditionSource>
+												<Item>ПериодыПриостановкиОтпуска</Item>
+												<Type>SearchControl</Type>
+											</AdditionSource>
+											<ContextMenu name="ПериодыПриостановкиОтпускаУправлениеПоискомКонтекстноеМеню" id="1339"/>
+											<ExtendedTooltip name="ПериодыПриостановкиОтпускаУправлениеПоискомРасширеннаяПодсказка" id="1340"/>
+										</SearchControlAddition>
+										<ChildItems>
+											<LabelField name="ПериодыПриостановкиОтпускаНомерСтроки" id="1341">
+												<EditMode>EnterOnInput</EditMode>
+												<ContextMenu name="ПериодыПриостановкиОтпускаНомерСтрокиКонтекстноеМеню" id="1342"/>
+												<ExtendedTooltip name="ПериодыПриостановкиОтпускаНомерСтрокиРасширеннаяПодсказка" id="1343"/>
+											</LabelField>
+											<InputField name="ПериодыПриостановкиОтпускаДатаНачалаПериода" id="1344">
+												<EditMode>EnterOnInput</EditMode>
+												<ContextMenu name="ПериодыПриостановкиОтпускаДатаНачалаПериодаКонтекстноеМеню" id="1345"/>
+												<ExtendedTooltip name="ПериодыПриостановкиОтпускаДатаНачалаПериодаРасширеннаяПодсказка" id="1346"/>
+											</InputField>
+											<InputField name="ПериодыПриостановкиОтпускаДатаОкончанияПериода" id="1347">
+												<EditMode>EnterOnInput</EditMode>
+												<ContextMenu name="ПериодыПриостановкиОтпускаДатаОкончанияПериодаКонтекстноеМеню" id="1348"/>
+												<ExtendedTooltip name="ПериодыПриостановкиОтпускаДатаОкончанияПериодаРасширеннаяПодсказка" id="1349"/>
+											</InputField>
+											<InputField name="ПериодыПриостановкиОтпускаКоличествоДнейПриостановки" id="1350">
+												<ReadOnly>true</ReadOnly>
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Дн.</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Days</v8:content>
+													</v8:item>
+												</Title>
+												<EditMode>EnterOnInput</EditMode>
+												<ContextMenu name="ПериодыПриостановкиОтпускаКоличествоДнейПриостановкиКонтекстноеМеню" id="1351"/>
+												<ExtendedTooltip name="ПериодыПриостановкиОтпускаКоличествоДнейПриостановкиРасширеннаяПодсказка" id="1352"/>
+											</InputField>
+											<InputField name="ПериодыПриостановкиОтпускаПричина" id="1353">
+												<EditMode>EnterOnInput</EditMode>
+												<ChoiceForm>Document.БольничныйЛист.Form.ФормаСписка</ChoiceForm>
+												<ChoiceParameterLinks>
+													<xr:Link>
+														<xr:Name>Отбор.ФизическоеЛицо</xr:Name>
+														<xr:DataPath xsi:type="xs:string">1/0:5415056f-2350-4eba-b54d-8c5d91356618</xr:DataPath>
+														<xr:ValueChange>Clear</xr:ValueChange>
+													</xr:Link>
+												</ChoiceParameterLinks>
+												<ContextMenu name="ПериодыПриостановкиОтпускаПричинаКонтекстноеМеню" id="1354"/>
+												<ExtendedTooltip name="ПериодыПриостановкиОтпускаПричинаРасширеннаяПодсказка" id="1355"/>
+											</InputField>
+										</ChildItems>
+									</Table>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</Page>
 					<Page name="НачисленияПерерасчетСтраница" id="124">
 						<Title>
 							<v8:item>
@@ -5031,7 +5375,7 @@ additional accruals of the previous period will be paid if necessary
 									</v8:item>
 									<v8:item>
 										<v8:lang>en</v8:lang>
-										<v8:content>Accruals recalculation </v8:content>
+										<v8:content>Accruals recalculation</v8:content>
 									</v8:item>
 								</Title>
 								<SearchStringLocation>None</SearchStringLocation>
@@ -5043,7 +5387,7 @@ additional accruals of the previous period will be paid if necessary
 									<ChildItems>
 										<Button name="НачисленияПерерасчетПодробно" id="246">
 											<Type>CommandBarButton</Type>
-											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<CommandName>0</CommandName>
 											<ExtendedTooltip name="НачисленияПерерасчетПодробноExtendedTooltip" id="413"/>
 										</Button>
 									</ChildItems>
@@ -5382,6 +5726,55 @@ additional accruals of the previous period will be paid if necessary
 				<Group>Vertical</Group>
 				<Representation>None</Representation>
 				<ExtendedTooltip name="ГруппаДополнительныеРеквизитыExtendedTooltip" id="623"/>
+			</UsualGroup>
+			<UsualGroup name="ОтпускПересекаетсяСБольничнымГруппа" id="1359">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Отпуск пересекается с больничным группа</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Leave overlaps with sick leave group</v8:content>
+					</v8:item>
+				</Title>
+				<Group>AlwaysHorizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<BackColor>style:ЦветФонаСлабогоПредупрежденияБЗК</BackColor>
+				<ExtendedTooltip name="ОтпускПересекаетсяСБольничнымГруппаРасширеннаяПодсказка" id="1360"/>
+				<ChildItems>
+					<PictureDecoration name="ОтпускПересекаетсяСБольничнымКартинка" id="1361">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Отпуск пересекается с больничным картинка</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Leave overlaps with sick leave picture</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="ОтпускПересекаетсяСБольничнымКартинкаКонтекстноеМеню" id="1362"/>
+						<ExtendedTooltip name="ОтпускПересекаетсяСБольничнымКартинкаРасширеннаяПодсказка" id="1363"/>
+					</PictureDecoration>
+					<LabelDecoration name="ОтпускПересекаетсяСБольничным" id="1356">
+						<AutoMaxWidth>false</AutoMaxWidth>
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Отпуск пересекается с больничным</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Leave overlaps with sick leave</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTipRepresentation>Button</ToolTipRepresentation>
+						<ContextMenu name="ОтпускПересекаетсяСБольничнымКонтекстноеМеню" id="1357"/>
+						<ExtendedTooltip name="ОтпускПересекаетсяСБольничнымРасширеннаяПодсказка" id="1358"/>
+					</LabelDecoration>
+				</ChildItems>
 			</UsualGroup>
 			<UsualGroup name="ГруппаКомментарийОтветственный" id="472">
 				<Title>

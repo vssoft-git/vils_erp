@@ -40,7 +40,6 @@
 					<ExtendedTooltip name="ГруппаПериодExtendedTooltip" id="546"/>
 					<ChildItems>
 						<InputField name="НачалоПериода" id="547">
-							<DataPath>1</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -73,7 +72,6 @@
 							<ExtendedTooltip name="ДекорацияТиреExtendedTooltip" id="552"/>
 						</LabelDecoration>
 						<InputField name="КонецПериода" id="553">
-							<DataPath>2</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<Width>9</Width>
 							<ContextMenu name="КонецПериодаКонтекстноеМеню" id="554"/>
@@ -87,7 +85,6 @@
 					</ChildItems>
 				</UsualGroup>
 				<InputField name="Организация" id="50">
-					<DataPath>8</DataPath>
 					<Width>25</Width>
 					<HorizontalStretch>false</HorizontalStretch>
 					<ChoiceParameters>
@@ -146,7 +143,6 @@
 							<ExtendedTooltip name="ГруппаЗаполнитьАвансыExtendedTooltip" id="486"/>
 							<ChildItems>
 								<InputField name="ПравилаОтборПолученныхАвансов" id="354">
-									<DataPath>18</DataPath>
 									<Width>45</Width>
 									<HorizontalStretch>false</HorizontalStretch>
 									<ListChoiceMode>true</ListChoiceMode>
@@ -266,7 +262,6 @@
 									<EnableStartDrag>true</EnableStartDrag>
 									<EnableDrag>true</EnableDrag>
 									<FileDragMode>AsFile</FileDragMode>
-									<DataPath>11</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -295,11 +290,56 @@
 												</Title>
 												<ExtendedTooltip name="ПолученныеАвансыСформироватьСчетФактуруExtendedTooltip" id="494"/>
 											</Button>
+											<Button name="ПолученныеАвансыВыбратьВыделенные" id="672">
+												<Type>CommandBarButton</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="ПолученныеАвансыВыбратьВыделенныеРасширеннаяПодсказка" id="673"/>
+											</Button>
+											<Button name="ПолученныеАвансыИсключитьВыделенные" id="674">
+												<Type>CommandBarButton</Type>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="ПолученныеАвансыИсключитьВыделенныеРасширеннаяПодсказка" id="675"/>
+											</Button>
 										</ChildItems>
 									</ContextMenu>
 									<AutoCommandBar name="ПолученныеАвансыКоманднаяПанель" id="210">
 										<Autofill>false</Autofill>
 										<ChildItems>
+											<ButtonGroup name="ГруппаКомандТаблицы" id="644">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Группа команд таблицы</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Table command group</v8:content>
+													</v8:item>
+												</Title>
+												<ToolTip>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Группа команд таблицы</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Table command group</v8:content>
+													</v8:item>
+												</ToolTip>
+												<ExtendedTooltip name="ГруппаКомандТаблицыРасширеннаяПодсказка" id="645"/>
+												<ChildItems>
+													<Button name="ТаблицаКОформлениюВыбрать" id="646">
+														<Type>CommandBarButton</Type>
+														<CommandName>0</CommandName>
+														<ExtendedTooltip name="ТаблицаКОформлениюВыбратьРасширеннаяПодсказка" id="647"/>
+													</Button>
+													<Button name="ТаблицаКОформлениюИсключить" id="648">
+														<Type>CommandBarButton</Type>
+														<CommandName>0</CommandName>
+														<ExtendedTooltip name="ТаблицаКОформлениюИсключитьРасширеннаяПодсказка" id="649"/>
+													</Button>
+												</ChildItems>
+											</ButtonGroup>
 											<Button name="ЗарегистрироватьСчетаФактурыВсе" id="264">
 												<Type>CommandBarButton</Type>
 												<Representation>PictureAndText</Representation>
@@ -319,7 +359,7 @@
 													</v8:item>
 													<v8:item>
 														<v8:lang>en</v8:lang>
-														<v8:content>Received advances group standard commands </v8:content>
+														<v8:content>Received advances group standard commands</v8:content>
 													</v8:item>
 												</Title>
 												<CommandSource>Item.ПолученныеАвансы</CommandSource>
@@ -382,6 +422,41 @@
 													</Button>
 												</ChildItems>
 											</Popup>
+											<Popup name="ГруппаУстановитьРеквизиты" id="650">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Установить реквизиты</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Set attributes</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="ГруппаУстановитьРеквизитыРасширеннаяПодсказка" id="651"/>
+												<ChildItems>
+													<Button name="УстановитьРуководителя" id="668">
+														<Type>CommandBarButton</Type>
+														<CommandName>0</CommandName>
+														<ExtendedTooltip name="УстановитьРуководителяРасширеннаяПодсказка" id="669"/>
+													</Button>
+													<Button name="УстановитьГлавногоБухгалтера" id="670">
+														<Type>CommandBarButton</Type>
+														<CommandName>0</CommandName>
+														<ExtendedTooltip name="УстановитьГлавногоБухгалтераРасширеннаяПодсказка" id="671"/>
+													</Button>
+													<Button name="ПолученныеАвансыУстановитьПодразделение" id="654">
+														<Type>CommandBarButton</Type>
+														<CommandName>0</CommandName>
+														<ExtendedTooltip name="ПолученныеАвансыУстановитьПодразделениеРасширеннаяПодсказка" id="655"/>
+													</Button>
+													<Button name="ПолученныеАвансыУстановитьОтветственного" id="652">
+														<Type>CommandBarButton</Type>
+														<CommandName>0</CommandName>
+														<ExtendedTooltip name="ПолученныеАвансыУстановитьОтветственногоРасширеннаяПодсказка" id="653"/>
+													</Button>
+												</ChildItems>
+											</Popup>
 										</ChildItems>
 									</AutoCommandBar>
 									<ExtendedTooltip name="ПолученныеАвансыExtendedTooltip" id="498"/>
@@ -410,6 +485,13 @@
 										<ExtendedTooltip name="ПолученныеАвансыУправлениеПоискомРасширеннаяПодсказка" id="586"/>
 									</SearchControlAddition>
 									<ChildItems>
+										<CheckBoxField name="ПолученныеАвансыВыбран" id="641">
+											<TitleLocation>None</TitleLocation>
+											<EditMode>EnterOnInput</EditMode>
+											<CheckBoxType>Auto</CheckBoxType>
+											<ContextMenu name="ПолученныеАвансыВыбранКонтекстноеМеню" id="642"/>
+											<ExtendedTooltip name="ПолученныеАвансыВыбранРасширеннаяПодсказка" id="643"/>
+										</CheckBoxField>
 										<InputField name="ПолученныеАвансыДатаВыписки" id="457">
 											<EditMode>EnterOnInput</EditMode>
 											<Width>8</Width>
@@ -511,6 +593,22 @@
 											<ContextMenu name="ПолученныеАвансыСчетФактураКонтекстноеМеню" id="466"/>
 											<ExtendedTooltip name="ПолученныеАвансыСчетФактураExtendedTooltip" id="510"/>
 										</InputField>
+										<InputField name="ПолученныеАвансыРуководитель" id="662">
+											<ContextMenu name="ПолученныеАвансыРуководительКонтекстноеМеню" id="663"/>
+											<ExtendedTooltip name="ПолученныеАвансыРуководительРасширеннаяПодсказка" id="664"/>
+										</InputField>
+										<InputField name="ПолученныеАвансыГлавныйБухгалтер" id="665">
+											<ContextMenu name="ПолученныеАвансыГлавныйБухгалтерКонтекстноеМеню" id="666"/>
+											<ExtendedTooltip name="ПолученныеАвансыГлавныйБухгалтерРасширеннаяПодсказка" id="667"/>
+										</InputField>
+										<InputField name="ПолученныеАвансыПодразделение" id="659">
+											<ContextMenu name="ПолученныеАвансыПодразделениеКонтекстноеМеню" id="660"/>
+											<ExtendedTooltip name="ПолученныеАвансыПодразделениеРасширеннаяПодсказка" id="661"/>
+										</InputField>
+										<InputField name="ПолученныеАвансыОтветственный" id="656">
+											<ContextMenu name="ПолученныеАвансыОтветственныйКонтекстноеМеню" id="657"/>
+											<ExtendedTooltip name="ПолученныеАвансыОтветственныйРасширеннаяПодсказка" id="658"/>
+										</InputField>
 									</ChildItems>
 								</Table>
 							</ChildItems>
@@ -547,7 +645,6 @@
 							<UseAlternationRowColor>true</UseAlternationRowColor>
 							<EnableStartDrag>true</EnableStartDrag>
 							<FileDragMode>AsFile</FileDragMode>
-							<DataPath>12</DataPath>
 							<Title>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -659,7 +756,7 @@
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Explanation</v8:content>
+									<v8:content>Note</v8:content>
 								</v8:item>
 							</Title>
 							<Representation>None</Representation>
@@ -704,7 +801,6 @@
 			</ChildItems>
 		</Pages>
 		<LabelField name="СмТакжеВРаботе" id="635">
-			<DataPath>22</DataPath>
 			<TitleLocation>None</TitleLocation>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<ContextMenu name="СмТакжеВРаботеКонтекстноеМеню" id="636"/>
@@ -753,7 +849,6 @@
 						<ExtendedTooltip name="ГруппаПериодExtendedTooltip" id="546"/>
 						<ChildItems>
 							<InputField name="НачалоПериода" id="547">
-								<DataPath>1</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -786,7 +881,6 @@
 								<ExtendedTooltip name="ДекорацияТиреExtendedTooltip" id="552"/>
 							</LabelDecoration>
 							<InputField name="КонецПериода" id="553">
-								<DataPath>2</DataPath>
 								<TitleLocation>None</TitleLocation>
 								<Width>9</Width>
 								<ContextMenu name="КонецПериодаКонтекстноеМеню" id="554"/>
@@ -794,13 +888,12 @@
 							</InputField>
 							<Button name="ВыбратьПериод" id="556">
 								<Type>UsualButton</Type>
-								<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+								<CommandName>0</CommandName>
 								<ExtendedTooltip name="ВыбратьПериодРасширеннаяПодсказка" id="557"/>
 							</Button>
 						</ChildItems>
 					</UsualGroup>
 					<InputField name="Организация" id="50">
-						<DataPath>8</DataPath>
 						<Width>25</Width>
 						<HorizontalStretch>false</HorizontalStretch>
 						<ChoiceParameters>
@@ -859,7 +952,6 @@
 								<ExtendedTooltip name="ГруппаЗаполнитьАвансыExtendedTooltip" id="486"/>
 								<ChildItems>
 									<InputField name="ПравилаОтборПолученныхАвансов" id="354">
-										<DataPath>18</DataPath>
 										<Width>45</Width>
 										<HorizontalStretch>false</HorizontalStretch>
 										<ListChoiceMode>true</ListChoiceMode>
@@ -940,7 +1032,7 @@
 									<Button name="ЗаполнитьПолученныеАвансы" id="235">
 										<Type>UsualButton</Type>
 										<SkipOnInput>false</SkipOnInput>
-										<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+										<CommandName>0</CommandName>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -979,7 +1071,6 @@
 										<EnableStartDrag>true</EnableStartDrag>
 										<EnableDrag>true</EnableDrag>
 										<FileDragMode>AsFile</FileDragMode>
-										<DataPath>11</DataPath>
 										<Title>
 											<v8:item>
 												<v8:lang>ru</v8:lang>
@@ -995,7 +1086,7 @@
 											<ChildItems>
 												<Button name="ПолученныеАвансыСформироватьСчетФактуру" id="408">
 													<Type>CommandBarButton</Type>
-													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<CommandName>0</CommandName>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -1008,16 +1099,61 @@
 													</Title>
 													<ExtendedTooltip name="ПолученныеАвансыСформироватьСчетФактуруExtendedTooltip" id="494"/>
 												</Button>
+												<Button name="ПолученныеАвансыВыбратьВыделенные" id="672">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="ПолученныеАвансыВыбратьВыделенныеРасширеннаяПодсказка" id="673"/>
+												</Button>
+												<Button name="ПолученныеАвансыИсключитьВыделенные" id="674">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="ПолученныеАвансыИсключитьВыделенныеРасширеннаяПодсказка" id="675"/>
+												</Button>
 											</ChildItems>
 										</ContextMenu>
 										<AutoCommandBar name="ПолученныеАвансыКоманднаяПанель" id="210">
 											<Autofill>false</Autofill>
 											<ChildItems>
+												<ButtonGroup name="ГруппаКомандТаблицы" id="644">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа команд таблицы</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Table command group</v8:content>
+														</v8:item>
+													</Title>
+													<ToolTip>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Группа команд таблицы</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Table command group</v8:content>
+														</v8:item>
+													</ToolTip>
+													<ExtendedTooltip name="ГруппаКомандТаблицыРасширеннаяПодсказка" id="645"/>
+													<ChildItems>
+														<Button name="ТаблицаКОформлениюВыбрать" id="646">
+															<Type>CommandBarButton</Type>
+															<CommandName>0</CommandName>
+															<ExtendedTooltip name="ТаблицаКОформлениюВыбратьРасширеннаяПодсказка" id="647"/>
+														</Button>
+														<Button name="ТаблицаКОформлениюИсключить" id="648">
+															<Type>CommandBarButton</Type>
+															<CommandName>0</CommandName>
+															<ExtendedTooltip name="ТаблицаКОформлениюИсключитьРасширеннаяПодсказка" id="649"/>
+														</Button>
+													</ChildItems>
+												</ButtonGroup>
 												<Button name="ЗарегистрироватьСчетаФактурыВсе" id="264">
 													<Type>CommandBarButton</Type>
 													<Representation>PictureAndText</Representation>
 													<SkipOnInput>false</SkipOnInput>
-													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<CommandName>0</CommandName>
 													<Picture>
 														<xr:Ref>CommonPicture.ОформитьПоРаспоряжению</xr:Ref>
 														<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -1032,7 +1168,7 @@
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>Received advances group standard commands </v8:content>
+															<v8:content>Received advances group standard commands</v8:content>
 														</v8:item>
 													</Title>
 													<CommandSource>Item.ПолученныеАвансы</CommandSource>
@@ -1064,7 +1200,7 @@
 														<Button name="УстановитьСтавкуНДС10" id="238">
 															<Type>CommandBarButton</Type>
 															<SkipOnInput>false</SkipOnInput>
-															<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+															<CommandName>0</CommandName>
 															<Title>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
@@ -1080,7 +1216,7 @@
 														<Button name="УстановитьСтавкуНДС18" id="237">
 															<Type>CommandBarButton</Type>
 															<SkipOnInput>false</SkipOnInput>
-															<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+															<CommandName>0</CommandName>
 															<Title>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
@@ -1092,6 +1228,41 @@
 																</v8:item>
 															</Title>
 															<ExtendedTooltip name="УстановитьСтавкуНДС18ExtendedTooltip" id="497"/>
+														</Button>
+													</ChildItems>
+												</Popup>
+												<Popup name="ГруппаУстановитьРеквизиты" id="650">
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Установить реквизиты</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Set attributes</v8:content>
+														</v8:item>
+													</Title>
+													<ExtendedTooltip name="ГруппаУстановитьРеквизитыРасширеннаяПодсказка" id="651"/>
+													<ChildItems>
+														<Button name="УстановитьРуководителя" id="668">
+															<Type>CommandBarButton</Type>
+															<CommandName>0</CommandName>
+															<ExtendedTooltip name="УстановитьРуководителяРасширеннаяПодсказка" id="669"/>
+														</Button>
+														<Button name="УстановитьГлавногоБухгалтера" id="670">
+															<Type>CommandBarButton</Type>
+															<CommandName>0</CommandName>
+															<ExtendedTooltip name="УстановитьГлавногоБухгалтераРасширеннаяПодсказка" id="671"/>
+														</Button>
+														<Button name="ПолученныеАвансыУстановитьПодразделение" id="654">
+															<Type>CommandBarButton</Type>
+															<CommandName>0</CommandName>
+															<ExtendedTooltip name="ПолученныеАвансыУстановитьПодразделениеРасширеннаяПодсказка" id="655"/>
+														</Button>
+														<Button name="ПолученныеАвансыУстановитьОтветственного" id="652">
+															<Type>CommandBarButton</Type>
+															<CommandName>0</CommandName>
+															<ExtendedTooltip name="ПолученныеАвансыУстановитьОтветственногоРасширеннаяПодсказка" id="653"/>
 														</Button>
 													</ChildItems>
 												</Popup>
@@ -1123,6 +1294,13 @@
 											<ExtendedTooltip name="ПолученныеАвансыУправлениеПоискомРасширеннаяПодсказка" id="586"/>
 										</SearchControlAddition>
 										<ChildItems>
+											<CheckBoxField name="ПолученныеАвансыВыбран" id="641">
+												<TitleLocation>None</TitleLocation>
+												<EditMode>EnterOnInput</EditMode>
+												<CheckBoxType>Auto</CheckBoxType>
+												<ContextMenu name="ПолученныеАвансыВыбранКонтекстноеМеню" id="642"/>
+												<ExtendedTooltip name="ПолученныеАвансыВыбранРасширеннаяПодсказка" id="643"/>
+											</CheckBoxField>
 											<InputField name="ПолученныеАвансыДатаВыписки" id="457">
 												<EditMode>EnterOnInput</EditMode>
 												<Width>8</Width>
@@ -1224,6 +1402,22 @@
 												<ContextMenu name="ПолученныеАвансыСчетФактураКонтекстноеМеню" id="466"/>
 												<ExtendedTooltip name="ПолученныеАвансыСчетФактураExtendedTooltip" id="510"/>
 											</InputField>
+											<InputField name="ПолученныеАвансыРуководитель" id="662">
+												<ContextMenu name="ПолученныеАвансыРуководительКонтекстноеМеню" id="663"/>
+												<ExtendedTooltip name="ПолученныеАвансыРуководительРасширеннаяПодсказка" id="664"/>
+											</InputField>
+											<InputField name="ПолученныеАвансыГлавныйБухгалтер" id="665">
+												<ContextMenu name="ПолученныеАвансыГлавныйБухгалтерКонтекстноеМеню" id="666"/>
+												<ExtendedTooltip name="ПолученныеАвансыГлавныйБухгалтерРасширеннаяПодсказка" id="667"/>
+											</InputField>
+											<InputField name="ПолученныеАвансыПодразделение" id="659">
+												<ContextMenu name="ПолученныеАвансыПодразделениеКонтекстноеМеню" id="660"/>
+												<ExtendedTooltip name="ПолученныеАвансыПодразделениеРасширеннаяПодсказка" id="661"/>
+											</InputField>
+											<InputField name="ПолученныеАвансыОтветственный" id="656">
+												<ContextMenu name="ПолученныеАвансыОтветственныйКонтекстноеМеню" id="657"/>
+												<ExtendedTooltip name="ПолученныеАвансыОтветственныйРасширеннаяПодсказка" id="658"/>
+											</InputField>
 										</ChildItems>
 									</Table>
 								</ChildItems>
@@ -1246,7 +1440,7 @@
 							<Button name="УдалитьНеиспользуемыеСчетаФактуры" id="351">
 								<Type>UsualButton</Type>
 								<Representation>PictureAndText</Representation>
-								<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+								<CommandName>0</CommandName>
 								<Picture>
 									<xr:Ref>StdPicture.Delete</xr:Ref>
 									<xr:LoadTransparent>true</xr:LoadTransparent>
@@ -1260,7 +1454,6 @@
 								<UseAlternationRowColor>true</UseAlternationRowColor>
 								<EnableStartDrag>true</EnableStartDrag>
 								<FileDragMode>AsFile</FileDragMode>
-								<DataPath>12</DataPath>
 								<Title>
 									<v8:item>
 										<v8:lang>ru</v8:lang>
@@ -1372,7 +1565,7 @@
 									</v8:item>
 									<v8:item>
 										<v8:lang>en</v8:lang>
-										<v8:content>Explanation</v8:content>
+										<v8:content>Note</v8:content>
 									</v8:item>
 								</Title>
 								<Representation>None</Representation>
@@ -1417,7 +1610,6 @@
 				</ChildItems>
 			</Pages>
 			<LabelField name="СмТакжеВРаботе" id="635">
-				<DataPath>22</DataPath>
 				<TitleLocation>None</TitleLocation>
 				<AutoMaxWidth>false</AutoMaxWidth>
 				<ContextMenu name="СмТакжеВРаботеКонтекстноеМеню" id="636"/>

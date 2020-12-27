@@ -1080,6 +1080,23 @@
 							</Type>
 						</Properties>
 					</Attribute>
+					<Attribute uuid="392b0b10-12cb-4d2a-aa6a-94f5618c2d52">
+						<InternalInfo/>
+						<Properties>
+							<Name>КоличествоПоРНПТ</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>b27c8e49-2808-4d32-8ad2-1242e50c1680</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>11</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
+							</Type>
+						</Properties>
+					</Attribute>
 				</ChildObjects>
 			</TabularSection>
 			<TabularSection uuid="19445fe9-a839-438b-a830-d5cdcc7a1d4b">

@@ -268,6 +268,30 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Attribute uuid="9c579f1d-449a-492f-88e9-c52e98a22f17">
+				<InternalInfo/>
+				<Properties>
+					<Name>ОтражатьСебестоимость</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>d254a063-8883-495e-881a-f9a906723d89</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="7117158f-db0e-4032-85c9-7868c73d54ab">
+				<InternalInfo/>
+				<Properties>
+					<Name>Основание</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>768181f7-9889-4a53-ab1b-6f0477563c53</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.СверкаНачальныхОстатковПоСкладу</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
 			<Form>ФормаТовары</Form>
 			<Form>ФормаРасчетыСПартнерами</Form>
 			<TabularSection uuid="a57bf9a9-dc51-4509-b1bf-6390870c6997">
@@ -536,6 +560,23 @@
 							<ObjectBelonging>Adopted</ObjectBelonging>
 							<Type>
 								<v8:Type>cfg:CatalogRef.ГруппыАналитическогоУчетаНоменклатуры</v8:Type>
+							</Type>
+						</Properties>
+					</Attribute>
+					<Attribute uuid="7eaa261b-2954-46ee-8077-cb11117c7cf8">
+						<InternalInfo/>
+						<Properties>
+							<Name>КоличествоПоРНПТ</Name>
+							<Comment/>
+							<ObjectBelonging>Adopted</ObjectBelonging>
+							<ExtendedConfigurationObject>abff4958-812f-4ca3-bfc6-aa801fa0aa0a</ExtendedConfigurationObject>
+							<Type>
+								<v8:Type>xs:decimal</v8:Type>
+								<v8:NumberQualifiers>
+									<v8:Digits>15</v8:Digits>
+									<v8:FractionDigits>11</v8:FractionDigits>
+									<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+								</v8:NumberQualifiers>
 							</Type>
 						</Properties>
 					</Attribute>

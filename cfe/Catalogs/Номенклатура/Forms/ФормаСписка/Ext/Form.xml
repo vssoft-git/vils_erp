@@ -36,6 +36,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Форма таблицы</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Table form</v8:content>
+				</v8:item>
 			</Title>
 			<Group>Horizontal</Group>
 			<Representation>None</Representation>
@@ -49,6 +53,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Страницы списков</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Pages lists</v8:content>
+						</v8:item>
 					</Title>
 					<PagesRepresentation>None</PagesRepresentation>
 					<ExtendedTooltip name="СтраницыСписковExtendedTooltip" id="179"/>
@@ -59,6 +67,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страница расширенный поиск номенклатура</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Page advanced search products</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="СтраницаРасширенныйПоискНоменклатураExtendedTooltip" id="180"/>
 							<ChildItems>
@@ -67,6 +79,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Поиск</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Search</v8:content>
 										</v8:item>
 									</Title>
 									<Group>Horizontal</Group>
@@ -79,6 +95,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Расширенный поиск</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Advanced search</v8:content>
 												</v8:item>
 											</Title>
 											<Group>Horizontal</Group>
@@ -96,6 +116,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Поиск (Alt+1)</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Search (Alt+1)</v8:content>
+														</v8:item>
 													</InputHint>
 													<ContextMenu name="СтрокаПоискаНоменклатураКонтекстноеМеню" id="37"/>
 													<ExtendedTooltip name="СтрокаПоискаНоменклатураExtendedTooltip" id="183"/>
@@ -105,6 +129,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Командная панель поиск</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Command bar search</v8:content>
 														</v8:item>
 													</Title>
 													<Width>3</Width>
@@ -136,6 +164,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Список номенклатуры</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Product list</v8:content>
+										</v8:item>
 									</Title>
 									<Group>Vertical</Group>
 									<Representation>None</Representation>
@@ -148,6 +180,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Командная панель список расширенный поиск номенклатура</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Command bar list advanced search products</v8:content>
+												</v8:item>
 											</Title>
 											<ExtendedTooltip name="КоманднаяПанельСписокРасширенныйПоискНоменклатураExtendedTooltip" id="188"/>
 											<ChildItems>
@@ -157,16 +193,30 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Команды список расширенный поиск номенклатура</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Commands list advanced search products</v8:content>
+														</v8:item>
 													</Title>
 													<ToolTip>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Группа команды список1</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Group commands list1</v8:content>
+														</v8:item>
 													</ToolTip>
 													<CommandSource>Item.СписокРасширенныйПоискНоменклатура</CommandSource>
 													<ExtendedTooltip name="ГруппаКомандыСписокРасширенныйПоискНоменклатураExtendedTooltip" id="189"/>
 												</ButtonGroup>
+												<Button name="ВыгрузитьКаталогВФайл" id="412">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+													<ExtendedTooltip name="ВыгрузитьКаталогВФайлРасширеннаяПодсказка" id="413"/>
+												</Button>
 												<Button name="КоманднаяПанельСписокРасширенныйПоискНоменклатураФормаПоискПоШтрихкоду" id="93">
 													<Type>CommandBarButton</Type>
 													<CommandName>Form.Command.ПоискПоШтрихкоду</CommandName>
@@ -178,10 +228,14 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Установить фильтр</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Set filter</v8:content>
+														</v8:item>
 													</Title>
 													<Picture>
 														<xr:Ref>CommonPicture.ФильтрПоСвойствам</xr:Ref>
-														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:LoadTransparent>false</xr:LoadTransparent>
 													</Picture>
 													<Representation>Picture</Representation>
 													<ExtendedTooltip name="РасширенныйПоискКоманднаяПанельУстановитьФильтрРасширеннаяПодсказка" id="366"/>
@@ -203,6 +257,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Горячие клавиши</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Keyboard shortcuts</v8:content>
 														</v8:item>
 													</Title>
 													<ExtendedTooltip name="ГруппаКомандыСписокРасширенныйПоискНоменклатураГорячиеКлавишиExtendedTooltip" id="191"/>
@@ -232,11 +290,19 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Команды формы список расширенный поиск номенклатура</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Form commands list advanced search products</v8:content>
+														</v8:item>
 													</Title>
 													<ToolTip>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Группа команды форма1</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Group commands form1</v8:content>
 														</v8:item>
 													</ToolTip>
 													<CommandSource>Form</CommandSource>
@@ -253,11 +319,19 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Печать</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Print</v8:content>
+														</v8:item>
 													</Title>
 													<ToolTip>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Команды печати</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Print commands</v8:content>
 														</v8:item>
 													</ToolTip>
 													<Picture>
@@ -273,6 +347,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Группа пользовательских настроек</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>User settings group</v8:content>
 												</v8:item>
 											</Title>
 											<Representation>None</Representation>
@@ -297,6 +375,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Список расширенный поиск номенклатура</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>List advanced search products</v8:content>
 												</v8:item>
 											</Title>
 											<CommandSet>
@@ -401,6 +483,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Страница стандартный поиск номенклатура</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Page standard search products</v8:content>
+								</v8:item>
 							</Title>
 							<ExtendedTooltip name="СтраницаСтандартныйПоискНоменклатураExtendedTooltip" id="205"/>
 							<ChildItems>
@@ -421,6 +507,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Список стандартный поиск номенклатура</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>List standard search products</v8:content>
 										</v8:item>
 									</Title>
 									<CommandSet>
@@ -472,10 +562,14 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Установить фильтр</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Set filter</v8:content>
+													</v8:item>
 												</Title>
 												<Picture>
 													<xr:Ref>CommonPicture.ФильтрПоСвойствам</xr:Ref>
-													<xr:LoadTransparent>true</xr:LoadTransparent>
+													<xr:LoadTransparent>false</xr:LoadTransparent>
 												</Picture>
 												<Representation>Picture</Representation>
 												<ExtendedTooltip name="СтандартныйПоискКоманднаяПанельУстановитьФильтрРасширеннаяПодсказка" id="372"/>
@@ -514,6 +608,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Команды формы список стандартный поиск номенклатура</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Form commands list standard search products</v8:content>
+													</v8:item>
 												</Title>
 												<ExtendedTooltip name="ГруппаКомандыФормыСписокСтандартныйПоискНоменклатураExtendedTooltip" id="391"/>
 												<ChildItems>
@@ -533,6 +631,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Создать на основании</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Generate</v8:content>
 															</v8:item>
 														</Title>
 														<ExtendedTooltip name="СтандартныйПоискНоменклатураСоздатьНаОснованииРасширеннаяПодсказка" id="397"/>
@@ -569,10 +671,14 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Органайзер</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Organizer</v8:content>
+															</v8:item>
 														</Title>
 														<Picture>
 															<xr:Ref>CommonPicture.Органайзер</xr:Ref>
-															<xr:LoadTransparent>true</xr:LoadTransparent>
+															<xr:LoadTransparent>false</xr:LoadTransparent>
 														</Picture>
 														<Representation>Picture</Representation>
 														<ExtendedTooltip name="СтандартныйПоискНоменклатураОрганайзерРасширеннаяПодсказка" id="407"/>
@@ -604,11 +710,19 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Печать</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Print</v8:content>
+													</v8:item>
 												</Title>
 												<ToolTip>
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Команды печати</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Print commands</v8:content>
 													</v8:item>
 												</ToolTip>
 												<Picture>
@@ -676,6 +790,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Панель категорий</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Category bar</v8:content>
+						</v8:item>
 					</Title>
 					<Width>35</Width>
 					<Group>Vertical</Group>
@@ -688,6 +806,10 @@
 								<v8:item>
 									<v8:lang>ru</v8:lang>
 									<v8:content>Фильтры номенклатуры</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Product filters</v8:content>
 								</v8:item>
 							</Title>
 							<Group>Horizontal</Group>
@@ -714,6 +836,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Командная панель вариант навигации</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Command bar navigation option</v8:content>
+										</v8:item>
 									</Title>
 									<Width>10</Width>
 									<HorizontalLocation>Right</HorizontalLocation>
@@ -729,6 +855,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Создать</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Create</v8:content>
 												</v8:item>
 											</Title>
 											<Picture>
@@ -746,6 +876,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Вид номенклатуры</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Product kind</v8:content>
+														</v8:item>
 													</Title>
 													<ExtendedTooltip name="СоздатьВидНоменклатурыРасширеннаяПодсказка" id="383"/>
 												</Button>
@@ -756,6 +890,10 @@
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Группу видов номенклатуры</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Product kinds group</v8:content>
 														</v8:item>
 													</Title>
 													<ExtendedTooltip name="СоздатьГруппуВидовНоменклатурыРасширеннаяПодсказка" id="385"/>
@@ -774,7 +912,7 @@
 											<CommandName>Form.Command.ИзменитьВариантНавигации</CommandName>
 											<Picture>
 												<xr:Ref>CommonPicture.ПрочиеПользовательскиеНастройки</xr:Ref>
-												<xr:LoadTransparent>true</xr:LoadTransparent>
+												<xr:LoadTransparent>false</xr:LoadTransparent>
 											</Picture>
 											<ExtendedTooltip name="ИзменитьВариантНавигацииРасширеннаяПодсказка" id="357"/>
 										</Button>
@@ -788,6 +926,10 @@
 									<v8:lang>ru</v8:lang>
 									<v8:content>Варианты навигации</v8:content>
 								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Navigation options</v8:content>
+								</v8:item>
 							</Title>
 							<PagesRepresentation>None</PagesRepresentation>
 							<ExtendedTooltip name="ВариантыНавигацииExtendedTooltip" id="225"/>
@@ -797,6 +939,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Навигация иерархия номенклатуры</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Products hierarchy navigation</v8:content>
 										</v8:item>
 									</Title>
 									<ShowTitle>false</ShowTitle>
@@ -818,6 +964,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Иерархия номенклатуры</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Products hierarchy</v8:content>
 												</v8:item>
 											</Title>
 											<CommandSet>
@@ -914,6 +1064,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Группа номенклатуры</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Products group</v8:content>
+														</v8:item>
 													</Title>
 													<ContextMenu name="ГруппаНоменклатурыКонтекстноеМеню" id="39"/>
 													<ExtendedTooltip name="ГруппаНоменклатурыExtendedTooltip" id="238"/>
@@ -927,6 +1081,10 @@
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Навигация виды номенклатуры</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Product kinds navigation</v8:content>
 										</v8:item>
 									</Title>
 									<ShowTitle>false</ShowTitle>
@@ -957,6 +1115,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Виды номенклатуры</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Product kinds</v8:content>
 												</v8:item>
 											</Title>
 											<CommandSet>
@@ -1000,6 +1162,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Вид номенклатуры</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Product kind</v8:content>
+															</v8:item>
 														</Title>
 														<ExtendedTooltip name="ВидыНоменклатурыСоздатьРасширеннаяПодсказка" id="342"/>
 													</Button>
@@ -1010,6 +1176,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Группу видов номенклатуры</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Product kinds group</v8:content>
 															</v8:item>
 														</Title>
 														<ExtendedTooltip name="ВидыНоменклатурыСоздатьГруппуРасширеннаяПодсказка" id="344"/>
@@ -1035,6 +1205,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Виды номенклатуры контекстное меню стандартные команды</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Product kinds context menu standard commands </v8:content>
 															</v8:item>
 														</Title>
 														<CommandSource>Item.ВидыНоменклатуры</CommandSource>
@@ -1101,6 +1275,10 @@
 													<v8:lang>ru</v8:lang>
 													<v8:content>Дерево отборов</v8:content>
 												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>Filter tree</v8:content>
+												</v8:item>
 											</Title>
 											<CommandSet>
 												<ExcludedCommand>Add</ExcludedCommand>
@@ -1155,6 +1333,10 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Дерево отборов группа представление</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Filter tree group presentation</v8:content>
+														</v8:item>
 													</Title>
 													<Group>InCell</Group>
 													<ExtendedTooltip name="ДеревоОтборовГруппаПредставлениеExtendedTooltip" id="246"/>
@@ -1195,6 +1377,10 @@
 											<v8:lang>ru</v8:lang>
 											<v8:content>Страница товары другого качества</v8:content>
 										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Page other quality goods</v8:content>
+										</v8:item>
 									</Title>
 									<ExtendedTooltip name="СтраницаТоварыДругогоКачестваExtendedTooltip" id="250"/>
 									<ChildItems>
@@ -1226,6 +1412,10 @@
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Список качества</v8:content>
+												</v8:item>
+												<v8:item>
+													<v8:lang>en</v8:lang>
+													<v8:content>List qualities</v8:content>
 												</v8:item>
 											</Title>
 											<CommandSet>
@@ -1333,6 +1523,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список номенклатура</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>List products</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>cfg:DynamicList</v8:Type>
@@ -1379,9 +1573,11 @@
 						ИНАЧЕ 2
 					КОНЕЦ
 
-	КОНЕЦ КАК ИндексКартинки
+	КОНЕЦ КАК ИндексКартинки	
+ 	
 ИЗ
 	Справочник.Номенклатура КАК СпрНоменклатура
+	
 ГДЕ
 	НЕ СпрНоменклатура.ЭтоГруппа
 {ГДЕ
@@ -1416,6 +1612,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Виды номенклатуры</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Product kinds</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1459,6 +1659,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Поиск</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Search</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -1473,6 +1677,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Иерархия номенклатуры</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Products hierarchy</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1515,6 +1723,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Дерево отборов</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Filter tree</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTree</v8:Type>
@@ -1526,6 +1738,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отбор</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Filter</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -1536,6 +1752,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя реквизита</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Attribute name</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1551,6 +1771,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Значение отбора</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Filter value</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1580,6 +1804,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Представление</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Presentation</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -1595,6 +1823,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Это доп реквизит</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>This is an additional attribute</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -1605,6 +1837,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Фиксированное значение</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Fixed value</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1617,6 +1853,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отбор доступен</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Filter is available</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -1628,6 +1868,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отбор установлен</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Filter is set</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -1638,6 +1882,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Интервал от</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Interval from</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1659,6 +1907,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Интервал до</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Interval to</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
@@ -1679,6 +1931,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Представление отбора</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Filter presentation</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -1694,6 +1950,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отбор характеристик</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Characteristic filter</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -1707,6 +1967,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вид</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Kind</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>cfg:CatalogRef.ВидыНоменклатуры</v8:Type>
@@ -1717,6 +1981,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Использовать полнотекстовый поиск</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Use full-text search</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1729,6 +1997,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Индекс полнотекстового поиска актуален</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Full-text search index is up-to-date</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1739,6 +2011,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сегмент</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Segment</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1754,6 +2030,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вариант навигации</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Navigation option</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>cfg:EnumRef.ВариантыНавигацииВФормахНоменклатуры</v8:Type>
@@ -1764,6 +2044,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Фильтр по</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Filter by</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1776,6 +2060,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Использовать подключаемое оборудование</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Use peripherals</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1786,6 +2074,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Поиск номенклатуры не удачный</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Products search returned no results</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1798,6 +2090,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>По точному соответствию</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>By exact match</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1809,6 +2105,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Информационная база файловая</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>File infobase</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -1819,6 +2119,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Код ошибки поиска</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Search error code</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1835,6 +2139,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Текущая иерархия номенклатуры</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Current products hierarchy</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
@@ -1845,6 +2153,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Код формы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Form code</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1861,16 +2173,25 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Список качества</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>List qualities</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueListType</v8:Type>
 			</Type>
+			<Settings xsi:type="v8:TypeDescription"/>
 		</Attribute>
 		<Attribute name="НоменклатураИсходногоКачества" id="1000020">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Товар</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Product</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -1883,6 +2204,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Таблица параметров отбора</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Filter parameters table</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>v8:ValueTable</v8:Type>
@@ -1893,6 +2218,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Имя реквизита</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Attribute name</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1908,6 +2237,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Значение отбора</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Filter value</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1937,6 +2270,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Представление</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Presentation</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:string</v8:Type>
@@ -1952,6 +2289,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Фиксированное значение</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Fixed value</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -1962,6 +2303,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Интервал числа от</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Number interval from</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -1979,6 +2324,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Интервал числа до</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Number interval until</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:decimal</v8:Type>
@@ -1995,6 +2344,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Интервал даты от</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Date interval from</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:dateTime</v8:Type>
@@ -2008,6 +2361,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Интервал даты до</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Date interval until</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -2023,6 +2380,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Интервал числа</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Number interval</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -2034,6 +2395,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Интервал даты</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Date interval</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -2044,6 +2409,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Представление отбора</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Filter presentation</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -2060,6 +2429,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отбор</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Filter</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -2070,6 +2443,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Отбор характеристик</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Characteristic filter</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -2082,6 +2459,10 @@
 							<v8:lang>ru</v8:lang>
 							<v8:content>Это доп реквизит</v8:content>
 						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>This is an additional attribute</v8:content>
+						</v8:item>
 					</Title>
 					<Type>
 						<v8:Type>xs:boolean</v8:Type>
@@ -2092,6 +2473,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Интервал от</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Interval from</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -2112,6 +2497,10 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Интервал до</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Interval to</v8:content>
 						</v8:item>
 					</Title>
 					<Type>
@@ -2135,6 +2524,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Поддерживаемые типы подключаемого оборудования</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Supported peripheral types</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:string</v8:Type>
@@ -2150,6 +2543,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Использовать характеристики номенклатуры</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Use product characteristics</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -2161,6 +2558,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вид</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Kind</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>cfg:CatalogRef.ВидыНоменклатуры</v8:Type>
@@ -2171,6 +2572,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Вариант поиска товаров</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Goods search option</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2187,6 +2592,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Использовать стандартный поиск при подборе товаров</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Use standard search when selecting goods</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -2197,6 +2606,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Есть фильтр по поиску номенклатуры</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>There is a filter for products search</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2209,6 +2622,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Это базовая</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>This is basic</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -2219,6 +2636,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Надпись вариант навигации</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Label navigation option</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2231,6 +2652,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Есть право настройки видов номенклатуры</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>There is a right to set up product kinds</v8:content>
+				</v8:item>
 			</Title>
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
@@ -2241,6 +2666,10 @@
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Цвет текста формы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Form text color</v8:content>
 				</v8:item>
 			</Title>
 			<Type>
@@ -2253,6 +2682,10 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Параметры подключаемых команд</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Attachable command parameters</v8:content>
+				</v8:item>
 			</Title>
 			<Type/>
 		</Attribute>
@@ -2264,11 +2697,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить выделенные</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change selected</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить выделенные расширенный поиск</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit selected advanced search</v8:content>
 				</v8:item>
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -2279,11 +2720,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Найти</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Find</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Найти</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Find</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2298,11 +2747,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Поиск по штрихкоду</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Search by barcode</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Поиск по штрихкоду</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Search by barcode</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>F7</Shortcut>
@@ -2319,11 +2776,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить выделенные</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change selected</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить выделенные группы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Edit selected group</v8:content>
 				</v8:item>
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -2334,11 +2799,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Номенклатура с аналогичными свойствами</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Products with similar properties</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Номенклатура с аналогичными свойствами</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Products with similar properties</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2353,11 +2826,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Товары другого качества</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Another quality goods</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Товары другого качества</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Another quality goods</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2375,11 +2856,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сбросить отборы по свойствам</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Reset filters by properties</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Сбросить всё</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Reset all</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Picture>
@@ -2395,11 +2884,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить поиск...</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure search...</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Настроить поиск</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Configure search</v8:content>
 				</v8:item>
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -2410,11 +2907,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить выделенные</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change selected</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить выделенные стандартный поиск</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change the selected standard search</v8:content>
 				</v8:item>
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -2425,11 +2930,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти к строке поиска</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go to the search bar</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Перейти к строке поиска</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Go to the search bar</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Shortcut>Alt+1</Shortcut>
@@ -2441,11 +2954,19 @@
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить вариант навигации</v8:content>
 				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change navigation option</v8:content>
+				</v8:item>
 			</Title>
 			<ToolTip>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
 					<v8:content>Изменить вариант навигации</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Change navigation option</v8:content>
 				</v8:item>
 			</ToolTip>
 			<CurrentRowUse>DontUse</CurrentRowUse>
@@ -2492,6 +3013,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Форма таблицы</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Table form</v8:content>
+					</v8:item>
 				</Title>
 				<Group>Horizontal</Group>
 				<Representation>None</Representation>
@@ -2505,6 +3030,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Страницы списков</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Pages lists</v8:content>
+							</v8:item>
 						</Title>
 						<PagesRepresentation>None</PagesRepresentation>
 						<ExtendedTooltip name="СтраницыСписковExtendedTooltip" id="179"/>
@@ -2515,6 +3044,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Страница расширенный поиск номенклатура</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Page advanced search products</v8:content>
+									</v8:item>
 								</Title>
 								<ExtendedTooltip name="СтраницаРасширенныйПоискНоменклатураExtendedTooltip" id="180"/>
 								<ChildItems>
@@ -2523,6 +3056,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Поиск</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Search</v8:content>
 											</v8:item>
 										</Title>
 										<Group>Horizontal</Group>
@@ -2535,6 +3072,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Расширенный поиск</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Advanced search</v8:content>
 													</v8:item>
 												</Title>
 												<Group>Horizontal</Group>
@@ -2552,6 +3093,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Поиск (Alt+1)</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Search (Alt+1)</v8:content>
+															</v8:item>
 														</InputHint>
 														<ContextMenu name="СтрокаПоискаНоменклатураКонтекстноеМеню" id="37"/>
 														<ExtendedTooltip name="СтрокаПоискаНоменклатураExtendedTooltip" id="183"/>
@@ -2561,6 +3106,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Командная панель поиск</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Command bar search</v8:content>
 															</v8:item>
 														</Title>
 														<Width>3</Width>
@@ -2592,6 +3141,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Список номенклатуры</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Product list</v8:content>
+											</v8:item>
 										</Title>
 										<Group>Vertical</Group>
 										<Representation>None</Representation>
@@ -2604,6 +3157,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Командная панель список расширенный поиск номенклатура</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Command bar list advanced search products</v8:content>
+													</v8:item>
 												</Title>
 												<ExtendedTooltip name="КоманднаяПанельСписокРасширенныйПоискНоменклатураExtendedTooltip" id="188"/>
 												<ChildItems>
@@ -2613,16 +3170,30 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Команды список расширенный поиск номенклатура</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Commands list advanced search products</v8:content>
+															</v8:item>
 														</Title>
 														<ToolTip>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Группа команды список1</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Group commands list1</v8:content>
+															</v8:item>
 														</ToolTip>
 														<CommandSource>Item.СписокРасширенныйПоискНоменклатура</CommandSource>
 														<ExtendedTooltip name="ГруппаКомандыСписокРасширенныйПоискНоменклатураExtendedTooltip" id="189"/>
 													</ButtonGroup>
+													<Button name="ВыгрузитьКаталогВФайл" id="412">
+														<Type>CommandBarButton</Type>
+														<CommandName>0</CommandName>
+														<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+														<ExtendedTooltip name="ВыгрузитьКаталогВФайлРасширеннаяПодсказка" id="413"/>
+													</Button>
 													<Button name="КоманднаяПанельСписокРасширенныйПоискНоменклатураФормаПоискПоШтрихкоду" id="93">
 														<Type>CommandBarButton</Type>
 														<CommandName>Form.Command.ПоискПоШтрихкоду</CommandName>
@@ -2634,10 +3205,14 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Установить фильтр</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Set filter</v8:content>
+															</v8:item>
 														</Title>
 														<Picture>
 															<xr:Ref>CommonPicture.ФильтрПоСвойствам</xr:Ref>
-															<xr:LoadTransparent>true</xr:LoadTransparent>
+															<xr:LoadTransparent>false</xr:LoadTransparent>
 														</Picture>
 														<Representation>Picture</Representation>
 														<ExtendedTooltip name="РасширенныйПоискКоманднаяПанельУстановитьФильтрРасширеннаяПодсказка" id="366"/>
@@ -2659,6 +3234,10 @@
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Горячие клавиши</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Keyboard shortcuts</v8:content>
 															</v8:item>
 														</Title>
 														<ExtendedTooltip name="ГруппаКомандыСписокРасширенныйПоискНоменклатураГорячиеКлавишиExtendedTooltip" id="191"/>
@@ -2688,11 +3267,19 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Команды формы список расширенный поиск номенклатура</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Form commands list advanced search products</v8:content>
+															</v8:item>
 														</Title>
 														<ToolTip>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Группа команды форма1</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Group commands form1</v8:content>
 															</v8:item>
 														</ToolTip>
 														<CommandSource>Form</CommandSource>
@@ -2700,7 +3287,7 @@
 													</ButtonGroup>
 													<Button name="КоманднаяПанельСписокРасширенныйПоискНоменклатураСправка" id="161">
 														<Type>CommandBarButton</Type>
-														<CommandName>Form.StandardCommand.Help</CommandName>
+														<CommandName>0</CommandName>
 														<ExtendedTooltip name="КоманднаяПанельСписокРасширенныйПоискНоменклатураСправкаExtendedTooltip" id="197"/>
 													</Button>
 													<Popup name="ПодменюПечатьСписокРасширенный" id="301">
@@ -2709,11 +3296,19 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Печать</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Print</v8:content>
+															</v8:item>
 														</Title>
 														<ToolTip>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Команды печати</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Print commands</v8:content>
 															</v8:item>
 														</ToolTip>
 														<Picture>
@@ -2729,6 +3324,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Группа пользовательских настроек</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>User settings group</v8:content>
 													</v8:item>
 												</Title>
 												<Representation>None</Representation>
@@ -2753,6 +3352,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Список расширенный поиск номенклатура</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>List advanced search products</v8:content>
 													</v8:item>
 												</Title>
 												<CommandSet>
@@ -2857,6 +3460,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Страница стандартный поиск номенклатура</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Page standard search products</v8:content>
+									</v8:item>
 								</Title>
 								<ExtendedTooltip name="СтраницаСтандартныйПоискНоменклатураExtendedTooltip" id="205"/>
 								<ChildItems>
@@ -2877,6 +3484,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Список стандартный поиск номенклатура</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>List standard search products</v8:content>
 											</v8:item>
 										</Title>
 										<CommandSet>
@@ -2928,10 +3539,14 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Установить фильтр</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Set filter</v8:content>
+														</v8:item>
 													</Title>
 													<Picture>
 														<xr:Ref>CommonPicture.ФильтрПоСвойствам</xr:Ref>
-														<xr:LoadTransparent>true</xr:LoadTransparent>
+														<xr:LoadTransparent>false</xr:LoadTransparent>
 													</Picture>
 													<Representation>Picture</Representation>
 													<ExtendedTooltip name="СтандартныйПоискКоманднаяПанельУстановитьФильтрРасширеннаяПодсказка" id="372"/>
@@ -2970,17 +3585,21 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Команды формы список стандартный поиск номенклатура</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Form commands list standard search products</v8:content>
+														</v8:item>
 													</Title>
 													<ExtendedTooltip name="ГруппаКомандыФормыСписокСтандартныйПоискНоменклатураExtendedTooltip" id="391"/>
 													<ChildItems>
 														<Button name="СтандартныйПоискИзменитьФорму" id="392">
 															<Type>CommandBarButton</Type>
-															<CommandName>Form.StandardCommand.CustomizeForm</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="СтандартныйПоискИзменитьФормуРасширеннаяПодсказка" id="393"/>
 														</Button>
 														<Button name="СтандартныйПоискКомандаДополнительныеСведенияКоманднаяПанель" id="394">
 															<Type>CommandBarButton</Type>
-															<CommandName>CommonCommand.ДополнительныеСведенияКоманднаяПанель</CommandName>
+															<CommandName>0</CommandName>
 															<DataPath>Items.СписокСтандартныйПоискНоменклатура.CurrentData.Ссылка</DataPath>
 															<ExtendedTooltip name="СтандартныйПоискКомандаДополнительныеСведенияКоманднаяПанельРасширеннаяПодсказка" id="395"/>
 														</Button>
@@ -2990,30 +3609,34 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Создать на основании</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Generate</v8:content>
+																</v8:item>
 															</Title>
 															<ExtendedTooltip name="СтандартныйПоискНоменклатураСоздатьНаОснованииРасширеннаяПодсказка" id="397"/>
 															<ChildItems>
 																<Button name="СтандартныйПоискКомандаИнтеграцияС1СДокументооборотСоздатьПисьмо" id="398">
 																	<Type>CommandBarButton</Type>
-																	<CommandName>CommonCommand.ИнтеграцияС1СДокументооборотСоздатьПисьмо</CommandName>
+																	<CommandName>0</CommandName>
 																	<DataPath>Items.СписокСтандартныйПоискНоменклатура.CurrentData.Ссылка</DataPath>
 																	<ExtendedTooltip name="СтандартныйПоискКомандаИнтеграцияС1СДокументооборотСоздатьПисьмоРасширеннаяПодсказка" id="399"/>
 																</Button>
 																<Button name="СтандартныйПоискНоменклатураКомандаИнтеграцияС1СДокументооборотСоздатьБизнесПроцесс" id="400">
 																	<Type>CommandBarButton</Type>
-																	<CommandName>CommonCommand.ИнтеграцияС1СДокументооборотСоздатьБизнесПроцесс</CommandName>
+																	<CommandName>0</CommandName>
 																	<DataPath>Items.СписокСтандартныйПоискНоменклатура.CurrentData.Ссылка</DataPath>
 																	<ExtendedTooltip name="СтандартныйПоискНоменклатураКомандаИнтеграцияС1СДокументооборотСоздатьБизнесПроцессРасширеннаяПодсказка" id="401"/>
 																</Button>
 																<Button name="СтандартныйПоискНоменклатураБизнесПроцессЗаданиеСоздатьНаОсновании" id="402">
 																	<Type>CommandBarButton</Type>
-																	<CommandName>2:3e79eab6-dfe9-4c76-9ce4-74fd71b0a867</CommandName>
+																	<CommandName>0</CommandName>
 																	<DataPath>Items.СписокСтандартныйПоискНоменклатура.CurrentData.Ссылка</DataPath>
 																	<ExtendedTooltip name="СтандартныйПоискНоменклатураБизнесПроцессЗаданиеСоздатьНаОснованииРасширеннаяПодсказка" id="403"/>
 																</Button>
 																<Button name="СписокСтандартныйПоискНоменклатураОбщаяКомандаСозданиеСвязанныхОбъектов" id="404">
 																	<Type>CommandBarButton</Type>
-																	<CommandName>CommonCommand.СозданиеСвязанныхОбъектов</CommandName>
+																	<CommandName>0</CommandName>
 																	<DataPath>Items.СписокСтандартныйПоискНоменклатура.CurrentData.Ссылка</DataPath>
 																	<ExtendedTooltip name="СписокСтандартныйПоискНоменклатураОбщаяКомандаСозданиеСвязанныхОбъектовРасширеннаяПодсказка" id="405"/>
 																</Button>
@@ -3025,23 +3648,27 @@
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Органайзер</v8:content>
 																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Organizer</v8:content>
+																</v8:item>
 															</Title>
 															<Picture>
 																<xr:Ref>CommonPicture.Органайзер</xr:Ref>
-																<xr:LoadTransparent>true</xr:LoadTransparent>
+																<xr:LoadTransparent>false</xr:LoadTransparent>
 															</Picture>
 															<Representation>Picture</Representation>
 															<ExtendedTooltip name="СтандартныйПоискНоменклатураОрганайзерРасширеннаяПодсказка" id="407"/>
 															<ChildItems>
 																<Button name="СтандартныйПоискНоменклатураКомандаНапомнить" id="408">
 																	<Type>CommandBarButton</Type>
-																	<CommandName>CommonCommand.Напомнить</CommandName>
+																	<CommandName>0</CommandName>
 																	<DataPath>Items.СписокСтандартныйПоискНоменклатура.CurrentData.Ссылка</DataPath>
 																	<ExtendedTooltip name="СтандартныйПоискНоменклатураКомандаНапомнитьРасширеннаяПодсказка" id="409"/>
 																</Button>
 																<Button name="СтандартныйПоискНоменклатураКомандаСоздатьЗаметкуПоПредмету" id="410">
 																	<Type>CommandBarButton</Type>
-																	<CommandName>CommonCommand.СоздатьЗаметкуПоПредмету</CommandName>
+																	<CommandName>0</CommandName>
 																	<DataPath>Items.СписокСтандартныйПоискНоменклатура.CurrentData.Ссылка</DataPath>
 																	<ExtendedTooltip name="СтандартныйПоискНоменклатураКомандаСоздатьЗаметкуПоПредметуРасширеннаяПодсказка" id="411"/>
 																</Button>
@@ -3051,7 +3678,7 @@
 												</ButtonGroup>
 												<Button name="КоманднаяПанельСписокСтандартныйПоискНоменклатураСправка" id="158">
 													<Type>CommandBarButton</Type>
-													<CommandName>Form.StandardCommand.Help</CommandName>
+													<CommandName>0</CommandName>
 													<ExtendedTooltip name="КоманднаяПанельСписокСтандартныйПоискНоменклатураСправкаExtendedTooltip" id="213"/>
 												</Button>
 												<Popup name="ПодменюПечатьСписокСтандартный" id="303">
@@ -3060,11 +3687,19 @@
 															<v8:lang>ru</v8:lang>
 															<v8:content>Печать</v8:content>
 														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Print</v8:content>
+														</v8:item>
 													</Title>
 													<ToolTip>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
 															<v8:content>Команды печати</v8:content>
+														</v8:item>
+														<v8:item>
+															<v8:lang>en</v8:lang>
+															<v8:content>Print commands</v8:content>
 														</v8:item>
 													</ToolTip>
 													<Picture>
@@ -3132,6 +3767,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Панель категорий</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Category bar</v8:content>
+							</v8:item>
 						</Title>
 						<Width>35</Width>
 						<Group>Vertical</Group>
@@ -3144,6 +3783,10 @@
 									<v8:item>
 										<v8:lang>ru</v8:lang>
 										<v8:content>Фильтры номенклатуры</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Product filters</v8:content>
 									</v8:item>
 								</Title>
 								<Group>Horizontal</Group>
@@ -3170,6 +3813,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Командная панель вариант навигации</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Command bar navigation option</v8:content>
+											</v8:item>
 										</Title>
 										<Width>10</Width>
 										<HorizontalLocation>Right</HorizontalLocation>
@@ -3186,6 +3833,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Создать</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Create</v8:content>
+													</v8:item>
 												</Title>
 												<Picture>
 													<xr:Ref>StdPicture.CreateListItem</xr:Ref>
@@ -3196,22 +3847,30 @@
 												<ChildItems>
 													<Button name="СоздатьВидНоменклатуры" id="382">
 														<Type>CommandBarButton</Type>
-														<CommandName>Form.Item.ВидыНоменклатуры.StandardCommand.Create</CommandName>
+														<CommandName>0</CommandName>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Вид номенклатуры</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Product kind</v8:content>
 															</v8:item>
 														</Title>
 														<ExtendedTooltip name="СоздатьВидНоменклатурыРасширеннаяПодсказка" id="383"/>
 													</Button>
 													<Button name="СоздатьГруппуВидовНоменклатуры" id="384">
 														<Type>CommandBarButton</Type>
-														<CommandName>Form.Item.ВидыНоменклатуры.StandardCommand.CreateFolder</CommandName>
+														<CommandName>0</CommandName>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
 																<v8:content>Группу видов номенклатуры</v8:content>
+															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Product kinds group</v8:content>
 															</v8:item>
 														</Title>
 														<ExtendedTooltip name="СоздатьГруппуВидовНоменклатурыРасширеннаяПодсказка" id="385"/>
@@ -3221,7 +3880,7 @@
 											<Button name="СоздатьГруппуНоменклатуры" id="388">
 												<Type>CommandBarButton</Type>
 												<Representation>Picture</Representation>
-												<CommandName>Form.Item.ИерархияНоменклатуры.StandardCommand.CreateFolder</CommandName>
+												<CommandName>0</CommandName>
 												<ExtendedTooltip name="СоздатьГруппуНоменклатурыРасширеннаяПодсказка" id="389"/>
 											</Button>
 											<Button name="ИзменитьВариантНавигации" id="356">
@@ -3230,7 +3889,7 @@
 												<CommandName>Form.Command.ИзменитьВариантНавигации</CommandName>
 												<Picture>
 													<xr:Ref>CommonPicture.ПрочиеПользовательскиеНастройки</xr:Ref>
-													<xr:LoadTransparent>true</xr:LoadTransparent>
+													<xr:LoadTransparent>false</xr:LoadTransparent>
 												</Picture>
 												<ExtendedTooltip name="ИзменитьВариантНавигацииРасширеннаяПодсказка" id="357"/>
 											</Button>
@@ -3244,6 +3903,10 @@
 										<v8:lang>ru</v8:lang>
 										<v8:content>Варианты навигации</v8:content>
 									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Navigation options</v8:content>
+									</v8:item>
 								</Title>
 								<PagesRepresentation>None</PagesRepresentation>
 								<ExtendedTooltip name="ВариантыНавигацииExtendedTooltip" id="225"/>
@@ -3253,6 +3916,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Навигация иерархия номенклатуры</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Products hierarchy navigation</v8:content>
 											</v8:item>
 										</Title>
 										<ShowTitle>false</ShowTitle>
@@ -3274,6 +3941,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Иерархия номенклатуры</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Products hierarchy</v8:content>
 													</v8:item>
 												</Title>
 												<CommandSet>
@@ -3309,22 +3980,22 @@
 													<ChildItems>
 														<Button name="ИерархияНоменклатурыКонтекстноеМенюСоздатьГруппу" id="116">
 															<Type>CommandBarButton</Type>
-															<CommandName>Form.Item.ИерархияНоменклатуры.StandardCommand.CreateFolder</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ИерархияНоменклатурыКонтекстноеМенюСоздатьГруппуExtendedTooltip" id="232"/>
 														</Button>
 														<Button name="ИерархияНоменклатурыКонтекстноеМенюИзменить" id="117">
 															<Type>CommandBarButton</Type>
-															<CommandName>Form.Item.ИерархияНоменклатуры.StandardCommand.Change</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ИерархияНоменклатурыКонтекстноеМенюИзменитьExtendedTooltip" id="233"/>
 														</Button>
 														<Button name="ИерархияНоменклатурыКонтекстноеМенюСкопировать" id="118">
 															<Type>CommandBarButton</Type>
-															<CommandName>Form.Item.ИерархияНоменклатуры.StandardCommand.Copy</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ИерархияНоменклатурыКонтекстноеМенюСкопироватьExtendedTooltip" id="234"/>
 														</Button>
 														<Button name="ИерархияНоменклатурыКонтекстноеМенюУстановитьПометкуУдаления" id="119">
 															<Type>CommandBarButton</Type>
-															<CommandName>Form.Item.ИерархияНоменклатуры.StandardCommand.SetDeletionMark</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ИерархияНоменклатурыКонтекстноеМенюУстановитьПометкуУдаленияExtendedTooltip" id="235"/>
 														</Button>
 														<Button name="ИерархияНоменклатурыКонтекстноеМенюИзменитьВыделенные" id="121">
@@ -3370,6 +4041,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Группа номенклатуры</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Products group</v8:content>
+															</v8:item>
 														</Title>
 														<ContextMenu name="ГруппаНоменклатурыКонтекстноеМеню" id="39"/>
 														<ExtendedTooltip name="ГруппаНоменклатурыExtendedTooltip" id="238"/>
@@ -3383,6 +4058,10 @@
 											<v8:item>
 												<v8:lang>ru</v8:lang>
 												<v8:content>Навигация виды номенклатуры</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Product kinds navigation</v8:content>
 											</v8:item>
 										</Title>
 										<ShowTitle>false</ShowTitle>
@@ -3413,6 +4092,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Виды номенклатуры</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Product kinds</v8:content>
 													</v8:item>
 												</Title>
 												<CommandSet>
@@ -3450,39 +4133,47 @@
 													<ChildItems>
 														<Button name="ВидыНоменклатурыСоздать" id="341">
 															<Type>CommandBarButton</Type>
-															<CommandName>Form.Item.ВидыНоменклатуры.StandardCommand.Create</CommandName>
+															<CommandName>0</CommandName>
 															<Title>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Вид номенклатуры</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Product kind</v8:content>
 																</v8:item>
 															</Title>
 															<ExtendedTooltip name="ВидыНоменклатурыСоздатьРасширеннаяПодсказка" id="342"/>
 														</Button>
 														<Button name="ВидыНоменклатурыСоздатьГруппу" id="343">
 															<Type>CommandBarButton</Type>
-															<CommandName>Form.Item.ВидыНоменклатуры.StandardCommand.CreateFolder</CommandName>
+															<CommandName>0</CommandName>
 															<Title>
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Группу видов номенклатуры</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Product kinds group</v8:content>
 																</v8:item>
 															</Title>
 															<ExtendedTooltip name="ВидыНоменклатурыСоздатьГруппуРасширеннаяПодсказка" id="344"/>
 														</Button>
 														<Button name="ВидыНоменклатурыИзменить" id="345">
 															<Type>CommandBarButton</Type>
-															<CommandName>Form.Item.ВидыНоменклатуры.StandardCommand.Change</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ВидыНоменклатурыИзменитьРасширеннаяПодсказка" id="346"/>
 														</Button>
 														<Button name="ВидыНоменклатурыСкопировать" id="347">
 															<Type>CommandBarButton</Type>
-															<CommandName>Form.Item.ВидыНоменклатуры.StandardCommand.Copy</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ВидыНоменклатурыСкопироватьРасширеннаяПодсказка" id="348"/>
 														</Button>
 														<Button name="ВидыНоменклатурыУстановитьПометкуУдаления" id="349">
 															<Type>CommandBarButton</Type>
-															<CommandName>Form.Item.ВидыНоменклатуры.StandardCommand.SetDeletionMark</CommandName>
+															<CommandName>0</CommandName>
 															<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 															<ExtendedTooltip name="ВидыНоменклатурыУстановитьПометкуУдаленияРасширеннаяПодсказка" id="350"/>
 														</Button>
@@ -3491,6 +4182,10 @@
 																<v8:item>
 																	<v8:lang>ru</v8:lang>
 																	<v8:content>Виды номенклатуры контекстное меню стандартные команды</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Product kinds context menu standard commands </v8:content>
 																</v8:item>
 															</Title>
 															<CommandSource>Item.ВидыНоменклатуры</CommandSource>
@@ -3557,6 +4252,10 @@
 														<v8:lang>ru</v8:lang>
 														<v8:content>Дерево отборов</v8:content>
 													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>Filter tree</v8:content>
+													</v8:item>
 												</Title>
 												<CommandSet>
 													<ExcludedCommand>Add</ExcludedCommand>
@@ -3611,6 +4310,10 @@
 																<v8:lang>ru</v8:lang>
 																<v8:content>Дерево отборов группа представление</v8:content>
 															</v8:item>
+															<v8:item>
+																<v8:lang>en</v8:lang>
+																<v8:content>Filter tree group presentation</v8:content>
+															</v8:item>
 														</Title>
 														<Group>InCell</Group>
 														<ExtendedTooltip name="ДеревоОтборовГруппаПредставлениеExtendedTooltip" id="246"/>
@@ -3651,6 +4354,10 @@
 												<v8:lang>ru</v8:lang>
 												<v8:content>Страница товары другого качества</v8:content>
 											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Page other quality goods</v8:content>
+											</v8:item>
 										</Title>
 										<ExtendedTooltip name="СтраницаТоварыДругогоКачестваExtendedTooltip" id="250"/>
 										<ChildItems>
@@ -3682,6 +4389,10 @@
 													<v8:item>
 														<v8:lang>ru</v8:lang>
 														<v8:content>Список качества</v8:content>
+													</v8:item>
+													<v8:item>
+														<v8:lang>en</v8:lang>
+														<v8:content>List qualities</v8:content>
 													</v8:item>
 												</Title>
 												<CommandSet>
@@ -3789,6 +4500,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Список номенклатура</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>List products</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>cfg:DynamicList</v8:Type>
@@ -3835,9 +4550,11 @@
 						ИНАЧЕ 2
 					КОНЕЦ
 
-	КОНЕЦ КАК ИндексКартинки
+	КОНЕЦ КАК ИндексКартинки	
+ 	
 ИЗ
 	Справочник.Номенклатура КАК СпрНоменклатура
+	
 ГДЕ
 	НЕ СпрНоменклатура.ЭтоГруппа
 {ГДЕ
@@ -3872,6 +4589,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Виды номенклатуры</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Product kinds</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -3915,6 +4636,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Поиск</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Search</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>xs:string</v8:Type>
@@ -3929,6 +4654,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Иерархия номенклатуры</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Products hierarchy</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -3971,6 +4700,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Дерево отборов</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Filter tree</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>v8:ValueTree</v8:Type>
@@ -3982,6 +4715,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Отбор</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Filter</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:boolean</v8:Type>
@@ -3992,6 +4729,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Имя реквизита</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Attribute name</v8:content>
 							</v8:item>
 						</Title>
 						<Type>
@@ -4007,6 +4748,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Значение отбора</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Filter value</v8:content>
 							</v8:item>
 						</Title>
 						<Type>
@@ -4036,6 +4781,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Представление</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Presentation</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:string</v8:Type>
@@ -4051,6 +4800,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Это доп реквизит</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>This is an additional attribute</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:boolean</v8:Type>
@@ -4061,6 +4814,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Фиксированное значение</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Fixed value</v8:content>
 							</v8:item>
 						</Title>
 						<Type>
@@ -4073,6 +4830,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Отбор доступен</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Filter is available</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:boolean</v8:Type>
@@ -4084,6 +4845,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Отбор установлен</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Filter is set</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:boolean</v8:Type>
@@ -4094,6 +4859,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Интервал от</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Interval from</v8:content>
 							</v8:item>
 						</Title>
 						<Type>
@@ -4115,6 +4884,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Интервал до</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Interval to</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:dateTime</v8:Type>
@@ -4135,6 +4908,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Представление отбора</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Filter presentation</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:string</v8:Type>
@@ -4150,6 +4927,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Отбор характеристик</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Characteristic filter</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:boolean</v8:Type>
@@ -4163,6 +4944,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Вид</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Kind</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>cfg:CatalogRef.ВидыНоменклатуры</v8:Type>
@@ -4173,6 +4958,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Использовать полнотекстовый поиск</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Use full-text search</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -4185,6 +4974,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Индекс полнотекстового поиска актуален</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Full-text search index is up-to-date</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
@@ -4195,6 +4988,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Сегмент</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Segment</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -4210,6 +5007,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Вариант навигации</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Navigation option</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>cfg:EnumRef.ВариантыНавигацииВФормахНоменклатуры</v8:Type>
@@ -4220,6 +5021,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Фильтр по</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Filter by</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -4232,6 +5037,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Использовать подключаемое оборудование</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Use peripherals</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
@@ -4242,6 +5051,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Поиск номенклатуры не удачный</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Products search returned no results</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -4254,6 +5067,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>По точному соответствию</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>By exact match</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
@@ -4265,6 +5082,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Информационная база файловая</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>File infobase</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
@@ -4275,6 +5096,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Код ошибки поиска</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Search error code</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -4291,6 +5116,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Текущая иерархия номенклатуры</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Current products hierarchy</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>cfg:CatalogRef.Номенклатура</v8:Type>
@@ -4301,6 +5130,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Код формы</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Form code</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -4317,16 +5150,25 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Список качества</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>List qualities</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>v8:ValueListType</v8:Type>
 				</Type>
+				<Settings xsi:type="v8:TypeDescription"/>
 			</Attribute>
 			<Attribute name="НоменклатураИсходногоКачества" id="1000020">
 				<Title>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Товар</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Product</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -4339,6 +5181,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Таблица параметров отбора</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Filter parameters table</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>v8:ValueTable</v8:Type>
@@ -4349,6 +5195,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Имя реквизита</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Attribute name</v8:content>
 							</v8:item>
 						</Title>
 						<Type>
@@ -4364,6 +5214,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Значение отбора</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Filter value</v8:content>
 							</v8:item>
 						</Title>
 						<Type>
@@ -4393,6 +5247,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Представление</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Presentation</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:string</v8:Type>
@@ -4408,6 +5266,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Фиксированное значение</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Fixed value</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:boolean</v8:Type>
@@ -4418,6 +5280,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Интервал числа от</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Number interval from</v8:content>
 							</v8:item>
 						</Title>
 						<Type>
@@ -4435,6 +5301,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Интервал числа до</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Number interval until</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:decimal</v8:Type>
@@ -4451,6 +5321,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Интервал даты от</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Date interval from</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:dateTime</v8:Type>
@@ -4464,6 +5338,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Интервал даты до</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Date interval until</v8:content>
 							</v8:item>
 						</Title>
 						<Type>
@@ -4479,6 +5357,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Интервал числа</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Number interval</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:boolean</v8:Type>
@@ -4490,6 +5372,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Интервал даты</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Date interval</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:boolean</v8:Type>
@@ -4500,6 +5386,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Представление отбора</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Filter presentation</v8:content>
 							</v8:item>
 						</Title>
 						<Type>
@@ -4516,6 +5406,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Отбор</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Filter</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:boolean</v8:Type>
@@ -4526,6 +5420,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Отбор характеристик</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Characteristic filter</v8:content>
 							</v8:item>
 						</Title>
 						<Type>
@@ -4538,6 +5436,10 @@
 								<v8:lang>ru</v8:lang>
 								<v8:content>Это доп реквизит</v8:content>
 							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>This is an additional attribute</v8:content>
+							</v8:item>
 						</Title>
 						<Type>
 							<v8:Type>xs:boolean</v8:Type>
@@ -4548,6 +5450,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Интервал от</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Interval from</v8:content>
 							</v8:item>
 						</Title>
 						<Type>
@@ -4568,6 +5474,10 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>Интервал до</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Interval to</v8:content>
 							</v8:item>
 						</Title>
 						<Type>
@@ -4591,6 +5501,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Поддерживаемые типы подключаемого оборудования</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Supported peripheral types</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>xs:string</v8:Type>
@@ -4606,6 +5520,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Использовать характеристики номенклатуры</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Use product characteristics</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
@@ -4617,6 +5535,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Вид</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Kind</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>cfg:CatalogRef.ВидыНоменклатуры</v8:Type>
@@ -4627,6 +5549,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Вариант поиска товаров</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Goods search option</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -4643,6 +5569,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Использовать стандартный поиск при подборе товаров</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Use standard search when selecting goods</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
@@ -4653,6 +5583,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Есть фильтр по поиску номенклатуры</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>There is a filter for products search</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -4665,6 +5599,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Это базовая</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>This is basic</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
@@ -4675,6 +5613,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Надпись вариант навигации</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Label navigation option</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -4687,6 +5629,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Есть право настройки видов номенклатуры</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>There is a right to set up product kinds</v8:content>
+					</v8:item>
 				</Title>
 				<Type>
 					<v8:Type>xs:boolean</v8:Type>
@@ -4697,6 +5643,10 @@
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Цвет текста формы</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Form text color</v8:content>
 					</v8:item>
 				</Title>
 				<Type>
@@ -4709,6 +5659,10 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Параметры подключаемых команд</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Attachable command parameters</v8:content>
+					</v8:item>
 				</Title>
 				<Type/>
 			</Attribute>
@@ -4720,11 +5674,19 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Изменить выделенные</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Change selected</v8:content>
+					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Изменить выделенные расширенный поиск</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Edit selected advanced search</v8:content>
 					</v8:item>
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
@@ -4735,11 +5697,19 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Найти</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Find</v8:content>
+					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Найти</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Find</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Picture>
@@ -4754,11 +5724,19 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Поиск по штрихкоду</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Search by barcode</v8:content>
+					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Поиск по штрихкоду</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Search by barcode</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Shortcut>F7</Shortcut>
@@ -4775,11 +5753,19 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Изменить выделенные</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Change selected</v8:content>
+					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Изменить выделенные группы</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Edit selected group</v8:content>
 					</v8:item>
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
@@ -4790,11 +5776,19 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Номенклатура с аналогичными свойствами</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Products with similar properties</v8:content>
+					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Номенклатура с аналогичными свойствами</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Products with similar properties</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Picture>
@@ -4809,11 +5803,19 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Товары другого качества</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Another quality goods</v8:content>
+					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Товары другого качества</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Another quality goods</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Picture>
@@ -4831,11 +5833,19 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Сбросить отборы по свойствам</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Reset filters by properties</v8:content>
+					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Сбросить всё</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Reset all</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Picture>
@@ -4851,11 +5861,19 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Настроить поиск...</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Configure search...</v8:content>
+					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Настроить поиск</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Configure search</v8:content>
 					</v8:item>
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
@@ -4866,11 +5884,19 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Изменить выделенные</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Change selected</v8:content>
+					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Изменить выделенные стандартный поиск</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Change the selected standard search</v8:content>
 					</v8:item>
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>
@@ -4881,11 +5907,19 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Перейти к строке поиска</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Go to the search bar</v8:content>
+					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Перейти к строке поиска</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Go to the search bar</v8:content>
 					</v8:item>
 				</ToolTip>
 				<Shortcut>Alt+1</Shortcut>
@@ -4897,11 +5931,19 @@
 						<v8:lang>ru</v8:lang>
 						<v8:content>Изменить вариант навигации</v8:content>
 					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Change navigation option</v8:content>
+					</v8:item>
 				</Title>
 				<ToolTip>
 					<v8:item>
 						<v8:lang>ru</v8:lang>
 						<v8:content>Изменить вариант навигации</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Change navigation option</v8:content>
 					</v8:item>
 				</ToolTip>
 				<CurrentRowUse>DontUse</CurrentRowUse>

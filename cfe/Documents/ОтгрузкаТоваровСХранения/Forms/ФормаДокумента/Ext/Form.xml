@@ -30,7 +30,7 @@
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>Create on the basis</v8:content>
+						<v8:content>Generate</v8:content>
 					</v8:item>
 				</Title>
 				<Picture>
@@ -48,7 +48,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Create on the basis (Important)</v8:content>
+								<v8:content>Generate (Important)</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииВажноеРасширеннаяПодсказка" id="904"/>
@@ -61,7 +61,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Create on the basis (Standard)</v8:content>
+								<v8:content>Generate (Standard)</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииОбычноеРасширеннаяПодсказка" id="906"/>
@@ -74,7 +74,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Create on the basis (See also)</v8:content>
+								<v8:content>Generate (See also)</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюСоздатьНаОснованииСмТакжеРасширеннаяПодсказка" id="908"/>
@@ -120,7 +120,7 @@
 					</v8:item>
 					<v8:item>
 						<v8:lang>en</v8:lang>
-						<v8:content>FIlling</v8:content>
+						<v8:content>Filling</v8:content>
 					</v8:item>
 				</Title>
 				<Picture>
@@ -167,7 +167,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Submenu reports standard</v8:content>
+								<v8:content>Standard reports submenu</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюОтчетыОбычноеРасширеннаяПодсказка" id="703"/>
@@ -180,7 +180,7 @@
 							</v8:item>
 							<v8:item>
 								<v8:lang>en</v8:lang>
-								<v8:content>Submenu reports see also</v8:content>
+								<v8:content>Reports see also submenu</v8:content>
 							</v8:item>
 						</Title>
 						<ExtendedTooltip name="ПодменюОтчетыСмТакжеРасширеннаяПодсказка" id="705"/>
@@ -192,12 +192,6 @@
 				<CommandName>21:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 				<ExtendedTooltip name="ФормаПроверитьКонтрагентовРасширеннаяПодсказка" id="829"/>
-			</Button>
-			<Button name="ФормаНеВыполнятьПроверкуСопоставленнойНоменклатурыПоставщика" id="232">
-				<Type>CommandBarButton</Type>
-				<CommandName>5:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
-				<ExtendedTooltip name="ФормаНеВыполнятьПроверкуСопоставленнойНоменклатурыПоставщикаExtendedTooltip" id="330"/>
 			</Button>
 			<Button name="ФормаОткрытьВидыЗапасов" id="911">
 				<Type>CommandBarButton</Type>
@@ -816,10 +810,10 @@
 														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
 														<ExtendedTooltip name="ТоварыДополнитьМногооборотнойТаройExtendedTooltip" id="370"/>
 													</Button>
-													<Button name="ТоварыЗаполнитьНоменклатуруПоНоменклатуреПоставщика" id="263">
+													<Button name="ТоварыЗаполнитьНоменклатуруПоНоменклатуреПартнера" id="913">
 														<Type>CommandBarButton</Type>
-														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-														<ExtendedTooltip name="ТоварыЗаполнитьНоменклатуруПоНоменклатуреПоставщикаExtendedTooltip" id="371"/>
+														<CommandName>0</CommandName>
+														<ExtendedTooltip name="ТоварыЗаполнитьНоменклатуруПоНоменклатуреПартнераРасширеннаяПодсказка" id="914"/>
 													</Button>
 												</ChildItems>
 											</ButtonGroup>
@@ -932,7 +926,7 @@
 									<ContextMenu name="ТоварыНоменклатураТипНоменклатурыКонтекстноеМеню" id="309"/>
 									<ExtendedTooltip name="ТоварыНоменклатураТипНоменклатурыExtendedTooltip" id="379"/>
 								</LabelField>
-								<LabelField name="ТоварыНоменклатураПоставщикаКод" id="265">
+								<LabelField name="ТоварыНоменклатураПартнераКод" id="921">
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -948,10 +942,10 @@
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>18</Width>
-									<ContextMenu name="ТоварыНоменклатураПоставщикаКодКонтекстноеМеню" id="266"/>
-									<ExtendedTooltip name="ТоварыНоменклатураПоставщикаКодExtendedTooltip" id="380"/>
+									<ContextMenu name="ТоварыНоменклатураПартнераКодКонтекстноеМеню" id="924"/>
+									<ExtendedTooltip name="ТоварыНоменклатураПартнераКодРасширеннаяПодсказка" id="925"/>
 								</LabelField>
-								<LabelField name="ТоварыНоменклатураПоставщикаАртикул" id="267">
+								<LabelField name="ТоварыНоменклатураПартнераАртикул" id="918">
 									<UserVisible>
 										<xr:Common>false</xr:Common>
 									</UserVisible>
@@ -967,17 +961,27 @@
 									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>18</Width>
-									<ContextMenu name="ТоварыНоменклатураПоставщикаАртикулКонтекстноеМеню" id="268"/>
-									<ExtendedTooltip name="ТоварыНоменклатураПоставщикаАртикулExtendedTooltip" id="381"/>
+									<ContextMenu name="ТоварыНоменклатураПартнераАртикулКонтекстноеМеню" id="926"/>
+									<ExtendedTooltip name="ТоварыНоменклатураПартнераАртикулРасширеннаяПодсказка" id="927"/>
 								</LabelField>
-								<InputField name="ТоварыНоменклатураПоставщика" id="157">
+								<InputField name="ТоварыНоменклатураПартнера" id="915">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Номенклатура поставщика</v8:content>
+										</v8:item>
+										<v8:item>
+											<v8:lang>en</v8:lang>
+											<v8:content>Supplier products</v8:content>
+										</v8:item>
+									</Title>
 									<EditMode>EnterOnInput</EditMode>
 									<Width>22</Width>
 									<DropListButton>true</DropListButton>
 									<ChoiceButton>true</ChoiceButton>
 									<ChoiceListButton>true</ChoiceListButton>
-									<ContextMenu name="ТоварыНоменклатураПоставщикаКонтекстноеМеню" id="158"/>
-									<ExtendedTooltip name="ТоварыНоменклатураПоставщикаExtendedTooltip" id="382"/>
+									<ContextMenu name="ТоварыНоменклатураПартнераКонтекстноеМеню" id="928"/>
+									<ExtendedTooltip name="ТоварыНоменклатураПартнераРасширеннаяПодсказка" id="929"/>
 								</InputField>
 								<LabelField name="ТоварыНоменклатураКод" id="269">
 									<UserVisible>
@@ -1063,7 +1067,7 @@
 										</v8:item>
 										<v8:item>
 											<v8:lang>en</v8:lang>
-											<v8:content>Packaging, unit of measure</v8:content>
+											<v8:content>Package, unit of measure</v8:content>
 										</v8:item>
 									</Title>
 									<Group>InCell</Group>
@@ -1077,7 +1081,7 @@
 												</v8:item>
 												<v8:item>
 													<v8:lang>en</v8:lang>
-													<v8:content>Packaging</v8:content>
+													<v8:content>Package</v8:content>
 												</v8:item>
 											</Title>
 											<ShowInHeader>false</ShowInHeader>
@@ -1223,7 +1227,6 @@
 									<ExtendedTooltip name="КартинкаНесколькоСкладовExtendedTooltip" id="878"/>
 								</PictureDecoration>
 								<LabelField name="НадписьНесколькоСкладов" id="879">
-									<DataPath>47</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<TextColor>#162779</TextColor>
 									<ContextMenu name="НадписьНесколькоСкладовКонтекстноеМеню" id="880"/>
@@ -1590,7 +1593,7 @@
 														</v8:item>
 														<v8:item>
 															<v8:lang>en</v8:lang>
-															<v8:content>to</v8:content>
+															<v8:content>by</v8:content>
 														</v8:item>
 													</Title>
 													<AutoMaxWidth>false</AutoMaxWidth>
@@ -2281,7 +2284,6 @@ information</v8:content>
 							<ExtendedTooltip name="ГруппаОднаТранспортнаяНакладнаяРасширеннаяПодсказка" id="490"/>
 							<ChildItems>
 								<LabelField name="ТранспортнаяНакладнаяТекст" id="491">
-									<DataPath>27</DataPath>
 									<TitleLocation>None</TitleLocation>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<MaxWidth>30</MaxWidth>
@@ -2398,7 +2400,6 @@ information</v8:content>
 							<ExtendedTooltip name="СуммаВсегоРасширеннаяПодсказка" id="867"/>
 						</InputField>
 						<LabelField name="ВалютаДокумента" id="524">
-							<DataPath>3</DataPath>
 							<TitleLocation>None</TitleLocation>
 							<GroupVerticalAlign>Center</GroupVerticalAlign>
 							<Width>4</Width>
@@ -2420,19 +2421,19 @@ information</v8:content>
 					<Type>CommandBarButton</Type>
 					<Representation>Text</Representation>
 					<DefaultButton>true</DefaultButton>
-					<CommandName>25:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаПровестиИЗакрытьРасширеннаяПодсказка" id="595"/>
 				</Button>
 				<Button name="ФормаЗаписать" id="692">
 					<Type>CommandBarButton</Type>
 					<Representation>Picture</Representation>
-					<CommandName>28:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаЗаписатьРасширеннаяПодсказка" id="693"/>
 				</Button>
 				<Button name="ФормаПровести" id="694">
 					<Type>CommandBarButton</Type>
 					<Representation>Picture</Representation>
-					<CommandName>22:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаПровестиРасширеннаяПодсказка" id="695"/>
 				</Button>
 				<Popup name="ПодменюСоздатьНаОсновании" id="696">
@@ -2443,7 +2444,7 @@ information</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>Create on the basis</v8:content>
+							<v8:content>Generate</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -2461,7 +2462,7 @@ information</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Create on the basis (Important)</v8:content>
+									<v8:content>Generate (Important)</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииВажноеРасширеннаяПодсказка" id="904"/>
@@ -2474,7 +2475,7 @@ information</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Create on the basis (Standard)</v8:content>
+									<v8:content>Generate (Standard)</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииОбычноеРасширеннаяПодсказка" id="906"/>
@@ -2487,7 +2488,7 @@ information</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Create on the basis (See also)</v8:content>
+									<v8:content>Generate (See also)</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюСоздатьНаОснованииСмТакжеРасширеннаяПодсказка" id="908"/>
@@ -2533,7 +2534,7 @@ information</v8:content>
 						</v8:item>
 						<v8:item>
 							<v8:lang>en</v8:lang>
-							<v8:content>FIlling</v8:content>
+							<v8:content>Filling</v8:content>
 						</v8:item>
 					</Title>
 					<Picture>
@@ -2580,7 +2581,7 @@ information</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Submenu reports standard</v8:content>
+									<v8:content>Standard reports submenu</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюОтчетыОбычноеРасширеннаяПодсказка" id="703"/>
@@ -2593,7 +2594,7 @@ information</v8:content>
 								</v8:item>
 								<v8:item>
 									<v8:lang>en</v8:lang>
-									<v8:content>Submenu reports see also</v8:content>
+									<v8:content>Reports see also submenu</v8:content>
 								</v8:item>
 							</Title>
 							<ExtendedTooltip name="ПодменюОтчетыСмТакжеРасширеннаяПодсказка" id="705"/>
@@ -2602,25 +2603,19 @@ information</v8:content>
 				</Popup>
 				<Button name="ФормаПроверитьКонтрагентов" id="828">
 					<Type>CommandBarButton</Type>
-					<CommandName>21:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 					<ExtendedTooltip name="ФормаПроверитьКонтрагентовРасширеннаяПодсказка" id="829"/>
 				</Button>
-				<Button name="ФормаНеВыполнятьПроверкуСопоставленнойНоменклатурыПоставщика" id="232">
-					<Type>CommandBarButton</Type>
-					<CommandName>5:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
-					<ExtendedTooltip name="ФормаНеВыполнятьПроверкуСопоставленнойНоменклатурыПоставщикаExtendedTooltip" id="330"/>
-				</Button>
 				<Button name="ФормаОткрытьВидыЗапасов" id="911">
 					<Type>CommandBarButton</Type>
-					<CommandName>1:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+					<CommandName>0</CommandName>
 					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 					<ExtendedTooltip name="ФормаОткрытьВидыЗапасовРасширеннаяПодсказка" id="912"/>
 				</Button>
 				<Button name="ФормаСправка" id="598">
 					<Type>CommandBarButton</Type>
-					<CommandName>Form.StandardCommand.Help</CommandName>
+					<CommandName>0</CommandName>
 					<ExtendedTooltip name="ФормаСправкаРасширеннаяПодсказка" id="599"/>
 				</Button>
 			</ChildItems>
@@ -3074,22 +3069,22 @@ information</v8:content>
 									<ChildItems>
 										<Button name="ТоварыКонтекстноеМенюСкопироватьСтроки" id="296">
 											<Type>CommandBarButton</Type>
-											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<CommandName>0</CommandName>
 											<ExtendedTooltip name="ТоварыКонтекстноеМенюСкопироватьСтрокиExtendedTooltip" id="353"/>
 										</Button>
 										<Button name="ТоварыКонтекстноеМенюВставитьСтроки" id="297">
 											<Type>CommandBarButton</Type>
-											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<CommandName>0</CommandName>
 											<ExtendedTooltip name="ТоварыКонтекстноеМенюВставитьСтрокиExtendedTooltip" id="354"/>
 										</Button>
 										<Button name="ТоварыКонтекстноеМенюРазбитьСтроку" id="264">
 											<Type>CommandBarButton</Type>
-											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<CommandName>0</CommandName>
 											<ExtendedTooltip name="ТоварыКонтекстноеМенюРазбитьСтрокуExtendedTooltip" id="355"/>
 										</Button>
 										<Button name="ТоварыКонтекстноеМенюПоказатьНоменклатуруПоставщика" id="231">
 											<Type>CommandBarButton</Type>
-											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<CommandName>0</CommandName>
 											<ExtendedTooltip name="ТоварыКонтекстноеМенюПоказатьНоменклатуруПоставщикаExtendedTooltip" id="356"/>
 										</Button>
 									</ChildItems>
@@ -3098,17 +3093,17 @@ information</v8:content>
 									<ChildItems>
 										<Button name="ТоварыСкопироватьСтроки" id="298">
 											<Type>CommandBarButton</Type>
-											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<CommandName>0</CommandName>
 											<ExtendedTooltip name="ТоварыСкопироватьСтрокиExtendedTooltip" id="357"/>
 										</Button>
 										<Button name="ТоварыВставитьСтроки" id="299">
 											<Type>CommandBarButton</Type>
-											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<CommandName>0</CommandName>
 											<ExtendedTooltip name="ТоварыВставитьСтрокиExtendedTooltip" id="358"/>
 										</Button>
 										<Button name="ТоварыРазбитьСтроку" id="241">
 											<Type>CommandBarButton</Type>
-											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<CommandName>0</CommandName>
 											<ExtendedTooltip name="ТоварыРазбитьСтрокуExtendedTooltip" id="359"/>
 										</Button>
 										<ButtonGroup name="ГруппаТорговоеОборудование" id="235">
@@ -3127,7 +3122,7 @@ information</v8:content>
 												<Button name="ТоварыПоискПоШтрихкоду" id="236">
 													<Type>CommandBarButton</Type>
 													<SkipOnInput>false</SkipOnInput>
-													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<CommandName>0</CommandName>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -3144,7 +3139,7 @@ information</v8:content>
 													<Type>CommandBarButton</Type>
 													<Representation>Picture</Representation>
 													<SkipOnInput>false</SkipOnInput>
-													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<CommandName>0</CommandName>
 													<Title>
 														<v8:item>
 															<v8:lang>ru</v8:lang>
@@ -3159,19 +3154,19 @@ information</v8:content>
 												</Button>
 												<Button name="ТоварыПолучитьВес" id="234">
 													<Type>CommandBarButton</Type>
-													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<CommandName>0</CommandName>
 													<ExtendedTooltip name="ТоварыПолучитьВесExtendedTooltip" id="363"/>
 												</Button>
 											</ChildItems>
 										</ButtonGroup>
 										<Button name="ТоварыПроверитьКоличествоВДокументе" id="238">
 											<Type>CommandBarButton</Type>
-											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<CommandName>0</CommandName>
 											<ExtendedTooltip name="ТоварыПроверитьКоличествоВДокументеExtendedTooltip" id="364"/>
 										</Button>
 										<Button name="ТоварыУказатьСерии" id="244">
 											<Type>CommandBarButton</Type>
-											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<CommandName>0</CommandName>
 											<ExtendedTooltip name="ТоварыУказатьСерииExtendedTooltip" id="365"/>
 										</Button>
 										<Popup name="ТоварыГруппаЗаполнить" id="247">
@@ -3213,29 +3208,29 @@ information</v8:content>
 														<Button name="ТоварыПодобратьНоменклатуру" id="161">
 															<Type>CommandBarButton</Type>
 															<SkipOnInput>false</SkipOnInput>
-															<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ТоварыПодобратьНоменклатуруExtendedTooltip" id="368"/>
 														</Button>
 														<Button name="ТоварыПодобратьТоварыПринятыеНаОтветственноеХранение" id="195">
 															<Type>CommandBarButton</Type>
-															<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ТоварыПодобратьТоварыПринятыеНаОтветственноеХранениеРасширеннаяПодсказка" id="369"/>
 														</Button>
 														<Button name="ТоварыДополнитьМногооборотнойТарой" id="307">
 															<Type>CommandBarButton</Type>
-															<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+															<CommandName>0</CommandName>
 															<ExtendedTooltip name="ТоварыДополнитьМногооборотнойТаройExtendedTooltip" id="370"/>
 														</Button>
-														<Button name="ТоварыЗаполнитьНоменклатуруПоНоменклатуреПоставщика" id="263">
+														<Button name="ТоварыЗаполнитьНоменклатуруПоНоменклатуреПартнера" id="913">
 															<Type>CommandBarButton</Type>
-															<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
-															<ExtendedTooltip name="ТоварыЗаполнитьНоменклатуруПоНоменклатуреПоставщикаExtendedTooltip" id="371"/>
+															<CommandName>0</CommandName>
+															<ExtendedTooltip name="ТоварыЗаполнитьНоменклатуруПоНоменклатуреПартнераРасширеннаяПодсказка" id="914"/>
 														</Button>
 													</ChildItems>
 												</ButtonGroup>
 												<Button name="ТоварыЗаполнитьСерииПоFEFO" id="248">
 													<Type>CommandBarButton</Type>
-													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<CommandName>0</CommandName>
 													<Picture>
 														<xr:Ref>CommonPicture.СерииНоменклатурыУказаныFEFO</xr:Ref>
 														<xr:LoadTransparent>false</xr:LoadTransparent>
@@ -3244,12 +3239,12 @@ information</v8:content>
 												</Button>
 												<Button name="ТоварыПерезаполнитьПоОтгрузке" id="233">
 													<Type>CommandBarButton</Type>
-													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<CommandName>0</CommandName>
 													<ExtendedTooltip name="ТоварыПерезаполнитьПоОтгрузкеExtendedTooltip" id="373"/>
 												</Button>
 												<Button name="ТоварыЗагрузитьИзВнешнегоФайла" id="315">
 													<Type>CommandBarButton</Type>
-													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<CommandName>0</CommandName>
 													<ExtendedTooltip name="ТоварыЗагрузитьИзВнешнегоФайлаExtendedTooltip" id="375"/>
 												</Button>
 											</ChildItems>
@@ -3270,20 +3265,20 @@ information</v8:content>
 												<Button name="ТоварыЗаполнитьЦеныПоСоглашению" id="884">
 													<Type>CommandBarButton</Type>
 													<SkipOnInput>false</SkipOnInput>
-													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<CommandName>0</CommandName>
 													<ExtendedTooltip name="ТоварыЗаполнитьЦеныПоСоглашениюExtendedTooltip" id="885"/>
 												</Button>
 												<Button name="ТоварыЗаполнитьЦеныВыделенныхСтрокПоВидуЦеныПоставщика" id="896">
 													<Type>CommandBarButton</Type>
 													<SkipOnInput>false</SkipOnInput>
-													<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+													<CommandName>0</CommandName>
 													<ExtendedTooltip name="ТоварыЗаполнитьЦеныВыделенныхСтрокПоВидуЦеныПоставщикаРасширеннаяПодсказка" id="897"/>
 												</Button>
 											</ChildItems>
 										</Popup>
 										<Button name="ТоварыЗаполнитьСкладВВыделенныхСтроках" id="882">
 											<Type>CommandBarButton</Type>
-											<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+											<CommandName>0</CommandName>
 											<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
 											<ExtendedTooltip name="ТоварыЗаполнитьСкладВВыделенныхСтрокахExtendedTooltip" id="883"/>
 										</Button>
@@ -3342,7 +3337,7 @@ information</v8:content>
 										<ContextMenu name="ТоварыНоменклатураТипНоменклатурыКонтекстноеМеню" id="309"/>
 										<ExtendedTooltip name="ТоварыНоменклатураТипНоменклатурыExtendedTooltip" id="379"/>
 									</LabelField>
-									<LabelField name="ТоварыНоменклатураПоставщикаКод" id="265">
+									<LabelField name="ТоварыНоменклатураПартнераКод" id="265">
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -3358,10 +3353,10 @@ information</v8:content>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>18</Width>
-										<ContextMenu name="ТоварыНоменклатураПоставщикаКодКонтекстноеМеню" id="266"/>
-										<ExtendedTooltip name="ТоварыНоменклатураПоставщикаКодExtendedTooltip" id="380"/>
+										<ContextMenu name="ТоварыНоменклатураПартнераКодКонтекстноеМеню" id="266"/>
+										<ExtendedTooltip name="ТоварыНоменклатураПартнераКодРасширеннаяПодсказка" id="380"/>
 									</LabelField>
-									<LabelField name="ТоварыНоменклатураПоставщикаАртикул" id="267">
+									<LabelField name="ТоварыНоменклатураПартнераАртикул" id="267">
 										<UserVisible>
 											<xr:Common>false</xr:Common>
 										</UserVisible>
@@ -3377,17 +3372,27 @@ information</v8:content>
 										</Title>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>18</Width>
-										<ContextMenu name="ТоварыНоменклатураПоставщикаАртикулКонтекстноеМеню" id="268"/>
-										<ExtendedTooltip name="ТоварыНоменклатураПоставщикаАртикулExtendedTooltip" id="381"/>
+										<ContextMenu name="ТоварыНоменклатураПартнераАртикулКонтекстноеМеню" id="268"/>
+										<ExtendedTooltip name="ТоварыНоменклатураПартнераАртикулРасширеннаяПодсказка" id="381"/>
 									</LabelField>
-									<InputField name="ТоварыНоменклатураПоставщика" id="157">
+									<InputField name="ТоварыНоменклатураПартнера" id="157">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Номенклатура поставщика</v8:content>
+											</v8:item>
+											<v8:item>
+												<v8:lang>en</v8:lang>
+												<v8:content>Supplier products</v8:content>
+											</v8:item>
+										</Title>
 										<EditMode>EnterOnInput</EditMode>
 										<Width>22</Width>
 										<DropListButton>true</DropListButton>
 										<ChoiceButton>true</ChoiceButton>
 										<ChoiceListButton>true</ChoiceListButton>
-										<ContextMenu name="ТоварыНоменклатураПоставщикаКонтекстноеМеню" id="158"/>
-										<ExtendedTooltip name="ТоварыНоменклатураПоставщикаExtendedTooltip" id="382"/>
+										<ContextMenu name="ТоварыНоменклатураПартнераКонтекстноеМеню" id="158"/>
+										<ExtendedTooltip name="ТоварыНоменклатураПартнераРасширеннаяПодсказка" id="382"/>
 									</InputField>
 									<LabelField name="ТоварыНоменклатураКод" id="269">
 										<UserVisible>
@@ -3473,7 +3478,7 @@ information</v8:content>
 											</v8:item>
 											<v8:item>
 												<v8:lang>en</v8:lang>
-												<v8:content>Packaging, unit of measure</v8:content>
+												<v8:content>Package, unit of measure</v8:content>
 											</v8:item>
 										</Title>
 										<Group>InCell</Group>
@@ -3487,7 +3492,7 @@ information</v8:content>
 													</v8:item>
 													<v8:item>
 														<v8:lang>en</v8:lang>
-														<v8:content>Packaging</v8:content>
+														<v8:content>Package</v8:content>
 													</v8:item>
 												</Title>
 												<ShowInHeader>false</ShowInHeader>
@@ -3633,7 +3638,6 @@ information</v8:content>
 										<ExtendedTooltip name="КартинкаНесколькоСкладовExtendedTooltip" id="878"/>
 									</PictureDecoration>
 									<LabelField name="НадписьНесколькоСкладов" id="879">
-										<DataPath>47</DataPath>
 										<TitleLocation>None</TitleLocation>
 										<TextColor>#162779</TextColor>
 										<ContextMenu name="НадписьНесколькоСкладовКонтекстноеМеню" id="880"/>
@@ -4000,7 +4004,7 @@ information</v8:content>
 															</v8:item>
 															<v8:item>
 																<v8:lang>en</v8:lang>
-																<v8:content>to</v8:content>
+																<v8:content>by</v8:content>
 															</v8:item>
 														</Title>
 														<AutoMaxWidth>false</AutoMaxWidth>
@@ -4065,7 +4069,7 @@ information</v8:content>
 													</InputField>
 													<Button name="ДополнитьИнформациюПоДоставкеКонтактами" id="762">
 														<Type>UsualButton</Type>
-														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<CommandName>0</CommandName>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -4262,7 +4266,7 @@ to the carrier</v8:content>
 													</InputField>
 													<Button name="ДополнитьИнформациюПоДоставкеКонтактами1" id="793">
 														<Type>UsualButton</Type>
-														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<CommandName>0</CommandName>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -4419,7 +4423,7 @@ information</v8:content>
 													</InputField>
 													<Button name="ДополнитьИнформациюПоДоставкеКонтактами2" id="818">
 														<Type>UsualButton</Type>
-														<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+														<CommandName>0</CommandName>
 														<Title>
 															<v8:item>
 																<v8:lang>ru</v8:lang>
@@ -4671,7 +4675,7 @@ information</v8:content>
 								<ChildItems>
 									<Button name="СоздатьТН" id="485">
 										<Type>Hyperlink</Type>
-										<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+										<CommandName>0</CommandName>
 										<ExtendedTooltip name="СоздатьТНРасширеннаяПодсказка" id="486"/>
 									</Button>
 								</ChildItems>
@@ -4691,7 +4695,6 @@ information</v8:content>
 								<ExtendedTooltip name="ГруппаОднаТранспортнаяНакладнаяРасширеннаяПодсказка" id="490"/>
 								<ChildItems>
 									<LabelField name="ТранспортнаяНакладнаяТекст" id="491">
-										<DataPath>27</DataPath>
 										<TitleLocation>None</TitleLocation>
 										<AutoMaxWidth>false</AutoMaxWidth>
 										<MaxWidth>30</MaxWidth>
@@ -4701,7 +4704,7 @@ information</v8:content>
 									</LabelField>
 									<Button name="СоздатьТНОднаНакладная" id="494">
 										<Type>Hyperlink</Type>
-										<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+										<CommandName>0</CommandName>
 										<ExtendedTooltip name="СоздатьТНОднаНакладнаяРасширеннаяПодсказка" id="495"/>
 									</Button>
 								</ChildItems>
@@ -4722,12 +4725,12 @@ information</v8:content>
 								<ChildItems>
 									<Button name="ОткрытьСписокТН" id="500">
 										<Type>Hyperlink</Type>
-										<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+										<CommandName>0</CommandName>
 										<ExtendedTooltip name="ОткрытьСписокТНРасширеннаяПодсказка" id="501"/>
 									</Button>
 									<Button name="СоздатьТННесколькоНакладных" id="502">
 										<Type>Hyperlink</Type>
-										<CommandName>0:409b9a53-7f7e-4178-86c1-33176c7c7a7a</CommandName>
+										<CommandName>0</CommandName>
 										<ExtendedTooltip name="СоздатьТННесколькоНакладныхРасширеннаяПодсказка" id="503"/>
 									</Button>
 								</ChildItems>
@@ -4808,7 +4811,6 @@ information</v8:content>
 								<ExtendedTooltip name="СуммаВсегоРасширеннаяПодсказка" id="867"/>
 							</InputField>
 							<LabelField name="ВалютаДокумента" id="524">
-								<DataPath>3</DataPath>
 								<TitleLocation>None</TitleLocation>
 								<GroupVerticalAlign>Center</GroupVerticalAlign>
 								<Width>4</Width>
