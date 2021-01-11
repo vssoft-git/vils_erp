@@ -616,7 +616,7 @@
 		<Metadata name="CommonPicture.ЭмблемаСервиса1СЭДО" id="51d79fec-ce06-4111-8cd7-7fe7b646048f" configVersion="c9af69255a3b0fb54cc14e46ef6130e667e50982"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов" id="6f8a616a-05f9-4a26-b137-ffe08a2de753" configVersion="c608bfe3b6a128f415f6c474a7d439715aa46ea6"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов.Template" id="6f8a616a-05f9-4a26-b137-ffe08a2de753.0" configVersion="7c10b1f0883f7212773cc7afbcae6f416b288240"/>
-		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="af2d602933dc993b1ac423bcf086773d2e1288a8"/>
+		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="7dbeb23099cc0583b05f51ce444126bb8346d753"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="2d3d01ef-e545-4150-a6c6-5d7520ca086c" configVersion="ffbf25b1ccd42c35ee4ef2dc7390091df9f1a092"/>
 		<Metadata name="Constant.ИспользоватьБизнесРегионы" id="ab04cdcb-dc48-4252-9bb5-efc0097f0d24" configVersion="2a1a73d70e7a4e41f4f6f6420a92e7ceb98c7ec1"/>
 		<Metadata name="Constant.ИспользоватьГруппыДоступаПартнеров" id="91cb9a25-f41e-4571-801d-6947e8356d60" configVersion="66cb4cdf60f65d71350cb185af2b0703bc96ff12"/>
@@ -2372,6 +2372,18 @@
 		<Metadata name="Role.ВИЛС_ДобавлениеИзменениеВИЛС_ИнвентаризацияТМЦВЭксплуатации.Rights" id="9d4024c7-36c3-4490-b45c-6500643ec7f9.0" configVersion="d2ffdea49cb00f9b87873c6ac7a083d74bcd3774"/>
 		<Metadata name="Role.ВИЛС_ОсновнаяРольРасширения" id="f9552371-f654-46dc-8084-620ebe83f7b7" configVersion="fd9d65f499fcaa27d122f0203a445e94a4577610"/>
 		<Metadata name="Role.ВИЛС_ОсновнаяРольРасширения.Rights" id="f9552371-f654-46dc-8084-620ebe83f7b7.0" configVersion="fea3ba0163f77271662b2d6ab9c31206c0b17511"/>
+		<Metadata name="Role.ВИЛС_Просмотр_ВИЛС_ВедомостьДокументовПоступлений" id="7e1cc0f4-9e33-4b3c-8d56-c494bc0f6ade" configVersion="b32020ac939800ce083382944501e4bed3dda286"/>
+		<Metadata name="Role.ВИЛС_Просмотр_ВИЛС_ВедомостьДокументовПоступлений.Rights" id="7e1cc0f4-9e33-4b3c-8d56-c494bc0f6ade.0" configVersion="94e001a900930c7894a30239d60ab32131fbe030"/>
+		<Metadata name="Role.ВИЛС_Просмотр_ВИЛС_ВедомостьПоДенежнымСредствам" id="4d33218e-2966-4c7f-981b-794f5c17be8c" configVersion="154c2bfa092ac9180a8ffddcd18a98426247a518"/>
+		<Metadata name="Role.ВИЛС_Просмотр_ВИЛС_ВедомостьПоДенежнымСредствам.Rights" id="4d33218e-2966-4c7f-981b-794f5c17be8c.0" configVersion="c6174128f65531545f53c9bfe9b5364d330fb7c6"/>
+		<Metadata name="Role.ВИЛС_Просмотр_ВИЛС_ВыпускПродукцииПоОтпускнойСтоимости" id="0030b0b0-1260-4a4b-aaeb-d00107fe0ee4" configVersion="54e3efdd58e46a69f60a1c704f361ed6c2208fea"/>
+		<Metadata name="Role.ВИЛС_Просмотр_ВИЛС_ВыпускПродукцииПоОтпускнойСтоимости.Rights" id="0030b0b0-1260-4a4b-aaeb-d00107fe0ee4.0" configVersion="79d08efc16b12768509274d8c423258d0369edea"/>
+		<Metadata name="Role.ВИЛС_Просмотр_ВИЛС_ОстаткиТоваровПереданныхПереработчикам" id="f55ed01f-cf89-421c-8b33-e7822e54a4e1" configVersion="d1305fc7bd0472efdcf6d4afec65380b69a68bfe"/>
+		<Metadata name="Role.ВИЛС_Просмотр_ВИЛС_ОстаткиТоваровПереданныхПереработчикам.Rights" id="f55ed01f-cf89-421c-8b33-e7822e54a4e1.0" configVersion="6daa2cab318cb650f804b841c172c9ebbbb67051"/>
+		<Metadata name="Role.ВИЛС_Просмотр_ВИЛС_ПартииВПроизводствеПоПериодам" id="c6a57fd0-0f20-461c-b506-4da8bc5f0a4c" configVersion="a408459b3ef7e2d9c00e6dea95f3d33069af2c1a"/>
+		<Metadata name="Role.ВИЛС_Просмотр_ВИЛС_ПартииВПроизводствеПоПериодам.Rights" id="c6a57fd0-0f20-461c-b506-4da8bc5f0a4c.0" configVersion="9397d7ea6b42519ab0407d15492230edf65f3dcd"/>
+		<Metadata name="Role.ВИЛС_Просмотр_ВИЛС_ТабельУчетаОтработанногоВремени" id="598494fa-4d55-422d-8087-c685f887205c" configVersion="f3da1d8dfd30845f891fca6503cc0d553679f820"/>
+		<Metadata name="Role.ВИЛС_Просмотр_ВИЛС_ТабельУчетаОтработанногоВремени.Rights" id="598494fa-4d55-422d-8087-c685f887205c.0" configVersion="60b5f3e0712d2f2ff6d75a5e91aded5365c5af48"/>
 		<Metadata name="Role.ВИЛС_ЧтениеВИЛС_ИнвентаризацияТМЦВЭксплуатации" id="5081911e-0a50-466a-aa10-daa116ba54cb" configVersion="319a6e2f4b0948ae08fc1daade7e7eb273fb1bf6"/>
 		<Metadata name="Role.ВИЛС_ЧтениеВИЛС_ИнвентаризацияТМЦВЭксплуатации.Rights" id="5081911e-0a50-466a-aa10-daa116ba54cb.0" configVersion="182c397b5ac5651cc14dd5ce1ee955107fc07fd9"/>
 		<Metadata name="SettingsStorage.ХранилищеВариантовОтчетов" id="7d3072f4-3ab2-4408-aac0-def208e81fa3" configVersion="7d9270ea564cd3844f6dcc7910dc46870f81f33d"/>
