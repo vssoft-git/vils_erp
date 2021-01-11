@@ -39,7 +39,7 @@
 		<Metadata name="Catalog.ГруппыАналитическогоУчетаНоменклатуры" id="fd4f5d85-5104-4c4f-99c5-d194ed61a780" configVersion="69816091e23a7ef8cf5cf2577ede444b9c493863"/>
 		<Metadata name="Catalog.ГруппыДоступаПартнеров" id="dd3befcf-dbf5-41a0-b186-e841d512f21f" configVersion="f58471ae670a3465b69e98826a1d34c88047d286"/>
 		<Metadata name="Catalog.ГруппыФинансовогоУчетаРасчетов" id="80e6a2cc-e706-4f1f-a215-b45650bad6d1" configVersion="85c845c2215730935210c4e17b7339b99a28f358"/>
-		<Metadata name="Catalog.ДоговорыКонтрагентов" id="77560b8f-c030-4710-9a3b-99a96ad4a691" configVersion="76faf0bfacf7caae0a4b199990c63168cb258622">
+		<Metadata name="Catalog.ДоговорыКонтрагентов" id="77560b8f-c030-4710-9a3b-99a96ad4a691" configVersion="d199128e1fe962070c1e2b7bbe97a8bfc59247c8">
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.ПорядокОплаты" id="1240d9c0-48bf-4439-bc2d-83a53cf4d887"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.TabularSection.ПодтверждающиеДокументы.Attribute.Дата" id="175b067e-c559-4896-bc8a-c95f4a366706"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.ВИЛС_СрокПоставкиПослеАванса" id="17d357cb-8bd5-46b1-95ef-ddb2af2be8a2"/>
@@ -108,8 +108,6 @@
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.СтавкаНДС" id="f81dcaa0-1d94-4aa5-8813-f62f5dbf5c2f"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.ВалютаВзаиморасчетов" id="fd20f27a-2b7c-479a-8ba9-412ac9e65dba"/>
 		</Metadata>
-		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаВыбора" id="d2a5350f-9325-4d94-933f-c400e22acc31" configVersion="94f9a77c816af8b589a9707e1d53b337cb8e6ab1"/>
-		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаВыбора.Form" id="d2a5350f-9325-4d94-933f-c400e22acc31.0" configVersion="c7fca2f3615e20ca7e1de5c82c568b4a81c5559a"/>
 		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаЭлемента" id="91022c06-917c-4af9-bf1a-f2bb41ba2c70" configVersion="3a9b99d4b3dfe86b2c58a940c803fd55be19aa51"/>
 		<Metadata name="Catalog.ДоговорыКонтрагентов.Form.ФормаЭлемента.Form" id="91022c06-917c-4af9-bf1a-f2bb41ba2c70.0" configVersion="62858f428d010130d383d7c9b519afbcf8e4ddfc"/>
 		<Metadata name="Catalog.ДоговорыКонтрагентов.ObjectModule" id="77560b8f-c030-4710-9a3b-99a96ad4a691.0" configVersion="702bc5b5991a91fe4ce76178b94c3547e54e3bcc"/>
@@ -429,6 +427,8 @@
 		<Metadata name="CommonModule.ПередачаСырьяПереработчикуЛокализация.Module" id="797510d2-b4ec-4320-971d-8c725c85e813.0" configVersion="d4a4fae453caf3d3d9b935ffb01320100fa81ca0"/>
 		<Metadata name="CommonModule.ПередачаТоваровМеждуОрганизациямиЛокализация" id="10e75fd4-7ffb-44a2-9922-0607c6f419fa" configVersion="0a36679b7aaf0a3232cc9891f34bd6258759a315"/>
 		<Metadata name="CommonModule.ПередачаТоваровМеждуОрганизациямиЛокализация.Module" id="10e75fd4-7ffb-44a2-9922-0607c6f419fa.0" configVersion="0d793c847bf945ab82fbdd34b2fdfc5c38438720"/>
+		<Metadata name="CommonModule.ПодключаемыеКоманды" id="f691f975-b44b-4ed6-bea4-bd33b7d27b1f" configVersion="4cf73f20b2f5a8cb8f68972a5679e4eda072a543"/>
+		<Metadata name="CommonModule.ПодключаемыеКоманды.Module" id="f691f975-b44b-4ed6-bea4-bd33b7d27b1f.0" configVersion="c1e942c0616cb1efb9060acb68b522b5bc38d3ed"/>
 		<Metadata name="CommonModule.ПриобретениеУслугПрочихАктивовЛокализация" id="874d879c-378f-430a-b298-00abb830a51c" configVersion="4215d60d8e8aa50410f051e4f5ccaa9d6861c322"/>
 		<Metadata name="CommonModule.ПриобретениеУслугПрочихАктивовЛокализация.Module" id="874d879c-378f-430a-b298-00abb830a51c.0" configVersion="f74851d709eb53b8bc8a5837c5313e77fa071b0f"/>
 		<Metadata name="CommonModule.РаспределениеРасходовБудущихПериодовЛокализация" id="caf51d38-8e1b-4462-a522-e12751dd426f" configVersion="440045d18bb75bf9b8031e38984419abcfe7e8e5"/>
@@ -616,7 +616,7 @@
 		<Metadata name="CommonPicture.ЭмблемаСервиса1СЭДО" id="51d79fec-ce06-4111-8cd7-7fe7b646048f" configVersion="c9af69255a3b0fb54cc14e46ef6130e667e50982"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов" id="6f8a616a-05f9-4a26-b137-ffe08a2de753" configVersion="c608bfe3b6a128f415f6c474a7d439715aa46ea6"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов.Template" id="6f8a616a-05f9-4a26-b137-ffe08a2de753.0" configVersion="7c10b1f0883f7212773cc7afbcae6f416b288240"/>
-		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="7dbeb23099cc0583b05f51ce444126bb8346d753"/>
+		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="502786470f498a78f4d75a0c4b9ce73e85276a50"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="2d3d01ef-e545-4150-a6c6-5d7520ca086c" configVersion="ffbf25b1ccd42c35ee4ef2dc7390091df9f1a092"/>
 		<Metadata name="Constant.ИспользоватьБизнесРегионы" id="ab04cdcb-dc48-4252-9bb5-efc0097f0d24" configVersion="2a1a73d70e7a4e41f4f6f6420a92e7ceb98c7ec1"/>
 		<Metadata name="Constant.ИспользоватьГруппыДоступаПартнеров" id="91cb9a25-f41e-4571-801d-6947e8356d60" configVersion="66cb4cdf60f65d71350cb185af2b0703bc96ff12"/>
