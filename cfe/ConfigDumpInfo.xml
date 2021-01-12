@@ -242,7 +242,11 @@
 			<Metadata name="Catalog.ПриоритетыОплаты.Attribute.РеквизитДопУпорядочивания" id="4042d280-7099-49af-8d99-a3808ee51c5b"/>
 		</Metadata>
 		<Metadata name="Catalog.РегистрацииВНалоговомОргане" id="390b9b69-af51-43bd-bc91-a14ff9b5d2fc" configVersion="2a4f36eaaffec4936e607f729d503fe0ad76e870"/>
-		<Metadata name="Catalog.РесурсныеСпецификации" id="79376923-21c0-44f6-adaf-5a266f0137f5" configVersion="0dbc54eb9f641262c04961af43b320a950080785"/>
+		<Metadata name="Catalog.РесурсныеСпецификации" id="79376923-21c0-44f6-adaf-5a266f0137f5" configVersion="23c7a814e80845ce8c76ac08a0af1f2a489c9139"/>
+		<Metadata name="Catalog.РесурсныеСпецификации.Form.ФормаСписка" id="b73f9889-f547-4327-9fce-30b98aec8566" configVersion="c11ce989cb4c5e9f0776a2ffe625c173dfba864a"/>
+		<Metadata name="Catalog.РесурсныеСпецификации.Form.ФормаСписка.Form" id="b73f9889-f547-4327-9fce-30b98aec8566.0" configVersion="b9ef34910e4ff76ac2327745de377fc8085f167b"/>
+		<Metadata name="Catalog.РесурсныеСпецификации.Form.ФормаЭлемента" id="fc556f18-66ff-40fb-a8d6-13b4f7d62741" configVersion="494f13e9253b24262c868baead7dc38716b8f507"/>
+		<Metadata name="Catalog.РесурсныеСпецификации.Form.ФормаЭлемента.Form" id="fc556f18-66ff-40fb-a8d6-13b4f7d62741.0" configVersion="0b0510de497d7cef037f04c7c98a26ee6ee80673"/>
 		<Metadata name="Catalog.РодственникиФизическихЛиц" id="0af57a6f-f02f-4855-817b-1377332f7c5c" configVersion="56081f49a3a81a11c5045a3eabf8a30b7d3ebe5a"/>
 		<Metadata name="Catalog.РолиИсполнителей" id="e8ffde6c-1cf4-4e1f-98b2-01ee51e64d1d" configVersion="cb6d0a460fe28095b0d0ba98709a2241e091b01f"/>
 		<Metadata name="Catalog.СделкиСКлиентами" id="508f7b70-6f07-4dcb-9faf-e0d6c96f7b53" configVersion="b6eb85faa949c75e1a523d220e09b364403b9c52"/>
@@ -616,7 +620,7 @@
 		<Metadata name="CommonPicture.ЭмблемаСервиса1СЭДО" id="51d79fec-ce06-4111-8cd7-7fe7b646048f" configVersion="c9af69255a3b0fb54cc14e46ef6130e667e50982"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов" id="6f8a616a-05f9-4a26-b137-ffe08a2de753" configVersion="c608bfe3b6a128f415f6c474a7d439715aa46ea6"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов.Template" id="6f8a616a-05f9-4a26-b137-ffe08a2de753.0" configVersion="7c10b1f0883f7212773cc7afbcae6f416b288240"/>
-		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="502786470f498a78f4d75a0c4b9ce73e85276a50"/>
+		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="58f4eb573e179851c025dd79e93647876383d9cd"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="2d3d01ef-e545-4150-a6c6-5d7520ca086c" configVersion="ffbf25b1ccd42c35ee4ef2dc7390091df9f1a092"/>
 		<Metadata name="Constant.ИспользоватьБизнесРегионы" id="ab04cdcb-dc48-4252-9bb5-efc0097f0d24" configVersion="2a1a73d70e7a4e41f4f6f6420a92e7ceb98c7ec1"/>
 		<Metadata name="Constant.ИспользоватьГруппыДоступаПартнеров" id="91cb9a25-f41e-4571-801d-6947e8356d60" configVersion="66cb4cdf60f65d71350cb185af2b0703bc96ff12"/>
@@ -1879,6 +1883,10 @@
 			<Metadata name="Enum.ВариантыОформленияПродажи.EnumValue.АктНаПередачуПрав" id="230f0730-8831-4eef-b44b-b95a406de9cc"/>
 			<Metadata name="Enum.ВариантыОформленияПродажи.EnumValue.РеализацияТоваровУслуг" id="ead67aa9-e6b2-4393-ae8f-b33e7c828e59"/>
 		</Metadata>
+		<Metadata name="Enum.ВариантыПечатиМаршрутнойКартыНаПродукцию" id="afe67c45-08a0-470b-bb25-426e831d79fe" configVersion="a3a723fcfab41f857182d64b38cc5d8366d0c66d">
+			<Metadata name="Enum.ВариантыПечатиМаршрутнойКартыНаПродукцию.EnumValue.ПоМаршрутнымКартам" id="204a695b-a259-41ff-af9a-17536abc1673"/>
+			<Metadata name="Enum.ВариантыПечатиМаршрутнойКартыНаПродукцию.EnumValue.ПоЭтапам" id="c6fff8c0-5003-4ed5-b9ed-867acad8bc37"/>
+		</Metadata>
 		<Metadata name="Enum.ВариантыПредставленияНаборовВПечатныхФормах" id="0ac85ff2-e04b-4498-b52d-c01ea6984201" configVersion="a5427e5c2a308e90e749db67376135e760cf0b14">
 			<Metadata name="Enum.ВариантыПредставленияНаборовВПечатныхФормах.EnumValue.ТолькоКомплектующие" id="2f2a63fd-4904-4f73-a6be-ecb34978dd21"/>
 			<Metadata name="Enum.ВариантыПредставленияНаборовВПечатныхФормах.EnumValue.НаборИКомплектующие" id="72e09a8a-501b-48fc-96e1-3ff86b1f9c1f"/>
@@ -1903,6 +1911,10 @@
 		</Metadata>
 		<Metadata name="Enum.ДоступныеПериодыОтчета" id="cf51bace-8e15-43b7-bc13-b1da7745ac3c" configVersion="e72041c7252ad1bc127401c17c4d15a3e56111c6"/>
 		<Metadata name="Enum.ЕдиницыИзмеренияВремени" id="d2b76c7b-e883-40c8-82a9-79609b0ed86b" configVersion="f0a09830cf689338bb347dcfeb45bc39c6a2d2d9"/>
+		<Metadata name="Enum.ИспользованиеНоменклатурыВНСИПроизводства" id="de9a638f-3699-4128-bf64-10292c831c55" configVersion="ed26a5dffe555d5a52dcdfbd7c319cbadcf1bf8e">
+			<Metadata name="Enum.ИспользованиеНоменклатурыВНСИПроизводства.EnumValue.Материал" id="02cef40c-5a53-443a-9751-0548642bbbe0"/>
+			<Metadata name="Enum.ИспользованиеНоменклатурыВНСИПроизводства.EnumValue.Изделие" id="5ecc659b-cf24-4f09-8ce5-1737977924a6"/>
+		</Metadata>
 		<Metadata name="Enum.КатегорииНачисленийИНеоплаченногоВремени" id="52ffa44d-47af-4ad8-9ed3-503215cb38f3" configVersion="a9bbdc125a1da2d6d1fe3b15f5ca4c40f61cd3b5">
 			<Metadata name="Enum.КатегорииНачисленийИНеоплаченногоВремени.EnumValue.ВыбираемаяСотрудникомЛьгота" id="07da37df-bba2-458c-b57b-a0ab222d5eba"/>
 			<Metadata name="Enum.КатегорииНачисленийИНеоплаченногоВремени.EnumValue.Льгота" id="75239ff1-7045-4f26-9350-70de24bdc49b"/>
@@ -2038,6 +2050,11 @@
 		<Metadata name="Enum.СтатусыРеализацийТоваровУслуг" id="9faf1b5e-2093-4f79-8623-5e1e3e0be52e" configVersion="a845b4cbbbfc871c00d52464145ac55403e4758c">
 			<Metadata name="Enum.СтатусыРеализацийТоваровУслуг.EnumValue.Отгружено" id="6a99fe52-7d20-447c-a7bb-326f6ea57d2f"/>
 			<Metadata name="Enum.СтатусыРеализацийТоваровУслуг.EnumValue.ВПути" id="7b5c3288-8b85-4c42-b00f-52c579f56506"/>
+		</Metadata>
+		<Metadata name="Enum.СтатусыСпецификаций" id="39edb26c-ee95-4dbe-9618-cac5c399e0c8" configVersion="e8348016447d24e419bacbb2a861c61fab5538bf">
+			<Metadata name="Enum.СтатусыСпецификаций.EnumValue.Закрыта" id="0fdebd10-da49-4053-be74-ca20ee244c01"/>
+			<Metadata name="Enum.СтатусыСпецификаций.EnumValue.ВРазработке" id="6f3d0761-dfdd-49bd-8cb8-4d2e092e95fd"/>
+			<Metadata name="Enum.СтатусыСпецификаций.EnumValue.Действует" id="9de3716b-597c-46df-9014-58da269c2966"/>
 		</Metadata>
 		<Metadata name="Enum.ТипыДвиженияДенежныхСредств" id="beeefb5b-d94a-4782-ba45-9b8a6ec0de71" configVersion="a98cecce0c333cf97f072e5ed54c537af1ba807f">
 			<Metadata name="Enum.ТипыДвиженияДенежныхСредств.EnumValue.Поступление" id="6077a6b5-6f09-464f-8c65-60dd41adf499"/>

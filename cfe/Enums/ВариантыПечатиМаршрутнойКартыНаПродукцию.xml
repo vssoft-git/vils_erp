@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Enum uuid="afe67c45-08a0-470b-bb25-426e831d79fe">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВариантыПечатиМаршрутнойКартыНаПродукцию" category="Ref">
+				<xr:TypeId>766cccd8-d704-424b-bd19-10eeb5c47984</xr:TypeId>
+				<xr:ValueId>bef7b749-7cdc-4ec5-b867-0347d1c7059c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВариантыПечатиМаршрутнойКартыНаПродукцию" category="Manager">
+				<xr:TypeId>c10943d7-d873-4fc0-8d34-aa1904489756</xr:TypeId>
+				<xr:ValueId>5a3960f6-985b-4a28-8e02-d738f6c47643</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВариантыПечатиМаршрутнойКартыНаПродукцию" category="List">
+				<xr:TypeId>39c20fe6-5d15-4e2c-88e7-89b3be37e89e</xr:TypeId>
+				<xr:ValueId>ed1a9d12-f85d-4e4e-87a0-79884c4ab336</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВариантыПечатиМаршрутнойКартыНаПродукцию</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>780d50e9-8963-4bce-8bbd-757fcba51735</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="204a695b-a259-41ff-af9a-17536abc1673">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПоМаршрутнымКартам</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>b8e52448-0d27-4506-baac-037e125283c4</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="c6fff8c0-5003-4ed5-b9ed-867acad8bc37">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПоЭтапам</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>77d354dd-e834-4be8-bce5-1864d40cad0d</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>
