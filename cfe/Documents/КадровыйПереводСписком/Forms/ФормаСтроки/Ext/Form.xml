@@ -112,6 +112,116 @@
 		<Event name="OnCreateAtServer" callType="After">ВИЛС_ПриСозданииНаСервереПосле</Event>
 	</Events>
 	<ChildItems>
+		<UsualGroup name="ПредупреждениеОПересекающихсяМероприятияхГруппа" id="999">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предупреждение о пересекающихся мероприятиях группа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Предупреждение о пересекающихся мероприятиях группа</v8:content>
+				</v8:item>
+			</Title>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<BackColor>style:ФонУправляющегоПоля</BackColor>
+			<ExtendedTooltip name="ПредупреждениеОПересекающихсяМероприятияхГруппаРасширеннаяПодсказка" id="976"/>
+			<ChildItems>
+				<PictureDecoration name="ПредупреждениеОПересекающихсяМероприятияхКартинка" id="1000">
+					<ContextMenu name="ПредупреждениеОПересекающихсяМероприятияхКартинкаКонтекстноеМеню" id="978"/>
+					<ExtendedTooltip name="ПредупреждениеОПересекающихсяМероприятияхКартинкаРасширеннаяПодсказка" id="979"/>
+				</PictureDecoration>
+				<UsualGroup name="ПредупреждениеОПересекающихсяМероприятияхВариантыГруппа" id="986">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Предупреждение о пересекающихся мероприятиях варианты группа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Предупреждение о пересекающихся мероприятиях варианты группа</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ПредупреждениеОПересекающихсяМероприятияхВариантыГруппаРасширеннаяПодсказка" id="987"/>
+					<ChildItems>
+						<LabelDecoration name="ПредупреждениеОПересекающихсяМероприятияхЗаголовокДекорация" id="980">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>В базе данных зарегистрировано мероприятие, прекращающее действие начавшегося ранее даты перевода - 01.01.0001.
+Для поддержания целостности данных потребуется:
+</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ПредупреждениеОПересекающихсяМероприятияхЗаголовокДекорацияКонтекстноеМеню" id="981"/>
+							<ExtendedTooltip name="ПредупреждениеОПересекающихсяМероприятияхЗаголовокДекорацияРасширеннаяПодсказка" id="982"/>
+						</LabelDecoration>
+						<LabelDecoration name="ПредупреждениеОПересекающихсяМероприятияхТекстПервогоВариантаДекорация" id="988">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>• Отредактировать документ-регистратор мероприятия &lt;u&gt;&lt;colorstyle 0:cf78d77c-688f-4061-8911-02e40b3d3573&gt;Кадровый перевод 0000-000001 от 01.01.0001&lt;/&gt;&lt;/&gt;</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ПредупреждениеОПересекающихсяМероприятияхТекстПервогоВариантаДекорацияКонтекстноеМеню" id="989"/>
+							<ExtendedTooltip name="ПредупреждениеОПересекающихсяМероприятияхТекстПервогоВариантаДекорацияРасширеннаяПодсказка" id="990"/>
+						</LabelDecoration>
+						<LabelDecoration name="ПредупреждениеОПересекающихсяМероприятияхТекстВторогоВариантаДекорация" id="991">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>• Отменить будущее мероприятие с помощью документа &lt;u&gt;&lt;colorstyle 0:cf78d77c-688f-4061-8911-02e40b3d3573&gt;Регистрация трудовой деятельности&lt;/&gt;&lt;/&gt;</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ПредупреждениеОПересекающихсяМероприятияхТекстВторогоВариантаДекорацияКонтекстноеМеню" id="992"/>
+							<ExtendedTooltip name="ПредупреждениеОПересекающихсяМероприятияхТекстВторогоВариантаДекорацияРасширеннаяПодсказка" id="993"/>
+						</LabelDecoration>
+						<UsualGroup name="ПредупреждениеОПересекающихсяМероприятияхТретийВариантГруппа" id="997">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Предупреждение о пересекающихся мероприятиях третий вариант группа</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>Предупреждение о пересекающихся мероприятиях третий вариант группа</v8:content>
+								</v8:item>
+							</Title>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ПредупреждениеОПересекающихсяМероприятияхТретийВариантГруппаРасширеннаяПодсказка" id="998"/>
+							<ChildItems>
+								<LabelDecoration name="ПредупреждениеОПересекающихсяМероприятияхТретийВариантДекорация" id="994">
+									<Title formatted="true">
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>•</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ПредупреждениеОПересекающихсяМероприятияхТретийВариантДекорацияКонтекстноеМеню" id="995"/>
+									<ExtendedTooltip name="ПредупреждениеОПересекающихсяМероприятияхТретийВариантДекорацияРасширеннаяПодсказка" id="996"/>
+								</LabelDecoration>
+								<CheckBoxField name="ИгнорироватьПересеченияСрочныхКадровыхПереводов" id="983">
+									<TitleLocation>Right</TitleLocation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="ИгнорироватьПересеченияСрочныхКадровыхПереводовКонтекстноеМеню" id="984"/>
+									<ExtendedTooltip name="ИгнорироватьПересеченияСрочныхКадровыхПереводовРасширеннаяПодсказка" id="985"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
 		<UsualGroup name="Шапка" id="41">
 			<Title>
 				<v8:item>
@@ -505,6 +615,23 @@
 															<ContextMenu name="ДолжностьКонтекстноеМеню" id="111"/>
 															<ExtendedTooltip name="ДолжностьExtendedTooltip" id="348"/>
 														</InputField>
+														<CheckBoxField name="ОтразитьВТрудовойКнижке" id="940">
+															<TitleLocation>Right</TitleLocation>
+															<ToolTip>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>При регистрации мероприятий будет зарегистрировано два мероприятия: на дату перевода и на дату возврата на  прежнюю позицию</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>При регистрации мероприятий будет зарегистрировано два мероприятия: на дату перевода и на дату возврата на  прежнюю позицию</v8:content>
+																</v8:item>
+															</ToolTip>
+															<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+															<CheckBoxType>Auto</CheckBoxType>
+															<ContextMenu name="ОтразитьВТрудовойКнижкеКонтекстноеМеню" id="941"/>
+															<ExtendedTooltip name="ОтразитьВТрудовойКнижкеРасширеннаяПодсказка" id="942"/>
+														</CheckBoxField>
 														<UsualGroup name="СведенияТрудовойКнижкиГруппа" id="943">
 															<Title>
 																<v8:item>
@@ -653,12 +780,6 @@
 															<ContextMenu name="КоличествоСтавокКонтекстноеМеню" id="796"/>
 															<ExtendedTooltip name="КоличествоСтавокРасширеннаяПодсказка" id="797"/>
 														</LabelField>
-														<CheckBoxField name="ОтразитьВТрудовойКнижке" id="940">
-															<TitleLocation>Right</TitleLocation>
-															<CheckBoxType>Auto</CheckBoxType>
-															<ContextMenu name="ОтразитьВТрудовойКнижкеКонтекстноеМеню" id="941"/>
-															<ExtendedTooltip name="ОтразитьВТрудовойКнижкеРасширеннаяПодсказка" id="942"/>
-														</CheckBoxField>
 													</ChildItems>
 												</UsualGroup>
 											</ChildItems>
@@ -3950,6 +4071,116 @@
 			</ChildItems>
 		</AutoCommandBar>
 		<ChildItems>
+			<UsualGroup name="ПредупреждениеОПересекающихсяМероприятияхГруппа" id="975">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Предупреждение о пересекающихся мероприятиях группа</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Предупреждение о пересекающихся мероприятиях группа</v8:content>
+					</v8:item>
+				</Title>
+				<HorizontalStretch>true</HorizontalStretch>
+				<Group>AlwaysHorizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<BackColor>style:ФонУправляющегоПоля</BackColor>
+				<ExtendedTooltip name="ПредупреждениеОПересекающихсяМероприятияхГруппаРасширеннаяПодсказка" id="976"/>
+				<ChildItems>
+					<PictureDecoration name="ПредупреждениеОПересекающихсяМероприятияхКартинка" id="977">
+						<ContextMenu name="ПредупреждениеОПересекающихсяМероприятияхКартинкаКонтекстноеМеню" id="978"/>
+						<ExtendedTooltip name="ПредупреждениеОПересекающихсяМероприятияхКартинкаРасширеннаяПодсказка" id="979"/>
+					</PictureDecoration>
+					<UsualGroup name="ПредупреждениеОПересекающихсяМероприятияхВариантыГруппа" id="986">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Предупреждение о пересекающихся мероприятиях варианты группа</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Предупреждение о пересекающихся мероприятиях варианты группа</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ПредупреждениеОПересекающихсяМероприятияхВариантыГруппаРасширеннаяПодсказка" id="987"/>
+						<ChildItems>
+							<LabelDecoration name="ПредупреждениеОПересекающихсяМероприятияхЗаголовокДекорация" id="980">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<Title formatted="true">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>В базе данных зарегистрировано мероприятие, прекращающее действие начавшегося ранее даты перевода - 01.01.0001.
+Для поддержания целостности данных потребуется:
+</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="ПредупреждениеОПересекающихсяМероприятияхЗаголовокДекорацияКонтекстноеМеню" id="981"/>
+								<ExtendedTooltip name="ПредупреждениеОПересекающихсяМероприятияхЗаголовокДекорацияРасширеннаяПодсказка" id="982"/>
+							</LabelDecoration>
+							<LabelDecoration name="ПредупреждениеОПересекающихсяМероприятияхТекстПервогоВариантаДекорация" id="988">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<Title formatted="true">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>• Отредактировать документ-регистратор мероприятия &lt;u&gt;&lt;colorstyle 0:cf78d77c-688f-4061-8911-02e40b3d3573&gt;Кадровый перевод 0000-000001 от 01.01.0001&lt;/&gt;&lt;/&gt;</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="ПредупреждениеОПересекающихсяМероприятияхТекстПервогоВариантаДекорацияКонтекстноеМеню" id="989"/>
+								<ExtendedTooltip name="ПредупреждениеОПересекающихсяМероприятияхТекстПервогоВариантаДекорацияРасширеннаяПодсказка" id="990"/>
+							</LabelDecoration>
+							<LabelDecoration name="ПредупреждениеОПересекающихсяМероприятияхТекстВторогоВариантаДекорация" id="991">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<Title formatted="true">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>• Отменить будущее мероприятие с помощью документа &lt;u&gt;&lt;colorstyle 0:cf78d77c-688f-4061-8911-02e40b3d3573&gt;Регистрация трудовой деятельности&lt;/&gt;&lt;/&gt;</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="ПредупреждениеОПересекающихсяМероприятияхТекстВторогоВариантаДекорацияКонтекстноеМеню" id="992"/>
+								<ExtendedTooltip name="ПредупреждениеОПересекающихсяМероприятияхТекстВторогоВариантаДекорацияРасширеннаяПодсказка" id="993"/>
+							</LabelDecoration>
+							<UsualGroup name="ПредупреждениеОПересекающихсяМероприятияхТретийВариантГруппа" id="997">
+								<Title>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Предупреждение о пересекающихся мероприятиях третий вариант группа</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>Предупреждение о пересекающихся мероприятиях третий вариант группа</v8:content>
+									</v8:item>
+								</Title>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ПредупреждениеОПересекающихсяМероприятияхТретийВариантГруппаРасширеннаяПодсказка" id="998"/>
+								<ChildItems>
+									<LabelDecoration name="ПредупреждениеОПересекающихсяМероприятияхТретийВариантДекорация" id="994">
+										<Title formatted="true">
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>•</v8:content>
+											</v8:item>
+										</Title>
+										<ContextMenu name="ПредупреждениеОПересекающихсяМероприятияхТретийВариантДекорацияКонтекстноеМеню" id="995"/>
+										<ExtendedTooltip name="ПредупреждениеОПересекающихсяМероприятияхТретийВариантДекорацияРасширеннаяПодсказка" id="996"/>
+									</LabelDecoration>
+									<CheckBoxField name="ИгнорироватьПересеченияСрочныхКадровыхПереводов" id="983">
+										<TitleLocation>Right</TitleLocation>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="ИгнорироватьПересеченияСрочныхКадровыхПереводовКонтекстноеМеню" id="984"/>
+										<ExtendedTooltip name="ИгнорироватьПересеченияСрочныхКадровыхПереводовРасширеннаяПодсказка" id="985"/>
+									</CheckBoxField>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
 			<UsualGroup name="Шапка" id="41">
 				<Title>
 					<v8:item>
@@ -4343,6 +4574,25 @@
 																<ContextMenu name="ДолжностьКонтекстноеМеню" id="111"/>
 																<ExtendedTooltip name="ДолжностьExtendedTooltip" id="348"/>
 															</InputField>
+															<CheckBoxField name="ОтразитьВТрудовойКнижке" id="941">
+																<TitleLocation>Right</TitleLocation>
+																<ToolTip>
+																	<v8:item>
+																		<v8:lang>ru</v8:lang>
+																		<v8:content>При регистрации мероприятий будет зарегистрировано два мероприятия: на дату перевода и на дату возврата на  прежнюю позицию</v8:content>
+																	</v8:item>
+																	<v8:item>
+																		<v8:lang>en</v8:lang>
+																		<v8:content>При регистрации мероприятий будет зарегистрировано два мероприятия: на дату перевода и на дату возврата на  прежнюю позицию</v8:content>
+																	</v8:item>
+																</ToolTip>
+																<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+																<CheckBoxType>Auto</CheckBoxType>
+																<ContextMenu name="ОтразитьВТрудовойКнижкеКонтекстноеМеню" id="942"/>
+																<ExtendedTooltip name="ОтразитьВТрудовойКнижкеРасширеннаяПодсказка" id="943">
+																	<AutoMaxWidth>false</AutoMaxWidth>
+																</ExtendedTooltip>
+															</CheckBoxField>
 															<UsualGroup name="СведенияТрудовойКнижкиГруппа" id="946">
 																<Title>
 																	<v8:item>
@@ -4491,12 +4741,6 @@
 																<ContextMenu name="КоличествоСтавокКонтекстноеМеню" id="796"/>
 																<ExtendedTooltip name="КоличествоСтавокРасширеннаяПодсказка" id="797"/>
 															</LabelField>
-															<CheckBoxField name="ОтразитьВТрудовойКнижке" id="941">
-																<TitleLocation>Right</TitleLocation>
-																<CheckBoxType>Auto</CheckBoxType>
-																<ContextMenu name="ОтразитьВТрудовойКнижкеКонтекстноеМеню" id="942"/>
-																<ExtendedTooltip name="ОтразитьВТрудовойКнижкеРасширеннаяПодсказка" id="943"/>
-															</CheckBoxField>
 														</ChildItems>
 													</UsualGroup>
 												</ChildItems>

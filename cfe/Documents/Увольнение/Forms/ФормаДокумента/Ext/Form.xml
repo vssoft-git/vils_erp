@@ -64,6 +64,98 @@
 		<Event name="OnCreateAtServer" callType="After">ВИЛС_ПриСозданииНаСервереПосле</Event>
 	</Events>
 	<ChildItems>
+		<UsualGroup name="ПредупреждениеОБудущихМероприятияхГруппа" id="1978">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предупреждение о будущих мероприятиях группа</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Предупреждение о будущих мероприятиях группа</v8:content>
+				</v8:item>
+			</Title>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<BackColor>style:ФонУправляющегоПоля</BackColor>
+			<ExtendedTooltip name="ПредупреждениеОБудущихМероприятияхГруппаРасширеннаяПодсказка" id="1979"/>
+			<ChildItems>
+				<PictureDecoration name="ПредупреждениеОБудущихМероприятияхКартинка" id="1980">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Предупреждение о будущих мероприятиях картинка</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Предупреждение о будущих мероприятиях картинка</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ПредупреждениеОБудущихМероприятияхКартинкаКонтекстноеМеню" id="1981"/>
+					<ExtendedTooltip name="ПредупреждениеОБудущихМероприятияхКартинкаРасширеннаяПодсказка" id="1982"/>
+				</PictureDecoration>
+				<UsualGroup name="ПредупреждениеОБудущихМероприятияхВариантыГруппа" id="1983">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Предупреждение о будущих мероприятиях варианты группа</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Предупреждение о будущих мероприятиях варианты группа</v8:content>
+						</v8:item>
+					</Title>
+					<HorizontalStretch>true</HorizontalStretch>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ПредупреждениеОБудущихМероприятияхВариантыГруппаРасширеннаяПодсказка" id="1984"/>
+					<ChildItems>
+						<LabelDecoration name="ПредупреждениеОБудущихМероприятияхЗаголовокДекорация" id="1985">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>В базе данных зарегистрированы мероприятия трудовой книжки, дата которых (31.12.3999) больше даты увольнения.
+Для регистрации увольнения необходимо:</v8:content>
+								</v8:item>
+								<v8:item>
+									<v8:lang>en</v8:lang>
+									<v8:content>В базе данных зарегистрированы мероприятия трудовой книжки, дата которых (31.12.3999) больше даты увольнения.
+Для регистрации увольнения необходимо:</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ПредупреждениеОБудущихМероприятияхЗаголовокДекорацияКонтекстноеМеню" id="1986"/>
+							<ExtendedTooltip name="ПредупреждениеОБудущихМероприятияхЗаголовокДекорацияРасширеннаяПодсказка" id="1987"/>
+						</LabelDecoration>
+						<LabelDecoration name="ПредупреждениеОБудущихМероприятияхТекстПервогоВариантаДекорация" id="1988">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>• Отредактировать документ-регистратор мероприятия &lt;u&gt;&lt;colorstyle 0:cf78d77c-688f-4061-8911-02e40b3d3573&gt;Кадровый перевод 0000-000001 от 01.01.0001&lt;/&gt;&lt;/&gt;</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ПредупреждениеОБудущихМероприятияхТекстПервогоВариантаДекорацияКонтекстноеМеню" id="1989"/>
+							<ExtendedTooltip name="ПредупреждениеОБудущихМероприятияхТекстПервогоВариантаДекорацияРасширеннаяПодсказка" id="1990"/>
+						</LabelDecoration>
+						<LabelDecoration name="ПредупреждениеОБудущихМероприятияхТекстВторогоВариантаДекорация" id="1991">
+							<AutoMaxWidth>false</AutoMaxWidth>
+							<Title formatted="true">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>• Отменить будущее мероприятие с помощью документа &lt;u&gt;&lt;colorstyle 0:cf78d77c-688f-4061-8911-02e40b3d3573&gt;Регистрация трудовой деятельности&lt;/&gt;&lt;/&gt;</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ПредупреждениеОБудущихМероприятияхТекстВторогоВариантаДекорацияКонтекстноеМеню" id="1992"/>
+							<ExtendedTooltip name="ПредупреждениеОБудущихМероприятияхТекстВторогоВариантаДекорацияРасширеннаяПодсказка" id="1993"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
 		<UsualGroup name="Шапка" id="160">
 			<Title>
 				<v8:item>
@@ -3194,6 +3286,11 @@ salary of the previous period will be paid if necessary
 															<ContextMenu name="НДФЛНалогКонтекстноеМеню" id="648"/>
 															<ExtendedTooltip name="НДФЛНалогExtendedTooltip" id="1011"/>
 														</InputField>
+														<InputField name="НДФЛНалогСПревышения" id="1996">
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="НДФЛНалогСПревышенияКонтекстноеМеню" id="1973"/>
+															<ExtendedTooltip name="НДФЛНалогСПревышенияРасширеннаяПодсказка" id="1998"/>
+														</InputField>
 														<InputField name="НДФЛЗачтеноАвансовыхПлатежей" id="1446">
 															<UserVisible>
 																<xr:Common>false</xr:Common>
@@ -3201,6 +3298,11 @@ salary of the previous period will be paid if necessary
 															<EditMode>EnterOnInput</EditMode>
 															<ContextMenu name="НДФЛЗачтеноАвансовыхПлатежейКонтекстноеМеню" id="1447"/>
 															<ExtendedTooltip name="НДФЛЗачтеноАвансовыхПлатежейРасширеннаяПодсказка" id="1448"/>
+														</InputField>
+														<InputField name="НДФЛЗачтеноАвансовыхПлатежейСПревышения" id="1975">
+															<EditMode>EnterOnInput</EditMode>
+															<ContextMenu name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияКонтекстноеМеню" id="1999"/>
+															<ExtendedTooltip name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияРасширеннаяПодсказка" id="2000"/>
 														</InputField>
 														<InputField name="НДФЛНалогКЗачетуВозврату" id="812">
 															<UserVisible>
@@ -4823,6 +4925,98 @@ number, date)</v8:content>
 			</ChildItems>
 		</AutoCommandBar>
 		<ChildItems>
+			<UsualGroup name="ПредупреждениеОБудущихМероприятияхГруппа" id="1978">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Предупреждение о будущих мероприятиях группа</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>Предупреждение о будущих мероприятиях группа</v8:content>
+					</v8:item>
+				</Title>
+				<HorizontalStretch>true</HorizontalStretch>
+				<Group>AlwaysHorizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<BackColor>style:ФонУправляющегоПоля</BackColor>
+				<ExtendedTooltip name="ПредупреждениеОБудущихМероприятияхГруппаРасширеннаяПодсказка" id="1979"/>
+				<ChildItems>
+					<PictureDecoration name="ПредупреждениеОБудущихМероприятияхКартинка" id="1980">
+						<Title formatted="false">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Предупреждение о будущих мероприятиях картинка</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Предупреждение о будущих мероприятиях картинка</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="ПредупреждениеОБудущихМероприятияхКартинкаКонтекстноеМеню" id="1981"/>
+						<ExtendedTooltip name="ПредупреждениеОБудущихМероприятияхКартинкаРасширеннаяПодсказка" id="1982"/>
+					</PictureDecoration>
+					<UsualGroup name="ПредупреждениеОБудущихМероприятияхВариантыГруппа" id="1983">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Предупреждение о будущих мероприятиях варианты группа</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Предупреждение о будущих мероприятиях варианты группа</v8:content>
+							</v8:item>
+						</Title>
+						<HorizontalStretch>true</HorizontalStretch>
+						<Group>Vertical</Group>
+						<Representation>None</Representation>
+						<ShowTitle>false</ShowTitle>
+						<ExtendedTooltip name="ПредупреждениеОБудущихМероприятияхВариантыГруппаРасширеннаяПодсказка" id="1984"/>
+						<ChildItems>
+							<LabelDecoration name="ПредупреждениеОБудущихМероприятияхЗаголовокДекорация" id="1985">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<Title formatted="false">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>В базе данных зарегистрированы мероприятия трудовой книжки, дата которых (31.12.3999) больше даты увольнения.
+Для регистрации увольнения необходимо:</v8:content>
+									</v8:item>
+									<v8:item>
+										<v8:lang>en</v8:lang>
+										<v8:content>В базе данных зарегистрированы мероприятия трудовой книжки, дата которых (31.12.3999) больше даты увольнения.
+Для регистрации увольнения необходимо:</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="ПредупреждениеОБудущихМероприятияхЗаголовокДекорацияКонтекстноеМеню" id="1986"/>
+								<ExtendedTooltip name="ПредупреждениеОБудущихМероприятияхЗаголовокДекорацияРасширеннаяПодсказка" id="1987"/>
+							</LabelDecoration>
+							<LabelDecoration name="ПредупреждениеОБудущихМероприятияхТекстПервогоВариантаДекорация" id="1988">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<Title formatted="true">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>• Отредактировать документ-регистратор мероприятия &lt;u&gt;&lt;colorstyle 0:cf78d77c-688f-4061-8911-02e40b3d3573&gt;Кадровый перевод 0000-000001 от 01.01.0001&lt;/&gt;&lt;/&gt;</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="ПредупреждениеОБудущихМероприятияхТекстПервогоВариантаДекорацияКонтекстноеМеню" id="1989"/>
+								<ExtendedTooltip name="ПредупреждениеОБудущихМероприятияхТекстПервогоВариантаДекорацияРасширеннаяПодсказка" id="1990"/>
+							</LabelDecoration>
+							<LabelDecoration name="ПредупреждениеОБудущихМероприятияхТекстВторогоВариантаДекорация" id="1991">
+								<AutoMaxWidth>false</AutoMaxWidth>
+								<Title formatted="true">
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>• Отменить будущее мероприятие с помощью документа &lt;u&gt;&lt;colorstyle 0:cf78d77c-688f-4061-8911-02e40b3d3573&gt;Регистрация трудовой деятельности&lt;/&gt;&lt;/&gt;</v8:content>
+									</v8:item>
+								</Title>
+								<ContextMenu name="ПредупреждениеОБудущихМероприятияхТекстВторогоВариантаДекорацияКонтекстноеМеню" id="1992"/>
+								<ExtendedTooltip name="ПредупреждениеОБудущихМероприятияхТекстВторогоВариантаДекорацияРасширеннаяПодсказка" id="1993"/>
+							</LabelDecoration>
+						</ChildItems>
+					</UsualGroup>
+				</ChildItems>
+			</UsualGroup>
 			<UsualGroup name="Шапка" id="160">
 				<Title>
 					<v8:item>
@@ -7956,6 +8150,11 @@ salary of the previous period will be paid if necessary
 																<ContextMenu name="НДФЛНалогКонтекстноеМеню" id="648"/>
 																<ExtendedTooltip name="НДФЛНалогExtendedTooltip" id="1011"/>
 															</InputField>
+															<InputField name="НДФЛНалогСПревышения" id="1972">
+																<EditMode>EnterOnInput</EditMode>
+																<ContextMenu name="НДФЛНалогСПревышенияКонтекстноеМеню" id="1973"/>
+																<ExtendedTooltip name="НДФЛНалогСПревышенияРасширеннаяПодсказка" id="1974"/>
+															</InputField>
 															<InputField name="НДФЛЗачтеноАвансовыхПлатежей" id="1446">
 																<UserVisible>
 																	<xr:Common>false</xr:Common>
@@ -7963,6 +8162,11 @@ salary of the previous period will be paid if necessary
 																<EditMode>EnterOnInput</EditMode>
 																<ContextMenu name="НДФЛЗачтеноАвансовыхПлатежейКонтекстноеМеню" id="1447"/>
 																<ExtendedTooltip name="НДФЛЗачтеноАвансовыхПлатежейРасширеннаяПодсказка" id="1448"/>
+															</InputField>
+															<InputField name="НДФЛЗачтеноАвансовыхПлатежейСПревышения" id="1975">
+																<EditMode>EnterOnInput</EditMode>
+																<ContextMenu name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияКонтекстноеМеню" id="1976"/>
+																<ExtendedTooltip name="НДФЛЗачтеноАвансовыхПлатежейСПревышенияРасширеннаяПодсказка" id="1977"/>
 															</InputField>
 															<InputField name="НДФЛНалогКЗачетуВозврату" id="812">
 																<UserVisible>
