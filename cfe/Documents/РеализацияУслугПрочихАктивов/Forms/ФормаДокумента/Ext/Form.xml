@@ -235,6 +235,9 @@
 			</Button>
 		</ChildItems>
 	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer" callType="After">ВИЛС_ПриСозданииНаСервереПосле</Event>
+	</Events>
 	<ChildItems>
 		<UsualGroup name="ГруппаСтатус" id="484">
 			<Title>
@@ -1759,6 +1762,9 @@
 							<AutoMaxWidth>false</AutoMaxWidth>
 							<ContextMenu name="ТекстСчетаФактурыВыданныеКонтекстноеМеню" id="330"/>
 							<ExtendedTooltip name="ТекстСчетаФактурыВыданныеРасширеннаяПодсказка" id="331"/>
+							<Events>
+								<Event name="URLProcessing" callType="After">ВИЛС_ТекстСчетаФактурыВыданныеОбработкаНавигационнойСсылкиПосле</Event>
+							</Events>
 						</LabelField>
 					</ChildItems>
 				</UsualGroup>
