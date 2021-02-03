@@ -411,7 +411,7 @@
 		<Metadata name="CommonModule.МодификацияКонфигурацииКлиентПереопределяемый" id="230013ae-4e85-42da-9635-4161aae8ca86" configVersion="9d5041c2ed0fd28142a744e9703659e2ab1d2226"/>
 		<Metadata name="CommonModule.МодификацияКонфигурацииКлиентПереопределяемый.Module" id="230013ae-4e85-42da-9635-4161aae8ca86.0" configVersion="187889c1b8b5714a8ea5e6870d0c9197931faec1"/>
 		<Metadata name="CommonModule.МодификацияКонфигурацииПереопределяемый" id="c5c2f8ef-5ae0-4645-b140-be2998f64efd" configVersion="977cc52eb7be1af6ffbac435ff001657a5649e3d"/>
-		<Metadata name="CommonModule.МодификацияКонфигурацииПереопределяемый.Module" id="c5c2f8ef-5ae0-4645-b140-be2998f64efd.0" configVersion="543120108525cebc671898c9d3bbdc02000312f3"/>
+		<Metadata name="CommonModule.МодификацияКонфигурацииПереопределяемый.Module" id="c5c2f8ef-5ae0-4645-b140-be2998f64efd.0" configVersion="fcdf40ed6f91520ea049232edfe93b6d6f6db306"/>
 		<Metadata name="CommonModule.ОбеспечениеСервер" id="39c04d67-4a87-4f4e-add1-4f7d0f07ef20" configVersion="0dc2dc53784f3d467487b9e4d9316d4d35f89637"/>
 		<Metadata name="CommonModule.ОбеспечениеСервер.Module" id="39c04d67-4a87-4f4e-add1-4f7d0f07ef20.0" configVersion="dc6700ea26be3a8d1928cf3f2ed42f606dcbcfa9"/>
 		<Metadata name="CommonModule.ОбменСБанкамиПоЗарплатнымПроектамПереопределяемый" id="9e2bac10-b912-42e1-92fe-6d84c4b7f8c7" configVersion="11934aac3f05495a388f760a2fd023fc5044d759"/>
@@ -1135,7 +1135,7 @@
 		<Metadata name="Document.ЗаказПоставщику.Form.ФормаДокумента.Form" id="f87d941a-d7fc-49c1-a68f-0c78cad5149d.0" configVersion="844b3a6c7c3805470556d53702c68e18fd5bc731"/>
 		<Metadata name="Document.ЗаказПоставщику.ManagerModule" id="dacbdacd-1511-4d58-b630-e5abc95697ee.2" configVersion="6f54bcb156c633db741a16e0192f5b6a5f394fbb"/>
 		<Metadata name="Document.ЗаказПоставщику.ObjectModule" id="dacbdacd-1511-4d58-b630-e5abc95697ee.0" configVersion="6622ae8d593c0b3ea41b76e5aba628a4278a43e7"/>
-		<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств" id="50b59e2f-24fe-4e4b-b5f0-1d483cb921fb" configVersion="d34c4b846a6f8e195218ee815283ac6f2cded196">
+		<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств" id="50b59e2f-24fe-4e4b-b5f0-1d483cb921fb" configVersion="6260f82b1033717eb466810b4e8cad561c253965">
 			<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.Attribute.ВИЛС_ЗаявкаВГрафикеПлатежей" id="0131b7aa-21a0-4f0d-b507-5c7041cba678"/>
 			<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.Attribute.ХозяйственнаяОперацияПоЗарплате" id="0331b5d7-af8b-43e9-9c2e-5b06e1a777a2"/>
 			<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.TabularSection.РасшифровкаПлатежа.Attribute.Комментарий" id="03acbdaa-4b5b-4d33-8699-b82c3753388e"/>
@@ -1143,6 +1143,7 @@
 			<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.TabularSection.РасшифровкаПлатежа.Attribute.СтатьяДвиженияДенежныхСредств" id="0b623b46-bb3e-4f1f-b86d-8cb90903cc35"/>
 			<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.Attribute.НомерВедомостиНаВыплатуЗарплаты" id="0c02c950-5664-4bcc-a165-73585c930aab"/>
 			<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.Attribute.КтоРешил" id="0c16f2fa-2531-4028-8e51-c1a6e9e3e2b6"/>
+			<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.Attribute.ВИЛС_КурсНаДату" id="0cfb0eb9-ae1b-438e-a738-89f396244592"/>
 			<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.TabularSection.РасшифровкаПлатежа.Attribute.СтатьяРасходов" id="0d28288d-c490-4197-9684-963716a3d02e"/>
 			<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.Attribute.Касса" id="0e4c9b66-30d2-4ecf-a074-864b96a44a9f"/>
 			<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.Attribute.СтатьяДвиженияДенежныхСредств" id="12cacb48-f83f-49a9-bfdd-2adc82711b3d"/>
@@ -1168,6 +1169,7 @@
 			<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.TabularSection.ЛицевыеСчетаСотрудников.Attribute.ЛицевойСчет" id="5419c174-f00f-4e99-a5b3-804831f21571"/>
 			<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.Attribute.ПлатежиПо275ФЗ" id="54a5fa01-d4a9-42a2-b0bd-5169a5ecf2fe"/>
 			<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.TabularSection.РасшифровкаПлатежа.Attribute.Организация" id="553729a7-573a-4ce7-9685-99655945a12a"/>
+			<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.Attribute.ВИЛС_КурсНаДатуОтгрузки" id="56e00779-bce2-43d9-ab36-781fd0f181c0"/>
 			<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.TabularSection.РасшифровкаПлатежа.Attribute.Ведомость" id="57408fcc-b9b2-4a07-bcee-be529519bb92"/>
 			<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.TabularSection.ПодтверждающиеДокументы.Attribute.Номер" id="5ad0bcb4-cdc9-44e6-b319-9272c972cebe"/>
 			<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.Attribute.КассаПолучатель" id="5b61a7ad-32f2-4087-b30e-87b040a16786"/>
@@ -1228,11 +1230,11 @@
 			<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.Attribute.ДокументОснование" id="fdac5e98-7a5d-460c-8ac9-1979ffacf56e"/>
 		</Metadata>
 		<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.Form.ФормаДокумента" id="e4bdaf89-242f-4eb2-8db3-a12a009ce6f7" configVersion="a2685b4d9be09a1544839bb95201cbee6cd972d2"/>
-		<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.Form.ФормаДокумента.Form" id="e4bdaf89-242f-4eb2-8db3-a12a009ce6f7.0" configVersion="27803ec1011205677527e7beec4bcd16df993c1c"/>
+		<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.Form.ФормаДокумента.Form" id="e4bdaf89-242f-4eb2-8db3-a12a009ce6f7.0" configVersion="5bc95560b13191c78135bc221a70b59787c09ac0"/>
 		<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.Form.ФормаСпискаДокументов" id="e149d36f-298c-40ae-8119-c38fc59a16f7" configVersion="dc62db87dc8521d414523feb131dd370358f2e69"/>
 		<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.Form.ФормаСпискаДокументов.Form" id="e149d36f-298c-40ae-8119-c38fc59a16f7.0" configVersion="58c5f7eca0b6b99a40e444eec53eac2845f4bd3b"/>
-		<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.ManagerModule" id="50b59e2f-24fe-4e4b-b5f0-1d483cb921fb.2" configVersion="25422bab6b32ed72a7f62f65e9ea4c584a1e2dfa"/>
-		<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.ObjectModule" id="50b59e2f-24fe-4e4b-b5f0-1d483cb921fb.0" configVersion="d0cdd44c02ba59aa78da0eac97a70b8fe6cb03e2"/>
+		<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.ManagerModule" id="50b59e2f-24fe-4e4b-b5f0-1d483cb921fb.2" configVersion="84726d244e05813d35f5246e29dede4134c87a88"/>
+		<Metadata name="Document.ЗаявкаНаРасходованиеДенежныхСредств.ObjectModule" id="50b59e2f-24fe-4e4b-b5f0-1d483cb921fb.0" configVersion="95bce59dc46967192a342d3d9f384874ba96c082"/>
 		<Metadata name="Document.ЗаявлениеСотрудникаНаВыплатуПособия" id="aa61b7b9-c4fa-492b-925f-7c10f2788e6b" configVersion="5e0a4784c0bfcac117c72e6d2889832e2cbf4aef"/>
 		<Metadata name="Document.ИнвентаризационнаяОпись" id="ad20b97a-7f28-48b2-bcfc-585f890dc5da" configVersion="9a63e17d88fb3a4ca5d1d1a4324bda6543748607"/>
 		<Metadata name="Document.ИнвентаризационнаяОпись.ManagerModule" id="ad20b97a-7f28-48b2-bcfc-585f890dc5da.2" configVersion="0a49f52f464c440140cae7eddd110323db8f52ec"/>
