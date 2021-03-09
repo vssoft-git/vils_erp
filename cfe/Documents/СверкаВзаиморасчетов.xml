@@ -30,6 +30,107 @@
 			<ExtendedConfigurationObject>4d4f485d-952a-4cb3-a5a4-ebcb15b9dff3</ExtendedConfigurationObject>
 			<RegisterRecords/>
 		</Properties>
-		<ChildObjects/>
+		<ChildObjects>
+			<TabularSection uuid="0de96157-dae3-4436-accd-76e7cd99f434">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.СверкаВзаиморасчетов.ДетальныеЗаписиРасчеты" category="TabularSection">
+						<xr:TypeId>d23e77c0-ae33-46fd-b5c5-b1d6aa9a9143</xr:TypeId>
+						<xr:ValueId>015ae955-2bcb-44b7-a2df-e06b78ae01ba</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.СверкаВзаиморасчетов.ДетальныеЗаписиРасчеты" category="TabularSectionRow">
+						<xr:TypeId>da83bf47-2ad5-4885-a3f9-ce100a3b9c45</xr:TypeId>
+						<xr:ValueId>74581224-236f-4d03-affe-dd80bdb88635</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ДетальныеЗаписиРасчеты</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>6d6fcc1e-ec31-41cf-bbb2-fb9aad9f15b9</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects>
+					<Attribute uuid="75b3b043-8e76-4041-8ea0-04ca550d7115">
+						<Properties>
+							<Name>ВИЛС_РасчетныйДокумент</Name>
+							<Synonym>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Расчетный документ (ВИЛС)</v8:content>
+								</v8:item>
+							</Synonym>
+							<Comment/>
+							<Type>
+								<v8:Type>cfg:DocumentRef.ВозвратТоваровОтКлиента</v8:Type>
+								<v8:Type>cfg:DocumentRef.ПередачаТоваровМеждуОрганизациями</v8:Type>
+								<v8:Type>cfg:DocumentRef.ВводОстатков</v8:Type>
+								<v8:Type>cfg:DocumentRef.ВыкупВозвратнойТарыКлиентом</v8:Type>
+								<v8:Type>cfg:DocumentRef.РеализацияУслугПрочихАктивов</v8:Type>
+								<v8:Type>cfg:DocumentRef.ЗаказКлиента</v8:Type>
+								<v8:Type>cfg:DocumentRef.АктВыполненныхРабот</v8:Type>
+								<v8:Type>cfg:DocumentRef.АвансовыйОтчет</v8:Type>
+								<v8:Type>cfg:DocumentRef.ОтчетПоКомиссииМеждуОрганизациями</v8:Type>
+								<v8:Type>cfg:DocumentRef.КорректировкаПриобретения</v8:Type>
+								<v8:Type>cfg:DocumentRef.ВыкупВозвратнойТарыУПоставщика</v8:Type>
+								<v8:Type>cfg:DocumentRef.ПриобретениеУслугПрочихАктивов</v8:Type>
+								<v8:Type>cfg:DocumentRef.ВыкупПринятыхНаХранениеТоваров</v8:Type>
+								<v8:Type>cfg:DocumentRef.ВыкупТоваровХранителем</v8:Type>
+								<v8:Type>cfg:DocumentRef.ОтчетКомитенту</v8:Type>
+								<v8:Type>cfg:DocumentRef.ПрочиеДоходыРасходы</v8:Type>
+								<v8:Type>cfg:DocumentRef.ЗаявкаНаВозвратТоваровОтКлиента</v8:Type>
+								<v8:Type>cfg:DocumentRef.ПервичныйДокумент</v8:Type>
+								<v8:Type>cfg:DocumentRef.ОперацияПоЯндексКассе</v8:Type>
+								<v8:Type>cfg:DocumentRef.ПоступлениеДенежныхДокументов</v8:Type>
+								<v8:Type>cfg:DocumentRef.ОтчетДавальцу</v8:Type>
+								<v8:Type>cfg:DocumentRef.ЗаказПоставщику</v8:Type>
+								<v8:Type>cfg:DocumentRef.ВыбытиеДенежныхДокументов</v8:Type>
+								<v8:Type>cfg:DocumentRef.РасходныйКассовыйОрдер</v8:Type>
+								<v8:Type>cfg:DocumentRef.ОперацияПоПлатежнойКарте</v8:Type>
+								<v8:Type>cfg:DocumentRef.ЗаказДавальца</v8:Type>
+								<v8:Type>cfg:DocumentRef.ОтчетКомитентуОСписании</v8:Type>
+								<v8:Type>cfg:DocumentRef.ОтчетПереработчика</v8:Type>
+								<v8:Type>cfg:DocumentRef.ПоступлениеБезналичныхДенежныхСредств</v8:Type>
+								<v8:Type>cfg:DocumentRef.ПриходныйКассовыйОрдер</v8:Type>
+								<v8:Type>cfg:DocumentRef.КорректировкаРегистров</v8:Type>
+								<v8:Type>cfg:DocumentRef.СписаниеБезналичныхДенежныхСредств</v8:Type>
+								<v8:Type>cfg:DocumentRef.СписаниеЗадолженности</v8:Type>
+								<v8:Type>cfg:DocumentRef.РеализацияТоваровУслуг</v8:Type>
+								<v8:Type>cfg:DocumentRef.ВозвратТоваровМеждуОрганизациями</v8:Type>
+								<v8:Type>cfg:DocumentRef.ВзаимозачетЗадолженности</v8:Type>
+								<v8:Type>cfg:DocumentRef.ОтчетКомиссионера</v8:Type>
+								<v8:Type>cfg:DocumentRef.ОтчетОператораСистемыПлатон</v8:Type>
+								<v8:Type>cfg:DocumentRef.КорректировкаРеализации</v8:Type>
+								<v8:Type>cfg:DocumentRef.ТаможеннаяДекларацияИмпорт</v8:Type>
+								<v8:Type>cfg:DocumentRef.ВозвратТоваровПоставщику</v8:Type>
+								<v8:Type>cfg:DocumentRef.ПриобретениеТоваровУслуг</v8:Type>
+								<v8:Type>cfg:DocumentRef.ОтчетКомиссионераОСписании</v8:Type>
+								<v8:Type>cfg:DocumentRef.ОтчетПоКомиссииМеждуОрганизациямиОСписании</v8:Type>
+							</Type>
+							<PasswordMode>false</PasswordMode>
+							<Format/>
+							<EditFormat/>
+							<ToolTip/>
+							<MarkNegatives>false</MarkNegatives>
+							<Mask/>
+							<MultiLine>false</MultiLine>
+							<ExtendedEdit>false</ExtendedEdit>
+							<MinValue xsi:nil="true"/>
+							<MaxValue xsi:nil="true"/>
+							<FillChecking>DontCheck</FillChecking>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<ChoiceParameterLinks/>
+							<ChoiceParameters/>
+							<QuickChoice>Auto</QuickChoice>
+							<CreateOnInput>Auto</CreateOnInput>
+							<ChoiceForm/>
+							<LinkByType/>
+							<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+							<Indexing>DontIndex</Indexing>
+							<FullTextSearch>Use</FullTextSearch>
+							<DataHistory>Use</DataHistory>
+						</Properties>
+					</Attribute>
+				</ChildObjects>
+			</TabularSection>
+		</ChildObjects>
 	</Document>
 </MetaDataObject>
