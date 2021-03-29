@@ -248,6 +248,7 @@
 			<Role>ВИЛС_Просмотр_ВИЛС_ПартииВПроизводствеПоПериодам</Role>
 			<Role>ВИЛС_Просмотр_ВИЛС_ТабельУчетаОтработанногоВремени</Role>
 			<Role>ВИЛС_ИспользованиеСервисаРассылкиЗарплатныхОтчетов</Role>
+			<Role>ЧтениеВводаОстатков</Role>
 			<CommonTemplate>ВИЛС_СостояниеОбеспеченияЗаказов</CommonTemplate>
 			<CommonModule>АктВыполненныхРаботЛокализация</CommonModule>
 			<CommonModule>БухгалтерскийУчетКлиентПереопределяемый</CommonModule>
@@ -795,6 +796,7 @@
 			<InformationRegister>МножителиПартийИПолуфабрикатов</InformationRegister>
 			<InformationRegister>БухучетЗарплатыСотрудников</InformationRegister>
 			<InformationRegister>ИсполнителиЗадач</InformationRegister>
+			<InformationRegister>ПодтверждениеОплатыНДСВБюджет</InformationRegister>
 			<AccumulationRegister>ДенежныеСредстваКВыплате</AccumulationRegister>
 			<AccumulationRegister>Закупки</AccumulationRegister>
 			<AccumulationRegister>ДвиженияНоменклатураНоменклатура</AccumulationRegister>

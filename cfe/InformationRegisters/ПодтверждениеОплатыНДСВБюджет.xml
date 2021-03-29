@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<InformationRegister uuid="4baa0124-67e7-40d9-b22b-8e77991c4c95">
+		<InternalInfo>
+			<xr:GeneratedType name="InformationRegisterRecord.ПодтверждениеОплатыНДСВБюджет" category="Record">
+				<xr:TypeId>4e6ff452-39da-48f6-9299-254bd799d122</xr:TypeId>
+				<xr:ValueId>c460f3fd-42a9-4ccd-b924-abf9f7f3d8aa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterManager.ПодтверждениеОплатыНДСВБюджет" category="Manager">
+				<xr:TypeId>60f45b72-66b5-40af-abd2-b55a030b0cfb</xr:TypeId>
+				<xr:ValueId>d5f8e7d2-bf95-43b6-bc82-8a4e4e294855</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterSelection.ПодтверждениеОплатыНДСВБюджет" category="Selection">
+				<xr:TypeId>7a72410f-3d75-48b5-a587-2b48161442d1</xr:TypeId>
+				<xr:ValueId>9711b9b0-b305-4684-9ff1-b34c45676df7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterList.ПодтверждениеОплатыНДСВБюджет" category="List">
+				<xr:TypeId>d72ecf68-952d-46d9-a9e3-8e75ab2c1dfb</xr:TypeId>
+				<xr:ValueId>792b3413-57d9-4ee4-b376-7f6ad5fff213</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordSet.ПодтверждениеОплатыНДСВБюджет" category="RecordSet">
+				<xr:TypeId>0b9416fd-6ee3-4a88-a689-7bcc46eada35</xr:TypeId>
+				<xr:ValueId>27d779dd-3ae5-4213-8625-6c2bb0dfb33d</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordKey.ПодтверждениеОплатыНДСВБюджет" category="RecordKey">
+				<xr:TypeId>c108630a-9d25-4a16-8d50-d7ae9b733484</xr:TypeId>
+				<xr:ValueId>b851a098-47cf-4b37-ace9-be8ae36a1fca</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="InformationRegisterRecordManager.ПодтверждениеОплатыНДСВБюджет" category="RecordManager">
+				<xr:TypeId>56f981b2-517a-42e8-b4f9-4926481ac126</xr:TypeId>
+				<xr:ValueId>1abbf77b-ec00-433f-bcaa-16e0abc2be5b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПодтверждениеОплатыНДСВБюджет</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>d065c084-e914-4ae6-a882-74539f513ba1</ExtendedConfigurationObject>
+			<InformationRegisterPeriodicity>Nonperiodical</InformationRegisterPeriodicity>
+			<WriteMode>Independent</WriteMode>
+		</Properties>
+		<ChildObjects/>
+	</InformationRegister>
+</MetaDataObject>

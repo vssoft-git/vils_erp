@@ -374,8 +374,8 @@
 		<Metadata name="CommonModule.ДатыЗапретаИзменения.Module" id="935dff13-e224-4110-b887-c921f6b01fcc.0" configVersion="d139910dc9f38e8c2a578237fdd6fb90df1e2223"/>
 		<Metadata name="CommonModule.ДатыЗапретаИзмененияПереопределяемый" id="b10145f4-1311-4f4c-bd39-b2ff1b12849e" configVersion="a9f2917323256393f28b3a7ba8bc9da0056837c7"/>
 		<Metadata name="CommonModule.ДатыЗапретаИзмененияПереопределяемый.Module" id="b10145f4-1311-4f4c-bd39-b2ff1b12849e.0" configVersion="e5aeae1cdf76096448227182d7f289f3e4d05a43"/>
-		<Metadata name="CommonModule.ДенежныеСредстваСервер" id="1230e0d4-1957-4bf2-8dbd-090ae00dbf59" configVersion="22ba76d9e5eca989f27069ed01ad3c347479ddbc"/>
-		<Metadata name="CommonModule.ДенежныеСредстваСервер.Module" id="1230e0d4-1957-4bf2-8dbd-090ae00dbf59.0" configVersion="aaa1a35959299bdf97ffe0914ed93eb2a663ac7a"/>
+		<Metadata name="CommonModule.ДенежныеСредстваСервер" id="1230e0d4-1957-4bf2-8dbd-090ae00dbf59" configVersion="e42dfddf3274e9d22233f0543ffabf6f7d4c4def"/>
+		<Metadata name="CommonModule.ДенежныеСредстваСервер.Module" id="1230e0d4-1957-4bf2-8dbd-090ae00dbf59.0" configVersion="4fc5b2b93e4c924029e290c0d3ff7c6248e6917a"/>
 		<Metadata name="CommonModule.ДоставкаТоваров" id="7fac1cce-63e8-4ed3-8716-be4b0a71a005" configVersion="69a9a57f83652a8b60f09e80130c2a7531718c45"/>
 		<Metadata name="CommonModule.ДоставкаТоваров.Module" id="7fac1cce-63e8-4ed3-8716-be4b0a71a005.0" configVersion="a74ec2e9d8bdc6397d91c207236f23ff4b99d010"/>
 		<Metadata name="CommonModule.ДоставкаТоваровКлиентСервер" id="34a074b4-f5f2-4c1c-8ef8-945432ffcc20" configVersion="cee76597ec43cc8d590827675fdf6c35f7a4e805"/>
@@ -627,7 +627,7 @@
 		<Metadata name="CommonPicture.ЭмблемаСервиса1СЭДО" id="51d79fec-ce06-4111-8cd7-7fe7b646048f" configVersion="1e2bec7269b8cac15ffe00846ea8aad5659dd37f"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов" id="6f8a616a-05f9-4a26-b137-ffe08a2de753" configVersion="bda363d260b9dcae74bebb28b0940fa2c7d48cca"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов.Template" id="6f8a616a-05f9-4a26-b137-ffe08a2de753.0" configVersion="7c10b1f0883f7212773cc7afbcae6f416b288240"/>
-		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="967a465b4b9573e68890b54f3b1d006577b561fb"/>
+		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="c31671827aa83c08e818c0ca6b55ad1dc1d5c08b"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="2d3d01ef-e545-4150-a6c6-5d7520ca086c" configVersion="22b1f43db4d3937f79f086ef2736010c4b1ae782"/>
 		<Metadata name="Constant.ИспользоватьБизнесРегионы" id="ab04cdcb-dc48-4252-9bb5-efc0097f0d24" configVersion="564944bfa18c0e9bf75d181d222cabbfaa804c17"/>
 		<Metadata name="Constant.ИспользоватьГруппыДоступаПартнеров" id="91cb9a25-f41e-4571-801d-6947e8356d60" configVersion="1c939aaf6e8243d1817ae421d5e09bb5e7772093"/>
@@ -2354,6 +2354,7 @@
 			<Metadata name="InformationRegister.НоменклатураСегмента.Dimension.Сегмент" id="0ef9994f-a17e-41cf-8e78-6ef11dfc25af"/>
 			<Metadata name="InformationRegister.НоменклатураСегмента.Dimension.Номенклатура" id="2d904373-ead4-4510-9d46-9d036b8557ac"/>
 		</Metadata>
+		<Metadata name="InformationRegister.ПодтверждениеОплатыНДСВБюджет" id="4baa0124-67e7-40d9-b22b-8e77991c4c95" configVersion="44ccffcef20d28ff4e84c5ce9533d624e19f714e"/>
 		<Metadata name="InformationRegister.РеестрДокументов" id="53feba35-a870-4b22-9baa-d94dfa9f1f8b" configVersion="ce0c59cd062e1ab522577820965de4f7ec2a36cf">
 			<Metadata name="InformationRegister.РеестрДокументов.Resource.Дополнительно" id="0b2b37d6-77a6-4e00-914f-d96dbead60f2"/>
 			<Metadata name="InformationRegister.РеестрДокументов.Resource.Ответственный" id="120c92ab-9f19-4269-a72e-881482ba27b5"/>
@@ -2443,6 +2444,8 @@
 		<Metadata name="Role.ВИЛС_Просмотр_ВИЛС_ТабельУчетаОтработанногоВремени.Rights" id="598494fa-4d55-422d-8087-c685f887205c.0" configVersion="60b5f3e0712d2f2ff6d75a5e91aded5365c5af48"/>
 		<Metadata name="Role.ВИЛС_ЧтениеВИЛС_ИнвентаризацияТМЦВЭксплуатации" id="5081911e-0a50-466a-aa10-daa116ba54cb" configVersion="319a6e2f4b0948ae08fc1daade7e7eb273fb1bf6"/>
 		<Metadata name="Role.ВИЛС_ЧтениеВИЛС_ИнвентаризацияТМЦВЭксплуатации.Rights" id="5081911e-0a50-466a-aa10-daa116ba54cb.0" configVersion="182c397b5ac5651cc14dd5ce1ee955107fc07fd9"/>
+		<Metadata name="Role.ЧтениеВводаОстатков" id="6b674a86-950b-4a5f-a456-8e49c57699b1" configVersion="c4b2145ee3398a76f8f02fe7635695a4ea5653dd"/>
+		<Metadata name="Role.ЧтениеВводаОстатков.Rights" id="6b674a86-950b-4a5f-a456-8e49c57699b1.0" configVersion="35b85e1d9cb005a140271c72f6684548b33769b1"/>
 		<Metadata name="SettingsStorage.ХранилищеВариантовОтчетов" id="7d3072f4-3ab2-4408-aac0-def208e81fa3" configVersion="f803005a7d7009d81e003347731473d433363631"/>
 		<Metadata name="StyleItem.БыстрыеОтборыФонГруппы" id="abd58fe0-ccc9-4df3-99f4-dea3d9d4c38c" configVersion="72f687f7b279609d9d2a109d220e58ea45cbe915"/>
 		<Metadata name="StyleItem.ВыполненнаяЗадача" id="95d28a77-abce-4759-846d-328021954f30" configVersion="689a8306691b596bef88cf7be1170adbbd5efb3a"/>
