@@ -420,6 +420,8 @@
 		<Metadata name="CommonModule.ОбменСБанкамиПоЗарплатнымПроектамПереопределяемый.Module" id="9e2bac10-b912-42e1-92fe-6d84c4b7f8c7.0" configVersion="cae3744b821b84376e64a80329a0c047c0bf53a6"/>
 		<Metadata name="CommonModule.ОбщегоНазначения" id="561595fc-0377-4cef-b091-e188ede19156" configVersion="ccbfcb84fb4405b60c17580effff3639732f0f85"/>
 		<Metadata name="CommonModule.ОбщегоНазначения.Module" id="561595fc-0377-4cef-b091-e188ede19156.0" configVersion="811c53c725a824b81539fe7d4dd759addcc5ec2e"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер" id="135663b8-a4c5-41c3-b7e8-3145621935d5" configVersion="25d20e945cef22df639beadf778e0efd5921699d"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер.Module" id="135663b8-a4c5-41c3-b7e8-3145621935d5.0" configVersion="1c24c867f479e2c5afe3102a66260c96d9f2eab4"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияУТВызовСервера" id="ca968ca5-b380-463a-9fce-b656cc94e48f" configVersion="c551cf0a3a6adf8f4d761d7b832ce3cdd9afef23"/>
 		<Metadata name="CommonModule.ОбщегоНазначенияУТВызовСервера.Module" id="ca968ca5-b380-463a-9fce-b656cc94e48f.0" configVersion="7a6d3fd9a43a35338d739295f0386e523fe20ef3"/>
 		<Metadata name="CommonModule.ОперативныеВзаиморасчетыСервер" id="57e96375-9426-46f0-8717-2fa783165ce7" configVersion="13120699a29b4c594d91139bffaab196177853cc"/>
@@ -460,6 +462,8 @@
 		<Metadata name="CommonModule.РеализацияУслугПрочихАктивовЛокализация.Module" id="14695141-4d3a-4ab6-b337-bec190629481.0" configVersion="ac10f41e855785a1f73164980a5b26ff3d3813bb"/>
 		<Metadata name="CommonModule.РеглУчетВыборкиСерверПовтИсп" id="8e16910d-1385-47db-9065-cb3639d3616a" configVersion="6d15e84afd814808ee8ee423af8538e7f42e1e17"/>
 		<Metadata name="CommonModule.РеглУчетВыборкиСерверПовтИсп.Module" id="8e16910d-1385-47db-9065-cb3639d3616a.0" configVersion="6d1f74c1b96c4cb49b715d7697aa2cd57e83c880"/>
+		<Metadata name="CommonModule.РеглУчетКлиентСервер" id="ec7b5e87-1430-4bd2-893b-a7944a615df1" configVersion="847330b2e5b784ac8fab7b5aacf135428782ae4d"/>
+		<Metadata name="CommonModule.РеглУчетКлиентСервер.Module" id="ec7b5e87-1430-4bd2-893b-a7944a615df1.0" configVersion="a281f7cca53c7ef2ff526728c2773944922591bf"/>
 		<Metadata name="CommonModule.СотрудникиФормыРасширенный" id="f332ddb5-feca-4a64-8125-ec7a1765101f" configVersion="7b7d11be8c8a1cd1cca3635bbb177381f4c026c4"/>
 		<Metadata name="CommonModule.СотрудникиФормыРасширенный.Module" id="f332ddb5-feca-4a64-8125-ec7a1765101f.0" configVersion="84c6acea15d531c76b2fa1c845eb5f3565a2f937"/>
 		<Metadata name="CommonModule.УправлениеДоступомЛокализация" id="66141ea8-e8ee-4d13-aab5-9ae59b094b5b" configVersion="19c872f6a0c8b4a3e59d6156b3b17ea8a8e279b4"/>
@@ -631,7 +635,7 @@
 		<Metadata name="CommonPicture.ЭмблемаСервиса1СЭДО" id="51d79fec-ce06-4111-8cd7-7fe7b646048f" configVersion="1e2bec7269b8cac15ffe00846ea8aad5659dd37f"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов" id="6f8a616a-05f9-4a26-b137-ffe08a2de753" configVersion="bda363d260b9dcae74bebb28b0940fa2c7d48cca"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов.Template" id="6f8a616a-05f9-4a26-b137-ffe08a2de753.0" configVersion="7c10b1f0883f7212773cc7afbcae6f416b288240"/>
-		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="93423d34eccdcd9c5a7af58e1c29b9a149595893"/>
+		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="6b0d9649576cb489a54389e580dd2b9f4b6bb1f9"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="2d3d01ef-e545-4150-a6c6-5d7520ca086c" configVersion="22b1f43db4d3937f79f086ef2736010c4b1ae782"/>
 		<Metadata name="Constant.ИспользоватьБизнесРегионы" id="ab04cdcb-dc48-4252-9bb5-efc0097f0d24" configVersion="564944bfa18c0e9bf75d181d222cabbfaa804c17"/>
 		<Metadata name="Constant.ИспользоватьГруппыДоступаПартнеров" id="91cb9a25-f41e-4571-801d-6947e8356d60" configVersion="1c939aaf6e8243d1817ae421d5e09bb5e7772093"/>
