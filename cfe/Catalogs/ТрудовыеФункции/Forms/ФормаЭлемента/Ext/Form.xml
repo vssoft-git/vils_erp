@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="КодПрофессиональнойДеятельности" id="4">
+			<TitleHeight>2</TitleHeight>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КодПрофессиональнойДеятельностиКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="КодПрофессиональнойДеятельностиРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Наименование" id="1">
+			<EditMode>EnterOnInput</EditMode>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Описание" id="7">
+			<TitleLocation>Left</TitleLocation>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<MultiLine>true</MultiLine>
+			<ContextMenu name="ОписаниеКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<UsualGroup name="ГруппаОКПДТР" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ОКПДТР</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>RNCPWEPTC</v8:content>
+				</v8:item>
+			</Title>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОКПДТРРасширеннаяПодсказка" id="14"/>
+			<ChildItems>
+				<InputField name="ОКПДТРКод" id="15">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Код по ОКПДТР</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>RNCPWEPTC code</v8:content>
+						</v8:item>
+					</Title>
+					<ChoiceButton>true</ChoiceButton>
+					<ClearButton>true</ClearButton>
+					<OpenButton>false</OpenButton>
+					<ContextMenu name="ОКПДТРКодКонтекстноеМеню" id="16"/>
+					<ExtendedTooltip name="ОКПДТРКодРасширеннаяПодсказка" id="17"/>
+				</InputField>
+				<InputField name="ОКПДТРКЧ" id="18">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Контр. число</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Check digit</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ОКПДТРКЧКонтекстноеМеню" id="19"/>
+					<ExtendedTooltip name="ОКПДТРКЧРасширеннаяПодсказка" id="20"/>
+				</InputField>
+				<InputField name="ОКПДТРКатегория" id="21">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Категория</v8:content>
+						</v8:item>
+						<v8:item>
+							<v8:lang>en</v8:lang>
+							<v8:content>Category</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ОКПДТРКатегорияКонтекстноеМеню" id="22"/>
+					<ExtendedTooltip name="ОКПДТРКатегорияРасширеннаяПодсказка" id="23"/>
+				</InputField>
+				<InputField name="КодПоОКЗ" id="10">
+					<ChoiceButtonRepresentation>ShowInDropListAndInInputField</ChoiceButtonRepresentation>
+					<ContextMenu name="КодПоОКЗКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="КодПоОКЗРасширеннаяПодсказка" id="12"/>
+					<Events>
+						<Event name="OnChange" callType="After">ВИЛС_КодПоОКЗПриИзмененииПосле</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes/>
+	<BaseForm version="2.10">
+		<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+		<ChildItems>
+			<InputField name="КодПрофессиональнойДеятельности" id="4">
+				<TitleHeight>2</TitleHeight>
+				<EditMode>EnterOnInput</EditMode>
+				<ContextMenu name="КодПрофессиональнойДеятельностиКонтекстноеМеню" id="5"/>
+				<ExtendedTooltip name="КодПрофессиональнойДеятельностиРасширеннаяПодсказка" id="6"/>
+			</InputField>
+			<InputField name="Наименование" id="1">
+				<EditMode>EnterOnInput</EditMode>
+				<AutoMaxWidth>false</AutoMaxWidth>
+				<ContextMenu name="НаименованиеКонтекстноеМеню" id="2"/>
+				<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="3"/>
+			</InputField>
+			<InputField name="Описание" id="7">
+				<TitleLocation>Left</TitleLocation>
+				<AutoMaxWidth>false</AutoMaxWidth>
+				<MultiLine>true</MultiLine>
+				<ContextMenu name="ОписаниеКонтекстноеМеню" id="8"/>
+				<ExtendedTooltip name="ОписаниеРасширеннаяПодсказка" id="9"/>
+			</InputField>
+			<UsualGroup name="ГруппаОКПДТР" id="13">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>ОКПДТР</v8:content>
+					</v8:item>
+					<v8:item>
+						<v8:lang>en</v8:lang>
+						<v8:content>RNCPWEPTC</v8:content>
+					</v8:item>
+				</Title>
+				<Group>Horizontal</Group>
+				<Representation>None</Representation>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="ГруппаОКПДТРРасширеннаяПодсказка" id="14"/>
+				<ChildItems>
+					<InputField name="ОКПДТРКод" id="15">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Код по ОКПДТР</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>RNCPWEPTC code</v8:content>
+							</v8:item>
+						</Title>
+						<ChoiceButton>true</ChoiceButton>
+						<ClearButton>true</ClearButton>
+						<OpenButton>false</OpenButton>
+						<ContextMenu name="ОКПДТРКодКонтекстноеМеню" id="16"/>
+						<ExtendedTooltip name="ОКПДТРКодРасширеннаяПодсказка" id="17"/>
+					</InputField>
+					<InputField name="ОКПДТРКЧ" id="18">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Контр. число</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Check digit</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="ОКПДТРКЧКонтекстноеМеню" id="19"/>
+						<ExtendedTooltip name="ОКПДТРКЧРасширеннаяПодсказка" id="20"/>
+					</InputField>
+					<InputField name="ОКПДТРКатегория" id="21">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Категория</v8:content>
+							</v8:item>
+							<v8:item>
+								<v8:lang>en</v8:lang>
+								<v8:content>Category</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="ОКПДТРКатегорияКонтекстноеМеню" id="22"/>
+						<ExtendedTooltip name="ОКПДТРКатегорияРасширеннаяПодсказка" id="23"/>
+					</InputField>
+					<InputField name="КодПоОКЗ" id="10">
+						<ChoiceButtonRepresentation>ShowInDropListAndInInputField</ChoiceButtonRepresentation>
+						<ContextMenu name="КодПоОКЗКонтекстноеМеню" id="11"/>
+						<ExtendedTooltip name="КодПоОКЗРасширеннаяПодсказка" id="12"/>
+					</InputField>
+				</ChildItems>
+			</UsualGroup>
+		</ChildItems>
+		<Attributes/>
+	</BaseForm>
+</Form>
