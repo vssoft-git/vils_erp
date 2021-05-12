@@ -1135,6 +1135,33 @@
 				</dcscor:item>
 			</appearance>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ДатаПоступления</dataPath>
+			<field>ДатаПоступления</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата поступления</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:dateTime</v8:Type>
+				<v8:DateQualifiers>
+					<v8:DateFractions>Date</v8:DateFractions>
+				</v8:DateQualifiers>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ДФ=dd.MM.yyyy</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ЗНАЧЕНИЕ(Справочник.Организации.ПустаяСсылка)             КАК Организация,
@@ -1172,6 +1199,7 @@
 	0                                                         КАК ЗачтеноВсего,
 	0                                                         КАК ОплаченоВсего,
 	0                                                         КАК СписаниеПереоценкаВсего,
+	ДАТАВРЕМЯ(1,1,1)                                          КАК ДатаПоступления,
 	
 	0                                                         КАК ДолгПоставщикаКонечныйОстаток,
 	0                                                         КАК НашДолгКонечныйОстаток,
@@ -1275,6 +1303,11 @@
 	<totalField>
 		<dataPath>ОплаченоВсего</dataPath>
 		<expression>Сумма(ОплаченоВсего)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ДатаПоступления</dataPath>
+		<expression>Максимум(ДатаПоступления)</expression>
+		<group>Номенклатура</group>
 	</totalField>
 	<parameter>
 		<name>Период</name>
@@ -1729,6 +1762,10 @@
 						</dcsset:lwsTitle>
 					</dcsset:item>
 					<dcsset:placement>Auto</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ДатаПоступления</dcsset:field>
 				</dcsset:item>
 				<dcsset:viewMode>Normal</dcsset:viewMode>
 				<dcsset:userSettingID>3cc763b4-809a-4b2a-b081-39a6f367584f</dcsset:userSettingID>
