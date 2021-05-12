@@ -10,12 +10,17 @@
 			<Metadata name="AccumulationRegister.ДенежныеСредстваКВыплате.Resource.Сумма" id="b81f8cdd-8499-49e3-8595-d3ffe3098b90"/>
 			<Metadata name="AccumulationRegister.ДенежныеСредстваКВыплате.Dimension.ЗаявкаНаРасходованиеДенежныхСредств" id="dbf697e6-f6f8-4656-b298-c65b80db512f"/>
 		</Metadata>
+		<Metadata name="AccumulationRegister.ЗаказыПоставщикам" id="25b33e23-2035-4729-8172-f294a74a4549" configVersion="fa283cce55baad119aeae94040349dd205e5c344"/>
 		<Metadata name="AccumulationRegister.Закупки" id="f440bd82-c7e4-421d-9dc5-50e96d949d4d" configVersion="859ffd904e86af3b7bc9234de2b20ab9fca7b39a">
 			<Metadata name="AccumulationRegister.Закупки.Resource.СуммаБезНДС" id="31ee2312-78d9-46c5-a22d-e00f840788e1"/>
 			<Metadata name="AccumulationRegister.Закупки.Dimension.АналитикаУчетаНоменклатуры" id="9fc42dc0-7dcb-4667-86e4-58656c6c61e8"/>
 			<Metadata name="AccumulationRegister.Закупки.Resource.Количество" id="e4c1f0e0-a8f7-4897-ad98-cff7e485656e"/>
 			<Metadata name="AccumulationRegister.Закупки.Dimension.Склад" id="e959037a-4caf-43bf-a4a9-0dcf067da943"/>
 		</Metadata>
+		<Metadata name="AccumulationRegister.РасчетыСПоставщиками" id="eddf3eb4-f941-445f-9603-49f997e91cbd" configVersion="0412f668bd14e1f320e09e700497149989b7ff92"/>
+		<Metadata name="AccumulationRegister.РасчетыСПоставщикамиПланОплат" id="f00cf021-0277-4ff5-a2fd-85746b819c88" configVersion="3b575bfdf36ed61cb6a2d8dff552499ac7c69cc6"/>
+		<Metadata name="AccumulationRegister.РасчетыСПоставщикамиПланПоставок" id="bceee4d5-7695-42d5-8492-757dc6c9757e" configVersion="6afa29a7a0c2e454312373b6910eeff918f6e387"/>
+		<Metadata name="AccumulationRegister.РасчетыСПоставщикамиПоСрокам" id="75fa1d40-d36e-44cb-a74d-ccdc40112848" configVersion="e2efa2621ca03f830024c220091bdca87b0d55a7"/>
 		<Metadata name="BusinessProcess.Задание" id="3e79eab6-dfe9-4c76-9ce4-74fd71b0a867" configVersion="e93426c72edfb8da1805bcdb33256c4c31940157"/>
 		<Metadata name="Catalog.БанковскиеСчетаКонтрагентов" id="d7e8f56a-c594-46c6-b901-f57f5d25b01e" configVersion="6fbbc0ef235c369b5b49bc7537154e88621de5f6">
 			<Metadata name="Catalog.БанковскиеСчетаКонтрагентов.Attribute.БИКБанка" id="47396805-78a4-4169-bce7-364a27c17ae6"/>
@@ -643,7 +648,7 @@
 		<Metadata name="CommonPicture.ЭмблемаСервиса1СЭДО" id="51d79fec-ce06-4111-8cd7-7fe7b646048f" configVersion="1e2bec7269b8cac15ffe00846ea8aad5659dd37f"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов" id="6f8a616a-05f9-4a26-b137-ffe08a2de753" configVersion="bda363d260b9dcae74bebb28b0940fa2c7d48cca"/>
 		<Metadata name="CommonTemplate.ВИЛС_СостояниеОбеспеченияЗаказов.Template" id="6f8a616a-05f9-4a26-b137-ffe08a2de753.0" configVersion="7c10b1f0883f7212773cc7afbcae6f416b288240"/>
-		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="d0bf491a9f91211883bb1523d2b2b7b6edc8fb0e"/>
+		<Metadata name="Configuration.ВИЛС" id="3791c0f1-daf5-43d2-b568-5323e14010c0" configVersion="45fbfc047baf96cc19f78ee1affd6f5b24ca535f"/>
 		<Metadata name="Constant.ИспользоватьАвтоматическиеСкидкиВПродажах" id="2d3d01ef-e545-4150-a6c6-5d7520ca086c" configVersion="22b1f43db4d3937f79f086ef2736010c4b1ae782"/>
 		<Metadata name="Constant.ИспользоватьБизнесРегионы" id="ab04cdcb-dc48-4252-9bb5-efc0097f0d24" configVersion="564944bfa18c0e9bf75d181d222cabbfaa804c17"/>
 		<Metadata name="Constant.ИспользоватьГруппыДоступаПартнеров" id="91cb9a25-f41e-4571-801d-6947e8356d60" configVersion="1c939aaf6e8243d1817ae421d5e09bb5e7772093"/>
@@ -2317,6 +2322,7 @@
 		<Metadata name="FunctionalOption.ОтветственныйВДокументах" id="6f7d10ed-39e3-4d11-9038-07844668d323" configVersion="48075dff9dc0505df6c4c2837e26b896523aa535"/>
 		<Metadata name="FunctionalOption.ПоддержкаПлатежейВСоответствииС275ФЗ" id="b211ff58-74df-4c76-aee0-d755c18bc976" configVersion="2fdbb7ae7fa62bf295708c4f1b6fad41ce070689"/>
 		<Metadata name="FunctionalOption.УправлениеПредприятием" id="80e9964e-97a2-4eea-a0fe-e1f54d6e5488" configVersion="e8e9733b2cc18e097ad414340c979006f7876f4b"/>
+		<Metadata name="InformationRegister.АналитикаУчетаПоПартнерам" id="7ef9801d-4346-4af9-b42a-78955e671953" configVersion="3134a2156e1d345a2282e34c328bec63fb842bdd"/>
 		<Metadata name="InformationRegister.БухучетЗарплатыСотрудников" id="45353b18-5a48-4cee-a66e-3e8bf63d8e38" configVersion="858cd75e0b7b666ab0de59b92cd6996423d4b5c7"/>
 		<Metadata name="InformationRegister.БухучетЗарплатыСотрудников.ManagerModule" id="45353b18-5a48-4cee-a66e-3e8bf63d8e38.2" configVersion="81b0be804f697f7ebc54953df518943dce230a5d"/>
 		<Metadata name="InformationRegister.БухучетЗарплатыСотрудников.RecordSetModule" id="45353b18-5a48-4cee-a66e-3e8bf63d8e38.1" configVersion="c42fd11c9ed44efdd2b36659df2046d57cae4ea3"/>
@@ -2362,6 +2368,7 @@
 			<Metadata name="InformationRegister.ИсполнителиЗадач.Dimension.РольИсполнителя" id="0217c62f-760d-4b9d-adc2-8395af4742a9"/>
 			<Metadata name="InformationRegister.ИсполнителиЗадач.Dimension.Исполнитель" id="671703e2-4810-42f8-b6ed-8c928dbb4a29"/>
 		</Metadata>
+		<Metadata name="InformationRegister.КурсыВалют" id="bbf04b5b-2c1c-4dcd-a2a9-76612c37676e" configVersion="bc48081f748b2377088b67d866653e17a4a91aa4"/>
 		<Metadata name="InformationRegister.МножителиПартийИПолуфабрикатов" id="fc74783b-8db8-42b8-94e1-421da8a149c2" configVersion="d2ea9830a14dfd39401d3e03825b4fb0d7086565"/>
 		<Metadata name="InformationRegister.МножителиПартийИПолуфабрикатов.ManagerModule" id="fc74783b-8db8-42b8-94e1-421da8a149c2.2" configVersion="a42e98811e89c4324d471960653367ce68017a0a"/>
 		<Metadata name="InformationRegister.НаличиеФайлов" id="6e8afe0a-592a-43ff-af54-087019028870" configVersion="2213dcf935c4724bc263160f090fd5f8c2b3bc6f">
@@ -2372,6 +2379,7 @@
 			<Metadata name="InformationRegister.НоменклатураСегмента.Dimension.Сегмент" id="0ef9994f-a17e-41cf-8e78-6ef11dfc25af"/>
 			<Metadata name="InformationRegister.НоменклатураСегмента.Dimension.Номенклатура" id="2d904373-ead4-4510-9d46-9d036b8557ac"/>
 		</Metadata>
+		<Metadata name="InformationRegister.ПартнерыСегмента" id="8949ca0e-f9c4-4ab7-b355-f4da9d04e9e6" configVersion="409c52a464be51ce6a6104250cea28a2dbe374be"/>
 		<Metadata name="InformationRegister.ПодтверждениеОплатыНДСВБюджет" id="4baa0124-67e7-40d9-b22b-8e77991c4c95" configVersion="44ccffcef20d28ff4e84c5ce9533d624e19f714e"/>
 		<Metadata name="InformationRegister.РеестрДокументов" id="53feba35-a870-4b22-9baa-d94dfa9f1f8b" configVersion="ce0c59cd062e1ab522577820965de4f7ec2a36cf">
 			<Metadata name="InformationRegister.РеестрДокументов.Resource.Дополнительно" id="0b2b37d6-77a6-4e00-914f-d96dbead60f2"/>
@@ -2463,6 +2471,8 @@
 		<Metadata name="Role.ВИЛС_Просмотр_ВИЛС_ВедомостьДокументовПоступлений.Rights" id="7e1cc0f4-9e33-4b3c-8d56-c494bc0f6ade.0" configVersion="94e001a900930c7894a30239d60ab32131fbe030"/>
 		<Metadata name="Role.ВИЛС_Просмотр_ВИЛС_ВедомостьПоДенежнымСредствам" id="4d33218e-2966-4c7f-981b-794f5c17be8c" configVersion="154c2bfa092ac9180a8ffddcd18a98426247a518"/>
 		<Metadata name="Role.ВИЛС_Просмотр_ВИЛС_ВедомостьПоДенежнымСредствам.Rights" id="4d33218e-2966-4c7f-981b-794f5c17be8c.0" configVersion="c6174128f65531545f53c9bfe9b5364d330fb7c6"/>
+		<Metadata name="Role.ВИЛС_Просмотр_ВИЛС_ВедомостьРасчетовСПоставщикамиСНоменклатурой" id="f8752973-5efe-4d6c-858c-c289ea48b64f" configVersion="84a8d81744dfb1e5108b09aa71c3bf6b55d00971"/>
+		<Metadata name="Role.ВИЛС_Просмотр_ВИЛС_ВедомостьРасчетовСПоставщикамиСНоменклатурой.Rights" id="f8752973-5efe-4d6c-858c-c289ea48b64f.0" configVersion="c8047837526e72a87e926e6c3f7a95f6d1a00cf7"/>
 		<Metadata name="Role.ВИЛС_Просмотр_ВИЛС_ВыпускПродукцииПоОтпускнойСтоимости" id="0030b0b0-1260-4a4b-aaeb-d00107fe0ee4" configVersion="54e3efdd58e46a69f60a1c704f361ed6c2208fea"/>
 		<Metadata name="Role.ВИЛС_Просмотр_ВИЛС_ВыпускПродукцииПоОтпускнойСтоимости.Rights" id="0030b0b0-1260-4a4b-aaeb-d00107fe0ee4.0" configVersion="79d08efc16b12768509274d8c423258d0369edea"/>
 		<Metadata name="Role.ВИЛС_Просмотр_ВИЛС_ОстаткиТоваровПереданныхПереработчикам" id="f55ed01f-cf89-421c-8b33-e7822e54a4e1" configVersion="d1305fc7bd0472efdcf6d4afec65380b69a68bfe"/>

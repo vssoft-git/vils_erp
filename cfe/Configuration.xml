@@ -249,6 +249,7 @@
 			<Role>ВИЛС_Просмотр_ВИЛС_ТабельУчетаОтработанногоВремени</Role>
 			<Role>ВИЛС_ИспользованиеСервисаРассылкиЗарплатныхОтчетов</Role>
 			<Role>ЧтениеВводаОстатков</Role>
+			<Role>ВИЛС_Просмотр_ВИЛС_ВедомостьРасчетовСПоставщикамиСНоменклатурой</Role>
 			<CommonTemplate>ВИЛС_СостояниеОбеспеченияЗаказов</CommonTemplate>
 			<CommonModule>АктВыполненныхРаботЛокализация</CommonModule>
 			<CommonModule>БухгалтерскийУчетКлиентПереопределяемый</CommonModule>
@@ -806,10 +807,18 @@
 			<InformationRegister>БухучетЗарплатыСотрудников</InformationRegister>
 			<InformationRegister>ИсполнителиЗадач</InformationRegister>
 			<InformationRegister>ПодтверждениеОплатыНДСВБюджет</InformationRegister>
+			<InformationRegister>АналитикаУчетаПоПартнерам</InformationRegister>
+			<InformationRegister>ПартнерыСегмента</InformationRegister>
+			<InformationRegister>КурсыВалют</InformationRegister>
 			<AccumulationRegister>ДенежныеСредстваКВыплате</AccumulationRegister>
 			<AccumulationRegister>Закупки</AccumulationRegister>
 			<AccumulationRegister>ДвиженияНоменклатураНоменклатура</AccumulationRegister>
 			<AccumulationRegister>ДвиженияДенежныеСредстваКонтрагент</AccumulationRegister>
+			<AccumulationRegister>РасчетыСПоставщиками</AccumulationRegister>
+			<AccumulationRegister>РасчетыСПоставщикамиПланОплат</AccumulationRegister>
+			<AccumulationRegister>РасчетыСПоставщикамиПланПоставок</AccumulationRegister>
+			<AccumulationRegister>РасчетыСПоставщикамиПоСрокам</AccumulationRegister>
+			<AccumulationRegister>ЗаказыПоставщикам</AccumulationRegister>
 			<ChartOfCharacteristicTypes>СтатьиРасходов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>СтатьиАктивовПассивов</ChartOfCharacteristicTypes>
 			<ChartOfCharacteristicTypes>КаналыРекламныхВоздействий</ChartOfCharacteristicTypes>
