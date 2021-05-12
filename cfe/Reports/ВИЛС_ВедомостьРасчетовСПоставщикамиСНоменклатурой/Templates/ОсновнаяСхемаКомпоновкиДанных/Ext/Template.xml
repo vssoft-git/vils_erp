@@ -967,6 +967,174 @@
 				</dcscor:item>
 			</appearance>
 		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>СписаниеПереоценкаВсего</dataPath>
+			<field>СписаниеПереоценкаВсего</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Списание переоценка всего</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeId>5a308213-db0e-4956-a081-6d1de5334e7b</v8:TypeId>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=2</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">16</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаказаноКОплатеВсего</dataPath>
+			<field>ЗаказаноКОплатеВсего</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказано к оплате всего</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeId>5a308213-db0e-4956-a081-6d1de5334e7b</v8:TypeId>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=2</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">16</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗаказаноВсего</dataPath>
+			<field>ЗаказаноВсего</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заказано всего</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeId>5a308213-db0e-4956-a081-6d1de5334e7b</v8:TypeId>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=2</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">16</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПоставленоВсего</dataPath>
+			<field>ПоставленоВсего</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поставлено всего</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeId>5a308213-db0e-4956-a081-6d1de5334e7b</v8:TypeId>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=2</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">16</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ЗачтеноВсего</dataPath>
+			<field>ЗачтеноВсего</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Зачтено всего</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeId>5a308213-db0e-4956-a081-6d1de5334e7b</v8:TypeId>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=2</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">16</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ОплаченоВсего</dataPath>
+			<field>ОплаченоВсего</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оплачено всего</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:TypeId>5a308213-db0e-4956-a081-6d1de5334e7b</v8:TypeId>
+			</valueType>
+			<appearance>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Формат</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=2</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+					<dcscor:value xsi:type="xs:decimal">16</dcscor:value>
+				</dcscor:item>
+			</appearance>
+		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
 	ЗНАЧЕНИЕ(Справочник.Организации.ПустаяСсылка)             КАК Организация,
@@ -996,6 +1164,14 @@
 	0                                                         КАК Оплачено,
 	0                                                         КАК СписаниеПереоценка,
 	0                                                         КАК Оплачивается,
+	
+	
+	0                                                         КАК ЗаказаноВсего,
+	0                                                         КАК ЗаказаноКОплатеВсего,
+	0                                                         КАК ПоставленоВсего,
+	0                                                         КАК ЗачтеноВсего,
+	0                                                         КАК ОплаченоВсего,
+	0                                                         КАК СписаниеПереоценкаВсего,
 	
 	0                                                         КАК ДолгПоставщикаКонечныйОстаток,
 	0                                                         КАК НашДолгКонечныйОстаток,
@@ -1075,6 +1251,30 @@
 	<totalField>
 		<dataPath>ПоставленоКоличество</dataPath>
 		<expression>Сумма(ПоставленоКоличество)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ПоставленоВсего</dataPath>
+		<expression>Сумма(ПоставленоВсего)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>СписаниеПереоценкаВсего</dataPath>
+		<expression>Сумма(СписаниеПереоценкаВсего)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ЗаказаноВсего</dataPath>
+		<expression>Сумма(ЗаказаноВсего)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ЗаказаноКОплатеВсего</dataPath>
+		<expression>Сумма(ЗаказаноКОплатеВсего)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ЗачтеноВсего</dataPath>
+		<expression>Сумма(ЗачтеноВсего)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ОплаченоВсего</dataPath>
+		<expression>Сумма(ОплаченоВсего)</expression>
 	</totalField>
 	<parameter>
 		<name>Период</name>
@@ -1425,14 +1625,27 @@
 					<dcsset:field>Заказано</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗаказаноВсего</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:use>false</dcsset:use>
 					<dcsset:field>ЗаказаноКОплате</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:field>ЗаказаноКОплатеВсего</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Поставлено</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПоставленоВсего</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Зачтено</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ЗачтеноВсего</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:use>false</dcsset:use>
@@ -1442,7 +1655,13 @@
 					<dcsset:field>Оплачено</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ОплаченоВсего</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>СписаниеПереоценка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>СписаниеПереоценкаВсего</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
 					<dcsset:lwsTitle>
