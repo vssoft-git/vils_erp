@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.10">
+	<Report uuid="d180aaf6-02e9-45ce-85ab-8a4ba20b3816">
+		<InternalInfo>
+			<xr:GeneratedType name="ReportObject.ПроизводственныеЗатратыПоПартиямПроизводства" category="Object">
+				<xr:TypeId>9a12a7b8-ff58-4be5-a9b0-6932a8412daf</xr:TypeId>
+				<xr:ValueId>0f50d10b-08da-45bd-9bd7-e32113eaacba</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ReportManager.ПроизводственныеЗатратыПоПартиямПроизводства" category="Manager">
+				<xr:TypeId>23a66355-4bef-481c-a561-bd7820140bdd</xr:TypeId>
+				<xr:ValueId>7eac9453-4685-44c9-9ba4-ce037b1a4d7b</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ПроизводственныеЗатратыПоПартиямПроизводства</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>3462a157-6cc8-43f1-a2db-3837de2d6e25</ExtendedConfigurationObject>
+			<MainDataCompositionSchema>Report.ПроизводственныеЗатратыПоПартиямПроизводства.Template.ОсновнаяСхемаКомпоновкиДанных1</MainDataCompositionSchema>
+		</Properties>
+		<ChildObjects>
+			<Template>ОсновнаяСхемаКомпоновкиДанных1</Template>
+		</ChildObjects>
+	</Report>
+</MetaDataObject>
